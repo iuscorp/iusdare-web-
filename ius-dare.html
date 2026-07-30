@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IUS DARE — Outsourcing integral: legal, gestión, marketing y contabilidad</title>
+<meta name="description" content="Soluciones estratégicas para empresas que buscan crecer con respaldo profesional. Outsourcing integral en legal, gestión, marketing y contabilidad. Constituye. Optimiza. Escala.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1B1B1D; --ink-2:#26282B; --ink-3:#3A3D42;
+  --navy:#123A5E; --navy-deep:#102438;
+  --steel:#78A8BF; --sky:#CDE0EE; --sky-pale:#E9F1F7;
+  --paper:#FAFCFD; --cream:#F7F4ED;
+  --gold:#C08128; --gold-lt:#E2AE5C; --guinda:#621410;
+  --line:rgba(16,36,56,.14); --line-dk:rgba(226,174,92,.22);
+  --display:"Poppins","Segoe UI",sans-serif;
+  --body:"Inter","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",monospace;
+  --pad:clamp(20px,5vw,88px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--navy-deep);font-family:var(--body);
+  font-size:16px;line-height:1.62;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3,h4{font-family:var(--display);margin:0;line-height:1.06;letter-spacing:-.028em;font-weight:600}
+
+.wrap{max-width:1180px;margin:0 auto;padding:0 var(--pad)}
+.eyebrow{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.24em;text-transform:uppercase}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+.reveal.is-in{opacity:1;transform:none}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:60;background:rgba(27,27,29,.94);
+  backdrop-filter:blur(10px);border-bottom:1px solid var(--line-dk)}
+.nav__in{display:flex;align-items:center;gap:28px;height:70px}
+.mark{display:flex;flex-direction:column;line-height:1;margin-right:auto;text-decoration:none}
+.mark b{font-family:var(--display);font-weight:700;font-size:19px;letter-spacing:.16em;color:#fff}
+.mark span{font-family:var(--mono);font-size:9px;letter-spacing:.3em;color:var(--gold-lt);margin-top:5px}
+.nav__links{display:flex;gap:26px}
+.nav__links a{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(255,255,255,.7);text-decoration:none;padding:6px 0;border-bottom:1px solid transparent;
+  transition:color .2s,border-color .2s}
+.nav__links a:hover{color:#fff;border-color:var(--gold)}
+.btn{display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-family:var(--display);
+  font-weight:600;font-size:14px;letter-spacing:-.01em;padding:13px 22px;border-radius:2px;
+  border:1px solid transparent;cursor:pointer;transition:transform .18s ease,background .2s,color .2s,border-color .2s}
+.btn--gold{background:var(--gold);color:#1B1B1D}
+.btn--gold:hover{background:var(--gold-lt);transform:translateY(-2px)}
+.btn--ghost{border-color:rgba(255,255,255,.32);color:#fff}
+.btn--ghost:hover{border-color:var(--gold-lt);color:var(--gold-lt)}
+.btn--outline{border-color:var(--navy-deep);color:var(--navy-deep)}
+.btn--outline:hover{background:var(--navy-deep);color:#fff}
+.btn--sm{padding:10px 16px;font-size:13px}
+
+/* hero */
+.hero{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;inset:auto -10% -40% 38%;height:70%;
+  background:radial-gradient(60% 60% at 50% 50%,rgba(120,168,191,.18),transparent 70%);pointer-events:none}
+.hero__in{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(32px,5vw,68px);
+  align-items:start;padding:clamp(56px,9vw,104px) 0 clamp(56px,8vw,96px);position:relative;z-index:2}
+.stage{display:flex;flex-wrap:wrap;align-items:center;gap:12px;color:var(--gold-lt);margin-bottom:26px}
+.stage i{width:26px;height:1px;background:var(--line-dk);display:inline-block}
+.hero h1{font-size:clamp(38px,5.4vw,66px);font-weight:600;color:#fff;max-width:16ch}
+.hero h1 em{font-style:normal;color:var(--gold-lt)}
+.hero__lede{margin:26px 0 0;font-size:clamp(16px,1.35vw,18.5px);color:rgba(255,255,255,.72);max-width:46ch}
+.hero__acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.hero__note{margin-top:32px;padding-top:22px;border-top:1px solid rgba(255,255,255,.12);
+  display:flex;flex-wrap:wrap;gap:26px}
+.hero__note div{min-width:112px}
+.hero__note b{display:block;font-family:var(--display);font-size:22px;color:var(--gold-lt);font-weight:600}
+.hero__note span{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.5)}
+
+/* signature: el entregable que se arma solo */
+.deliv{background:#fff;color:var(--navy-deep);border-radius:3px;
+  box-shadow:0 30px 70px -30px rgba(0,0,0,.6);overflow:hidden}
+.deliv__head{padding:20px 24px 17px;background:var(--navy-deep);color:#fff;
+  display:flex;align-items:flex-end;justify-content:space-between;gap:14px}
+.deliv__head .eyebrow{color:var(--gold-lt);display:block}
+.deliv__head strong{display:block;font-family:var(--display);font-size:20px;font-weight:600;margin-top:8px}
+.deliv__count{font-family:var(--mono);font-size:13px;color:var(--gold-lt);white-space:nowrap;letter-spacing:.06em}
+.deliv__list{list-style:none;margin:0;padding:6px 0;max-height:330px;overflow-y:auto;scrollbar-width:thin}
+.deliv__list li{display:flex;align-items:center;gap:12px;padding:10px 24px;
+  border-bottom:1px dashed rgba(16,36,56,.11);opacity:0;transform:translateX(-8px);
+  transition:opacity .45s ease,transform .45s ease}
+.deliv__list li.is-in{opacity:1;transform:none}
+.deliv__list li:last-child{border-bottom:0}
+.deliv__list .lbl{font-size:14px;flex:1;line-height:1.38}
+.chip{font-family:var(--mono);font-size:9px;letter-spacing:.13em;text-transform:uppercase;
+  padding:4px 8px;border-radius:2px;white-space:nowrap;border:1px solid}
+.chip--legal{color:var(--navy);border-color:rgba(18,58,94,.28);background:rgba(18,58,94,.06)}
+.chip--gestion{color:#3F5E36;border-color:rgba(63,94,54,.28);background:rgba(63,94,54,.06)}
+.chip--mkt{color:var(--guinda);border-color:rgba(98,20,16,.24);background:rgba(98,20,16,.05)}
+.chip--conta{color:#7A5A11;border-color:rgba(122,90,17,.28);background:rgba(122,90,17,.06)}
+.deliv__foot{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;
+  padding:17px 24px;background:var(--sky-pale);border-top:1px solid var(--line)}
+.deliv__foot span{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.deliv__foot b{font-family:var(--display);font-size:14.5px;font-weight:600}
+
+/* sections */
+.sec{padding:clamp(64px,9vw,116px) 0}
+.sec--sky{background:linear-gradient(180deg,var(--sky) 0%,var(--sky-pale) 62%,var(--paper) 100%)}
+.sec--paper{background:var(--paper)}
+.sec--cream{background:var(--cream)}
+.sec--ink{background:var(--ink);color:#fff}
+.sec__head{max-width:60ch;margin-bottom:clamp(34px,4vw,56px)}
+.sec__head .eyebrow{color:var(--gold);display:block;margin-bottom:16px}
+.sec--ink .sec__head .eyebrow{color:var(--gold-lt)}
+.sec__head h2{font-size:clamp(29px,3.9vw,50px)}
+.sec__head p{margin:18px 0 0;font-size:17px;color:var(--ink-3);max-width:52ch}
+.sec--ink .sec__head p{color:rgba(255,255,255,.68)}
+
+/* áreas */
+.areas{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line)}
+.area{background:#fff;padding:30px 26px 34px;position:relative}
+.area__n{font-family:var(--mono);font-size:11px;color:var(--gold);letter-spacing:.16em}
+.area h3{font-size:22px;margin:16px 0 12px}
+.area p{margin:0;font-size:14.5px;color:var(--ink-3);line-height:1.6}
+.area::before{content:"";position:absolute;left:0;top:0;height:3px;width:0;background:var(--gold);transition:width .4s ease}
+.area:hover::before{width:100%}
+
+/* por qué */
+.why{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,5vw,72px);align-items:start}
+.pull{font-family:var(--display);font-weight:600;font-size:clamp(23px,2.6vw,32px);line-height:1.24;
+  letter-spacing:-.025em;border-left:2px solid var(--gold);padding-left:24px}
+.pull span{color:rgba(255,255,255,.45)}
+.whylist{list-style:none;margin:0;padding:0}
+.whylist li{padding:24px 0;border-top:1px solid rgba(255,255,255,.14)}
+.whylist li:last-child{border-bottom:1px solid rgba(255,255,255,.14)}
+.whylist h4{font-size:18.5px;margin-bottom:8px;color:var(--gold-lt);font-weight:600}
+.whylist p{margin:0;color:rgba(255,255,255,.7);font-size:15px}
+
+/* flats */
+.badge{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:#1B1B1D;
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+  padding:8px 13px;border-radius:2px}
+.basebox{background:#fff;border:1px solid var(--line);border-radius:3px;padding:30px 28px;margin-bottom:22px}
+.basebox h3{font-size:23px;margin-bottom:6px}
+.basebox > p{margin:0 0 22px;font-size:15px;color:var(--ink-3);max-width:60ch}
+.baselist{list-style:none;margin:0;padding:0;columns:2;column-gap:38px}
+.baselist li{display:flex;gap:11px;align-items:flex-start;font-size:14.5px;
+  padding:7px 0;break-inside:avoid;color:var(--ink-2)}
+.baselist svg{flex:none;margin-top:5px}
+.flats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;align-items:stretch}
+.flat{background:#fff;border:1px solid var(--line);border-radius:3px;padding:28px 26px 26px;
+  display:flex;flex-direction:column;transition:transform .3s ease,box-shadow .3s ease,border-color .3s}
+.flat:hover{transform:translateY(-6px);box-shadow:0 24px 50px -28px rgba(16,36,56,.4);border-color:rgba(192,129,40,.5)}
+.flat--feat{background:var(--navy-deep);color:#fff;border-color:var(--navy-deep)}
+.flat__stage{font-family:var(--mono);font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.flat h3{font-size:27px;margin:14px 0 4px}
+.flat__time{margin:16px 0 20px;padding:9px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  font-family:var(--mono);font-size:12px;letter-spacing:.05em}
+.flat--feat .flat__time{border-color:rgba(255,255,255,.2)}
+.flat__plus{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink-3);display:block;margin-bottom:12px}
+.flat--feat .flat__plus{color:rgba(255,255,255,.55)}
+.flat__adds{list-style:none;margin:0 0 22px;padding:0;display:grid;gap:11px}
+.flat__adds li{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:var(--ink-2)}
+.flat--feat .flat__adds li{color:rgba(255,255,255,.82)}
+.flat__adds svg{flex:none;margin-top:5px}
+.flat__pay{margin-top:auto;font-family:var(--mono);font-size:11px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3);padding-top:8px}
+.flat--feat .flat__pay{color:rgba(255,255,255,.55)}
+.flat .btn{margin-top:16px;justify-content:center}
+.flat--feat .btn--outline{border-color:var(--gold);color:var(--gold-lt)}
+.flat--feat .btn--outline:hover{background:var(--gold);color:#1B1B1D}
+
+/* modalidades */
+.mods{display:grid;grid-template-columns:1.15fr .85fr;gap:20px}
+.mod{border:1px solid var(--line);border-radius:3px;padding:30px 28px;background:#fff}
+.mod--ally{background:var(--navy-deep);color:#fff;border-color:var(--navy-deep)}
+.mod__tag{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)}
+.mod h3{font-size:26px;margin:12px 0 14px}
+.mod p{font-size:15px;color:var(--ink-3);margin:0 0 24px}
+.mod--ally p{color:rgba(255,255,255,.74)}
+.grid4{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line)}
+.grid4 div{background:#fff;padding:17px 18px}
+.grid4 h4{font-size:15px;margin-bottom:6px;font-weight:600}
+.grid4 p{margin:0;font-size:13.5px;line-height:1.55}
+.checks{list-style:none;margin:0;padding:0;display:grid;gap:11px}
+.checks li{display:flex;gap:11px;align-items:flex-start;font-size:15px}
+.checks svg{flex:none;margin-top:4px}
+
+/* plus: no adicionales */
+.plus{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,4vw,56px);align-items:center}
+.plus__stamp{border:1px solid rgba(98,20,16,.3);border-radius:3px;padding:28px 26px;background:#fff}
+.plus__stamp .eyebrow{color:var(--guinda);display:block;margin-bottom:12px}
+.plus__stamp h3{font-size:clamp(24px,2.6vw,31px);margin-bottom:14px}
+.plus__stamp p{margin:0 0 14px;font-size:15px;color:var(--ink-3)}
+.plus__stamp p:last-child{margin:0}
+
+/* cierre */
+.close__in{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(32px,5vw,72px);align-items:end}
+.close h2{font-size:clamp(31px,4.4vw,56px);max-width:20ch}
+.close h2 em{font-style:normal;color:var(--gold-lt)}
+.close p{color:rgba(255,255,255,.7);margin:22px 0 0;max-width:42ch;font-size:16.5px}
+.contact{display:grid;gap:2px}
+.contact a{display:flex;align-items:center;gap:14px;text-decoration:none;padding:17px 20px;
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);
+  transition:background .2s,border-color .2s,transform .2s}
+.contact a:hover{background:rgba(192,129,40,.14);border-color:var(--gold);transform:translateX(4px)}
+.contact span{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.5);display:block}
+.contact b{font-family:var(--display);font-size:17px;font-weight:600;color:#fff}
+
+.foot{background:#141416;color:rgba(255,255,255,.45);padding:34px 0;border-top:1px solid rgba(255,255,255,.09)}
+.foot__in{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center;
+  font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+.foot a{text-decoration:none}
+.foot a:hover{color:var(--gold-lt)}
+
+.wa{position:fixed;right:18px;bottom:18px;z-index:70;width:54px;height:54px;border-radius:50%;
+  background:var(--gold);display:grid;place-items:center;box-shadow:0 12px 30px -8px rgba(0,0,0,.5);transition:transform .2s}
+.wa:hover{transform:scale(1.08)}
+
+@media(max-width:1000px){
+  .hero__in,.why,.mods,.close__in,.plus{grid-template-columns:1fr}
+  .areas{grid-template-columns:1fr 1fr}
+  .flats{grid-template-columns:1fr}
+  .nav__links{display:none}
+  .hero h1{max-width:20ch}
+}
+@media(max-width:640px){
+  .baselist{columns:1}
+}
+@media(max-width:560px){
+  .areas{grid-template-columns:1fr}
+  .grid4{grid-template-columns:1fr}
+  .hero__acts .btn{flex:1 1 100%;justify-content:center}
+  .deliv__head{flex-direction:column;align-items:flex-start}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition-duration:.01ms!important}
+  .reveal{opacity:1;transform:none}
+  .deliv__list li{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+:focus-visible{outline:2px solid var(--gold-lt);outline-offset:3px}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap nav__in">
+    <a class="mark" href="#top"><b>IUS DARE</b><span>SOLO ATRÉVETE</span></a>
+    <div class="nav__links">
+      <a href="#areas">Áreas</a>
+      <a href="#porque">Por qué</a>
+      <a href="#flats">Ius Dropped</a>
+      <a href="#recurrentes">Growth &amp; Ally</a>
+    </div>
+    <a class="btn btn--gold btn--sm" href="https://wa.me/51991097410?text=Hola%20Ius%20Dare,%20quiero%20agendar%20una%20reuni%C3%B3n">Agenda una reunión</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero__in">
+    <div>
+      <div class="stage eyebrow">Constituye <i></i> Optimiza <i></i> Escala</div>
+      <h1>Tu empresa completa, en <em>un solo equipo.</em></h1>
+      <p class="hero__lede">Outsourcing integral en legal, gestión, marketing y contabilidad. Soluciones estratégicas para empresas que buscan crecer con respaldo profesional.</p>
+      <div class="hero__acts">
+        <a class="btn btn--gold" href="https://wa.me/51991097410?text=Hola%20Ius%20Dare,%20quiero%20agendar%20una%20reuni%C3%B3n">Agenda una reunión</a>
+        <a class="btn btn--ghost" href="#flats">Ver los flats</a>
+      </div>
+      <div class="hero__note">
+        <div><b>4</b><span>Áreas en un solo equipo</span></div>
+        <div><b>+15</b><span>Años de experiencia del equipo</span></div>
+        <div><b>In-house</b><span>Equipo propio, nada subcontratado</span></div>
+      </div>
+    </div>
+
+    <!-- Firma: el entregable que se arma solo -->
+    <aside class="deliv" aria-label="Entregables de un flat de constitución">
+      <div class="deliv__head">
+        <div>
+          <span class="eyebrow">Un flat de constitución</span>
+          <strong>Lo que se entrega</strong>
+        </div>
+        <span class="deliv__count" id="count">00 / 16</span>
+      </div>
+      <ul class="deliv__list" id="deliv"></ul>
+      <div class="deliv__foot">
+        <span>4 áreas · 1 solo contrato</span>
+        <b>Tasas y derechos incluidos</b>
+      </div>
+    </aside>
+  </div>
+</header>
+
+<!-- ÁREAS -->
+<section class="sec sec--sky" id="areas">
+  <div class="wrap">
+    <div class="sec__head reveal">
+      <span class="eyebrow">Propuesta de valor</span>
+      <h2>Convertimos procesos en oportunidades.</h2>
+      <p>Un sistema completo que cubre cada dimensión de tu empresa. Activa solo las áreas que necesitas o accede a todas de forma integrada.</p>
+    </div>
+    <div class="areas reveal">
+      <article class="area">
+        <span class="area__n">01 / LEGAL</span>
+        <h3>Legal</h3>
+        <p>Constitución, compliance y protección jurídica de tu empresa desde el inicio.</p>
+      </article>
+      <article class="area">
+        <span class="area__n">02 / GESTIÓN</span>
+        <h3>Gestión</h3>
+        <p>Procesos, estructura operativa y gobierno corporativo para que tu negocio funcione con orden.</p>
+      </article>
+      <article class="area">
+        <span class="area__n">03 / MARKETING</span>
+        <h3>Marketing</h3>
+        <p>Branding, redes sociales y estrategia de crecimiento para que tu empresa sea visible y relevante.</p>
+      </article>
+      <article class="area">
+        <span class="area__n">04 / CONTABILIDAD</span>
+        <h3>Contabilidad</h3>
+        <p>Estructura tributaria, inscripción de RUC y salud financiera de tu operación.</p>
+      </article>
+    </div>
+    <p class="reveal" style="margin:34px 0 0;max-width:58ch;color:var(--ink-3)">La externalización potencia la eficiencia operativa y te permite concentrarte en lo que realmente importa: crecer. Ius Dare es el equipo que hace posible esa decisión sin riesgos.</p>
+  </div>
+</section>
+
+<!-- POR QUÉ -->
+<section class="sec sec--ink" id="porque">
+  <div class="wrap">
+    <div class="sec__head reveal">
+      <span class="eyebrow">Por qué Ius Dare</span>
+      <h2>Trabajamos contigo, no en paralelo.</h2>
+    </div>
+    <div class="why">
+      <p class="pull reveal">No tercerizamos tareas o procesos. <span>Combinamos estrategia, ejecución y acompañamiento constante para impulsar negocios modernos, con paquetes flat que se adaptan a cada negocio.</span></p>
+      <ul class="whylist reveal">
+        <li>
+          <h4>Estrategia + ejecución</h4>
+          <p>No solo asesoramos, trabajamos junto a ti. Cada servicio tiene un responsable especializado que conoce tu negocio.</p>
+        </li>
+        <li>
+          <h4>Equipo especializado</h4>
+          <p>Cada área opera con profesionales dedicados: legal, gestión, marketing y contabilidad en un solo ecosistema.</p>
+        </li>
+        <li>
+          <h4>Acompañamiento continuo</h4>
+          <p>Estamos contigo desde el primer día hasta que tu empresa opere con autonomía y orden real.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- IUS DROPPED -->
+<section class="sec sec--sky" id="flats">
+  <div class="wrap">
+    <div class="sec__head reveal">
+      <span class="eyebrow">Ius Dropped · Flats de constitución</span>
+      <h2>Inicia tu empresa con seguridad, orden y acompañamiento experto.</h2>
+      <p>Tres flats de 5 a 8 meses, diseñados para adaptarse a las necesidades de cada negocio e incorporar soporte en nuestras 4 áreas clave. Todo lo necesario para empezar correctamente y proyectar crecimiento sostenible.</p>
+    </div>
+
+    <div class="basebox reveal">
+      <h3>Los tres flats incluyen</h3>
+      <p>La misma base completa. Lo que cambia entre uno y otro es cuánto tiempo nos quedamos operando contigo después del lanzamiento.</p>
+      <ul class="baselist" id="baselist"></ul>
+      <div style="margin-top:22px"><span class="badge">Tasas y derechos incluidos</span></div>
+    </div>
+
+    <div class="flats reveal">
+      <article class="flat">
+        <span class="flat__stage">Constituye</span>
+        <h3>Low Cost</h3>
+        <div class="flat__time">Duración aproximada: 5 meses</div>
+        <span class="flat__plus">Alcance</span>
+        <ul class="flat__adds">
+          <li><svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8.6l4 4L14 3.4" stroke="#C08128" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>El proyecto integral completo, listo para operar desde el día uno.</li>
+        </ul>
+        <div class="flat__pay">Pago hasta en 3 cuotas</div>
+        <a class="btn btn--outline" href="https://wa.me/51991097410?text=Hola%20Ius%20Dare,%20me%20interesa%20el%20flat%20Low%20Cost">Agenda si estás listo para atreverte</a>
+      </article>
+
+      <article class="flat flat--feat">
+        <span class="flat__stage">Optimiza</span>
+        <h3>Standard</h3>
+        <div class="flat__time">Duración aproximada: 7 meses</div>
+        <span class="flat__plus">Además de la base</span>
+        <ul class="flat__adds">
+          <li><svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8.6l4 4L14 3.4" stroke="#E2AE5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Acompañamiento legal y contable durante 2 meses.</li>
+          <li><svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8.6l4 4L14 3.4" stroke="#E2AE5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Marketing durante 1 mes, con ejecución del calendario de contenido.</li>
+        </ul>
+        <div class="flat__pay">Pago hasta en 4 cuotas</div>
+        <a class="btn btn--outline" href="https://wa.me/51991097410?text=Hola%20Ius%20Dare,%20me%20interesa%20el%20flat%20Standard">Agenda si estás listo para atreverte</a>
+      </article>
+
+      <article class="flat">
+        <span class="flat__stage">Escala</span>
+        <h3>Premium</h3>
+        <div class="flat__time">Duración aproximada: 8 meses</div>
+        <span class="flat__plus">Además de la base</span>
+        <ul class="flat__adds">
+          <li><svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8.6l4 4L14 3.4" stroke="#C08128" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Acompañamiento legal y contable durante 3 meses.</li>
+          <li><svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8.6l4 4L14 3.4" stroke="#C08128" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Marketing durante 2 meses, con ejecución del calendario de contenido.</li>
+        </ul>
+        <div class="flat__pay">Pago hasta en 4 cuotas</div>
+        <a class="btn btn--outline" href="https://wa.me/51991097410?text=Hola%20Ius%20Dare,%20me%20interesa%20el%20flat%20Premium">Agenda si estás listo para atreverte</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- RECURRENTES -->
+<section class="sec sec--paper" id="recurrentes">
+  <div class="wrap">
+    <div class="sec__head reveal">
+      <span class="eyebrow">Servicios recurrentes</span>
+      <h2>Transformación empresarial mediante el outsourcing.</h2>
+      <p>Diseñados para adaptarse a tu modelo de crecimiento: mensual por área o integral con las 4 áreas.</p>
+    </div>
+    <div class="mods reveal">
+      <article class="mod">
+        <span class="mod__tag">Ius Growth · Mensual por área</span>
+        <h3>Delega procesos clave y optimiza tu operación con equipos especializados</h3>
+        <p>Servicios flexibles según las necesidades de tu empresa. Permite ajustar el alcance de los recursos para que siempre tengas un equipo de soporte adecuado y escalable. A medida que tu negocio crece, Ius Growth ofrece soluciones rentables que maximizan tu inversión y optimizan tu rendimiento.</p>
+        <div class="grid4">
+          <div><h4>Ajuste</h4><p>Cambios en el alcance del servicio según tus necesidades.</p></div>
+          <div><h4>Escalabilidad</h4><p>Recursos que se amplían o reducen según la demanda.</p></div>
+          <div><h4>Soporte</h4><p>Asistencia dedicada para obtener el máximo valor del servicio.</p></div>
+          <div><h4>Rentabilidad</h4><p>Soluciones costo-efectivas que mejoran tu eficiencia financiera.</p></div>
+        </div>
+        <a class="btn btn--outline" style="margin-top:24px" href="https://wa.me/51991097410?text=Hola%20Ius%20Dare,%20quiero%20cotizar%20Ius%20Growth">Cotiza según tu empresa</a>
+      </article>
+      <article class="mod mod--ally">
+        <span class="mod__tag">Ius Ally · Mensual, 4 áreas</span>
+        <h3>Centraliza tus áreas estratégicas con una solución completa</h3>
+        <p>Nuestro outsourcing integral permite una operación más eficiente, interconectada y enfocada en resultados.</p>
+        <ul class="checks">
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8.6l4 4L14 3.4" stroke="#E2AE5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Ahorro de tiempo</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8.6l4 4L14 3.4" stroke="#E2AE5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Mayor productividad</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8.6l4 4L14 3.4" stroke="#E2AE5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Soporte especializado</li>
+          <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8.6l4 4L14 3.4" stroke="#E2AE5C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Escalabilidad</li>
+        </ul>
+        <a class="btn btn--gold" style="margin-top:26px" href="https://wa.me/51991097410?text=Hola%20Ius%20Dare,%20quiero%20cotizar%20Ius%20Ally">Cotiza según tu empresa</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PLUS: NO ADICIONALES -->
+<section class="sec sec--cream">
+  <div class="wrap plus">
+    <div class="reveal">
+      <span class="eyebrow" style="color:var(--gold);display:block;margin-bottom:16px">Un plus, no un extra</span>
+      <h2 style="font-size:clamp(28px,3.6vw,46px)">Cotizamos a todo costo.</h2>
+      <p style="margin:20px 0 0;font-size:17px;color:var(--ink-3);max-width:46ch">Nuestras cotizaciones incluyen la prestación del servicio y también las tasas, derechos, pautas y cualquier otro concepto necesario para ejecutarlo durante el plazo contratado.</p>
+    </div>
+    <div class="plus__stamp reveal">
+      <span class="eyebrow">Nuestra promesa</span>
+      <h3>El precio que cotizamos es el precio que pagas.</h3>
+      <p>Antes de presentar una propuesta analizamos integralmente las necesidades del servicio para contemplar cada costo involucrado.</p>
+      <p><strong>Y si durante la ejecución surge un gasto adicional asociado al servicio, lo asumimos nosotros.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- CIERRE -->
+<section class="sec sec--ink close" id="contacto">
+  <div class="wrap close__in">
+    <div class="reveal">
+      <span class="eyebrow" style="color:var(--gold-lt)">Hablemos</span>
+      <h2 style="margin-top:16px">Tu empresa merece orden, estrategia y <em>acompañamiento real.</em></h2>
+      <p>Cuéntanos en qué etapa está tu proyecto. Te asesoramos sin compromiso y te recomendamos el flat que mejor se adapta a tu momento.</p>
+    </div>
+    <div class="contact reveal">
+      <a href="https://wa.me/51991097410?text=Hola%20Ius%20Dare,%20quiero%20asesor%C3%ADa%20sin%20compromiso">
+        <div><span>WhatsApp</span><b>991 097 410</b></div>
+      </a>
+      <a href="tel:+51991097410">
+        <div><span>Teléfono</span><b>+51 991 097 410</b></div>
+      </a>
+      <a href="mailto:contacto@iusdare.com">
+        <div><span>Correo</span><b>contacto@iusdare.com</b></div>
+      </a>
+      <a href="https://www.instagram.com/iusdare.pe/" target="_blank" rel="noopener">
+        <div><span>Instagram</span><b>@iusdare.pe</b></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <span>Ius Dare · Solo atrévete</span>
+    <span>Lima, Perú · <a href="mailto:contacto@iusdare.com">contacto@iusdare.com</a></span>
+    <span>&copy; <span id="yr"></span> Ius Dare — Revoredo Iuscorp</span>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/51991097410?text=Hola%20Ius%20Dare" aria-label="Escríbenos por WhatsApp" target="_blank" rel="noopener">
+  <svg width="27" height="27" viewBox="0 0 24 24" fill="#1B1B1D" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 004.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2zm5.8 14.13c-.24.68-1.4 1.3-1.93 1.35-.53.05-1.02.24-3.44-.72-2.9-1.15-4.72-4.16-4.86-4.35-.14-.19-1.14-1.52-1.14-2.9 0-1.38.72-2.06.98-2.34.26-.29.57-.36.76-.36l.55.01c.17 0 .41-.07.63.48.24.58.8 1.98.87 2.12.07.14.12.31.02.5-.1.19-.15.31-.29.48l-.44.5c-.14.14-.29.3-.13.58.17.29.74 1.23 1.6 1.99 1.1.98 2.02 1.29 2.31 1.43.29.15.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.64-.14.26.09 1.65.78 1.94.92.29.14.48.22.55.34.07.12.07.7-.17 1.38z"/></svg>
+</a>
+
+<script>
+(function(){
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('is-in'); io.unobserve(e.target); } });
+  },{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+  /* Entregables de un flat, con el área responsable de cada uno */
+  var items = [
+    ['Estructurar o perfeccionar el plan de negocio','Gestión','gestion'],
+    ['Asesoría para la constitución de empresa','Legal','legal'],
+    ['Reserva de nombre','Legal','legal'],
+    ['Constitución de empresa: trámite completo + tasas y derechos','Legal','legal'],
+    ['Estructura de estrategia tributaria y contable','Contabilidad','conta'],
+    ['Inscripción de RUC','Contabilidad','conta'],
+    ['Asesoría con el área de marketing','Marketing','mkt'],
+    ['Desarrollo de branding','Marketing','mkt'],
+    ['Registro de marca: trámite + tasas y derechos','Legal','legal'],
+    ['Creación de las redes de la empresa','Marketing','mkt'],
+    ['Estructura de gobierno corporativo','Gestión','gestion'],
+    ['Matriz de cumplimiento normativo','Legal','legal'],
+    ['Documentos legales, lineamientos y estrategias clave para los primeros 3 meses','Gestión','gestion'],
+    ['Calendario de contenido + informe de estrategia de crecimiento en RRSS','Marketing','mkt'],
+    ['Acompañamiento durante todo el proceso','Gestión','gestion'],
+    ['Libro de reclamaciones físico','Legal','legal']
+  ];
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var list = document.getElementById('deliv');
+  var count = document.getElementById('count');
+
+  function pad(n){ return (n < 10 ? '0' : '') + n; }
+
+  items.forEach(function(it, i){
+    var li = document.createElement('li');
+    li.innerHTML = '<span class="lbl"></span><span class="chip chip--' + it[2] + '"></span>';
+    li.querySelector('.lbl').textContent = it[0];
+    li.querySelector('.chip').textContent = it[1];
+    list.appendChild(li);
+    if(reduce){ li.classList.add('is-in'); return; }
+    setTimeout(function(){
+      li.classList.add('is-in');
+      count.textContent = pad(i + 1) + ' / ' + items.length;
+      if(i > 5 && i < items.length - 1){ list.scrollTop = list.scrollHeight; }
+    }, 420 + i * 190);
+  });
+  if(reduce){ count.textContent = pad(items.length) + ' / ' + items.length; }
+
+  /* La misma lista, estática, en la sección de flats */
+  var base = document.getElementById('baselist');
+  var tick = '<svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8.6l4 4L14 3.4" stroke="#C08128" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  items.forEach(function(it){
+    var li = document.createElement('li');
+    li.innerHTML = tick + '<span></span>';
+    li.querySelector('span').textContent = it[0];
+    base.appendChild(li);
+  });
+})();
+</script>
+</body>
+</html>
