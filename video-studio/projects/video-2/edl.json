@@ -1569,7 +1569,7 @@
       "text": "Libertad de tránsito",
       "cursor": true,
       "start": 20.405,
-      "end": 22.455,
+      "end": 22.183,
       "note": "concepto jurídico central"
     },
     {
@@ -1598,7 +1598,7 @@
       "x": 0.3,
       "y": 0.62,
       "start": 29.725,
-      "end": 30.725,
+      "end": 30.34,
       "note": "pattern interrupt"
     },
     {
@@ -1634,7 +1634,7 @@
       "x": 0.3,
       "y": 0.62,
       "start": 42.397,
-      "end": 43.597,
+      "end": 43.57,
       "note": "caso real"
     },
     {
@@ -1680,7 +1680,7 @@
       "text": "Libre tránsito",
       "cursor": false,
       "start": 61.428,
-      "end": 63.128,
+      "end": 62.168,
       "note": "cierre: vuelve al concepto"
     }
   ],

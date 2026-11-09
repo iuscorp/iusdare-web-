@@ -94,7 +94,15 @@ for (const s of e.segments) {
   }
 }
 
-e.overlays = overlays.sort((a, b) => a.start - b.start);
+overlays.sort((a, b) => a.start - b.start);
+// sin solapes: cada recurso termina antes de que entre el siguiente; nada invade el CTA
+const ctaStart = e.captions.find((c) => norm(c.text) === 'asi' && c.start > e.captions[e.captions.length - 1].start - 8)?.start ?? Infinity;
+overlays.forEach((o, i) => {
+  const next = overlays[i + 1];
+  if (next && o.end > next.start - 0.05) o.end = r(Math.max(o.start + 0.5, next.start - 0.05));
+  if (o.end > ctaStart - 0.05) o.end = r(Math.max(o.start + 0.5, ctaStart - 0.05));
+});
+e.overlays = overlays;
 e.sfx = sfx.sort((a, b) => a.at - b.at);
 e.colorPreset = 'none';
 fs.writeFileSync(f, JSON.stringify(e, null, 2));
