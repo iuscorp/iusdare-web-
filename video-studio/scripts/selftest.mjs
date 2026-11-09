@@ -99,4 +99,9 @@ test('una palabra final en voz baja no se pierde (silencio no profundo)', () => 
   assert.equal(c.ranges.flatMap((r) => r.words).map((w) => w.w).join(' '), 'libre tránsito.');
 });
 
+test('palabra que Whisper ubica tarde dentro de una pausa vuelve al tramo de voz previo', () => {
+  const out = refineWithSilences([W('tránsito.', 0, 0.6), W('¿Cómo', 1.5, 2.5), W('protegemos', 2.6, 3.2)], [{start: 0.62, end: 0.9}, {start: 1.2, end: 2.55}], []);
+  assert.ok(out[1].e <= 1.2 && out[1].s >= 0.9, JSON.stringify(out[1]));
+});
+
 console.log(`\n${n} pruebas OK`);

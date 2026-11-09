@@ -28,7 +28,7 @@
       "name": "Duración",
       "ok": true,
       "level": "ok",
-      "detail": "65.80 s (EDL 65.79 s)"
+      "detail": "67.00 s (EDL 66.92 s)"
     },
     {
       "name": "Fotogramas negros",
@@ -50,210 +50,195 @@
     },
     {
       "name": "Silencios residuales (>0.6 s)",
-      "ok": true,
-      "level": "ok",
-      "detail": "ninguno"
+      "ok": false,
+      "level": "warn",
+      "detail": "49.93–51.05"
     },
     {
       "name": "Primera palabra en el frame 0",
       "ok": true,
       "level": "ok",
-      "detail": "0.07 s"
+      "detail": "0.09 s"
     },
     {
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana -20 ms, p90 |148| ms, 158/192 palabras alineadas"
+      "detail": "mediana 2 ms, p90 |163| ms, 161/192 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
       "ok": false,
       "level": "warn",
-      "detail": "34 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "detail": "31 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 158,
+    "matched": 161,
     "total": 192,
-    "medianOffset": -0.019999999999999574,
-    "p90AbsOffset": 0.1479999999999997,
+    "medianOffset": 0.0019999999999988916,
+    "p90AbsOffset": 0.16299999999999848,
     "mismatches": [
       {
-        "at": 0.074,
-        "caption": "Pueden",
-        "heard": "Pues"
-      },
-      {
-        "at": 0.94,
-        "caption": "cerrar",
-        "heard": "cerraron"
-      },
-      {
-        "at": 4.612,
-        "caption": "Imagina",
-        "heard": "?"
-      },
-      {
-        "at": 6.592,
+        "at": 6.633,
         "caption": "urbanización",
-        "heard": "realización"
+        "heard": "una realización y"
       },
       {
-        "at": 21.031,
+        "at": 9.083,
+        "caption": "podríamos",
+        "heard": "podamos una"
+      },
+      {
+        "at": 9.703,
+        "caption": "reja",
+        "heard": "una reggelys."
+      },
+      {
+        "at": 9.983,
+        "caption": "y",
+        "heard": "reggelys. Todos"
+      },
+      {
+        "at": 10.033,
+        "caption": "listo",
+        "heard": "reggelys. Todos"
+      },
+      {
+        "at": 14.072,
+        "caption": "reja",
+        "heard": "y la regga está cerrada."
+      },
+      {
+        "at": 17.123,
+        "caption": "aquí",
+        "heard": "Bueno,"
+      },
+      {
+        "at": 21.187,
         "caption": "TC",
-        "heard": "El"
+        "heard": "El T .C."
       },
       {
-        "at": 24.545,
-        "caption": "tranqueras",
-        "heard": "tranquilas"
-      },
-      {
-        "at": 26.315,
+        "at": 26.482,
         "caption": "Puede",
-        "heard": "está"
+        "heard": "es la realidad"
       },
       {
-        "at": 26.365,
+        "at": 26.532,
         "caption": "ser",
-        "heard": "está"
+        "heard": "es la realidad"
       },
       {
-        "at": 26.415,
+        "at": 26.582,
         "caption": "válida",
-        "heard": "la"
+        "heard": "es la realidad cuando"
       },
       {
-        "at": 28.335,
+        "at": 28.502,
         "caption": "seguridad",
+        "heard": "la saboria ciudadana."
+      },
+      {
+        "at": 33.882,
+        "caption": "dé",
+        "heard": "se les den lagar."
+      },
+      {
+        "at": 34.042,
+        "caption": "la",
+        "heard": "les den lagar."
+      },
+      {
+        "at": 34.242,
+        "caption": "gana",
+        "heard": "den lagar. La"
+      },
+      {
+        "at": 44.48,
+        "caption": "su",
+        "heard": "(nada)"
+      },
+      {
+        "at": 44.812,
+        "caption": "retiro",
+        "heard": "(nada)"
+      },
+      {
+        "at": 48.098,
+        "caption": "municipal",
+        "heard": "autorización. La"
+      },
+      {
+        "at": 53.04,
+        "caption": "eliminar",
+        "heard": "deliminaridad"
+      },
+      {
+        "at": 53.688,
+        "caption": "injustificadamente",
         "heard": "la"
       },
       {
-        "at": 33.632,
-        "caption": "dé",
-        "heard": "les"
+        "at": 54.975,
+        "caption": "tránsito",
+        "heard": "de trabajo? Porque"
       },
       {
-        "at": 34.522,
-        "caption": "medida",
-        "heard": "La"
-      },
-      {
-        "at": 43.18,
-        "caption": "TC",
-        "heard": "T"
-      },
-      {
-        "at": 47.932,
-        "caption": "municipal",
-        "heard": "total."
-      },
-      {
-        "at": 51.623,
-        "caption": "eliminar",
-        "heard": "deniminar"
-      },
-      {
-        "at": 52.293,
-        "caption": "injustificadamente",
-        "heard": "cada"
-      },
-      {
-        "at": 58.845,
+        "at": 60.262,
         "caption": "restringir",
         "heard": "raciar,"
       },
       {
-        "at": 59.253,
+        "at": 60.648,
         "caption": "arbitrariamente",
-        "heard": "literalmente,"
+        "heard": "raciar, literalmente,"
       },
       {
-        "at": 60.557,
+        "at": 61.973,
         "caption": "al",
-        "heard": "derecho"
+        "heard": "el derecho a Yuri."
       },
       {
-        "at": 60.878,
+        "at": 62.273,
         "caption": "libre",
-        "heard": "de"
+        "heard": "a Yuri. Así"
       },
       {
-        "at": 60.977,
+        "at": 62.406,
         "caption": "tránsito",
-        "heard": "irse."
+        "heard": "a Yuri. Así"
       },
       {
-        "at": 61.245,
-        "caption": "Así",
-        "heard": "?"
-      },
-      {
-        "at": 62.029,
+        "at": 63.212,
         "caption": "sigue",
-        "heard": "decir,"
+        "heard": "que siga a buscar a"
       },
       {
-        "at": 62.477,
+        "at": 63.66,
         "caption": "Vocare",
-        "heard": "a"
+        "heard": "a buscar a Yuri si"
       },
       {
-        "at": 62.701,
+        "at": 63.884,
         "caption": "Iuris",
-        "heard": "el"
+        "heard": "a buscar a Yuri si guarda"
       },
       {
-        "at": 62.925,
+        "at": 64.108,
         "caption": "y",
-        "heard": "libro"
+        "heard": "Yuri si guarda este"
       },
       {
-        "at": 63.065,
-        "caption": "guarda",
-        "heard": "es"
-      },
-      {
-        "at": 63.298,
-        "caption": "este",
-        "heard": "que"
-      },
-      {
-        "at": 63.532,
-        "caption": "video",
-        "heard": "el"
-      },
-      {
-        "at": 63.97,
-        "caption": "No",
-        "heard": "?"
-      },
-      {
-        "at": 64.15,
-        "caption": "sabes",
-        "heard": "?"
-      },
-      {
-        "at": 64.27,
-        "caption": "cuándo",
-        "heard": "?"
-      },
-      {
-        "at": 64.59,
-        "caption": "podrás",
-        "heard": "?"
-      },
-      {
-        "at": 65.01,
+        "at": 66.151,
         "caption": "necesitarlo",
-        "heard": "?"
+        "heard": "podrás raciar?"
       }
     ]
   },
   "loudness": {
     "integratedLufs": -14.1,
-    "lra": 11.9,
+    "lra": 12.5,
     "truePeakDb": -1.5
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/video-2/video-2-preview.mp4"

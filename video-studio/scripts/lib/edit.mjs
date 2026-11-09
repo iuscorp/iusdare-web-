@@ -92,9 +92,7 @@ export const refineWithSilences = (words, silences = [], deepSilences = null) =>
     for (const w of out) {
       const sIn = w.s > sil.start && w.s < sil.end;
       const eIn = w.e > sil.start && w.e < sil.end;
-      if (sIn && eIn) {
-        if (isDeep(w)) inside.push(w);
-      }
+      if (sIn && eIn) inside.push(w);
       else if (eIn && w.s <= sil.start) w.e = Math.max(w.s + 0.08, sil.start + 0.02);
       else if (sIn && w.e >= sil.end) w.s = Math.min(w.e - 0.08, sil.end - 0.02);
       else if (w.s <= sil.start && w.e >= sil.end) {
@@ -103,8 +101,22 @@ export const refineWithSilences = (words, silences = [], deepSilences = null) =>
         else w.s = sil.end - 0.02;
       }
     }
+    // Si justo antes del silencio hay un tramo de voz sin palabra asignada, la palabra
+    // "caída" dentro del silencio pertenece a ese tramo (Whisper la ubicó tarde).
+    if (inside.length === 1 && !isDeep(inside[0])) {
+      const w = inside[0];
+      // el tramo de voz empieza donde termina la palabra anterior o el silencio anterior
+      const prevEnd = Math.max(0, ...out.filter((o) => o !== w && o.e <= sil.start + 0.01).map((o) => o.e), ...silences.filter((x) => x.end <= sil.start).map((x) => x.end));
+      const island = sil.start - prevEnd;
+      if (island >= 0.15) {
+        const d = Math.min(island, Math.max(0.15, w.e - w.s));
+        w.s = sil.start - d;
+        w.e = sil.start;
+        continue;
+      }
+    }
     let t = sil.end - 0.02;
-    for (const w of inside) {
+    for (const w of inside.filter(isDeep)) {
       const d = Math.min(0.2, w.e - w.s);
       w.s = t;
       w.e = t + d;

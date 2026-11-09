@@ -265,21 +265,21 @@
     },
     {
       "id": "s29",
-      "in": 608.208,
-      "out": 611,
+      "in": 607.75,
+      "out": 608.25,
       "role": "context",
       "framing": "base",
       "move": "none",
-      "note": "¿Cómo protegemos la seguridad"
+      "note": "¿Cómo"
     },
     {
       "id": "s30",
-      "in": 611,
+      "in": 609.458,
       "out": 612.125,
       "role": "context",
       "framing": "subtleIn",
       "move": "none",
-      "note": "sin eliminar"
+      "note": "protegemos la seguridad sin eliminar"
     },
     {
       "id": "s31",
@@ -321,7 +321,7 @@
       "id": "s35",
       "in": 647.25,
       "out": 649.417,
-      "role": "recap",
+      "role": "context",
       "framing": "base",
       "move": "none",
       "note": "arbitrariamente el derecho al libre tránsito."
@@ -337,12 +337,21 @@
     },
     {
       "id": "s37",
-      "in": 696.708,
-      "out": 698.583,
+      "in": 696.25,
+      "out": 696.458,
+      "role": "context",
+      "framing": "base",
+      "move": "none",
+      "note": "No"
+    },
+    {
+      "id": "s38",
+      "in": 696.917,
+      "out": 697.917,
       "role": "cta",
       "framing": "base",
       "move": "none",
-      "note": "No sabes cuándo podrás necesitarlo."
+      "note": "sabes cuándo podrás necesitarlo."
     }
   ],
   "captions": [
@@ -1224,278 +1233,278 @@
     },
     {
       "text": "Cómo",
-      "start": 49.78,
-      "end": 51.035,
+      "start": 49.799,
+      "end": 50.208,
       "emphasis": false
     },
     {
       "text": "protegemos",
-      "start": 51.035,
-      "end": 51.86,
+      "start": 50.285,
+      "end": 51.11,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 51.86,
-      "end": 52,
+      "start": 51.11,
+      "end": 51.25,
       "emphasis": false
     },
     {
       "text": "seguridad",
-      "start": 52,
-      "end": 52.5,
+      "start": 51.25,
+      "end": 51.73,
       "emphasis": false
     },
     {
       "text": "sin",
-      "start": 52.48,
-      "end": 53.04,
+      "start": 51.73,
+      "end": 52.29,
       "emphasis": false
     },
     {
       "text": "eliminar",
-      "start": 53.04,
-      "end": 53.625,
+      "start": 52.29,
+      "end": 52.875,
       "emphasis": false
     },
     {
       "text": "injustificadamente",
-      "start": 53.688,
-      "end": 54.015,
+      "start": 52.938,
+      "end": 53.265,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 54.015,
-      "end": 54.455,
+      "start": 53.265,
+      "end": 53.705,
       "emphasis": false
     },
     {
       "text": "libertad",
-      "start": 54.455,
-      "end": 54.835,
+      "start": 53.705,
+      "end": 54.085,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 54.835,
-      "end": 54.975,
+      "start": 54.085,
+      "end": 54.225,
       "emphasis": false
     },
     {
       "text": "tránsito",
-      "start": 54.975,
-      "end": 55.25,
+      "start": 54.225,
+      "end": 54.5,
       "emphasis": false
     },
     {
       "text": "Porque",
-      "start": 55.322,
-      "end": 55.48,
+      "start": 54.572,
+      "end": 54.73,
       "emphasis": false
     },
     {
       "text": "sí",
-      "start": 55.48,
-      "end": 55.9,
+      "start": 54.73,
+      "end": 55.15,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 55.9,
-      "end": 56.02,
+      "start": 55.15,
+      "end": 55.27,
       "emphasis": false
     },
     {
       "text": "seguridad",
-      "start": 56,
-      "end": 56.28,
+      "start": 55.25,
+      "end": 55.53,
       "emphasis": false
     },
     {
       "text": "es",
-      "start": 56.28,
-      "end": 56.46,
+      "start": 55.53,
+      "end": 55.71,
       "emphasis": false
     },
     {
       "text": "importante",
-      "start": 56.46,
-      "end": 57.083,
+      "start": 55.71,
+      "end": 56.333,
       "emphasis": false
     },
     {
       "text": "Recuerda",
-      "start": 57.17,
-      "end": 57.822,
+      "start": 56.42,
+      "end": 57.072,
       "emphasis": false
     },
     {
       "text": "proteger",
-      "start": 57.822,
-      "end": 58.242,
+      "start": 57.072,
+      "end": 57.492,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 58.242,
-      "end": 58.402,
+      "start": 57.492,
+      "end": 57.652,
       "emphasis": false
     },
     {
       "text": "seguridad",
-      "start": 58.402,
-      "end": 58.702,
+      "start": 57.652,
+      "end": 57.952,
       "emphasis": false
     },
     {
       "text": "ciudadana",
-      "start": 58.702,
-      "end": 59.462,
+      "start": 57.952,
+      "end": 58.712,
       "emphasis": false
     },
     {
       "text": "no",
-      "start": 59.462,
-      "end": 59.875,
+      "start": 58.712,
+      "end": 59.125,
       "emphasis": false
     },
     {
       "text": "permite",
-      "start": 59.862,
-      "end": 60.262,
+      "start": 59.112,
+      "end": 59.512,
       "emphasis": false
     },
     {
       "text": "restringir",
-      "start": 60.262,
-      "end": 60.583,
+      "start": 59.512,
+      "end": 59.833,
       "emphasis": false
     },
     {
       "text": "arbitrariamente",
-      "start": 60.648,
-      "end": 61.453,
+      "start": 59.898,
+      "end": 60.703,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 61.453,
-      "end": 61.773,
+      "start": 60.703,
+      "end": 61.023,
       "emphasis": false
     },
     {
       "text": "derecho",
-      "start": 61.773,
-      "end": 61.973,
+      "start": 61.023,
+      "end": 61.223,
       "emphasis": true
     },
     {
       "text": "al",
-      "start": 61.973,
-      "end": 62.273,
+      "start": 61.223,
+      "end": 61.523,
       "emphasis": false
     },
     {
       "text": "libre",
-      "start": 62.273,
-      "end": 62.406,
+      "start": 61.523,
+      "end": 61.656,
       "emphasis": false
     },
     {
       "text": "tránsito",
-      "start": 62.406,
-      "end": 62.75,
+      "start": 61.656,
+      "end": 62,
       "emphasis": false
     },
     {
       "text": "Así",
-      "start": 62.845,
-      "end": 62.988,
+      "start": 62.095,
+      "end": 62.238,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 62.988,
-      "end": 63.212,
+      "start": 62.238,
+      "end": 62.462,
       "emphasis": false
     },
     {
       "text": "sigue",
-      "start": 63.212,
-      "end": 63.436,
+      "start": 62.462,
+      "end": 62.686,
       "emphasis": false
     },
     {
       "text": "a",
-      "start": 63.436,
-      "end": 63.66,
+      "start": 62.686,
+      "end": 62.91,
       "emphasis": false
     },
     {
       "text": "Vocare",
-      "start": 63.66,
-      "end": 63.884,
+      "start": 62.91,
+      "end": 63.134,
       "emphasis": false
     },
     {
       "text": "Iuris",
-      "start": 63.884,
-      "end": 64.108,
+      "start": 63.134,
+      "end": 63.358,
       "emphasis": false
     },
     {
       "text": "y",
-      "start": 64.108,
-      "end": 64.248,
+      "start": 63.358,
+      "end": 63.498,
       "emphasis": false
     },
     {
       "text": "guarda",
-      "start": 64.248,
-      "end": 64.481,
+      "start": 63.498,
+      "end": 63.731,
       "emphasis": false
     },
     {
       "text": "este",
-      "start": 64.481,
-      "end": 64.715,
+      "start": 63.731,
+      "end": 63.965,
       "emphasis": false
     },
     {
       "text": "video",
-      "start": 64.715,
-      "end": 65.042,
+      "start": 63.965,
+      "end": 64.292,
       "emphasis": false
     },
     {
       "text": "No",
-      "start": 65.111,
-      "end": 65.317,
+      "start": 64.359,
+      "end": 64.5,
       "emphasis": false
     },
     {
       "text": "sabes",
-      "start": 65.317,
-      "end": 65.437,
+      "start": 64.567,
+      "end": 64.687,
       "emphasis": false
     },
     {
       "text": "cuándo",
-      "start": 65.411,
-      "end": 65.731,
+      "start": 64.661,
+      "end": 64.981,
       "emphasis": false
     },
     {
       "text": "podrás",
-      "start": 65.731,
-      "end": 66.151,
+      "start": 64.981,
+      "end": 65.347,
       "emphasis": false
     },
     {
       "text": "necesitarlo",
-      "start": 66.151,
-      "end": 66.917,
+      "start": 65.347,
+      "end": 65.5,
       "emphasis": false
     }
   ],
@@ -1677,16 +1686,16 @@
       "size": 165,
       "x": 0.3,
       "y": 0.62,
-      "start": 56.46,
-      "end": 57.76,
+      "start": 55.71,
+      "end": 57.01,
       "note": "seguridad sí importa"
     },
     {
       "type": "selectionLabel",
       "text": "Libre tránsito",
       "cursor": false,
-      "start": 62.173,
-      "end": 63.873,
+      "start": 61.423,
+      "end": 63.123,
       "note": "cierre: vuelve al concepto"
     }
   ],
@@ -1798,12 +1807,12 @@
     },
     {
       "name": "pop",
-      "at": 56.46,
+      "at": 55.71,
       "volumeDb": -16
     },
     {
       "name": "kiran",
-      "at": 62.173,
+      "at": 61.423,
       "volumeDb": -16
     }
   ],

@@ -1483,19 +1483,26 @@
       ]
     },
     {
-      "in": 608.2,
-      "out": 612.11,
-      "text": "¿Cómo protegemos la seguridad sin eliminar",
+      "in": 607.761,
+      "out": 608.23,
+      "text": "¿Cómo",
       "words": [
         {
           "w": "¿Cómo",
-          "s": 608.28,
-          "e": 609.32,
+          "s": 607.841,
+          "e": 608.14,
           "p": 0.429,
           "s0": 608.28,
           "sel": 21,
           "i": 146
-        },
+        }
+      ]
+    },
+    {
+      "in": 609.455,
+      "out": 612.11,
+      "text": "protegemos la seguridad sin eliminar",
+      "words": [
         {
           "w": "protegemos",
           "s": 609.535,
@@ -1894,19 +1901,26 @@
       ]
     },
     {
-      "in": 696.698,
-      "out": 698.588,
-      "text": "No sabes cuándo podrás necesitarlo.",
+      "in": 696.237,
+      "out": 696.457,
+      "text": "No",
       "words": [
         {
           "w": "No",
-          "s": 696.778,
-          "e": 696.958,
+          "s": 696.317,
+          "e": 696.367,
           "p": 0.635,
           "s0": 696.778,
           "sel": 25,
           "i": 187
-        },
+        }
+      ]
+    },
+    {
+      "in": 696.904,
+      "out": 697.904,
+      "text": "sabes cuándo podrás necesitarlo.",
+      "words": [
         {
           "w": "sabes",
           "s": 696.984,
@@ -1936,8 +1950,8 @@
         },
         {
           "w": "necesitarlo.",
-          "s": 697.818,
-          "e": 698.498,
+          "s": 697.764,
+          "e": 697.814,
           "p": 0.996,
           "s0": 697.818,
           "sel": 25,
@@ -1967,6 +1981,12 @@
     },
     {
       "kind": "silence",
+      "from": 608.14,
+      "to": 609.535,
+      "text": "1.39 s → 0.17 s"
+    },
+    {
+      "kind": "silence",
       "from": 612.02,
       "to": 612.813,
       "text": "0.79 s → 0.17 s"
@@ -1976,6 +1996,12 @@
       "from": 646.932,
       "to": 647.315,
       "text": "0.38 s → 0.17 s"
+    },
+    {
+      "kind": "silence",
+      "from": 696.367,
+      "to": 696.984,
+      "text": "0.62 s → 0.17 s"
     }
   ],
   "keptPauses": [],
@@ -2058,7 +2084,7 @@
     },
     {
       "kind": "low-confidence",
-      "at": 608.28,
+      "at": 607.841,
       "text": "¿Cómo",
       "p": 0.429,
       "note": "Verificar ortografía/término en subtítulo."
@@ -2079,10 +2105,10 @@
   ],
   "stats": {
     "sourceDuration": 701.583,
-    "sourceSpeechSpan": 654.946,
-    "outputDuration": 66.947,
-    "savedSeconds": 634.636,
+    "sourceSpeechSpan": 654.262,
+    "outputDuration": 65.491,
+    "savedSeconds": 636.092,
     "words": 192,
-    "wordsPerSecond": 2.868
+    "wordsPerSecond": 2.932
   }
 }
