@@ -81,7 +81,9 @@ export const overlaySchema = z.discriminatedUnion('type', [
     syllables: z.array(z.string()),
     stepFrames: z.number().optional(),
     /** 'stack' = una sílaba por fila [REF]; 'rows' = palabra en 2 filas grandes (ideal detrás de la persona) */
-    layout: z.enum(['stack', 'rows']).optional(),
+    layout: z.enum(['stack', 'rows', 'line']).optional(),
+    /** 'line': en MAYÚSCULAS */
+    uppercase: z.boolean().optional(),
   }),
   z.object({...base, type: z.literal('revealTitle'), lines: z.array(z.string()), stepFrames: z.number().optional()}),
   z.object({...base, type: z.literal('textBadge'), text: z.string()}),

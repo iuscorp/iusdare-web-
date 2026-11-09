@@ -28,7 +28,7 @@ export const renderStills = async (edl, frames, outDir, {scale = 0.5} = {}) => {
   return files;
 };
 
-export const renderVideo = async (edl, output, {scale = 1, crf = 17, onProgress} = {}) => {
+export const renderVideo = async (edl, output, {scale = 1, crf = 17, imageFormat = 'jpeg', x264Preset = 'medium', onProgress} = {}) => {
   const serveUrl = await getBundle();
   const composition = await selectComposition({serveUrl, id: 'VocareEdit', inputProps: edl, browserExecutable: browserExecutable()});
   fs.mkdirSync(path.dirname(output), {recursive: true});
@@ -41,8 +41,12 @@ export const renderVideo = async (edl, output, {scale = 1, crf = 17, onProgress}
     scale,
     outputLocation: output,
     audioBitrate: '256k',
-    imageFormat: 'jpeg',
-    jpegQuality: 92,
+    imageFormat,
+    jpegQuality: 100,
+    x264Preset,
+    pixelFormat: 'yuv420p',
+    // mismo espacio de color que el footage de iPhone (BT.709, rango TV): evita el aspecto lavado
+    colorSpace: 'bt709',
     chromiumOptions: {gl: 'swangle'}, browserExecutable: browserExecutable(),
     onProgress: ({progress}) => onProgress?.(progress),
   });

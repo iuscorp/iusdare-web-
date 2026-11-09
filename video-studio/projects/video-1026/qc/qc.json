@@ -4,7 +4,19 @@
       "name": "Resolución",
       "ok": true,
       "level": "ok",
-      "detail": "540x960 (preview)"
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "7.4 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
     },
     {
       "name": "FPS",
@@ -34,7 +46,7 @@
       "name": "True peak",
       "ok": true,
       "level": "ok",
-      "detail": "-1.4 dBFS"
+      "detail": "-1.5 dBFS"
     },
     {
       "name": "Silencios residuales (>0.6 s)",
@@ -97,7 +109,7 @@
   "loudness": {
     "integratedLufs": -14,
     "lra": 2.4,
-    "truePeakDb": -1.4
+    "truePeakDb": -1.5
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/video-1026/video-1026-preview.mp4"
 }

@@ -1,14 +1,16 @@
 # QC — Video 1026
-Archivo: `previews/video-1026/video-1026-preview.mp4` · 2026-11-09T05:47:47.755Z
+Archivo: `previews/video-1026/video-1026-preview.mp4` · 2026-11-09T06:04:38.836Z
 
 | Verificación | Estado | Detalle |
 |---|---|---|
-| Resolución | ✅ | 540x960 (preview) |
+| Resolución | ✅ | 1080x1920 (revisión) |
+| Bitrate de video | ✅ | 7.4 Mbps |
+| Espacio de color | ✅ | yuv420p · bt709 · rango tv (esperado bt709/tv como el original) |
 | FPS | ✅ | 30 |
 | Duración | ✅ | 31.10 s (EDL 31.03 s) |
 | Fotogramas negros | ✅ | ninguno |
 | Loudness | ✅ | -14 LUFS (objetivo −14 ±1) |
-| True peak | ✅ | -1.4 dBFS |
+| True peak | ✅ | -1.5 dBFS |
 | Silencios residuales (>0.6 s) | ✅ | ninguno |
 | Primera palabra en el frame 0 | ✅ | 0.00 s |
 | Sincronía de subtítulos | ✅ | mediana 0 ms, p90 |20| ms, 115/120 palabras alineadas |

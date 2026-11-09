@@ -961,12 +961,12 @@
         "ta",
         "rio"
       ],
-      "stepFrames": 4,
+      "stepFrames": 3,
       "start": 24.087,
-      "end": 25.167,
-      "behindPerson": true,
-      "y": 0.045,
-      "layout": "rows"
+      "end": 24.757,
+      "y": 0.56,
+      "layout": "line",
+      "uppercase": true
     },
     {
       "type": "denyMark",
@@ -2915,6 +2915,5 @@
       0.2444,
       0.2447
     ]
-  },
-  "personMatte": "footage/video-1026/person.webm"
+  }
 }

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * PASO 6 — RENDER
- * npm run render -- <slug> --preview     versión de revisión (540x960, rápida) → previews/<slug>/
+ * npm run render -- <slug> --preview     versión de revisión (1080x1920, CRF 17) → previews/<slug>/
  * npm run render -- <slug>               versión final (requiere aprobación registrada) → exports/<slug>/
  * La versión final pasa por normalización de loudness (-14 LUFS, -1 dBTP) y QC automático.
  */
@@ -36,8 +36,11 @@ const final = path.join(outDir, `${slug}${preview ? '-preview' : ''}.mp4`);
 let last = -1;
 console.log(`→ Renderizando ${preview ? 'PREVIEW' : 'FINAL'}…`);
 await renderVideo(edl, raw, {
-  scale: preview ? 0.5 : 1,
-  crf: preview ? 23 : 16,
+  // la revisión también va a resolución completa: se juzga la calidad real
+  scale: 1,
+  crf: preview ? 17 : 14,
+  imageFormat: preview ? 'jpeg' : 'png',
+  x264Preset: preview ? 'medium' : 'slow',
   onProgress: (p) => {
     const pct = Math.floor(p * 10) * 10;
     if (pct !== last) {

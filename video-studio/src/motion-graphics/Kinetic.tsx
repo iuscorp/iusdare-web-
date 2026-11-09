@@ -46,8 +46,51 @@ export const RevealTitle: React.FC<{lines: string[]; stepFrames?: number; x?: nu
  * cada sílaba entra al ritmo de la pronunciación. Pattern interrupt tipográfico para la
  * palabra-acción del video (denunciar, reclamar, exigir). Oculta el subtítulo mientras dura.
  */
-export const KineticWord: React.FC<{syllables: string[]; stepFrames?: number; x?: number; y?: number; layout?: 'stack' | 'rows'}> = (props) =>
-  props.layout === 'rows' ? <KineticRows {...props} /> : <KineticStack {...props} />;
+type KineticProps = {syllables: string[]; stepFrames?: number; x?: number; y?: number; layout?: 'stack' | 'rows' | 'line'; uppercase?: boolean};
+
+export const KineticWord: React.FC<KineticProps> = (props) =>
+  props.layout === 'rows' ? <KineticRows {...props} /> : props.layout === 'line' ? <KineticLine {...props} /> : <KineticStack {...props} />;
+
+/**
+ * Variante en UNA línea a todo el ancho ("VOLUNTARIO"): la palabra se arma sílaba a sílaba,
+ * delante del presentador, ajustando el tamaño al ancho del cuadro (máx. 96 %).
+ */
+const KineticLine: React.FC<KineticProps> = ({syllables, stepFrames = 3, y = 0.56, uppercase = true}) => {
+  const frame = useCurrentFrame();
+  const {fps, width, height} = useVideoConfig();
+  const text = syllables.join('');
+  const chars = text.length;
+  // Archivo Expanded en mayúsculas ≈ 0.84 em por carácter (medido); Druk Wide es más ancha: revisar si se instala
+  const fontSize = Math.min(320, (width * 0.96) / (chars * (uppercase ? 0.84 : 0.8)));
+  const whole = popIn(frame, fps);
+  return (
+    <div
+      style={{
+        position: 'absolute',
+        left: 0,
+        right: 0,
+        top: y * height,
+        transform: `translateY(-50%) scale(${interpolate(whole, [0, 1], [1.15, 1])})`,
+        textAlign: 'center',
+        fontFamily: FONTS.wide,
+        fontStretch: '125%',
+        fontWeight: 900,
+        fontSize,
+        lineHeight: 1,
+        letterSpacing: '-0.01em',
+        color: COLORS.captionYellow,
+        whiteSpace: 'nowrap',
+        textShadow: '0 6px 0 rgba(0,0,0,0.35), 0 10px 26px rgba(0,0,0,0.35)',
+      }}
+    >
+      {syllables.map((syl, i) => (
+        <span key={i} style={{opacity: frame >= i * stepFrames ? 1 : 0}}>
+          {uppercase ? syl.toLocaleUpperCase('es') : syl}
+        </span>
+      ))}
+    </div>
+  );
+};
 
 /**
  * Variante en 2 filas: la palabra se arma sílaba a sílaba en dos líneas grandes que ocupan el

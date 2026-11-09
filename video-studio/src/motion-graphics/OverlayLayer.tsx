@@ -30,7 +30,7 @@ export const renderOverlay = (o: Overlay, durationInFrames: number) => {
     case 'denyMark':
       return <DenyMark durationInFrames={durationInFrames} {...clean(pos)} />;
     case 'kineticWord':
-      return <KineticWord syllables={o.syllables} stepFrames={o.stepFrames} layout={o.layout} {...clean(pos)} />;
+      return <KineticWord syllables={o.syllables} stepFrames={o.stepFrames} layout={o.layout} uppercase={o.uppercase} {...clean(pos)} />;
     case 'revealTitle':
       return <RevealTitle lines={o.lines} stepFrames={o.stepFrames} {...clean(pos)} />;
     case 'textBadge':

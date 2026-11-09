@@ -29,9 +29,17 @@ if (path.resolve(raw) !== path.resolve(rawCopy)) fs.copyFileSync(raw, rawCopy);
 // 2. proxy de edición normalizado
 const probe = ffprobe(rawCopy);
 const proxy = path.join(P.publicFootage, 'source.mp4');
-const vf = 'scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,fps=30,format=yuv420p';
-console.log(`→ Normalizando ${path.basename(raw)} (${probe.video?.width}x${probe.video?.height} @ ${probe.video?.fps?.toFixed(2)} fps) a proxy 1080x1920/30p…`);
-run('ffmpeg', ['-v', 'error', '-y', '-i', rawCopy, '-vf', vf, '-c:v', 'libx264', '-preset', 'medium', '-crf', '16', '-g', '15', '-c:a', 'aac', '-b:a', '256k', '-ar', '48000', '-movflags', '+faststart', proxy]);
+const v = probe.video ?? {};
+const native = v.width === 1080 && v.height === 1920 && Math.abs(v.fps - 30) < 0.01 && v.codec === 'h264' && v.pixFmt === 'yuv420p' && !v.rotation;
+if (native) {
+  // ya está en el formato de trabajo: se copia SIN recodificar (calidad idéntica al original)
+  console.log(`→ ${path.basename(raw)} ya es 1080x1920/30p H.264: se usa el original sin recodificar…`);
+  run('ffmpeg', ['-v', 'error', '-y', '-i', rawCopy, '-map', '0:v:0', '-map', '0:a:0?', '-c', 'copy', '-movflags', '+faststart', proxy]);
+} else {
+  const vf = 'scale=1080:1920:force_original_aspect_ratio=increase:flags=lanczos,crop=1080:1920,fps=30,format=yuv420p';
+  console.log(`→ Normalizando ${path.basename(raw)} (${v.width}x${v.height} @ ${v.fps?.toFixed(2)} fps) a 1080x1920/30p (alta calidad)…`);
+  run('ffmpeg', ['-v', 'error', '-y', '-i', rawCopy, '-vf', vf, '-c:v', 'libx264', '-preset', 'slow', '-crf', '12', '-g', '15', '-c:a', 'aac', '-b:a', '320k', '-ar', '48000', '-movflags', '+faststart', proxy]);
+}
 
 // 3. brief
 if (!fs.existsSync(P.brief)) {

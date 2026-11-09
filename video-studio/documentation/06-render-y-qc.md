@@ -2,10 +2,11 @@
 
 ## Render
 ```bash
-npm run render -- <slug> --preview   # 540×960, CRF 23 → previews/<slug>/<slug>-preview.mp4
-npm run render -- <slug>             # 1080×1920, CRF 16 → exports/<slug>/<slug>.mp4 (requiere aprobación)
+npm run render -- <slug> --preview   # 1080×1920, CRF 17 → previews/<slug>/<slug>-preview.mp4
+npm run render -- <slug>             # 1080×1920, CRF 14, fotogramas PNG, x264 slow → exports/<slug>/<slug>.mp4 (requiere aprobación)
 npm run studio                       # Remotion Studio para inspeccionar cuadro a cuadro
 ```
+Calidad: si el original ya es 1080×1920/30p H.264 se usa sin recodificar; si no, se convierte a CRF 12.
 Pasos internos: validación del EDL → stickers necesarios → render Remotion (Chromium headless;
 usa `REMOTION_BROWSER` o el del entorno si existe) → loudnorm en dos pasadas a −14 LUFS /
 −1.5 dBTP → QC automático. Tiempo orientativo en 4 vCPU: ~3–4 min por minuto de video (preview).
