@@ -51,7 +51,7 @@ const segs = edl.segments.map((s) => {
 
 if (!args['no-stills']) {
   console.log('→ Fotogramas reales de la composición (Remotion)…');
-  const {renderStills} = await import('./lib/stills.mjs');
+  const {renderStills, cleanupBundle} = await import('./lib/stills.mjs');
   // un fotograma por plano + uno por cada recurso gráfico (en su pico de animación)
   const frames = new Set(segs.map((s) => Math.round(((s.outStart + s.outEnd) / 2) * fps)));
   edl.overlays.forEach((o) => frames.add(Math.round((o.start + Math.min(0.7, (o.end - o.start) / 2)) * fps)));
@@ -59,6 +59,7 @@ if (!args['no-stills']) {
   segs.forEach((s) => (s.still = `stills/still-${String(Math.round(((s.outStart + s.outEnd) / 2) * fps)).padStart(5, '0')}.jpg`));
   edl.overlays.forEach((o) => (o.still = `stills/still-${String(Math.round((o.start + Math.min(0.7, (o.end - o.start) / 2)) * fps)).padStart(5, '0')}.jpg`));
   console.log(`  ${files.length} fotogramas`);
+  cleanupBundle();
 }
 
 const framingOf = (f) => (typeof f === 'string' ? f : `custom ${f.scale}x`);

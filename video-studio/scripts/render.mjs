@@ -12,7 +12,7 @@ import {emojisInEdl, ensureStickers} from './lib/assets.mjs';
 import {ensurePersonMatte} from './lib/matte.mjs';
 import {run} from './lib/ff.mjs';
 import {parseArgs, projectPaths, readJson, writeJson} from './lib/paths.mjs';
-import {renderVideo} from './lib/stills.mjs';
+import {cleanupBundle, renderVideo} from './lib/stills.mjs';
 
 const args = parseArgs();
 const slug = args._[0];
@@ -50,6 +50,7 @@ await renderVideo(edl, raw, {
   },
 });
 
+cleanupBundle();
 console.log('→ Normalizando loudness (−14 LUFS / −1 dBTP)…');
 const pass1 = run('ffmpeg', ['-hide_banner', '-i', raw, '-af', 'loudnorm=I=-14:TP=-1.5:LRA=9:print_format=json', '-f', 'null', '-']).stderr;
 const m = JSON.parse(pass1.slice(pass1.lastIndexOf('{'), pass1.lastIndexOf('}') + 1));

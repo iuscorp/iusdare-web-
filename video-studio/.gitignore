@@ -27,3 +27,4 @@ canvas/selftest-*/
 # fuente comercial con licencia: no redistribuir
 public/fonts/DrukWide-*
 models/
+.build/
