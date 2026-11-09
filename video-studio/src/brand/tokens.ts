@@ -16,7 +16,8 @@ export const FORMAT = {
 export const COLORS = {
   // [REF] amarillo del subtítulo palabra-a-palabra (muestreado: ~#FFE81A con glow amarillo)
   captionYellow: '#FFE61B',
-  captionGlow: 'rgba(255, 221, 0, 0.85)',
+  // [MARCA] brillo reducido para mejorar la lectura (antes 0.85)
+  captionGlow: 'rgba(255, 214, 0, 0.42)',
   // [MARCA] trazo delgado del subtítulo: un tono más oscuro del amarillo
   captionStroke: '#D9A800',
   captionShadow: 'rgba(60, 40, 0, 0.55)',

@@ -50,7 +50,14 @@ export const captionSchema = z.object({
   y: z.number().optional(),
 });
 
-const base = {start: z.number(), end: z.number(), x: z.number().optional(), y: z.number().optional()};
+const base = {
+  start: z.number(),
+  end: z.number(),
+  x: z.number().optional(),
+  y: z.number().optional(),
+  /** se dibuja DETRÁS del presentador (requiere edl.personMatte, scripts/matte.mjs) */
+  behindPerson: z.boolean().optional(),
+};
 
 export const overlaySchema = z.discriminatedUnion('type', [
   z.object({...base, type: z.literal('sticker'), emoji: z.string(), size: z.number().default(170)}),
@@ -68,7 +75,14 @@ export const overlaySchema = z.discriminatedUnion('type', [
   z.object({...base, type: z.literal('photoCard'), image: z.string(), rotate: z.number().default(-4)}),
   z.object({...base, type: z.literal('backgroundPlate'), image: z.string()}),
   z.object({...base, type: z.literal('bigLetter'), text: z.string()}),
-  z.object({...base, type: z.literal('kineticWord'), syllables: z.array(z.string()), stepFrames: z.number().optional()}),
+  z.object({
+    ...base,
+    type: z.literal('kineticWord'),
+    syllables: z.array(z.string()),
+    stepFrames: z.number().optional(),
+    /** 'stack' = una sílaba por fila [REF]; 'rows' = palabra en 2 filas grandes (ideal detrás de la persona) */
+    layout: z.enum(['stack', 'rows']).optional(),
+  }),
   z.object({...base, type: z.literal('revealTitle'), lines: z.array(z.string()), stepFrames: z.number().optional()}),
   z.object({...base, type: z.literal('textBadge'), text: z.string()}),
   z.object({...base, type: z.literal('denyMark')}),
@@ -115,6 +129,8 @@ export const edlSchema = z.object({
    * cx = centro horizontal, top = borde superior del pelo; normalizados 0–1.
    * Si existe, el subtítulo sigue la cabeza fotograma a fotograma.
    */
+  /** recorte del presentador con alfa (WebM VP9), tiempo FUENTE, mismo tamaño que el footage */
+  personMatte: z.string().optional(),
   headTrack: z
     .object({fps: z.number(), cx: z.array(z.number()), top: z.array(z.number())})
     .optional(),

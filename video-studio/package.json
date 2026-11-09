@@ -37,6 +37,8 @@
   "devDependencies": {
     "@lobehub/fluent-emoji-3d": "1.1.0",
     "@types/react": "19.1.8",
+    "emoji-datasource-apple": "16.0.0",
+    "emoji-image": "10.13.1",
     "typescript": "5.8.3"
   }
 }

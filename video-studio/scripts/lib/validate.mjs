@@ -18,6 +18,7 @@ export const edlSchemaCheck = (edl) => {
     if (!TYPES.includes(o.type)) errs.push(`Overlay ${i}: tipo desconocido ${o.type}.`);
     if (!(o.end > o.start)) errs.push(`Overlay ${i} (${o.type}): end ≤ start.`);
   });
+  if (edl.overlays?.some((o) => o.behindPerson) && !edl.personMatte) errs.push('Hay recursos behindPerson pero falta personMatte (se genera con canvas/render).');
   edl.sfx?.forEach((s, i) => {
     if (!SFX.includes(s.name)) errs.push(`SFX ${i}: nombre desconocido ${s.name}.`);
   });

@@ -1,5 +1,5 @@
 # QC — Video 1026
-Archivo: `previews/video-1026/video-1026-preview.mp4` · 2026-11-09T05:30:56.664Z
+Archivo: `previews/video-1026/video-1026-preview.mp4` · 2026-11-09T05:47:47.755Z
 
 | Verificación | Estado | Detalle |
 |---|---|---|
@@ -11,11 +11,12 @@ Archivo: `previews/video-1026/video-1026-preview.mp4` · 2026-11-09T05:30:56.664
 | True peak | ✅ | -1.4 dBFS |
 | Silencios residuales (>0.6 s) | ✅ | ninguno |
 | Primera palabra en el frame 0 | ✅ | 0.00 s |
-| Sincronía de subtítulos | ✅ | mediana 0 ms, p90 |20| ms, 116/120 palabras alineadas |
-| Ortografía / términos | ✅ | 4 palabras de subtítulo no coinciden con lo que se oye (revisar lista) |
+| Sincronía de subtítulos | ✅ | mediana 0 ms, p90 |20| ms, 115/120 palabras alineadas |
+| Ortografía / términos | ✅ | 5 palabras de subtítulo no coinciden con lo que se oye (revisar lista) |
 
 ## Palabras a verificar
 - 2.30 s: subtítulo “Eso” / se oye “Esa”
+- 8.02 s: subtítulo “quieren” / se oye “Y”
 - 27.71 s: subtítulo “sigue” / se oye “que”
 - 27.91 s: subtítulo “a” / se oye “abocare”
 - 28.10 s: subtítulo “Vocare” / se oye “Iuris”

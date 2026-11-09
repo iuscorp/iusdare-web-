@@ -49,9 +49,8 @@ export const WordCaption: React.FC<{
         WebkitTextStroke: CAPTION.strokeWidth > 0 ? `${CAPTION.strokeWidth * 2}px ${COLORS.captionStroke}` : undefined,
         paintOrder: 'stroke fill',
         textShadow: [
-          `0 0 10px ${COLORS.captionGlow}`,
-          `0 0 22px ${COLORS.captionGlow}`,
-          `0 0 30px rgba(255, 214, 0, 0.3)`,
+          `0 0 6px ${COLORS.captionGlow}`,
+          `0 0 14px ${COLORS.captionGlow}`,
           `0 3px 4px ${COLORS.captionShadow}`,
         ].join(', '),
         whiteSpace: 'nowrap',

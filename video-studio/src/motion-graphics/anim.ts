@@ -15,4 +15,4 @@ export const emojiFile = (emoji: string) =>
   `stickers/${Array.from(emoji)
     .map((c) => c.codePointAt(0)!.toString(16))
     .filter((cp) => cp !== 'fe0f')
-    .join('-')}.webp`;
+    .join("-")}.png`;

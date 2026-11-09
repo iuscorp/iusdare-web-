@@ -52,17 +52,17 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 0 ms, p90 |20| ms, 116/120 palabras alineadas"
+      "detail": "mediana 0 ms, p90 |20| ms, 115/120 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
       "ok": true,
       "level": "ok",
-      "detail": "4 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "detail": "5 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 116,
+    "matched": 115,
     "total": 120,
     "medianOffset": 0,
     "p90AbsOffset": 0.019999999999999574,
@@ -71,6 +71,11 @@
         "at": 2.3,
         "caption": "Eso",
         "heard": "Esa"
+      },
+      {
+        "at": 8.02,
+        "caption": "quieren",
+        "heard": "Y"
       },
       {
         "at": 27.713,

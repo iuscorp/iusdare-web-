@@ -338,7 +338,7 @@
       "emphasis": false
     },
     {
-      "text": "quieres",
+      "text": "quieren",
       "start": 8.02,
       "end": 8.22,
       "emphasis": false
@@ -963,7 +963,10 @@
       ],
       "stepFrames": 4,
       "start": 24.087,
-      "end": 25.167
+      "end": 25.167,
+      "behindPerson": true,
+      "y": 0.045,
+      "layout": "rows"
     },
     {
       "type": "denyMark",
@@ -2912,5 +2915,6 @@
       0.2444,
       0.2447
     ]
-  }
+  },
+  "personMatte": "footage/video-1026/person.webm"
 }

@@ -32,7 +32,7 @@ tiempos de `captions`, `overlays`, `sfx` = segundos de la **edición final**.
 | `lawCard` | `title`, `subtitle`, `footnote`, `color` | REF | Primera mención de una norma o artículo |
 | `selectionLabel` | `text`, `cursor` | REF | Término técnico que el público debe recordar |
 | `revealTitle` | `lines` | REF | El veredicto («Eso es / ilegal»), 1 por video |
-| `kineticWord` | `syllables` | REF | Verbo-acción clave (De·nun·ciar), 1 por video |
+| `kineticWord` | `syllables`, `layout` (`stack`/`rows`) | REF | Verbo-acción clave (De·nun·ciar), 1 por video. Con `behindPerson: true` y `layout: "rows"` va detrás del presentador |
 | `textBadge` | `text` | REF | Edades, plazos, montos: «(+14)», «30 días», «S/ 500» |
 | `denyMark` | — | REF | Negación («no», «no puede») |
 | `emojiEquation` | `items` | REF | Requisitos como fórmula (⚙️ + ⏳ ?) |
@@ -44,6 +44,16 @@ tiempos de `captions`, `overlays`, `sfx` = segundos de la **edición final**.
 | `verdictStamp` | `text`, `tone` | REC | Alternativa sobria al título de revelación |
 | `stepList` | `title`, `steps` | REC | «¿Qué hacer?» con 2–3 pasos |
 | `comparison` | `left`, `right` | REC | Público vs privado, permitido vs prohibido |
+
+## Emojis (estilo iOS)
+Todos los gráficos de emoji usan el diseño de **Apple / iOS** (decisión de Vocare Iuris), incluida la
+negación (❌). Fuente: `emoji-image` (160 px) y, si no existe ahí, `emoji-datasource-apple` (64 px
+reescalado). Son diseño de Apple: se instalan con `npm install` y no se suben al repositorio.
+
+## Texto detrás de la persona
+Cualquier recurso con `"behindPerson": true` se dibuja entre el fondo y el presentador.
+`canvas`/`render` generan automáticamente `public/footage/<slug>/person.webm` (recorte con alfa,
+MediaPipe selfie_multiclass, ~5 min por 30 s de video en CPU) y lo registran en `edl.personMatte`.
 
 ## SFX (`public/sfx/`)
 `pop` (sticker) · `type` (tarjeta) · `click` (selección) · `whoosh` (punch-in/crash) ·

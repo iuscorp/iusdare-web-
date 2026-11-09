@@ -13,6 +13,7 @@ import path from 'node:path';
 import {frameAt, run} from './lib/ff.mjs';
 import {PUBLIC_DIR, STUDIO_ROOT, parseArgs, projectPaths, readJson, writeJson} from './lib/paths.mjs';
 import {emojisInEdl, ensureStickers} from './lib/assets.mjs';
+import {ensurePersonMatte} from './lib/matte.mjs';
 
 const args = parseArgs();
 const slug = args._[0];
@@ -24,6 +25,7 @@ const probe = fs.existsSync(P.probe) ? readJson(P.probe) : null;
 const codes = readJson(path.join(STUDIO_ROOT, 'templates', 'native-codes.json'));
 const brief = fs.existsSync(P.brief) ? fs.readFileSync(P.brief, 'utf8') : '';
 ensureStickers(emojisInEdl(edl));
+if (ensurePersonMatte(slug, edl)) writeJson(P.edl, edl);
 
 const media = path.join(P.canvasDir, 'media');
 fs.mkdirSync(media, {recursive: true});

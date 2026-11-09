@@ -46,7 +46,44 @@ export const RevealTitle: React.FC<{lines: string[]; stepFrames?: number; x?: nu
  * cada sílaba entra al ritmo de la pronunciación. Pattern interrupt tipográfico para la
  * palabra-acción del video (denunciar, reclamar, exigir). Oculta el subtítulo mientras dura.
  */
-export const KineticWord: React.FC<{syllables: string[]; stepFrames?: number; x?: number; y?: number}> = ({
+export const KineticWord: React.FC<{syllables: string[]; stepFrames?: number; x?: number; y?: number; layout?: 'stack' | 'rows'}> = (props) =>
+  props.layout === 'rows' ? <KineticRows {...props} /> : <KineticStack {...props} />;
+
+/**
+ * Variante en 2 filas: la palabra se arma sílaba a sílaba en dos líneas grandes que ocupan el
+ * ancho del cuadro. Pensada para ir DETRÁS de la persona: la cabeza tapa sólo la base de la
+ * segunda fila y la palabra sigue leyéndose.
+ */
+const KineticRows: React.FC<{syllables: string[]; stepFrames?: number; y?: number}> = ({syllables, stepFrames = 4, y = 0.05}) => {
+  const frame = useCurrentFrame();
+  const {fps, width, height} = useVideoConfig();
+  const mid = Math.ceil(syllables.length / 2);
+  const rows = [syllables.slice(0, mid), syllables.slice(mid)];
+  const longest = Math.max(...rows.map((r) => r.join('').length));
+  // Druk Wide / Archivo Expanded ≈ 0.95 em por carácter
+  const fontSize = Math.min(300, (width * 0.94) / (longest * 0.95));
+  let idx = 0;
+  return (
+    <div style={{position: 'absolute', left: 0, right: 0, top: y * height, textAlign: 'center'}}>
+      {rows.map((r, ri) => (
+        <div key={ri} style={{fontFamily: FONTS.wide, fontStretch: '125%', fontWeight: 900, fontSize, lineHeight: 0.92, letterSpacing: '-0.02em', color: COLORS.captionYellow, whiteSpace: 'nowrap'}}>
+          {r.map((syl) => {
+            const i = idx++;
+            if (frame < i * stepFrames) return null;
+            const p = popIn(frame - i * stepFrames, fps);
+            return (
+              <span key={i} style={{display: 'inline-block', transform: `scale(${interpolate(p, [0, 1], [1.4, 1])})`, opacity: interpolate(p, [0, 0.4], [0, 1], {extrapolateRight: 'clamp'})}}>
+                {syl}
+              </span>
+            );
+          })}
+        </div>
+      ))}
+    </div>
+  );
+};
+
+const KineticStack: React.FC<{syllables: string[]; stepFrames?: number; x?: number; y?: number}> = ({
   syllables,
   stepFrames = 5,
   x = 0.5,

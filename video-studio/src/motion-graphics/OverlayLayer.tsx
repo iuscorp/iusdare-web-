@@ -30,7 +30,7 @@ export const renderOverlay = (o: Overlay, durationInFrames: number) => {
     case 'denyMark':
       return <DenyMark durationInFrames={durationInFrames} {...clean(pos)} />;
     case 'kineticWord':
-      return <KineticWord syllables={o.syllables} stepFrames={o.stepFrames} {...clean(pos)} />;
+      return <KineticWord syllables={o.syllables} stepFrames={o.stepFrames} layout={o.layout} {...clean(pos)} />;
     case 'revealTitle':
       return <RevealTitle lines={o.lines} stepFrames={o.stepFrames} {...clean(pos)} />;
     case 'textBadge':
@@ -50,12 +50,15 @@ const clean = <T extends Record<string, unknown>>(o: T) =>
   Object.fromEntries(Object.entries(o).filter(([, v]) => v !== undefined)) as Partial<T>;
 
 /** Capas que van DETRÁS del subtítulo pero encima del video. backgroundPlate va primero. */
-export const OverlayLayer: React.FC<{overlays: Overlay[]; layer: 'back' | 'front'}> = ({overlays, layer}) => {
+export const OverlayLayer: React.FC<{overlays: Overlay[]; layer: 'back' | 'behind' | 'front'}> = ({overlays, layer}) => {
   const {fps} = useVideoConfig();
   return (
     <>
       {overlays
-        .filter((o) => (layer === 'back') === (o.type === 'backgroundPlate'))
+        .filter((o) => {
+          const kind = o.type === 'backgroundPlate' ? 'back' : o.behindPerson ? 'behind' : 'front';
+          return kind === layer;
+        })
         .map((o, i) => {
           const from = Math.round(o.start * fps);
           const dur = Math.max(1, Math.round((o.end - o.start) * fps));

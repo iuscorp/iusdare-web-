@@ -23,7 +23,8 @@ al final de frase). Cada corte alterna `base` ↔ `subtleIn`; la revelación y l
 
 ## Subtítulos
 - DM Sans Bold (itálica), amarillo `#FFE61B`, trazo exterior delgado amarillo oscuro `#D9A800`
-  (`CAPTION.strokeWidth`, `COLORS.captionStroke`), glow amarillo y sombra corta.
+  (`CAPTION.strokeWidth`, `COLORS.captionStroke`), glow amarillo **suave** (`COLORS.captionGlow`, reducido
+  para mejorar la lectura) y sombra corta.
 - 1 palabra por vez, desde el inicio de la palabra hasta el inicio de la siguiente (sin huecos).
 - Minúsculas salvo siglas y números; signos de puntuación eliminados.
 - Énfasis (+12 % y micro-pop) en: ilegal, derecho(s), delito, ley, constitución, prohibido,

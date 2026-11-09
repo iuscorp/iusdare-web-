@@ -46,6 +46,8 @@ export const VocareEdit: React.FC<Edl> = (edl) => {
       </ColorLook>
 
       <OverlayLayer overlays={edl.overlays} layer="back" />
+      <OverlayLayer overlays={edl.overlays} layer="behind" />
+      {edl.personMatte ? <PersonLayer edl={edl} starts={starts} segFrames={segFrames} /> : null}
       <OverlayLayer overlays={edl.overlays} layer="front" />
 
       {edl.captions.map((c, i) => {
@@ -94,6 +96,55 @@ const headAnchor = (edl: Edl, starts: number[], segFrames: number[], frame: numb
     x: Math.min(CAPTION.maxX, Math.max(CAPTION.minX, hx)),
     y: Math.max(CAPTION.minY, hy - CAPTION.headGap),
   };
+};
+
+/**
+ * Recorte del presentador (alfa) encima de los recursos "behindPerson": sólo mientras alguno
+ * está en pantalla, sincronizado con el plano y con el mismo reencuadre que el video.
+ */
+const PersonLayer: React.FC<{edl: Edl; starts: number[]; segFrames: number[]}> = ({edl, starts, segFrames}) => {
+  const {fps} = useVideoConfig();
+  const src = staticFile(edl.personMatte!);
+  const pieces: Array<{from: number; dur: number; seg: Segment; offset: number; k: number}> = [];
+  edl.overlays
+    .filter((o) => o.behindPerson)
+    .forEach((o) => {
+      const a = Math.round(o.start * fps);
+      const b = Math.round(o.end * fps);
+      edl.segments.forEach((seg, k) => {
+        const s0 = starts[k];
+        const s1 = s0 + segFrames[k];
+        const from = Math.max(a, s0);
+        const to = Math.min(b, s1);
+        if (to > from) pieces.push({from, dur: to - from, seg, offset: from - s0, k});
+      });
+    });
+  return (
+    <>
+      {pieces.map((p, i) => (
+        <Sequence key={i} from={p.from} durationInFrames={p.dur} layout="none" name={`recorte persona ${p.seg.id}`}>
+          <MatteClip seg={p.seg} src={src} offset={p.offset} segDuration={segFrames[p.k]} />
+        </Sequence>
+      ))}
+    </>
+  );
+};
+
+const MatteClip: React.FC<{seg: Segment; src: string; offset: number; segDuration: number}> = ({seg, src, offset, segDuration}) => {
+  const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const t = segmentTransform(seg, frame + offset, segDuration, fps);
+  return (
+    <AbsoluteFill style={{overflow: 'hidden'}}>
+      <OffthreadVideo
+        src={src}
+        transparent
+        muted
+        trimBefore={Math.round(seg.in * fps) + offset}
+        style={{width: '100%', height: '100%', objectFit: 'cover', ...transformCss(t)}}
+      />
+    </AbsoluteFill>
+  );
 };
 
 const SegmentClip: React.FC<{seg: Segment; src: string; durationInFrames: number}> = ({seg, src, durationInFrames}) => {

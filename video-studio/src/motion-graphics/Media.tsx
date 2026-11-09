@@ -1,7 +1,7 @@
 import React from 'react';
 import {AbsoluteFill, Img, interpolate, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {COLORS, FONTS} from '../brand/tokens';
-import {bob, popIn} from './anim';
+import {bob, emojiFile, popIn} from './anim';
 
 const src = (p: string) => (/^https?:\/\//.test(p) ? p : staticFile(p));
 
@@ -138,10 +138,10 @@ export const BigLetter: React.FC<{text: string; x?: number; y?: number}> = ({tex
 };
 
 /**
- * Aspa roja de negación [REF: ✖ rojo que entra desde la izquierda, se detiene junto al
- * presentador al decir "no…" y sale por la derecha]. Entrada 4 frames, salida 4 frames.
+ * Negación con el emoji ❌ de iOS [REF: aspa roja que entra desde la izquierda, se detiene junto
+ * al presentador al decir "no…" y sale por la derecha]. Entrada 4 frames, salida 4 frames.
  */
-export const DenyMark: React.FC<{x?: number; y?: number; size?: number; durationInFrames?: number}> = ({x = 0.3, y = 0.62, size = 170, durationInFrames = 30}) => {
+export const DenyMark: React.FC<{x?: number; y?: number; size?: number; durationInFrames?: number}> = ({x = 0.3, y = 0.62, size = 160, durationInFrames = 30}) => {
   const frame = useCurrentFrame();
   const {width, height} = useVideoConfig();
   const enter = interpolate(frame, [0, 4], [-0.35, 0], {extrapolateRight: 'clamp'});
@@ -149,14 +149,9 @@ export const DenyMark: React.FC<{x?: number; y?: number; size?: number; duration
   const dx = (enter + exit) * width;
   const rot = interpolate(frame, [0, 4], [-60, 0], {extrapolateRight: 'clamp'});
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 120 120"
-      style={{position: 'absolute', left: x * width - size / 2 + dx, top: y * height - size / 2, transform: `rotate(${rot}deg)`, filter: 'drop-shadow(0 6px 8px rgba(0,0,0,0.3))'}}
-    >
-      <line x1={14} y1={14} x2={106} y2={106} stroke={COLORS.deny} strokeWidth={24} strokeLinecap="round" />
-      <line x1={106} y1={14} x2={14} y2={106} stroke={COLORS.deny} strokeWidth={24} strokeLinecap="round" />
-    </svg>
+    <Img
+      src={staticFile(emojiFile('❌'))}
+      style={{position: 'absolute', width: size, height: size, left: x * width - size / 2 + dx, top: y * height - size / 2, transform: `rotate(${rot}deg)`, filter: 'drop-shadow(0 6px 8px rgba(0,0,0,0.3))'}}
+    />
   );
 };
