@@ -3,6 +3,7 @@ import {Sequence, useVideoConfig} from 'remotion';
 import type {Overlay} from '../lib/schema';
 import {Comparison, EmojiEquation, StepList, VerdictStamp} from './Explainers';
 import {LawCard} from './LawCard';
+import {LawPage} from './LawPage';
 import {BackgroundPlate, BigLetter, DenyMark, DocumentCover, LogoBadge, PhotoCard} from './Media';
 import {SelectionLabel} from './SelectionLabel';
 import {KineticWord, RevealTitle, TextBadge} from './Kinetic';
@@ -22,7 +23,9 @@ export const renderOverlay = (o: Overlay, durationInFrames: number) => {
     case 'logoBadge':
       return <LogoBadge image={o.image} label={o.label} {...clean(pos)} />;
     case 'photoCard':
-      return <PhotoCard image={o.image} rotate={o.rotate} {...clean(pos)} />;
+      return <PhotoCard image={o.image} rotate={o.rotate} w={o.w} h={o.h} label={o.label} {...clean(pos)} />;
+    case 'lawPage':
+      return <LawPage source={o.source} heading={o.heading} body={o.body} highlightAt={o.highlightAt} rotate={o.rotate} {...clean(pos)} />;
     case 'backgroundPlate':
       return <BackgroundPlate image={o.image} />;
     case 'bigLetter':

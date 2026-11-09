@@ -72,7 +72,27 @@ export const overlaySchema = z.discriminatedUnion('type', [
   z.object({...base, type: z.literal('selectionLabel'), text: z.string(), cursor: z.boolean().default(true)}),
   z.object({...base, type: z.literal('documentCover'), image: z.string(), label: z.string().optional()}),
   z.object({...base, type: z.literal('logoBadge'), image: z.string(), label: z.string().optional()}),
-  z.object({...base, type: z.literal('photoCard'), image: z.string(), rotate: z.number().default(-4)}),
+  z.object({
+    ...base,
+    type: z.literal('photoCard'),
+    image: z.string(),
+    rotate: z.number().default(-4),
+    w: z.number().optional(),
+    h: z.number().optional(),
+    label: z.string().optional(),
+    /** crédito/licencia de la foto (no se muestra; va a la descripción) */
+    credit: z.string().optional(),
+  }),
+  z.object({
+    ...base,
+    type: z.literal('lawPage'),
+    source: z.string(),
+    heading: z.string(),
+    /** texto literal de la norma; **así** se resalta */
+    body: z.string(),
+    highlightAt: z.union([z.number(), z.array(z.number())]).optional(),
+    rotate: z.number().optional(),
+  }),
   z.object({...base, type: z.literal('backgroundPlate'), image: z.string()}),
   z.object({...base, type: z.literal('bigLetter'), text: z.string()}),
   z.object({

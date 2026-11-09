@@ -46,6 +46,8 @@ export const FONTS = {
   // [APROX] Título de revelación serif ("Eso es ilegal"): fuente no confirmada por el equipo.
   // Playfair Display 900 comprimida (scaleX 0.7) como equivalente libre.
   reveal: "'VI Reveal', 'Playfair Display', Georgia, serif",
+  /** texto de normas impresas (lawPage) */
+  serif: "'VI Serif', 'Playfair Display', Georgia, serif",
 } as const;
 
 export const CAPTION = {

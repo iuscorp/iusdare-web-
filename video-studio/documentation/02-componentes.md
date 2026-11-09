@@ -38,7 +38,8 @@ tiempos de `captions`, `overlays`, `sfx` = segundos de la **edición final**.
 | `emojiEquation` | `items` | REF | Requisitos como fórmula (⚙️ + ⏳ ?) |
 | `documentCover` | `image`, `label` | REF | Mostrar el código/ley físico |
 | `logoBadge` | `image`, `label` | REF | Institución citada (Indecopi, SBS, SUNAFIL) |
-| `photoCard` | `image`, `rotate` | REF | Ejemplo visual concreto |
+| `photoCard` | `image`, `rotate`, `w`, `h`, `label`, `credit` | REF | Ejemplo visual concreto (foto con marco blanco, zoom lento, etiqueta amarilla) |
+| `lawPage` | `source`, `heading`, `body` (`**resaltado**`), `highlightAt` | REC | La norma impresa con resaltador sincronizado: prueba visual |
 | `backgroundPlate` | `image` | REF* | Contexto en la pared (*sin recorte de persona: franja superior) |
 | `bigLetter` | `text` | REF | Variante de una sola letra/palabra gigante |
 | `verdictStamp` | `text`, `tone` | MARCA | **Sello de impacto «ESO ES ILEGAL»** (en una pieza, cae de golpe y sacude) con `riser` + `stamp` + `fahhh` |

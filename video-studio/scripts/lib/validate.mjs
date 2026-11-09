@@ -1,5 +1,5 @@
 /** Validación ligera del EDL en Node (el esquema completo zod se aplica en Remotion). */
-const TYPES = ['sticker', 'lawCard', 'selectionLabel', 'documentCover', 'logoBadge', 'photoCard', 'backgroundPlate', 'bigLetter', 'denyMark', 'verdictStamp', 'stepList', 'comparison', 'emojiEquation', 'kineticWord', 'revealTitle', 'textBadge'];
+const TYPES = ['sticker', 'lawCard', 'selectionLabel', 'documentCover', 'logoBadge', 'photoCard', 'lawPage', 'backgroundPlate', 'bigLetter', 'denyMark', 'verdictStamp', 'stepList', 'comparison', 'emojiEquation', 'kineticWord', 'revealTitle', 'textBadge'];
 const SFX = ['pop', 'click', 'poi', 'kiran', 'fahhh', 'riser', 'stamp', 'whoosh', 'type', 'ding', 'boom', 'swish'];
 
 export const edlSchemaCheck = (edl) => {

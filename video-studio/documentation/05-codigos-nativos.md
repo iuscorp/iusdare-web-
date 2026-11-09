@@ -31,7 +31,8 @@ públicos** y este estudio no los inventa.
 | **CTA** | GC + REF | «Sigue a Vocare Iuris y guarda este video» → guardados | plano `base`, nada encima |
 | **Ruptura de patrón** | GC + REF | Recuperar atención y marcar una idea | `punchIn`, `crash`, `sticker`, `denyMark`, `kineticWord` |
 | **Subtítulos que enganchan** | GC + REF | Comprensión sin sonido | `WordCaption` |
-| **Estímulos visuales / B-roll** | GC + REF | Representar la situación cotidiana | `sticker`, `photoCard`, `backgroundPlate` |
+| **Estímulos visuales / B-roll** | GC + REF | Representar la situación cotidiana con FOTOS reales (no sólo emojis): el local, el trabajo, la cárcel… | `photoCard` (foto con marco, zoom lento y etiqueta), `sticker`, `backgroundPlate` |
+| **Prueba visual de la norma** | GC (Build Up) + REC | El público VE el artículo: hoja impresa con el texto literal y resaltador amarillo sincronizado con la voz | `lawPage` (`highlightAt` por frase) |
 | **Estímulos auditivos / sonido** | GC | Reforzar la aparición sin tapar la voz | `SfxLayer` (−14…−22 dB) |
 | **Zona segura** | GC | Que la UI de TikTok/Reels no tape textos | `SAFE_ZONE`, `showSafeZones` |
 | **Natividad** | GC + REF | Sentirse creado para la plataforma (micrófono en mano, interfaz de editor visible, sin intro) | reglas de encuadre + `selectionLabel` |
@@ -46,6 +47,12 @@ públicos** y este estudio no los inventa.
    «función» del canvas (sección D). Si no se puede, se elimina.
 2. **La precisión jurídica manda**: los textos en pantalla (número de ley, artículo, institución)
    se escriben desde el brief, nunca desde la transcripción automática.
-3. **Un estímulo cada ≤ 3 s, nunca dos grandes a la vez.**
+3. **Un estímulo cada ≤ 3 s (ideal ≤ 2.5 s), nunca dos grandes a la vez.** Alternar tipo (foto / norma / tarjeta / emoji / sello) y lado, y cambiar el encuadre en cada plano.
 4. **Máximo 1** crash zoom, 1 título de revelación, 1 palabra cinética por video.
 5. El tono es cercano y profesional: emojis como actores/emociones, no como decoración.
+
+6. **Fotos de ejemplo**: sólo con licencia libre (Openverse / Wikimedia Commons, CC BY / CC BY-SA / CC0),
+   guardadas en `public/footage/<slug>/photos/` (no se suben al repo) y con su crédito en
+   `projects/<slug>/photo-credits.json` → los créditos van en la descripción de la publicación.
+7. **Normas impresas (`lawPage`)**: el texto es el literal de la norma (fuente oficial), nunca la
+   transcripción. Si se recorta, usar «…».

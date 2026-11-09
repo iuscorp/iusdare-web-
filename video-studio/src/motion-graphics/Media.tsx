@@ -61,24 +61,39 @@ export const LogoBadge: React.FC<{image: string; label?: string; x?: number; y?:
   );
 };
 
-/** Foto de apoyo tipo "recorte" [REF: fotos de ejemplo con borde blanco al costado]. */
-export const PhotoCard: React.FC<{image: string; rotate?: number; x?: number; y?: number}> = ({image, rotate = -4, x = 0.72, y = 0.66}) => {
+/**
+ * Foto de ejemplo tipo "recorte" [REF: fotos de ejemplo con borde blanco al costado].
+ * Entra con pop + giro, hace un zoom lento dentro del marco (Ken Burns) y puede llevar
+ * una etiqueta amarilla debajo («Restaurante», «Discoteca»…).
+ */
+export const PhotoCard: React.FC<{image: string; rotate?: number; x?: number; y?: number; w?: number; h?: number; label?: string}> = ({
+  image,
+  rotate = -4,
+  x = 0.72,
+  y = 0.66,
+  w = 300,
+  h = 380,
+  label,
+}) => {
   const frame = useCurrentFrame();
   const {fps, width, height} = useVideoConfig();
   const p = popIn(frame, fps);
+  const kb = interpolate(frame, [0, fps * 3], [1.0, 1.12], {extrapolateRight: 'clamp'});
   return (
     <div
       style={{
         position: 'absolute',
         left: x * width,
-        top: y * height,
-        transform: `translate(-50%, -50%) scale(${interpolate(p, [0, 1], [0.4, 1])}) rotate(${rotate}deg)`,
-        background: 'white',
-        padding: 8,
-        boxShadow: '0 14px 28px rgba(0,0,0,0.35)',
+        top: y * height + bob(frame, 3, 60),
+        transform: `translate(-50%, -50%) scale(${interpolate(p, [0, 1], [0.4, 1])}) rotate(${interpolate(p, [0, 1], [rotate * 3, rotate])}deg)`,
       }}
     >
-      <Img src={src(image)} style={{width: 300, height: 380, objectFit: 'cover', display: 'block'}} />
+      <div style={{background: 'white', padding: 10, boxShadow: '0 18px 34px rgba(0,0,0,0.4)'}}>
+        <div style={{width: w, height: h, overflow: 'hidden'}}>
+          <Img src={src(image)} style={{width: w, height: h, objectFit: 'cover', display: 'block', transform: `scale(${kb})`}} />
+        </div>
+      </div>
+      {label ? <div style={{...glowLabel, fontSize: 56, marginTop: 14}}>{label}</div> : null}
     </div>
   );
 };

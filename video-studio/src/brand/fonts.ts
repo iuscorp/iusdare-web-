@@ -29,6 +29,8 @@ const FACES: Face[] = [
   {family: 'VI Card', file: 'fonts/poppins-latin-800-normal.woff2', weight: '800'},
   {family: 'VI Wide Fallback', file: 'fonts/archivo-latin-wdth-normal.woff2', weight: '100 900', stretch: '62% 125%'},
   {family: 'VI Reveal', file: 'fonts/playfair-display-latin-900-normal.woff2', weight: '900'},
+  {family: 'VI Serif', file: 'fonts/playfair-display-latin-400-normal.woff2', weight: '400'},
+  {family: 'VI Serif', file: 'fonts/playfair-display-latin-700-normal.woff2', weight: '700'},
   ...DRUK_WIDE_FILES.map((file) => ({family: 'VI Wide', file, weight: '700 900', optional: true})),
 ];
 
