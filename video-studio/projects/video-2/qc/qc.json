@@ -28,7 +28,7 @@
       "name": "Duración",
       "ok": true,
       "level": "ok",
-      "detail": "67.00 s (EDL 66.92 s)"
+      "detail": "65.60 s (EDL 65.50 s)"
     },
     {
       "name": "Fotogramas negros",
@@ -50,9 +50,9 @@
     },
     {
       "name": "Silencios residuales (>0.6 s)",
-      "ok": false,
-      "level": "warn",
-      "detail": "49.93–51.05"
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
     },
     {
       "name": "Primera palabra en el frame 0",
@@ -64,20 +64,20 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 2 ms, p90 |163| ms, 161/192 palabras alineadas"
+      "detail": "mediana 2 ms, p90 |147| ms, 163/192 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
       "ok": false,
       "level": "warn",
-      "detail": "31 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "detail": "29 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 161,
+    "matched": 163,
     "total": 192,
-    "medianOffset": 0.0019999999999988916,
-    "p90AbsOffset": 0.16299999999999848,
+    "medianOffset": 0.0020000000000000018,
+    "p90AbsOffset": 0.14700000000000202,
     "mismatches": [
       {
         "at": 6.633,
@@ -165,80 +165,70 @@
         "heard": "(nada)"
       },
       {
-        "at": 48.098,
-        "caption": "municipal",
-        "heard": "autorización. La"
-      },
-      {
-        "at": 53.04,
+        "at": 52.29,
         "caption": "eliminar",
         "heard": "deliminaridad"
       },
       {
-        "at": 53.688,
+        "at": 52.938,
         "caption": "injustificadamente",
         "heard": "la"
       },
       {
-        "at": 54.975,
+        "at": 54.225,
         "caption": "tránsito",
-        "heard": "de trabajo? Porque"
+        "heard": "de trazos? Porque"
       },
       {
-        "at": 60.262,
+        "at": 59.512,
         "caption": "restringir",
         "heard": "raciar,"
       },
       {
-        "at": 60.648,
+        "at": 59.898,
         "caption": "arbitrariamente",
         "heard": "raciar, literalmente,"
       },
       {
-        "at": 61.973,
+        "at": 61.223,
         "caption": "al",
-        "heard": "el derecho a Yuri."
+        "heard": "el derecho a Yuriz."
       },
       {
-        "at": 62.273,
+        "at": 61.523,
         "caption": "libre",
-        "heard": "a Yuri. Así"
+        "heard": "a Yuriz. Así"
       },
       {
-        "at": 62.406,
+        "at": 61.656,
         "caption": "tránsito",
-        "heard": "a Yuri. Así"
+        "heard": "a Yuriz. Así"
       },
       {
-        "at": 63.212,
+        "at": 62.462,
         "caption": "sigue",
-        "heard": "que siga a buscar a"
+        "heard": "que siga buscando a"
       },
       {
-        "at": 63.66,
+        "at": 62.91,
         "caption": "Vocare",
-        "heard": "a buscar a Yuri si"
+        "heard": "buscando a Yuriz"
       },
       {
-        "at": 63.884,
+        "at": 63.134,
         "caption": "Iuris",
-        "heard": "a buscar a Yuri si guarda"
+        "heard": "buscando a Yuriz y guarde"
       },
       {
-        "at": 64.108,
-        "caption": "y",
-        "heard": "Yuri si guarda este"
-      },
-      {
-        "at": 66.151,
+        "at": 65.347,
         "caption": "necesitarlo",
-        "heard": "podrás raciar?"
+        "heard": "podrás."
       }
     ]
   },
   "loudness": {
     "integratedLufs": -14.1,
-    "lra": 12.5,
+    "lra": 12.1,
     "truePeakDb": -1.5
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/video-2/video-2-preview.mp4"

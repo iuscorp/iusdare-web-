@@ -1,5 +1,5 @@
 # QC — Video 2
-Archivo: `previews/video-2/video-2-preview.mp4` · 2026-11-09T09:03:13.538Z
+Archivo: `previews/video-2/video-2-preview.mp4` · 2026-11-09T09:24:00.160Z
 
 | Verificación | Estado | Detalle |
 |---|---|---|
@@ -7,14 +7,14 @@ Archivo: `previews/video-2/video-2-preview.mp4` · 2026-11-09T09:03:13.538Z
 | Bitrate de video | ✅ | 7.9 Mbps |
 | Espacio de color | ✅ | yuv420p · bt709 · rango tv (esperado bt709/tv como el original) |
 | FPS | ✅ | 24 (footage 24) |
-| Duración | ✅ | 67.00 s (EDL 66.92 s) |
+| Duración | ✅ | 65.60 s (EDL 65.50 s) |
 | Fotogramas negros | ✅ | ninguno |
 | Loudness | ✅ | -14.1 LUFS (objetivo −14 ±1) |
 | True peak | ✅ | -1.5 dBFS |
-| Silencios residuales (>0.6 s) | ⚠️ | 49.93–51.05 |
+| Silencios residuales (>0.6 s) | ✅ | ninguno |
 | Primera palabra en el frame 0 | ✅ | 0.09 s |
-| Sincronía de subtítulos | ✅ | mediana 2 ms, p90 |163| ms, 161/192 palabras alineadas |
-| Ortografía / términos | ⚠️ | 31 palabras de subtítulo no coinciden con lo que se oye (revisar lista) |
+| Sincronía de subtítulos | ✅ | mediana 2 ms, p90 |147| ms, 163/192 palabras alineadas |
+| Ortografía / términos | ⚠️ | 29 palabras de subtítulo no coinciden con lo que se oye (revisar lista) |
 
 ## Palabras a verificar
 - 6.63 s: subtítulo “urbanización” / se oye “una realización y”
@@ -34,20 +34,18 @@ Archivo: `previews/video-2/video-2-preview.mp4` · 2026-11-09T09:03:13.538Z
 - 34.24 s: subtítulo “gana” / se oye “den lagar. La”
 - 44.48 s: subtítulo “su” / se oye “(nada)”
 - 44.81 s: subtítulo “retiro” / se oye “(nada)”
-- 48.10 s: subtítulo “municipal” / se oye “autorización. La”
-- 53.04 s: subtítulo “eliminar” / se oye “deliminaridad”
-- 53.69 s: subtítulo “injustificadamente” / se oye “la”
-- 54.98 s: subtítulo “tránsito” / se oye “de trabajo? Porque”
-- 60.26 s: subtítulo “restringir” / se oye “raciar,”
-- 60.65 s: subtítulo “arbitrariamente” / se oye “raciar, literalmente,”
-- 61.97 s: subtítulo “al” / se oye “el derecho a Yuri.”
-- 62.27 s: subtítulo “libre” / se oye “a Yuri. Así”
-- 62.41 s: subtítulo “tránsito” / se oye “a Yuri. Así”
-- 63.21 s: subtítulo “sigue” / se oye “que siga a buscar a”
-- 63.66 s: subtítulo “Vocare” / se oye “a buscar a Yuri si”
-- 63.88 s: subtítulo “Iuris” / se oye “a buscar a Yuri si guarda”
-- 64.11 s: subtítulo “y” / se oye “Yuri si guarda este”
-- 66.15 s: subtítulo “necesitarlo” / se oye “podrás raciar?”
+- 52.29 s: subtítulo “eliminar” / se oye “deliminaridad”
+- 52.94 s: subtítulo “injustificadamente” / se oye “la”
+- 54.23 s: subtítulo “tránsito” / se oye “de trazos? Porque”
+- 59.51 s: subtítulo “restringir” / se oye “raciar,”
+- 59.90 s: subtítulo “arbitrariamente” / se oye “raciar, literalmente,”
+- 61.22 s: subtítulo “al” / se oye “el derecho a Yuriz.”
+- 61.52 s: subtítulo “libre” / se oye “a Yuriz. Así”
+- 61.66 s: subtítulo “tránsito” / se oye “a Yuriz. Así”
+- 62.46 s: subtítulo “sigue” / se oye “que siga buscando a”
+- 62.91 s: subtítulo “Vocare” / se oye “buscando a Yuriz”
+- 63.13 s: subtítulo “Iuris” / se oye “buscando a Yuriz y guarde”
+- 65.35 s: subtítulo “necesitarlo” / se oye “podrás.”
 
 ## Revisión visual (obligatoria)
 Hoja de contacto: `qc/contact-sheet.jpg` (1 fotograma/seg). Revisar: legibilidad del subtítulo,

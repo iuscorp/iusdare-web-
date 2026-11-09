@@ -100,8 +100,18 @@ test('una palabra final en voz baja no se pierde (silencio no profundo)', () => 
 });
 
 test('palabra que Whisper ubica tarde dentro de una pausa vuelve al tramo de voz previo', () => {
-  const out = refineWithSilences([W('tránsito.', 0, 0.6), W('¿Cómo', 1.5, 2.5), W('protegemos', 2.6, 3.2)], [{start: 0.62, end: 0.9}, {start: 1.2, end: 2.55}], []);
+  const out = refineWithSilences([W('tránsito.', 0, 0.6), W('¿Cómo', 1.4, 2.5), W('protegemos', 2.6, 3.2)], [{start: 0.62, end: 0.9}, {start: 1.2, end: 2.55}], []);
   assert.ok(out[1].e <= 1.2 && out[1].s >= 0.9, JSON.stringify(out[1]));
+});
+
+test('el final en voz baja de una palabra no se recorta', () => {
+  const out = refineWithSilences([W('podrás', 0, 0.36), W('necesitarlo.', 0.36, 1.05)], [{start: 0.34, end: 1.6}], [{start: 1.2, end: 1.6}]);
+  assert.ok(out[1].e >= 1.0, JSON.stringify(out[1]));
+});
+
+test('una palabra corta en voz baja tras una pausa no se mueve', () => {
+  const out = refineWithSilences([W('necesitarlo?', 0, 0.6), W('No', 1.0, 1.18), W('sabes', 1.2, 1.4)], [{start: 0.62, end: 1.3}], []);
+  assert.equal(out[1].s, 1.0);
 });
 
 console.log(`\n${n} pruebas OK`);

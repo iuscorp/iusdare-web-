@@ -93,8 +93,21 @@ export const refineWithSilences = (words, silences = [], deepSilences = null) =>
       const sIn = w.s > sil.start && w.s < sil.end;
       const eIn = w.e > sil.start && w.e < sil.end;
       if (sIn && eIn) inside.push(w);
-      else if (eIn && w.s <= sil.start) w.e = Math.max(w.s + 0.08, sil.start + 0.02);
-      else if (sIn && w.e >= sil.end) w.s = Math.min(w.e - 0.08, sil.end - 0.02);
+      else if (eIn && w.s <= sil.start) {
+        // final de palabra dentro del "silencio": si no hay silencio profundo ahí, es voz baja
+        if (!deepSilences) w.e = Math.max(w.s + 0.08, sil.start + 0.02);
+        else {
+          const deep = deepSilences.find((d) => d.start < w.e && d.end > sil.start);
+          if (deep) w.e = Math.max(w.s + 0.08, Math.max(sil.start, deep.start) + 0.02);
+          else w.e = Math.min(w.e, w.s + 1.0);
+        }
+      } else if (sIn && w.e >= sil.end) {
+        if (!deepSilences) w.s = Math.min(w.e - 0.08, sil.end - 0.02);
+        else {
+          const deep = deepSilences.find((d) => d.end > w.s && d.start < sil.end);
+          if (deep) w.s = Math.min(w.e - 0.08, Math.min(sil.end, deep.end) - 0.02);
+        }
+      }
       else if (w.s <= sil.start && w.e >= sil.end) {
         // silencio dentro de una palabra estirada: la palabra pertenece al lado más largo
         if (sil.start - w.s >= w.e - sil.end) w.e = sil.start + 0.02;
@@ -103,8 +116,12 @@ export const refineWithSilences = (words, silences = [], deepSilences = null) =>
     }
     // Si justo antes del silencio hay un tramo de voz sin palabra asignada, la palabra
     // "caída" dentro del silencio pertenece a ese tramo (Whisper la ubicó tarde).
-    if (inside.length === 1 && !isDeep(inside[0])) {
+    // firma del error de Whisper: palabra ESTIRADA (≥0.6 s) dentro de una pausa larga (≥0.8 s)
+    if (inside.length === 1 && !isDeep(inside[0]) && inside[0].e - inside[0].s >= 0.6 && sil.end - sil.start >= 0.8) {
       const w = inside[0];
+      // si la palabra sigue sin pausa a la anterior, el "silencio" es voz baja: se respeta
+      const idx = out.indexOf(w);
+      if (idx > 0 && w.s - out[idx - 1].e < 0.3) continue;
       // el tramo de voz empieza donde termina la palabra anterior o el silencio anterior
       const prevEnd = Math.max(0, ...out.filter((o) => o !== w && o.e <= sil.start + 0.01).map((o) => o.e), ...silences.filter((x) => x.end <= sil.start).map((x) => x.end));
       const island = sil.start - prevEnd;

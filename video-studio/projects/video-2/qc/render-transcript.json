@@ -1,13 +1,13 @@
 {
  "model": "small",
  "language": "es",
- "duration": 66.923,
- "text": "Puedes los vecinos cerrar una calle con una reja para así sentirse más seguros. Imagínate que vives en una realización y los vecinos dicen... Hay mucha delincuencia, podamos una reggelys. Todos se están de acuerdo. Hasta que un día quieres pasar por la calle y la regga está cerrada. Y ahora, ¿qué? ¿A quién llamas? Bueno, aquí aparece un problema constitucional. La libertad de tránsito. El T.C. ha señalado... Que la instalación de rejas o tranquilas en la vía pública es la realidad cuando busca proteger la saboria ciudadana. Pero, ojo, no significa que los vecinos puedan cerrar la calle porque se les den lagar. La media debe ser razonable y proporcional, además de contar con la autorización correspondiente. Por ejemplo, en un caso sobre rejas instaladas, en surco, el TC ordenó su retiro, porque no se acreditó la autorización. La pregunta es, ¿cómo protegemos la seguridad sin deliminaridad la libertad de trabajo? Porque sí, la seguridad es importante. Recuerda, proteger la seguridad ciudadana no permite raciar, literalmente, el derecho a Yuri. Así que siga a buscar a Yuri si guarda este video. ¿No sabes cuándo podrás raciar?",
+ "duration": 65.515,
+ "text": "¿Puedes los vecinos cerrar una calle con una reja para así sentirse más seguros? Imagínate que vives en una realización y los vecinos dicen... Hay mucha delincuencia, podamos una reggelys. Todos se están de acuerdo. Hasta que un día quieres pasar por la calle y la regga está cerrada. ¿Y ahora qué? ¿A quién llamas? Bueno, aquí aparece un problema constitucional. La libertad de tránsito. El T.C. ha señalado... Que la instalación de rejas o tranquilas en la vía pública es la realidad cuando busca proteger la saboria ciudadana. Pero, ojo, no significa que los vecinos puedan cerrar la calle porque se les den lagar. La media debe ser razonable y proporcional, además de contar con la autorización correspondiente. Por ejemplo, en un caso sobre rejas instaladas, en surco... El TC ordenó su retiro... Porque no se acreditó la autorización municipal. La pregunta es, yo no. ¿Cómo protegemos la seguridad sin deliminaridad la libertad de trazos? Porque sí, la seguridad es importante. Recuerda, proteger la seguridad ciudadana no permite raciar, literalmente, el derecho a Yuriz. Así que siga buscando a Yuriz y guarde este video. No sabes cuándo podrás.",
  "segments": [
   {
    "start": 0.0,
    "end": 4.48,
-   "text": "Puedes los vecinos cerrar una calle con una reja para así sentirse más seguros."
+   "text": "¿Puedes los vecinos cerrar una calle con una reja para así sentirse más seguros?"
   },
   {
    "start": 4.96,
@@ -25,18 +25,18 @@
    "text": "Todos se están de acuerdo."
   },
   {
-   "start": 11.66,
+   "start": 11.64,
    "end": 14.98,
    "text": "Hasta que un día quieres pasar por la calle y la regga está cerrada."
   },
   {
    "start": 15.12,
    "end": 16.68,
-   "text": "Y ahora, ¿qué? ¿A quién llamas?"
+   "text": "¿Y ahora qué? ¿A quién llamas?"
   },
   {
    "start": 16.96,
-   "end": 19.32,
+   "end": 19.34,
    "text": "Bueno, aquí aparece un problema constitucional."
   },
   {
@@ -65,53 +65,68 @@
    "text": "Pero, ojo, no significa que los vecinos puedan cerrar la calle porque se les den lagar."
   },
   {
-   "start": 34.66,
+   "start": 34.68,
    "end": 39.56,
    "text": "La media debe ser razonable y proporcional, además de contar con la autorización correspondiente."
   },
   {
-   "start": 39.76,
-   "end": 48.04,
-   "text": "Por ejemplo, en un caso sobre rejas instaladas, en surco, el TC ordenó su retiro, porque no se acreditó la autorización."
+   "start": 39.78,
+   "end": 43.1,
+   "text": "Por ejemplo, en un caso sobre rejas instaladas, en surco..."
   },
   {
-   "start": 48.4,
-   "end": 55.12,
-   "text": "La pregunta es, ¿cómo protegemos la seguridad sin deliminaridad la libertad de trabajo?"
+   "start": 43.1,
+   "end": 46.56,
+   "text": "El TC ordenó su retiro..."
   },
   {
-   "start": 55.3,
-   "end": 56.94,
+   "start": 46.56,
+   "end": 48.5,
+   "text": "Porque no se acreditó la autorización municipal."
+  },
+  {
+   "start": 48.74,
+   "end": 50.0,
+   "text": "La pregunta es, yo no."
+  },
+  {
+   "start": 50.22,
+   "end": 54.46,
+   "text": "¿Cómo protegemos la seguridad sin deliminaridad la libertad de trazos?"
+  },
+  {
+   "start": 54.52,
+   "end": 56.14,
    "text": "Porque sí, la seguridad es importante."
   },
   {
-   "start": 56.94,
-   "end": 62.42,
-   "text": "Recuerda, proteger la seguridad ciudadana no permite raciar, literalmente, el derecho a Yuri."
+   "start": 56.14,
+   "end": 61.84,
+   "text": "Recuerda, proteger la seguridad ciudadana no permite raciar, literalmente, el derecho a Yuriz."
   },
   {
-   "start": 62.7,
-   "end": 64.9,
-   "text": "Así que siga a buscar a Yuri si guarda este video."
+   "start": 61.96,
+   "end": 64.18,
+   "text": "Así que siga buscando a Yuriz y guarde este video."
   },
   {
-   "start": 65.14,
-   "end": 66.54,
-   "text": "¿No sabes cuándo podrás raciar?"
+   "start": 64.44,
+   "end": 65.44,
+   "text": "No sabes cuándo podrás."
   }
  ],
  "words": [
   {
-   "w": "Puedes",
+   "w": "¿Puedes",
    "s": 0.0,
    "e": 0.36,
-   "p": 0.615
+   "p": 0.633
   },
   {
    "w": "los",
    "s": 0.36,
    "e": 0.6,
-   "p": 0.451
+   "p": 0.536
   },
   {
    "w": "vecinos",
@@ -123,121 +138,121 @@
    "w": "cerrar",
    "s": 1.0,
    "e": 1.44,
-   "p": 0.994
+   "p": 0.995
   },
   {
    "w": "una",
    "s": 1.44,
    "e": 1.68,
-   "p": 0.957
+   "p": 0.964
   },
   {
    "w": "calle",
    "s": 1.68,
-   "e": 2.0,
-   "p": 0.989
+   "e": 1.98,
+   "p": 0.988
   },
   {
    "w": "con",
-   "s": 2.0,
+   "s": 1.98,
    "e": 2.26,
-   "p": 0.942
+   "p": 0.963
   },
   {
    "w": "una",
    "s": 2.26,
    "e": 2.48,
-   "p": 0.992
+   "p": 0.993
   },
   {
    "w": "reja",
    "s": 2.48,
    "e": 2.82,
-   "p": 0.915
+   "p": 0.917
   },
   {
    "w": "para",
    "s": 2.82,
-   "e": 3.2,
-   "p": 0.91
+   "e": 3.22,
+   "p": 0.87
   },
   {
    "w": "así",
-   "s": 3.2,
+   "s": 3.22,
    "e": 3.38,
-   "p": 0.56
+   "p": 0.522
   },
   {
    "w": "sentirse",
    "s": 3.38,
-   "e": 3.9,
+   "e": 3.88,
    "p": 0.991
   },
   {
    "w": "más",
-   "s": 3.9,
+   "s": 3.88,
    "e": 4.1,
-   "p": 0.949
+   "p": 0.956
   },
   {
-   "w": "seguros.",
+   "w": "seguros?",
    "s": 4.1,
    "e": 4.48,
-   "p": 0.872
+   "p": 0.876
   },
   {
    "w": "Imagínate",
    "s": 4.96,
    "e": 5.44,
-   "p": 0.855
+   "p": 0.75
   },
   {
    "w": "que",
    "s": 5.44,
    "e": 5.7,
-   "p": 0.956
+   "p": 0.954
   },
   {
    "w": "vives",
    "s": 5.7,
    "e": 6.06,
-   "p": 0.621
+   "p": 0.625
   },
   {
    "w": "en",
    "s": 6.06,
-   "e": 6.28,
-   "p": 0.916
+   "e": 6.3,
+   "p": 0.954
   },
   {
    "w": "una",
-   "s": 6.28,
+   "s": 6.3,
    "e": 6.44,
-   "p": 0.928
+   "p": 0.934
   },
   {
    "w": "realización",
    "s": 6.44,
-   "e": 6.92,
-   "p": 0.732
+   "e": 6.88,
+   "p": 0.746
   },
   {
    "w": "y",
-   "s": 6.92,
+   "s": 6.88,
    "e": 7.2,
-   "p": 0.611
+   "p": 0.538
   },
   {
    "w": "los",
    "s": 7.2,
    "e": 7.36,
-   "p": 0.901
+   "p": 0.919
   },
   {
    "w": "vecinos",
    "s": 7.36,
    "e": 7.62,
-   "p": 0.996
+   "p": 0.997
   },
   {
    "w": "dicen...",
@@ -249,73 +264,73 @@
    "w": "Hay",
    "s": 8.02,
    "e": 8.14,
-   "p": 0.926
+   "p": 0.896
   },
   {
    "w": "mucha",
    "s": 8.14,
    "e": 8.34,
-   "p": 0.904
+   "p": 0.903
   },
   {
    "w": "delincuencia,",
    "s": 8.34,
-   "e": 8.9,
-   "p": 0.892
+   "e": 8.92,
+   "p": 0.902
   },
   {
    "w": "podamos",
    "s": 9.06,
    "e": 9.36,
-   "p": 0.657
+   "p": 0.604
   },
   {
    "w": "una",
    "s": 9.36,
    "e": 9.7,
-   "p": 0.937
+   "p": 0.944
   },
   {
    "w": "reggelys.",
    "s": 9.7,
    "e": 10.22,
-   "p": 0.352
+   "p": 0.343
   },
   {
    "w": "Todos",
    "s": 10.34,
    "e": 10.6,
-   "p": 0.981
+   "p": 0.973
   },
   {
    "w": "se",
    "s": 10.6,
    "e": 10.86,
-   "p": 0.303
+   "p": 0.305
   },
   {
    "w": "están",
    "s": 10.86,
    "e": 11.02,
-   "p": 0.647
+   "p": 0.633
   },
   {
    "w": "de",
    "s": 11.02,
-   "e": 11.1,
-   "p": 0.897
+   "e": 11.12,
+   "p": 0.927
   },
   {
    "w": "acuerdo.",
-   "s": 11.1,
+   "s": 11.12,
    "e": 11.34,
-   "p": 0.999
+   "p": 0.998
   },
   {
    "w": "Hasta",
-   "s": 11.66,
+   "s": 11.64,
    "e": 11.82,
-   "p": 0.966
+   "p": 0.954
   },
   {
    "w": "que",
@@ -327,7 +342,7 @@
    "w": "un",
    "s": 12.0,
    "e": 12.16,
-   "p": 0.954
+   "p": 0.95
   },
   {
    "w": "día",
@@ -339,13 +354,13 @@
    "w": "quieres",
    "s": 12.4,
    "e": 12.92,
-   "p": 0.611
+   "p": 0.618
   },
   {
    "w": "pasar",
    "s": 12.92,
    "e": 13.12,
-   "p": 0.995
+   "p": 0.994
   },
   {
    "w": "por",
@@ -369,7 +384,7 @@
    "w": "y",
    "s": 13.7,
    "e": 13.96,
-   "p": 0.942
+   "p": 0.946
   },
   {
    "w": "la",
@@ -381,13 +396,13 @@
    "w": "regga",
    "s": 14.08,
    "e": 14.28,
-   "p": 0.862
+   "p": 0.814
   },
   {
    "w": "está",
    "s": 14.28,
    "e": 14.46,
-   "p": 0.95
+   "p": 0.947
   },
   {
    "w": "cerrada.",
@@ -396,58 +411,58 @@
    "p": 0.997
   },
   {
-   "w": "Y",
+   "w": "¿Y",
    "s": 15.12,
    "e": 15.2,
-   "p": 0.736
+   "p": 0.608
   },
   {
-   "w": "ahora,",
+   "w": "ahora",
    "s": 15.2,
-   "e": 15.36,
-   "p": 0.984
+   "e": 15.34,
+   "p": 0.993
   },
   {
-   "w": "¿qué?",
-   "s": 15.72,
+   "w": "qué?",
+   "s": 15.34,
    "e": 15.78,
-   "p": 0.933
+   "p": 0.84
   },
   {
    "w": "¿A",
    "s": 15.96,
-   "e": 16.1,
-   "p": 0.855
+   "e": 16.12,
+   "p": 0.898
   },
   {
    "w": "quién",
-   "s": 16.1,
+   "s": 16.12,
    "e": 16.22,
-   "p": 0.911
+   "p": 0.933
   },
   {
    "w": "llamas?",
    "s": 16.22,
    "e": 16.68,
-   "p": 0.992
+   "p": 0.993
   },
   {
    "w": "Bueno,",
    "s": 16.96,
    "e": 17.14,
-   "p": 0.977
+   "p": 0.97
   },
   {
    "w": "aquí",
    "s": 17.58,
    "e": 17.78,
-   "p": 0.983
+   "p": 0.984
   },
   {
    "w": "aparece",
    "s": 17.78,
    "e": 18.04,
-   "p": 0.99
+   "p": 0.989
   },
   {
    "w": "un",
@@ -464,110 +479,110 @@
   {
    "w": "constitucional.",
    "s": 18.6,
-   "e": 19.32,
-   "p": 0.966
+   "e": 19.34,
+   "p": 0.97
   },
   {
    "w": "La",
    "s": 19.68,
    "e": 19.78,
-   "p": 0.822
+   "p": 0.768
   },
   {
    "w": "libertad",
    "s": 19.78,
    "e": 20.18,
-   "p": 0.848
+   "p": 0.822
   },
   {
    "w": "de",
    "s": 20.18,
    "e": 20.3,
-   "p": 0.992
+   "p": 0.991
   },
   {
    "w": "tránsito.",
    "s": 20.3,
    "e": 20.72,
-   "p": 0.982
+   "p": 0.983
   },
   {
    "w": "El",
    "s": 20.94,
    "e": 21.14,
-   "p": 0.954
+   "p": 0.906
   },
   {
    "w": "T",
    "s": 21.14,
    "e": 21.26,
-   "p": 0.399
+   "p": 0.343
   },
   {
    "w": ".C.",
    "s": 21.26,
    "e": 21.46,
-   "p": 0.582
+   "p": 0.643
   },
   {
    "w": "ha",
    "s": 21.8,
    "e": 21.88,
-   "p": 0.977
+   "p": 0.974
   },
   {
    "w": "señalado...",
    "s": 21.88,
    "e": 22.84,
-   "p": 0.876
+   "p": 0.878
   },
   {
    "w": "Que",
    "s": 22.84,
    "e": 22.92,
-   "p": 0.472
+   "p": 0.399
   },
   {
    "w": "la",
    "s": 22.92,
    "e": 23.08,
-   "p": 0.481
+   "p": 0.443
   },
   {
    "w": "instalación",
    "s": 23.08,
    "e": 23.86,
-   "p": 0.93
+   "p": 0.933
   },
   {
    "w": "de",
    "s": 23.86,
    "e": 24.06,
-   "p": 0.976
+   "p": 0.977
   },
   {
    "w": "rejas",
    "s": 24.06,
    "e": 24.42,
-   "p": 0.865
+   "p": 0.923
   },
   {
    "w": "o",
    "s": 24.42,
    "e": 24.72,
-   "p": 0.771
+   "p": 0.827
   },
   {
    "w": "tranquilas",
    "s": 24.72,
-   "e": 25.32,
-   "p": 0.821
+   "e": 25.3,
+   "p": 0.846
   },
   {
    "w": "en",
-   "s": 25.32,
+   "s": 25.3,
    "e": 25.52,
-   "p": 0.737
+   "p": 0.706
   },
   {
    "w": "la",
@@ -579,7 +594,7 @@
    "w": "vía",
    "s": 25.62,
    "e": 25.78,
-   "p": 0.823
+   "p": 0.85
   },
   {
    "w": "pública",
@@ -590,38 +605,38 @@
   {
    "w": "es",
    "s": 26.3,
-   "e": 26.5,
-   "p": 0.349
+   "e": 26.48,
+   "p": 0.318
   },
   {
    "w": "la",
-   "s": 26.5,
-   "e": 26.56,
-   "p": 0.392
+   "s": 26.48,
+   "e": 26.6,
+   "p": 0.494
   },
   {
    "w": "realidad",
-   "s": 26.56,
+   "s": 26.6,
    "e": 27.02,
-   "p": 0.906
+   "p": 0.898
   },
   {
    "w": "cuando",
    "s": 27.02,
    "e": 27.38,
-   "p": 0.881
+   "p": 0.914
   },
   {
    "w": "busca",
    "s": 27.38,
    "e": 27.92,
-   "p": 0.836
+   "p": 0.835
   },
   {
    "w": "proteger",
    "s": 27.92,
    "e": 28.3,
-   "p": 0.978
+   "p": 0.971
   },
   {
    "w": "la",
@@ -633,31 +648,31 @@
    "w": "saboria",
    "s": 28.5,
    "e": 28.86,
-   "p": 0.466
+   "p": 0.454
   },
   {
    "w": "ciudadana.",
    "s": 28.86,
    "e": 29.52,
-   "p": 0.938
+   "p": 0.936
   },
   {
    "w": "Pero,",
    "s": 29.52,
    "e": 29.88,
-   "p": 0.619
+   "p": 0.465
   },
   {
    "w": "ojo,",
    "s": 30.06,
    "e": 30.36,
-   "p": 0.951
+   "p": 0.957
   },
   {
    "w": "no",
-   "s": 30.46,
+   "s": 30.42,
    "e": 30.64,
-   "p": 0.462
+   "p": 0.541
   },
   {
    "w": "significa",
@@ -674,12 +689,12 @@
   {
    "w": "los",
    "s": 31.36,
-   "e": 31.58,
-   "p": 0.99
+   "e": 31.56,
+   "p": 0.991
   },
   {
    "w": "vecinos",
-   "s": 31.58,
+   "s": 31.56,
    "e": 31.92,
    "p": 0.999
   },
@@ -687,145 +702,145 @@
    "w": "puedan",
    "s": 31.92,
    "e": 32.32,
-   "p": 0.982
+   "p": 0.98
   },
   {
    "w": "cerrar",
    "s": 32.32,
    "e": 32.66,
-   "p": 0.998
+   "p": 0.997
   },
   {
    "w": "la",
    "s": 32.66,
-   "e": 32.84,
-   "p": 0.981
+   "e": 32.86,
+   "p": 0.985
   },
   {
    "w": "calle",
-   "s": 32.84,
+   "s": 32.86,
    "e": 33.12,
-   "p": 0.989
+   "p": 0.987
   },
   {
    "w": "porque",
    "s": 33.12,
    "e": 33.5,
-   "p": 0.881
+   "p": 0.916
   },
   {
    "w": "se",
    "s": 33.5,
    "e": 33.72,
-   "p": 0.98
+   "p": 0.974
   },
   {
    "w": "les",
    "s": 33.72,
    "e": 33.9,
-   "p": 0.964
+   "p": 0.969
   },
   {
    "w": "den",
    "s": 33.9,
    "e": 34.1,
-   "p": 0.375
+   "p": 0.38
   },
   {
    "w": "lagar.",
    "s": 34.1,
    "e": 34.52,
-   "p": 0.559
+   "p": 0.548
   },
   {
    "w": "La",
-   "s": 34.66,
+   "s": 34.68,
    "e": 34.78,
-   "p": 0.955
+   "p": 0.945
   },
   {
    "w": "media",
    "s": 34.78,
    "e": 34.98,
-   "p": 0.918
+   "p": 0.946
   },
   {
    "w": "debe",
    "s": 34.98,
    "e": 35.24,
-   "p": 0.99
+   "p": 0.988
   },
   {
    "w": "ser",
    "s": 35.24,
    "e": 35.52,
-   "p": 0.98
+   "p": 0.976
   },
   {
    "w": "razonable",
    "s": 35.52,
    "e": 36.26,
-   "p": 0.983
+   "p": 0.977
   },
   {
    "w": "y",
    "s": 36.26,
    "e": 36.5,
-   "p": 0.995
+   "p": 0.989
   },
   {
    "w": "proporcional,",
    "s": 36.5,
    "e": 37.12,
-   "p": 0.982
+   "p": 0.981
   },
   {
    "w": "además",
    "s": 37.26,
    "e": 37.56,
-   "p": 0.973
+   "p": 0.964
   },
   {
    "w": "de",
    "s": 37.56,
    "e": 37.78,
-   "p": 0.99
+   "p": 0.988
   },
   {
    "w": "contar",
    "s": 37.78,
    "e": 38.06,
-   "p": 0.981
+   "p": 0.982
   },
   {
    "w": "con",
    "s": 38.06,
    "e": 38.26,
-   "p": 0.993
+   "p": 0.991
   },
   {
    "w": "la",
    "s": 38.26,
    "e": 38.4,
-   "p": 0.974
+   "p": 0.978
   },
   {
    "w": "autorización",
    "s": 38.4,
-   "e": 38.84,
+   "e": 38.82,
    "p": 0.997
   },
   {
    "w": "correspondiente.",
-   "s": 38.84,
+   "s": 38.82,
    "e": 39.56,
    "p": 0.995
   },
   {
    "w": "Por",
-   "s": 39.76,
+   "s": 39.78,
    "e": 39.84,
-   "p": 0.98
+   "p": 0.976
   },
   {
    "w": "ejemplo,",
@@ -837,13 +852,13 @@
    "w": "en",
    "s": 40.38,
    "e": 40.46,
-   "p": 0.959
+   "p": 0.964
   },
   {
    "w": "un",
    "s": 40.46,
    "e": 40.58,
-   "p": 0.994
+   "p": 0.993
   },
   {
    "w": "caso",
@@ -855,19 +870,19 @@
    "w": "sobre",
    "s": 40.76,
    "e": 41.08,
-   "p": 0.995
+   "p": 0.996
   },
   {
    "w": "rejas",
    "s": 41.08,
    "e": 41.44,
-   "p": 0.972
+   "p": 0.974
   },
   {
    "w": "instaladas,",
    "s": 41.44,
    "e": 42.1,
-   "p": 0.99
+   "p": 0.988
   },
   {
    "w": "en",
@@ -876,364 +891,370 @@
    "p": 0.91
   },
   {
-   "w": "surco,",
+   "w": "surco...",
    "s": 42.44,
-   "e": 42.92,
-   "p": 0.716
+   "e": 43.1,
+   "p": 0.535
   },
   {
-   "w": "el",
-   "s": 43.16,
-   "e": 43.32,
-   "p": 0.868
+   "w": "El",
+   "s": 43.1,
+   "e": 43.34,
+   "p": 0.662
   },
   {
    "w": "TC",
-   "s": 43.32,
+   "s": 43.34,
    "e": 43.6,
-   "p": 0.582
+   "p": 0.531
   },
   {
    "w": "ordenó",
    "s": 43.6,
    "e": 45.66,
-   "p": 0.896
+   "p": 0.887
   },
   {
    "w": "su",
    "s": 45.66,
    "e": 45.76,
-   "p": 0.887
+   "p": 0.835
   },
   {
-   "w": "retiro,",
+   "w": "retiro...",
    "s": 45.76,
-   "e": 46.18,
-   "p": 0.974
+   "e": 46.56,
+   "p": 0.729
   },
   {
-   "w": "porque",
+   "w": "Porque",
    "s": 46.56,
    "e": 46.58,
-   "p": 0.772
+   "p": 0.503
   },
   {
    "w": "no",
    "s": 46.58,
    "e": 46.78,
-   "p": 0.986
+   "p": 0.979
   },
   {
    "w": "se",
    "s": 46.78,
    "e": 46.94,
-   "p": 0.98
+   "p": 0.981
   },
   {
    "w": "acreditó",
    "s": 46.94,
    "e": 47.46,
-   "p": 0.962
+   "p": 0.95
   },
   {
    "w": "la",
    "s": 47.46,
    "e": 47.74,
-   "p": 0.942
+   "p": 0.962
   },
   {
-   "w": "autorización.",
+   "w": "autorización",
    "s": 47.74,
-   "e": 48.04,
-   "p": 0.971
+   "e": 48.06,
+   "p": 0.968
+  },
+  {
+   "w": "municipal.",
+   "s": 48.06,
+   "e": 48.5,
+   "p": 0.057
   },
   {
    "w": "La",
-   "s": 48.4,
-   "e": 48.88,
-   "p": 0.926
+   "s": 48.74,
+   "e": 48.9,
+   "p": 0.909
   },
   {
    "w": "pregunta",
-   "s": 48.88,
-   "e": 49.2,
-   "p": 0.995
+   "s": 48.9,
+   "e": 49.16,
+   "p": 0.996
   },
   {
    "w": "es,",
-   "s": 49.2,
-   "e": 49.64,
+   "s": 49.16,
+   "e": 49.62,
    "p": 0.998
   },
   {
-   "w": "¿cómo",
-   "s": 50.04,
-   "e": 51.14,
-   "p": 0.733
+   "w": "yo",
+   "s": 49.78,
+   "e": 49.88,
+   "p": 0.335
+  },
+  {
+   "w": "no.",
+   "s": 49.88,
+   "e": 50.0,
+   "p": 0.987
+  },
+  {
+   "w": "¿Cómo",
+   "s": 50.22,
+   "e": 50.42,
+   "p": 0.879
   },
   {
    "w": "protegemos",
-   "s": 51.14,
-   "e": 51.86,
-   "p": 0.917
+   "s": 50.42,
+   "e": 51.1,
+   "p": 0.916
   },
   {
    "w": "la",
-   "s": 51.86,
-   "e": 52.0,
-   "p": 0.972
+   "s": 51.1,
+   "e": 51.26,
+   "p": 0.952
   },
   {
    "w": "seguridad",
-   "s": 52.0,
-   "e": 52.52,
-   "p": 0.986
+   "s": 51.26,
+   "e": 51.78,
+   "p": 0.983
   },
   {
    "w": "sin",
-   "s": 52.52,
-   "e": 53.04,
-   "p": 0.751
+   "s": 51.78,
+   "e": 52.28,
+   "p": 0.77
   },
   {
    "w": "deliminaridad",
-   "s": 53.04,
-   "e": 53.68,
-   "p": 0.438
+   "s": 52.28,
+   "e": 52.94,
+   "p": 0.434
   },
   {
    "w": "la",
-   "s": 53.68,
-   "e": 54.38,
-   "p": 0.223
+   "s": 52.94,
+   "e": 53.58,
+   "p": 0.189
   },
   {
    "w": "libertad",
-   "s": 54.38,
-   "e": 54.84,
-   "p": 0.955
+   "s": 53.58,
+   "e": 54.08,
+   "p": 0.937
   },
   {
    "w": "de",
-   "s": 54.84,
-   "e": 54.96,
-   "p": 0.924
+   "s": 54.08,
+   "e": 54.2,
+   "p": 0.973
   },
   {
-   "w": "trabajo?",
-   "s": 54.96,
-   "e": 55.12,
-   "p": 0.204
+   "w": "trazos?",
+   "s": 54.2,
+   "e": 54.46,
+   "p": 0.344
   },
   {
    "w": "Porque",
-   "s": 55.3,
-   "e": 55.52,
-   "p": 0.781
+   "s": 54.52,
+   "e": 54.78,
+   "p": 0.945
   },
   {
    "w": "sí,",
-   "s": 55.52,
-   "e": 55.8,
-   "p": 0.593
+   "s": 54.78,
+   "e": 55.04,
+   "p": 0.721
   },
   {
    "w": "la",
-   "s": 55.92,
-   "e": 56.0,
+   "s": 55.16,
+   "e": 55.24,
    "p": 0.994
   },
   {
    "w": "seguridad",
-   "s": 56.0,
-   "e": 56.28,
+   "s": 55.24,
+   "e": 55.54,
    "p": 0.998
   },
   {
    "w": "es",
-   "s": 56.28,
-   "e": 56.46,
-   "p": 0.998
+   "s": 55.54,
+   "e": 55.7,
+   "p": 0.999
   },
   {
    "w": "importante.",
-   "s": 56.46,
-   "e": 56.94,
+   "s": 55.7,
+   "e": 56.14,
    "p": 0.999
   },
   {
    "w": "Recuerda,",
-   "s": 56.94,
-   "e": 57.7,
-   "p": 0.872
+   "s": 56.14,
+   "e": 56.94,
+   "p": 0.84
   },
   {
    "w": "proteger",
-   "s": 57.82,
-   "e": 58.26,
-   "p": 0.958
+   "s": 57.06,
+   "e": 57.48,
+   "p": 0.941
   },
   {
    "w": "la",
-   "s": 58.26,
-   "e": 58.4,
+   "s": 57.48,
+   "e": 57.64,
    "p": 0.981
   },
   {
    "w": "seguridad",
-   "s": 58.4,
-   "e": 58.74,
-   "p": 0.987
+   "s": 57.64,
+   "e": 58.0,
+   "p": 0.979
   },
   {
    "w": "ciudadana",
-   "s": 58.74,
-   "e": 59.48,
-   "p": 0.97
+   "s": 58.0,
+   "e": 58.74,
+   "p": 0.973
   },
   {
    "w": "no",
-   "s": 59.48,
-   "e": 59.74,
-   "p": 0.932
+   "s": 58.74,
+   "e": 59.0,
+   "p": 0.912
   },
   {
    "w": "permite",
-   "s": 59.74,
-   "e": 60.22,
-   "p": 0.953
+   "s": 59.0,
+   "e": 59.48,
+   "p": 0.981
   },
   {
    "w": "raciar,",
-   "s": 60.22,
-   "e": 60.78,
-   "p": 0.656
+   "s": 59.48,
+   "e": 60.04,
+   "p": 0.783
   },
   {
    "w": "literalmente,",
-   "s": 60.82,
-   "e": 61.54,
-   "p": 0.874
+   "s": 60.12,
+   "e": 60.8,
+   "p": 0.849
   },
   {
    "w": "el",
-   "s": 61.66,
-   "e": 61.76,
-   "p": 0.994
+   "s": 60.92,
+   "e": 61.02,
+   "p": 0.992
   },
   {
    "w": "derecho",
-   "s": 61.76,
-   "e": 62.06,
-   "p": 0.906
+   "s": 61.02,
+   "e": 61.28,
+   "p": 0.977
   },
   {
    "w": "a",
-   "s": 62.06,
-   "e": 62.3,
-   "p": 0.467
+   "s": 61.28,
+   "e": 61.58,
+   "p": 0.245
   },
   {
-   "w": "Yuri.",
-   "s": 62.3,
-   "e": 62.42,
-   "p": 0.261
+   "w": "Yuriz.",
+   "s": 61.58,
+   "e": 61.84,
+   "p": 0.448
   },
   {
    "w": "Así",
-   "s": 62.7,
-   "e": 63.02,
-   "p": 0.93
+   "s": 61.96,
+   "e": 62.26,
+   "p": 0.894
   },
   {
    "w": "que",
-   "s": 63.02,
-   "e": 63.18,
-   "p": 0.994
+   "s": 62.26,
+   "e": 62.44,
+   "p": 0.992
   },
   {
    "w": "siga",
-   "s": 63.18,
-   "e": 63.52,
-   "p": 0.807
+   "s": 62.44,
+   "e": 62.76,
+   "p": 0.727
+  },
+  {
+   "w": "buscando",
+   "s": 62.76,
+   "e": 62.86,
+   "p": 0.509
   },
   {
    "w": "a",
-   "s": 63.52,
-   "e": 63.54,
-   "p": 0.233
+   "s": 62.86,
+   "e": 63.04,
+   "p": 0.48
   },
   {
-   "w": "buscar",
-   "s": 63.54,
-   "e": 63.64,
-   "p": 0.631
+   "w": "Yuriz",
+   "s": 63.04,
+   "e": 63.38,
+   "p": 0.992
   },
   {
-   "w": "a",
-   "s": 63.64,
-   "e": 63.8,
-   "p": 0.962
+   "w": "y",
+   "s": 63.38,
+   "e": 63.5,
+   "p": 0.854
   },
   {
-   "w": "Yuri",
-   "s": 63.8,
-   "e": 64.0,
-   "p": 0.97
-  },
-  {
-   "w": "si",
-   "s": 64.0,
-   "e": 64.24,
-   "p": 0.801
-  },
-  {
-   "w": "guarda",
-   "s": 64.24,
-   "e": 64.52,
-   "p": 0.832
+   "w": "guarde",
+   "s": 63.5,
+   "e": 63.78,
+   "p": 0.71
   },
   {
    "w": "este",
-   "s": 64.52,
-   "e": 64.64,
-   "p": 0.978
+   "s": 63.78,
+   "e": 63.9,
+   "p": 0.942
   },
   {
    "w": "video.",
-   "s": 64.64,
-   "e": 64.9,
-   "p": 0.853
+   "s": 63.9,
+   "e": 64.18,
+   "p": 0.867
   },
   {
-   "w": "¿No",
-   "s": 65.14,
-   "e": 65.28,
-   "p": 0.384
+   "w": "No",
+   "s": 64.44,
+   "e": 64.54,
+   "p": 0.074
   },
   {
    "w": "sabes",
-   "s": 65.28,
-   "e": 65.42,
-   "p": 0.99
+   "s": 64.54,
+   "e": 64.7,
+   "p": 0.897
   },
   {
    "w": "cuándo",
-   "s": 65.42,
-   "e": 65.74,
-   "p": 0.888
+   "s": 64.7,
+   "e": 65.02,
+   "p": 0.791
   },
   {
-   "w": "podrás",
-   "s": 65.74,
-   "e": 66.18,
-   "p": 0.899
-  },
-  {
-   "w": "raciar?",
-   "s": 66.18,
-   "e": 66.54,
-   "p": 0.452
+   "w": "podrás.",
+   "s": 65.02,
+   "e": 65.44,
+   "p": 0.802
   }
  ]
 }

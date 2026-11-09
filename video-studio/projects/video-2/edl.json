@@ -41,7 +41,7 @@
     {
       "id": "s04",
       "in": 71.875,
-      "out": 72.625,
+      "out": 72.833,
       "role": "context",
       "framing": "subtleIn",
       "move": "none",
@@ -49,8 +49,8 @@
     },
     {
       "id": "s05",
-      "in": 131.375,
-      "out": 133.708,
+      "in": 131.167,
+      "out": 133.875,
       "role": "context",
       "framing": "base",
       "move": "none",
@@ -59,7 +59,7 @@
     {
       "id": "s06",
       "in": 137.792,
-      "out": 139.083,
+      "out": 139.208,
       "role": "context",
       "framing": "subtleIn",
       "move": "none",
@@ -67,7 +67,7 @@
     },
     {
       "id": "s07",
-      "in": 141.75,
+      "in": 141.708,
       "out": 143.958,
       "role": "context",
       "framing": "base",
@@ -94,7 +94,7 @@
     },
     {
       "id": "s10",
-      "in": 157.708,
+      "in": 157.5,
       "out": 158.542,
       "role": "context",
       "framing": "subtleIn",
@@ -104,7 +104,7 @@
     {
       "id": "s11",
       "in": 165.417,
-      "out": 166.375,
+      "out": 166.417,
       "role": "context",
       "framing": "base",
       "move": "none",
@@ -121,7 +121,7 @@
     },
     {
       "id": "s13",
-      "in": 174.667,
+      "in": 174.542,
       "out": 176.125,
       "role": "context",
       "framing": "base",
@@ -130,177 +130,186 @@
     },
     {
       "id": "s14",
-      "in": 178.208,
-      "out": 180.5,
+      "in": 177.75,
+      "out": 180.25,
       "role": "legal-basis",
       "framing": "subtleIn",
       "move": "none",
-      "note": "el TC ha señalado que la"
+      "note": "el TC ha señalado que"
     },
     {
       "id": "s15",
+      "in": 180.25,
+      "out": 180.5,
+      "role": "context",
+      "framing": "base",
+      "move": "none",
+      "note": "la"
+    },
+    {
+      "id": "s16",
       "in": 180.875,
       "out": 183.5,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "none",
       "note": "instalación de rejas o tranqueras en la vía"
     },
     {
-      "id": "s16",
+      "id": "s17",
       "in": 183.5,
       "out": 184.125,
       "role": "context",
-      "framing": "subtleIn",
+      "framing": "base",
       "move": "none",
       "note": "pública"
     },
     {
-      "id": "s17",
+      "id": "s18",
       "in": 188.375,
-      "out": 191.583,
+      "out": 191.667,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "none",
       "note": "Puede ser válida cuando busca proteger la seguridad ciudadana."
     },
     {
-      "id": "s18",
-      "in": 202.833,
-      "out": 203.625,
+      "id": "s19",
+      "in": 202.708,
+      "out": 203.667,
       "role": "twist",
       "framing": "punchIn",
       "move": "none",
       "note": "Pero ojo."
     },
     {
-      "id": "s19",
+      "id": "s20",
       "in": 209.875,
       "out": 212.583,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "none",
       "note": "No significa que los vecinos puedan cerrar la calle"
     },
     {
-      "id": "s20",
+      "id": "s21",
       "in": 212.583,
-      "out": 214.042,
+      "out": 214.083,
       "role": "context",
-      "framing": "subtleIn",
+      "framing": "base",
       "move": "none",
       "note": "porque se les dé la gana."
     },
     {
-      "id": "s21",
-      "in": 222.333,
+      "id": "s22",
+      "in": 222.292,
       "out": 224.958,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "none",
       "note": "La medida debe ser razonable y proporcional."
     },
     {
-      "id": "s22",
-      "in": 251.208,
+      "id": "s23",
+      "in": 251.125,
       "out": 253.667,
       "role": "context",
-      "framing": "subtleIn",
+      "framing": "base",
       "move": "none",
       "note": "Además de contar con la autorización correspondiente."
     },
     {
-      "id": "s23",
+      "id": "s24",
       "in": 257.417,
       "out": 259.958,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "none",
       "note": "Por ejemplo, en un caso sobre rejas instaladas."
     },
     {
-      "id": "s24",
+      "id": "s25",
       "in": 261.5,
       "out": 262.292,
       "role": "context",
-      "framing": "subtleIn",
+      "framing": "base",
       "move": "none",
       "note": "En Surco."
     },
     {
-      "id": "s25",
+      "id": "s26",
       "in": 270,
       "out": 271.75,
       "role": "legal-basis",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "none",
       "note": "el TC. ordenó su"
     },
     {
-      "id": "s26",
+      "id": "s27",
       "in": 272.792,
       "out": 274.333,
       "role": "context",
-      "framing": "subtleIn",
+      "framing": "base",
       "move": "none",
       "note": "retiro"
     },
     {
-      "id": "s27",
-      "in": 281.833,
+      "id": "s28",
+      "in": 281.583,
       "out": 284.208,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "none",
       "note": "porque no se acreditó la autorización municipal?"
     },
     {
-      "id": "s28",
-      "in": 388.917,
-      "out": 389.958,
+      "id": "s29",
+      "in": 388.792,
+      "out": 390.042,
       "role": "context",
-      "framing": "subtleIn",
+      "framing": "base",
       "move": "none",
       "note": "La pregunta es..."
     },
     {
-      "id": "s29",
+      "id": "s30",
       "in": 607.75,
       "out": 608.25,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "none",
       "note": "¿Cómo"
     },
     {
-      "id": "s30",
+      "id": "s31",
       "in": 609.458,
       "out": 612.125,
       "role": "context",
-      "framing": "subtleIn",
+      "framing": "base",
       "move": "none",
       "note": "protegemos la seguridad sin eliminar"
     },
     {
-      "id": "s31",
+      "id": "s32",
       "in": 612.75,
-      "out": 614.375,
+      "out": 614.458,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "none",
       "note": "injustificadamente la libertad de tránsito?"
     },
     {
-      "id": "s32",
+      "id": "s33",
       "in": 403.75,
       "out": 405.583,
       "role": "context",
-      "framing": "subtleIn",
+      "framing": "base",
       "move": "none",
       "note": "Porque sí, la seguridad es importante."
     },
     {
-      "id": "s33",
+      "id": "s34",
       "in": 643.542,
       "out": 646.333,
       "role": "context",
@@ -309,26 +318,26 @@
       "note": "Recuerda, proteger la seguridad ciudadana no"
     },
     {
-      "id": "s34",
-      "in": 646.333,
-      "out": 647.042,
-      "role": "context",
-      "framing": "subtleIn",
-      "move": "none",
-      "note": "permite restringir"
-    },
-    {
       "id": "s35",
-      "in": 647.25,
-      "out": 649.417,
+      "in": 646.333,
+      "out": 648.958,
       "role": "context",
       "framing": "base",
       "move": "none",
-      "note": "arbitrariamente el derecho al libre tránsito."
+      "note": "permite restringir arbitrariamente el derecho al"
     },
     {
       "id": "s36",
-      "in": 684.5,
+      "in": 648.958,
+      "out": 649.417,
+      "role": "recap",
+      "framing": "subtleIn",
+      "move": "none",
+      "note": "libre tránsito."
+    },
+    {
+      "id": "s37",
+      "in": 684.125,
       "out": 686.792,
       "role": "cta",
       "framing": "base",
@@ -336,28 +345,19 @@
       "note": "Así que sigue a Vocare Iuris y guarda este video."
     },
     {
-      "id": "s37",
-      "in": 696.25,
-      "out": 696.458,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "No"
-    },
-    {
       "id": "s38",
-      "in": 696.917,
-      "out": 697.917,
+      "in": 696.708,
+      "out": 698.583,
       "role": "cta",
       "framing": "base",
       "move": "none",
-      "note": "sabes cuándo podrás necesitarlo."
+      "note": "No sabes cuándo podrás necesitarlo."
     }
   ],
   "captions": [
     {
       "text": "Pueden",
-      "start": 0.094,
+      "start": 0.092,
       "end": 0.442,
       "emphasis": false
     },
@@ -496,1015 +496,1015 @@
     {
       "text": "dicen",
       "start": 7.593,
-      "end": 7.958,
+      "end": 8.167,
       "emphasis": false
     },
     {
       "text": "Hay",
-      "start": 8.028,
-      "end": 8.148,
+      "start": 8.26,
+      "end": 8.56,
       "emphasis": false
     },
     {
       "text": "mucha",
-      "start": 8.143,
-      "end": 8.323,
+      "start": 8.56,
+      "end": 8.74,
       "emphasis": false
     },
     {
       "text": "delincuencia",
-      "start": 8.323,
-      "end": 9.083,
+      "start": 8.74,
+      "end": 9.5,
       "emphasis": false
     },
     {
       "text": "podríamos",
-      "start": 9.083,
-      "end": 9.403,
+      "start": 9.5,
+      "end": 9.82,
       "emphasis": false
     },
     {
       "text": "una",
-      "start": 9.403,
-      "end": 9.703,
+      "start": 9.82,
+      "end": 10.12,
       "emphasis": false
     },
     {
       "text": "reja",
-      "start": 9.703,
-      "end": 9.983,
+      "start": 10.12,
+      "end": 10.4,
       "emphasis": false
     },
     {
       "text": "y",
-      "start": 9.983,
-      "end": 10.103,
+      "start": 10.4,
+      "end": 10.52,
       "emphasis": false
     },
     {
       "text": "listo",
-      "start": 10.033,
-      "end": 10.292,
+      "start": 10.45,
+      "end": 10.875,
       "emphasis": false
     },
     {
       "text": "todos",
-      "start": 10.365,
-      "end": 10.646,
+      "start": 10.946,
+      "end": 11.256,
       "emphasis": false
     },
     {
       "text": "están",
-      "start": 10.646,
-      "end": 10.927,
+      "start": 11.256,
+      "end": 11.565,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 10.927,
-      "end": 11.208,
+      "start": 11.565,
+      "end": 11.874,
       "emphasis": false
     },
     {
       "text": "acuerdo",
-      "start": 11.208,
-      "end": 11.583,
+      "start": 11.874,
+      "end": 12.292,
       "emphasis": false
     },
     {
       "text": "Hasta",
-      "start": 11.667,
-      "end": 11.833,
+      "start": 12.382,
+      "end": 12.583,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 11.833,
-      "end": 11.993,
+      "start": 12.583,
+      "end": 12.743,
       "emphasis": false
     },
     {
       "text": "un",
-      "start": 11.993,
-      "end": 12.153,
+      "start": 12.743,
+      "end": 12.903,
       "emphasis": false
     },
     {
       "text": "día",
-      "start": 12.153,
-      "end": 12.413,
+      "start": 12.903,
+      "end": 13.163,
       "emphasis": false
     },
     {
       "text": "quieres",
-      "start": 12.413,
-      "end": 12.893,
+      "start": 13.163,
+      "end": 13.643,
       "emphasis": false
     },
     {
       "text": "pasar",
-      "start": 12.893,
-      "end": 13.133,
+      "start": 13.643,
+      "end": 13.883,
       "emphasis": false
     },
     {
       "text": "por",
-      "start": 13.133,
-      "end": 13.313,
+      "start": 13.883,
+      "end": 14.063,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 13.313,
-      "end": 13.433,
+      "start": 14.063,
+      "end": 14.183,
       "emphasis": false
     },
     {
       "text": "calle",
-      "start": 13.433,
-      "end": 13.792,
-      "emphasis": false
-    },
-    {
-      "text": "Y",
-      "start": 13.887,
-      "end": 14.007,
-      "emphasis": false
-    },
-    {
-      "text": "la",
-      "start": 13.972,
-      "end": 14.092,
-      "emphasis": false
-    },
-    {
-      "text": "reja",
-      "start": 14.072,
-      "end": 14.272,
-      "emphasis": false
-    },
-    {
-      "text": "está",
-      "start": 14.272,
+      "start": 14.183,
       "end": 14.542,
       "emphasis": false
     },
     {
+      "text": "Y",
+      "start": 14.629,
+      "end": 14.749,
+      "emphasis": false
+    },
+    {
+      "text": "la",
+      "start": 14.722,
+      "end": 14.842,
+      "emphasis": false
+    },
+    {
+      "text": "reja",
+      "start": 14.822,
+      "end": 15.022,
+      "emphasis": false
+    },
+    {
+      "text": "está",
+      "start": 15.022,
+      "end": 15.292,
+      "emphasis": false
+    },
+    {
       "text": "cerrada",
-      "start": 14.623,
-      "end": 15.042,
+      "start": 15.373,
+      "end": 15.792,
       "emphasis": false
     },
     {
       "text": "Y",
-      "start": 15.101,
-      "end": 15.221,
+      "start": 15.872,
+      "end": 16.152,
       "emphasis": false
     },
     {
       "text": "ahora",
-      "start": 15.193,
-      "end": 15.353,
+      "start": 16.152,
+      "end": 16.312,
       "emphasis": false
     },
     {
       "text": "qué",
-      "start": 15.353,
-      "end": 15.875,
-      "emphasis": false
-    },
-    {
-      "text": "a",
-      "start": 15.964,
-      "end": 16.084,
-      "emphasis": false
-    },
-    {
-      "text": "quién",
-      "start": 16.058,
-      "end": 16.238,
-      "emphasis": false
-    },
-    {
-      "text": "llamas",
-      "start": 16.238,
+      "start": 16.312,
       "end": 16.833,
       "emphasis": false
     },
     {
+      "text": "a",
+      "start": 16.921,
+      "end": 17.041,
+      "emphasis": false
+    },
+    {
+      "text": "quién",
+      "start": 17.017,
+      "end": 17.197,
+      "emphasis": false
+    },
+    {
+      "text": "llamas",
+      "start": 17.197,
+      "end": 17.833,
+      "emphasis": false
+    },
+    {
       "text": "bueno",
-      "start": 16.903,
-      "end": 17.123,
+      "start": 17.903,
+      "end": 18.123,
       "emphasis": false
     },
     {
       "text": "aquí",
-      "start": 17.123,
-      "end": 17.763,
+      "start": 18.123,
+      "end": 18.763,
       "emphasis": false
     },
     {
       "text": "aparece",
-      "start": 17.763,
-      "end": 18.043,
+      "start": 18.763,
+      "end": 19.043,
       "emphasis": false
     },
     {
       "text": "un",
-      "start": 18.043,
-      "end": 18.243,
+      "start": 19.043,
+      "end": 19.243,
       "emphasis": false
     },
     {
       "text": "problema",
-      "start": 18.243,
-      "end": 18.603,
+      "start": 19.243,
+      "end": 19.603,
       "emphasis": false
     },
     {
       "text": "constitucional",
-      "start": 18.603,
-      "end": 19.417,
+      "start": 19.603,
+      "end": 20.417,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 19.51,
-      "end": 19.77,
+      "start": 20.497,
+      "end": 20.895,
       "emphasis": false
     },
     {
       "text": "libertad",
-      "start": 19.77,
-      "end": 20.17,
+      "start": 20.895,
+      "end": 21.295,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 20.17,
-      "end": 20.31,
+      "start": 21.295,
+      "end": 21.435,
       "emphasis": false
     },
     {
       "text": "tránsito",
-      "start": 20.31,
-      "end": 20.875,
+      "start": 21.435,
+      "end": 22,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 20.948,
-      "end": 21.187,
+      "start": 22.07,
+      "end": 22.54,
       "emphasis": false
     },
     {
       "text": "TC",
-      "start": 21.187,
-      "end": 21.427,
+      "start": 22.54,
+      "end": 23.01,
       "emphasis": false
     },
     {
       "text": "ha",
-      "start": 21.427,
-      "end": 21.887,
+      "start": 23.01,
+      "end": 23.47,
       "emphasis": false
     },
     {
       "text": "señalado",
-      "start": 21.887,
-      "end": 22.843,
+      "start": 23.47,
+      "end": 24.15,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 22.843,
-      "end": 22.963,
+      "start": 24.15,
+      "end": 24.5,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 22.927,
-      "end": 23.167,
+      "start": 24.51,
+      "end": 24.75,
       "emphasis": false
     },
     {
       "text": "instalación",
-      "start": 23.227,
-      "end": 23.892,
+      "start": 24.81,
+      "end": 25.475,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 23.892,
-      "end": 24.072,
+      "start": 25.475,
+      "end": 25.655,
       "emphasis": false
     },
     {
       "text": "rejas",
-      "start": 24.072,
-      "end": 24.452,
+      "start": 25.655,
+      "end": 26.035,
       "emphasis": false
     },
     {
       "text": "o",
-      "start": 24.452,
-      "end": 24.712,
+      "start": 26.035,
+      "end": 26.295,
       "emphasis": false
     },
     {
       "text": "tranqueras",
-      "start": 24.712,
-      "end": 25.352,
+      "start": 26.295,
+      "end": 26.935,
       "emphasis": false
     },
     {
       "text": "en",
-      "start": 25.352,
-      "end": 25.532,
+      "start": 26.935,
+      "end": 27.115,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 25.532,
-      "end": 25.652,
+      "start": 27.115,
+      "end": 27.235,
       "emphasis": false
     },
     {
       "text": "vía",
-      "start": 25.612,
-      "end": 25.792,
+      "start": 27.195,
+      "end": 27.375,
       "emphasis": false
     },
     {
       "text": "pública",
-      "start": 25.792,
-      "end": 26.417,
+      "start": 27.375,
+      "end": 28,
       "emphasis": false
     },
     {
       "text": "Puede",
-      "start": 26.482,
-      "end": 26.602,
+      "start": 28.065,
+      "end": 28.185,
       "emphasis": false
     },
     {
       "text": "ser",
-      "start": 26.532,
-      "end": 26.652,
+      "start": 28.115,
+      "end": 28.235,
       "emphasis": false
     },
     {
       "text": "válida",
-      "start": 26.582,
-      "end": 27.102,
+      "start": 28.165,
+      "end": 28.685,
       "emphasis": false
     },
     {
       "text": "cuando",
-      "start": 27.102,
-      "end": 27.382,
+      "start": 28.685,
+      "end": 28.965,
       "emphasis": false
     },
     {
       "text": "busca",
-      "start": 27.382,
-      "end": 27.922,
+      "start": 28.965,
+      "end": 29.505,
       "emphasis": false
     },
     {
       "text": "proteger",
-      "start": 27.922,
-      "end": 28.342,
+      "start": 29.505,
+      "end": 29.925,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 28.342,
-      "end": 28.502,
+      "start": 29.925,
+      "end": 30.085,
       "emphasis": false
     },
     {
       "text": "seguridad",
-      "start": 28.502,
-      "end": 28.802,
+      "start": 30.085,
+      "end": 30.385,
       "emphasis": false
     },
     {
       "text": "ciudadana",
-      "start": 28.802,
-      "end": 29.625,
+      "start": 30.385,
+      "end": 31.292,
       "emphasis": false
     },
     {
       "text": "Pero",
-      "start": 29.722,
-      "end": 29.872,
+      "start": 31.383,
+      "end": 31.663,
       "emphasis": false
     },
     {
       "text": "ojo",
-      "start": 29.872,
-      "end": 30.417,
+      "start": 31.663,
+      "end": 32.25,
       "emphasis": false
     },
     {
       "text": "No",
-      "start": 30.517,
-      "end": 30.642,
+      "start": 32.335,
+      "end": 32.475,
       "emphasis": false
     },
     {
       "text": "significa",
-      "start": 30.642,
-      "end": 31.002,
+      "start": 32.475,
+      "end": 32.835,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 31.002,
-      "end": 31.362,
+      "start": 32.835,
+      "end": 33.195,
       "emphasis": false
     },
     {
       "text": "los",
-      "start": 31.362,
-      "end": 31.562,
+      "start": 33.195,
+      "end": 33.395,
       "emphasis": false
     },
     {
       "text": "vecinos",
-      "start": 31.562,
-      "end": 31.922,
+      "start": 33.395,
+      "end": 33.755,
       "emphasis": false
     },
     {
       "text": "puedan",
-      "start": 31.922,
-      "end": 32.282,
+      "start": 33.755,
+      "end": 34.115,
       "emphasis": false
     },
     {
       "text": "cerrar",
-      "start": 32.282,
-      "end": 32.662,
+      "start": 34.115,
+      "end": 34.495,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 32.662,
-      "end": 32.842,
+      "start": 34.495,
+      "end": 34.675,
       "emphasis": false
     },
     {
       "text": "calle",
-      "start": 32.842,
-      "end": 33.125,
+      "start": 34.675,
+      "end": 34.958,
       "emphasis": false
     },
     {
       "text": "porque",
-      "start": 33.142,
-      "end": 33.502,
+      "start": 34.975,
+      "end": 35.335,
       "emphasis": false
     },
     {
       "text": "se",
-      "start": 33.502,
-      "end": 33.742,
+      "start": 35.335,
+      "end": 35.575,
       "emphasis": false
     },
     {
       "text": "les",
-      "start": 33.742,
-      "end": 33.882,
+      "start": 35.575,
+      "end": 35.715,
       "emphasis": false
     },
     {
       "text": "dé",
-      "start": 33.882,
-      "end": 34.042,
+      "start": 35.715,
+      "end": 35.875,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 34.042,
-      "end": 34.242,
+      "start": 35.875,
+      "end": 36.075,
       "emphasis": false
     },
     {
       "text": "gana",
-      "start": 34.242,
-      "end": 34.583,
+      "start": 36.075,
+      "end": 36.458,
       "emphasis": false
     },
     {
       "text": "La",
-      "start": 34.65,
-      "end": 34.77,
+      "start": 36.547,
+      "end": 36.667,
       "emphasis": false
     },
     {
       "text": "medida",
-      "start": 34.73,
-      "end": 34.99,
+      "start": 36.647,
+      "end": 36.907,
       "emphasis": false
     },
     {
       "text": "debe",
-      "start": 34.99,
-      "end": 35.23,
+      "start": 36.907,
+      "end": 37.147,
       "emphasis": false
     },
     {
       "text": "ser",
-      "start": 35.23,
-      "end": 35.51,
+      "start": 37.147,
+      "end": 37.427,
       "emphasis": false
     },
     {
       "text": "razonable",
-      "start": 35.51,
-      "end": 36.27,
+      "start": 37.427,
+      "end": 38.187,
       "emphasis": false
     },
     {
       "text": "y",
-      "start": 36.27,
-      "end": 36.49,
+      "start": 38.187,
+      "end": 38.407,
       "emphasis": false
     },
     {
       "text": "proporcional",
-      "start": 36.49,
-      "end": 37.208,
+      "start": 38.407,
+      "end": 39.125,
       "emphasis": false
     },
     {
       "text": "Además",
-      "start": 37.277,
-      "end": 37.52,
+      "start": 39.208,
+      "end": 39.52,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 37.52,
-      "end": 37.76,
+      "start": 39.52,
+      "end": 39.76,
       "emphasis": false
     },
     {
       "text": "contar",
-      "start": 37.76,
-      "end": 38,
+      "start": 39.76,
+      "end": 40,
       "emphasis": false
     },
     {
       "text": "con",
-      "start": 38,
-      "end": 38.28,
+      "start": 40,
+      "end": 40.28,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 38.28,
-      "end": 38.4,
+      "start": 40.28,
+      "end": 40.4,
       "emphasis": false
     },
     {
       "text": "autorización",
-      "start": 38.38,
-      "end": 38.9,
+      "start": 40.38,
+      "end": 40.9,
       "emphasis": false
     },
     {
       "text": "correspondiente",
-      "start": 38.9,
-      "end": 39.667,
+      "start": 40.9,
+      "end": 41.667,
       "emphasis": false
     },
     {
       "text": "Por",
-      "start": 39.744,
-      "end": 39.864,
+      "start": 41.744,
+      "end": 41.864,
       "emphasis": false
     },
     {
       "text": "ejemplo",
-      "start": 39.794,
-      "end": 40.31,
+      "start": 41.794,
+      "end": 42.31,
       "emphasis": false
     },
     {
       "text": "en",
-      "start": 40.31,
-      "end": 40.47,
+      "start": 42.31,
+      "end": 42.47,
       "emphasis": false
     },
     {
       "text": "un",
-      "start": 40.47,
-      "end": 40.59,
+      "start": 42.47,
+      "end": 42.59,
       "emphasis": false
     },
     {
       "text": "caso",
-      "start": 40.59,
-      "end": 40.75,
+      "start": 42.59,
+      "end": 42.75,
       "emphasis": false
     },
     {
       "text": "sobre",
-      "start": 40.75,
-      "end": 41.11,
+      "start": 42.75,
+      "end": 43.11,
       "emphasis": false
     },
     {
       "text": "rejas",
-      "start": 41.11,
-      "end": 41.43,
-      "emphasis": false
-    },
-    {
-      "text": "instaladas",
-      "start": 41.43,
-      "end": 42.208,
-      "emphasis": false
-    },
-    {
-      "text": "En",
-      "start": 42.302,
-      "end": 42.428,
-      "emphasis": false
-    },
-    {
-      "text": "Surco",
-      "start": 42.428,
-      "end": 43,
-      "emphasis": false
-    },
-    {
-      "text": "el",
-      "start": 43.1,
+      "start": 43.11,
       "end": 43.43,
       "emphasis": false
     },
     {
-      "text": "TC",
+      "text": "instaladas",
       "start": 43.43,
-      "end": 43.96,
+      "end": 44.208,
       "emphasis": false
     },
     {
-      "text": "ordenó",
-      "start": 43.96,
-      "end": 44.48,
+      "text": "En",
+      "start": 44.296,
+      "end": 44.428,
       "emphasis": false
     },
     {
-      "text": "su",
-      "start": 44.48,
-      "end": 44.75,
-      "emphasis": false
-    },
-    {
-      "text": "retiro",
-      "start": 44.812,
-      "end": 46.292,
-      "emphasis": false
-    },
-    {
-      "text": "porque",
-      "start": 46.378,
-      "end": 46.643,
-      "emphasis": false
-    },
-    {
-      "text": "no",
-      "start": 46.643,
-      "end": 46.908,
-      "emphasis": false
-    },
-    {
-      "text": "se",
-      "start": 46.908,
-      "end": 47.173,
-      "emphasis": false
-    },
-    {
-      "text": "acreditó",
-      "start": 47.173,
-      "end": 47.438,
-      "emphasis": false
-    },
-    {
-      "text": "la",
-      "start": 47.438,
-      "end": 47.718,
-      "emphasis": false
-    },
-    {
-      "text": "autorización",
-      "start": 47.718,
-      "end": 48.098,
-      "emphasis": false
-    },
-    {
-      "text": "municipal",
-      "start": 48.098,
-      "end": 48.667,
-      "emphasis": false
-    },
-    {
-      "text": "La",
-      "start": 48.757,
-      "end": 48.877,
-      "emphasis": false
-    },
-    {
-      "text": "pregunta",
-      "start": 48.85,
-      "end": 49.15,
-      "emphasis": false
-    },
-    {
-      "text": "es",
-      "start": 49.15,
-      "end": 49.708,
-      "emphasis": false
-    },
-    {
-      "text": "Cómo",
-      "start": 49.799,
-      "end": 50.208,
-      "emphasis": false
-    },
-    {
-      "text": "protegemos",
-      "start": 50.285,
-      "end": 51.11,
-      "emphasis": false
-    },
-    {
-      "text": "la",
-      "start": 51.11,
-      "end": 51.25,
-      "emphasis": false
-    },
-    {
-      "text": "seguridad",
-      "start": 51.25,
-      "end": 51.73,
-      "emphasis": false
-    },
-    {
-      "text": "sin",
-      "start": 51.73,
-      "end": 52.29,
-      "emphasis": false
-    },
-    {
-      "text": "eliminar",
-      "start": 52.29,
-      "end": 52.875,
-      "emphasis": false
-    },
-    {
-      "text": "injustificadamente",
-      "start": 52.938,
-      "end": 53.265,
-      "emphasis": false
-    },
-    {
-      "text": "la",
-      "start": 53.265,
-      "end": 53.705,
-      "emphasis": false
-    },
-    {
-      "text": "libertad",
-      "start": 53.705,
-      "end": 54.085,
-      "emphasis": false
-    },
-    {
-      "text": "de",
-      "start": 54.085,
-      "end": 54.225,
-      "emphasis": false
-    },
-    {
-      "text": "tránsito",
-      "start": 54.225,
-      "end": 54.5,
-      "emphasis": false
-    },
-    {
-      "text": "Porque",
-      "start": 54.572,
-      "end": 54.73,
-      "emphasis": false
-    },
-    {
-      "text": "sí",
-      "start": 54.73,
-      "end": 55.15,
-      "emphasis": false
-    },
-    {
-      "text": "la",
-      "start": 55.15,
-      "end": 55.27,
-      "emphasis": false
-    },
-    {
-      "text": "seguridad",
-      "start": 55.25,
-      "end": 55.53,
-      "emphasis": false
-    },
-    {
-      "text": "es",
-      "start": 55.53,
-      "end": 55.71,
-      "emphasis": false
-    },
-    {
-      "text": "importante",
-      "start": 55.71,
-      "end": 56.333,
-      "emphasis": false
-    },
-    {
-      "text": "Recuerda",
-      "start": 56.42,
-      "end": 57.072,
-      "emphasis": false
-    },
-    {
-      "text": "proteger",
-      "start": 57.072,
-      "end": 57.492,
-      "emphasis": false
-    },
-    {
-      "text": "la",
-      "start": 57.492,
-      "end": 57.652,
-      "emphasis": false
-    },
-    {
-      "text": "seguridad",
-      "start": 57.652,
-      "end": 57.952,
-      "emphasis": false
-    },
-    {
-      "text": "ciudadana",
-      "start": 57.952,
-      "end": 58.712,
-      "emphasis": false
-    },
-    {
-      "text": "no",
-      "start": 58.712,
-      "end": 59.125,
-      "emphasis": false
-    },
-    {
-      "text": "permite",
-      "start": 59.112,
-      "end": 59.512,
-      "emphasis": false
-    },
-    {
-      "text": "restringir",
-      "start": 59.512,
-      "end": 59.833,
-      "emphasis": false
-    },
-    {
-      "text": "arbitrariamente",
-      "start": 59.898,
-      "end": 60.703,
+      "text": "Surco",
+      "start": 44.428,
+      "end": 45,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 60.703,
-      "end": 61.023,
+      "start": 45.1,
+      "end": 45.43,
       "emphasis": false
     },
     {
-      "text": "derecho",
-      "start": 61.023,
-      "end": 61.223,
-      "emphasis": true
-    },
-    {
-      "text": "al",
-      "start": 61.223,
-      "end": 61.523,
+      "text": "TC",
+      "start": 45.43,
+      "end": 45.96,
       "emphasis": false
     },
     {
-      "text": "libre",
-      "start": 61.523,
-      "end": 61.656,
+      "text": "ordenó",
+      "start": 45.96,
+      "end": 46.48,
+      "emphasis": false
+    },
+    {
+      "text": "su",
+      "start": 46.48,
+      "end": 46.75,
+      "emphasis": false
+    },
+    {
+      "text": "retiro",
+      "start": 46.812,
+      "end": 48.292,
+      "emphasis": false
+    },
+    {
+      "text": "porque",
+      "start": 48.368,
+      "end": 48.698,
+      "emphasis": false
+    },
+    {
+      "text": "no",
+      "start": 48.698,
+      "end": 49.028,
+      "emphasis": false
+    },
+    {
+      "text": "se",
+      "start": 49.028,
+      "end": 49.358,
+      "emphasis": false
+    },
+    {
+      "text": "acreditó",
+      "start": 49.358,
+      "end": 49.688,
+      "emphasis": false
+    },
+    {
+      "text": "la",
+      "start": 49.688,
+      "end": 49.968,
+      "emphasis": false
+    },
+    {
+      "text": "autorización",
+      "start": 49.968,
+      "end": 50.348,
+      "emphasis": false
+    },
+    {
+      "text": "municipal",
+      "start": 50.348,
+      "end": 50.917,
+      "emphasis": false
+    },
+    {
+      "text": "La",
+      "start": 51.003,
+      "end": 51.225,
+      "emphasis": false
+    },
+    {
+      "text": "pregunta",
+      "start": 51.225,
+      "end": 51.525,
+      "emphasis": false
+    },
+    {
+      "text": "es",
+      "start": 51.525,
+      "end": 52.167,
+      "emphasis": false
+    },
+    {
+      "text": "Cómo",
+      "start": 52.258,
+      "end": 52.667,
+      "emphasis": false
+    },
+    {
+      "text": "protegemos",
+      "start": 52.731,
+      "end": 53.568,
+      "emphasis": false
+    },
+    {
+      "text": "la",
+      "start": 53.568,
+      "end": 53.708,
+      "emphasis": false
+    },
+    {
+      "text": "seguridad",
+      "start": 53.708,
+      "end": 54.188,
+      "emphasis": false
+    },
+    {
+      "text": "sin",
+      "start": 54.188,
+      "end": 54.748,
+      "emphasis": false
+    },
+    {
+      "text": "eliminar",
+      "start": 54.748,
+      "end": 55.333,
+      "emphasis": false
+    },
+    {
+      "text": "injustificadamente",
+      "start": 55.396,
+      "end": 55.723,
+      "emphasis": false
+    },
+    {
+      "text": "la",
+      "start": 55.723,
+      "end": 56.163,
+      "emphasis": false
+    },
+    {
+      "text": "libertad",
+      "start": 56.163,
+      "end": 56.543,
+      "emphasis": false
+    },
+    {
+      "text": "de",
+      "start": 56.543,
+      "end": 56.683,
       "emphasis": false
     },
     {
       "text": "tránsito",
-      "start": 61.656,
-      "end": 62,
+      "start": 56.683,
+      "end": 57.042,
       "emphasis": false
     },
     {
-      "text": "Así",
-      "start": 62.095,
-      "end": 62.238,
+      "text": "Porque",
+      "start": 57.114,
+      "end": 57.272,
       "emphasis": false
     },
     {
-      "text": "que",
-      "start": 62.238,
-      "end": 62.462,
+      "text": "sí",
+      "start": 57.272,
+      "end": 57.692,
       "emphasis": false
     },
     {
-      "text": "sigue",
-      "start": 62.462,
-      "end": 62.686,
+      "text": "la",
+      "start": 57.692,
+      "end": 57.812,
       "emphasis": false
     },
     {
-      "text": "a",
-      "start": 62.686,
-      "end": 62.91,
+      "text": "seguridad",
+      "start": 57.792,
+      "end": 58.072,
       "emphasis": false
     },
     {
-      "text": "Vocare",
-      "start": 62.91,
-      "end": 63.134,
+      "text": "es",
+      "start": 58.072,
+      "end": 58.252,
       "emphasis": false
     },
     {
-      "text": "Iuris",
-      "start": 63.134,
-      "end": 63.358,
+      "text": "importante",
+      "start": 58.252,
+      "end": 58.875,
       "emphasis": false
     },
     {
-      "text": "y",
-      "start": 63.358,
-      "end": 63.498,
+      "text": "Recuerda",
+      "start": 58.95,
+      "end": 59.613,
       "emphasis": false
     },
     {
-      "text": "guarda",
-      "start": 63.498,
-      "end": 63.731,
+      "text": "proteger",
+      "start": 59.613,
+      "end": 60.033,
       "emphasis": false
     },
     {
-      "text": "este",
-      "start": 63.731,
-      "end": 63.965,
+      "text": "la",
+      "start": 60.033,
+      "end": 60.193,
       "emphasis": false
     },
     {
-      "text": "video",
-      "start": 63.965,
+      "text": "seguridad",
+      "start": 60.193,
+      "end": 60.493,
+      "emphasis": false
+    },
+    {
+      "text": "ciudadana",
+      "start": 60.493,
+      "end": 61.253,
+      "emphasis": false
+    },
+    {
+      "text": "no",
+      "start": 61.253,
+      "end": 61.667,
+      "emphasis": false
+    },
+    {
+      "text": "permite",
+      "start": 61.653,
+      "end": 62.053,
+      "emphasis": false
+    },
+    {
+      "text": "restringir",
+      "start": 62.053,
+      "end": 62.633,
+      "emphasis": false
+    },
+    {
+      "text": "arbitrariamente",
+      "start": 62.633,
+      "end": 63.453,
+      "emphasis": false
+    },
+    {
+      "text": "el",
+      "start": 63.453,
+      "end": 63.773,
+      "emphasis": false
+    },
+    {
+      "text": "derecho",
+      "start": 63.773,
+      "end": 63.973,
+      "emphasis": true
+    },
+    {
+      "text": "al",
+      "start": 63.973,
       "end": 64.292,
       "emphasis": false
     },
     {
+      "text": "libre",
+      "start": 64.273,
+      "end": 64.393,
+      "emphasis": false
+    },
+    {
+      "text": "tránsito",
+      "start": 64.393,
+      "end": 64.75,
+      "emphasis": false
+    },
+    {
+      "text": "Así",
+      "start": 64.843,
+      "end": 65.363,
+      "emphasis": false
+    },
+    {
+      "text": "que",
+      "start": 65.363,
+      "end": 65.587,
+      "emphasis": false
+    },
+    {
+      "text": "sigue",
+      "start": 65.587,
+      "end": 65.811,
+      "emphasis": false
+    },
+    {
+      "text": "a",
+      "start": 65.811,
+      "end": 66.035,
+      "emphasis": false
+    },
+    {
+      "text": "Vocare",
+      "start": 66.035,
+      "end": 66.259,
+      "emphasis": false
+    },
+    {
+      "text": "Iuris",
+      "start": 66.259,
+      "end": 66.483,
+      "emphasis": false
+    },
+    {
+      "text": "y",
+      "start": 66.483,
+      "end": 66.623,
+      "emphasis": false
+    },
+    {
+      "text": "guarda",
+      "start": 66.623,
+      "end": 66.856,
+      "emphasis": false
+    },
+    {
+      "text": "este",
+      "start": 66.856,
+      "end": 67.09,
+      "emphasis": false
+    },
+    {
+      "text": "video",
+      "start": 67.09,
+      "end": 67.417,
+      "emphasis": false
+    },
+    {
       "text": "No",
-      "start": 64.359,
-      "end": 64.5,
+      "start": 67.486,
+      "end": 67.666,
       "emphasis": false
     },
     {
       "text": "sabes",
-      "start": 64.567,
-      "end": 64.687,
+      "start": 67.666,
+      "end": 67.786,
       "emphasis": false
     },
     {
       "text": "cuándo",
-      "start": 64.661,
-      "end": 64.981,
+      "start": 67.786,
+      "end": 68.106,
       "emphasis": false
     },
     {
       "text": "podrás",
-      "start": 64.981,
-      "end": 65.347,
+      "start": 68.106,
+      "end": 68.526,
       "emphasis": false
     },
     {
       "text": "necesitarlo",
-      "start": 65.347,
-      "end": 65.5,
+      "start": 68.526,
+      "end": 69.292,
       "emphasis": false
     }
   ],
@@ -1535,8 +1535,8 @@
       "size": 165,
       "x": 0.7,
       "y": 0.62,
-      "start": 8.323,
-      "end": 9.523,
+      "start": 8.74,
+      "end": 9.94,
       "note": "emoción de los vecinos"
     },
     {
@@ -1545,8 +1545,8 @@
       "size": 165,
       "x": 0.3,
       "y": 0.62,
-      "start": 11.208,
-      "end": 12.408,
+      "start": 11.874,
+      "end": 13.074,
       "note": "consenso vecinal"
     },
     {
@@ -1555,8 +1555,8 @@
       "size": 165,
       "x": 0.7,
       "y": 0.62,
-      "start": 12.893,
-      "end": 14.193,
+      "start": 13.643,
+      "end": 14.943,
       "note": "el espectador en la escena"
     },
     {
@@ -1565,8 +1565,8 @@
       "size": 165,
       "x": 0.3,
       "y": 0.62,
-      "start": 14.423,
-      "end": 15.823,
+      "start": 15.173,
+      "end": 16.573,
       "note": "giro: queda encerrado"
     },
     {
@@ -1575,16 +1575,16 @@
       "size": 165,
       "x": 0.7,
       "y": 0.62,
-      "start": 15.353,
-      "end": 16.953,
+      "start": 16.312,
+      "end": 17.912,
       "note": "loop abierto: la duda del público"
     },
     {
       "type": "selectionLabel",
       "text": "Libertad de tránsito",
       "cursor": true,
-      "start": 19.62,
-      "end": 21.67,
+      "start": 20.745,
+      "end": 22.795,
       "note": "concepto jurídico central"
     },
     {
@@ -1592,8 +1592,8 @@
       "title": "TC",
       "subtitle": "Tribunal Constitucional",
       "color": "white",
-      "start": 21.187,
-      "end": 23.587,
+      "start": 22.54,
+      "end": 24.94,
       "note": "base legal / institución"
     },
     {
@@ -1602,8 +1602,8 @@
       "size": 165,
       "x": 0.7,
       "y": 0.62,
-      "start": 26.582,
-      "end": 28.182,
+      "start": 28.165,
+      "end": 29.765,
       "note": "matiz: sí puede ser válida"
     },
     {
@@ -1612,24 +1612,24 @@
       "size": 165,
       "x": 0.3,
       "y": 0.62,
-      "start": 29.872,
-      "end": 30.872,
+      "start": 31.663,
+      "end": 32.663,
       "note": "pattern interrupt"
     },
     {
       "type": "denyMark",
       "x": 0.28,
       "y": 0.62,
-      "start": 30.392,
-      "end": 32.042,
+      "start": 32.225,
+      "end": 33.875,
       "note": "negación"
     },
     {
       "type": "selectionLabel",
       "text": "Razonable y proporcional",
       "cursor": true,
-      "start": 35.31,
-      "end": 37.51,
+      "start": 37.227,
+      "end": 39.427,
       "note": "requisito 1"
     },
     {
@@ -1638,8 +1638,8 @@
       "size": 165,
       "x": 0.7,
       "y": 0.62,
-      "start": 38.38,
-      "end": 39.88,
+      "start": 40.38,
+      "end": 41.88,
       "note": "requisito 2: permiso"
     },
     {
@@ -1648,16 +1648,16 @@
       "size": 165,
       "x": 0.3,
       "y": 0.62,
-      "start": 42.428,
-      "end": 43.628,
+      "start": 44.428,
+      "end": 45.628,
       "note": "caso real"
     },
     {
       "type": "verdictStamp",
       "text": "Retiro ordenado",
       "tone": "deny",
-      "start": 43.96,
-      "end": 45.56,
+      "start": 45.96,
+      "end": 47.56,
       "note": "veredicto del caso (verificar redacción)"
     },
     {
@@ -1666,8 +1666,8 @@
       "size": 165,
       "x": 0.7,
       "y": 0.62,
-      "start": 48.098,
-      "end": 49.498,
+      "start": 50.348,
+      "end": 51.748,
       "note": "municipalidad"
     },
     {
@@ -1676,8 +1676,8 @@
       "size": 165,
       "x": 0.7,
       "y": 0.62,
-      "start": 48.85,
-      "end": 50.25,
+      "start": 51.225,
+      "end": 52.625,
       "note": "pregunta guía"
     },
     {
@@ -1686,16 +1686,16 @@
       "size": 165,
       "x": 0.3,
       "y": 0.62,
-      "start": 55.71,
-      "end": 57.01,
+      "start": 58.252,
+      "end": 59.552,
       "note": "seguridad sí importa"
     },
     {
       "type": "selectionLabel",
       "text": "Libre tránsito",
       "cursor": false,
-      "start": 61.423,
-      "end": 63.123,
+      "start": 64.173,
+      "end": 65.873,
       "note": "cierre: vuelve al concepto"
     }
   ],
@@ -1712,107 +1712,107 @@
     },
     {
       "name": "pop",
-      "at": 8.323,
+      "at": 8.74,
       "volumeDb": -16
     },
     {
       "name": "pop",
-      "at": 11.208,
+      "at": 11.874,
       "volumeDb": -16
     },
     {
       "name": "pop",
-      "at": 12.893,
+      "at": 13.643,
       "volumeDb": -16
     },
     {
       "name": "poi",
-      "at": 14.423,
+      "at": 15.173,
       "volumeDb": -15
     },
     {
       "name": "pop",
-      "at": 15.353,
+      "at": 16.312,
       "volumeDb": -16
     },
     {
       "name": "click",
-      "at": 19.67,
+      "at": 20.795,
       "volumeDb": -14
     },
     {
       "name": "type",
-      "at": 21.187,
+      "at": 22.54,
       "volumeDb": -16
     },
     {
       "name": "pop",
-      "at": 26.582,
+      "at": 28.165,
       "volumeDb": -16
     },
     {
       "name": "kiran",
-      "at": 26.582,
+      "at": 28.165,
       "volumeDb": -16
     },
     {
       "name": "pop",
-      "at": 29.872,
+      "at": 31.663,
       "volumeDb": -16
     },
     {
       "name": "poi",
-      "at": 30.392,
+      "at": 32.225,
       "volumeDb": -15
     },
     {
       "name": "click",
-      "at": 35.36,
+      "at": 37.277,
       "volumeDb": -14
     },
     {
       "name": "pop",
-      "at": 38.38,
+      "at": 40.38,
       "volumeDb": -16
     },
     {
       "name": "riser",
-      "at": 42.41,
+      "at": 44.41,
       "volumeDb": -22
     },
     {
       "name": "pop",
-      "at": 42.428,
+      "at": 44.428,
       "volumeDb": -16
     },
     {
       "name": "stamp",
-      "at": 43.96,
+      "at": 45.96,
       "volumeDb": -11
     },
     {
       "name": "fahhh",
-      "at": 44.08,
+      "at": 46.08,
       "volumeDb": -17
     },
     {
       "name": "pop",
-      "at": 48.098,
+      "at": 50.348,
       "volumeDb": -16
     },
     {
       "name": "pop",
-      "at": 48.85,
+      "at": 51.225,
       "volumeDb": -16
     },
     {
       "name": "pop",
-      "at": 55.71,
+      "at": 58.252,
       "volumeDb": -16
     },
     {
       "name": "kiran",
-      "at": 61.423,
+      "at": 64.173,
       "volumeDb": -16
     }
   ],
