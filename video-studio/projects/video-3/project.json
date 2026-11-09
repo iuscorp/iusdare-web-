@@ -19,5 +19,10 @@
     "approved": false,
     "approvedAt": null,
     "notes": []
+  },
+  "lastRender": {
+    "file": "../previews/video-3/video-3-preview.mp4",
+    "at": "2026-11-09T17:42:49.767Z",
+    "preview": true
   }
 }

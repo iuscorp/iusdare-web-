@@ -1148,11 +1148,11 @@
         "HAY",
         "MÁS"
       ],
-      "layout": "line",
+      "layout": "rows",
       "uppercase": true,
       "stepFrames": 4,
       "x": 0.5,
-      "y": 0.6,
+      "y": 0.62,
       "start": 14.837,
       "end": 15.657,
       "note": "pattern interrupt: abre el segundo bloque"

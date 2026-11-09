@@ -1,0 +1,150 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "7.1 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "30 (footage 30)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "47.80 s (EDL 47.73 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.4 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.00 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana 7 ms, p90 |67| ms, 127/139 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": true,
+      "level": "ok",
+      "detail": "12 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 127,
+    "total": 139,
+    "medianOffset": 0.006999999999997897,
+    "p90AbsOffset": 0.06700000000000017,
+    "mismatches": [
+      {
+        "at": 10.407,
+        "caption": "motivo",
+        "heard": "cualquiera."
+      },
+      {
+        "at": 10.987,
+        "caption": "El",
+        "heard": "Tribunal"
+      },
+      {
+        "at": 22.713,
+        "caption": "quien",
+        "heard": "O sea, que el discrimine"
+      },
+      {
+        "at": 24.507,
+        "caption": "y",
+        "heard": "preso. 10 entre"
+      },
+      {
+        "at": 24.627,
+        "caption": "es",
+        "heard": "10 entre 2"
+      },
+      {
+        "at": 25.027,
+        "caption": "dos",
+        "heard": "entre 2 a"
+      },
+      {
+        "at": 25.587,
+        "caption": "tres",
+        "heard": "a 3 años. Y"
+      },
+      {
+        "at": 26.213,
+        "caption": "el",
+        "heard": "Y en mi trabajo"
+      },
+      {
+        "at": 27.553,
+        "caption": "26772",
+        "heard": "leyes 26,"
+      },
+      {
+        "at": 29.713,
+        "caption": "30709",
+        "heard": "y 30 a 772."
+      },
+      {
+        "at": 38.48,
+        "caption": "1500",
+        "heard": "más de 1 .500"
+      },
+      {
+        "at": 40.4,
+        "caption": "clausuran",
+        "heard": "Perú y a la hora de ir a la casa. le usuran negocios"
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14,
+    "lra": 3.2,
+    "truePeakDb": -1.4
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/video-3/video-3-preview.mp4"
+}

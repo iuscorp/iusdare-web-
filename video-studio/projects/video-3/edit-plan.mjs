@@ -91,7 +91,7 @@ sticker('🫵', ti.start, at('pero', ti.start).start - ti.start, 0.68, 0.62, 'in
 
 // ── 4. Ruptura de patrón: «pero hay más»
 const mas = at('pero', ti.start);
-add({type: 'kineticWord', syllables: ['HAY', 'MÁS'], layout: 'line', uppercase: true, stepFrames: 4, x: 0.5, y: 0.6, start: mas.start + 0.15, end: at('El', mas.start).start - 0.03}, 'pattern interrupt: abre el segundo bloque');
+add({type: 'kineticWord', syllables: ['HAY', 'MÁS'], layout: 'rows', uppercase: true, stepFrames: 4, x: 0.5, y: 0.62, start: mas.start + 0.15, end: at('El', mas.start).start - 0.03}, 'pattern interrupt: abre el segundo bloque');
 fx('whoosh', mas.start + 0.12, -15);
 
 // ── 5. Código Penal art. 323 (norma impresa) → cárcel → sello de pena
