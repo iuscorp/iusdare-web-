@@ -1,5 +1,5 @@
 # QC — Video 2
-Archivo: `previews/video-2/video-2-preview.mp4` · 2026-11-09T15:55:52.613Z
+Archivo: `previews/video-2/video-2-preview.mp4` · 2026-11-09T16:11:14.268Z
 
 | Verificación | Estado | Detalle |
 |---|---|---|
