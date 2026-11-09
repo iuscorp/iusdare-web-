@@ -76,7 +76,41 @@ if (fs.existsSync(projGlossary)) glossary.corrections = [...readJson(projGlossar
 const selectsFile = path.join(P.dir, 'selects.json');
 const selects = fs.existsSync(selectsFile) ? readJson(selectsFile) : null;
 if (selects) console.log(`  usando ${selects.length} tomas elegidas (selects.json)`);
-const plan = cleanup(transcript, {silences: silences(proxy, -40, 0.3), deepSilences: silences(proxy, -52, 0.3), glossary, selects});
+let source = transcript;
+if (selects) {
+  // cada toma elegida se transcribe aparte: en sesiones con dictado, Whisper fusiona la
+  // repetición del presentador con la frase dictada y da tiempos imprecisos
+  const rangesFile = path.join(P.analysisDir, 'selects-ranges.json');
+  const takesFile = path.join(P.analysisDir, 'transcript-takes.json');
+  const key = JSON.stringify(selects.map((x) => [x.in, x.out]));
+  const prev = fs.existsSync(rangesFile) ? fs.readFileSync(rangesFile, 'utf8') : '';
+  if (prev !== key || !fs.existsSync(takesFile) || args.force) {
+    fs.writeFileSync(rangesFile, key);
+    console.log('→ Transcribiendo cada toma elegida por separado…');
+    run(python(), [path.join(STUDIO_ROOT, 'scripts', 'transcribe.py'), proxy, takesFile, '--ranges', rangesFile, '--model', args.model ?? 'small', '--prompt', 'Vocare Iuris.'], {stdio: ['ignore', 'ignore', 'inherit']});
+  }
+  source = {...transcript, words: readJson(takesFile).words};
+}
+const plan = cleanup(source, {silences: silences(proxy, -40, 0.3), deepSilences: silences(proxy, -52, 0.3), glossary, selects});
+// verificación de hablante: cada tramo debe ser del presentador en cámara (labios + voz)
+const actFile = path.join(P.analysisDir, 'speaker-activity.json');
+if (!fs.existsSync(actFile) && (selects || args.speaker)) {
+  console.log('→ Midiendo labios del presentador (voz en cámara vs detrás de cámara)…');
+  run(python(), [path.join(STUDIO_ROOT, 'scripts', 'speaker-activity.py'), proxy, actFile, '--step', '2'], {stdio: ['ignore', 'ignore', 'inherit']});
+}
+if (fs.existsSync(actFile)) {
+  const {speakerTimeline} = await import('./lib/speaker-timeline.mjs');
+  const act = readJson(actFile);
+  plan.speaker = plan.ranges.map((r) => {
+    const tl = speakerTimeline(act, r.in, r.out, 0.1);
+    const voiced = tl.replace(/\./g, '');
+    const off = voiced.length ? (voiced.match(/d/g) || []).length / voiced.length : 0;
+    return {in: r.in, out: r.out, text: r.text, timeline: tl, offCamera: Math.round(off * 100) / 100};
+  });
+  const bad = plan.speaker.filter((x) => x.offCamera > 0.35);
+  bad.forEach((b) => plan.flags.push({kind: 'off-camera-voice', at: b.in, text: b.text, note: `${Math.round(b.offCamera * 100)} % de la voz sin movimiento de labios: ¿voz detrás de cámara?`}));
+  console.log(`  hablante: ${plan.ranges.length - bad.length}/${plan.ranges.length} tramos del presentador en cámara${bad.length ? ` — ⚠️ revisar ${bad.length}` : ''}`);
+}
 writeJson(P.cleanup, plan);
 
 const md = `# Análisis — ${meta.title}

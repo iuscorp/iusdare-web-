@@ -27,6 +27,7 @@ def main() -> None:
     ap.add_argument("output")
     ap.add_argument("--model", default="small")
     ap.add_argument("--lang", default="es")
+    ap.add_argument("--ranges", default=None, help="JSON [[in,out],...]: transcribe sólo esas tomas, cada una por separado (selects)")
     ap.add_argument("--chunk", type=float, default=0, help="transcribir en bloques de N s (evita que Whisper se salte tramos en el QC)")
     ap.add_argument("--prompt", default="Vocare Iuris. Derecho peruano: Indecopi, SBS, Constitución, Código Penal, Ley N.°")
     a = ap.parse_args()
@@ -35,6 +36,27 @@ def main() -> None:
 
     model = WhisperModel(a.model, device="cpu", compute_type="int8")
     audio = load_audio(a.input)
+    if a.ranges:
+        sr = 16000
+        rng = json.load(open(a.ranges))
+        words, segments = [], []
+        for k, (r_in, r_out) in enumerate(rng):
+            pad = 0.6 if (r_out - r_in) < 1.5 else 0.35  # tomas cortas: más contexto para Whisper
+            st = max(0.0, r_in - pad)
+            part = audio[int(st * sr) : int((r_out + pad) * sr)]
+            segs_r, _ = model.transcribe(part, language=a.lang, word_timestamps=True, vad_filter=False, initial_prompt=a.prompt, condition_on_previous_text=False)
+            for sg in segs_r:
+                segments.append({"start": round(sg.start + st, 3), "end": round(sg.end + st, 3), "text": sg.text.strip(), "take": k})
+                for w in sg.words or []:
+                    ws, we = w.start + st, w.end + st
+                    # pertenece a la toma si TERMINA dentro de ella (Whisper adelanta el inicio de la 1.ª palabra)
+                    if we > r_in + 0.06 and ws < r_out - 0.04:
+                        words.append({"w": w.word.strip(), "s": round(max(ws, r_in - 0.1), 3), "e": round(min(we, r_out + 0.2), 3), "p": round(w.probability, 3), "take": k})
+        out = {"model": a.model, "language": a.lang, "duration": round(len(audio) / sr, 3), "text": " ".join(x["text"] for x in segments), "segments": segments, "words": words}
+        with open(a.output, "w", encoding="utf-8") as f:
+            json.dump(out, f, ensure_ascii=False, indent=1)
+        print(f"transcripción por tomas: {len(rng)} tomas, {len(words)} palabras → {a.output}", file=sys.stderr)
+        return
     if a.chunk > 0:
         sr = 16000
         n = int(a.chunk * sr)

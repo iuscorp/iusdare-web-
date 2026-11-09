@@ -1,156 +1,183 @@
 [
  {
-  "in": 43.5,
-  "out": 47.98,
-  "note": "Hook: pregunta",
-  "text": "¿Pueden los vecinos cerrar una calle con una reja para así sentirse más seguros?"
+  "in": 43.45,
+  "out": 48.05,
+  "note": "Hook: ¿Pueden los vecinos cerrar una calle con una reja para así sentirse más seguros?",
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 69.3,
-  "out": 74.38,
-  "note": "Imagina que vives en una urbanización y los vecinos dicen",
-  "text": "Imagina que vives en una organización y los vecinos dicen..."
+  "in": 77.4,
+  "out": 79.85,
+  "note": "Imagina que vives en una urbanización",
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 131.24,
-  "out": 133.84,
-  "note": "Hay mucha delincuencia, pongamos una reja y listo (última toma)",
-  "text": "Hay mucha delincuencia, podríamos una regga y listo."
+  "in": 82.4,
+  "out": 83.9,
+  "note": "y los vecinos dicen",
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 137.58,
-  "out": 139.12,
+  "in": 131.2,
+  "out": 133.85,
+  "note": "Hay mucha delincuencia, podríamos una reja y listo",
+  "speaker": "Naoki (verificado: labios + voz)"
+ },
+ {
+  "in": 137.65,
+  "out": 139.1,
   "note": "Todos están de acuerdo",
-  "text": "Todos se están de acuerdo."
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 141.72,
-  "out": 143.9,
+  "in": 141.7,
+  "out": 144.05,
   "note": "Hasta que un día quieres pasar por la calle",
-  "text": "¿Hasta que un día quieres pasar por la calle?"
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 153.2,
-  "out": 155.06,
-  "note": "y la reja está cerrada (última toma)",
-  "text": "¿Y la reja está cerrada?"
+  "in": 153.4,
+  "out": 155.3,
+  "note": "y la reja está cerrada",
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 157.56,
-  "out": 158.48,
+  "in": 157.6,
+  "out": 158.8,
   "note": "¿Y ahora qué?",
-  "text": "¿Y ahora qué?"
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 165.34,
-  "out": 166.36,
+  "in": 165.35,
+  "out": 166.35,
   "note": "¿A quién llamas?",
-  "text": "a quién llamas"
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 169.76,
+  "in": 170.15,
   "out": 172.7,
   "note": "Bueno, aquí aparece un problema constitucional",
-  "text": "bueno aquí aparece un problema constitucional"
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 174.38,
-  "out": 176.04,
+  "in": 174.65,
+  "out": 176.3,
   "note": "la libertad de tránsito",
-  "text": "la libertad de tránsito"
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 177.8,
-  "out": 184.06,
-  "note": "El TC ha señalado que la instalación de rejas o tranqueras en la vía pública",
-  "text": "el tese ha señalado que la instalación de rejas o tranquilas en la vía pública"
+  "in": 177.75,
+  "out": 180.25,
+  "note": "El TC ha señalado que",
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 188.42,
-  "out": 191.68,
-  "note": "puede ser válida cuando busca proteger la seguridad ciudadana",
-  "text": "Puede ser válida cuando busca proteger la seguridad ciudadana."
+  "in": 184.62,
+  "out": 187.55,
+  "note": "la instalación de rejas o tranqueras en la vía pública",
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 202.78,
-  "out": 203.6,
+  "in": 191.85,
+  "out": 195.45,
+  "note": "puede ser válida si busca la seguridad ciudadana",
+  "speaker": "Naoki (verificado: labios + voz)"
+ },
+ {
+  "in": 202.7,
+  "out": 203.65,
   "note": "Pero ojo",
-  "text": "Pero ojo."
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 209.76,
-  "out": 214,
+  "in": 213.95,
+  "out": 218.3,
   "note": "No significa que los vecinos puedan cerrar la calle porque se les dé la gana",
-  "text": "No significa que los vecinos puedan cerrar la calle porque se les dé la gana."
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 222.36,
-  "out": 224.88,
+  "in": 222.3,
+  "out": 225.0,
   "note": "La medida debe ser razonable y proporcional",
-  "text": "La medida debe ser razonable y proporcional."
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 250.92,
-  "out": 253.6,
+  "in": 250.85,
+  "out": 253.8,
   "note": "además de contar con la autorización correspondiente",
-  "text": "Además de contar con la autorización correspondiente."
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 256.82,
-  "out": 259.9,
+  "in": 257.4,
+  "out": 260.05,
   "note": "Por ejemplo, en un caso sobre rejas instaladas",
-  "text": "Por ejemplo, en un caso sobre rejas instaladas."
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 261.52,
-  "out": 262.24,
+  "in": 261.45,
+  "out": 262.25,
   "note": "en Surco",
-  "text": "En surco."
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 270.08,
-  "out": 274.26,
+  "in": 272.28,
+  "out": 274.4,
   "note": "el TC ordenó su retiro",
-  "text": "el T .C. ordenó su retiro"
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 281.64,
-  "out": 284.14,
-  "note": "porque no se acreditó la autorización municipal",
-  "text": "por qué no se acreditó la autorización municipal?"
+  "in": 306.55,
+  "out": 309.95,
+  "note": "no se acreditó la autorización municipal correspondiente (el \"porque\" lo dijo la voz detrás de cámara)",
+  "speaker": "Naoki (verificado: labios + voz)",
+  "skipFirst": 1
  },
  {
-  "in": 388.8,
-  "out": 390.46,
+  "in": 388.85,
+  "out": 390.15,
   "note": "La pregunta es",
-  "text": "La pregunta es..."
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 607.8,
-  "out": 614.5,
-  "note": "¿cómo protegemos la seguridad sin eliminar injustificadamente la libertad de tránsito?",
-  "text": "¿Cómo protegemos la seguridad sin eliminar injustificadamente la libertad de tránsito?"
+  "in": 635.85,
+  "out": 641.25,
+  "note": "¿Cómo protegemos la seguridad sin eliminar injustificadamente la libertad de tránsito?",
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 403.56,
-  "out": 405.52,
+  "in": 403.6,
+  "out": 405.75,
   "note": "Porque sí, la seguridad es importante",
-  "text": "Porque sí, la seguridad es importante."
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 643.44,
-  "out": 649.34,
-  "note": "Recuerda: proteger la seguridad ciudadana no permite restringir arbitrariamente el derecho al libre tránsito",
-  "text": "Recuerda, proteger la seguridad ciudadana no permita restringir arbitrariamente el derecho al libre tránsito."
+  "in": 655.25,
+  "out": 657.45,
+  "note": "Recuerda, proteger la seguridad ciudadana",
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 684.158,
-  "out": 686.738,
-  "note": "CTA: Así que sigue a Vocare Iuris y guarda este video"
+  "in": 665.25,
+  "out": 668.0,
+  "note": "no significa restringir arbitrariamente",
+  "speaker": "Naoki (verificado: labios + voz)"
  },
  {
-  "in": 696.758,
-  "out": 698.538,
-  "note": "CTA: No sabes cuándo podrás necesitarlo"
+  "in": 670.25,
+  "out": 671.95,
+  "note": "el derecho al libre tránsito",
+  "speaker": "Naoki (verificado: labios + voz)"
+ },
+ {
+  "in": 684.1,
+  "out": 686.8,
+  "note": "CTA: Así que sigue a Vocare Iuris y guarda este video",
+  "speaker": "Naoki (verificado: labios + voz)"
+ },
+ {
+  "in": 698.45,
+  "out": 700.45,
+  "note": "CTA: No sabes cuándo podrás necesitarlo",
+  "speaker": "Naoki (verificado: labios + voz)"
  }
 ]

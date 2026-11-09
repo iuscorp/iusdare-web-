@@ -16,6 +16,16 @@ Precisión de los cortes: Whisper tiende a estirar palabras sobre los silencios;
 sus marcas con la detección acústica de FFmpeg (`refineWithSilences`) y alinea cada corte a la
 rejilla de fotogramas. Nunca se corta dentro de una palabra.
 
+## Sesiones en bruto con voz detrás de cámara
+Muchas grabaciones tienen a una persona que dicta cada frase antes de que el presentador la
+repita. **Sólo se monta al presentador en cámara.**
+1. `scripts/speaker-activity.py` mide la apertura de la boca (MediaPipe Face Landmarker) y el
+   nivel de audio. `scripts/lib/speaker-timeline.mjs` produce una línea de tiempo cada 0.1–0.25 s:
+   `N` = voz con labios en movimiento (presentador), `d` = voz sin labios (detrás), `.` = silencio.
+2. Se eligen las tomas de Naoki/presentador en `selects.json` (orden de guion).
+3. `analyze` transcribe cada toma por separado (Whisper fusiona dictado y repetición en el audio
+   largo) y valida que cada tramo sea `N`; avisa `off-camera-voice` si > 35 % es `d`.
+
 ## Reencuadre para ritmo
 Los rangos limpios se dividen en sub-planos de 1.2–2.5 s en límites de palabra (preferentemente
 al final de frase). Cada corte alterna `base` ↔ `subtleIn`; la revelación y los giros llevan

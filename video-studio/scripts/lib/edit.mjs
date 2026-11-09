@@ -156,13 +156,18 @@ export const cleanup = (transcript, {keepAllFillers = false, silences = [], deep
   // en vez de descartarla (antes se perdían palabras reales).
   const fixed = transcript.words.map((w, i, arr) => (w.e > w.s ? w : {...w, e: Math.min(w.s + 0.12, arr[i + 1]?.s ?? w.s + 0.12)}));
   // se guarda el inicio original: la pertenencia a una toma se decide con él (no con el refinado)
-  let base = refineWithSilences(fixed.filter((w) => w.e >= w.s && w.w.trim()).map((w) => ({...w, s0: w.s})), silences, deepSilences);
+  // el refinado asume orden cronológico (las tomas pueden venir en orden de guion)
+  let base = refineWithSilences(fixed.filter((w) => w.e >= w.s && w.w.trim()).map((w) => ({...w, s0: w.s})).sort((x, y) => x.s - y.s), silences, deepSilences);
   if (selects) {
     // Tomas elegidas por el editor, EN ORDEN DE GUION (puede no ser cronológico).
     // Cada palabra queda marcada con su toma: entre tomas siempre hay corte.
     base = selects.flatMap((sel, k) =>
       // margen de 60 ms en el borde final: la palabra que arranca justo ahí es de la toma siguiente
-      base.filter((w) => w.s0 >= sel.in - 0.02 && w.s0 < sel.out - 0.06).map((w) => ({...w, sel: k, e: Math.min(w.e, sel.out + 0.25)})),
+      base
+        .filter((w) => (w.take !== undefined ? w.take === k : w.s0 >= sel.in - 0.02 && w.s0 < sel.out - 0.06))
+        .map((w) => ({...w, sel: k, e: Math.min(w.e, sel.out + 0.25)}))
+        // skipFirst: palabras iniciales a descartar (p. ej. dichas por la voz detrás de cámara)
+        .slice(sel.skipFirst ?? 0),
     );
   }
   const words = applyGlossary(base, glossary);

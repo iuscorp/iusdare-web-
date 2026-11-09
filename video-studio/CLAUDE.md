@@ -16,6 +16,8 @@ Reglas:
 - Veredicto: sello de impacto `verdictStamp` («ESO ES ILEGAL» junto) con riser → stamp → fahhh.
 - SFX de marca: pop, click, poi, kiran, fahhh, risers (ver documentation/02-componentes.md).
 - Emojis: siempre estilo iOS. Textos de impacto pueden ir detrás del presentador (`behindPerson`).
+- **Sólo se monta voz del presentador EN CÁMARA.** En sesiones en bruto hay una voz detrás de cámara que dicta las frases: nunca usar esas tomas. `analyze` mide labios + voz (`speaker-activity.json`) y valida cada tramo (`hablante: N/N`); revisar cualquier aviso `off-camera-voice` antes del canvas. Con `npm run analyze` la línea de tiempo N/d/. de cada tramo queda en `cleanup.json → speaker`.
+- Sesiones largas con varias tomas: elegir la mejor toma de cada frase en `projects/<slug>/selects.json` (orden de guion). Cada toma se transcribe por separado; `skipFirst` descarta palabras iniciales ajenas.
 - Subtítulos: siempre siguen la cabeza del presentador (`headTrack`). Verificar en fotogramas reales.
 - No afirmar que el preset de color replica exactamente el ajuste «Combinación visual» de CapCut: es una réplica comparativa.
 - Precisión jurídica por encima del efecto.

@@ -2,6 +2,93 @@
   "_info": "Correcciones específicas de este video (se combinan con templates/glossary.json). Verificar con el equipo.",
   "corrections": [
     {
+      "match": "puedes lo vecino",
+      "replace": [
+        "¿Pueden",
+        "los",
+        "vecinos"
+      ]
+    },
+    {
+      "match": "polvamos",
+      "replace": [
+        "pongamos"
+      ],
+      "_nota": "confirmar pongamos/podríamos"
+    },
+    {
+      "match": "podriamos una reja",
+      "replace": [
+        "pongamos",
+        "una",
+        "reja"
+      ],
+      "_nota": "confirmar"
+    },
+    {
+      "match": "la libertad es transito",
+      "replace": [
+        "la",
+        "libertad",
+        "de",
+        "tránsito"
+      ]
+    },
+    {
+      "match": "el t s",
+      "replace": [
+        "El",
+        "TC"
+      ]
+    },
+    {
+      "match": "el d c",
+      "replace": [
+        "El",
+        "TC"
+      ]
+    },
+    {
+      "match": "valias y busca",
+      "replace": [
+        "válida",
+        "si",
+        "busca"
+      ]
+    },
+    {
+      "match": "la media debe",
+      "replace": [
+        "La",
+        "medida",
+        "debe"
+      ]
+    },
+    {
+      "match": "seguridad ciudadano",
+      "replace": [
+        "seguridad",
+        "ciudadana"
+      ]
+    },
+    {
+      "match": "restringir arbitraria",
+      "replace": [
+        "restringir",
+        "arbitrariamente"
+      ]
+    },
+    {
+      "match": "el derecho libre transito",
+      "replace": [
+        "el",
+        "derecho",
+        "al",
+        "libre",
+        "tránsito"
+      ]
+    },
+    {
       "match": "que siga vocare iuris",
       "replace": [
         "que",
