@@ -1,0 +1,41 @@
+{
+  "name": "vocare-iuris-video-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vocare Iuris Video Studio — sistema de edición programático (Remotion + FFmpeg + Whisper)",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "new": "node scripts/new-project.mjs",
+    "analyze": "node scripts/analyze.mjs",
+    "draft": "node scripts/draft-edl.mjs",
+    "grade": "node scripts/grade.mjs",
+    "canvas": "node scripts/canvas.mjs",
+    "render": "node scripts/render.mjs",
+    "qc": "node scripts/qc.mjs",
+    "setup:python": "python3 -m venv .venv && .venv/bin/pip install -r scripts/requirements.txt",
+    "typecheck": "tsc --noEmit",
+    "test:pipeline": "node scripts/selftest.mjs",
+    "approve": "node scripts/approve.mjs",
+    "sfx": "node scripts/make-sfx.mjs",
+    "library:render": "remotion render src/index.ts ComponentLibrary previews/component-library.mp4",
+    "postinstall": "node scripts/postinstall.mjs"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.2.6",
+    "@fontsource/montserrat": "5.2.6",
+    "@fontsource/playfair-display": "5.2.8",
+    "@remotion/bundler": "4.0.541",
+    "@remotion/cli": "4.0.541",
+    "@remotion/renderer": "4.0.541",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.541",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@lobehub/fluent-emoji-3d": "1.1.0",
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}

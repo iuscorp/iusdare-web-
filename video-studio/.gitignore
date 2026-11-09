@@ -1,0 +1,26 @@
+node_modules/
+.venv/
+out/
+# material pesado / sensible: nunca al repositorio
+footage/raw/*
+!footage/raw/.gitkeep
+public/footage/*
+!public/footage/.gitkeep
+public/stickers/*
+!public/stickers/.gitkeep
+previews/*
+!previews/.gitkeep
+exports/*
+!exports/.gitkeep
+canvas/*/media/
+projects/*/analysis/*.pcm
+*.mp4
+*.mov
+*.MOV
+*.MP4
+*.wav
+!public/sfx/*.wav
+# proyectos de prueba internos y artefactos locales
+projects/selftest-*/
+canvas/selftest-*/
+.venv

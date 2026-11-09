@@ -1,0 +1,26 @@
+{
+  "_info": "Correcciones de transcripción aplicadas a los subtítulos. 'match' = palabras normalizadas (minúsculas, sin tildes ni signos) separadas por espacio; 'replace' = palabras finales tal como deben verse. Añadir aquí cada término que Whisper confunda. Errores reales observados en las referencias están marcados con REF.",
+  "corrections": [
+    {"match": "bocari yuris", "replace": ["Vocare", "Iuris"], "src": "REF"},
+    {"match": "bocari yuri", "replace": ["Vocare", "Iuris"], "src": "REF"},
+    {"match": "vocar a yuri", "replace": ["Vocare", "Iuris"], "src": "REF"},
+    {"match": "vocari yuris", "replace": ["Vocare", "Iuris"]},
+    {"match": "vocare yuris", "replace": ["Vocare", "Iuris"]},
+    {"match": "bocare iuris", "replace": ["Vocare", "Iuris"]},
+    {"match": "bocari iuris", "replace": ["Vocare", "Iuris"]},
+    {"match": "evocada y juridica", "replace": ["Vocare", "Iuris"], "src": "REF"},
+    {"match": "se va a buscar yuris", "replace": ["sigue", "a", "Vocare", "Iuris"], "src": "REF"},
+    {"match": "guarda esta vida", "replace": ["guarda", "este", "video"], "src": "REF"},
+    {"match": "guardas la vida", "replace": ["guarda", "el", "video"], "src": "REF"},
+    {"match": "intercopy", "replace": ["Indecopi"], "src": "REF"},
+    {"match": "indecomi", "replace": ["Indecopi"], "src": "REF"},
+    {"match": "indecopy", "replace": ["Indecopi"]},
+    {"match": "tazas de interes", "replace": ["tasas", "de", "interés"], "src": "REF"},
+    {"match": "sunafil", "replace": ["SUNAFIL"]},
+    {"match": "sunat", "replace": ["SUNAT"]},
+    {"match": "sbs", "replace": ["SBS"]},
+    {"match": "servir", "replace": ["SERVIR"], "onlyAfter": ["dicho", "y"], "_nota": "sólo como institución; revisar manualmente"},
+    {"match": "lineamentos", "replace": ["lineamientos"], "src": "REF"},
+    {"match": "flagranz", "replace": ["flagrancia"], "src": "REF"}
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "combinacion-visual",
+  "name": "Combinación visual (réplica comparativa)",
+  "status": "APROXIMACIÓN CALIBRADA — no verificada contra los parámetros originales de CapCut",
+  "notes": [
+    "No se tuvo acceso al proyecto de CapCut ni a los valores del ajuste «Combinación visual».",
+    "El preset se construyó por análisis comparativo de fotogramas (references/analysis/color-stats.json):",
+    "negros profundos (L* p1 ≈ 0–2), altas luces contenidas (L* p99 ≈ 90–94, sin clipping),",
+    "saturación media moderada (HSV S ≈ 0.20–0.23), sesgo cálido leve (a* ≈ +4…+6, b* ≈ +2…+5),",
+    "piel luminosa y un glow/halación suave visible en bordes de cabello y piel.",
+    "Ver documentation/04-color.md para el procedimiento de calibración y cómo afinarlo si se obtienen los valores reales."
+  ],
+  "params": {
+    "contrast": 1.06,
+    "brightness": 0.0,
+    "saturation": 1.32,
+    "gamma": 1.0,
+    "warmth": {
+      "shadows": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "midtones": [
+        0.012,
+        0.0,
+        -0.005
+      ],
+      "highlights": [
+        0.008,
+        0.0,
+        0.0
+      ]
+    },
+    "curve": "0/0 0.06/0.012 0.25/0.24 0.5/0.53 0.8/0.84 0.93/0.95 1/0.965",
+    "glow": {
+      "sigma": 20,
+      "threshold": 0.55,
+      "opacity": 0.26
+    },
+    "sharpen": {
+      "amount": 0.35,
+      "size": 5
+    }
+  },
+  "css": {
+    "filter": "contrast(1.08) saturate(1.3) brightness(1.02) sepia(0.06)",
+    "glowOpacity": 0.22,
+    "glowBlurPx": 18
+  }
+}
