@@ -1,0 +1,28 @@
+{
+  "slug": "video-1026",
+  "title": "Video 1026",
+  "createdAt": "2026-11-09T05:04:26.432Z",
+  "raw": "footage/raw/video-1026/1026-4.MOV",
+  "proxy": "footage/video-1026/source.mp4",
+  "status": "preview-renderizado",
+  "workflow": [
+    "ANÁLISIS",
+    "ESTRUCTURA NARRATIVA",
+    "CÓDIGOS NATIVOS",
+    "CANVAS VISUAL",
+    "APROBACIÓN",
+    "EDICIÓN COMPLETA",
+    "CONTROL DE CALIDAD",
+    "EXPORTACIÓN"
+  ],
+  "approval": {
+    "approved": false,
+    "approvedAt": null,
+    "notes": []
+  },
+  "lastRender": {
+    "file": "../previews/video-1026/video-1026-preview.mp4",
+    "at": "2026-11-09T05:12:16.746Z",
+    "preview": true
+  }
+}

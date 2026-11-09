@@ -37,6 +37,13 @@ test('detecta toma repetida y conserva la última', () => {
   assert.equal(c.ranges[0].words[0].s, 2.5);
 });
 
+test('NO confunde frases distintas con el mismo comienzo con una toma repetida', () => {
+  const ws = 'Y si te quieren bajar la nota de conducta no tienes sustento. Y si te sacan de clase eso vulnera tu derecho.'.split(' ');
+  const t = {duration: 12, words: ws.map((w, i) => W(w, i * 0.3, i * 0.3 + 0.25))};
+  const c = cleanup(t);
+  assert.ok(!c.removed.some((r) => r.kind === 'retake'));
+});
+
 test('elimina muletillas puras', () => {
   const c = cleanup({duration: 3, words: [W('Mira', 0, 0.3), W('eh', 0.35, 0.5), W('esto.', 0.55, 0.9)]});
   assert.ok(c.removed.some((r) => r.kind === 'filler'));

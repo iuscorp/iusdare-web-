@@ -50,7 +50,13 @@ export const findRetakes = (words) => {
       const B = sentences[b];
       if (words[B[0]].s - words[A[A.length - 1]].e > 25) break;
       const keyB = B.slice(0, 3).map((i) => norm(words[i].w)).join(' ');
-      if (keyA === keyB && B.length >= 3) {
+      // Mismo comienzo NO basta ("Y si te quieres…" vs "Y si te sacan…" son frases distintas):
+      // exigir además que la mayor parte de la frase anterior se repita en la posterior.
+      const wordsA = A.map((i) => norm(words[i].w)).filter(Boolean);
+      const setB = new Set(B.map((i) => norm(words[i].w)).filter(Boolean));
+      const overlap = wordsA.filter((w) => setB.has(w)).length / Math.max(1, wordsA.length);
+      const prefix5 = A.length >= 5 && B.length >= 5 && A.slice(0, 5).every((ia, k) => norm(words[ia].w) === norm(words[B[k]].w));
+      if (keyA === keyB && B.length >= 3 && (overlap >= 0.7 || prefix5)) {
         A.forEach((i) => removed.add(i));
         reasons.push({kind: 'retake', from: words[A[0]].s, to: words[A[A.length - 1]].e, text: A.map((i) => words[i].w).join(' '), keptAt: words[B[0]].s});
         break;

@@ -1,0 +1,1040 @@
+{
+  "slug": "video-1026",
+  "title": "Video 1026",
+  "source": {
+    "file": "footage/video-1026/source.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 31.183,
+    "graded": "footage/video-1026/graded.mp4"
+  },
+  "colorPreset": "combinacion-visual",
+  "colorAppliedInSource": true,
+  "segments": [
+    {
+      "id": "s01",
+      "in": 0,
+      "out": 2.233,
+      "role": "hook",
+      "framing": "subtleIn",
+      "move": "settle",
+      "note": "¿Tu colegio te obliga a vender entradas para la Kermés?"
+    },
+    {
+      "id": "s02",
+      "in": 2.233,
+      "out": 4.067,
+      "role": "reveal",
+      "framing": "punchIn",
+      "move": "none",
+      "note": "Eso es ilegal, la educación es un derecho,"
+    },
+    {
+      "id": "s03",
+      "in": 4.067,
+      "out": 6.567,
+      "role": "context",
+      "framing": "base",
+      "move": "none",
+      "note": "no un negocio. Y vender entradas para la Kermés es"
+    },
+    {
+      "id": "s04",
+      "in": 6.567,
+      "out": 9.533,
+      "role": "context",
+      "framing": "subtleIn",
+      "move": "none",
+      "note": "una colaboración. Y si te quieres bajar la nota de conducta"
+    },
+    {
+      "id": "s05",
+      "in": 9.533,
+      "out": 11.333,
+      "role": "context",
+      "framing": "base",
+      "move": "none",
+      "note": "por no venderlas, no tienes sustento."
+    },
+    {
+      "id": "s06",
+      "in": 11.333,
+      "out": 13.667,
+      "role": "context",
+      "framing": "subtleIn",
+      "move": "none",
+      "note": "En conducta se mide la disciplina y convivencia,"
+    },
+    {
+      "id": "s07",
+      "in": 13.667,
+      "out": 16.367,
+      "role": "context",
+      "framing": "base",
+      "move": "none",
+      "note": "no las ventas. Y si te sacan de clase o no te dejan rendir"
+    },
+    {
+      "id": "s08",
+      "in": 16.367,
+      "out": 18.833,
+      "role": "context",
+      "framing": "subtleIn",
+      "move": "none",
+      "note": "algún examen, eso vulnera tu derecho a la educación."
+    },
+    {
+      "id": "s09",
+      "in": 18.967,
+      "out": 21.533,
+      "role": "context",
+      "framing": "base",
+      "move": "none",
+      "note": "Y sí, pueden existir concursos entre salones y personas"
+    },
+    {
+      "id": "s10",
+      "in": 21.533,
+      "out": 23.3,
+      "role": "context",
+      "framing": "subtleIn",
+      "move": "none",
+      "note": "que vendan las entradas por voluntad,"
+    },
+    {
+      "id": "s11",
+      "in": 23.3,
+      "out": 24.8,
+      "role": "twist",
+      "framing": "punchIn",
+      "move": "none",
+      "note": "pero es eso. Es voluntario."
+    },
+    {
+      "id": "s12",
+      "in": 24.8,
+      "out": 27.333,
+      "role": "recap",
+      "framing": "subtleIn",
+      "move": "none",
+      "note": "Sin presiones ni castigos, en caso no deseas participar."
+    },
+    {
+      "id": "s13",
+      "in": 27.333,
+      "out": 29.367,
+      "role": "cta",
+      "framing": "base",
+      "move": "none",
+      "note": "así que sigue a Vocare Iuris y guarda este video."
+    },
+    {
+      "id": "s14",
+      "in": 29.367,
+      "out": 31.167,
+      "role": "cta",
+      "framing": "base",
+      "move": "none",
+      "note": "No sabes cuándo puede necesitarlo."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Tu",
+      "start": 0,
+      "end": 0.12,
+      "emphasis": false
+    },
+    {
+      "text": "colegio",
+      "start": 0.06,
+      "end": 0.34,
+      "emphasis": false
+    },
+    {
+      "text": "te",
+      "start": 0.34,
+      "end": 0.48,
+      "emphasis": false
+    },
+    {
+      "text": "obliga",
+      "start": 0.48,
+      "end": 0.76,
+      "emphasis": false
+    },
+    {
+      "text": "a",
+      "start": 0.76,
+      "end": 0.88,
+      "emphasis": false
+    },
+    {
+      "text": "vender",
+      "start": 0.82,
+      "end": 0.98,
+      "emphasis": false
+    },
+    {
+      "text": "entradas",
+      "start": 0.98,
+      "end": 1.32,
+      "emphasis": false
+    },
+    {
+      "text": "para",
+      "start": 1.32,
+      "end": 1.58,
+      "emphasis": false
+    },
+    {
+      "text": "la",
+      "start": 1.58,
+      "end": 1.72,
+      "emphasis": false
+    },
+    {
+      "text": "Kermés",
+      "start": 1.72,
+      "end": 2.233,
+      "emphasis": false
+    },
+    {
+      "text": "Eso",
+      "start": 2.3,
+      "end": 2.52,
+      "emphasis": false
+    },
+    {
+      "text": "es",
+      "start": 2.52,
+      "end": 2.74,
+      "emphasis": false
+    },
+    {
+      "text": "ilegal",
+      "start": 2.74,
+      "end": 3.04,
+      "emphasis": true
+    },
+    {
+      "text": "la",
+      "start": 3.04,
+      "end": 3.16,
+      "emphasis": false
+    },
+    {
+      "text": "educación",
+      "start": 3.09,
+      "end": 3.28,
+      "emphasis": false
+    },
+    {
+      "text": "es",
+      "start": 3.28,
+      "end": 3.56,
+      "emphasis": false
+    },
+    {
+      "text": "un",
+      "start": 3.56,
+      "end": 3.68,
+      "emphasis": false
+    },
+    {
+      "text": "derecho",
+      "start": 3.66,
+      "end": 4.067,
+      "emphasis": true
+    },
+    {
+      "text": "no",
+      "start": 4.16,
+      "end": 4.3,
+      "emphasis": false
+    },
+    {
+      "text": "un",
+      "start": 4.3,
+      "end": 4.44,
+      "emphasis": false
+    },
+    {
+      "text": "negocio",
+      "start": 4.44,
+      "end": 5.16,
+      "emphasis": false
+    },
+    {
+      "text": "Y",
+      "start": 5.16,
+      "end": 5.28,
+      "emphasis": false
+    },
+    {
+      "text": "vender",
+      "start": 5.21,
+      "end": 5.42,
+      "emphasis": false
+    },
+    {
+      "text": "entradas",
+      "start": 5.42,
+      "end": 5.72,
+      "emphasis": false
+    },
+    {
+      "text": "para",
+      "start": 5.72,
+      "end": 5.98,
+      "emphasis": false
+    },
+    {
+      "text": "la",
+      "start": 5.98,
+      "end": 6.1,
+      "emphasis": false
+    },
+    {
+      "text": "Kermés",
+      "start": 6.1,
+      "end": 6.46,
+      "emphasis": false
+    },
+    {
+      "text": "es",
+      "start": 6.46,
+      "end": 6.58,
+      "emphasis": false
+    },
+    {
+      "text": "una",
+      "start": 6.58,
+      "end": 6.76,
+      "emphasis": false
+    },
+    {
+      "text": "colaboración",
+      "start": 6.76,
+      "end": 7.78,
+      "emphasis": false
+    },
+    {
+      "text": "Y",
+      "start": 7.78,
+      "end": 7.9,
+      "emphasis": false
+    },
+    {
+      "text": "si",
+      "start": 7.83,
+      "end": 7.95,
+      "emphasis": false
+    },
+    {
+      "text": "te",
+      "start": 7.9,
+      "end": 8.02,
+      "emphasis": false
+    },
+    {
+      "text": "quieres",
+      "start": 8.02,
+      "end": 8.22,
+      "emphasis": false
+    },
+    {
+      "text": "bajar",
+      "start": 8.22,
+      "end": 8.54,
+      "emphasis": false
+    },
+    {
+      "text": "la",
+      "start": 8.54,
+      "end": 8.66,
+      "emphasis": false
+    },
+    {
+      "text": "nota",
+      "start": 8.64,
+      "end": 8.82,
+      "emphasis": false
+    },
+    {
+      "text": "de",
+      "start": 8.82,
+      "end": 9,
+      "emphasis": false
+    },
+    {
+      "text": "conducta",
+      "start": 9,
+      "end": 9.533,
+      "emphasis": false
+    },
+    {
+      "text": "por",
+      "start": 9.52,
+      "end": 9.66,
+      "emphasis": false
+    },
+    {
+      "text": "no",
+      "start": 9.66,
+      "end": 9.82,
+      "emphasis": false
+    },
+    {
+      "text": "venderlas",
+      "start": 9.82,
+      "end": 10.52,
+      "emphasis": false
+    },
+    {
+      "text": "no",
+      "start": 10.52,
+      "end": 10.64,
+      "emphasis": false
+    },
+    {
+      "text": "tienes",
+      "start": 10.6,
+      "end": 10.78,
+      "emphasis": false
+    },
+    {
+      "text": "sustento",
+      "start": 10.78,
+      "end": 11.333,
+      "emphasis": false
+    },
+    {
+      "text": "En",
+      "start": 11.42,
+      "end": 11.54,
+      "emphasis": false
+    },
+    {
+      "text": "conducta",
+      "start": 11.52,
+      "end": 11.98,
+      "emphasis": false
+    },
+    {
+      "text": "se",
+      "start": 11.98,
+      "end": 12.12,
+      "emphasis": false
+    },
+    {
+      "text": "mide",
+      "start": 12.12,
+      "end": 12.34,
+      "emphasis": false
+    },
+    {
+      "text": "la",
+      "start": 12.34,
+      "end": 12.5,
+      "emphasis": false
+    },
+    {
+      "text": "disciplina",
+      "start": 12.5,
+      "end": 12.9,
+      "emphasis": false
+    },
+    {
+      "text": "y",
+      "start": 12.9,
+      "end": 13.02,
+      "emphasis": false
+    },
+    {
+      "text": "convivencia",
+      "start": 12.98,
+      "end": 13.667,
+      "emphasis": false
+    },
+    {
+      "text": "no",
+      "start": 13.74,
+      "end": 13.86,
+      "emphasis": false
+    },
+    {
+      "text": "las",
+      "start": 13.84,
+      "end": 14.02,
+      "emphasis": false
+    },
+    {
+      "text": "ventas",
+      "start": 14.02,
+      "end": 14.6,
+      "emphasis": false
+    },
+    {
+      "text": "Y",
+      "start": 14.6,
+      "end": 14.72,
+      "emphasis": false
+    },
+    {
+      "text": "si",
+      "start": 14.65,
+      "end": 14.77,
+      "emphasis": false
+    },
+    {
+      "text": "te",
+      "start": 14.7,
+      "end": 14.82,
+      "emphasis": false
+    },
+    {
+      "text": "sacan",
+      "start": 14.82,
+      "end": 15.1,
+      "emphasis": false
+    },
+    {
+      "text": "de",
+      "start": 15.1,
+      "end": 15.24,
+      "emphasis": false
+    },
+    {
+      "text": "clase",
+      "start": 15.24,
+      "end": 15.44,
+      "emphasis": false
+    },
+    {
+      "text": "o",
+      "start": 15.44,
+      "end": 15.62,
+      "emphasis": false
+    },
+    {
+      "text": "no",
+      "start": 15.62,
+      "end": 15.74,
+      "emphasis": false
+    },
+    {
+      "text": "te",
+      "start": 15.72,
+      "end": 15.84,
+      "emphasis": false
+    },
+    {
+      "text": "dejan",
+      "start": 15.82,
+      "end": 16.08,
+      "emphasis": false
+    },
+    {
+      "text": "rendir",
+      "start": 16.08,
+      "end": 16.367,
+      "emphasis": false
+    },
+    {
+      "text": "algún",
+      "start": 16.36,
+      "end": 16.6,
+      "emphasis": false
+    },
+    {
+      "text": "examen",
+      "start": 16.6,
+      "end": 17.24,
+      "emphasis": false
+    },
+    {
+      "text": "eso",
+      "start": 17.24,
+      "end": 17.44,
+      "emphasis": false
+    },
+    {
+      "text": "vulnera",
+      "start": 17.44,
+      "end": 17.86,
+      "emphasis": false
+    },
+    {
+      "text": "tu",
+      "start": 17.86,
+      "end": 18.02,
+      "emphasis": false
+    },
+    {
+      "text": "derecho",
+      "start": 18.02,
+      "end": 18.26,
+      "emphasis": true
+    },
+    {
+      "text": "a",
+      "start": 18.26,
+      "end": 18.42,
+      "emphasis": false
+    },
+    {
+      "text": "la",
+      "start": 18.42,
+      "end": 18.54,
+      "emphasis": false
+    },
+    {
+      "text": "educación",
+      "start": 18.47,
+      "end": 18.833,
+      "emphasis": false
+    },
+    {
+      "text": "Y",
+      "start": 18.907,
+      "end": 19.027,
+      "emphasis": false
+    },
+    {
+      "text": "sí",
+      "start": 19.007,
+      "end": 19.267,
+      "emphasis": false
+    },
+    {
+      "text": "pueden",
+      "start": 19.267,
+      "end": 19.427,
+      "emphasis": false
+    },
+    {
+      "text": "existir",
+      "start": 19.427,
+      "end": 19.787,
+      "emphasis": false
+    },
+    {
+      "text": "concursos",
+      "start": 19.787,
+      "end": 20.167,
+      "emphasis": false
+    },
+    {
+      "text": "entre",
+      "start": 20.167,
+      "end": 20.327,
+      "emphasis": false
+    },
+    {
+      "text": "salones",
+      "start": 20.327,
+      "end": 20.807,
+      "emphasis": false
+    },
+    {
+      "text": "y",
+      "start": 20.807,
+      "end": 21.087,
+      "emphasis": false
+    },
+    {
+      "text": "personas",
+      "start": 21.087,
+      "end": 21.4,
+      "emphasis": false
+    },
+    {
+      "text": "que",
+      "start": 21.407,
+      "end": 21.667,
+      "emphasis": false
+    },
+    {
+      "text": "vendan",
+      "start": 21.667,
+      "end": 22.027,
+      "emphasis": false
+    },
+    {
+      "text": "las",
+      "start": 22.027,
+      "end": 22.147,
+      "emphasis": false
+    },
+    {
+      "text": "entradas",
+      "start": 22.147,
+      "end": 22.407,
+      "emphasis": false
+    },
+    {
+      "text": "por",
+      "start": 22.407,
+      "end": 22.647,
+      "emphasis": false
+    },
+    {
+      "text": "voluntad",
+      "start": 22.647,
+      "end": 23.167,
+      "emphasis": false
+    },
+    {
+      "text": "pero",
+      "start": 23.207,
+      "end": 23.367,
+      "emphasis": false
+    },
+    {
+      "text": "es",
+      "start": 23.367,
+      "end": 23.667,
+      "emphasis": false
+    },
+    {
+      "text": "eso",
+      "start": 23.667,
+      "end": 24.007,
+      "emphasis": false
+    },
+    {
+      "text": "Es",
+      "start": 24.007,
+      "end": 24.127,
+      "emphasis": false
+    },
+    {
+      "text": "voluntario",
+      "start": 24.087,
+      "end": 24.667,
+      "emphasis": false
+    },
+    {
+      "text": "Sin",
+      "start": 24.707,
+      "end": 24.827,
+      "emphasis": false
+    },
+    {
+      "text": "presiones",
+      "start": 24.787,
+      "end": 25.067,
+      "emphasis": false
+    },
+    {
+      "text": "ni",
+      "start": 25.067,
+      "end": 25.307,
+      "emphasis": false
+    },
+    {
+      "text": "castigos",
+      "start": 25.307,
+      "end": 25.807,
+      "emphasis": false
+    },
+    {
+      "text": "en",
+      "start": 25.807,
+      "end": 25.927,
+      "emphasis": false
+    },
+    {
+      "text": "caso",
+      "start": 25.907,
+      "end": 26.047,
+      "emphasis": false
+    },
+    {
+      "text": "no",
+      "start": 26.047,
+      "end": 26.267,
+      "emphasis": false
+    },
+    {
+      "text": "deseas",
+      "start": 26.267,
+      "end": 26.547,
+      "emphasis": false
+    },
+    {
+      "text": "participar",
+      "start": 26.547,
+      "end": 27.2,
+      "emphasis": false
+    },
+    {
+      "text": "así",
+      "start": 27.327,
+      "end": 27.52,
+      "emphasis": false
+    },
+    {
+      "text": "que",
+      "start": 27.52,
+      "end": 27.713,
+      "emphasis": false
+    },
+    {
+      "text": "sigue",
+      "start": 27.713,
+      "end": 27.907,
+      "emphasis": false
+    },
+    {
+      "text": "a",
+      "start": 27.907,
+      "end": 28.1,
+      "emphasis": false
+    },
+    {
+      "text": "Vocare",
+      "start": 28.1,
+      "end": 28.293,
+      "emphasis": false
+    },
+    {
+      "text": "Iuris",
+      "start": 28.293,
+      "end": 28.487,
+      "emphasis": false
+    },
+    {
+      "text": "y",
+      "start": 28.487,
+      "end": 28.607,
+      "emphasis": false
+    },
+    {
+      "text": "guarda",
+      "start": 28.607,
+      "end": 28.787,
+      "emphasis": false
+    },
+    {
+      "text": "este",
+      "start": 28.787,
+      "end": 28.967,
+      "emphasis": false
+    },
+    {
+      "text": "video",
+      "start": 28.967,
+      "end": 29.233,
+      "emphasis": false
+    },
+    {
+      "text": "No",
+      "start": 29.227,
+      "end": 29.487,
+      "emphasis": false
+    },
+    {
+      "text": "sabes",
+      "start": 29.487,
+      "end": 29.707,
+      "emphasis": false
+    },
+    {
+      "text": "cuándo",
+      "start": 29.707,
+      "end": 30.107,
+      "emphasis": false
+    },
+    {
+      "text": "puede",
+      "start": 30.107,
+      "end": 30.267,
+      "emphasis": false
+    },
+    {
+      "text": "necesitarlo",
+      "start": 30.267,
+      "end": 31.033,
+      "emphasis": false
+    }
+  ],
+  "overlays": [
+    {
+      "type": "sticker",
+      "emoji": "🏫",
+      "size": 170,
+      "start": 0.1,
+      "end": 2.2,
+      "auto": true
+    },
+    {
+      "type": "sticker",
+      "emoji": "🎟️",
+      "size": 150,
+      "x": 0.68,
+      "y": 0.6,
+      "start": 0.98,
+      "end": 2.533
+    },
+    {
+      "type": "revealTitle",
+      "lines": [
+        "Eso es",
+        "ilegal"
+      ],
+      "start": 2.3,
+      "end": 3.6,
+      "auto": true,
+      "note": "Ajustar el texto exacto del veredicto."
+    },
+    {
+      "type": "denyMark",
+      "x": 0.28,
+      "y": 0.62,
+      "start": 4.24,
+      "end": 5.66
+    },
+    {
+      "type": "selectionLabel",
+      "text": "Colaboración voluntaria",
+      "cursor": true,
+      "start": 6.46,
+      "end": 8.98
+    },
+    {
+      "type": "sticker",
+      "emoji": "📝",
+      "size": 160,
+      "x": 0.7,
+      "y": 0.62,
+      "start": 8.64,
+      "end": 11.333
+    },
+    {
+      "type": "denyMark",
+      "x": 0.28,
+      "y": 0.62,
+      "start": 10.629999999999999,
+      "end": 11.833
+    },
+    {
+      "type": "selectionLabel",
+      "text": "Conducta = disciplina\ny convivencia",
+      "cursor": false,
+      "start": 12.3,
+      "end": 14.799999999999999
+    },
+    {
+      "type": "sticker",
+      "emoji": "🚪",
+      "size": 150,
+      "x": 0.7,
+      "y": 0.62,
+      "start": 15.24,
+      "end": 16.44
+    },
+    {
+      "type": "sticker",
+      "emoji": "📝",
+      "size": 150,
+      "x": 0.3,
+      "y": 0.62,
+      "start": 16.6,
+      "end": 17.84
+    },
+    {
+      "type": "sticker",
+      "emoji": "🏆",
+      "size": 160,
+      "x": 0.7,
+      "y": 0.62,
+      "start": 19.787,
+      "end": 23.167
+    },
+    {
+      "type": "kineticWord",
+      "syllables": [
+        "Vo",
+        "lun",
+        "ta",
+        "rio"
+      ],
+      "stepFrames": 4,
+      "start": 24.087,
+      "end": 25.167
+    },
+    {
+      "type": "denyMark",
+      "x": 0.28,
+      "y": 0.62,
+      "start": 24.787,
+      "end": 26.206999999999997
+    }
+  ],
+  "sfx": [
+    {
+      "name": "pop",
+      "at": 0.1,
+      "volumeDb": -18
+    },
+    {
+      "name": "pop",
+      "at": 0.98,
+      "volumeDb": -18
+    },
+    {
+      "name": "whoosh",
+      "at": 2.113,
+      "volumeDb": -22
+    },
+    {
+      "name": "boom",
+      "at": 2.3,
+      "volumeDb": -20
+    },
+    {
+      "name": "click",
+      "at": 6.66,
+      "volumeDb": -16
+    },
+    {
+      "name": "pop",
+      "at": 8.64,
+      "volumeDb": -18
+    },
+    {
+      "name": "click",
+      "at": 12.4,
+      "volumeDb": -16
+    },
+    {
+      "name": "pop",
+      "at": 15.24,
+      "volumeDb": -18
+    },
+    {
+      "name": "pop",
+      "at": 16.6,
+      "volumeDb": -18
+    },
+    {
+      "name": "pop",
+      "at": 19.787,
+      "volumeDb": -18
+    },
+    {
+      "name": "whoosh",
+      "at": 23.047,
+      "volumeDb": -22
+    },
+    {
+      "name": "swish",
+      "at": 24.087,
+      "volumeDb": -18
+    }
+  ],
+  "showSafeZones": false
+}
