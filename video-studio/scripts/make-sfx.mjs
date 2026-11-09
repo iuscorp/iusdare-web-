@@ -10,6 +10,9 @@
  *   click  – cursor / selección
  *   ding   – revelación / dato clave
  *   boom   – golpe grave para el veredicto
+ *   poi    – boing cómico ascendente      kiran – destello/campanitas
+ *   riser  – subida de tensión            fahhh – exclamación (aprox.)
+ *   stamp  – golpe de sello de impacto
  */
 import path from 'node:path';
 import fs from 'node:fs';
@@ -27,11 +30,28 @@ const defs = {
   type: "anoisesrc=d=0.035:c=white:a=0.7[n];[n]highpass=f=2500,afade=t=out:st=0.005:d=0.03,aformat=sample_rates=48000",
   click: "sine=f=2400:d=0.025[a];[a]afade=t=out:st=0.004:d=0.02,aformat=sample_rates=48000",
   ding: "sine=f=1320:d=0.7[a];sine=f=1980:d=0.7[b];[a][b]amix=inputs=2,afade=t=out:st=0.05:d=0.65,volume=0.8,aformat=sample_rates=48000",
+  // --- paleta Vocare Iuris (aproximaciones sintetizadas; reemplazables por los originales con
+  //     npm run sfx:import -- <archivo> <nombre>)
+  // poi: "boing" corto ascendente, cómico (negaciones, rebotes)
+  poi: "aevalsrc='0.9*sin(2*PI*(380*t+2600*t*t))*exp(-14*t)*(1-exp(-400*t))':d=0.22:s=48000",
+  // kiran: destello brillante (campanitas ascendentes + brillo), para revelar algo positivo
+  kiran: "aevalsrc='0.35*(sin(2*PI*2093*t)*exp(-9*t)+sin(2*PI*2637*(t-0.05))*exp(-9*(t-0.05))*gt(t,0.05)+sin(2*PI*3136*(t-0.1))*exp(-8*(t-0.1))*gt(t,0.1)+sin(2*PI*4186*(t-0.15))*exp(-7*(t-0.15))*gt(t,0.15))':d=0.9:s=48000[a];anoisesrc=d=0.9:c=white:a=0.08[n];[n]highpass=f=7000,afade=t=out:st=0:d=0.9[s];[a][s]amix=inputs=2:normalize=0",
+  // riser: subida de tensión 1.6 s (ruido filtrado + tono ascendente) que termina en el golpe
+  riser: "anoisesrc=d=1.6:c=pink:a=0.5[n];[n]highpass=f=300,lowpass=f=9000,afade=t=in:d=1.55:curve=exp[nn];aevalsrc='0.35*sin(2*PI*(180*t+260*t*t))*(t/1.6)^2':d=1.6:s=48000[tone];[nn][tone]amix=inputs=2:normalize=0",
+  // fahhh: aproximación de la exclamación "FAHHH" (soplo vocal con caída); el meme original es una voz:
+  //        importar el archivo real con sfx:import para el sonido exacto
+  fahhh: "anoisesrc=d=1.1:c=pink:a=0.9[n];[n]bandpass=f=1100:width_type=h:w=900,afade=t=in:d=0.04,afade=t=out:st=0.25:d=0.85[f];aevalsrc='0.25*sin(2*PI*(220-60*t)*t)*exp(-2.2*t)':d=1.1:s=48000[v];[f][v]amix=inputs=2:normalize=0,aecho=0.6:0.5:60:0.3",
+  // stamp: golpe seco de sello (impacto grave + chasquido)
+  stamp: "sine=f=55:d=0.35[a];anoisesrc=d=0.05:c=white:a=1[n];[n]highpass=f=1500[c];[a][c]amix=inputs=2:duration=longest:normalize=0,afade=t=out:st=0.03:d=0.32",
   boom: "sine=f=60:d=0.6[a];anoisesrc=d=0.08:c=brown:a=0.8[n];[a][n]amix=inputs=2:duration=longest,lowpass=f=250,afade=t=out:st=0.05:d=0.55,volume=2,aformat=sample_rates=48000",
 };
 
 for (const [name, graph] of Object.entries(defs)) {
   const file = path.join(out, `${name}.wav`);
+  if (fs.existsSync(file.replace('.wav', '.custom'))) {
+    console.log('· se conserva el original importado:', name);
+    continue;
+  }
   // pop: barrido descendente para que suene "burbuja" (no tono plano)
   const g = name === 'pop' ? "aevalsrc='0.8*sin(2*PI*(1400-9000*t)*t)*exp(-28*t)':d=0.12:s=48000" : graph;
   const tmp = file.replace('.wav', '.tmp.wav');

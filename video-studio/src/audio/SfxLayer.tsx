@@ -15,7 +15,7 @@ export const SfxLayer: React.FC<{sfx: Edl['sfx']; music?: Edl['music']}> = ({sfx
     <>
       {music ? <Audio src={staticFile(music.file)} volume={dbToGain(music.volumeDb)} loop /> : null}
       {sfx.map((s, i) => (
-        <Sequence key={i} from={Math.max(0, Math.round(s.at * fps))} durationInFrames={Math.round(fps * 1.5)} layout="none" name={`sfx ${s.name}`}>
+        <Sequence key={i} from={Math.max(0, Math.round(s.at * fps))} durationInFrames={Math.round(fps * 2.5)} layout="none" name={`sfx ${s.name}`}>
           <Audio src={staticFile(`sfx/${s.name}.wav`)} volume={dbToGain(s.volumeDb)} />
         </Sequence>
       ))}

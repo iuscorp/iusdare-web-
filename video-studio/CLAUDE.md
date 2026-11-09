@@ -13,6 +13,8 @@ Cuando el usuario entregue **raw footage + brief**, seguir SIEMPRE este flujo, s
 
 Reglas:
 - Fidelidad a las referencias: no inventar estilo nuevo; los valores [REF] de `src/brand/tokens.ts` no se cambian sin pedirlo.
+- Veredicto: sello de impacto `verdictStamp` («ESO ES ILEGAL» junto) con riser → stamp → fahhh.
+- SFX de marca: pop, click, poi, kiran, fahhh, risers (ver documentation/02-componentes.md).
 - Emojis: siempre estilo iOS. Textos de impacto pueden ir detrás del presentador (`behindPerson`).
 - Subtítulos: siempre siguen la cabeza del presentador (`headTrack`). Verificar en fotogramas reales.
 - No afirmar que el preset de color replica exactamente el ajuste «Combinación visual» de CapCut: es una réplica comparativa.

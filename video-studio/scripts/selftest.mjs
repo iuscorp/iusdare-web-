@@ -75,7 +75,7 @@ test('EDL: planos alineados a fotogramas, subtítulos dentro de la duración, v�
   assert.ok(edl.captions.every((cap) => cap.end <= total + 0.05));
   assert.ok(edl.segments.length >= 3, 'debe partir en sub-planos');
   assert.ok(edl.overlays.some((o) => o.type === 'lawCard' && o.title === 'Ley 29571'));
-  assert.ok(edl.overlays.some((o) => o.type === 'revealTitle'));
+  assert.ok(edl.overlays.some((o) => o.type === 'verdictStamp'));
   assert.equal(edl.segments[0].role, 'hook');
 });
 

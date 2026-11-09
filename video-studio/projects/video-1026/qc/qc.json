@@ -40,7 +40,7 @@
       "name": "Loudness",
       "ok": true,
       "level": "ok",
-      "detail": "-14 LUFS (objetivo −14 ±1)"
+      "detail": "-14.1 LUFS (objetivo −14 ±1)"
     },
     {
       "name": "True peak",
@@ -77,12 +77,12 @@
     "matched": 115,
     "total": 120,
     "medianOffset": 0,
-    "p90AbsOffset": 0.019999999999999574,
+    "p90AbsOffset": 0.020000000000003126,
     "mismatches": [
       {
         "at": 2.3,
         "caption": "Eso",
-        "heard": "Esa"
+        "heard": "Ese"
       },
       {
         "at": 8.02,
@@ -107,8 +107,8 @@
     ]
   },
   "loudness": {
-    "integratedLufs": -14,
-    "lra": 2.4,
+    "integratedLufs": -14.1,
+    "lra": 2.5,
     "truePeakDb": -1.5
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/video-1026/video-1026-preview.mp4"

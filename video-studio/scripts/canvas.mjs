@@ -75,7 +75,7 @@ segs.forEach((s) => {
   if (s.move === 'crash') codeRows.push({t: s.outStart, code: codes.codes['crash-zoom'], seg: s});
 });
 edl.overlays.forEach((o) => {
-  const c = o.type === 'sticker' || o.type === 'photoCard' || o.type === 'backgroundPlate' ? 'visual-stimulus' : o.type === 'selectionLabel' ? 'editor-ui' : o.type === 'lawCard' || o.type === 'documentCover' ? 'build-up' : o.type === 'revealTitle' ? 'reveal-antihook' : 'pattern-interrupt';
+  const c = o.type === 'sticker' || o.type === 'photoCard' || o.type === 'backgroundPlate' ? 'visual-stimulus' : o.type === 'selectionLabel' ? 'editor-ui' : o.type === 'lawCard' || o.type === 'documentCover' ? 'build-up' : o.type === 'revealTitle' || o.type === 'verdictStamp' ? 'reveal-antihook' : 'pattern-interrupt';
   codeRows.push({t: o.start, code: codes.codes[c], overlay: o});
 });
 codeRows.sort((a, b) => a.t - b.t);

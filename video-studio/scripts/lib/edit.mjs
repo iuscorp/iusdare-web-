@@ -256,7 +256,7 @@ export const suggestOverlays = (segmentsOut) => {
     const rule = STICKER_RULES.find(([re]) => re.test(t));
     if (rule) {
       overlays.push({type: 'sticker', emoji: rule[1], size: 170, start: seg.start + 0.1, end: Math.min(seg.end + 0.6, seg.start + 2.2), auto: true});
-      sfx.push({name: 'pop', at: seg.start + 0.1, volumeDb: -18});
+      sfx.push({name: 'pop', at: seg.start + 0.1, volumeDb: -16});
       lastStickerAt = seg.start;
     }
   }
@@ -395,9 +395,14 @@ export const buildEdl = ({slug, title, source, clean, emphasisExtra = []}) => {
     const k = p.words.findIndex((w) => norm(w.w) === 'ilegal');
     const startW = p.words[Math.max(0, k - 2)];
     const st = round(p.outStart + (startW.s - p.in));
-    overlays.push({type: 'revealTitle', lines: ['Eso es', 'ilegal'], start: st, end: round(Math.min(p.outEnd, st + 1.3)), auto: true, note: 'Ajustar el texto exacto del veredicto.'});
-    sfx.push({name: 'boom', at: st, volumeDb: -20});
+    // [MARCA] sello de impacto "ESO ES ILEGAL" + riser que desemboca en el golpe
+    overlays.push({type: 'verdictStamp', text: 'Eso es ilegal', tone: 'deny', start: st, end: round(Math.min(p.outEnd + 0.4, st + 1.5)), auto: true, note: 'Ajustar el texto exacto del veredicto.'});
+    sfx.push({name: 'riser', at: round(Math.max(0, st - 1.55)), volumeDb: -20});
+    sfx.push({name: 'stamp', at: st, volumeDb: -12});
   }
+  // nada compite con el sello: los stickers que se crucen terminan justo antes del golpe
+  const stamp = overlays.find((o) => o.type === 'verdictStamp');
+  if (stamp) overlays.forEach((o) => { if (o.type === 'sticker' && o.start < stamp.end && o.end > stamp.start) o.end = round(stamp.start - 0.03); });
   // whoosh en cada punch-in fuerte
   segments.forEach((s, i) => {
     if (s.framing === 'punchIn' || s.move === 'crash') sfx.push({name: 'whoosh', at: round(Math.max(0, pieces[i].outStart - 0.12)), volumeDb: -22});

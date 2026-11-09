@@ -876,18 +876,15 @@
       "x": 0.68,
       "y": 0.6,
       "start": 0.98,
-      "end": 2.533
+      "end": 2.27
     },
     {
-      "type": "revealTitle",
-      "lines": [
-        "Eso es",
-        "ilegal"
-      ],
+      "type": "verdictStamp",
+      "text": "Eso es ilegal",
+      "tone": "deny",
       "start": 2.3,
-      "end": 3.6,
-      "auto": true,
-      "note": "Ajustar el texto exacto del veredicto."
+      "end": 3.9,
+      "y": 0.62
     },
     {
       "type": "denyMark",
@@ -980,62 +977,77 @@
     {
       "name": "pop",
       "at": 0.1,
-      "volumeDb": -18
+      "volumeDb": -16
+    },
+    {
+      "name": "riser",
+      "at": 0.75,
+      "volumeDb": -22
     },
     {
       "name": "pop",
       "at": 0.98,
-      "volumeDb": -18
+      "volumeDb": -16
     },
     {
-      "name": "whoosh",
-      "at": 2.113,
-      "volumeDb": -22
-    },
-    {
-      "name": "boom",
+      "name": "stamp",
       "at": 2.3,
-      "volumeDb": -20
+      "volumeDb": -11
+    },
+    {
+      "name": "fahhh",
+      "at": 2.42,
+      "volumeDb": -17
+    },
+    {
+      "name": "poi",
+      "at": 4.24,
+      "volumeDb": -15
     },
     {
       "name": "click",
       "at": 6.66,
-      "volumeDb": -16
+      "volumeDb": -14
     },
     {
       "name": "pop",
       "at": 8.64,
-      "volumeDb": -18
+      "volumeDb": -16
+    },
+    {
+      "name": "poi",
+      "at": 10.63,
+      "volumeDb": -15
     },
     {
       "name": "click",
       "at": 12.4,
-      "volumeDb": -16
+      "volumeDb": -14
     },
     {
       "name": "pop",
       "at": 15.24,
-      "volumeDb": -18
+      "volumeDb": -16
     },
     {
       "name": "pop",
       "at": 16.6,
-      "volumeDb": -18
+      "volumeDb": -16
     },
     {
       "name": "pop",
       "at": 19.787,
-      "volumeDb": -18
+      "volumeDb": -16
     },
     {
-      "name": "whoosh",
-      "at": 23.047,
-      "volumeDb": -22
-    },
-    {
-      "name": "swish",
+      "name": "kiran",
       "at": 24.087,
-      "volumeDb": -18
+      "volumeDb": -15
+    },
+    {
+      "name": "poi",
+      "at": 24.787,
+      "volumeDb": -15
     }
   ],
   "showSafeZones": false,

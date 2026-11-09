@@ -100,7 +100,7 @@ export const overlaySchema = z.discriminatedUnion('type', [
 ]);
 
 export const sfxSchema = z.object({
-  name: z.enum(['pop', 'whoosh', 'type', 'click', 'ding', 'boom', 'swish']),
+  name: z.enum(['pop', 'click', 'poi', 'kiran', 'fahhh', 'riser', 'stamp', 'whoosh', 'type', 'ding', 'boom', 'swish']),
   at: z.number(),
   volumeDb: z.number().default(-14),
 });

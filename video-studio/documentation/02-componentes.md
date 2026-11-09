@@ -41,7 +41,7 @@ tiempos de `captions`, `overlays`, `sfx` = segundos de la **edición final**.
 | `photoCard` | `image`, `rotate` | REF | Ejemplo visual concreto |
 | `backgroundPlate` | `image` | REF* | Contexto en la pared (*sin recorte de persona: franja superior) |
 | `bigLetter` | `text` | REF | Variante de una sola letra/palabra gigante |
-| `verdictStamp` | `text`, `tone` | REC | Alternativa sobria al título de revelación |
+| `verdictStamp` | `text`, `tone` | MARCA | **Sello de impacto «ESO ES ILEGAL»** (en una pieza, cae de golpe y sacude) con `riser` + `stamp` + `fahhh` |
 | `stepList` | `title`, `steps` | REC | «¿Qué hacer?» con 2–3 pasos |
 | `comparison` | `left`, `right` | REC | Público vs privado, permitido vs prohibido |
 
@@ -55,10 +55,20 @@ Cualquier recurso con `"behindPerson": true` se dibuja entre el fondo y el prese
 `canvas`/`render` generan automáticamente `public/footage/<slug>/person.webm` (recorte con alfa,
 MediaPipe selfie_multiclass, ~5 min por 30 s de video en CPU) y lo registran en `edl.personMatte`.
 
-## SFX (`public/sfx/`)
-`pop` (sticker) · `type` (tarjeta) · `click` (selección) · `whoosh` (punch-in/crash) ·
-`swish` (entrada lateral) · `ding` (dato clave) · `boom` (veredicto). Niveles −14 a −22 dB.
-Se pueden reemplazar por archivos propios con el mismo nombre.
+## SFX — paleta Vocare Iuris (`public/sfx/`)
+| Sonido | Uso en la edición |
+|---|---|
+| `pop` | aparición de stickers |
+| `click` | etiquetas seleccionadas / cursor |
+| `poi` | negaciones (❌), rebotes cómicos |
+| `kiran` | revelación positiva, palabra clave (p. ej. «VOLUNTARIO») |
+| `riser` | sube la tensión ~1.5 s y desemboca en el veredicto |
+| `stamp` | golpe del sello «ESO ES ILEGAL» |
+| `fahhh` | reacción tras el veredicto o un dato indignante |
+| `whoosh`, `swish`, `type`, `ding`, `boom` | secundarios, usar con moderación |
+
+Los archivos son **aproximaciones sintetizadas**. Para usar los originales de Vocare Iuris:
+`npm run sfx:import -- ruta/al/fahhh.mp3 fahhh` (convierte, normaliza y protege de `npm run sfx`).
 
 ## Tipografías
 | Uso | Fuente | Familia CSS |
