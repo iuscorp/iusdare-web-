@@ -17,7 +17,8 @@ const out = path.join(pub, 'source.mp4');
 if (!fs.existsSync(main)) fs.renameSync(out, main);
 
 const dur = (f) => Number(execFileSync('ffprobe', ['-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=duration', '-of', 'csv=p=0', f], {encoding: 'utf8'}).trim());
-const offset = dur(main);
+// el demuxer concat arranca el 2.º archivo en la duración del CONTENEDOR (el mayor de audio/video)
+const offset = Number(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', main], {encoding: 'utf8'}).trim());
 const list = path.join(pub, 'concat.txt');
 fs.writeFileSync(list, `file '${main}'\nfile '${cta}'\n`);
 execFileSync('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', list, '-c', 'copy', '-movflags', '+faststart', out]);

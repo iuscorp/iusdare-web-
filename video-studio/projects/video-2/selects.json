@@ -79,7 +79,7 @@
  },
  {
   "in": 209.76,
-  "out": 214.0,
+  "out": 214,
   "note": "No significa que los vecinos puedan cerrar la calle porque se les dé la gana",
   "text": "No significa que los vecinos puedan cerrar la calle porque se les dé la gana."
  },
@@ -142,5 +142,15 @@
   "out": 649.34,
   "note": "Recuerda: proteger la seguridad ciudadana no permite restringir arbitrariamente el derecho al libre tránsito",
   "text": "Recuerda, proteger la seguridad ciudadana no permita restringir arbitrariamente el derecho al libre tránsito."
+ },
+ {
+  "in": 684.225,
+  "out": 686.805,
+  "note": "CTA: Así que sigue a Vocare Iuris y guarda este video"
+ },
+ {
+  "in": 696.825,
+  "out": 698.605,
+  "note": "CTA: No sabes cuándo podrás necesitarlo"
  }
 ]
