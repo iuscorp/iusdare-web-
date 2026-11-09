@@ -480,3 +480,36 @@ export const buildEdl = ({slug, title, source, clean, emphasisExtra = []}) => {
     showSafeZones: false,
   };
 };
+
+// ---------------------------------------------------------------- ajuste acústico fino
+
+/**
+ * Aplica la detección acústica de scripts/tighten.py a los tramos: recorta el aire antes y
+ * después de la voz y parte cada tramo en sus pausas internas (Whisper las esconde dentro de
+ * las palabras). Las palabras se reasignan al sub-tramo que contiene su centro.
+ */
+export const tightenRanges = (ranges, tight, {padIn = 0.04, padOut = 0.06} = {}) => {
+  const out = [];
+  let saved = 0;
+  ranges.forEach((r, k) => {
+    const t = tight[k];
+    if (!t) return out.push(r);
+    const vIn = Math.max(r.in, t.voiceIn - padIn);
+    const vOut = Math.min(r.out, t.voiceOut + padOut);
+    const cuts = [vIn];
+    for (const [ps, pe] of t.pauses) cuts.push(ps + padOut, pe - padIn);
+    cuts.push(vOut);
+    const pieces = [];
+    for (let i = 0; i < cuts.length; i += 2) if (cuts[i + 1] - cuts[i] > 0.08) pieces.push({in: round(cuts[i]), out: round(cuts[i + 1]), words: []});
+    if (!pieces.length) return out.push(r);
+    for (const w of r.words) {
+      const mid = (w.s + w.e) / 2;
+      let p = pieces.find((x) => mid >= x.in && mid < x.out);
+      if (!p) p = pieces.reduce((best, x) => (Math.abs((x.in + x.out) / 2 - mid) < Math.abs((best.in + best.out) / 2 - mid) ? x : best));
+      p.words.push({...w, s: Math.max(w.s, p.in), e: Math.min(Math.max(w.e, p.in + 0.05), p.out)});
+    }
+    saved += r.out - r.in - pieces.reduce((a, x) => a + x.out - x.in, 0);
+    pieces.filter((x) => x.words.length).forEach((x) => out.push({...x, text: x.words.map((w) => w.w).join(' ')}));
+  });
+  return {ranges: out, saved: round(saved)};
+};

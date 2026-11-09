@@ -1,9 +1,8 @@
 {
   "ranges": [
     {
-      "in": 43.47,
-      "out": 48.03,
-      "text": "¿Pueden los vecinos, cerrar una calle con una reja para así sentirse más seguros?",
+      "in": 43.53,
+      "out": 46.44,
       "words": [
         {
           "w": "¿Pueden",
@@ -91,10 +90,17 @@
           "s0": 45.92,
           "sel": 0,
           "i": 8
-        },
+        }
+      ],
+      "text": "¿Pueden los vecinos, cerrar una calle con una reja"
+    },
+    {
+      "in": 46.52,
+      "out": 48.03,
+      "words": [
         {
           "w": "para",
-          "s": 46.32,
+          "s": 46.52,
           "e": 46.66,
           "p": 0.847,
           "take": 0,
@@ -142,16 +148,16 @@
           "sel": 0,
           "i": 13
         }
-      ]
+      ],
+      "text": "para así sentirse más seguros?"
     },
     {
-      "in": 77.22,
+      "in": 77.52,
       "out": 79.52,
-      "text": "¿Imagina que vives en una urbanización?",
       "words": [
         {
           "w": "¿Imagina",
-          "s": 77.3,
+          "s": 77.52,
           "e": 77.93,
           "p": 0.738,
           "take": 1,
@@ -209,12 +215,12 @@
           "sel": 1,
           "i": 19
         }
-      ]
+      ],
+      "text": "¿Imagina que vives en una urbanización?"
     },
     {
-      "in": 82.43,
-      "out": 83.683,
-      "text": "Y los vecinos dicen...",
+      "in": 82.49,
+      "out": 83.62,
       "words": [
         {
           "w": "Y",
@@ -256,16 +262,16 @@
           "sel": 2,
           "i": 23
         }
-      ]
+      ],
+      "text": "Y los vecinos dicen..."
     },
     {
-      "in": 131.02,
-      "out": 133.885,
-      "text": "Hay mucha delincuencia, pongamos una reja y listo.",
+      "in": 131.42,
+      "out": 133.64,
       "words": [
         {
           "w": "Hay",
-          "s": 131.1,
+          "s": 131.42,
           "e": 131.55,
           "p": 0.483,
           "take": 3,
@@ -334,19 +340,19 @@
         {
           "w": "listo.",
           "s": 133.5,
-          "e": 133.79500000000002,
+          "e": 133.64,
           "p": 0.99,
           "take": 3,
           "s0": 133.45,
           "sel": 3,
           "i": 31
         }
-      ]
+      ],
+      "text": "Hay mucha delincuencia, pongamos una reja y listo."
     },
     {
-      "in": 137.783,
+      "in": 137.853,
       "out": 138.92,
-      "text": "todos están de acuerdo.",
       "words": [
         {
           "w": "todos",
@@ -384,16 +390,16 @@
           "sel": 4,
           "i": 35
         }
-      ]
+      ],
+      "text": "todos están de acuerdo."
     },
     {
-      "in": 141.719,
-      "out": 143.94,
-      "text": "¿Hasta que un día quieres pasar por la calle?",
+      "in": 141.819,
+      "out": 142.789,
       "words": [
         {
           "w": "¿Hasta",
-          "s": 141.79899999999998,
+          "s": 141.819,
           "e": 141.99,
           "p": 0.686,
           "take": 5,
@@ -434,13 +440,20 @@
         {
           "w": "quieres",
           "s": 142.57,
-          "e": 143.07,
+          "e": 142.789,
           "p": 0.924,
           "take": 5,
           "s0": 142.57,
           "sel": 5,
           "i": 40
-        },
+        }
+      ],
+      "text": "¿Hasta que un día quieres"
+    },
+    {
+      "in": 142.959,
+      "out": 143.94,
+      "words": [
         {
           "w": "pasar",
           "s": 143.07,
@@ -481,12 +494,12 @@
           "sel": 5,
           "i": 44
         }
-      ]
+      ],
+      "text": "pasar por la calle?"
     },
     {
-      "in": 153.507,
+      "in": 153.577,
       "out": 154.28,
-      "text": "Y la reja está",
       "words": [
         {
           "w": "Y",
@@ -528,12 +541,12 @@
           "sel": 6,
           "i": 48
         }
-      ]
+      ],
+      "text": "Y la reja está"
     },
     {
-      "in": 154.626,
+      "in": 154.686,
       "out": 155.16,
-      "text": "cerrada.",
       "words": [
         {
           "w": "cerrada.",
@@ -545,16 +558,16 @@
           "sel": 6,
           "i": 49
         }
-      ]
+      ],
+      "text": "cerrada."
     },
     {
-      "in": 157.42,
-      "out": 158.53,
-      "text": "Y ahora, ¿qué?",
+      "in": 157.76,
+      "out": 158.25,
       "words": [
         {
           "w": "Y",
-          "s": 157.5,
+          "s": 157.76,
           "e": 157.86,
           "p": 0.386,
           "take": 7,
@@ -571,10 +584,17 @@
           "s0": 157.86,
           "sel": 7,
           "i": 51
-        },
+        }
+      ],
+      "text": "Y ahora,"
+    },
+    {
+      "in": 158.36,
+      "out": 158.53,
+      "words": [
         {
           "w": "¿qué?",
-          "s": 158.3,
+          "s": 158.36,
           "e": 158.44,
           "p": 0.641,
           "take": 7,
@@ -582,12 +602,12 @@
           "sel": 7,
           "i": 52
         }
-      ]
+      ],
+      "text": "¿qué?"
     },
     {
-      "in": 165.424,
-      "out": 166.36,
-      "text": "¿A quién llamas?",
+      "in": 165.484,
+      "out": 166.314,
       "words": [
         {
           "w": "¿A",
@@ -619,16 +639,16 @@
           "sel": 8,
           "i": 55
         }
-      ]
+      ],
+      "text": "¿A quién llamas?"
     },
     {
-      "in": 170.217,
+      "in": 170.307,
       "out": 170.65,
-      "text": "Bueno,",
       "words": [
         {
           "w": "Bueno,",
-          "s": 170.297,
+          "s": 170.307,
           "e": 170.56,
           "p": 0.715,
           "take": 9,
@@ -636,12 +656,12 @@
           "sel": 9,
           "i": 56
         }
-      ]
+      ],
+      "text": "Bueno,"
     },
     {
-      "in": 170.9,
+      "in": 170.91,
       "out": 172.81,
-      "text": "aquí aparece un problema constitucional.",
       "words": [
         {
           "w": "aquí",
@@ -693,16 +713,16 @@
           "sel": 9,
           "i": 61
         }
-      ]
+      ],
+      "text": "aquí aparece un problema constitucional."
     },
     {
-      "in": 174.542,
+      "in": 174.862,
       "out": 176.11,
-      "text": "la libertad de tránsito.",
       "words": [
         {
           "w": "la",
-          "s": 174.62199999999999,
+          "s": 174.862,
           "e": 174.9715,
           "p": 1,
           "corrected": true,
@@ -736,16 +756,16 @@
           "sel": 10,
           "i": 65
         }
-      ]
+      ],
+      "text": "la libertad de tránsito."
     },
     {
-      "in": 177.86,
+      "in": 178.26,
       "out": 179.52,
-      "text": "El TC. ha señalado...",
       "words": [
         {
           "w": "El",
-          "s": 177.94,
+          "s": 178.26,
           "e": 178.4,
           "p": 1,
           "corrected": true,
@@ -781,16 +801,16 @@
           "sel": 11,
           "i": 69
         }
-      ]
+      ],
+      "text": "El TC. ha señalado..."
     },
     {
-      "in": 184.44,
-      "out": 187.4,
-      "text": "¿Que la instalación de rejas o tranqueras en la vía pública?",
+      "in": 184.62,
+      "out": 185.93,
       "words": [
         {
           "w": "¿Que",
-          "s": 184.52,
+          "s": 184.62,
           "e": 184.69,
           "p": 0.287,
           "take": 12,
@@ -837,10 +857,17 @@
           "s0": 185.41,
           "sel": 12,
           "i": 74
-        },
+        }
+      ],
+      "text": "¿Que la instalación de rejas"
+    },
+    {
+      "in": 186.03,
+      "out": 187.4,
+      "words": [
         {
           "w": "o",
-          "s": 185.89,
+          "s": 186.03,
           "e": 186.17,
           "p": 0.666,
           "take": 12,
@@ -897,12 +924,12 @@
           "sel": 12,
           "i": 80
         }
-      ]
+      ],
+      "text": "o tranqueras en la vía pública?"
     },
     {
-      "in": 192.339,
-      "out": 195.15,
-      "text": "Puede ser válida si busca la Seguridad Ciudadana.",
+      "in": 192.409,
+      "out": 195.139,
       "words": [
         {
           "w": "Puede",
@@ -981,16 +1008,16 @@
           "sel": 13,
           "i": 88
         }
-      ]
+      ],
+      "text": "Puede ser válida si busca la Seguridad Ciudadana."
     },
     {
-      "in": 202.52,
-      "out": 203.659,
-      "text": "Pero ojo.",
+      "in": 202.91,
+      "out": 203.56,
       "words": [
         {
           "w": "Pero",
-          "s": 202.6,
+          "s": 202.91,
           "e": 203.1,
           "p": 0.25,
           "take": 14,
@@ -1001,19 +1028,19 @@
         {
           "w": "ojo.",
           "s": 203.1,
-          "e": 203.56900000000002,
+          "e": 203.56,
           "p": 0.641,
           "take": 14,
           "s0": 203.1,
           "sel": 14,
           "i": 90
         }
-      ]
+      ],
+      "text": "Pero ojo."
     },
     {
-      "in": 214.273,
-      "out": 218.21,
-      "text": "No significa que los vecinos pueden cerrar la calle porque se les dé la gana.",
+      "in": 214.343,
+      "out": 215.953,
       "words": [
         {
           "w": "No",
@@ -1068,13 +1095,20 @@
         {
           "w": "pueden",
           "s": 215.86,
-          "e": 216.22,
+          "e": 215.953,
           "p": 0.831,
           "take": 15,
           "s0": 215.86,
           "sel": 15,
           "i": 96
-        },
+        }
+      ],
+      "text": "No significa que los vecinos pueden"
+    },
+    {
+      "in": 216.043,
+      "out": 218.193,
+      "words": [
         {
           "w": "cerrar",
           "s": 216.22,
@@ -1165,16 +1199,16 @@
           "sel": 15,
           "i": 105
         }
-      ]
+      ],
+      "text": "cerrar la calle porque se les dé la gana."
     },
     {
-      "in": 222.12,
+      "in": 222.38,
       "out": 224.96,
-      "text": "La medida debe ser razonable y proporcional.",
       "words": [
         {
           "w": "La",
-          "s": 222.2,
+          "s": 222.38,
           "e": 222.45666666666665,
           "p": 1,
           "corrected": true,
@@ -1239,16 +1273,16 @@
           "sel": 16,
           "i": 112
         }
-      ]
+      ],
+      "text": "La medida debe ser razonable y proporcional."
     },
     {
-      "in": 251.128,
+      "in": 251.268,
       "out": 253.65,
-      "text": "Además de contar con la autorización correspondiente.",
       "words": [
         {
           "w": "Además",
-          "s": 251.208,
+          "s": 251.268,
           "e": 251.58,
           "p": 0.371,
           "take": 17,
@@ -1316,12 +1350,12 @@
           "sel": 17,
           "i": 119
         }
-      ]
+      ],
+      "text": "Además de contar con la autorización correspondiente."
     },
     {
-      "in": 257.413,
-      "out": 260,
-      "text": "Por ejemplo, en un caso sobre rejas instaladas",
+      "in": 257.483,
+      "out": 259.963,
       "words": [
         {
           "w": "Por",
@@ -1403,12 +1437,12 @@
           "sel": 18,
           "i": 127
         }
-      ]
+      ],
+      "text": "Por ejemplo, en un caso sobre rejas instaladas"
     },
     {
-      "in": 261.508,
+      "in": 261.578,
       "out": 262.32,
-      "text": "En Surco.",
       "words": [
         {
           "w": "En",
@@ -1429,12 +1463,12 @@
           "sel": 19,
           "i": 129
         }
-      ]
+      ],
+      "text": "En Surco."
     },
     {
-      "in": 272.761,
+      "in": 272.831,
       "out": 274.32,
-      "text": "El TC. ordenó su retiro.",
       "words": [
         {
           "w": "El",
@@ -1484,12 +1518,12 @@
           "sel": 20,
           "i": 134
         }
-      ]
+      ],
+      "text": "El TC. ordenó su retiro."
     },
     {
       "in": 306.82,
       "out": 309.93,
-      "text": "no se acreditó la autorización municipal correspondiente.",
       "words": [
         {
           "w": "no",
@@ -1561,16 +1595,16 @@
           "sel": 21,
           "i": 141
         }
-      ]
+      ],
+      "text": "no se acreditó la autorización municipal correspondiente."
     },
     {
-      "in": 388.798,
-      "out": 390.057,
-      "text": "La pregunta es...",
+      "in": 388.998,
+      "out": 389.848,
       "words": [
         {
           "w": "La",
-          "s": 388.87800000000004,
+          "s": 388.998,
           "e": 389.15,
           "p": 0.417,
           "take": 22,
@@ -1591,19 +1625,19 @@
         {
           "w": "es...",
           "s": 389.45,
-          "e": 389.967,
+          "e": 389.848,
           "p": 0.718,
           "take": 22,
           "s0": 389.45,
           "sel": 22,
           "i": 144
         }
-      ]
+      ],
+      "text": "La pregunta es..."
     },
     {
-      "in": 636.067,
-      "out": 641.15,
-      "text": "¿Cómo protegemos la seguridad sin eliminar injustificadamente la libertad de tránsito?",
+      "in": 636.127,
+      "out": 638.847,
       "words": [
         {
           "w": "¿Cómo",
@@ -1664,10 +1698,17 @@
           "s0": 637.92,
           "sel": 23,
           "i": 150
-        },
+        }
+      ],
+      "text": "¿Cómo protegemos la seguridad sin eliminar"
+    },
+    {
+      "in": 638.917,
+      "out": 641.15,
+      "words": [
         {
           "w": "injustificadamente",
-          "s": 638.58,
+          "s": 638.917,
           "e": 639.74,
           "p": 0.981,
           "take": 23,
@@ -1715,12 +1756,12 @@
           "sel": 23,
           "i": 155
         }
-      ]
+      ],
+      "text": "injustificadamente la libertad de tránsito?"
     },
     {
-      "in": 403.742,
+      "in": 403.802,
       "out": 405.46,
-      "text": "Porque sí, la seguridad es importante.",
       "words": [
         {
           "w": "Porque",
@@ -1782,26 +1823,33 @@
           "sel": 24,
           "i": 161
         }
-      ]
+      ],
+      "text": "Porque sí, la seguridad es importante."
     },
     {
-      "in": 655.498,
-      "out": 657.74,
-      "text": "Recuerda, proteger la seguridad ciudadana.",
+      "in": 655.588,
+      "out": 656.218,
       "words": [
         {
           "w": "Recuerda,",
-          "s": 655.578,
+          "s": 655.588,
           "e": 656.06,
           "p": 0.854,
           "take": 25,
           "s0": 655.15,
           "sel": 25,
           "i": 162
-        },
+        }
+      ],
+      "text": "Recuerda,"
+    },
+    {
+      "in": 656.358,
+      "out": 657.74,
+      "words": [
         {
           "w": "proteger",
-          "s": 656.34,
+          "s": 656.358,
           "e": 656.74,
           "p": 0.86,
           "take": 25,
@@ -1837,16 +1885,16 @@
           "sel": 25,
           "i": 166
         }
-      ]
+      ],
+      "text": "proteger la seguridad ciudadana."
     },
     {
-      "in": 665.571,
+      "in": 665.681,
       "out": 668.29,
-      "text": "No significa restringir arbitrariamente.",
       "words": [
         {
           "w": "No",
-          "s": 665.6510000000001,
+          "s": 665.681,
           "e": 665.94,
           "p": 0.53,
           "take": 26,
@@ -1882,12 +1930,12 @@
           "sel": 26,
           "i": 170
         }
-      ]
+      ],
+      "text": "No significa restringir arbitrariamente."
     },
     {
-      "in": 670.591,
+      "in": 670.651,
       "out": 672.05,
-      "text": "el derecho al libre tránsito.",
       "words": [
         {
           "w": "el",
@@ -1934,16 +1982,16 @@
           "sel": 27,
           "i": 175
         }
-      ]
+      ],
+      "text": "el derecho al libre tránsito."
     },
     {
-      "in": 684.138,
+      "in": 684.578,
       "out": 686.72,
-      "text": "Así que sigue a Vocare Iuris y guarda este video.",
       "words": [
         {
           "w": "Así",
-          "s": 684.2180000000001,
+          "s": 684.578,
           "e": 684.77,
           "p": 0.454,
           "take": 28,
@@ -2033,12 +2081,12 @@
           "sel": 28,
           "i": 185
         }
-      ]
+      ],
+      "text": "Así que sigue a Vocare Iuris y guarda este video."
     },
     {
-      "in": 698.933,
+      "in": 699.003,
       "out": 700.53,
-      "text": "No sabes cuándo podrás necesitarlo.",
       "words": [
         {
           "w": "No",
@@ -2090,7 +2138,8 @@
           "sel": 29,
           "i": 190
         }
-      ]
+      ],
+      "text": "No sabes cuándo podrás necesitarlo."
     }
   ],
   "removed": [
@@ -2216,171 +2265,207 @@
   "stats": {
     "sourceDuration": 701.583,
     "sourceSpeechSpan": 656.89,
-    "outputDuration": 66.196,
+    "outputDuration": 59.959,
     "savedSeconds": 635.387,
     "words": 191,
-    "wordsPerSecond": 2.885
+    "wordsPerSecond": 2.885,
+    "acousticAirRemoved": 6.237
   },
   "speaker": [
     {
-      "in": 43.47,
-      "out": 48.03,
-      "text": "¿Pueden los vecinos, cerrar una calle con una reja para así sentirse más seguros?",
-      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+      "in": 43.53,
+      "out": 46.44,
+      "text": "¿Pueden los vecinos, cerrar una calle con una reja",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 77.22,
+      "in": 46.52,
+      "out": 48.03,
+      "text": "para así sentirse más seguros?",
+      "timeline": "NNNNNNNNNNNNNNN.",
+      "offCamera": 0
+    },
+    {
+      "in": 77.52,
       "out": 79.52,
       "text": "¿Imagina que vives en una urbanización?",
-      "timeline": "..NNNNNNNNNNNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 82.43,
-      "out": 83.683,
+      "in": 82.49,
+      "out": 83.62,
       "text": "Y los vecinos dicen...",
-      "timeline": "NNNNNNNNNNNN.",
-      "offCamera": 0
-    },
-    {
-      "in": 131.02,
-      "out": 133.885,
-      "text": "Hay mucha delincuencia, pongamos una reja y listo.",
-      "timeline": "...NNNNNNNNNNNNNNNNNNNNNNN...",
-      "offCamera": 0
-    },
-    {
-      "in": 137.783,
-      "out": 138.92,
-      "text": "todos están de acuerdo.",
       "timeline": "NNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 141.719,
-      "out": 143.94,
-      "text": "¿Hasta que un día quieres pasar por la calle?",
-      "timeline": "NNNNNNNNNN.NNNNNNNNNNNN",
+      "in": 131.42,
+      "out": 133.64,
+      "text": "Hay mucha delincuencia, pongamos una reja y listo.",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNN.",
       "offCamera": 0
     },
     {
-      "in": 153.507,
+      "in": 137.853,
+      "out": 138.92,
+      "text": "todos están de acuerdo.",
+      "timeline": "NNNNNNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 141.819,
+      "out": 142.789,
+      "text": "¿Hasta que un día quieres",
+      "timeline": "NNNNNNNNN.",
+      "offCamera": 0
+    },
+    {
+      "in": 142.959,
+      "out": 143.94,
+      "text": "pasar por la calle?",
+      "timeline": "NNNNNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 153.577,
       "out": 154.28,
       "text": "Y la reja está",
       "timeline": "NNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 154.626,
+      "in": 154.686,
       "out": 155.16,
       "text": "cerrada.",
-      "timeline": "NNNNN.",
-      "offCamera": 0
-    },
-    {
-      "in": 157.42,
-      "out": 158.53,
-      "text": "Y ahora, ¿qué?",
-      "timeline": "...NNNNN.NNN",
-      "offCamera": 0
-    },
-    {
-      "in": 165.424,
-      "out": 166.36,
-      "text": "¿A quién llamas?",
-      "timeline": "NNNNNNNN..",
-      "offCamera": 0
-    },
-    {
-      "in": 170.217,
-      "out": 170.65,
-      "text": "Bueno,",
       "timeline": "NNNNN",
       "offCamera": 0
     },
     {
-      "in": 170.9,
+      "in": 157.76,
+      "out": 158.25,
+      "text": "Y ahora,",
+      "timeline": "NNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 158.36,
+      "out": 158.53,
+      "text": "¿qué?",
+      "timeline": "NN",
+      "offCamera": 0
+    },
+    {
+      "in": 165.484,
+      "out": 166.314,
+      "text": "¿A quién llamas?",
+      "timeline": "NNNNNNNN.",
+      "offCamera": 0
+    },
+    {
+      "in": 170.307,
+      "out": 170.65,
+      "text": "Bueno,",
+      "timeline": "NNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 170.91,
       "out": 172.81,
       "text": "aquí aparece un problema constitucional.",
       "timeline": "NNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 174.542,
+      "in": 174.862,
       "out": 176.11,
       "text": "la libertad de tránsito.",
-      "timeline": "...NNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 177.86,
+      "in": 178.26,
       "out": 179.52,
       "text": "El TC. ha señalado...",
-      "timeline": "....NNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 184.44,
+      "in": 184.62,
+      "out": 185.93,
+      "text": "¿Que la instalación de rejas",
+      "timeline": "NNNNNNNNNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 186.03,
       "out": 187.4,
-      "text": "¿Que la instalación de rejas o tranqueras en la vía pública?",
-      "timeline": ".NNNNNNNNNNNNNNNNNNNNNNNNddNNN",
+      "text": "o tranqueras en la vía pública?",
+      "timeline": "NNNNNNNNNNdNNN",
       "offCamera": 0.07
     },
     {
-      "in": 192.339,
-      "out": 195.15,
+      "in": 192.409,
+      "out": 195.139,
       "text": "Puede ser válida si busca la Seguridad Ciudadana.",
-      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNNN.",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNN.",
       "offCamera": 0
     },
     {
-      "in": 202.52,
-      "out": 203.659,
+      "in": 202.91,
+      "out": 203.56,
       "text": "Pero ojo.",
-      "timeline": "...NNNNNNN..",
+      "timeline": "NNNNNN.",
       "offCamera": 0
     },
     {
-      "in": 214.273,
-      "out": 218.21,
-      "text": "No significa que los vecinos pueden cerrar la calle porque se les dé la gana.",
-      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN.",
+      "in": 214.343,
+      "out": 215.953,
+      "text": "No significa que los vecinos pueden",
+      "timeline": "NNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 222.12,
+      "in": 216.043,
+      "out": 218.193,
+      "text": "cerrar la calle porque se les dé la gana.",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNN.",
+      "offCamera": 0
+    },
+    {
+      "in": 222.38,
       "out": 224.96,
       "text": "La medida debe ser razonable y proporcional.",
-      "timeline": "..NNNNNNNNNNNNNNNNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 251.128,
+      "in": 251.268,
       "out": 253.65,
       "text": "Además de contar con la autorización correspondiente.",
-      "timeline": ".NNNNNNNNNNNNNNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 257.413,
-      "out": 260,
+      "in": 257.483,
+      "out": 259.963,
       "text": "Por ejemplo, en un caso sobre rejas instaladas",
-      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNN.",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 261.508,
+      "in": 261.578,
       "out": 262.32,
       "text": "En Surco.",
-      "timeline": "NNNNNNNN.",
+      "timeline": "NNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 272.761,
+      "in": 272.831,
       "out": 274.32,
       "text": "El TC. ordenó su retiro.",
-      "timeline": "NNNNNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
@@ -2391,56 +2476,70 @@
       "offCamera": 0
     },
     {
-      "in": 388.798,
-      "out": 390.057,
+      "in": 388.998,
+      "out": 389.848,
       "text": "La pregunta es...",
-      "timeline": "..NNNNNNNNN..",
+      "timeline": "NNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 636.067,
+      "in": 636.127,
+      "out": 638.847,
+      "text": "¿Cómo protegemos la seguridad sin eliminar",
+      "timeline": "NNNNNNNNNNNNNNN.NNNNNNNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 638.917,
       "out": 641.15,
-      "text": "¿Cómo protegemos la seguridad sin eliminar injustificadamente la libertad de tránsito?",
-      "timeline": "NNNNNNNNNNNNNNNN.NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+      "text": "injustificadamente la libertad de tránsito?",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 403.742,
+      "in": 403.802,
       "out": 405.46,
       "text": "Porque sí, la seguridad es importante.",
-      "timeline": "NNNNNNNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 655.498,
+      "in": 655.588,
+      "out": 656.218,
+      "text": "Recuerda,",
+      "timeline": "NNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 656.358,
       "out": 657.74,
-      "text": "Recuerda, proteger la seguridad ciudadana.",
-      "timeline": ".NNNNNNN.NNNNNNNNNNNNNN",
+      "text": "proteger la seguridad ciudadana.",
+      "timeline": "NNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 665.571,
+      "in": 665.681,
       "out": 668.29,
       "text": "No significa restringir arbitrariamente.",
-      "timeline": ".NNNNNNNNNNNNNNNNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 670.591,
+      "in": 670.651,
       "out": 672.05,
       "text": "el derecho al libre tránsito.",
-      "timeline": "NNNNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 684.138,
+      "in": 684.578,
       "out": 686.72,
       "text": "Así que sigue a Vocare Iuris y guarda este video.",
-      "timeline": "....NNNNNNNNNNNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 698.933,
+      "in": 699.003,
       "out": 700.53,
       "text": "No sabes cuándo podrás necesitarlo.",
       "timeline": "NNNNNNNNNNNNNNNN",

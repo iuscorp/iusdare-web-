@@ -92,6 +92,19 @@ if (selects) {
   source = {...transcript, words: readJson(takesFile).words};
 }
 const plan = cleanup(source, {silences: silences(proxy, -40, 0.3), deepSilences: silences(proxy, -52, 0.3), glossary, selects});
+// ajuste acústico fino: aire al inicio/final de cada tramo y pausas escondidas dentro de palabras
+{
+  const rngFile = path.join(P.analysisDir, 'ranges.json');
+  const tightFile = path.join(P.analysisDir, 'tighten.json');
+  writeJson(rngFile, plan.ranges.map((r) => [r.in, r.out]));
+  run(python(), [path.join(STUDIO_ROOT, 'scripts', 'tighten.py'), proxy, rngFile, tightFile, '--min-pause', String(args['min-pause'] ?? 0.14)]);
+  const {tightenRanges} = await import('./lib/edit.mjs');
+  const res = tightenRanges(plan.ranges, readJson(tightFile));
+  plan.ranges = res.ranges;
+  plan.stats.outputDuration = Math.round(plan.ranges.reduce((a, r) => a + r.out - r.in, 0) * 1000) / 1000;
+  plan.stats.acousticAirRemoved = res.saved;
+  console.log(`  ajuste acústico: −${res.saved.toFixed(2)} s de aire/pausas`);
+}
 // verificación de hablante: cada tramo debe ser del presentador en cámara (labios + voz)
 const actFile = path.join(P.analysisDir, 'speaker-activity.json');
 if (!fs.existsSync(actFile) && (selects || args.speaker)) {

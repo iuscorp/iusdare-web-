@@ -1,0 +1,293 @@
+[
+ {
+  "in": 43.47,
+  "out": 48.03,
+  "voiceIn": 43.57,
+  "voiceOut": 48.0,
+  "thrDb": -45.8,
+  "pauses": [
+   [
+    46.38,
+    46.56
+   ]
+  ]
+ },
+ {
+  "in": 77.22,
+  "out": 79.52,
+  "voiceIn": 77.56,
+  "voiceOut": 79.51,
+  "thrDb": -44.7,
+  "pauses": []
+ },
+ {
+  "in": 82.43,
+  "out": 83.683,
+  "voiceIn": 82.53,
+  "voiceOut": 83.56,
+  "thrDb": -47.4,
+  "pauses": []
+ },
+ {
+  "in": 131.02,
+  "out": 133.885,
+  "voiceIn": 131.46,
+  "voiceOut": 133.58,
+  "thrDb": -48.1,
+  "pauses": []
+ },
+ {
+  "in": 137.783,
+  "out": 138.92,
+  "voiceIn": 137.893,
+  "voiceOut": 138.913,
+  "thrDb": -41.5,
+  "pauses": []
+ },
+ {
+  "in": 141.719,
+  "out": 143.94,
+  "voiceIn": 141.859,
+  "voiceOut": 143.949,
+  "thrDb": -46.6,
+  "pauses": [
+   [
+    142.729,
+    142.999
+   ]
+  ]
+ },
+ {
+  "in": 153.507,
+  "out": 154.28,
+  "voiceIn": 153.617,
+  "voiceOut": 154.287,
+  "thrDb": -46.3,
+  "pauses": []
+ },
+ {
+  "in": 154.626,
+  "out": 155.16,
+  "voiceIn": 154.726,
+  "voiceOut": 155.146,
+  "thrDb": -51.8,
+  "pauses": []
+ },
+ {
+  "in": 157.42,
+  "out": 158.53,
+  "voiceIn": 157.8,
+  "voiceOut": 158.54,
+  "thrDb": -44.1,
+  "pauses": [
+   [
+    158.19,
+    158.4
+   ]
+  ]
+ },
+ {
+  "in": 165.424,
+  "out": 166.36,
+  "voiceIn": 165.524,
+  "voiceOut": 166.254,
+  "thrDb": -48.6,
+  "pauses": []
+ },
+ {
+  "in": 170.217,
+  "out": 170.65,
+  "voiceIn": 170.347,
+  "voiceOut": 170.657,
+  "thrDb": -47.7,
+  "pauses": []
+ },
+ {
+  "in": 170.9,
+  "out": 172.81,
+  "voiceIn": 170.95,
+  "voiceOut": 172.81,
+  "thrDb": -46.6,
+  "pauses": []
+ },
+ {
+  "in": 174.542,
+  "out": 176.11,
+  "voiceIn": 174.902,
+  "voiceOut": 176.062,
+  "thrDb": -45.5,
+  "pauses": []
+ },
+ {
+  "in": 177.86,
+  "out": 179.52,
+  "voiceIn": 178.3,
+  "voiceOut": 179.52,
+  "thrDb": -45.6,
+  "pauses": []
+ },
+ {
+  "in": 184.44,
+  "out": 187.4,
+  "voiceIn": 184.66,
+  "voiceOut": 187.4,
+  "thrDb": -44.4,
+  "pauses": [
+   [
+    185.87,
+    186.07
+   ]
+  ]
+ },
+ {
+  "in": 192.339,
+  "out": 195.15,
+  "voiceIn": 192.449,
+  "voiceOut": 195.079,
+  "thrDb": -42.4,
+  "pauses": []
+ },
+ {
+  "in": 202.52,
+  "out": 203.659,
+  "voiceIn": 202.95,
+  "voiceOut": 203.5,
+  "thrDb": -43.2,
+  "pauses": []
+ },
+ {
+  "in": 214.273,
+  "out": 218.21,
+  "voiceIn": 214.383,
+  "voiceOut": 218.133,
+  "thrDb": -46.0,
+  "pauses": [
+   [
+    215.893,
+    216.083
+   ]
+  ]
+ },
+ {
+  "in": 222.12,
+  "out": 224.96,
+  "voiceIn": 222.42,
+  "voiceOut": 224.96,
+  "thrDb": -44.7,
+  "pauses": []
+ },
+ {
+  "in": 251.128,
+  "out": 253.65,
+  "voiceIn": 251.308,
+  "voiceOut": 253.638,
+  "thrDb": -42.7,
+  "pauses": []
+ },
+ {
+  "in": 257.413,
+  "out": 260,
+  "voiceIn": 257.523,
+  "voiceOut": 259.903,
+  "thrDb": -45.8,
+  "pauses": []
+ },
+ {
+  "in": 261.508,
+  "out": 262.32,
+  "voiceIn": 261.618,
+  "voiceOut": 262.328,
+  "thrDb": -46.3,
+  "pauses": []
+ },
+ {
+  "in": 272.761,
+  "out": 274.32,
+  "voiceIn": 272.871,
+  "voiceOut": 274.321,
+  "thrDb": -42.4,
+  "pauses": []
+ },
+ {
+  "in": 306.82,
+  "out": 309.93,
+  "voiceIn": 306.82,
+  "voiceOut": 309.91,
+  "thrDb": -43.6,
+  "pauses": []
+ },
+ {
+  "in": 388.798,
+  "out": 390.057,
+  "voiceIn": 389.038,
+  "voiceOut": 389.788,
+  "thrDb": -45.3,
+  "pauses": []
+ },
+ {
+  "in": 636.067,
+  "out": 641.15,
+  "voiceIn": 636.167,
+  "voiceOut": 641.157,
+  "thrDb": -47.0,
+  "pauses": [
+   [
+    638.787,
+    638.957
+   ]
+  ]
+ },
+ {
+  "in": 403.742,
+  "out": 405.46,
+  "voiceIn": 403.842,
+  "voiceOut": 405.452,
+  "thrDb": -45.7,
+  "pauses": []
+ },
+ {
+  "in": 655.498,
+  "out": 657.74,
+  "voiceIn": 655.628,
+  "voiceOut": 657.748,
+  "thrDb": -44.1,
+  "pauses": [
+   [
+    656.158,
+    656.398
+   ]
+  ]
+ },
+ {
+  "in": 665.571,
+  "out": 668.29,
+  "voiceIn": 665.721,
+  "voiceOut": 668.291,
+  "thrDb": -43.3,
+  "pauses": []
+ },
+ {
+  "in": 670.591,
+  "out": 672.05,
+  "voiceIn": 670.691,
+  "voiceOut": 672.051,
+  "thrDb": -43.1,
+  "pauses": []
+ },
+ {
+  "in": 684.138,
+  "out": 686.72,
+  "voiceIn": 684.618,
+  "voiceOut": 686.728,
+  "thrDb": -47.6,
+  "pauses": []
+ },
+ {
+  "in": 698.933,
+  "out": 700.53,
+  "voiceIn": 699.043,
+  "voiceOut": 700.533,
+  "thrDb": -47.9,
+  "pauses": []
+ }
+]
