@@ -1075,14 +1075,18 @@
   ],
   "overlays": [
     {
-      "type": "sticker",
-      "emoji": "🚪",
-      "size": 175,
+      "type": "photoCard",
+      "image": "footage/video-3/photos/entrada.jpg",
       "x": 0.5,
-      "y": 0.62,
+      "y": 0.66,
+      "w": 440,
+      "h": 560,
+      "rotate": -3,
+      "label": "¿Tú no entras?",
+      "credit": "«Home nightclub entrance» — Ken_Mayer (CC BY 2.0)",
       "start": 0,
       "end": 2.05,
-      "note": "hook: la puerta del local (frame 0) (sin foto: emoji)"
+      "note": "hook: la puerta del local (frame 0)"
     },
     {
       "type": "denyMark",
@@ -1112,7 +1116,7 @@
         3.88
       ],
       "x": 0.5,
-      "y": 0.64,
+      "y": 0.69,
       "start": 6.127,
       "end": 10.927,
       "note": "base legal 1: el texto literal (prueba visual)"
@@ -1162,20 +1166,24 @@
         4.039999999999999
       ],
       "x": 0.5,
-      "y": 0.64,
+      "y": 0.69,
       "start": 15.707,
       "end": 22.633,
       "note": "base legal 2: el artículo dice textualmente «orientación sexual e identidad de género» (verificar texto vigente)"
     },
     {
-      "type": "sticker",
-      "emoji": "👮",
-      "size": 175,
+      "type": "photoCard",
+      "image": "footage/video-3/photos/prision.jpg",
       "x": 0.5,
-      "y": 0.62,
+      "y": 0.66,
+      "w": 500,
+      "h": 380,
+      "rotate": 3,
+      "label": "Puede ir preso",
+      "credit": "«Prison Bars» — Matthew Henry (CC0 1.0)",
       "start": 22.713,
       "end": 24.777,
-      "note": "consecuencia: cárcel (sin foto: emoji)"
+      "note": "consecuencia: cárcel"
     },
     {
       "type": "verdictStamp",
@@ -1188,14 +1196,18 @@
       "note": "pena (art. 323 CP: no menor de 2 ni mayor de 3 años)"
     },
     {
-      "type": "sticker",
-      "emoji": "💼",
-      "size": 175,
+      "type": "photoCard",
+      "image": "footage/video-3/photos/trabajo.jpg",
       "x": 0.66,
-      "y": 0.62,
+      "y": 0.64,
+      "w": 460,
+      "h": 360,
+      "rotate": -4,
+      "label": "En el trabajo",
+      "credit": "«Young Man on a Job Interview» — amtec_photos (CC BY-SA 2.0)",
       "start": 26.073,
       "end": 27.443,
-      "note": "ámbito laboral (sin foto: emoji)"
+      "note": "ámbito laboral"
     },
     {
       "type": "lawCard",
@@ -1217,7 +1229,7 @@
       "y": 0.66,
       "start": 29.513,
       "end": 31.27,
-      "note": "base legal 4 (discriminación remunerativa) — confirmar número que dice Naoki"
+      "note": "base legal 4 (discriminación remunerativa) — confirmar el número que se dice en cámara"
     },
     {
       "type": "denyMark",
@@ -1238,34 +1250,46 @@
       "note": "«o te paguen menos»"
     },
     {
-      "type": "sticker",
-      "emoji": "🍽️",
-      "size": 175,
+      "type": "photoCard",
+      "image": "footage/video-3/photos/restaurante.jpg",
       "x": 0.32,
-      "y": 0.62,
+      "y": 0.64,
+      "w": 440,
+      "h": 340,
+      "rotate": -5,
+      "label": "Restaurante",
+      "credit": "«Restaurant La Boheme» — Unique Hotels Group (CC BY-SA 2.0)",
       "start": 33.653,
       "end": 34.537,
-      "note": "ráfaga 1/3 (sin foto: emoji)"
+      "note": "ráfaga 1/3"
     },
     {
-      "type": "sticker",
-      "emoji": "🏨",
-      "size": 175,
+      "type": "photoCard",
+      "image": "footage/video-3/photos/hotel.jpg",
       "x": 0.68,
-      "y": 0.62,
+      "y": 0.64,
+      "w": 440,
+      "h": 340,
+      "rotate": 4,
+      "label": "Hotel",
+      "credit": "«Fairmont Hotel Lobby» — Pargon (CC BY 2.0)",
       "start": 34.567,
       "end": 35.077,
-      "note": "ráfaga 2/3 (sin foto: emoji)"
+      "note": "ráfaga 2/3"
     },
     {
-      "type": "sticker",
-      "emoji": "🪩",
-      "size": 175,
+      "type": "photoCard",
+      "image": "footage/video-3/photos/discoteca.jpg",
       "x": 0.36,
-      "y": 0.62,
+      "y": 0.64,
+      "w": 440,
+      "h": 340,
+      "rotate": -3,
+      "label": "Discoteca",
+      "credit": "«fat man dancing» — zoetnet (CC BY 2.0)",
       "start": 35.107,
       "end": 35.907,
-      "note": "ráfaga 3/3 (sin foto: emoji)"
+      "note": "ráfaga 3/3"
     },
     {
       "type": "lawCard",
@@ -1311,9 +1335,9 @@
   ],
   "sfx": [
     {
-      "name": "pop",
+      "name": "whoosh",
       "at": 0,
-      "volumeDb": -16
+      "volumeDb": -19
     },
     {
       "name": "poi",
@@ -1366,9 +1390,9 @@
       "volumeDb": -17
     },
     {
-      "name": "pop",
-      "at": 22.713,
-      "volumeDb": -16
+      "name": "whoosh",
+      "at": 22.653,
+      "volumeDb": -19
     },
     {
       "name": "riser",
@@ -1381,9 +1405,9 @@
       "volumeDb": -11
     },
     {
-      "name": "pop",
-      "at": 26.073,
-      "volumeDb": -16
+      "name": "whoosh",
+      "at": 26.013,
+      "volumeDb": -19
     },
     {
       "name": "type",
@@ -1406,19 +1430,19 @@
       "volumeDb": -16
     },
     {
-      "name": "pop",
-      "at": 33.653,
-      "volumeDb": -16
+      "name": "whoosh",
+      "at": 33.593,
+      "volumeDb": -19
     },
     {
-      "name": "pop",
-      "at": 34.567,
-      "volumeDb": -16
+      "name": "whoosh",
+      "at": 34.507,
+      "volumeDb": -19
     },
     {
-      "name": "pop",
-      "at": 35.107,
-      "volumeDb": -16
+      "name": "whoosh",
+      "at": 35.047,
+      "volumeDb": -19
     },
     {
       "name": "kiran",

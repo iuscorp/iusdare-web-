@@ -53,7 +53,7 @@ const pu = e.captions.find((c) => c.start > ind.start && norm(c.text) === 'puede
 if (pu) pu.text = 'puede';
 
 // ── 1. HOOK (0–6 s): situación cotidiana, estímulo en el frame 0
-photo('entrada', 0, 2.05, {x: 0.5, y: 0.66, label: '¿Tú no entras?', emoji: '🚪', note: 'hook: la puerta del local (frame 0)'});
+photo('entrada', 0, 2.05, {x: 0.5, y: 0.66, w: 440, h: 560, label: '¿Tú no entras?', emoji: '🚪', note: 'hook: la puerta del local (frame 0)'});
 const noEntra = at('no', at('quien', 2).start);
 add({type: 'denyMark', x: 0.3, y: 0.62, start: noEntra.start - 0.1, end: noEntra.start + 1.05}, 'exclusión: «quién no entra»');
 fx('poi', noEntra.start - 0.1, -15);
