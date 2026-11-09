@@ -5,7 +5,8 @@ import {CAPTION, COLORS, FONTS} from '../brand/tokens';
 /**
  * Subtítulo palabra-a-palabra de Vocare Iuris [REF]:
  *  - UNA palabra en pantalla, minúsculas, DM Sans Bold (itálica)
- *  - amarillo (#FFE61B) con glow amarillo difuso + sombra corta oscura para legibilidad
+ *  - amarillo (#FFE61B) con trazo delgado amarillo oscuro (#D9A800), glow amarillo difuso
+ *    y sombra corta oscura para legibilidad
  *  - centrado horizontal, en el espacio negativo sobre la cabeza
  *  - aparición por corte seco, sincronizada con el inicio de la palabra
  * Énfasis [REC]: palabras clave (ilegal, derecho, ley…) con +12% de tamaño y micro-pop de 3 frames.
@@ -35,6 +36,10 @@ export const WordCaption: React.FC<{text: string; emphasis?: boolean; y?: number
         fontSize: CAPTION.fontSize,
         letterSpacing: '0.005em',
         color: COLORS.captionYellow,
+        // trazo exterior delgado en amarillo oscuro: paint-order lo dibuja detrás del relleno,
+        // así el grosor visible es la mitad del valor y no adelgaza la letra
+        WebkitTextStroke: CAPTION.strokeWidth > 0 ? `${CAPTION.strokeWidth * 2}px ${COLORS.captionStroke}` : undefined,
+        paintOrder: 'stroke fill',
         textShadow: [
           `0 0 10px ${COLORS.captionGlow}`,
           `0 0 22px ${COLORS.captionGlow}`,

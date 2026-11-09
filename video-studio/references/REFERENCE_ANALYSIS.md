@@ -46,6 +46,7 @@ Leyenda: **[REF]** constante observada · **[VAR]** varía entre piezas · **[?]
 | Familia | **DM Sans Bold** (confirmado por Vocare Iuris), inclinada en las referencias → DM Sans Bold Italic |
 | Color | Amarillo saturado ≈ `#FFE61B` [REF] |
 | Efecto | **Glow amarillo** difuso alrededor + sombra corta oscura [REF] |
+| Trazo | Trazo exterior delgado en un amarillo más oscuro (`#D9A800`, ~2.5 px) [MARCA, indicado por Vocare Iuris] |
 | Tamaño | ≈ 58–64 px de cuerpo a 1080 px de ancho (pequeño: no compite con el rostro) [REF] |
 | Posición | Centrado, en el espacio negativo **sobre la cabeza** (y ≈ 19–28 %), sube cuando el plano se cierra [REF] |
 | Animación | Ninguna perceptible: corte seco palabra a palabra [REF] |

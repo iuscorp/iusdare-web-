@@ -17,6 +17,8 @@ export const COLORS = {
   // [REF] amarillo del subtítulo palabra-a-palabra (muestreado: ~#FFE81A con glow amarillo)
   captionYellow: '#FFE61B',
   captionGlow: 'rgba(255, 221, 0, 0.85)',
+  // [MARCA] trazo delgado del subtítulo: un tono más oscuro del amarillo
+  captionStroke: '#D9A800',
   captionShadow: 'rgba(60, 40, 0, 0.55)',
   // [REF] texto de tarjetas de ley / etiquetas: blanco cálido (crema)
   cardText: '#FFFDF0',
@@ -54,6 +56,8 @@ export const CAPTION = {
   fontWeight: 700,
   // [REF] en las referencias el subtítulo se ve inclinado (DM Sans Bold Italic). Poner en false para redonda.
   italic: true,
+  // [MARCA] grosor del trazo exterior en px (sobre 1080 px de ancho); 0 = sin trazo
+  strokeWidth: 2.5,
   // [REF] posición: espacio negativo sobre la cabeza, entre 19% y 28% de la altura
   defaultY: 0.215,
   // [REF] siempre minúsculas salvo siglas/números (SBS, 30057)
