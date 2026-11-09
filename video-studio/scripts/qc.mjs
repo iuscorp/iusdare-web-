@@ -54,18 +54,13 @@ if (!args['no-transcribe']) {
   const norm = (w) => w.toLocaleLowerCase('es').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9ñ]/g, '');
   const offsets = [];
   const mismatches = [];
-  let j = 0;
+  // alineación por ventana de tiempo (±0.45 s): un error de reconocimiento no arrastra a los siguientes
   for (const c of edl.captions) {
     const n = norm(c.text);
-    let k = j;
-    while (k < words.length && k < j + 4 && norm(words[k].w) !== n) k++;
-    if (k < words.length && norm(words[k].w) === n) {
-      offsets.push(c.start - words[k].s);
-      j = k + 1;
-    } else {
-      const near = words.find((w) => Math.abs(w.s - c.start) < 0.25);
-      mismatches.push({at: c.start, caption: c.text, heard: near?.w ?? '?'});
-    }
+    const near = words.filter((w) => Math.abs(w.s - c.start) <= 0.45);
+    const hit = near.find((w) => norm(w.w) === n || (n.length > 4 && norm(w.w).startsWith(n.slice(0, 4))));
+    if (hit) offsets.push(c.start - hit.s);
+    else mismatches.push({at: c.start, caption: c.text, heard: near.map((w) => w.w).join(' ') || '(nada)'});
   }
   offsets.sort((a, b) => a - b);
   const med = offsets.length ? offsets[Math.floor(offsets.length / 2)] : 0;

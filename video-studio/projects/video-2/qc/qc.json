@@ -1,0 +1,260 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "7.9 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "24 (footage 24)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "65.80 s (EDL 65.79 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14.1 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.5 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.07 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana -20 ms, p90 |148| ms, 158/192 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": false,
+      "level": "warn",
+      "detail": "34 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 158,
+    "total": 192,
+    "medianOffset": -0.019999999999999574,
+    "p90AbsOffset": 0.1479999999999997,
+    "mismatches": [
+      {
+        "at": 0.074,
+        "caption": "Pueden",
+        "heard": "Pues"
+      },
+      {
+        "at": 0.94,
+        "caption": "cerrar",
+        "heard": "cerraron"
+      },
+      {
+        "at": 4.612,
+        "caption": "Imagina",
+        "heard": "?"
+      },
+      {
+        "at": 6.592,
+        "caption": "urbanización",
+        "heard": "realización"
+      },
+      {
+        "at": 21.031,
+        "caption": "TC",
+        "heard": "El"
+      },
+      {
+        "at": 24.545,
+        "caption": "tranqueras",
+        "heard": "tranquilas"
+      },
+      {
+        "at": 26.315,
+        "caption": "Puede",
+        "heard": "está"
+      },
+      {
+        "at": 26.365,
+        "caption": "ser",
+        "heard": "está"
+      },
+      {
+        "at": 26.415,
+        "caption": "válida",
+        "heard": "la"
+      },
+      {
+        "at": 28.335,
+        "caption": "seguridad",
+        "heard": "la"
+      },
+      {
+        "at": 33.632,
+        "caption": "dé",
+        "heard": "les"
+      },
+      {
+        "at": 34.522,
+        "caption": "medida",
+        "heard": "La"
+      },
+      {
+        "at": 43.18,
+        "caption": "TC",
+        "heard": "T"
+      },
+      {
+        "at": 47.932,
+        "caption": "municipal",
+        "heard": "total."
+      },
+      {
+        "at": 51.623,
+        "caption": "eliminar",
+        "heard": "deniminar"
+      },
+      {
+        "at": 52.293,
+        "caption": "injustificadamente",
+        "heard": "cada"
+      },
+      {
+        "at": 58.845,
+        "caption": "restringir",
+        "heard": "raciar,"
+      },
+      {
+        "at": 59.253,
+        "caption": "arbitrariamente",
+        "heard": "literalmente,"
+      },
+      {
+        "at": 60.557,
+        "caption": "al",
+        "heard": "derecho"
+      },
+      {
+        "at": 60.878,
+        "caption": "libre",
+        "heard": "de"
+      },
+      {
+        "at": 60.977,
+        "caption": "tránsito",
+        "heard": "irse."
+      },
+      {
+        "at": 61.245,
+        "caption": "Así",
+        "heard": "?"
+      },
+      {
+        "at": 62.029,
+        "caption": "sigue",
+        "heard": "decir,"
+      },
+      {
+        "at": 62.477,
+        "caption": "Vocare",
+        "heard": "a"
+      },
+      {
+        "at": 62.701,
+        "caption": "Iuris",
+        "heard": "el"
+      },
+      {
+        "at": 62.925,
+        "caption": "y",
+        "heard": "libro"
+      },
+      {
+        "at": 63.065,
+        "caption": "guarda",
+        "heard": "es"
+      },
+      {
+        "at": 63.298,
+        "caption": "este",
+        "heard": "que"
+      },
+      {
+        "at": 63.532,
+        "caption": "video",
+        "heard": "el"
+      },
+      {
+        "at": 63.97,
+        "caption": "No",
+        "heard": "?"
+      },
+      {
+        "at": 64.15,
+        "caption": "sabes",
+        "heard": "?"
+      },
+      {
+        "at": 64.27,
+        "caption": "cuándo",
+        "heard": "?"
+      },
+      {
+        "at": 64.59,
+        "caption": "podrás",
+        "heard": "?"
+      },
+      {
+        "at": 65.01,
+        "caption": "necesitarlo",
+        "heard": "?"
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14.1,
+    "lra": 11.9,
+    "truePeakDb": -1.5
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/video-2/video-2-preview.mp4"
+}
