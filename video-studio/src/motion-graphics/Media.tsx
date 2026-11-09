@@ -111,7 +111,7 @@ export const BackgroundPlate: React.FC<{image: string}> = ({image}) => {
   );
 };
 
-/** Letra/palabra gigante amarilla [REF: "De…" de "denunciar"]: pattern interrupt tipográfico. */
+/** Letra/palabra gigante amarilla en Druk Wide [REF: "De…" de "denunciar"]: pattern interrupt tipográfico. */
 export const BigLetter: React.FC<{text: string; x?: number; y?: number}> = ({text, x = 0.5, y = 0.2}) => {
   const frame = useCurrentFrame();
   const {fps, width, height} = useVideoConfig();
@@ -123,10 +123,11 @@ export const BigLetter: React.FC<{text: string; x?: number; y?: number}> = ({tex
         left: x * width,
         top: y * height,
         transform: `translate(-50%, -50%) scale(${interpolate(p, [0, 1], [1.6, 1])})`,
-        fontFamily: FONTS.card,
-        fontWeight: 800,
-        fontSize: 330,
-        letterSpacing: '-0.06em',
+        fontFamily: FONTS.wide,
+        fontStretch: '125%',
+        fontWeight: 900,
+        fontSize: 260,
+        letterSpacing: '-0.02em',
         color: COLORS.captionYellow,
         lineHeight: 1,
       }}

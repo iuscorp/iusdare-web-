@@ -16,5 +16,6 @@ Reglas:
 - No afirmar que el preset de color replica exactamente el ajuste «Combinación visual» de CapCut: es una réplica comparativa.
 - Precisión jurídica por encima del efecto.
 - Footage, previews y exports no se suben al repositorio (`.gitignore`).
+- Tipografías de marca: DM Sans Bold (subtítulos), Poppins y Druk Wide (textos en pantalla). Si falta `public/fonts/DrukWide-*`, avisar al usuario de que se está usando el sustituto.
 - Nuevos errores de transcripción → añadirlos a `templates/glossary.json`.
 - Entorno: Whisper en `.venv` (`npm run setup:python`); necesita acceso a huggingface.co la primera vez para descargar el modelo.

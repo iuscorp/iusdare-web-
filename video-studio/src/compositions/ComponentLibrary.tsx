@@ -41,7 +41,7 @@ export const ComponentLibrary: React.FC = () => {
             <div style={{position: 'absolute', left: 300, top: 560, width: 480, height: 720, borderRadius: '240px 240px 40px 40px', background: '#8b6f5e', opacity: 0.55}} />
             {d.overlay ? renderOverlay(d.overlay, per) : null}
             {d.caption ? <WordCaption text={d.caption} emphasis={d.emphasis} durationInFrames={per} /> : null}
-            <div style={{position: 'absolute', bottom: 70, left: 0, right: 0, textAlign: 'center', fontFamily: 'VI Card, Inter', fontWeight: 700, fontSize: 38, color: 'white', opacity: 0.85}}>
+            <div style={{position: 'absolute', bottom: 70, left: 0, right: 0, textAlign: 'center', fontFamily: "'VI Card', Poppins", fontWeight: 700, fontSize: 38, color: 'white', opacity: 0.85}}>
               {d.label}
             </div>
           </AbsoluteFill>

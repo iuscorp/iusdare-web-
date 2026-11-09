@@ -23,7 +23,7 @@ export const SelectionLabel: React.FC<{text: string; cursor?: boolean; x?: numbe
   const boxOpacity = interpolate(frame, [selectEnd, selectEnd + 3], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const cursorT = interpolate(frame, [0, 8], [0, 1], {extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic)});
   const textIn = interpolate(frame, [2, 5], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  const fontSize = 88;
+  const fontSize = 78;
   return (
     <div style={{position: 'absolute', left: x * width, top: y * height, transform: 'translate(-50%, -50%)'}}>
       <div
@@ -36,7 +36,7 @@ export const SelectionLabel: React.FC<{text: string; cursor?: boolean; x?: numbe
           fontWeight: 600,
           fontSize,
           lineHeight: 1.08,
-          letterSpacing: '-0.045em',
+          letterSpacing: '-0.02em',
           color: COLORS.cardText,
           textAlign: 'center',
           whiteSpace: 'nowrap',

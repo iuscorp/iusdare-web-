@@ -5,7 +5,7 @@ import {COLORS, FONTS} from '../brand/tokens';
 /**
  * Tarjeta de norma [REF: "Ley 30057" / "Ley 29719 (Ley Antibullying)"]:
  *  - el número se "escribe" carácter a carácter con caret de texto parpadeante
- *  - grotesca bold grande, blanca (o amarilla) con sombra corta
+ *  - Poppins Bold grande, blanca (o amarilla) con sombra corta
  *  - subtítulo explicativo debajo en tamaño menor y nota al pie opcional
  * Función: anclar la afirmación en una fuente legal verificable sin leer la norma.
  */
@@ -42,9 +42,9 @@ export const LawCard: React.FC<{
     >
       <div
         style={{
-          fontSize: 112,
-          fontWeight: 800,
-          letterSpacing: '-0.03em',
+          fontSize: 108,
+          fontWeight: 700,
+          letterSpacing: '-0.02em',
           color: fill,
           textShadow: '0 5px 0 rgba(0,0,0,0.55), 0 8px 18px rgba(0,0,0,0.35)',
         }}
@@ -56,9 +56,9 @@ export const LawCard: React.FC<{
         <div
           style={{
             opacity: subOpacity,
-            fontSize: 46,
-            fontWeight: 700,
-            letterSpacing: '-0.02em',
+            fontSize: 42,
+            fontWeight: 600,
+            letterSpacing: '-0.01em',
             color: COLORS.cardText,
             marginTop: -6,
             textShadow: '0 3px 0 rgba(0,0,0,0.5)',

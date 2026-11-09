@@ -57,5 +57,9 @@ npm run render -- cobros-bancarios             # final → exports/<slug>/ + QC
 6. [`documentation/05-codigos-nativos.md`](documentation/05-codigos-nativos.md) — Guille Collado / códigos nativos
 7. [`documentation/06-render-y-qc.md`](documentation/06-render-y-qc.md) — renderizado y control de calidad
 
-Licencias de assets: Montserrat, Inter y Playfair Display (SIL OFL), Fluent Emoji 3D de Microsoft
+Tipografías de marca: **DM Sans Bold** (subtítulos), **Poppins** y **Druk Wide** (textos en pantalla).
+Druk Wide es comercial y no se incluye: copiar el archivo con licencia como `public/fonts/DrukWide-Bold.otf`
+(o `.woff2`/`.ttf`, o `DrukWide-Heavy`/`DrukWide-Super`); mientras falte se usa Archivo Expanded como sustituto.
+
+Licencias de assets: DM Sans, Poppins, Archivo y Playfair Display (SIL OFL), Fluent Emoji 3D de Microsoft
 (MIT, vía `@lobehub/fluent-emoji-3d`), SFX sintetizados por el propio estudio.

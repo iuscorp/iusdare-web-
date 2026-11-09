@@ -43,7 +43,7 @@ Leyenda: **[REF]** constante observada · **[VAR]** varía entre piezas · **[?]
 |---|---|
 | Unidad | **Una sola palabra** en pantalla, cambia exactamente con la voz [REF] |
 | Caja | Minúsculas siempre (salvo siglas/números) [REF] |
-| Familia | Sans geométrica **ExtraBold Itálica**, «a» de doble piso, terminales redondeados — estilo CapCut. Fuente exacta no identificable desde el píxel [?] → equivalente libre **Montserrat 800 Italic** |
+| Familia | **DM Sans Bold** (confirmado por Vocare Iuris), inclinada en las referencias → DM Sans Bold Italic |
 | Color | Amarillo saturado ≈ `#FFE61B` [REF] |
 | Efecto | **Glow amarillo** difuso alrededor + sombra corta oscura [REF] |
 | Tamaño | ≈ 58–64 px de cuerpo a 1080 px de ancho (pequeño: no compite con el rostro) [REF] |
@@ -51,12 +51,12 @@ Leyenda: **[REF]** constante observada · **[VAR]** varía entre piezas · **[?]
 | Animación | Ninguna perceptible: corte seco palabra a palabra [REF] |
 | Destacados | No hay cambio de color por palabra clave; el énfasis se hace con gráficos aparte [REF]. El micro-pop de palabras clave del estudio es **[REC]** |
 
-Tipografías secundarias:
-- **Tarjetas de norma** («Ley 30057», «Ley 29719»): grotesca bold grande, blanca o amarilla, sombra corta; se **escriben** con caret; subtítulo explicativo debajo («Ley del servicio civil», «(Ley Antibullying)») [REF].
-- **Etiqueta seleccionada** («Inmediatez Temporal», «Ley del servicio civil»): grotesca semibold condensada, crema, dentro de una caja azul de selección con tiradores y cursor de ratón; luego la caja desaparece y queda el texto [REF].
-- **Título de revelación** («Eso es / ilegal»): serif display condensada de alto contraste, amarilla con glow, línea a línea [REF, sólo 92E3A94E] → Playfair Display 900 comprimida [APROX].
-- **Palabra cinética** («De / nun / ciar»): sans heavy amarilla gigante, sílaba a sílaba, ocupa el lugar del subtítulo [REF, 92E3A94E].
-- **Badges** («(+14)»): amarillo bold con sombra [REF].
+Tipografías de textos en pantalla (confirmadas por Vocare Iuris): **Poppins** y **Druk Wide**.
+- **Tarjetas de norma** («Ley 30057», «Ley 29719»): Poppins Bold grande, blanca o amarilla, sombra corta; se **escriben** con caret; subtítulo explicativo debajo («Ley del servicio civil», «(Ley Antibullying)») [REF].
+- **Etiqueta seleccionada** («Inmediatez Temporal», «Ley del servicio civil»): Poppins SemiBold, crema, dentro de una caja azul de selección con tiradores y cursor de ratón; luego la caja desaparece y queda el texto [REF].
+- **Título de revelación** («Eso es / ilegal»): serif display condensada de alto contraste, amarilla con glow, línea a línea [REF, sólo 92E3A94E]. No forma parte de las fuentes confirmadas → Playfair Display 900 comprimida [APROX], pendiente de confirmar.
+- **Palabra cinética** («De / nun / ciar»): Druk Wide amarilla gigante, sílaba a sílaba, ocupa el lugar del subtítulo [REF, 92E3A94E].
+- **Badges** («(+14)»): Poppins Bold amarillo con sombra [REF].
 
 ## C. Recursos visuales
 

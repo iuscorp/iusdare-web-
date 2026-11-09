@@ -42,7 +42,7 @@ export const RevealTitle: React.FC<{lines: string[]; stepFrames?: number; x?: nu
 };
 
 /**
- * Palabra cinética por sílabas [REF: "De / nun / ciar" apilado, amarillo, sans heavy]:
+ * Palabra cinética por sílabas [REF: "De / nun / ciar" apilado, amarillo, Druk Wide]:
  * cada sílaba entra al ritmo de la pronunciación. Pattern interrupt tipográfico para la
  * palabra-acción del video (denunciar, reclamar, exigir). Oculta el subtítulo mientras dura.
  */
@@ -63,11 +63,13 @@ export const KineticWord: React.FC<{syllables: string[]; stepFrames?: number; x?
           <div
             key={i}
             style={{
-              fontFamily: FONTS.card,
-              fontWeight: 800,
-              fontSize: i === 0 ? 330 : 250,
-              lineHeight: 0.82,
-              letterSpacing: '-0.06em',
+              fontFamily: FONTS.wide,
+              fontStretch: '125%',
+              fontWeight: 900,
+              fontSize: i === 0 ? 250 : 190,
+              lineHeight: 0.9,
+              letterSpacing: '-0.02em',
+              textTransform: 'none',
               color: COLORS.captionYellow,
               transform: `scale(${interpolate(p, [0, 1], [1.5, 1])})`,
               opacity: interpolate(p, [0, 0.4], [0, 1], {extrapolateRight: 'clamp'}),
@@ -81,7 +83,7 @@ export const KineticWord: React.FC<{syllables: string[]; stepFrames?: number; x?
   );
 };
 
-/** Badge de dato [REF: "(+14)" amarillo bold con sombra]: edades, plazos, montos, porcentajes. */
+/** Badge de dato [REF: "(+14)" amarillo, Poppins Bold con sombra]: edades, plazos, montos, porcentajes. */
 export const TextBadge: React.FC<{text: string; x?: number; y?: number}> = ({text, x = 0.42, y = 0.66}) => {
   const frame = useCurrentFrame();
   const {fps, width, height} = useVideoConfig();
@@ -94,9 +96,9 @@ export const TextBadge: React.FC<{text: string; x?: number; y?: number}> = ({tex
         top: y * height,
         transform: `translate(-50%, -50%) scale(${interpolate(p, [0, 1], [0.4, 1])})`,
         fontFamily: FONTS.card,
-        fontWeight: 800,
-        fontSize: 120,
-        letterSpacing: '-0.03em',
+        fontWeight: 700,
+        fontSize: 116,
+        letterSpacing: '-0.01em',
         color: COLORS.captionYellow,
         textShadow: '0 5px 0 rgba(0,0,0,0.55), 0 0 18px rgba(255,214,0,0.4)',
         whiteSpace: 'nowrap',

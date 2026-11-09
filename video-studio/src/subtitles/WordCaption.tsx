@@ -4,7 +4,7 @@ import {CAPTION, COLORS, FONTS} from '../brand/tokens';
 
 /**
  * Subtítulo palabra-a-palabra de Vocare Iuris [REF]:
- *  - UNA palabra en pantalla, minúsculas, sans geométrica ExtraBold Itálica
+ *  - UNA palabra en pantalla, minúsculas, DM Sans Bold (itálica)
  *  - amarillo (#FFE61B) con glow amarillo difuso + sombra corta oscura para legibilidad
  *  - centrado horizontal, en el espacio negativo sobre la cabeza
  *  - aparición por corte seco, sincronizada con el inicio de la palabra
@@ -30,7 +30,7 @@ export const WordCaption: React.FC<{text: string; emphasis?: boolean; y?: number
         transform: `translateY(-50%) scale(${scale})`,
         textAlign: 'center',
         fontFamily: FONTS.caption,
-        fontStyle: 'italic',
+        fontStyle: CAPTION.italic ? 'italic' : 'normal',
         fontWeight: CAPTION.fontWeight,
         fontSize: CAPTION.fontSize,
         letterSpacing: '0.005em',
@@ -38,7 +38,7 @@ export const WordCaption: React.FC<{text: string; emphasis?: boolean; y?: number
         textShadow: [
           `0 0 10px ${COLORS.captionGlow}`,
           `0 0 22px ${COLORS.captionGlow}`,
-          `0 0 38px rgba(255, 214, 0, 0.45)`,
+          `0 0 30px rgba(255, 214, 0, 0.3)`,
           `0 3px 4px ${COLORS.captionShadow}`,
         ].join(', '),
         whiteSpace: 'nowrap',

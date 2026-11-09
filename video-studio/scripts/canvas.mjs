@@ -32,6 +32,7 @@ const fps = 30;
 
 console.log('→ Proxy de previsualización (540x960)…');
 run('ffmpeg', ['-v', 'error', '-y', '-i', proxy, '-vf', 'scale=540:960', '-c:v', 'libx264', '-crf', '26', '-preset', 'veryfast', '-g', '6', '-c:a', 'aac', '-b:a', '96k', path.join(media, 'preview.mp4')]);
+fs.copyFileSync(path.join(PUBLIC_DIR, 'fonts', 'dm-sans-latin-700-italic.woff2'), path.join(media, 'dm-sans-700-italic.woff2'));
 console.log('→ Forma de onda…');
 run('ffmpeg', ['-v', 'error', '-y', '-i', proxy, '-filter_complex', 'aformat=channel_layouts=mono,showwavespic=s=1600x160:colors=0x777777', '-frames:v', '1', path.join(media, 'wave.png')]);
 
@@ -124,7 +125,8 @@ main{max-width:1280px;margin:auto;padding:0 20px 80px}.pill{display:inline-block
 .removed{color:var(--red)}table{width:100%;border-collapse:collapse;background:var(--card);border-radius:12px;overflow:hidden}td,th{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;font-size:13px}th{background:var(--line)}
 .player{display:grid;grid-template-columns:minmax(260px,360px) 1fr;gap:20px}.stage{position:relative;aspect-ratio:9/16;overflow:hidden;border-radius:14px;background:#000}
 .stage video{width:100%;height:100%;object-fit:cover;transform-origin:50% 32%;transition:none}
-.cap{position:absolute;left:0;right:0;top:21.5%;text-align:center;font:italic 800 26px Montserrat,Inter,sans-serif;color:#ffe61b;text-shadow:0 0 6px #ffdd00,0 0 14px #ffdd00,0 2px 2px #3c2800}
+@font-face{font-family:'DM Sans';font-weight:700;font-style:italic;src:url(media/dm-sans-700-italic.woff2)}
+.cap{position:absolute;left:0;right:0;top:21.5%;text-align:center;font:italic 700 26px 'DM Sans',sans-serif;color:#ffe61b;text-shadow:0 0 6px #ffdd00,0 0 14px #ffdd00,0 2px 2px #3c2800}
 .ov{position:absolute;left:8px;right:8px;bottom:12%;text-align:center;font-size:13px;background:rgba(0,0,0,.6);color:#fff;border-radius:8px;padding:4px 6px}
 button{font:inherit;padding:8px 14px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}button.primary{background:var(--ink);color:var(--bg)}
 .stills{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}.stills figure{margin:0}.stills img{width:100%;border-radius:8px}.stills figcaption{font-size:12px;color:var(--mut)}

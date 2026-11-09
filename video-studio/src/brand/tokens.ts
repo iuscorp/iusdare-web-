@@ -33,13 +33,15 @@ export const COLORS = {
 } as const;
 
 export const FONTS = {
-  // [APROX] Subtítulo: sans geométrica ExtraBold Itálica, minúsculas. Montserrat 800 Italic
-  // es el equivalente libre más cercano observado (a de doble piso, terminales redondeados).
-  caption: "'VI Caption', 'Montserrat', sans-serif",
-  // [APROX] Tarjetas "Ley 30057", etiquetas: grotesca bold, tracking cerrado.
-  card: "'VI Card', 'Inter', 'Helvetica Neue', Arial, sans-serif",
-  // [APROX] Título de revelación ("Eso es ilegal"): serif display de alto contraste, muy
-  // condensada. Playfair Display 900 comprimida horizontalmente (scaleX 0.7) como equivalente libre.
+  // [MARCA] Subtítulos: DM Sans Bold (confirmado por Vocare Iuris). Las referencias lo muestran inclinado → CAPTION.italic
+  caption: "'VI Caption', 'DM Sans', sans-serif",
+  // [MARCA] Textos en pantalla: Poppins (tarjetas de norma, etiquetas, badges, pasos)
+  card: "'VI Card', 'Poppins', sans-serif",
+  // [MARCA] Textos de impacto: Druk Wide (palabra cinética, letra gigante, sello).
+  // Si no está su archivo con licencia en public/fonts/, se ve Archivo Expanded como sustituto.
+  wide: "'VI Wide', 'VI Wide Fallback', 'Druk Wide', sans-serif",
+  // [APROX] Título de revelación serif ("Eso es ilegal"): fuente no confirmada por el equipo.
+  // Playfair Display 900 comprimida (scaleX 0.7) como equivalente libre.
   reveal: "'VI Reveal', 'Playfair Display', Georgia, serif",
 } as const;
 
@@ -47,8 +49,11 @@ export const CAPTION = {
   // [REF] una sola palabra por vez, sincronizada con la voz
   wordsPerPage: 1,
   // [REF] tamaño ≈ 58–64 px de cuerpo sobre 1080 px de ancho
-  fontSize: 62,
-  fontWeight: 800,
+  fontSize: 64,
+  // [MARCA] DM Sans Bold
+  fontWeight: 700,
+  // [REF] en las referencias el subtítulo se ve inclinado (DM Sans Bold Italic). Poner en false para redonda.
+  italic: true,
   // [REF] posición: espacio negativo sobre la cabeza, entre 19% y 28% de la altura
   defaultY: 0.215,
   // [REF] siempre minúsculas salvo siglas/números (SBS, 30057)

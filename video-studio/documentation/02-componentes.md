@@ -50,6 +50,14 @@ tiempos de `captions`, `overlays`, `sfx` = segundos de la **edición final**.
 `swish` (entrada lateral) · `ding` (dato clave) · `boom` (veredicto). Niveles −14 a −22 dB.
 Se pueden reemplazar por archivos propios con el mismo nombre.
 
+## Tipografías
+| Uso | Fuente | Familia CSS |
+|---|---|---|
+| Subtítulos | DM Sans Bold (itálica, `CAPTION.italic`) | `FONTS.caption` |
+| Tarjetas, etiquetas, badges, pasos, comparación | Poppins 600/700/800 | `FONTS.card` |
+| Palabra cinética, letra gigante, sello, «VS» | Druk Wide (sustituto: Archivo Expanded) | `FONTS.wide` |
+| Título de revelación | Playfair Display 900 comprimida [APROX, no confirmada] | `FONTS.reveal` |
+
 ## Tokens de marca (`src/brand/tokens.ts`)
 Cada valor está etiquetado como [REF] (medido), [APROX] (equivalente más cercano) o [REC]
 (recomendación). Cambiar un token cambia todos los videos futuros.

@@ -24,3 +24,5 @@ projects/*/analysis/*.pcm
 projects/selftest-*/
 canvas/selftest-*/
 .venv
+# fuente comercial con licencia: no redistribuir
+public/fonts/DrukWide-*

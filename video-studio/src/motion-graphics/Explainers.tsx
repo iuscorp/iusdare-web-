@@ -51,10 +51,11 @@ export const VerdictStamp: React.FC<{text: string; tone?: 'deny' | 'ok'; x?: num
         border: `10px solid ${color}`,
         borderRadius: 18,
         padding: '6px 34px',
-        fontFamily: FONTS.card,
-        fontWeight: 800,
-        fontSize: 120,
-        letterSpacing: '0.02em',
+        fontFamily: FONTS.wide,
+        fontStretch: '125%',
+        fontWeight: 900,
+        fontSize: 96,
+        letterSpacing: '0.01em',
         color,
         background: 'rgba(255,255,255,0.85)',
       }}
@@ -142,7 +143,7 @@ export const Comparison: React.FC<{
   return (
     <div style={{position: 'absolute', left: width * 0.06, right: width * 0.06, top: y * height, transform: 'translateY(-50%)', display: 'flex', alignItems: 'center'}}>
       {side(left, 0)}
-      <div style={{fontFamily: FONTS.caption, fontStyle: 'italic', fontWeight: 900, fontSize: 70, color: COLORS.captionYellow}}>vs</div>
+      <div style={{fontFamily: FONTS.wide, fontStretch: '125%', fontWeight: 900, fontSize: 64, color: COLORS.captionYellow}}>VS</div>
       {side(right, 1)}
     </div>
   );
