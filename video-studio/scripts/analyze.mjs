@@ -51,6 +51,12 @@ if (!fs.existsSync(P.transcript) || args.force) {
 }
 const transcript = readJson(P.transcript);
 
+console.log('→ Seguimiento de la cabeza (subtítulo que sigue al presentador)…');
+const headFile = path.join(P.analysisDir, 'head-track.json');
+if (!fs.existsSync(headFile) || args.force) {
+  run(python(), [path.join(STUDIO_ROOT, 'scripts', 'track-head.py'), proxy, headFile], {stdio: ['ignore', 'inherit', 'inherit']});
+}
+
 console.log('→ Plan de limpieza…');
 const glossary = readJson(path.join(STUDIO_ROOT, 'templates', 'glossary.json'));
 const plan = cleanup(transcript, {silences: silences(proxy, -40, 0.3), glossary});

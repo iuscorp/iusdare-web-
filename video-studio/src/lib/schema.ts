@@ -100,7 +100,8 @@ export const edlSchema = z.object({
     fps: z.number(),
     duration: z.number(),
   }),
-  colorPreset: z.string().default('combinacion-visual'),
+  /** 'none' = sin tratamiento de color (por defecto). Otros valores = preset de color-presets/ */
+  colorPreset: z.string().default('none'),
   /** si el footage ya pasó por scripts/grade.mjs, el look no se aplica en Remotion */
   colorAppliedInSource: z.boolean().default(false),
   segments: z.array(segmentSchema),
@@ -109,6 +110,14 @@ export const edlSchema = z.object({
   sfx: z.array(sfxSchema).default([]),
   music: z.object({file: z.string(), volumeDb: z.number().default(-30)}).optional(),
   showSafeZones: z.boolean().default(false),
+  /**
+   * Trayectoria de la cabeza del presentador en tiempo FUENTE (scripts/track-head.py).
+   * cx = centro horizontal, top = borde superior del pelo; normalizados 0–1.
+   * Si existe, el subtítulo sigue la cabeza fotograma a fotograma.
+   */
+  headTrack: z
+    .object({fps: z.number(), cx: z.array(z.number()), top: z.array(z.number())})
+    .optional(),
 });
 
 export type Edl = z.infer<typeof edlSchema>;

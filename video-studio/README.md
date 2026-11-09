@@ -21,7 +21,6 @@ npm run new -- cobros-bancarios ~/Descargas/toma1.mp4 --title "Cobros no informa
 npm run analyze -- cobros-bancarios     # técnica + transcripción + plan de limpieza
 npm run draft -- cobros-bancarios       # EDL borrador (cortes, reencuadres, subtítulos, recursos)
 #   → el editor (Claude) afina projects/<slug>/edl.json según el brief
-npm run grade -- cobros-bancarios       # look «Combinación visual»
 npm run canvas -- cobros-bancarios      # canvas/<slug>/index.html  ← REVISIÓN OBLIGATORIA
 npm run approve -- cobros-bancarios "OK, cambiar sticker del banco"   # sólo tras aprobación
 npm run render -- cobros-bancarios --preview   # versión de revisión + QC

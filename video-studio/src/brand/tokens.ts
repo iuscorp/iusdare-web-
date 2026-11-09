@@ -60,6 +60,13 @@ export const CAPTION = {
   strokeWidth: 2.5,
   // [REF] posición: espacio negativo sobre la cabeza, entre 19% y 28% de la altura
   defaultY: 0.215,
+  // [MARCA] el subtítulo SIGUE LA CABEZA del presentador (headTrack del EDL):
+  // centro del texto a esta distancia (fracción de la altura) por encima del borde del pelo
+  headGap: 0.04,
+  // límites para que el texto no se salga del cuadro ni entre en la zona de UI superior
+  minY: 0.1,
+  minX: 0.28,
+  maxX: 0.72,
   // [REF] siempre minúsculas salvo siglas/números (SBS, 30057)
   lowercase: true,
   // [REF] sin animación de entrada perceptible: corte seco palabra-a-palabra

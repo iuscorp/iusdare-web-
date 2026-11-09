@@ -1,5 +1,9 @@
 # Tratamiento de color — preset «Combinación visual»
 
+> **Decisión de Vocare Iuris: por defecto NO se colorea el video.** Los EDL nacen con
+> `colorPreset: "none"` y el render usa el footage original. El preset de abajo queda
+> disponible sólo si se pide explícitamente (`npm run grade -- <slug>`).
+
 ## Estado
 **Réplica comparativa calibrada. NO es una copia verificada del ajuste de CapCut.** No se tuvo
 acceso al proyecto de CapCut ni a sus parámetros. Si se consiguen (captura del panel de ajuste o

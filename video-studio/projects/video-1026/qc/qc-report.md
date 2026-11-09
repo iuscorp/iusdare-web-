@@ -1,5 +1,5 @@
 # QC — Video 1026
-Archivo: `previews/video-1026/video-1026-preview.mp4` · 2026-11-09T05:12:35.484Z
+Archivo: `previews/video-1026/video-1026-preview.mp4` · 2026-11-09T05:30:56.664Z
 
 | Verificación | Estado | Detalle |
 |---|---|---|

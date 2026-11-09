@@ -7,6 +7,7 @@
  * No sobrescribe un EDL existente salvo con --force (protege ediciones manuales).
  */
 import fs from 'node:fs';
+import path from 'node:path';
 import {buildEdl} from './lib/edit.mjs';
 import {emojisInEdl, ensureStickers} from './lib/assets.mjs';
 import {parseArgs, projectPaths, readJson, writeJson} from './lib/paths.mjs';
@@ -27,6 +28,11 @@ const edl = buildEdl({
   source: {file: meta.proxy, width: 1080, height: 1920, fps: 30, duration: probe.proxy.duration},
   clean,
 });
+const headFile = path.join(P.analysisDir, 'head-track.json');
+if (fs.existsSync(headFile)) {
+  const h = readJson(headFile);
+  edl.headTrack = {fps: h.fps, cx: h.cx, top: h.top};
+} else console.warn('⚠️ Sin head-track.json: el subtítulo usará posición fija (ejecuta npm run analyze).');
 const missing = ensureStickers(emojisInEdl(edl));
 if (missing.length) console.warn('⚠️ Emojis sin asset 3D:', missing.join(' '));
 writeJson(P.edl, edl);

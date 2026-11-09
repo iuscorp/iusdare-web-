@@ -35,7 +35,7 @@ export const VocareEdit: React.FC<Edl> = (edl) => {
 
   return (
     <AbsoluteFill style={{backgroundColor: 'black'}}>
-      <ColorLook enabled={!edl.colorAppliedInSource && !edl.source.graded}>
+      <ColorLook enabled={edl.colorPreset !== 'none' && !edl.colorAppliedInSource && !edl.source.graded}>
         <Series>
           {edl.segments.map((seg, i) => (
             <Series.Sequence key={seg.id} durationInFrames={segFrames[i]} name={`${seg.id}${seg.role ? ' · ' + seg.role : ''}`}>
@@ -56,11 +56,13 @@ export const VocareEdit: React.FC<Edl> = (edl) => {
         const segIdx = Math.max(0, starts.findIndex((s, k) => from >= s && from < (starts[k + 1] ?? Infinity)));
         const seg = edl.segments[Math.min(segIdx, edl.segments.length - 1)];
         const t = segmentTransform(seg, from - starts[segIdx], segFrames[segIdx], fps);
-        // el rostro sube al acercar: el subtítulo sube con él para no pisar la cabeza
+        // sin seguimiento: el rostro sube al acercar y el subtítulo sube con él
         const y = c.y ?? Math.max(0.12, CAPTION.defaultY - (t.scale - 1) * 0.16 + t.y * 0.5);
+        // con seguimiento: posición recalculada en cada fotograma sobre la cabeza
+        const follow = edl.headTrack && c.y === undefined ? (local: number) => headAnchor(edl, starts, segFrames, from + local, fps) : undefined;
         return (
           <Sequence key={i} from={from} durationInFrames={dur} layout="none" name={`“${c.text}”`}>
-            <WordCaption text={c.text} emphasis={c.emphasis} y={y} durationInFrames={dur} />
+            <WordCaption text={c.text} emphasis={c.emphasis} y={y} follow={follow} durationInFrames={dur} />
           </Sequence>
         );
       })}
@@ -69,6 +71,29 @@ export const VocareEdit: React.FC<Edl> = (edl) => {
       {edl.showSafeZones ? <SafeZones /> : null}
     </AbsoluteFill>
   );
+};
+
+/**
+ * Punto de anclaje del subtítulo en un fotograma de la edición: toma la cabeza del
+ * presentador en el fotograma FUENTE correspondiente y le aplica el mismo reencuadre
+ * (escala con origen 50 %/32 % + desplazamiento) que tiene el video en ese plano.
+ */
+const headAnchor = (edl: Edl, starts: number[], segFrames: number[], frame: number, fps: number) => {
+  const track = edl.headTrack!;
+  let k = 0;
+  while (k < segFrames.length - 1 && frame >= starts[k + 1]) k++;
+  const seg = edl.segments[k];
+  const local = frame - starts[k];
+  const t = segmentTransform(seg, local, segFrames[k], fps);
+  const srcIdx = Math.min(track.cx.length - 1, Math.max(0, Math.round((seg.in + local / fps) * track.fps)));
+  const ox = 0.5;
+  const oy = 0.32;
+  const hx = ox + (track.cx[srcIdx] - ox) * t.scale + t.x;
+  const hy = oy + (track.top[srcIdx] - oy) * t.scale + t.y;
+  return {
+    x: Math.min(CAPTION.maxX, Math.max(CAPTION.minX, hx)),
+    y: Math.max(CAPTION.minY, hy - CAPTION.headGap),
+  };
 };
 
 const SegmentClip: React.FC<{seg: Segment; src: string; durationInFrames: number}> = ({seg, src, durationInFrames}) => {

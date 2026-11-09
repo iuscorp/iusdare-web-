@@ -10,7 +10,7 @@ const placeholder: Edl = {
   slug: 'placeholder',
   title: 'Cargue un EDL con --props',
   source: {file: 'footage/placeholder.mp4', width: 1080, height: 1920, fps: 30, duration: 2},
-  colorPreset: 'combinacion-visual',
+  colorPreset: 'none',
   colorAppliedInSource: false,
   segments: [{id: 's1', in: 0, out: 2, framing: 'base', move: 'none'}],
   captions: [],

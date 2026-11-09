@@ -7,17 +7,26 @@ import {CAPTION, COLORS, FONTS} from '../brand/tokens';
  *  - UNA palabra en pantalla, minúsculas, DM Sans Bold (itálica)
  *  - amarillo (#FFE61B) con trazo delgado amarillo oscuro (#D9A800), glow amarillo difuso
  *    y sombra corta oscura para legibilidad
- *  - centrado horizontal, en el espacio negativo sobre la cabeza
+ *  - SIGUE LA CABEZA del presentador fotograma a fotograma (prop follow), sobre el pelo
  *  - aparición por corte seco, sincronizada con el inicio de la palabra
  * Énfasis [REC]: palabras clave (ilegal, derecho, ley…) con +12% de tamaño y micro-pop de 3 frames.
  */
-export const WordCaption: React.FC<{text: string; emphasis?: boolean; y?: number; durationInFrames: number}> = ({
+export const WordCaption: React.FC<{
+  text: string;
+  emphasis?: boolean;
+  y?: number;
+  /** posición dinámica por fotograma (seguimiento de cabeza); x,y normalizados 0–1 */
+  follow?: (localFrame: number) => {x: number; y: number};
+  durationInFrames: number;
+}> = ({
   text,
   emphasis = false,
   y = CAPTION.defaultY,
+  follow,
 }) => {
   const frame = useCurrentFrame();
-  const {fps, height} = useVideoConfig();
+  const {fps, width, height} = useVideoConfig();
+  const pos = follow ? follow(frame) : {x: 0.5, y};
   const pop = emphasis && CAPTION.keywordPop ? spring({frame, fps, config: {damping: 12, stiffness: 300}, durationInFrames: 5}) : 1;
   const scale = (emphasis ? 1.12 : 1) * interpolate(pop, [0, 1], [0.86, 1]);
   const display = CAPTION.lowercase ? smartLower(text) : text;
@@ -25,10 +34,9 @@ export const WordCaption: React.FC<{text: string; emphasis?: boolean; y?: number
     <div
       style={{
         position: 'absolute',
-        left: 0,
-        right: 0,
-        top: y * height,
-        transform: `translateY(-50%) scale(${scale})`,
+        left: pos.x * width,
+        top: pos.y * height,
+        transform: `translate(-50%, -50%) scale(${scale})`,
         textAlign: 'center',
         fontFamily: FONTS.caption,
         fontStyle: CAPTION.italic ? 'italic' : 'normal',

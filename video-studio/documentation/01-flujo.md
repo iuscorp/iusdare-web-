@@ -16,6 +16,7 @@
 Produce `projects/<slug>/analysis/`:
 - `probe.json`: duración, resolución, fps, códecs, loudness, silencios, negros, exposición, avisos.
 - `transcript.json`: Whisper palabra a palabra con probabilidad (modelo `small` por defecto; `--model medium` para más precisión).
+- `head-track.json`: trayectoria de la cabeza del presentador (el subtítulo la sigue).
 - `cleanup.json`: plan de limpieza (silencios, muletillas, tomas repetidas, tartamudeos, pausas conservadas, palabras dudosas).
 - `analysis.md`: resumen legible.
 
@@ -26,7 +27,8 @@ remapeados a la línea de tiempo final, recursos sugeridos (`auto: true`) y SFX.
 función de cada plano, añade/quita recursos (cada uno con función), y si conviene reordenar
 la narrativa lo **propone** (no cambia el contenido sustancial sin autorización).
 
-## 4. Canvas — `npm run grade -- <slug>` y `npm run canvas -- <slug>`
+## 4. Canvas — `npm run canvas -- <slug>`
+(Sin tratamiento de color por defecto. `npm run grade` sólo si se pide el preset.)
 `canvas/<slug>/index.html` (abrir en el navegador; no requiere servidor):
 - Reproductor que reproduce el footage real saltando los cortes, con reencuadres y subtítulos.
 - A. Secuencia narrativa · B. Cortes y ritmo (forma de onda) · C. Encuadres original vs propuesto ·

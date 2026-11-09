@@ -103,6 +103,7 @@ const playerData = {
   segments: segs.map((s) => ({in: s.in, out: s.out, outStart: s.outStart, scale: tf(s.framing).scale, y: tf(s.framing).y, move: s.move, role: s.role})),
   captions: edl.captions,
   overlays: edl.overlays.map((o) => ({start: o.start, end: o.end, label: overlayDesc(o)})),
+  head: edl.headTrack ?? null,
 };
 
 const html = `<!doctype html>
@@ -136,7 +137,7 @@ button{font:inherit;padding:8px 14px;border-radius:10px;border:1px solid var(--l
 <div class="pill">Vocare Iuris Video Studio</div><div class="pill">Canvas de preview</div>
 <h1>${esc(edl.title)}</h1>
 <div class="status">Estado: <b>${meta.approval?.approved ? 'APROBADO ' + esc(meta.approval.approvedAt ?? '') : 'PENDIENTE DE APROBACIÓN'}</b> — la edición definitiva no se ejecuta hasta aprobar la dirección creativa.</div>
-<p>Original ${dur.toFixed(2)} s → edición <b>${tOut.toFixed(2)} s</b> · ${edl.segments.length} planos · ${edl.captions.length} subtítulos · ${edl.overlays.length} recursos · ${edl.sfx.length} SFX · color: <b>${esc(edl.colorPreset)}</b></p>
+<p>Original ${dur.toFixed(2)} s → edición <b>${tOut.toFixed(2)} s</b> · ${edl.segments.length} planos · ${edl.captions.length} subtítulos · ${edl.overlays.length} recursos · ${edl.sfx.length} SFX · color: <b>${edl.colorPreset === 'none' ? 'sin tratamiento (original)' : esc(edl.colorPreset)}</b> · subtítulo: <b>${edl.headTrack ? 'sigue la cabeza' : 'posición fija'}</b></p>
 </header><main>
 
 <h2>Reproductor del corte</h2>
@@ -197,7 +198,8 @@ function tick(){
     const c=D.segments[i];const local=v.currentTime-c.in;const tOut=c.outStart+local;
     let sc=c.scale;if(c.move==='settle')sc*=1+0.06*Math.max(0,1-local/0.33);if(c.move==='crash')sc=1+(c.scale-1)*Math.min(1,local/0.25);
     v.style.transform='translateY('+(c.y*100)+'%) scale('+sc+')';
-    const cw=D.captions.find(x=>tOut>=x.start&&tOut<x.end);cap.textContent=cw?lower(cw.text):'';cap.style.fontSize=cw&&cw.emphasis?'29px':'26px';
+    const cw=D.captions.find(x=>tOut>=x.start&&tOut<x.end);cap.textContent=cw?lower(cw.text):'';
+    if(D.head){const k=Math.min(D.head.cx.length-1,Math.max(0,Math.round(v.currentTime*D.head.fps)));const hx=0.5+(D.head.cx[k]-0.5)*sc;const hy=0.32+(D.head.top[k]-0.32)*sc+c.y;cap.style.left=(Math.min(0.72,Math.max(0.28,hx))*100)+'%';cap.style.top=(Math.max(0.1,hy-0.04)*100)+'%';cap.style.transform='translate(-50%,-50%)';cap.style.right='auto'}cap.style.fontSize=cw&&cw.emphasis?'29px':'26px';
     const o=D.overlays.find(x=>tOut>=x.start&&tOut<x.end);ov.hidden=!o;if(o)ov.textContent='▣ '+o.label;
   }
   if(!v.paused)requestAnimationFrame(tick);

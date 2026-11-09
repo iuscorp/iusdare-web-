@@ -406,7 +406,7 @@ export const buildEdl = ({slug, title, source, clean, emphasisExtra = []}) => {
     slug,
     title,
     source,
-    colorPreset: 'combinacion-visual',
+    colorPreset: 'none', // sin color por defecto (decisión de Vocare Iuris)
     colorAppliedInSource: false,
     segments,
     captions,

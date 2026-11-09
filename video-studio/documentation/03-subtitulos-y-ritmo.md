@@ -29,7 +29,11 @@ al final de frase). Cada corte alterna `base` ↔ `subtleIn`; la revelación y l
 - Énfasis (+12 % y micro-pop) en: ilegal, derecho(s), delito, ley, constitución, prohibido,
   denunciar/denuncia — ampliable por proyecto (`emphasisExtra`).
 - Se ocultan mientras hay una palabra cinética o letra gigante en pantalla (REF).
-- La altura sube con el zoom para no pisar la cabeza.
+- **El subtítulo sigue la cabeza del presentador**: `scripts/track-head.py` (OpenCV) detecta el rostro
+  en cada fotograma, estima el borde superior del pelo y suaviza la trayectoria; la composición le
+  aplica el mismo zoom/reencuadre del plano y coloca la palabra `CAPTION.headGap` (4 % de la altura)
+  por encima, centrada en la cabeza (limitada a x 0.28–0.72, y ≥ 0.10). Sin trayectoria, se usa
+  posición fija.
 - **Ortografía**: `templates/glossary.json` corrige automáticamente errores reales observados
   (p. ej. «Bocari Yuris» → «Vocare Iuris», «intercopy» → «Indecopi», números de ley partidos).
   Añadir cada nuevo error al glosario. El QC compara el subtítulo con una re-transcripción del
