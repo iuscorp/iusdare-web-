@@ -27,6 +27,7 @@ def main() -> None:
     ap.add_argument("output")
     ap.add_argument("--model", default="small")
     ap.add_argument("--lang", default="es")
+    ap.add_argument("--chunk", type=float, default=0, help="transcribir en bloques de N s (evita que Whisper se salte tramos en el QC)")
     ap.add_argument("--prompt", default="Vocare Iuris. Derecho peruano: Indecopi, SBS, Constitución, Código Penal, Ley N.°")
     a = ap.parse_args()
 
@@ -34,6 +35,24 @@ def main() -> None:
 
     model = WhisperModel(a.model, device="cpu", compute_type="int8")
     audio = load_audio(a.input)
+    if a.chunk > 0:
+        sr = 16000
+        n = int(a.chunk * sr)
+        words, segments = [], []
+        for k in range(0, len(audio), n):
+            part = audio[k : k + n + sr // 2]  # medio segundo de solape
+            off = k / sr
+            segs_c, _ = model.transcribe(part, language=a.lang, word_timestamps=True, vad_filter=False, initial_prompt=a.prompt, condition_on_previous_text=False)
+            for sg in segs_c:
+                segments.append({"start": round(sg.start + off, 3), "end": round(sg.end + off, 3), "text": sg.text.strip()})
+                for w in sg.words or []:
+                    if w.start + off >= (k / sr) - 0.01 and (k == 0 or w.start >= 0.25):
+                        words.append({"w": w.word.strip(), "s": round(w.start + off, 3), "e": round(w.end + off, 3), "p": round(w.probability, 3)})
+        out = {"model": a.model, "language": a.lang, "duration": round(len(audio) / sr, 3), "text": " ".join(x["text"] for x in segments), "segments": segments, "words": words}
+        with open(a.output, "w", encoding="utf-8") as f:
+            json.dump(out, f, ensure_ascii=False, indent=1)
+        print(f"transcripción por bloques: {len(words)} palabras → {a.output}", file=sys.stderr)
+        return
     segs, info = model.transcribe(
         audio,
         language=a.lang,

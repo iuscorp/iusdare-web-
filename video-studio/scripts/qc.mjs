@@ -49,7 +49,7 @@ add('Primera palabra en el frame 0', firstCap < 0.15, `${firstCap.toFixed(2)} s`
 let sync = null;
 if (!args['no-transcribe']) {
   const tr = path.join(qcDir, 'render-transcript.json');
-  run(python(), [path.join(STUDIO_ROOT, 'scripts', 'transcribe.py'), file, tr, '--model', args.model ?? 'small'], {stdio: ['ignore', 'ignore', 'inherit']});
+  run(python(), [path.join(STUDIO_ROOT, 'scripts', 'transcribe.py'), file, tr, '--model', args.model ?? 'small', '--chunk', '10', '--prompt', 'Vocare Iuris.'], {stdio: ['ignore', 'ignore', 'inherit']});
   const words = readJson(tr).words;
   const norm = (w) => w.toLocaleLowerCase('es').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9ñ]/g, '');
   const offsets = [];

@@ -10,7 +10,7 @@
       "name": "Bitrate de video",
       "ok": true,
       "level": "ok",
-      "detail": "7.9 Mbps"
+      "detail": "7.7 Mbps"
     },
     {
       "name": "Espacio de color",
@@ -28,7 +28,7 @@
       "name": "Duración",
       "ok": true,
       "level": "ok",
-      "detail": "65.60 s (EDL 65.50 s)"
+      "detail": "69.40 s (EDL 69.29 s)"
     },
     {
       "name": "Fotogramas negros",
@@ -46,7 +46,7 @@
       "name": "True peak",
       "ok": true,
       "level": "ok",
-      "detail": "-1.5 dBFS"
+      "detail": "-1.4 dBFS"
     },
     {
       "name": "Silencios residuales (>0.6 s)",
@@ -64,20 +64,20 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 2 ms, p90 |147| ms, 163/192 palabras alineadas"
+      "detail": "mediana -7 ms, p90 |170| ms, 146/192 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
       "ok": false,
       "level": "warn",
-      "detail": "29 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "detail": "46 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 163,
+    "matched": 146,
     "total": 192,
-    "medianOffset": 0.0020000000000000018,
-    "p90AbsOffset": 0.14700000000000202,
+    "medianOffset": -0.006999999999997897,
+    "p90AbsOffset": 0.16999999999999815,
     "mismatches": [
       {
         "at": 6.633,
@@ -85,151 +85,236 @@
         "heard": "una realización y"
       },
       {
-        "at": 9.083,
+        "at": 9.5,
         "caption": "podríamos",
-        "heard": "podamos una"
+        "heard": "pogamos una"
       },
       {
-        "at": 9.703,
-        "caption": "reja",
-        "heard": "una reggelys."
-      },
-      {
-        "at": 9.983,
-        "caption": "y",
-        "heard": "reggelys. Todos"
-      },
-      {
-        "at": 10.033,
-        "caption": "listo",
-        "heard": "reggelys. Todos"
-      },
-      {
-        "at": 14.072,
-        "caption": "reja",
-        "heard": "y la regga está cerrada."
-      },
-      {
-        "at": 17.123,
+        "at": 18.123,
         "caption": "aquí",
         "heard": "Bueno,"
       },
       {
-        "at": 21.187,
-        "caption": "TC",
-        "heard": "El T .C."
-      },
-      {
-        "at": 26.482,
-        "caption": "Puede",
-        "heard": "es la realidad"
-      },
-      {
-        "at": 26.532,
-        "caption": "ser",
-        "heard": "es la realidad"
-      },
-      {
-        "at": 26.582,
-        "caption": "válida",
-        "heard": "es la realidad cuando"
-      },
-      {
-        "at": 28.502,
-        "caption": "seguridad",
-        "heard": "la saboria ciudadana."
-      },
-      {
-        "at": 33.882,
-        "caption": "dé",
-        "heard": "se les den lagar."
-      },
-      {
-        "at": 34.042,
+        "at": 20.497,
         "caption": "la",
-        "heard": "les den lagar."
+        "heard": "libertad"
       },
       {
-        "at": 34.242,
+        "at": 22.54,
+        "caption": "TC",
+        "heard": "El T .S."
+      },
+      {
+        "at": 24.51,
+        "caption": "la",
+        "heard": "que el instalación"
+      },
+      {
+        "at": 28.065,
+        "caption": "Puede",
+        "heard": "es una realidad"
+      },
+      {
+        "at": 28.115,
+        "caption": "ser",
+        "heard": "es una realidad cuando"
+      },
+      {
+        "at": 28.165,
+        "caption": "válida",
+        "heard": "es una realidad cuando"
+      },
+      {
+        "at": 30.085,
+        "caption": "seguridad",
+        "heard": "la saboria."
+      },
+      {
+        "at": 30.385,
+        "caption": "ciudadana",
+        "heard": "saboria."
+      },
+      {
+        "at": 32.335,
+        "caption": "No",
+        "heard": "(nada)"
+      },
+      {
+        "at": 32.475,
+        "caption": "significa",
+        "heard": "(nada)"
+      },
+      {
+        "at": 32.835,
+        "caption": "que",
+        "heard": "(nada)"
+      },
+      {
+        "at": 33.195,
+        "caption": "los",
+        "heard": "(nada)"
+      },
+      {
+        "at": 33.395,
+        "caption": "vecinos",
+        "heard": "(nada)"
+      },
+      {
+        "at": 33.755,
+        "caption": "puedan",
+        "heard": "(nada)"
+      },
+      {
+        "at": 34.115,
+        "caption": "cerrar",
+        "heard": "(nada)"
+      },
+      {
+        "at": 34.675,
+        "caption": "calle",
+        "heard": "La"
+      },
+      {
+        "at": 34.975,
+        "caption": "porque",
+        "heard": "La media"
+      },
+      {
+        "at": 35.335,
+        "caption": "se",
+        "heard": "media"
+      },
+      {
+        "at": 35.575,
+        "caption": "les",
+        "heard": "media"
+      },
+      {
+        "at": 35.715,
+        "caption": "dé",
+        "heard": "media"
+      },
+      {
+        "at": 35.875,
+        "caption": "la",
+        "heard": "(nada)"
+      },
+      {
+        "at": 36.075,
         "caption": "gana",
-        "heard": "den lagar. La"
+        "heard": "(nada)"
       },
       {
-        "at": 44.48,
+        "at": 36.547,
+        "caption": "La",
+        "heard": "debe"
+      },
+      {
+        "at": 36.647,
+        "caption": "medida",
+        "heard": "debe"
+      },
+      {
+        "at": 40.9,
+        "caption": "correspondiente",
+        "heard": "Por"
+      },
+      {
+        "at": 41.744,
+        "caption": "Por",
+        "heard": "ejemplo,"
+      },
+      {
+        "at": 45.43,
+        "caption": "TC",
+        "heard": "el T .C."
+      },
+      {
+        "at": 45.96,
+        "caption": "ordenó",
+        "heard": "(nada)"
+      },
+      {
+        "at": 46.48,
         "caption": "su",
         "heard": "(nada)"
       },
       {
-        "at": 44.812,
+        "at": 46.812,
         "caption": "retiro",
-        "heard": "(nada)"
+        "heard": "ordenó"
       },
       {
-        "at": 52.29,
-        "caption": "eliminar",
-        "heard": "deliminaridad"
+        "at": 50.348,
+        "caption": "municipal",
+        "heard": "autorización. La"
       },
       {
-        "at": 52.938,
+        "at": 55.396,
         "caption": "injustificadamente",
-        "heard": "la"
+        "heard": "cada mente"
       },
       {
-        "at": 54.225,
+        "at": 56.683,
         "caption": "tránsito",
-        "heard": "de trazos? Porque"
+        "heard": "de trabajo? Porque"
       },
       {
-        "at": 59.512,
+        "at": 62.053,
         "caption": "restringir",
-        "heard": "raciar,"
+        "heard": "recifrar,"
       },
       {
-        "at": 59.898,
+        "at": 62.633,
         "caption": "arbitrariamente",
-        "heard": "raciar, literalmente,"
+        "heard": "literalmente,"
       },
       {
-        "at": 61.223,
+        "at": 63.973,
         "caption": "al",
-        "heard": "el derecho a Yuriz."
+        "heard": "el derecho a Yuris."
       },
       {
-        "at": 61.523,
+        "at": 64.273,
         "caption": "libre",
-        "heard": "a Yuriz. Así"
+        "heard": "a Yuris."
       },
       {
-        "at": 61.656,
+        "at": 64.393,
         "caption": "tránsito",
-        "heard": "a Yuriz. Así"
+        "heard": "a Yuris."
       },
       {
-        "at": 62.462,
+        "at": 65.587,
         "caption": "sigue",
-        "heard": "que siga buscando a"
+        "heard": "que siga Vocare"
       },
       {
-        "at": 62.91,
-        "caption": "Vocare",
-        "heard": "buscando a Yuriz"
+        "at": 65.811,
+        "caption": "a",
+        "heard": "que siga Vocare Iuris"
       },
       {
-        "at": 63.134,
-        "caption": "Iuris",
-        "heard": "buscando a Yuriz y guarde"
+        "at": 67.486,
+        "caption": "No",
+        "heard": "O sea, es cuando"
       },
       {
-        "at": 65.347,
+        "at": 67.666,
+        "caption": "sabes",
+        "heard": "O sea, es cuando podras"
+      },
+      {
+        "at": 68.526,
         "caption": "necesitarlo",
-        "heard": "podrás."
+        "heard": "recifrar."
       }
     ]
   },
   "loudness": {
     "integratedLufs": -14.1,
-    "lra": 12.1,
-    "truePeakDb": -1.5
+    "lra": 12.3,
+    "truePeakDb": -1.4
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/video-2/video-2-preview.mp4"
 }
