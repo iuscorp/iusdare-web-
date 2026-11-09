@@ -64,17 +64,17 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 7 ms, p90 |67| ms, 127/139 palabras alineadas"
+      "detail": "mediana 7 ms, p90 |67| ms, 119/139 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
-      "ok": true,
-      "level": "ok",
-      "detail": "12 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "ok": false,
+      "level": "warn",
+      "detail": "20 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 127,
+    "matched": 119,
     "total": 139,
     "medianOffset": 0.006999999999997897,
     "p90AbsOffset": 0.06700000000000017,
@@ -90,6 +90,16 @@
         "heard": "Tribunal"
       },
       {
+        "at": 20.207,
+        "caption": "sexual",
+        "heard": "orientación sección."
+      },
+      {
+        "at": 20.727,
+        "caption": "e",
+        "heard": "Identidad"
+      },
+      {
         "at": 22.713,
         "caption": "quien",
         "heard": "O sea, que el discrimine"
@@ -97,47 +107,77 @@
       {
         "at": 24.507,
         "caption": "y",
-        "heard": "preso. 10 entre"
+        "heard": "preso. 10 -2"
       },
       {
         "at": 24.627,
         "caption": "es",
-        "heard": "10 entre 2"
+        "heard": "10 -2"
+      },
+      {
+        "at": 24.827,
+        "caption": "entre",
+        "heard": "10 -2"
       },
       {
         "at": 25.027,
         "caption": "dos",
-        "heard": "entre 2 a"
+        "heard": "10 -2 -3"
+      },
+      {
+        "at": 25.287,
+        "caption": "a",
+        "heard": "-3"
       },
       {
         "at": 25.587,
         "caption": "tres",
-        "heard": "a 3 años. Y"
+        "heard": "-3 -5."
+      },
+      {
+        "at": 25.747,
+        "caption": "años",
+        "heard": "-5. En"
+      },
+      {
+        "at": 26.073,
+        "caption": "Y",
+        "heard": "-5. En mi trabajo,"
       },
       {
         "at": 26.213,
         "caption": "el",
-        "heard": "Y en mi trabajo"
+        "heard": "En mi trabajo,"
+      },
+      {
+        "at": 26.613,
+        "caption": "las",
+        "heard": "mi trabajo,"
       },
       {
         "at": 27.553,
         "caption": "26772",
-        "heard": "leyes 26,"
+        "heard": "leyes 26"
       },
       {
         "at": 29.713,
         "caption": "30709",
-        "heard": "y 30 a 772."
+        "heard": "y 30 -70"
       },
       {
-        "at": 38.48,
-        "caption": "1500",
-        "heard": "más de 1 .500"
+        "at": 30.83,
+        "caption": "prohíben",
+        "heard": "1979, pregunte que"
+      },
+      {
+        "at": 32.3,
+        "caption": "paguen",
+        "heard": "o te paden menos"
       },
       {
         "at": 40.4,
         "caption": "clausuran",
-        "heard": "Perú y a la hora de ir a la casa. le usuran negocios"
+        "heard": "Perú y... le usuran negocios"
       }
     ]
   },
