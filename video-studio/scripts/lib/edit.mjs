@@ -80,15 +80,21 @@ export const findRetakes = (words) => {
  *  - palabra que empieza dentro de un silencio → s = fin del silencio
  *  - palabras completamente dentro de un silencio → se recolocan tras el silencio
  */
-export const refineWithSilences = (words, silences = []) => {
+export const refineWithSilences = (words, silences = [], deepSilences = null) => {
   const out = words.map((w) => ({...w}));
+  // Una palabra dicha en voz baja (final de frase descendente) puede caer bajo el umbral de
+  // silencio. Sólo se reubica si está dentro de un silencio PROFUNDO (ruido de sala); si no,
+  // se confía en Whisper. Sin lista profunda se mantiene el comportamiento anterior.
+  const isDeep = (w) => !deepSilences || deepSilences.some((d) => w.s >= d.start - 0.02 && w.e <= d.end + 0.02);
   for (const sil of silences) {
     if (sil.end - sil.start < 0.3) continue;
     const inside = [];
     for (const w of out) {
       const sIn = w.s > sil.start && w.s < sil.end;
       const eIn = w.e > sil.start && w.e < sil.end;
-      if (sIn && eIn) inside.push(w);
+      if (sIn && eIn) {
+        if (isDeep(w)) inside.push(w);
+      }
       else if (eIn && w.s <= sil.start) w.e = Math.max(w.s + 0.08, sil.start + 0.02);
       else if (sIn && w.e >= sil.end) w.s = Math.min(w.e - 0.08, sil.end - 0.02);
       else if (w.s <= sil.start && w.e >= sil.end) {
@@ -116,16 +122,18 @@ export const refineWithSilences = (words, silences = []) => {
 /**
  * Limpieza: devuelve rangos a conservar (en tiempo fuente) y el detalle de lo eliminado.
  */
-export const cleanup = (transcript, {keepAllFillers = false, silences = [], glossary, selects = null} = {}) => {
+export const cleanup = (transcript, {keepAllFillers = false, silences = [], deepSilences = null, glossary, selects = null} = {}) => {
   // Whisper a veces da duración 0 a una palabra ("Puede[188.44–188.44]"): se le asigna un mínimo
   // en vez de descartarla (antes se perdían palabras reales).
   const fixed = transcript.words.map((w, i, arr) => (w.e > w.s ? w : {...w, e: Math.min(w.s + 0.12, arr[i + 1]?.s ?? w.s + 0.12)}));
-  let base = refineWithSilences(fixed.filter((w) => w.e >= w.s && w.w.trim()), silences);
+  // se guarda el inicio original: la pertenencia a una toma se decide con él (no con el refinado)
+  let base = refineWithSilences(fixed.filter((w) => w.e >= w.s && w.w.trim()).map((w) => ({...w, s0: w.s})), silences, deepSilences);
   if (selects) {
     // Tomas elegidas por el editor, EN ORDEN DE GUION (puede no ser cronológico).
     // Cada palabra queda marcada con su toma: entre tomas siempre hay corte.
     base = selects.flatMap((sel, k) =>
-      base.filter((w) => w.s >= sel.in - 0.02 && w.s < sel.out && w.e <= sel.out + 0.25).map((w) => ({...w, sel: k})),
+      // margen de 60 ms en el borde final: la palabra que arranca justo ahí es de la toma siguiente
+      base.filter((w) => w.s0 >= sel.in - 0.02 && w.s0 < sel.out - 0.06).map((w) => ({...w, sel: k, e: Math.min(w.e, sel.out + 0.25)})),
     );
   }
   const words = applyGlossary(base, glossary);

@@ -76,7 +76,7 @@ if (fs.existsSync(projGlossary)) glossary.corrections = [...readJson(projGlossar
 const selectsFile = path.join(P.dir, 'selects.json');
 const selects = fs.existsSync(selectsFile) ? readJson(selectsFile) : null;
 if (selects) console.log(`  usando ${selects.length} tomas elegidas (selects.json)`);
-const plan = cleanup(transcript, {silences: silences(proxy, -40, 0.3), glossary, selects});
+const plan = cleanup(transcript, {silences: silences(proxy, -40, 0.3), deepSilences: silences(proxy, -52, 0.3), glossary, selects});
 writeJson(P.cleanup, plan);
 
 const md = `# Análisis — ${meta.title}

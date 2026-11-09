@@ -93,4 +93,10 @@ test('no descarta palabras con duración 0 de Whisper', () => {
   assert.equal(c.ranges[0].words.map((w) => w.w).join(' '), 'Puede ser válida.');
 });
 
+test('una palabra final en voz baja no se pierde (silencio no profundo)', () => {
+  const words = [W('libre', 1.0, 1.2), W('tránsito.', 1.25, 1.6)];
+  const c = cleanup({duration: 3, words}, {silences: [{start: 1.22, end: 2.5}], deepSilences: [{start: 1.7, end: 2.5}], selects: [{in: 0.9, out: 1.7}]});
+  assert.equal(c.ranges.flatMap((r) => r.words).map((w) => w.w).join(' '), 'libre tránsito.');
+});
+
 console.log(`\n${n} pruebas OK`);
