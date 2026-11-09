@@ -79,4 +79,13 @@ test('EDL: planos alineados a fotogramas, subtítulos dentro de la duración, v�
   assert.equal(edl.segments[0].role, 'hook');
 });
 
+test('selects: tomas en orden de guion (no cronológico) con corte entre tomas', () => {
+  const words = [W('Uno', 0, 0.3), W('dos.', 0.35, 0.6), W('Tres', 5, 5.3), W('cuatro.', 5.35, 5.7)];
+  const c = cleanup({duration: 6, words}, {selects: [{in: 4.9, out: 5.8}, {in: 0, out: 0.7}]});
+  assert.equal(c.ranges.length, 2);
+  assert.equal(c.ranges[0].words[0].w, 'Tres');
+  assert.equal(c.ranges[1].words[0].w, 'Uno');
+  assert.ok(c.ranges[1].in < 0.1 && c.ranges[0].out < 5.9);
+});
+
 console.log(`\n${n} pruebas OK`);

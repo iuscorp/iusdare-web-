@@ -26,13 +26,14 @@ const checks = [];
 const add = (name, ok, detail, level = ok ? 'ok' : 'error') => checks.push({name, ok, level, detail});
 
 const pr = ffprobe(file);
-const expected = edl.segments.reduce((a, s) => a + Math.max(1, Math.round(s.out * 30) - Math.round(s.in * 30)), 0) / 30;
+const FPS = Math.round(edl.source.fps) || 30;
+const expected = edl.segments.reduce((a, s) => a + Math.max(1, Math.round(s.out * FPS) - Math.round(s.in * FPS)), 0) / FPS;
 const isPreview = /-preview\.mp4$/.test(file);
 add('Resolución', pr.video.width === 1080 && pr.video.height === 1920, `${pr.video.width}x${pr.video.height}${isPreview ? ' (revisión)' : ''}`);
 add('Bitrate de video', pr.bitrateKbps >= 6000, `${(pr.bitrateKbps / 1000).toFixed(1)} Mbps`, pr.bitrateKbps >= 6000 ? 'ok' : 'warn');
 const cs = JSON.parse(run('ffprobe', ['-v', 'error', '-select_streams', 'v', '-show_entries', 'stream=color_space,color_range,pix_fmt', '-of', 'json', file]).stdout).streams[0];
 add('Espacio de color', cs.color_space === 'bt709' && cs.color_range === 'tv', `${cs.pix_fmt} · ${cs.color_space} · rango ${cs.color_range} (esperado bt709/tv como el original)`);
-add('FPS', Math.abs(pr.video.fps - 30) < 0.01, `${pr.video.fps}`);
+add('FPS', Math.abs(pr.video.fps - FPS) < 0.01, `${pr.video.fps} (footage ${FPS})`);
 add('Duración', Math.abs(pr.duration - expected) < 0.15, `${pr.duration.toFixed(2)} s (EDL ${expected.toFixed(2)} s)`);
 const black = blackFrames(file);
 add('Fotogramas negros', black.length === 0, black.length ? black.map((b) => `${b.start.toFixed(2)}–${b.end.toFixed(2)}`).join(', ') : 'ninguno');

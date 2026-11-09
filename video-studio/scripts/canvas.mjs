@@ -30,7 +30,7 @@ if (ensurePersonMatte(slug, edl)) writeJson(P.edl, edl);
 const media = path.join(P.canvasDir, 'media');
 fs.mkdirSync(media, {recursive: true});
 const proxy = path.join(PUBLIC_DIR, meta.proxy);
-const fps = 30;
+const fps = Math.round(edl.source.fps) || 30;
 
 console.log('→ Proxy de previsualización (540x960)…');
 run('ffmpeg', ['-v', 'error', '-y', '-i', proxy, '-vf', 'scale=540:960', '-c:v', 'libx264', '-crf', '26', '-preset', 'veryfast', '-g', '6', '-c:a', 'aac', '-b:a', '96k', path.join(media, 'preview.mp4')]);

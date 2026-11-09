@@ -25,7 +25,7 @@ const clean = readJson(P.cleanup);
 const edl = buildEdl({
   slug,
   title: meta.title,
-  source: {file: meta.proxy, width: 1080, height: 1920, fps: 30, duration: probe.proxy.duration},
+  source: {file: meta.proxy, width: 1080, height: 1920, fps: Math.round(probe.proxy.video.fps) || 30, duration: probe.proxy.duration},
   clean,
 });
 const headFile = path.join(P.analysisDir, 'head-track.json');

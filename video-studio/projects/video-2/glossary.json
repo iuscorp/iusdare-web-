@@ -1,0 +1,15 @@
+{
+  "_info": "Correcciones específicas de este video (se combinan con templates/glossary.json). Verificar con el equipo.",
+  "corrections": [
+    {"match": "una organizacion", "replace": ["una", "urbanización"]},
+    {"match": "el tese", "replace": ["el", "TC"]},
+    {"match": "el t c", "replace": ["el", "TC"]},
+    {"match": "t c", "replace": ["TC"]},
+    {"match": "tranquilas", "replace": ["tranqueras"]},
+    {"match": "por que no se acredito", "replace": ["porque", "no", "se", "acreditó"]},
+    {"match": "surco", "replace": ["Surco"]},
+    {"match": "todos se estan de acuerdo", "replace": ["todos", "están", "de", "acuerdo"]},
+    {"match": "regga", "replace": ["reja"]},
+    {"match": "no permita", "replace": ["no", "permite"]}
+  ]
+}

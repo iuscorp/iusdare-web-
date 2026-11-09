@@ -116,9 +116,18 @@ export const refineWithSilences = (words, silences = []) => {
 /**
  * Limpieza: devuelve rangos a conservar (en tiempo fuente) y el detalle de lo eliminado.
  */
-export const cleanup = (transcript, {keepAllFillers = false, silences = [], glossary} = {}) => {
-  const words = applyGlossary(refineWithSilences(transcript.words.filter((w) => w.e > w.s), silences), glossary);
-  const {removed, reasons} = findRetakes(words);
+export const cleanup = (transcript, {keepAllFillers = false, silences = [], glossary, selects = null} = {}) => {
+  let base = refineWithSilences(transcript.words.filter((w) => w.e > w.s), silences);
+  if (selects) {
+    // Tomas elegidas por el editor, EN ORDEN DE GUION (puede no ser cronológico).
+    // Cada palabra queda marcada con su toma: entre tomas siempre hay corte.
+    base = selects.flatMap((sel, k) =>
+      base.filter((w) => w.s >= sel.in - 0.02 && w.s < sel.out && w.e <= sel.out + 0.25).map((w) => ({...w, sel: k})),
+    );
+  }
+  const words = applyGlossary(base, glossary);
+  // con selects no se buscan tomas repetidas: la elección ya la hizo el editor
+  const {removed, reasons} = selects ? {removed: new Set(), reasons: []} : findRetakes(words);
   const flags = [];
   words.forEach((w, i) => {
     const n = norm(w.w);
@@ -145,7 +154,8 @@ export const cleanup = (transcript, {keepAllFillers = false, silences = [], glos
     const prevIsQuestion = /\?$/.test(prev.w);
     const isReveal = REVEAL_WORDS.has(norm(w.w));
     const dramatic = prevIsQuestion || isReveal;
-    const contiguous = prev.i === w.i - 1;
+    const sameTake = prev.sel === w.sel;
+    const contiguous = prev.i === w.i - 1 && sameTake;
     const reason = prevIsQuestion ? 'tras pregunta' : 'antes de veredicto';
     if (contiguous && gap <= RULES.maxGap) {
       // habla continua
@@ -160,11 +170,15 @@ export const cleanup = (transcript, {keepAllFillers = false, silences = [], glos
       // corte. Si la pausa era dramática se deja exactamente RULES.dramaticPause de aire.
       const keep = contiguous && dramatic ? RULES.dramaticPause : RULES.padAfter + RULES.padBefore;
       const half = keep / 2;
-      last.out = Math.min(prev.e + (dramatic && contiguous ? half : RULES.padAfter), w.s);
-      const newIn = Math.max(last.out, w.s - (dramatic && contiguous ? half : RULES.padBefore));
+      if (sameTake) {
+        last.out = Math.min(prev.e + (dramatic && contiguous ? half : RULES.padAfter), w.s);
+      } else {
+        last.out = prev.e + RULES.padAfter; // fin de toma: no depende de dónde empiece la siguiente
+      }
+      const newIn = sameTake ? Math.max(last.out, w.s - (dramatic && contiguous ? half : RULES.padBefore)) : Math.max(0, w.s - RULES.padBefore);
       ranges.push({in: newIn, out: w.e + RULES.padAfter, words: [w]});
       if (dramatic && contiguous) pauses.push({at: round(prev.e), kept: round(keep), reason});
-      if (gap > RULES.maxGap) reasons.push({kind: 'silence', from: round(prev.e), to: round(w.s), text: `${gap.toFixed(2)} s → ${keep.toFixed(2)} s`});
+      if (sameTake && gap > RULES.maxGap) reasons.push({kind: 'silence', from: round(prev.e), to: round(w.s), text: `${gap.toFixed(2)} s → ${keep.toFixed(2)} s`});
     }
   }
   const sourceSpeech = words.length ? words[words.length - 1].e - words[0].s : 0;
@@ -286,7 +300,7 @@ export const applyGlossary = (words, glossary = {corrections: []}) => {
   const merged = [];
   for (const w of words) {
     const prev = merged[merged.length - 1];
-    if (prev && /\d$/.test(prev.w.replace(/[.,]$/, '')) && /^[.,\-]?\d/.test(w.w) && w.s - prev.e < 0.35) {
+    if (prev && prev.sel === w.sel && /\d$/.test(prev.w.replace(/[.,]$/, '')) && /^[.,\-]?\d/.test(w.w) && w.s - prev.e < 0.35) {
       prev.w = prev.w.replace(/[.,]$/, '') + w.w.replace(/^[.\-]/, '');
       prev.w = prev.w.replace(/(\d)[.,](\d{3})/g, '$1$2');
       prev.e = w.e;
@@ -307,7 +321,7 @@ export const applyGlossary = (words, glossary = {corrections: []}) => {
     const e = span[span.length - 1].e;
     const trail = (span[span.length - 1].w.match(/[,.;:!?]+$/) || [''])[0];
     const step = (e - s) / rule.replace.length;
-    rule.replace.forEach((r, k) => out.push({w: r + (k === rule.replace.length - 1 ? trail : ''), s: s + k * step, e: s + (k + 1) * step, p: 1, corrected: true}));
+    rule.replace.forEach((r, k) => out.push({w: r + (k === rule.replace.length - 1 ? trail : ''), s: s + k * step, e: s + (k + 1) * step, p: 1, corrected: true, sel: span[0].sel}));
     i += rule.parts.length - 1;
   }
   return out;
@@ -324,6 +338,7 @@ export const applyGlossary = (words, glossary = {corrections: []}) => {
  *  5. sugiere stickers / tarjetas de norma y SFX (marcados auto:true para aprobación)
  */
 export const buildEdl = ({slug, title, source, clean, emphasisExtra = []}) => {
+  const FPS = Math.round(source.fps) || 30;
   const segments = [];
   const captions = [];
   let tOut = 0;
@@ -364,9 +379,9 @@ export const buildEdl = ({slug, title, source, clean, emphasisExtra = []}) => {
     if (role === 'twist') framing = 'punchIn';
     if (role === 'cta') framing = 'base';
     alt = !alt;
-    // cortes alineados a la rejilla de fotogramas (30 fps)
-    p.in = Math.round(p.in * 30) / 30;
-    p.out = Math.round(p.out * 30) / 30;
+    // cortes alineados a la rejilla de fotogramas del footage
+    p.in = Math.round(p.in * FPS) / FPS;
+    p.out = Math.round(p.out * FPS) / FPS;
     const seg = {id: `s${String(++n).padStart(2, '0')}`, in: round(p.in), out: round(p.out), role, framing, move, note: text};
     segments.push(seg);
     const dur = p.out - p.in;

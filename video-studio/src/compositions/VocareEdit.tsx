@@ -174,7 +174,8 @@ const SafeZones: React.FC = () => (
 );
 
 export const calculateEditMetadata: CalculateMetadataFunction<Edl> = ({props}) => {
-  const fps = 30;
+  // fps de la edición = fps del footage (24 o 30): nunca se duplican fotogramas
+  const fps = Math.round(props.source.fps) || 30;
   return {
     fps,
     width: 1080,

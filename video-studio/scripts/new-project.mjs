@@ -2,7 +2,7 @@
 /**
  * npm run new -- <slug> <ruta/al/raw.mp4> [--title "Título"]
  * Crea projects/<slug>/ con el brief, normaliza el footage a un proxy de edición
- * (H.264, 30 fps CFR, 1080x1920, audio 48 kHz) y lo publica en public/footage/<slug>/.
+ * (H.264, 24 o 30 fps CFR según el original, 1080x1920, BT.709, audio 48 kHz) y lo publica en public/footage/<slug>/.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -36,9 +36,12 @@ if (native) {
   console.log(`→ ${path.basename(raw)} ya es 1080x1920/30p H.264: se usa el original sin recodificar…`);
   run('ffmpeg', ['-v', 'error', '-y', '-i', rawCopy, '-map', '0:v:0', '-map', '0:a:0?', '-c', 'copy', '-movflags', '+faststart', proxy]);
 } else {
-  const vf = 'scale=1080:1920:force_original_aspect_ratio=increase:flags=lanczos,crop=1080:1920,fps=30,format=yuv420p';
-  console.log(`→ Normalizando ${path.basename(raw)} (${v.width}x${v.height} @ ${v.fps?.toFixed(2)} fps) a 1080x1920/30p (alta calidad)…`);
-  run('ffmpeg', ['-v', 'error', '-y', '-i', rawCopy, '-vf', vf, '-c:v', 'libx264', '-preset', 'slow', '-crf', '12', '-g', '15', '-c:a', 'aac', '-b:a', '320k', '-ar', '48000', '-movflags', '+faststart', proxy]);
+  // fps de trabajo: se respeta 24 (cine/iPhone 24p) o 30; 50/60 → 30. Nunca se inventan fotogramas.
+  const targetFps = v.fps && Math.abs(v.fps - 24) < 0.6 ? 24 : 30;
+  // rotación de iPhone aplicada (autorotate), 4K→1080 lanczos, rango completo (yuvj) → rango TV BT.709
+  const vf = `scale=1080:1920:force_original_aspect_ratio=increase:flags=lanczos:out_range=tv:out_color_matrix=bt709,crop=1080:1920,fps=${targetFps},format=yuv420p`;
+  console.log(`→ Normalizando ${path.basename(raw)} (${v.width}x${v.height} @ ${v.fps?.toFixed(2)} fps, rot ${v.rotation}) a 1080x1920/${targetFps}p (alta calidad)…`);
+  run('ffmpeg', ['-v', 'error', '-y', '-i', rawCopy, '-map', '0:v:0', '-map', '0:a:0?', '-vf', vf, '-c:v', 'libx264', '-preset', 'slow', '-crf', '12', '-g', String(targetFps / 2), '-color_range', 'tv', '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-c:a', 'aac', '-b:a', '320k', '-ar', '48000', '-movflags', '+faststart', proxy]);
 }
 
 // 3. brief

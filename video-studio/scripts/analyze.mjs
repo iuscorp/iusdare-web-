@@ -59,7 +59,14 @@ if (!fs.existsSync(headFile) || args.force) {
 
 console.log('→ Plan de limpieza…');
 const glossary = readJson(path.join(STUDIO_ROOT, 'templates', 'glossary.json'));
-const plan = cleanup(transcript, {silences: silences(proxy, -40, 0.3), glossary});
+// glosario del proyecto (tiene prioridad sobre el global)
+const projGlossary = path.join(P.dir, 'glossary.json');
+if (fs.existsSync(projGlossary)) glossary.corrections = [...readJson(projGlossary).corrections, ...glossary.corrections];
+// selects.json (opcional): tomas elegidas por el editor en orden de guion, [{in, out, note}]
+const selectsFile = path.join(P.dir, 'selects.json');
+const selects = fs.existsSync(selectsFile) ? readJson(selectsFile) : null;
+if (selects) console.log(`  usando ${selects.length} tomas elegidas (selects.json)`);
+const plan = cleanup(transcript, {silences: silences(proxy, -40, 0.3), glossary, selects});
 writeJson(P.cleanup, plan);
 
 const md = `# Análisis — ${meta.title}
@@ -68,7 +75,7 @@ const md = `# Análisis — ${meta.title}
 | | Original | Proxy de edición |
 |---|---|---|
 | Resolución | ${rawProbe.video?.width}x${rawProbe.video?.height} | 1080x1920 |
-| FPS | ${rawProbe.video?.fps?.toFixed(2)} | 30 |
+| FPS | ${rawProbe.video?.fps?.toFixed(2)} | ${probe.proxy.video?.fps?.toFixed(0)} |
 | Duración | ${rawProbe.duration.toFixed(2)} s | ${probe.proxy.duration.toFixed(2)} s |
 | Códec | ${rawProbe.video?.codec} / ${rawProbe.audio?.codec} | h264 / aac |
 
