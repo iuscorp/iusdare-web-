@@ -63,6 +63,8 @@ def main() -> None:
         words, segments = [], []
         for k in range(0, len(audio), n):
             part = audio[k : k + n + sr // 2]  # medio segundo de solape
+            if k > 0 and len(part) < sr:  # cola < 1 s: ya cubierta por el solape del bloque anterior
+                continue
             off = k / sr
             segs_c, _ = model.transcribe(part, language=a.lang, word_timestamps=True, vad_filter=False, initial_prompt=a.prompt, condition_on_previous_text=False)
             for sg in segs_c:

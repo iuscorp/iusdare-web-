@@ -10,7 +10,7 @@
       "name": "Bitrate de video",
       "ok": true,
       "level": "ok",
-      "detail": "8.2 Mbps"
+      "detail": "8.3 Mbps"
     },
     {
       "name": "Espacio de color",
@@ -28,7 +28,7 @@
       "name": "Duración",
       "ok": true,
       "level": "ok",
-      "detail": "66.40 s (EDL 66.33 s)"
+      "detail": "60.10 s (EDL 60.00 s)"
     },
     {
       "name": "Fotogramas negros",
@@ -46,7 +46,7 @@
       "name": "True peak",
       "ok": true,
       "level": "ok",
-      "detail": "-1.4 dBFS"
+      "detail": "-1.5 dBFS"
     },
     {
       "name": "Silencios residuales (>0.6 s)",
@@ -58,184 +58,74 @@
       "name": "Primera palabra en el frame 0",
       "ok": true,
       "level": "ok",
-      "detail": "0.09 s"
+      "detail": "0.01 s"
     },
     {
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 2 ms, p90 |175| ms, 159/191 palabras alineadas"
+      "detail": "mediana 0 ms, p90 |118| ms, 181/191 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
-      "ok": false,
-      "level": "warn",
-      "detail": "32 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "ok": true,
+      "level": "ok",
+      "detail": "10 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 159,
+    "matched": 181,
     "total": 191,
-    "medianOffset": 0.002000000000000224,
-    "p90AbsOffset": 0.17500000000000426,
+    "medianOffset": 0,
+    "p90AbsOffset": 0.1180000000000021,
     "mismatches": [
       {
-        "at": 0.092,
-        "caption": "Pueden",
-        "heard": "Pues, los"
-      },
-      {
-        "at": 9.615,
+        "at": 8.657,
         "caption": "pongamos",
         "heard": "apogamos una"
       },
       {
-        "at": 14.665,
-        "caption": "reja",
-        "heard": "y la regga está cerrada"
+        "at": 19.052,
+        "caption": "El",
+        "heard": "Entonces,"
       },
       {
-        "at": 20.205,
-        "caption": "la",
-        "heard": "Libertad"
+        "at": 19.192,
+        "caption": "TC",
+        "heard": "Entonces,"
       },
       {
-        "at": 30.353,
-        "caption": "No",
-        "heard": "significa"
-      },
-      {
-        "at": 33.54,
+        "at": 29.415,
         "caption": "les",
         "heard": "se le dé la gana."
       },
       {
-        "at": 39.66,
-        "caption": "Por",
-        "heard": "(nada)"
-      },
-      {
-        "at": 39.757,
-        "caption": "ejemplo",
-        "heard": "(nada)"
-      },
-      {
-        "at": 40.257,
-        "caption": "en",
-        "heard": "un caso sobre"
-      },
-      {
-        "at": 43.305,
+        "at": 38.514,
         "caption": "TC",
         "heard": "el T .C. ordenó"
       },
       {
-        "at": 50.273,
-        "caption": "sin",
-        "heard": "(nada)"
+        "at": 39.268,
+        "caption": "retiro",
+        "heard": "ordenó su repiro,"
       },
       {
-        "at": 50.753,
-        "caption": "eliminar",
-        "heard": "(nada)"
-      },
-      {
-        "at": 51.413,
-        "caption": "injustificadamente",
-        "heard": "(nada)"
-      },
-      {
-        "at": 52.573,
-        "caption": "la",
-        "heard": "seguridad"
-      },
-      {
-        "at": 52.793,
-        "caption": "libertad",
-        "heard": "seguridad"
-      },
-      {
-        "at": 53.353,
-        "caption": "de",
-        "heard": "(nada)"
-      },
-      {
-        "at": 53.433,
-        "caption": "tránsito",
-        "heard": "(nada)"
-      },
-      {
-        "at": 54.072,
-        "caption": "Porque",
-        "heard": "(nada)"
-      },
-      {
-        "at": 54.26,
-        "caption": "sí",
-        "heard": "(nada)"
-      },
-      {
-        "at": 54.66,
-        "caption": "la",
-        "heard": "(nada)"
-      },
-      {
-        "at": 54.72,
-        "caption": "seguridad",
-        "heard": "(nada)"
-      },
-      {
-        "at": 55.04,
-        "caption": "es",
-        "heard": "(nada)"
-      },
-      {
-        "at": 55.2,
-        "caption": "importante",
-        "heard": "(nada)"
-      },
-      {
-        "at": 55.786,
+        "at": 50.338,
         "caption": "Recuerda",
         "heard": "(nada)"
       },
       {
-        "at": 56.548,
-        "caption": "proteger",
-        "heard": "(nada)"
-      },
-      {
-        "at": 56.948,
-        "caption": "la",
-        "heard": "no"
-      },
-      {
-        "at": 57.068,
-        "caption": "seguridad",
-        "heard": "no"
-      },
-      {
-        "at": 57.463,
-        "caption": "ciudadana",
-        "heard": "no"
-      },
-      {
-        "at": 58.026,
-        "caption": "No",
-        "heard": "significa"
-      },
-      {
-        "at": 58.835,
+        "at": 53.127,
         "caption": "restringir",
         "heard": "reistringir"
       },
       {
-        "at": 62.994,
+        "at": 56.744,
         "caption": "sigue",
-        "heard": "que siga Vocare"
+        "heard": "Así que siga Vocare"
       },
       {
-        "at": 63.218,
+        "at": 56.968,
         "caption": "a",
         "heard": "siga Vocare Iuris"
       }
@@ -243,8 +133,8 @@
   },
   "loudness": {
     "integratedLufs": -14,
-    "lra": 3.4,
-    "truePeakDb": -1.4
+    "lra": 3.3,
+    "truePeakDb": -1.5
   },
-  "file": "/home/user/iusdare-web-/video-studio/previews/video-2/video-2-preview.mp4"
+  "file": "previews/video-2/video-2-preview.mp4"
 }
