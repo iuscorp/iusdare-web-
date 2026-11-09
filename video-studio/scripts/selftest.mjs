@@ -88,4 +88,9 @@ test('selects: tomas en orden de guion (no cronológico) con corte entre tomas',
   assert.ok(c.ranges[1].in < 0.1 && c.ranges[0].out < 5.9);
 });
 
+test('no descarta palabras con duración 0 de Whisper', () => {
+  const c = cleanup({duration: 2, words: [W('Puede', 0.5, 0.5), W('ser', 0.5, 0.7), W('válida.', 0.72, 1.1)]});
+  assert.equal(c.ranges[0].words.map((w) => w.w).join(' '), 'Puede ser válida.');
+});
+
 console.log(`\n${n} pruebas OK`);

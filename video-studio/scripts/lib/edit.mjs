@@ -117,7 +117,10 @@ export const refineWithSilences = (words, silences = []) => {
  * Limpieza: devuelve rangos a conservar (en tiempo fuente) y el detalle de lo eliminado.
  */
 export const cleanup = (transcript, {keepAllFillers = false, silences = [], glossary, selects = null} = {}) => {
-  let base = refineWithSilences(transcript.words.filter((w) => w.e > w.s), silences);
+  // Whisper a veces da duración 0 a una palabra ("Puede[188.44–188.44]"): se le asigna un mínimo
+  // en vez de descartarla (antes se perdían palabras reales).
+  const fixed = transcript.words.map((w, i, arr) => (w.e > w.s ? w : {...w, e: Math.min(w.s + 0.12, arr[i + 1]?.s ?? w.s + 0.12)}));
+  let base = refineWithSilences(fixed.filter((w) => w.e >= w.s && w.w.trim()), silences);
   if (selects) {
     // Tomas elegidas por el editor, EN ORDEN DE GUION (puede no ser cronológico).
     // Cada palabra queda marcada con su toma: entre tomas siempre hay corte.

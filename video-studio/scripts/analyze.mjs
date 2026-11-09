@@ -21,29 +21,39 @@ const meta = readJson(P.meta);
 const proxy = path.join(PUBLIC_DIR, meta.proxy);
 const rawFile = path.join(STUDIO_ROOT, meta.raw);
 
-console.log('→ Inspección técnica…');
-const rawProbe = ffprobe(rawFile);
-const lufs = loudness(proxy);
-const sil = silences(proxy);
-const black = blackFrames(proxy);
-// exposición / nitidez media por muestreo (signalstats)
-const stats = run('ffmpeg', ['-hide_banner', '-i', proxy, '-vf', 'fps=1,signalstats,metadata=print', '-an', '-f', 'null', '-']).stderr;
-const yavg = [...stats.matchAll(/lavfi.signalstats.YAVG=([\d.]+)/g)].map((m) => Number(m[1]));
-const satavg = [...stats.matchAll(/lavfi.signalstats.SATAVG=([\d.]+)/g)].map((m) => Number(m[1]));
-const avg = (a) => (a.length ? Math.round((a.reduce((x, y) => x + y, 0) / a.length) * 10) / 10 : null);
-const probe = {
-  raw: rawProbe,
-  proxy: ffprobe(proxy),
-  audio: {...lufs, silences: sil, silenceTotal: Math.round(sil.reduce((a, s) => a + (s.end - s.start), 0) * 100) / 100},
-  video: {blackSegments: black, lumaAvg: avg(yavg), saturationAvg: avg(satavg)},
-  warnings: [],
-};
-if (rawProbe.video?.height < 1920) probe.warnings.push(`Resolución de origen ${rawProbe.video?.width}x${rawProbe.video?.height}: se escala a 1080x1920 (posible pérdida de nitidez; limita los punch-in a ≤1.15x).`);
-if (rawProbe.video && Math.abs(rawProbe.video.fps - 30) > 0.5) probe.warnings.push(`FPS de origen ${rawProbe.video.fps.toFixed(2)} → convertido a 30 fps.`);
-if (lufs.integratedLufs < -30) probe.warnings.push(`Audio muy bajo (${lufs.integratedLufs} LUFS). Revisar ganancia del micrófono.`);
-if (lufs.truePeakDb > -0.5) probe.warnings.push(`Posible saturación de audio (true peak ${lufs.truePeakDb} dBFS).`);
-if (probe.video.lumaAvg && probe.video.lumaAvg < 70) probe.warnings.push('Imagen oscura: el preset de color levantará medios tonos, revisar ruido.');
-writeJson(P.probe, probe);
+// la inspección técnica (loudness, negros, exposición) es lenta en tomas largas: se reutiliza
+// si el proxy no cambió (mismo tamaño y fecha). Forzar con --force.
+const proxyStat = fs.statSync(proxy);
+const probeKey = `${proxyStat.size}-${proxyStat.mtimeMs}`;
+let probe = fs.existsSync(P.probe) ? readJson(P.probe) : null;
+let rawProbe = probe?.raw;
+let lufs = probe?.audio;
+if (!probe || probe.key !== probeKey || args.force) {
+  console.log('→ Inspección técnica…');
+  rawProbe = ffprobe(rawFile);
+  lufs = loudness(proxy);
+  const sil = silences(proxy);
+  const black = blackFrames(proxy);
+  // exposición / nitidez media por muestreo (signalstats)
+  const stats = run('ffmpeg', ['-hide_banner', '-i', proxy, '-vf', 'fps=1,signalstats,metadata=print', '-an', '-f', 'null', '-']).stderr;
+  const yavg = [...stats.matchAll(/lavfi.signalstats.YAVG=([\d.]+)/g)].map((m) => Number(m[1]));
+  const satavg = [...stats.matchAll(/lavfi.signalstats.SATAVG=([\d.]+)/g)].map((m) => Number(m[1]));
+  const avg = (a) => (a.length ? Math.round((a.reduce((x, y) => x + y, 0) / a.length) * 10) / 10 : null);
+  probe = {
+    key: probeKey,
+    raw: rawProbe,
+    proxy: ffprobe(proxy),
+    audio: {...lufs, silences: sil, silenceTotal: Math.round(sil.reduce((a, s) => a + (s.end - s.start), 0) * 100) / 100},
+    video: {blackSegments: black, lumaAvg: avg(yavg), saturationAvg: avg(satavg)},
+    warnings: [],
+  };
+  if (rawProbe.video?.height < 1920) probe.warnings.push(`Resolución de origen ${rawProbe.video?.width}x${rawProbe.video?.height}: se escala a 1080x1920 (posible pérdida de nitidez; limita los punch-in a ≤1.15x).`);
+  if (rawProbe.video && ![24, 30].some((f) => Math.abs(rawProbe.video.fps - f) < 0.6)) probe.warnings.push(`FPS de origen ${rawProbe.video.fps.toFixed(2)} → convertido a ${Math.round(probe.proxy.video.fps)} fps.`);
+  if (lufs.integratedLufs < -30) probe.warnings.push(`Audio muy bajo (${lufs.integratedLufs} LUFS). Revisar ganancia del micrófono.`);
+  if (lufs.truePeakDb > -0.5) probe.warnings.push(`Posible saturación de audio (true peak ${lufs.truePeakDb} dBFS).`);
+  if (probe.video.lumaAvg && probe.video.lumaAvg < 70) probe.warnings.push('Imagen oscura: el preset de color levantará medios tonos, revisar ruido.');
+  writeJson(P.probe, probe);
+} else console.log('→ Inspección técnica: reutilizada (proxy sin cambios)');
 
 console.log('→ Transcripción (Whisper)…');
 if (!fs.existsSync(P.transcript) || args.force) {
@@ -80,9 +90,9 @@ const md = `# Análisis — ${meta.title}
 | Códec | ${rawProbe.video?.codec} / ${rawProbe.audio?.codec} | h264 / aac |
 
 - Loudness: **${lufs.integratedLufs} LUFS** (LRA ${lufs.lra} LU, true peak ${lufs.truePeakDb} dBFS) → se normaliza a -14 LUFS en la exportación.
-- Silencios (< -35 dB, ≥ 0.25 s): ${sil.length} (${probe.audio.silenceTotal} s en total).
+- Silencios (< -35 dB, ≥ 0.25 s): ${probe.audio.silences.length} (${probe.audio.silenceTotal} s en total).
 - Luma media: ${probe.video.lumaAvg} · Saturación media: ${probe.video.saturationAvg}.
-- Fotogramas negros: ${black.length ? black.map((b) => `${b.start.toFixed(2)}–${b.end.toFixed(2)} s`).join(', ') : 'ninguno'}.
+- Fotogramas negros: ${probe.video.blackSegments.length ? probe.video.blackSegments.map((b) => `${b.start.toFixed(2)}–${b.end.toFixed(2)} s`).join(', ') : 'ninguno'}.
 ${probe.warnings.map((w) => `- ⚠️ ${w}`).join('\n')}
 
 ## Transcripción
