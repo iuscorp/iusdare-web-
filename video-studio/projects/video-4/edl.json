@@ -1264,15 +1264,14 @@
   ],
   "overlays": [
     {
-      "type": "photoCard",
-      "image": "footage/video-4/photos/maquillaje.jpg",
+      "type": "cutout",
+      "image": "footage/video-4/photos/maquillaje.png",
       "x": 0.5,
       "y": 0.66,
-      "w": 500,
-      "h": 380,
+      "w": 430,
       "rotate": -3,
       "label": "¿Prohibido?",
-      "credit": "«Makeup Love» — queercatkitten (CC BY-SA 2.0)",
+      "credit": "«Lipstick and mirror» — shawnzrossi (CC BY 2.0)",
       "start": 0,
       "end": 2.213,
       "note": "hook: la situación (frame 0)"
@@ -1298,29 +1297,27 @@
       "note": "desmentido inmediato (antihook)"
     },
     {
-      "type": "photoCard",
-      "image": "footage/video-4/photos/colegio.jpg",
+      "type": "cutout",
+      "image": "footage/video-4/photos/colegio.png",
       "x": 0.32,
       "y": 0.64,
-      "w": 500,
-      "h": 380,
+      "w": 430,
       "rotate": -4,
       "label": "Reglamento",
-      "credit": "«School Classroom With Equipment - Creative Commons Attribution Only» — educators.co.uk (CC BY 2.0)",
+      "credit": "«Village School Classroom» — ToGa Wanderings (CC BY 2.0)",
       "start": 3.993,
       "end": 5.263,
       "note": "el colegio"
     },
     {
-      "type": "photoCard",
-      "image": "footage/video-4/photos/firma.jpg",
+      "type": "cutout",
+      "image": "footage/video-4/photos/firma.png",
       "x": 0.66,
       "y": 0.64,
-      "w": 500,
-      "h": 380,
+      "w": 430,
       "rotate": 4,
       "label": "Matrícula",
-      "credit": "«Prof Biju Varkkey - Paulien Osse - after signing contract for Asian WageIndicator projects» — WageIndicator.org - Pictures from Paulien Osse and (CC BY 2.0)",
+      "credit": "«Legal Contract & Signature - Cool Tones» — Visual Content (CC BY 2.0)",
       "start": 5.313,
       "end": 8.263,
       "note": "el acuerdo firmado por los papás"
@@ -1424,29 +1421,27 @@
       "note": "no se puede renunciar a ellos"
     },
     {
-      "type": "photoCard",
-      "image": "footage/video-4/photos/alumnos.jpg",
+      "type": "cutout",
+      "image": "footage/video-4/photos/alumnos.png",
       "x": 0.34,
       "y": 0.64,
-      "w": 500,
-      "h": 380,
+      "w": 430,
       "rotate": -4,
       "label": "Sin entrar al colegio",
-      "credit": "«Village School Classroom» — ToGa Wanderings (CC BY 2.0)",
+      "credit": "«Weird School Bus» — KB35 (CC BY 2.0)",
       "start": 24.903,
       "end": 26.697,
       "note": "«si te prohíben entrar»"
     },
     {
-      "type": "photoCard",
-      "image": "footage/video-4/photos/cabello.jpg",
+      "type": "cutout",
+      "image": "footage/video-4/photos/cabello.png",
       "x": 0.66,
       "y": 0.64,
-      "w": 500,
-      "h": 380,
+      "w": 330,
       "rotate": 4,
       "label": "Cabello pintado",
-      "credit": "«Freshly Dyed Hair» — Spider.Dog (CC BY 2.0)",
+      "credit": "«Red hair» — kevin dooley (CC BY 2.0)",
       "start": 26.787,
       "end": 27.847,
       "note": "ráfaga 1/2"
@@ -1545,9 +1540,9 @@
   ],
   "sfx": [
     {
-      "name": "whoosh",
+      "name": "pop",
       "at": 0,
-      "volumeDb": -19
+      "volumeDb": -16
     },
     {
       "name": "riser",
@@ -1565,14 +1560,14 @@
       "volumeDb": -11
     },
     {
-      "name": "whoosh",
-      "at": 3.933,
-      "volumeDb": -19
+      "name": "pop",
+      "at": 3.973,
+      "volumeDb": -16
     },
     {
-      "name": "whoosh",
-      "at": 5.253,
-      "volumeDb": -19
+      "name": "pop",
+      "at": 5.293,
+      "volumeDb": -16
     },
     {
       "name": "pop",
@@ -1625,14 +1620,14 @@
       "volumeDb": -14
     },
     {
-      "name": "whoosh",
-      "at": 24.843,
-      "volumeDb": -19
+      "name": "pop",
+      "at": 24.883,
+      "volumeDb": -16
     },
     {
-      "name": "whoosh",
-      "at": 26.727,
-      "volumeDb": -19
+      "name": "pop",
+      "at": 26.767,
+      "volumeDb": -16
     },
     {
       "name": "pop",

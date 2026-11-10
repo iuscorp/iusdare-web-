@@ -118,7 +118,7 @@ const asi = at('Asi', noVal.start);
 const cab = at('cabello');
 const maq = at('maquillaje', cab.start);
 photo('alumnos', at('prohiben').start - 0.05, cab.start - at('prohiben').start - 0.1, {x: 0.34, y: 0.64, rotate: -4, label: 'Sin entrar al colegio', emoji: '🚫', note: '«si te prohíben entrar»'});
-photo('cabello', cab.start - 0.06, maq.start - cab.start, {x: 0.66, y: 0.64, rotate: 4, label: 'Cabello pintado', emoji: '💇', note: 'ráfaga 1/2'});
+photo('cabello', cab.start - 0.06, maq.start - cab.start, {x: 0.66, y: 0.64, rotate: 4, label: 'Cabello pintado', cw: 330, emoji: '💇', note: 'ráfaga 1/2'});
 sticker('💄', maq.start - 0.03, at('y', maq.start).start - maq.start + 0.1, 0.32, 0.62, 'ráfaga 2/2');
 const dicen = at('dicen', maq.start);
 sticker('🙄', dicen.start - 0.05, at('sigue', dicen.start).start - dicen.start - 0.05, 0.7, 0.62, '«es que está en el reglamento»');

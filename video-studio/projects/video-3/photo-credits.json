@@ -1,27 +1,30 @@
 {
  "entrada": {
-  "title": "Home nightclub entrance",
-  "creator": "Ken_Mayer",
-  "license": "CC BY 2.0",
-  "source": "https://www.flickr.com/photos/14529688@N08/3638612478",
-  "openverse_id": "f811fda5-7222-4f7a-ab07-0e70fef6d1f5",
-  "credit": "«Home nightclub entrance» — Ken_Mayer (CC BY 2.0)"
+  "title": "Door",
+  "creator": "sk8geek",
+  "license": "CC BY-SA 2.0",
+  "source": "https://www.flickr.com/photos/26170836@N05/5827246153",
+  "openverse_id": "f1e5deb0-058d-401e-ba71-ea388f9454d0",
+  "credit": "«Door» — sk8geek (CC BY-SA 2.0)",
+  "cutout": true
  },
  "prision": {
-  "title": "Prison Bars",
-  "creator": "Matthew Henry",
-  "license": "CC0 1.0",
-  "source": "https://stocksnap.io/photo/prison-bars-F3CBRHMWNW",
-  "openverse_id": "fba68e84-96f6-442f-a06b-281bf7696aba",
-  "credit": "«Prison Bars» — Matthew Henry (CC0 1.0)"
+  "title": "Early handcuffs, pt. 2",
+  "creator": "Marcin Wichary",
+  "license": "CC BY 2.0",
+  "source": "https://www.flickr.com/photos/8399025@N07/2648060321",
+  "openverse_id": "1147272f-2916-46f6-baa1-fe613412b962",
+  "credit": "«Early handcuffs, pt. 2» — Marcin Wichary (CC BY 2.0)",
+  "cutout": true
  },
  "trabajo": {
-  "title": "Young Man on a Job Interview",
-  "creator": "amtec_photos",
-  "license": "CC BY-SA 2.0",
-  "source": "https://www.flickr.com/photos/141761303@N08/24835247668",
-  "openverse_id": "6731c9cc-f054-457a-bf21-9f65f7a49ea1",
-  "credit": "«Young Man on a Job Interview» — amtec_photos (CC BY-SA 2.0)"
+  "title": "Briefcase",
+  "creator": "Menswear Market",
+  "license": "CC BY 2.0",
+  "source": "https://www.flickr.com/photos/85546319@N04/8154258737",
+  "openverse_id": "2779436a-2340-4ba5-a978-3e855dbc2b32",
+  "credit": "«Briefcase» — Menswear Market (CC BY 2.0)",
+  "cutout": true
  },
  "hotel": {
   "title": "Fairmont Hotel Lobby",
@@ -32,19 +35,21 @@
   "credit": "«Fairmont Hotel Lobby» — Pargon (CC BY 2.0)"
  },
  "discoteca": {
-  "title": "fat man dancing",
-  "creator": "zoetnet",
+  "title": "disco ball",
+  "creator": "blinkbyblink",
   "license": "CC BY 2.0",
-  "source": "https://www.flickr.com/photos/13286453@N00/2807440226",
-  "openverse_id": "234167b3-cd0e-4572-ae75-d4bd9fa035f2",
-  "credit": "«fat man dancing» — zoetnet (CC BY 2.0)"
+  "source": "https://www.flickr.com/photos/23889748@N00/1102111398",
+  "openverse_id": "39840e0a-4fd6-4c1c-99b2-1b0b9de35d0b",
+  "credit": "«disco ball» — blinkbyblink (CC BY 2.0)",
+  "cutout": true
  },
  "restaurante": {
-  "title": "Restaurant La Boheme",
-  "creator": "Unique Hotels Group",
-  "license": "CC BY-SA 2.0",
-  "source": "https://www.flickr.com/photos/62485988@N05/5692227631",
-  "openverse_id": "14b06cb7-2a82-49c5-8d93-590fdfeaabb8",
-  "credit": "«Restaurant La Boheme» — Unique Hotels Group (CC BY-SA 2.0)"
+  "title": "sri lanka food in usa",
+  "creator": "r-z",
+  "license": "CC BY 2.0",
+  "source": "https://www.flickr.com/photos/66795748@N00/2252037176",
+  "openverse_id": "a85b7b9a-fb73-497b-8497-1e52a84b567f",
+  "credit": "«sri lanka food in usa» — r-z (CC BY 2.0)",
+  "cutout": true
  }
 }

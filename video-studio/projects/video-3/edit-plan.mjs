@@ -146,7 +146,7 @@ const hot = at('hotel', rest.start);
 const disc = at('discoteca', rest.start);
 photo('restaurante', rest.start - 0.08, hot.start - rest.start, {x: 0.32, y: 0.64, w: 440, h: 340, rotate: -5, label: 'Restaurante', emoji: '🍽️', note: 'ráfaga 1/3'});
 photo('hotel', hot.start - 0.06, disc.start - hot.start, {x: 0.68, y: 0.64, w: 440, h: 340, rotate: 4, label: 'Hotel', emoji: '🏨', note: 'ráfaga 2/3'});
-photo('discoteca', disc.start - 0.06, ind.start - disc.start, {x: 0.36, y: 0.64, w: 440, h: 340, rotate: -3, label: 'Discoteca', emoji: '🪩', note: 'ráfaga 3/3'});
+photo('discoteca', disc.start - 0.06, ind.start - disc.start, {x: 0.36, y: 0.64, w: 440, h: 340, rotate: -3, label: 'Discoteca', cw: 300, emoji: '🪩', note: 'ráfaga 3/3'});
 
 // ── 8. Indecopi multa
 add({type: 'lawCard', title: 'INDECOPI', subtitle: 'Puede multar al local', color: 'yellow', x: 0.5, y: 0.66, start: ind.start - 0.05, end: at('Aparte').start - 0.04}, 'autoridad de consumo: sanción');
