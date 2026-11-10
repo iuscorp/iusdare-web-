@@ -1,0 +1,37 @@
+{
+  "_doc": "Términos de marca y jurídicos. prompt_terms guía a Whisper; corrections corrige errores típicos de transcripción (clave en minúsculas, sin puntuación). Ampliar con cada video.",
+  "prompt_terms": [
+    "Revoredo Abogados",
+    "@revoredope",
+    "Autoridad Nacional de Protección de Datos Personales",
+    "ANPD",
+    "Ley N.º 29733",
+    "UIT",
+    "DNI",
+    "SUNAFIL",
+    "SBS",
+    "INDECOPI",
+    "SUSALUD",
+    "biometría",
+    "consentimiento previo, expreso, informado y específico",
+    "datos sensibles",
+    "compliance",
+    "PLAFT",
+    "fintech",
+    "soft landing",
+    "vesting",
+    "arequipeño"
+  ],
+  "corrections": {
+    "reboreado": "Revoredo",
+    "reboredo": "Revoredo",
+    "revoreado": "Revoredo",
+    "rebored": "Revoredo",
+    "uit": "UIT",
+    "dni": "DNI",
+    "anpd": "ANPD",
+    "sunafil": "SUNAFIL",
+    "indecopi": "INDECOPI",
+    "equipeño": "arequipeño"
+  }
+}

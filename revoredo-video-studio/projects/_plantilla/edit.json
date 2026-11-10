@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "slug": "_plantilla",
+    "title": "Plantilla — ejemplo de EDL con material de relleno",
+    "format": "vertical",
+    "fps": 30,
+    "status": "analisis"
+  },
+  "sources": {
+    "main": "footage/raw/_placeholder/presenter.mp4"
+  },
+  "story": {
+    "problem": "¿Qué problema concreto enfrenta la empresa?",
+    "whyItMatters": "¿Por qué le debería importar al público objetivo?",
+    "riskOrOpportunity": "Multa / contingencia / oportunidad en cifras",
+    "openQuestion": "La pregunta que mantiene la atención hasta el final",
+    "payoff": "El aprendizaje o la regla práctica que se entrega",
+    "cta": "Tenemos una conversación pendiente"
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 0.0,
+      "out": 2.4,
+      "role": "hook",
+      "purpose": "Pregunta directa al público objetivo",
+      "framing": { "preset": "close", "zoomFrom": 1.0, "zoomTo": 1.04 },
+      "nativeCodes": ["hook", "punch-in"],
+      "rationale": "Encuadre cerrado + pregunta: identificación inmediata en el primer segundo."
+    },
+    {
+      "id": "S02",
+      "in": 2.6,
+      "out": 5.6,
+      "role": "context",
+      "purpose": "Dato del caso",
+      "framing": { "preset": "medium" },
+      "nativeCodes": ["scale-change", "strategic-text"],
+      "rationale": "Cambio de escala en el corte; la cifra entra como DataCard.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S03",
+      "in": 5.8,
+      "out": 8.8,
+      "role": "tension",
+      "purpose": "Antihook: no es lo que crees",
+      "framing": { "preset": "close", "zoomFrom": 1.0, "zoomTo": 1.05 },
+      "nativeCodes": ["antihook", "open-loop"],
+      "rationale": "Se niega la hipótesis obvia y se abre la pregunta que sostiene la retención."
+    },
+    {
+      "id": "S04",
+      "in": 9.0,
+      "out": 12.0,
+      "role": "resolution",
+      "purpose": "Regla práctica + CTA verbal",
+      "framing": { "preset": "medium" },
+      "nativeCodes": ["payoff"],
+      "rationale": "Se cierra el loop con la regla; el end card remata el CTA."
+    }
+  ],
+  "graphics": [
+    {
+      "id": "G01",
+      "component": "DataCard",
+      "start": 2.8,
+      "end": 5.4,
+      "function": "comprension",
+      "props": { "prefix": "S/ ", "value": 139, "suffix": " mil", "label": "Multa impuesta en el caso", "note": "Fuente oficial" }
+    },
+    {
+      "id": "G02",
+      "component": "KeyPoints",
+      "start": 9.1,
+      "end": 11.9,
+      "function": "comprension",
+      "props": { "title": "Consentimiento", "items": ["Previo", "Específico", "Informado"], "revealEverySec": 0.6 }
+    }
+  ],
+  "broll": [
+    {
+      "id": "B01",
+      "start": 6.0,
+      "end": 8.0,
+      "src": null,
+      "phrase": "no fue lo que crees",
+      "concept": "Huella dactilar / biometría",
+      "function": "Visualizar el dato sensible en juego",
+      "description": "Macro de huella dactilar en lector biométrico, luz fría",
+      "searchQuery": "fingerprint scanner macro",
+      "provider": "pendiente"
+    }
+  ],
+  "captions": {
+    "enabled": true,
+    "wordsPerGroup": 3,
+    "emphasis": ["sensibles", "consentimiento"],
+    "words": [
+      { "w": "¿Tu", "s": 0.2, "e": 0.45 },
+      { "w": "empresa", "s": 0.45, "e": 0.9 },
+      { "w": "trata", "s": 0.9, "e": 1.2 },
+      { "w": "datos", "s": 1.2, "e": 1.55 },
+      { "w": "sensibles?", "s": 1.55, "e": 2.2 },
+      { "w": "Este", "s": 2.7, "e": 2.95 },
+      { "w": "año", "s": 2.95, "e": 3.25 },
+      { "w": "multaron", "s": 3.25, "e": 3.8 },
+      { "w": "a", "s": 3.8, "e": 3.9 },
+      { "w": "un", "s": 3.9, "e": 4.05 },
+      { "w": "gimnasio.", "s": 4.05, "e": 4.8 },
+      { "w": "El", "s": 5.9, "e": 6.05 },
+      { "w": "problema", "s": 6.05, "e": 6.6 },
+      { "w": "no", "s": 6.6, "e": 6.8 },
+      { "w": "fue", "s": 6.8, "e": 7.0 },
+      { "w": "la", "s": 7.0, "e": 7.1 },
+      { "w": "tecnología.", "s": 7.1, "e": 8.1 },
+      { "w": "El", "s": 9.1, "e": 9.3 },
+      { "w": "consentimiento", "s": 9.3, "e": 10.2 },
+      { "w": "debe", "s": 10.2, "e": 10.5 },
+      { "w": "ser", "s": 10.5, "e": 10.7 },
+      { "w": "previo.", "s": 10.7, "e": 11.5 }
+    ]
+  },
+  "audio": {
+    "voiceGainDb": 0,
+    "music": null,
+    "sfx": []
+  },
+  "endCard": {
+    "enabled": true,
+    "durationSec": 2.2,
+    "line": "Tenemos una conversación pendiente",
+    "action": "Escríbenos"
+  },
+  "showLogo": true
+}

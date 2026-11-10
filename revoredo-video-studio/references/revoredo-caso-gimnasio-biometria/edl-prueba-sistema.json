@@ -1,0 +1,1362 @@
+{
+  "meta": {
+    "slug": "prueba-sistema-referencia",
+    "title": "Prueba de sistema — referencia caso gimnasio",
+    "format": "vertical",
+    "fps": 30,
+    "status": "aprobado"
+  },
+  "sources": {
+    "main": "footage/raw/prueba-sistema-referencia/main.mp4"
+  },
+  "story": {
+    "problem": "Empresas que usan biometría (huella) sin consentimiento válido.",
+    "whyItMatters": "Cualquier gimnasio, clínica o empresa con control de acceso biométrico trata datos sensibles.",
+    "riskOrOpportunity": "Multa de S/ 139 mil (27 UIT) y exposición reputacional.",
+    "openQuestion": "Si el problema no fue la biometría, ¿qué fue?",
+    "payoff": "El consentimiento debe ser previo, específico e informado — antes de firmar y pagar.",
+    "cta": "Si tu empresa trata datos sensibles, tenemos una conversación pendiente."
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 0.0,
+      "out": 2.0,
+      "role": "hook",
+      "purpose": "Pregunta de identificación: el espectador que usa huella en su gimnasio",
+      "framing": {
+        "preset": "close",
+        "zoomFrom": 1,
+        "zoomTo": 1.04,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "hook",
+        "punch-in"
+      ],
+      "rationale": "Pregunta directa en plano cerrado: el público se reconoce en el primer segundo.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S02",
+      "in": 2.02,
+      "out": 3.66,
+      "role": "hook",
+      "purpose": "Alerta: son datos sensibles",
+      "framing": {
+        "preset": "medium",
+        "zoomFrom": 1,
+        "zoomTo": 1,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "scale-change",
+        "strategic-text"
+      ],
+      "rationale": "El corte abre el plano y el texto fija la categoría jurídica (dato sensible).",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S03",
+      "in": 3.7,
+      "out": 7.3,
+      "role": "context",
+      "purpose": "El caso: multa a un gimnasio arequipeño",
+      "framing": {
+        "preset": "close",
+        "zoomFrom": 1,
+        "zoomTo": 1.05,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "build-up",
+        "strategic-text"
+      ],
+      "rationale": "La cifra concreta convierte el riesgo abstracto en consecuencia tangible.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S04",
+      "in": 7.3,
+      "out": 9.32,
+      "role": "context",
+      "purpose": "Qué se recopilaba: huellas de socios",
+      "framing": {
+        "preset": "wide",
+        "zoomFrom": 1,
+        "zoomTo": 1,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "pattern-interrupt",
+        "visual-stimulus"
+      ],
+      "rationale": "Primer cambio a B-roll tras 7 s de presentador: reinicia la atención.",
+      "transitionIn": "flash"
+    },
+    {
+      "id": "S05",
+      "in": 9.32,
+      "out": 11.24,
+      "role": "tension",
+      "purpose": "Antihook: el problema no fue usar biometría",
+      "framing": {
+        "preset": "close",
+        "zoomFrom": 1,
+        "zoomTo": 1.05,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "antihook",
+        "punch-in"
+      ],
+      "rationale": "Se niega la hipótesis obvia; el acercamiento marca la frase como giro.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S06",
+      "in": 11.26,
+      "out": 13.96,
+      "role": "tension",
+      "purpose": "Open loop: algo que casi ninguna empresa hace bien",
+      "framing": {
+        "preset": "medium",
+        "zoomFrom": 1,
+        "zoomTo": 1,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "open-loop",
+        "scale-change"
+      ],
+      "rationale": "Anticipa la clave sin revelarla: sostiene la retención hasta el payoff.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S07",
+      "in": 14.0,
+      "out": 18.0,
+      "role": "context",
+      "purpose": "La denuncia de la socia",
+      "framing": {
+        "preset": "wide",
+        "zoomFrom": 1,
+        "zoomTo": 1,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "match-cut"
+      ],
+      "rationale": "El relato pasa a B-roll de gimnasio justo en “membresía”: imagen y palabra coinciden.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S08",
+      "in": 18.02,
+      "out": 20.72,
+      "role": "development",
+      "purpose": "Lo que faltó: consentimiento expreso, informado y específico",
+      "framing": {
+        "preset": "close",
+        "zoomFrom": 1,
+        "zoomTo": 1.04,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "strategic-text",
+        "punch-in"
+      ],
+      "rationale": "Los tres requisitos aparecen al ritmo en que se nombran.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S09",
+      "in": 20.72,
+      "out": 22.95,
+      "role": "development",
+      "purpose": "La autoridad que sanciona",
+      "framing": {
+        "preset": "wide",
+        "zoomFrom": 1,
+        "zoomTo": 1,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "pattern-interrupt"
+      ],
+      "rationale": "B-roll tecnológico + referencia legal: autoridad sin texto largo.",
+      "transitionIn": "flash"
+    },
+    {
+      "id": "S10",
+      "in": 22.96,
+      "out": 27.98,
+      "role": "development",
+      "purpose": "Escala del tratamiento: 7.132 huellas de 3.566 titulares",
+      "framing": {
+        "preset": "medium",
+        "zoomFrom": 1,
+        "zoomTo": 1.03,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "build-up",
+        "strategic-text"
+      ],
+      "rationale": "Segunda cifra: el build-up escala la gravedad.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S11",
+      "in": 28.42,
+      "out": 33.4,
+      "role": "development",
+      "purpose": "Excesivo: bastaba el DNI. Sanción: 27 UIT",
+      "framing": {
+        "preset": "close",
+        "zoomFrom": 1,
+        "zoomTo": 1,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "build-up",
+        "rhythm-change"
+      ],
+      "rationale": "Proporcionalidad + sanción: cierre del bloque de datos.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S12",
+      "in": 33.5,
+      "out": 36.02,
+      "role": "reveal",
+      "purpose": "Reveal: el punto central no fue solo la proporcionalidad",
+      "framing": {
+        "preset": "extreme",
+        "zoomFrom": 1,
+        "zoomTo": 1.03,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "reveal",
+        "punch-in"
+      ],
+      "rationale": "Máximo acercamiento del video para la frase que abre la clave.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S13",
+      "in": 36.05,
+      "out": 39.86,
+      "role": "reveal",
+      "purpose": "La clave: se enteró después de firmar y pagar",
+      "framing": {
+        "preset": "wide",
+        "zoomFrom": 1,
+        "zoomTo": 1,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "visual-stimulus",
+        "payoff"
+      ],
+      "rationale": "B-roll de la usuaria mientras se revela el error de oportunidad del consentimiento.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S14",
+      "in": 39.88,
+      "out": 42.82,
+      "role": "resolution",
+      "purpose": "Regla práctica: previo, específico e informado",
+      "framing": {
+        "preset": "medium",
+        "zoomFrom": 1,
+        "zoomTo": 1,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "payoff",
+        "strategic-text"
+      ],
+      "rationale": "Se cierra el loop abierto en S06 con la regla aplicable.",
+      "transitionIn": "flash"
+    },
+    {
+      "id": "S15",
+      "in": 42.86,
+      "out": 45.95,
+      "role": "resolution",
+      "purpose": "Consecuencia para la empresa",
+      "framing": {
+        "preset": "wide",
+        "zoomFrom": 1,
+        "zoomTo": 1,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "B-roll corporativo: lleva el caso al terreno del cliente (la empresa).",
+      "transitionIn": "flash"
+    },
+    {
+      "id": "S16",
+      "in": 46.1,
+      "out": 51.95,
+      "role": "cta",
+      "purpose": "CTA de marca",
+      "framing": {
+        "preset": "close",
+        "zoomFrom": 1,
+        "zoomTo": 1.03,
+        "focusY": 0.38
+      },
+      "nativeCodes": [
+        "retention-loop"
+      ],
+      "rationale": "Vuelve a “datos sensibles” del hook y cierra con la firma de marca.",
+      "transitionIn": "flash"
+    }
+  ],
+  "graphics": [
+    {
+      "id": "G01",
+      "component": "StrategicText",
+      "start": 2.06,
+      "end": 3.64,
+      "function": "enfasis",
+      "props": {
+        "kicker": "Ojo",
+        "text": "Datos sensibles",
+        "emphasis": "sensibles"
+      },
+      "rationale": "Fija la categoría jurídica en 1,5 s."
+    },
+    {
+      "id": "G02",
+      "component": "DataCard",
+      "start": 4.84,
+      "end": 7.28,
+      "function": "comprension",
+      "props": {
+        "prefix": "S/ ",
+        "value": 139,
+        "suffix": " mil",
+        "label": "Multa a un gimnasio arequipeño",
+        "note": "ANPD · 2026"
+      },
+      "rationale": "La cifra exacta del guion (el audio dice 130 000; se usa el dato del guion)."
+    },
+    {
+      "id": "G03",
+      "component": "StrategicText",
+      "start": 9.4,
+      "end": 11.22,
+      "function": "enfasis",
+      "props": {
+        "text": "El problema no fue la biometría",
+        "emphasis": "no fue"
+      },
+      "rationale": "Antihook visible: niega la suposición del espectador."
+    },
+    {
+      "id": "G04",
+      "component": "KeyPoints",
+      "start": 18.1,
+      "end": 20.7,
+      "function": "comprension",
+      "props": {
+        "title": "Lo que faltó",
+        "items": [
+          "Expreso",
+          "Informado",
+          "Específico"
+        ],
+        "mode": "cross",
+        "revealAt": [
+          0.62,
+          1.3,
+          2.06
+        ]
+      },
+      "rationale": "Tres requisitos incumplidos, sincronizados con la voz."
+    },
+    {
+      "id": "G05",
+      "component": "LegalReference",
+      "start": 20.76,
+      "end": 22.92,
+      "function": "comprension",
+      "props": {
+        "reference": "Ley N.º 29733",
+        "authority": "Autoridad Nacional de Protección de Datos Personales"
+      },
+      "rationale": "Autoridad y norma sin interrumpir el relato."
+    },
+    {
+      "id": "G06",
+      "component": "DataCard",
+      "start": 24.28,
+      "end": 28.0,
+      "function": "comprension",
+      "props": {
+        "value": 7132,
+        "label": "huellas de 3,566 titulares",
+        "card": true
+      },
+      "rationale": "Escala del tratamiento: build-up de gravedad."
+    },
+    {
+      "id": "G07",
+      "component": "DataCard",
+      "start": 31.6,
+      "end": 33.38,
+      "function": "enfasis",
+      "props": {
+        "value": 27,
+        "suffix": " UIT",
+        "label": "Sanción impuesta"
+      },
+      "rationale": "Cierra el bloque de datos con la consecuencia."
+    },
+    {
+      "id": "G08",
+      "component": "AccentLine",
+      "start": 33.52,
+      "end": 34.4,
+      "function": "retencion",
+      "props": {
+        "y": 0.56
+      },
+      "rationale": "Estímulo mínimo que marca el cambio a reveal."
+    },
+    {
+      "id": "G09",
+      "component": "KeyPoints",
+      "start": 39.92,
+      "end": 42.8,
+      "function": "comprension",
+      "props": {
+        "title": "Consentimiento válido",
+        "items": [
+          "Previo",
+          "Específico",
+          "Informado"
+        ],
+        "revealAt": [
+          1.0,
+          1.5,
+          2.26
+        ]
+      },
+      "rationale": "Payoff: la regla práctica, en positivo."
+    }
+  ],
+  "broll": [
+    {
+      "id": "B01",
+      "start": 7.3,
+      "end": 9.3,
+      "src": "footage/raw/prueba-sistema-referencia/main.mp4",
+      "trimStart": 7.3,
+      "layout": "full",
+      "phrase": "por recopilar la huella digital de sus socios",
+      "concept": "Huella dactilar / biometría",
+      "function": "Visualizar el dato sensible del caso",
+      "description": "Macro de huella dactilar con luz cálida → fría (estilo tecnológico)",
+      "provider": "Material del raw (B-roll ya integrado en la referencia)",
+      "license": "Propio",
+      "searchQuery": "fingerprint scan macro"
+    },
+    {
+      "id": "B02",
+      "start": 23.0,
+      "end": 24.2,
+      "src": null,
+      "layout": "card",
+      "phrase": "determinó que el gimnasio tenía",
+      "concept": "Resolución / expediente de la autoridad",
+      "function": "Dar soporte documental a la cifra",
+      "description": "Captura o plano de documento de resolución administrativa (ANPD), desenfoque de datos personales",
+      "provider": "pendiente — Google Drive (expediente) o captura web oficial",
+      "searchQuery": "resolución ANPD documento"
+    }
+  ],
+  "captions": {
+    "enabled": true,
+    "wordsPerGroup": 3,
+    "emphasis": [
+      "sensibles",
+      "biometría",
+      "DNI.",
+      "UIT.",
+      "previo",
+      "pendiente"
+    ],
+    "words": [
+      {
+        "w": "¿Vas",
+        "s": 0.0,
+        "e": 0.18
+      },
+      {
+        "w": "al",
+        "s": 0.18,
+        "e": 0.34
+      },
+      {
+        "w": "gym",
+        "s": 0.34,
+        "e": 0.5
+      },
+      {
+        "w": "y",
+        "s": 0.5,
+        "e": 0.68
+      },
+      {
+        "w": "accedes",
+        "s": 0.68,
+        "e": 0.92
+      },
+      {
+        "w": "al",
+        "s": 0.92,
+        "e": 1.16
+      },
+      {
+        "w": "local",
+        "s": 1.16,
+        "e": 1.32
+      },
+      {
+        "w": "con",
+        "s": 1.32,
+        "e": 1.56
+      },
+      {
+        "w": "tu",
+        "s": 1.56,
+        "e": 1.68
+      },
+      {
+        "w": "huella?",
+        "s": 1.68,
+        "e": 1.94
+      },
+      {
+        "w": "¡Cuidado!",
+        "s": 2.04,
+        "e": 2.26
+      },
+      {
+        "w": "estos",
+        "s": 2.5,
+        "e": 2.62
+      },
+      {
+        "w": "son",
+        "s": 2.62,
+        "e": 2.9
+      },
+      {
+        "w": "datos",
+        "s": 2.9,
+        "e": 3.04
+      },
+      {
+        "w": "sensibles,",
+        "s": 3.04,
+        "e": 3.6
+      },
+      {
+        "w": "Este",
+        "s": 3.72,
+        "e": 3.94
+      },
+      {
+        "w": "año",
+        "s": 3.94,
+        "e": 4.22
+      },
+      {
+        "w": "multaron",
+        "s": 4.22,
+        "e": 4.62
+      },
+      {
+        "w": "a",
+        "s": 4.62,
+        "e": 4.78
+      },
+      {
+        "w": "un",
+        "s": 4.78,
+        "e": 4.84
+      },
+      {
+        "w": "gimnasio",
+        "s": 4.84,
+        "e": 5.2
+      },
+      {
+        "w": "arequipeño",
+        "s": 5.2,
+        "e": 5.72
+      },
+      {
+        "w": "con",
+        "s": 5.72,
+        "e": 5.9
+      },
+      {
+        "w": "más de",
+        "s": 5.9,
+        "e": 6.08
+      },
+      {
+        "w": "S/ 139",
+        "s": 6.24,
+        "e": 6.64
+      },
+      {
+        "w": "mil",
+        "s": 6.64,
+        "e": 7.0
+      },
+      {
+        "w": "por",
+        "s": 7.34,
+        "e": 7.44
+      },
+      {
+        "w": "recopilar",
+        "s": 7.44,
+        "e": 7.84
+      },
+      {
+        "w": "la",
+        "s": 7.84,
+        "e": 8.08
+      },
+      {
+        "w": "huella",
+        "s": 8.08,
+        "e": 8.28
+      },
+      {
+        "w": "digital",
+        "s": 8.28,
+        "e": 8.64
+      },
+      {
+        "w": "de",
+        "s": 8.64,
+        "e": 8.76
+      },
+      {
+        "w": "sus",
+        "s": 8.76,
+        "e": 8.88
+      },
+      {
+        "w": "socios,",
+        "s": 8.88,
+        "e": 9.3
+      },
+      {
+        "w": "El",
+        "s": 9.34,
+        "e": 9.46
+      },
+      {
+        "w": "problema",
+        "s": 9.46,
+        "e": 9.84
+      },
+      {
+        "w": "no",
+        "s": 9.84,
+        "e": 10.3
+      },
+      {
+        "w": "fue",
+        "s": 10.3,
+        "e": 10.44
+      },
+      {
+        "w": "usar",
+        "s": 10.54,
+        "e": 10.68
+      },
+      {
+        "w": "biometría,",
+        "s": 10.68,
+        "e": 11.18
+      },
+      {
+        "w": "Fue",
+        "s": 11.3,
+        "e": 11.38
+      },
+      {
+        "w": "algo",
+        "s": 11.38,
+        "e": 11.56
+      },
+      {
+        "w": "que",
+        "s": 11.56,
+        "e": 11.72
+      },
+      {
+        "w": "casi",
+        "s": 11.72,
+        "e": 11.92
+      },
+      {
+        "w": "ninguna",
+        "s": 11.92,
+        "e": 12.46
+      },
+      {
+        "w": "empresa",
+        "s": 12.46,
+        "e": 12.88
+      },
+      {
+        "w": "hace",
+        "s": 12.88,
+        "e": 13.26
+      },
+      {
+        "w": "correctamente,",
+        "s": 13.26,
+        "e": 13.9
+      },
+      {
+        "w": "Una",
+        "s": 14.02,
+        "e": 14.22
+      },
+      {
+        "w": "socia",
+        "s": 14.22,
+        "e": 14.58
+      },
+      {
+        "w": "denunció",
+        "s": 14.58,
+        "e": 14.98
+      },
+      {
+        "w": "que",
+        "s": 14.98,
+        "e": 15.14
+      },
+      {
+        "w": "tras",
+        "s": 15.14,
+        "e": 15.38
+      },
+      {
+        "w": "renovar",
+        "s": 15.38,
+        "e": 15.7
+      },
+      {
+        "w": "su",
+        "s": 15.7,
+        "e": 15.8
+      },
+      {
+        "w": "membresía,",
+        "s": 15.8,
+        "e": 16.3
+      },
+      {
+        "w": "se",
+        "s": 16.38,
+        "e": 16.42
+      },
+      {
+        "w": "le",
+        "s": 16.42,
+        "e": 16.46
+      },
+      {
+        "w": "exigió",
+        "s": 16.46,
+        "e": 16.76
+      },
+      {
+        "w": "registrar",
+        "s": 16.76,
+        "e": 17.12
+      },
+      {
+        "w": "su",
+        "s": 17.12,
+        "e": 17.28
+      },
+      {
+        "w": "huella",
+        "s": 17.28,
+        "e": 17.48
+      },
+      {
+        "w": "para",
+        "s": 17.48,
+        "e": 17.62
+      },
+      {
+        "w": "ingresar,",
+        "s": 17.62,
+        "e": 17.98
+      },
+      {
+        "w": "sin",
+        "s": 18.04,
+        "e": 18.16
+      },
+      {
+        "w": "un",
+        "s": 18.16,
+        "e": 18.28
+      },
+      {
+        "w": "consentimiento",
+        "s": 18.28,
+        "e": 18.72
+      },
+      {
+        "w": "expreso,",
+        "s": 18.72,
+        "e": 19.34
+      },
+      {
+        "w": "informado",
+        "s": 19.4,
+        "e": 19.9
+      },
+      {
+        "w": "ni",
+        "s": 19.9,
+        "e": 20.16
+      },
+      {
+        "w": "específico,",
+        "s": 20.16,
+        "e": 20.7
+      },
+      {
+        "w": "La",
+        "s": 20.74,
+        "e": 20.78
+      },
+      {
+        "w": "Autoridad",
+        "s": 20.78,
+        "e": 21.1
+      },
+      {
+        "w": "Nacional",
+        "s": 21.1,
+        "e": 21.44
+      },
+      {
+        "w": "de",
+        "s": 21.44,
+        "e": 21.66
+      },
+      {
+        "w": "Protección",
+        "s": 21.66,
+        "e": 22.02
+      },
+      {
+        "w": "de",
+        "s": 22.02,
+        "e": 22.18
+      },
+      {
+        "w": "Datos",
+        "s": 22.18,
+        "e": 22.36
+      },
+      {
+        "w": "Personales,",
+        "s": 22.36,
+        "e": 22.9
+      },
+      {
+        "w": "determinó",
+        "s": 23.0,
+        "e": 23.46
+      },
+      {
+        "w": "que",
+        "s": 23.46,
+        "e": 23.56
+      },
+      {
+        "w": "el",
+        "s": 23.56,
+        "e": 23.62
+      },
+      {
+        "w": "gimnasio",
+        "s": 23.62,
+        "e": 23.9
+      },
+      {
+        "w": "tenía",
+        "s": 23.9,
+        "e": 24.28
+      },
+      {
+        "w": "7",
+        "s": 24.28,
+        "e": 24.5
+      },
+      {
+        "w": ".132",
+        "s": 24.5,
+        "e": 25.52
+      },
+      {
+        "w": "huellas",
+        "s": 25.52,
+        "e": 25.9
+      },
+      {
+        "w": "de",
+        "s": 25.9,
+        "e": 26.04
+      },
+      {
+        "w": "3",
+        "s": 26.04,
+        "e": 26.3
+      },
+      {
+        "w": ".566",
+        "s": 26.3,
+        "e": 27.3
+      },
+      {
+        "w": "titulares,",
+        "s": 27.3,
+        "e": 27.98
+      },
+      {
+        "w": "y",
+        "s": 28.2,
+        "e": 28.26
+      },
+      {
+        "w": "que",
+        "s": 28.26,
+        "e": 28.4
+      },
+      {
+        "w": "el",
+        "s": 28.4,
+        "e": 28.46
+      },
+      {
+        "w": "tratamiento",
+        "s": 28.46,
+        "e": 28.78
+      },
+      {
+        "w": "era",
+        "s": 28.78,
+        "e": 29.0
+      },
+      {
+        "w": "excesivo,",
+        "s": 29.0,
+        "e": 29.42
+      },
+      {
+        "w": "pues",
+        "s": 29.42,
+        "e": 29.64
+      },
+      {
+        "w": "la",
+        "s": 29.64,
+        "e": 29.78
+      },
+      {
+        "w": "identidad",
+        "s": 29.78,
+        "e": 30.12
+      },
+      {
+        "w": "podía",
+        "s": 30.12,
+        "e": 30.32
+      },
+      {
+        "w": "verificarse",
+        "s": 30.32,
+        "e": 30.88
+      },
+      {
+        "w": "con",
+        "s": 30.88,
+        "e": 31.08
+      },
+      {
+        "w": "el",
+        "s": 31.08,
+        "e": 31.2
+      },
+      {
+        "w": "DNI.",
+        "s": 31.2,
+        "e": 31.5
+      },
+      {
+        "w": "La",
+        "s": 31.52,
+        "e": 31.62
+      },
+      {
+        "w": "sanción",
+        "s": 31.62,
+        "e": 32.02
+      },
+      {
+        "w": "fue",
+        "s": 32.02,
+        "e": 32.26
+      },
+      {
+        "w": "de",
+        "s": 32.26,
+        "e": 32.42
+      },
+      {
+        "w": "27",
+        "s": 32.42,
+        "e": 32.86
+      },
+      {
+        "w": "UIT.",
+        "s": 32.86,
+        "e": 33.32
+      },
+      {
+        "w": "Pero",
+        "s": 33.54,
+        "e": 33.72
+      },
+      {
+        "w": "el",
+        "s": 33.72,
+        "e": 33.82
+      },
+      {
+        "w": "punto",
+        "s": 33.82,
+        "e": 34.02
+      },
+      {
+        "w": "central",
+        "s": 34.02,
+        "e": 34.4
+      },
+      {
+        "w": "no",
+        "s": 34.4,
+        "e": 34.68
+      },
+      {
+        "w": "fue",
+        "s": 34.68,
+        "e": 34.86
+      },
+      {
+        "w": "solo",
+        "s": 34.86,
+        "e": 35.08
+      },
+      {
+        "w": "la",
+        "s": 35.08,
+        "e": 35.24
+      },
+      {
+        "w": "proporcionalidad,",
+        "s": 35.24,
+        "e": 36.0
+      },
+      {
+        "w": "La",
+        "s": 36.08,
+        "e": 36.14
+      },
+      {
+        "w": "usuaria",
+        "s": 36.14,
+        "e": 36.56
+      },
+      {
+        "w": "conoció",
+        "s": 36.56,
+        "e": 36.94
+      },
+      {
+        "w": "esta",
+        "s": 36.94,
+        "e": 37.08
+      },
+      {
+        "w": "exigencia,",
+        "s": 37.08,
+        "e": 37.7
+      },
+      {
+        "w": "después",
+        "s": 37.78,
+        "e": 37.84
+      },
+      {
+        "w": "de",
+        "s": 37.84,
+        "e": 37.96
+      },
+      {
+        "w": "haber",
+        "s": 38.02,
+        "e": 38.14
+      },
+      {
+        "w": "firmado",
+        "s": 38.14,
+        "e": 38.68
+      },
+      {
+        "w": "y",
+        "s": 38.68,
+        "e": 38.88
+      },
+      {
+        "w": "pagado",
+        "s": 38.88,
+        "e": 39.34
+      },
+      {
+        "w": "el",
+        "s": 39.34,
+        "e": 39.48
+      },
+      {
+        "w": "contrato,",
+        "s": 39.48,
+        "e": 39.82
+      },
+      {
+        "w": "Cuando",
+        "s": 39.92,
+        "e": 40.02
+      },
+      {
+        "w": "el",
+        "s": 40.02,
+        "e": 40.14
+      },
+      {
+        "w": "consentimiento",
+        "s": 40.14,
+        "e": 40.66
+      },
+      {
+        "w": "no",
+        "s": 40.66,
+        "e": 40.82
+      },
+      {
+        "w": "es",
+        "s": 40.82,
+        "e": 40.92
+      },
+      {
+        "w": "previo,",
+        "s": 40.92,
+        "e": 41.36
+      },
+      {
+        "w": "específico",
+        "s": 41.42,
+        "e": 42.08
+      },
+      {
+        "w": "e",
+        "s": 42.08,
+        "e": 42.18
+      },
+      {
+        "w": "informado,",
+        "s": 42.18,
+        "e": 42.78
+      },
+      {
+        "w": "la",
+        "s": 42.9,
+        "e": 42.96
+      },
+      {
+        "w": "empresa",
+        "s": 42.96,
+        "e": 43.24
+      },
+      {
+        "w": "queda",
+        "s": 43.24,
+        "e": 43.52
+      },
+      {
+        "w": "expuesta",
+        "s": 43.52,
+        "e": 43.96
+      },
+      {
+        "w": "sin",
+        "s": 43.96,
+        "e": 44.2
+      },
+      {
+        "w": "importar",
+        "s": 44.2,
+        "e": 44.58
+      },
+      {
+        "w": "cuán",
+        "s": 44.58,
+        "e": 44.8
+      },
+      {
+        "w": "segura",
+        "s": 44.8,
+        "e": 45.18
+      },
+      {
+        "w": "sea",
+        "s": 45.18,
+        "e": 45.32
+      },
+      {
+        "w": "la",
+        "s": 45.32,
+        "e": 45.44
+      },
+      {
+        "w": "tecnología,",
+        "s": 45.44,
+        "e": 45.9
+      },
+      {
+        "w": "Sigue",
+        "s": 46.12,
+        "e": 46.32
+      },
+      {
+        "w": "a",
+        "s": 46.32,
+        "e": 46.8
+      },
+      {
+        "w": "@revoredope",
+        "s": 46.8,
+        "e": 46.94
+      },
+      {
+        "w": "y",
+        "s": 47.14,
+        "e": 47.34
+      },
+      {
+        "w": "recuerda,",
+        "s": 47.34,
+        "e": 47.78
+      },
+      {
+        "w": "si",
+        "s": 47.82,
+        "e": 47.92
+      },
+      {
+        "w": "tu",
+        "s": 47.92,
+        "e": 47.98
+      },
+      {
+        "w": "empresa",
+        "s": 47.98,
+        "e": 48.34
+      },
+      {
+        "w": "trata",
+        "s": 48.34,
+        "e": 48.82
+      },
+      {
+        "w": "datos",
+        "s": 48.82,
+        "e": 49.18
+      },
+      {
+        "w": "sensibles,",
+        "s": 49.18,
+        "e": 49.74
+      },
+      {
+        "w": "tenemos",
+        "s": 49.86,
+        "e": 50.1
+      },
+      {
+        "w": "una",
+        "s": 50.1,
+        "e": 50.34
+      },
+      {
+        "w": "conversación",
+        "s": 50.34,
+        "e": 50.78
+      },
+      {
+        "w": "pendiente,",
+        "s": 50.78,
+        "e": 51.26
+      },
+      {
+        "w": "¡Escríbenos!",
+        "s": 51.38,
+        "e": 51.82
+      }
+    ],
+    "replace": {}
+  },
+  "audio": {
+    "voiceGainDb": 0,
+    "music": null,
+    "sfx": []
+  },
+  "endCard": {
+    "enabled": true,
+    "durationSec": 2.2,
+    "line": "Tenemos una conversación pendiente",
+    "action": "Escríbenos"
+  },
+  "showLogo": true,
+  "layout": {
+    "faceTop": 0.27,
+    "faceBottom": 0.46
+  }
+}
