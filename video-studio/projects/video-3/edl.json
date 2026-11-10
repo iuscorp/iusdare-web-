@@ -1113,12 +1113,12 @@
       "body": "Toda persona tiene derecho a la igualdad ante la ley. **Nadie debe ser discriminado** por motivo de origen, raza, sexo, idioma, religión, opinión, condición económica **o de cualquiera otra índole**.",
       "highlightAt": [
         1.3200000000000003,
-        3.88
+        2.0200000000000005
       ],
       "x": 0.5,
       "y": 0.69,
       "start": 6.127,
-      "end": 10.927,
+      "end": 9.007,
       "note": "base legal 1: el texto literal (prueba visual)"
     },
     {
@@ -1357,11 +1357,6 @@
     {
       "name": "click",
       "at": 7.447,
-      "volumeDb": -17
-    },
-    {
-      "name": "click",
-      "at": 10.007,
       "volumeDb": -17
     },
     {

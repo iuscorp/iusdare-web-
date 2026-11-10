@@ -30,20 +30,20 @@ export const LawPage: React.FC<{
         position: 'absolute',
         left: x * width,
         top: y * height,
-        width: 860,
+        width: 700,
         transform: `translate(-50%, -50%) translateY(${interpolate(enter, [0, 1], [380, 0])}px) rotate(${interpolate(enter, [0, 1], [8, rotate])}deg) scale(${push})`,
         opacity: interpolate(enter, [0, 0.3], [0, 1], {extrapolateRight: 'clamp'}),
         background: 'linear-gradient(160deg, #fffdf6 0%, #f6f1e3 60%, #efe8d6 100%)',
         borderRadius: 6,
-        padding: '46px 54px 50px',
+        padding: '36px 42px 40px',
         boxShadow: '0 30px 60px rgba(0,0,0,0.38), 0 4px 10px rgba(0,0,0,0.18), inset 0 0 60px rgba(160,140,90,0.12)',
         color: '#1d1b16',
       }}
     >
-      <div style={{fontFamily: FONTS.card, fontWeight: 700, fontSize: 30, letterSpacing: 6, color: '#7b6d4f', textTransform: 'uppercase'}}>{source}</div>
-      <div style={{height: 3, background: '#cbbd98', margin: '14px 0 22px'}} />
-      <div style={{fontFamily: FONTS.serif, fontWeight: 700, fontSize: 50, lineHeight: 1.1, marginBottom: 20}}>{heading}</div>
-      <div style={{fontFamily: FONTS.serif, fontWeight: 400, fontSize: 40, lineHeight: 1.42}}>
+      <div style={{fontFamily: FONTS.card, fontWeight: 700, fontSize: 24, letterSpacing: 5, color: '#7b6d4f', textTransform: 'uppercase'}}>{source}</div>
+      <div style={{height: 3, background: '#cbbd98', margin: '11px 0 17px'}} />
+      <div style={{fontFamily: FONTS.serif, fontWeight: 700, fontSize: 40, lineHeight: 1.1, marginBottom: 16}}>{heading}</div>
+      <div style={{fontFamily: FONTS.serif, fontWeight: 400, fontSize: 32, lineHeight: 1.42}}>
         {parts.map((p, i) => {
           if (!p.startsWith('**')) return <span key={i}>{p}</span>;
           const k = hlIndex++;

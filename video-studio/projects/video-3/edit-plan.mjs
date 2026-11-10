@@ -70,17 +70,17 @@ add(
     source: 'Constitución Política del Perú',
     heading: 'Artículo 2, inciso 2',
     body: 'Toda persona tiene derecho a la igualdad ante la ley. **Nadie debe ser discriminado** por motivo de origen, raza, sexo, idioma, religión, opinión, condición económica **o de cualquiera otra índole**.',
-    highlightAt: [nadie.start - (cons.start - 0.12) , cual.start - (cons.start - 0.12)],
+    highlightAt: [nadie.start - (cons.start - 0.12), nadie.start - (cons.start - 0.12) + 0.7],
     x: 0.5,
     y: 0.69,
     start: cons.start - 0.12,
-    end: at('El', cual.start).start - 0.06,
+    // sale antes de «y eso es por cualquier motivo» (pedido del equipo)
+    end: at('y', nadie.start).start - 0.04,
   },
   'base legal 1: el texto literal (prueba visual)',
 );
 fx('swish', cons.start - 0.14, -15);
 fx('click', nadie.start, -17);
-fx('click', cual.start, -17);
 
 // ── 3. TC + «te incluye a ti»
 const tc = at('Tribunal');
