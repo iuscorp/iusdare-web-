@@ -39,10 +39,16 @@ const sticker = (emoji, t, dur, x, y = 0.62, note = '') => {
   fx('pop', t, -16);
 };
 /** foto de ejemplo si existe; si no, emoji de respaldo */
-const photo = (name, t, dur, {x = 0.5, y = 0.64, w = 520, h = 400, rotate = -3, label, emoji, note}) => {
-  const rel = `footage/video-3/photos/${name}.jpg`;
-  if (fs.existsSync(path.join(PUB, rel))) {
-    add({type: 'photoCard', image: rel, x, y, w, h, rotate, label, credit: credits[name]?.credit, start: t, end: t + dur}, note);
+const photo = (name, t, dur, {x = 0.5, y = 0.64, w = 500, h = 380, rotate = -3, label, emoji, note, cw}) => {
+  const dirRel = `footage/${path.basename(dir)}/photos`;
+  const png = `${dirRel}/${name}.png`;
+  const jpg = `${dirRel}/${name}.jpg`;
+  if (fs.existsSync(path.join(PUB, png))) {
+    // foto SIN FONDO (scripts/cutout.py): estilo sticker
+    add({type: 'cutout', image: png, x, y, w: cw ?? 430, rotate, label, credit: credits[name]?.credit, start: t, end: t + dur}, note);
+    fx('pop', t - 0.02, -16);
+  } else if (fs.existsSync(path.join(PUB, jpg))) {
+    add({type: 'photoCard', image: jpg, x, y, w, h, rotate, label, credit: credits[name]?.credit, start: t, end: t + dur}, note);
     fx('whoosh', t - 0.06, -19);
   } else if (emoji) sticker(emoji, t, dur, x, 0.62, `${note} (sin foto: emoji)`);
 };

@@ -85,6 +85,16 @@ export const overlaySchema = z.discriminatedUnion('type', [
   }),
   z.object({
     ...base,
+    type: z.literal('cutout'),
+    /** PNG con transparencia (scripts/cutout.py) */
+    image: z.string(),
+    w: z.number().optional(),
+    rotate: z.number().optional(),
+    label: z.string().optional(),
+    credit: z.string().optional(),
+  }),
+  z.object({
+    ...base,
     type: z.literal('lawPage'),
     source: z.string(),
     heading: z.string(),

@@ -99,6 +99,39 @@ export const PhotoCard: React.FC<{image: string; rotate?: number; x?: number; y?
 };
 
 /**
+ * Foto SIN FONDO (recorte estilo sticker, scripts/cutout.py): el objeto entra con pop y giro,
+ * flota suavemente y proyecta sombra; etiqueta amarilla opcional debajo.
+ */
+export const Cutout: React.FC<{image: string; w?: number; rotate?: number; x?: number; y?: number; label?: string}> = ({
+  image,
+  w = 460,
+  rotate = -4,
+  x = 0.7,
+  y = 0.64,
+  label,
+}) => {
+  const frame = useCurrentFrame();
+  const {fps, width, height} = useVideoConfig();
+  const p = popIn(frame, fps);
+  return (
+    <div
+      style={{
+        position: 'absolute',
+        left: x * width,
+        top: y * height + bob(frame, 5, 48),
+        transform: `translate(-50%, -50%) scale(${interpolate(p, [0, 1], [0.3, 1])}) rotate(${interpolate(p, [0, 1], [rotate - 14, rotate]) + Math.sin(frame / 22) * 1.5}deg)`,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+      }}
+    >
+      <Img src={src(image)} style={{width: w, display: 'block', filter: 'drop-shadow(0 14px 18px rgba(0,0,0,0.35))'}} />
+      {label ? <div style={{...glowLabel, fontSize: 56, marginTop: 6}}>{label}</div> : null}
+    </div>
+  );
+};
+
+/**
  * Imagen de contexto en el fondo [REF: foto de ejemplo ocupando la pared, detrás del presentador].
  * Se coloca en la franja superior con degradado hacia la pared. Si se dispone de un matte
  * del presentador (p. ej. exportado con remove-bg), pasarlo en el EDL permitirá dejarlo delante;
