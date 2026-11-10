@@ -10,7 +10,7 @@
       "name": "Bitrate de video",
       "ok": true,
       "level": "ok",
-      "detail": "7.1 Mbps"
+      "detail": "7.2 Mbps"
     },
     {
       "name": "Espacio de color",
@@ -64,120 +64,180 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 7 ms, p90 |67| ms, 119/139 palabras alineadas"
+      "detail": "mediana 7 ms, p90 |60| ms, 107/139 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
       "ok": false,
       "level": "warn",
-      "detail": "20 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "detail": "32 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 119,
+    "matched": 107,
     "total": 139,
-    "medianOffset": 0.006999999999997897,
-    "p90AbsOffset": 0.06700000000000017,
+    "medianOffset": 0.006999999999999673,
+    "p90AbsOffset": 0.060000000000002274,
     "mismatches": [
-      {
-        "at": 10.407,
-        "caption": "motivo",
-        "heard": "cualquiera."
-      },
-      {
-        "at": 10.987,
-        "caption": "El",
-        "heard": "Tribunal"
-      },
       {
         "at": 20.207,
         "caption": "sexual",
-        "heard": "orientación sección."
+        "heard": "orientación 6."
       },
       {
         "at": 20.727,
         "caption": "e",
-        "heard": "Identidad"
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.207,
+        "caption": "identidad",
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.647,
+        "caption": "de",
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.807,
+        "caption": "género",
+        "heard": "(nada)"
+      },
+      {
+        "at": 22.207,
+        "caption": "o",
+        "heard": "(nada)"
+      },
+      {
+        "at": 22.327,
+        "caption": "sea",
+        "heard": "(nada)"
       },
       {
         "at": 22.713,
         "caption": "quien",
-        "heard": "O sea, que el discrimine"
+        "heard": "(nada)"
+      },
+      {
+        "at": 22.833,
+        "caption": "discrimine",
+        "heard": "(nada)"
+      },
+      {
+        "at": 23.453,
+        "caption": "puede",
+        "heard": "(nada)"
+      },
+      {
+        "at": 23.807,
+        "caption": "ir",
+        "heard": "(nada)"
+      },
+      {
+        "at": 24.047,
+        "caption": "preso",
+        "heard": "(nada)"
       },
       {
         "at": 24.507,
         "caption": "y",
-        "heard": "preso. 10 -2"
+        "heard": "(nada)"
       },
       {
         "at": 24.627,
         "caption": "es",
-        "heard": "10 -2"
+        "heard": "(nada)"
       },
       {
         "at": 24.827,
         "caption": "entre",
-        "heard": "10 -2"
+        "heard": "(nada)"
       },
       {
         "at": 25.027,
         "caption": "dos",
-        "heard": "10 -2 -3"
+        "heard": "(nada)"
       },
       {
         "at": 25.287,
         "caption": "a",
-        "heard": "-3"
+        "heard": "(nada)"
       },
       {
         "at": 25.587,
         "caption": "tres",
-        "heard": "-3 -5."
+        "heard": "(nada)"
       },
       {
         "at": 25.747,
         "caption": "años",
-        "heard": "-5. En"
+        "heard": "(nada)"
       },
       {
         "at": 26.073,
         "caption": "Y",
-        "heard": "-5. En mi trabajo,"
+        "heard": "(nada)"
+      },
+      {
+        "at": 26.133,
+        "caption": "en",
+        "heard": "(nada)"
       },
       {
         "at": 26.213,
         "caption": "el",
-        "heard": "En mi trabajo,"
+        "heard": "(nada)"
+      },
+      {
+        "at": 26.313,
+        "caption": "trabajo",
+        "heard": "(nada)"
       },
       {
         "at": 26.613,
         "caption": "las",
-        "heard": "mi trabajo,"
+        "heard": "(nada)"
+      },
+      {
+        "at": 27.193,
+        "caption": "leyes",
+        "heard": "(nada)"
       },
       {
         "at": 27.553,
         "caption": "26772",
-        "heard": "leyes 26"
+        "heard": "(nada)"
+      },
+      {
+        "at": 29.453,
+        "caption": "y",
+        "heard": "(nada)"
       },
       {
         "at": 29.713,
         "caption": "30709",
-        "heard": "y 30 -70"
+        "heard": "(nada)"
       },
       {
         "at": 30.83,
         "caption": "prohíben",
-        "heard": "1979, pregunte que"
+        "heard": "Prove que te"
       },
       {
-        "at": 32.3,
-        "caption": "paguen",
-        "heard": "o te paden menos"
+        "at": 38.48,
+        "caption": "1500",
+        "heard": "más de 1 .500"
       },
       {
         "at": 40.4,
         "caption": "clausuran",
         "heard": "Perú y... le usuran negocios"
+      },
+      {
+        "at": 41.527,
+        "caption": "discriminan",
+        "heard": "que hayis crimino."
       }
     ]
   },

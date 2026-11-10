@@ -2,7 +2,7 @@
  "model": "small",
  "language": "es",
  "duration": 47.744,
- "text": "Hay personas que creen que pueden elegir quién entra y quién no entra a su local, sobre todo basándose en el género. La Constitución dice que nadie debe ser discriminado y eso es por cualquiera. El Tribunal Constitucional ya confirmó que eso te incluye a ti, pero hay más. El artículo 323 del Código Penal menciona textualmente a la orientación sección. Sexual. Identidad de género. O sea, que el discrimine puede ir preso. 10-2-3-5. En mi trabajo, las leyes 26-772 y 30-70- A partir de 1979, pregunte que te descarten o te paden menos por ahí. Y en un restaurante, hotel o discoteca, Indecopy puede multarlo. Aparte, más de 1500 municipios en el Perú y... En Perú, le usuran negocios que hay discriminación. Tiendes derecho, hazlos valer. Sigue Vocare Iuris y guarda este video, aunque esperemos que no tengas que necesitarlo.",
+ "text": "Hay personas que creen que pueden elegir quién entra y quién no entra a su local, sobre todo basándose en el género. La Constitución dice que nadie debe ser discriminado y eso es por cualquiera. Por cualquier motivo, el Tribunal Constitucional ya confirmó que eso te incluye a ti, pero hay más. El artículo 323 del Código Penal menciona textualmente a la orientación 6. Prove que te descarte o te pague menos por ahí y en un restaurante, hotel o discoteca, IndeCopy puede multarlo, aparte más de 1.500 municipios en el Perú y... En Perú le usuran negocios que hayis crimino. Tiendes derecho, hazlos valer. Sigue Vocare Iuris y guarda este video, aunque esperemos que no tengas que necesitarlo.",
  "segments": [
   {
    "start": 0.0,
@@ -15,49 +15,39 @@
    "text": "basándose en el género."
   },
   {
-   "start": 6.14,
-   "end": 10.44,
+   "start": 6.16,
+   "end": 10.46,
    "text": "La Constitución dice que nadie debe ser discriminado y eso es por cualquiera."
   },
   {
    "start": 10.0,
-   "end": 15.46,
-   "text": "El Tribunal Constitucional ya confirmó que eso te incluye a ti, pero hay más."
+   "end": 14.9,
+   "text": "Por cualquier motivo, el Tribunal Constitucional ya confirmó que eso te incluye a ti, pero"
+  },
+  {
+   "start": 14.9,
+   "end": 15.44,
+   "text": "hay más."
   },
   {
    "start": 15.7,
    "end": 20.48,
-   "text": "El artículo 323 del Código Penal menciona textualmente a la orientación sección."
+   "text": "El artículo 323 del Código Penal menciona textualmente a la orientación 6."
   },
   {
-   "start": 20.0,
-   "end": 24.54,
-   "text": "Sexual. Identidad de género. O sea, que el discrimine puede ir preso."
+   "start": 30.6,
+   "end": 35.84,
+   "text": "Prove que te descarte o te pague menos por ahí y en un restaurante, hotel o discoteca,"
   },
   {
-   "start": 24.58,
-   "end": 30.48,
-   "text": "10-2-3-5. En mi trabajo, las leyes 26-772 y 30-70-"
-  },
-  {
-   "start": 30.0,
-   "end": 33.3,
-   "text": "A partir de 1979, pregunte que te descarten o te paden menos por ahí."
-  },
-  {
-   "start": 33.42,
-   "end": 37.36,
-   "text": "Y en un restaurante, hotel o discoteca, Indecopy puede multarlo."
-  },
-  {
-   "start": 37.62,
+   "start": 35.96,
    "end": 40.48,
-   "text": "Aparte, más de 1500 municipios en el Perú y..."
+   "text": "IndeCopy puede multarlo, aparte más de 1.500 municipios en el Perú y..."
   },
   {
    "start": 40.0,
    "end": 42.14,
-   "text": "En Perú, le usuran negocios que hay discriminación."
+   "text": "En Perú le usuran negocios que hayis crimino."
   },
   {
    "start": 42.22,
@@ -75,19 +65,19 @@
    "w": "Hay",
    "s": 0.0,
    "e": 0.2,
-   "p": 0.861
+   "p": 0.856
   },
   {
    "w": "personas",
    "s": 0.2,
    "e": 0.48,
-   "p": 0.997
+   "p": 0.996
   },
   {
    "w": "que",
    "s": 0.48,
    "e": 0.74,
-   "p": 0.996
+   "p": 0.997
   },
   {
    "w": "creen",
@@ -99,13 +89,13 @@
    "w": "que",
    "s": 1.14,
    "e": 1.28,
-   "p": 0.963
+   "p": 0.95
   },
   {
    "w": "pueden",
    "s": 1.28,
    "e": 1.48,
-   "p": 0.989
+   "p": 0.988
   },
   {
    "w": "elegir",
@@ -117,43 +107,43 @@
    "w": "quién",
    "s": 2.02,
    "e": 2.2,
-   "p": 0.907
+   "p": 0.903
   },
   {
    "w": "entra",
    "s": 2.2,
    "e": 2.64,
-   "p": 0.983
+   "p": 0.98
   },
   {
    "w": "y",
    "s": 2.64,
    "e": 2.84,
-   "p": 0.922
+   "p": 0.918
   },
   {
    "w": "quién",
    "s": 2.84,
    "e": 3.02,
-   "p": 0.913
+   "p": 0.897
   },
   {
    "w": "no",
    "s": 3.02,
-   "e": 3.22,
-   "p": 0.996
+   "e": 3.2,
+   "p": 0.997
   },
   {
    "w": "entra",
-   "s": 3.22,
+   "s": 3.2,
    "e": 3.52,
-   "p": 0.983
+   "p": 0.982
   },
   {
    "w": "a",
    "s": 3.52,
    "e": 3.78,
-   "p": 0.982
+   "p": 0.978
   },
   {
    "w": "su",
@@ -164,14 +154,14 @@
   {
    "w": "local,",
    "s": 3.86,
-   "e": 4.1,
-   "p": 0.962
+   "e": 4.12,
+   "p": 0.97
   },
   {
    "w": "sobre",
-   "s": 4.28,
+   "s": 4.26,
    "e": 4.48,
-   "p": 0.94
+   "p": 0.938
   },
   {
    "w": "todo",
@@ -183,7 +173,7 @@
    "w": "basándose",
    "s": 4.92,
    "e": 5.58,
-   "p": 0.877
+   "p": 0.878
   },
   {
    "w": "en",
@@ -195,19 +185,19 @@
    "w": "el",
    "s": 5.68,
    "e": 5.8,
-   "p": 0.983
+   "p": 0.978
   },
   {
    "w": "género.",
    "s": 5.8,
    "e": 6.12,
-   "p": 0.983
+   "p": 0.984
   },
   {
    "w": "La",
-   "s": 6.14,
+   "s": 6.16,
    "e": 6.24,
-   "p": 0.971
+   "p": 0.969
   },
   {
    "w": "Constitución",
@@ -219,19 +209,19 @@
    "w": "dice",
    "s": 6.86,
    "e": 7.12,
-   "p": 0.993
+   "p": 0.995
   },
   {
    "w": "que",
    "s": 7.12,
    "e": 7.44,
-   "p": 0.992
+   "p": 0.99
   },
   {
    "w": "nadie",
    "s": 7.44,
    "e": 7.78,
-   "p": 0.984
+   "p": 0.977
   },
   {
    "w": "debe",
@@ -243,7 +233,7 @@
    "w": "ser",
    "s": 8.06,
    "e": 8.4,
-   "p": 0.981
+   "p": 0.982
   },
   {
    "w": "discriminado",
@@ -255,49 +245,61 @@
    "w": "y",
    "s": 9.08,
    "e": 9.26,
-   "p": 0.584
+   "p": 0.741
   },
   {
    "w": "eso",
    "s": 9.26,
    "e": 9.56,
-   "p": 0.988
+   "p": 0.99
   },
   {
    "w": "es",
    "s": 9.56,
    "e": 9.86,
-   "p": 0.992
+   "p": 0.991
   },
   {
    "w": "por",
    "s": 9.86,
-   "e": 10.02,
-   "p": 0.995
+   "e": 10.0,
+   "p": 0.996
   },
   {
    "w": "cualquiera.",
-   "s": 10.02,
-   "e": 10.44,
-   "p": 0.594
+   "s": 10.0,
+   "e": 10.46,
+   "p": 0.591
+  },
+  {
+   "w": "motivo,",
+   "s": 10.34,
+   "e": 10.78,
+   "p": 0.986
+  },
+  {
+   "w": "el",
+   "s": 11.0,
+   "e": 11.12,
+   "p": 0.899
   },
   {
    "w": "Tribunal",
-   "s": 11.04,
+   "s": 11.12,
    "e": 11.44,
-   "p": 0.766
+   "p": 0.809
   },
   {
    "w": "Constitucional",
    "s": 11.44,
    "e": 12.18,
-   "p": 0.98
+   "p": 0.982
   },
   {
    "w": "ya",
    "s": 12.18,
    "e": 12.46,
-   "p": 0.925
+   "p": 0.951
   },
   {
    "w": "confirmó",
@@ -309,85 +311,85 @@
    "w": "que",
    "s": 13.04,
    "e": 13.3,
-   "p": 0.972
+   "p": 0.976
   },
   {
    "w": "eso",
    "s": 13.3,
    "e": 13.58,
-   "p": 0.911
+   "p": 0.919
   },
   {
    "w": "te",
    "s": 13.58,
    "e": 13.84,
-   "p": 0.894
+   "p": 0.916
   },
   {
    "w": "incluye",
    "s": 13.84,
-   "e": 14.3,
-   "p": 0.974
+   "e": 14.32,
+   "p": 0.977
   },
   {
    "w": "a",
-   "s": 14.3,
+   "s": 14.32,
    "e": 14.36,
-   "p": 0.939
+   "p": 0.932
   },
   {
    "w": "ti,",
    "s": 14.36,
    "e": 14.46,
-   "p": 0.97
+   "p": 0.976
   },
   {
    "w": "pero",
-   "s": 14.66,
+   "s": 14.72,
    "e": 14.9,
-   "p": 0.931
+   "p": 0.939
   },
   {
    "w": "hay",
    "s": 14.9,
    "e": 15.14,
-   "p": 0.382
+   "p": 0.351
   },
   {
    "w": "más.",
    "s": 15.14,
-   "e": 15.46,
-   "p": 0.972
+   "e": 15.44,
+   "p": 0.977
   },
   {
    "w": "El",
    "s": 15.7,
    "e": 15.8,
-   "p": 0.858
+   "p": 0.837
   },
   {
    "w": "artículo",
    "s": 15.8,
    "e": 16.2,
-   "p": 0.919
+   "p": 0.913
   },
   {
    "w": "323",
    "s": 16.2,
    "e": 17.1,
-   "p": 0.835
+   "p": 0.826
   },
   {
    "w": "del",
    "s": 17.1,
    "e": 17.24,
-   "p": 0.932
+   "p": 0.925
   },
   {
    "w": "Código",
    "s": 17.24,
    "e": 17.62,
-   "p": 0.876
+   "p": 0.854
   },
   {
    "w": "Penal",
@@ -399,359 +401,191 @@
    "w": "menciona",
    "s": 18.12,
    "e": 18.78,
-   "p": 0.973
+   "p": 0.965
   },
   {
    "w": "textualmente",
    "s": 18.78,
    "e": 19.5,
-   "p": 0.977
+   "p": 0.98
   },
   {
    "w": "a",
    "s": 19.5,
    "e": 19.66,
-   "p": 0.89
+   "p": 0.909
   },
   {
    "w": "la",
    "s": 19.66,
    "e": 19.76,
-   "p": 0.971
+   "p": 0.98
   },
   {
    "w": "orientación",
    "s": 19.76,
    "e": 20.24,
-   "p": 0.813
+   "p": 0.811
   },
   {
-   "w": "sección.",
+   "w": "6.",
    "s": 20.24,
    "e": 20.48,
-   "p": 0.315
+   "p": 0.132
   },
   {
-   "w": "Identidad",
-   "s": 21.16,
-   "e": 21.68,
-   "p": 0.872
-  },
-  {
-   "w": "de",
-   "s": 21.68,
-   "e": 21.84,
-   "p": 0.91
-  },
-  {
-   "w": "género.",
-   "s": 21.84,
-   "e": 22.26,
-   "p": 0.967
-  },
-  {
-   "w": "O",
-   "s": 22.3,
-   "e": 22.3,
-   "p": 0.869
-  },
-  {
-   "w": "sea,",
-   "s": 22.3,
-   "e": 22.56,
-   "p": 0.795
+   "w": "Prove",
+   "s": 30.6,
+   "e": 31.08,
+   "p": 0.039
   },
   {
    "w": "que",
-   "s": 22.62,
-   "e": 22.82,
-   "p": 0.549
-  },
-  {
-   "w": "el",
-   "s": 22.82,
-   "e": 22.9,
-   "p": 0.958
-  },
-  {
-   "w": "discrimine",
-   "s": 22.9,
-   "e": 23.48,
-   "p": 0.688
-  },
-  {
-   "w": "puede",
-   "s": 23.48,
-   "e": 23.8,
-   "p": 0.924
-  },
-  {
-   "w": "ir",
-   "s": 23.8,
-   "e": 24.06,
-   "p": 0.995
-  },
-  {
-   "w": "preso.",
-   "s": 24.06,
-   "e": 24.54,
-   "p": 0.898
-  },
-  {
-   "w": "10",
-   "s": 24.58,
-   "e": 24.76,
-   "p": 0.223
-  },
-  {
-   "w": "-2",
-   "s": 24.76,
-   "e": 25.28,
-   "p": 0.489
-  },
-  {
-   "w": "-3",
-   "s": 25.28,
-   "e": 25.76,
-   "p": 0.851
-  },
-  {
-   "w": "-5.",
-   "s": 25.76,
-   "e": 26.04,
-   "p": 0.397
-  },
-  {
-   "w": "En",
-   "s": 26.04,
-   "e": 26.22,
-   "p": 0.27
-  },
-  {
-   "w": "mi",
-   "s": 26.22,
-   "e": 26.32,
-   "p": 0.981
-  },
-  {
-   "w": "trabajo,",
-   "s": 26.32,
-   "e": 26.68,
-   "p": 0.996
-  },
-  {
-   "w": "las",
-   "s": 27.08,
-   "e": 27.18,
-   "p": 0.971
-  },
-  {
-   "w": "leyes",
-   "s": 27.18,
-   "e": 27.56,
-   "p": 0.987
-  },
-  {
-   "w": "26",
-   "s": 27.56,
-   "e": 28.38,
-   "p": 0.726
-  },
-  {
-   "w": "-772",
-   "s": 28.38,
-   "e": 29.44,
-   "p": 0.79
-  },
-  {
-   "w": "y",
-   "s": 29.44,
-   "e": 29.72,
-   "p": 0.746
-  },
-  {
-   "w": "30",
-   "s": 29.72,
-   "e": 30.0,
-   "p": 0.959
-  },
-  {
-   "w": "-70",
-   "s": 30.0,
-   "e": 30.36,
-   "p": 0.763
-  },
-  {
-   "w": "-",
-   "s": 30.36,
-   "e": 30.48,
-   "p": 0.422
-  },
-  {
-   "w": "partir",
-   "s": 30.28,
-   "e": 30.28,
-   "p": 0.068
-  },
-  {
-   "w": "de",
-   "s": 30.28,
-   "e": 30.62,
-   "p": 0.79
-  },
-  {
-   "w": "1979,",
-   "s": 30.62,
-   "e": 30.74,
-   "p": 0.143
-  },
-  {
-   "w": "pregunte",
-   "s": 30.88,
-   "e": 31.16,
-   "p": 0.252
-  },
-  {
-   "w": "que",
-   "s": 31.16,
-   "e": 31.28,
-   "p": 0.911
+   "s": 31.08,
+   "e": 31.24,
+   "p": 0.762
   },
   {
    "w": "te",
-   "s": 31.28,
-   "e": 31.42,
-   "p": 0.681
+   "s": 31.24,
+   "e": 31.4,
+   "p": 0.844
   },
   {
-   "w": "descarten",
-   "s": 31.42,
-   "e": 31.98,
-   "p": 0.612
+   "w": "descarte",
+   "s": 31.4,
+   "e": 31.92,
+   "p": 0.839
   },
   {
    "w": "o",
-   "s": 31.98,
+   "s": 31.92,
    "e": 32.2,
-   "p": 0.797
+   "p": 0.838
   },
   {
    "w": "te",
    "s": 32.2,
    "e": 32.28,
-   "p": 0.881
+   "p": 0.933
   },
   {
-   "w": "paden",
+   "w": "pague",
    "s": 32.28,
    "e": 32.56,
-   "p": 0.469
+   "p": 0.547
   },
   {
    "w": "menos",
    "s": 32.56,
-   "e": 32.86,
-   "p": 0.982
+   "e": 32.84,
+   "p": 0.968
   },
   {
    "w": "por",
-   "s": 32.86,
+   "s": 32.84,
    "e": 33.16,
-   "p": 0.768
+   "p": 0.775
   },
   {
-   "w": "ahí.",
+   "w": "ahí",
    "s": 33.16,
    "e": 33.3,
-   "p": 0.768
+   "p": 0.783
   },
   {
-   "w": "Y",
-   "s": 33.42,
-   "e": 33.46,
-   "p": 0.686
+   "w": "y",
+   "s": 33.3,
+   "e": 33.44,
+   "p": 0.319
   },
   {
    "w": "en",
-   "s": 33.46,
+   "s": 33.44,
    "e": 33.6,
-   "p": 0.964
+   "p": 0.966
   },
   {
    "w": "un",
    "s": 33.6,
    "e": 33.72,
-   "p": 0.956
+   "p": 0.957
   },
   {
    "w": "restaurante,",
    "s": 33.72,
-   "e": 34.52,
-   "p": 0.208
+   "e": 34.44,
+   "p": 0.942
   },
   {
    "w": "hotel",
-   "s": 34.52,
-   "e": 34.94,
-   "p": 0.606
+   "s": 34.5,
+   "e": 34.96,
+   "p": 0.727
   },
   {
    "w": "o",
-   "s": 34.94,
+   "s": 34.96,
    "e": 35.16,
-   "p": 0.859
+   "p": 0.899
   },
   {
    "w": "discoteca,",
    "s": 35.16,
    "e": 35.84,
-   "p": 0.963
+   "p": 0.967
   },
   {
-   "w": "Indecopy",
+   "w": "IndeCopy",
    "s": 35.96,
-   "e": 36.42,
-   "p": 0.373
+   "e": 36.44,
+   "p": 0.517
   },
   {
    "w": "puede",
-   "s": 36.42,
+   "s": 36.44,
    "e": 36.82,
-   "p": 0.742
+   "p": 0.784
   },
   {
-   "w": "multarlo.",
+   "w": "multarlo,",
    "s": 36.82,
-   "e": 37.36,
-   "p": 0.934
+   "e": 37.38,
+   "p": 0.938
   },
   {
-   "w": "Aparte,",
-   "s": 37.62,
-   "e": 38.06,
-   "p": 0.871
+   "w": "aparte",
+   "s": 37.46,
+   "e": 38.04,
+   "p": 0.888
   },
   {
    "w": "más",
-   "s": 38.14,
+   "s": 38.04,
    "e": 38.28,
-   "p": 0.898
+   "p": 0.745
   },
   {
    "w": "de",
    "s": 38.28,
-   "e": 38.46,
-   "p": 0.928
+   "e": 38.48,
+   "p": 0.877
   },
   {
-   "w": "1500",
-   "s": 38.46,
-   "e": 38.96,
-   "p": 0.508
+   "w": "1",
+   "s": 38.48,
+   "e": 38.66,
+   "p": 0.335
+  },
+  {
+   "w": ".500",
+   "s": 38.66,
+   "e": 39.06,
+   "p": 0.942
   },
   {
    "w": "municipios",
-   "s": 38.96,
+   "s": 39.06,
    "e": 39.74,
    "p": 0.995
   },
@@ -759,109 +593,109 @@
    "w": "en",
    "s": 39.74,
    "e": 39.86,
-   "p": 0.961
+   "p": 0.971
   },
   {
    "w": "el",
    "s": 39.86,
    "e": 39.98,
-   "p": 0.974
+   "p": 0.983
   },
   {
    "w": "Perú",
    "s": 39.98,
-   "e": 40.3,
-   "p": 0.971
+   "e": 40.32,
+   "p": 0.954
   },
   {
    "w": "y...",
-   "s": 40.3,
+   "s": 40.32,
    "e": 40.48,
-   "p": 0.248
+   "p": 0.312
   },
   {
    "w": "le",
-   "s": 40.42,
+   "s": 40.3,
    "e": 40.5,
-   "p": 0.439
+   "p": 0.362
   },
   {
    "w": "usuran",
    "s": 40.5,
    "e": 40.8,
-   "p": 0.679
+   "p": 0.627
   },
   {
    "w": "negocios",
    "s": 40.8,
    "e": 41.32,
-   "p": 0.986
+   "p": 0.985
   },
   {
    "w": "que",
    "s": 41.32,
    "e": 41.54,
-   "p": 0.596
+   "p": 0.54
   },
   {
-   "w": "hay",
+   "w": "hayis",
    "s": 41.54,
-   "e": 41.62,
-   "p": 0.732
+   "e": 41.72,
+   "p": 0.434
   },
   {
-   "w": "discriminación.",
-   "s": 41.62,
+   "w": "crimino.",
+   "s": 41.72,
    "e": 42.14,
-   "p": 0.309
+   "p": 0.373
   },
   {
    "w": "Tiendes",
    "s": 42.22,
    "e": 42.54,
-   "p": 0.802
+   "p": 0.863
   },
   {
    "w": "derecho,",
    "s": 42.54,
    "e": 42.8,
-   "p": 0.94
+   "p": 0.962
   },
   {
    "w": "hazlos",
    "s": 43.0,
    "e": 43.24,
-   "p": 0.798
+   "p": 0.824
   },
   {
    "w": "valer.",
    "s": 43.24,
    "e": 43.56,
-   "p": 0.963
+   "p": 0.969
   },
   {
    "w": "Sigue",
    "s": 43.64,
    "e": 43.8,
-   "p": 0.867
+   "p": 0.861
   },
   {
    "w": "Vocare",
    "s": 43.8,
    "e": 44.14,
-   "p": 0.111
+   "p": 0.114
   },
   {
    "w": "Iuris",
    "s": 44.14,
    "e": 44.58,
-   "p": 0.532
+   "p": 0.537
   },
   {
    "w": "y",
    "s": 44.58,
    "e": 44.76,
-   "p": 0.877
+   "p": 0.91
   },
   {
    "w": "guarda",
@@ -873,55 +707,55 @@
    "w": "este",
    "s": 45.02,
    "e": 45.14,
-   "p": 0.972
+   "p": 0.981
   },
   {
    "w": "video,",
    "s": 45.14,
    "e": 45.36,
-   "p": 0.83
+   "p": 0.875
   },
   {
    "w": "aunque",
-   "s": 45.56,
+   "s": 45.58,
    "e": 45.7,
-   "p": 0.992
+   "p": 0.99
   },
   {
    "w": "esperemos",
    "s": 45.7,
    "e": 46.18,
-   "p": 0.755
+   "p": 0.757
   },
   {
    "w": "que",
    "s": 46.18,
    "e": 46.46,
-   "p": 0.98
+   "p": 0.977
   },
   {
    "w": "no",
    "s": 46.46,
    "e": 46.64,
-   "p": 0.973
+   "p": 0.977
   },
   {
    "w": "tengas",
    "s": 46.64,
    "e": 46.98,
-   "p": 0.99
+   "p": 0.993
   },
   {
    "w": "que",
    "s": 46.98,
    "e": 47.06,
-   "p": 0.994
+   "p": 0.996
   },
   {
    "w": "necesitarlo.",
    "s": 47.06,
    "e": 47.72,
-   "p": 0.987
+   "p": 0.988
   }
  ]
 }
