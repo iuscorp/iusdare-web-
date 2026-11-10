@@ -54,7 +54,7 @@ const si = [...e.captions].reverse().find((c) => c.start < ind.start && norm(c.t
 if (si) si.text = 'sí';
 
 // ── 1. HOOK: foto en el frame 0 + desmentido
-photo('maquillaje', 0, at('reglamento').start - 0.05, {x: 0.5, y: 0.66, w: 460, h: 520, label: '¿Prohibido?', emoji: '💄', note: 'hook: la situación (frame 0)'});
+photo('maquillaje', 0, at('reglamento').start - 0.05, {x: 0.5, y: 0.66, w: 500, h: 380, label: '¿Prohibido?', emoji: '💄', note: 'hook: la situación (frame 0)'});
 sticker('📕', at('reglamento').start - 0.05, at('Eso').start - at('reglamento').start, 0.7, 0.62, 'el reglamento del colegio');
 const falso = at('falso');
 add({type: 'verdictStamp', text: 'Falso', tone: 'deny', x: 0.5, y: 0.6, start: at('Eso').start, end: at('Ni').start + 0.35}, 'desmentido inmediato (antihook)');
