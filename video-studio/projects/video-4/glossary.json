@@ -1,0 +1,14 @@
+{
+ "_info": "Correcciones específicas de video-4 (maquillaje / reglamento del colegio). Verificar con el equipo.",
+ "corrections": [
+  {"match": "ese es falso", "replace": ["Eso", "es", "falso"]},
+  {"match": "reglamento de colegio", "replace": ["reglamento", "del", "colegio"]},
+  {"match": "por que existe", "replace": ["Porque", "existe"]},
+  {"match": "reglamento internado pueda contradicirla", "replace": ["reglamento", "interno,", "puede", "contradecirla"]},
+  {"match": "se despedieron", "replace": ["se", "comprometieron"], "_nota": "Whisper oye «se despedieron/depudieron»: confirmar con el equipo"},
+  {"match": "renuncia de derechos", "replace": ["renuncia", "a", "derechos"]},
+  {"match": "inecopi", "replace": ["Indecopi"]},
+  {"match": "constitucion del reglamento", "replace": ["Constitución", "al", "reglamento"]},
+  {"match": "siga abocar a yuri si guarda", "replace": ["sigue", "a", "Vocare", "Iuris", "y", "guarda"]}
+ ]
+}

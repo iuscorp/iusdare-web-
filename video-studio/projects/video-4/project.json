@@ -1,0 +1,23 @@
+{
+  "slug": "video-4",
+  "title": "Video 4",
+  "createdAt": "2026-11-10T22:44:27.147Z",
+  "raw": "footage/raw/video-4/raw.MOV",
+  "proxy": "footage/video-4/source.mp4",
+  "status": "borrador-edl",
+  "workflow": [
+    "ANÁLISIS",
+    "ESTRUCTURA NARRATIVA",
+    "CÓDIGOS NATIVOS",
+    "CANVAS VISUAL",
+    "APROBACIÓN",
+    "EDICIÓN COMPLETA",
+    "CONTROL DE CALIDAD",
+    "EXPORTACIÓN"
+  ],
+  "approval": {
+    "approved": false,
+    "approvedAt": null,
+    "notes": []
+  }
+}
