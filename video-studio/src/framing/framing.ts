@@ -18,6 +18,7 @@ export const resolveFraming = (f: Framing): Transform => {
  *  - crash:    crash zoom desde el plano base hasta el encuadre en ~6 frames (sorpresa / hook)
  *  - slowPush: empuje lento +4% a lo largo del segmento (build-up)
  *  - settle:   entra 6% más cerrado y se asienta (énfasis suave tras un corte)
+ *  - snap:     corte con golpe de zoom (entra 8% más cerrado, cae en 4 frames) y sigue empujando +3% (ritmo/retención)
  */
 export const segmentTransform = (seg: Segment, frame: number, durationInFrames: number, fps: number): Transform => {
   const target = resolveFraming(seg.framing);
@@ -40,6 +41,11 @@ export const segmentTransform = (seg: Segment, frame: number, durationInFrames: 
     case 'settle': {
       const p = spring({frame, fps, config: {damping: 200}, durationInFrames: 10});
       return {...target, scale: target.scale * interpolate(p, [0, 1], [1.06, 1])};
+    }
+    case 'snap': {
+      const p = spring({frame, fps, config: {damping: 16, stiffness: 420, mass: 0.5}, durationInFrames: 5});
+      const t = interpolate(frame, [0, Math.max(1, durationInFrames)], [0, 1], {extrapolateRight: 'clamp'});
+      return {...target, scale: target.scale * interpolate(p, [0, 1], [1.08, 1]) * (1 + 0.03 * t)};
     }
     default:
       return target;

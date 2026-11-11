@@ -37,7 +37,7 @@ export const segmentSchema = z.object({
   role: narrativeRoleSchema.optional(),
   framing: framingSchema.default('base'),
   /** animación de cámara dentro del segmento */
-  move: z.enum(['none', 'crash', 'slowPush', 'settle']).default('none'),
+  move: z.enum(['none', 'crash', 'slowPush', 'settle', 'snap']).default('none'),
   note: z.string().optional(),
 });
 
@@ -83,6 +83,8 @@ export const overlaySchema = z.discriminatedUnion('type', [
     /** crédito/licencia de la foto (no se muestra; va a la descripción) */
     credit: z.string().optional(),
   }),
+  /** destello blanco de 4–6 frames: ruptura de patrón al cambiar de bloque */
+  z.object({...base, type: z.literal('flash'), opacity: z.number().optional()}),
   z.object({
     ...base,
     type: z.literal('cutout'),
@@ -130,7 +132,7 @@ export const overlaySchema = z.discriminatedUnion('type', [
 ]);
 
 export const sfxSchema = z.object({
-  name: z.enum(['pop', 'click', 'poi', 'kiran', 'fahhh', 'riser', 'stamp', 'whoosh', 'type', 'ding', 'boom', 'swish']),
+  name: z.enum(['pop', 'click', 'poi', 'kiran', 'fahhh', 'riser', 'stamp', 'whoosh', 'type', 'ding', 'boom', 'swish', 'snap', 'hit', 'drop', 'scratch', 'shutter']),
   at: z.number(),
   volumeDb: z.number().default(-14),
 });

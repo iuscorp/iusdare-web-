@@ -34,7 +34,7 @@ const add = (o, note) => overlays.push({...o, start: r(o.start), end: r(o.end), 
 const fx = (name, t, volumeDb = -16) => sfx.push({name, at: r(Math.max(0, t)), volumeDb});
 const sticker = (emoji, t, dur, x, y = 0.62, note = '') => {
   add({type: 'sticker', emoji, size: 175, x, y, start: t, end: t + dur}, note);
-  fx('pop', t, -16);
+  fx('pop', t, -10);
 };
 const photo = (name, t, dur, {x = 0.5, y = 0.64, w = 500, h = 380, rotate = -3, label, emoji, note, cw}) => {
   const dirRel = `footage/${path.basename(dir)}/photos`;
@@ -43,10 +43,12 @@ const photo = (name, t, dur, {x = 0.5, y = 0.64, w = 500, h = 380, rotate = -3, 
   if (fs.existsSync(path.join(PUB, png))) {
     // foto SIN FONDO (scripts/cutout.py): estilo sticker
     add({type: 'cutout', image: png, x, y, w: cw ?? 430, rotate, label, credit: credits[name]?.credit, start: t, end: t + dur}, note);
-    fx('pop', t - 0.02, -16);
+    fx('pop', t - 0.02, -10);
+    fx('whoosh', t - 0.08, -15);
   } else if (fs.existsSync(path.join(PUB, jpg))) {
     add({type: 'photoCard', image: jpg, x, y, w, h, rotate, label, credit: credits[name]?.credit, start: t, end: t + dur}, note);
-    fx('whoosh', t - 0.06, -19);
+    fx('shutter', t - 0.02, -9);
+    fx('whoosh', t - 0.08, -15);
   } else if (emoji) sticker(emoji, t, dur, x, 0.62, `${note} (sin foto: emoji)`);
 };
 
@@ -64,8 +66,9 @@ sticker('💄', 0, at('reglamento').start - 0.08, 0.66, 0.62, 'hook: maquillarse
 photo('reglamento', at('reglamento').start - 0.05, at('Eso').start - at('reglamento').start, {x: 0.34, y: 0.64, rotate: -6, cw: 300, label: 'Reglamento', emoji: '📋', note: 'norma: el reglamento del colegio (objeto sin fondo)'});
 const falso = at('falso');
 add({type: 'verdictStamp', text: 'Falso', tone: 'deny', x: 0.5, y: 0.6, start: at('Eso').start, end: at('Ni').start + 0.35}, 'desmentido inmediato (antihook)');
-fx('riser', at('Eso').start - 1.5, -22);
-fx('stamp', at('Eso').start, -11);
+fx('riser', at('Eso').start - 1.6, -14);
+fx('hit', at('Eso').start, -7);
+fx('stamp', at('Eso').start, -9);
 
 // ── 2. Ni el reglamento ni lo que firmaron tus papás
 const ni2 = at('ni', at('colegio', 4).start);
@@ -77,7 +80,8 @@ sticker('🔝', at('estan').start, at('Porque').start - at('estan').start, 0.68,
 // ── 3. Supremacía constitucional → art. 51 impreso
 const sup = at('supremacia');
 add({type: 'selectionLabel', text: 'Supremacía constitucional', cursor: true, x: 0.5, y: 0.64, start: sup.start - 0.15, end: at('Eso', sup.start).start - 0.05}, 'término clave');
-fx('click', sup.start - 0.1, -14);
+fx('click', sup.start - 0.1, -10);
+fx('ding', sup.start + 0.2, -16);
 const quiere = at('Eso', sup.start);
 const cons = at('Constitucion', quiere.start);
 add(
@@ -94,25 +98,30 @@ add(
   },
   'base legal: supremacía (art. 51)',
 );
-fx('swish', quiere.start - 0.02, -15);
-fx('click', cons.start, -17);
+fx('swish', quiere.start - 0.02, -11);
+fx('type', quiere.start + 0.1, -12);
+fx('click', cons.start, -12);
 const ning = at('Ninguna');
-add({type: 'kineticWord', syllables: ['NIN', 'GU', 'NA'], layout: 'stack', uppercase: true, stepFrames: 4, x: 0.5, y: 0.6, start: ning.start, end: at('mucho').start - 0.03}, 'pattern interrupt');
-fx('whoosh', ning.start - 0.03, -15);
+add({type: 'kineticWord', syllables: ['NINGUNA', 'NORMA'], layout: 'rows', uppercase: true, stepFrames: 5, x: 0.5, y: 0.6, start: ning.start, end: at('mucho').start - 0.03}, 'pattern interrupt: «ninguna norma»');
+fx('drop', ning.start, -8);
+fx('whoosh', ning.start - 0.05, -12);
+fx('pop', at('norma', ning.start).start, -11);
 const reg3 = at('reglamento', ning.start);
 add({type: 'denyMark', x: 0.3, y: 0.62, start: reg3.start - 0.15, end: at('Pero').start - 0.05}, '«un reglamento interno no puede contradecirla»');
-fx('poi', reg3.start - 0.15, -15);
+fx('poi', reg3.start - 0.15, -10);
 
 // ── 4. Loop abierto: la objeción del público
 const pero = at('Pero');
+fx('scratch', pero.start - 0.05, -8);
 sticker('✋', pero.start, at('Bueno').start - pero.start, 0.7, 0.62, 'objeción: «pero mis papás firmaron»');
 const bueno = at('Bueno');
 sticker('✍️', bueno.start, at('no', bueno.start).start - bueno.start - 0.05, 0.3, 0.62, '«sí, firmaron»');
 const noVal = at('no', bueno.start);
 add({type: 'verdictStamp', text: 'No es válido', tone: 'deny', x: 0.5, y: 0.6, start: noVal.start, end: at('renuncia').start - 0.03}, 'respuesta a la objeción');
-fx('stamp', noVal.start, -11);
+fx('hit', noVal.start, -8);
+fx('stamp', noVal.start, -9);
 add({type: 'selectionLabel', text: 'Derechos fundamentales', cursor: true, x: 0.5, y: 0.64, start: at('renuncia').start, end: at('Asi', noVal.start).start - 0.05}, 'no se puede renunciar a ellos');
-fx('click', at('renuncia').start, -14);
+fx('click', at('renuncia').start, -10);
 
 // ── 5. Ráfaga de emojis: entrar al colegio / cabello pintado / maquillaje → el reglamento (imagen)
 const asi = at('Asi', noVal.start);
@@ -141,12 +150,15 @@ add(
   },
   'base legal: libre desarrollo de la personalidad (art. 2.1)',
 );
-fx('swish', sigue.start - 0.07, -15);
-fx('click', libre.start, -17);
+fx('swish', sigue.start - 0.07, -11);
+fx('type', sigue.start + 0.05, -12);
+fx('click', libre.start, -12);
+fx('ding', libre.start + 0.15, -17);
 
 // ── 7. Indecopi + matiz
 add({type: 'lawCard', title: 'INDECOPI', subtitle: 'Ya lo dejó claro', color: 'yellow', x: 0.5, y: 0.66, start: ind.start - 0.2, end: at('colegios', ind.start).start - 0.03}, 'autoridad (verificar pronunciamiento)');
-fx('kiran', ind.start - 0.2, -16);
+fx('kiran', ind.start - 0.2, -11);
+fx('type', ind.start - 0.1, -14);
 const col = at('colegios', ind.start);
 sticker('👔', col.start, at('siempre').start - col.start - 0.03, 0.7, 0.62, 'sí pueden tener reglas de presentación (uniforme, presentación)');
 const siem = at('siempre');
@@ -155,10 +167,11 @@ sticker('⛔', siem.start, at('asi', siem.start).start - siem.start - 0.03, 0.3,
 // ── 8. Cierre en bucle
 const cierre = at('asi', siem.start);
 add({type: 'comparison', left: {label: 'Reglamento', emoji: '📋'}, right: {label: 'Constitución', emoji: '📜'}, x: 0.5, y: 0.64, start: at('reglamento', cierre.start).start, end: at('no', cierre.start).start - 0.03}, 'el reglamento se adapta a la Constitución');
-fx('swish', at('reglamento', cierre.start).start, -16);
+fx('whoosh', at('reglamento', cierre.start).start - 0.05, -11);
 const no2 = at('no', cierre.start);
 add({type: 'selectionLabel', text: 'La Constitución manda', cursor: false, x: 0.5, y: 0.64, start: no2.start, end: at('sigue', no2.start).start - 0.05}, 'cierre: vuelve al concepto');
-fx('kiran', no2.start, -16);
+fx('kiran', no2.start, -11);
+fx('boom', no2.start, -12);
 
 // ── Encuadres por plano; CTA en base
 const cta = at('sigue', no2.start);
@@ -174,9 +187,23 @@ for (const s of e.segments) {
     continue;
   }
   s.framing = pattern[k++ % pattern.length];
+  s.move = 'snap'; // cada corte entra con golpe de zoom y sigue en movimiento
+  // crash zoom en los momentos de choque (veredicto / ruptura)
+  const tEnd = outT;
+  if ([at('Eso').start, ning.start, noVal.start].some((x) => x >= t - 0.05 && x < tEnd)) {
+    s.framing = 'punchIn';
+    s.move = 'crash';
+  }
+  // tic de corte (ritmo sonoro) si no hay otro SFX encima
+  if (t > 0.2 && !sfx.some((x) => Math.abs(x.at - t) < 0.2)) fx('snap', t - 0.01, -17);
 }
 e.segments[0].framing = 'subtleIn';
 e.segments[0].move = 'settle';
+fx('whoosh', 0, -12);
+
+// subtítulos que enganchan: palabras clave más grandes
+const KEY = ['falso', 'constitucion', 'supremacia', 'constitucional', 'ninguna', 'norma', 'valido', 'derechos', 'fundamentales', 'libre', 'personalidad', 'indecopi', 'prohiben', 'maquillaje', 'maquillarte', 'reglamento'];
+for (const c of e.captions) if (c.start < cta.start && KEY.includes(norm(c.text))) c.emphasis = true;
 
 overlays.sort((a, b) => a.start - b.start);
 overlays.forEach((o, i) => {
@@ -184,6 +211,9 @@ overlays.forEach((o, i) => {
   if (next && o.end > next.start - 0.03) o.end = r(Math.max(o.start + 0.35, next.start - 0.03));
   if (o.end > cta.start - 0.05) o.end = r(Math.max(o.start + 0.35, cta.start - 0.05));
 });
+// destellos de ruptura de patrón en los cambios de bloque (no recortan los recursos)
+for (const t of [at('Eso').start, pero.start, at('reglamento', cierre.start).start]) overlays.push({type: 'flash', opacity: 0.7, start: r(t - 0.02), end: r(t + 0.16), note: 'ruptura de patrón'});
+overlays.sort((a, b) => a.start - b.start);
 e.overlays = overlays;
 e.sfx = sfx.sort((a, b) => a.at - b.at);
 e.colorPreset = 'none';

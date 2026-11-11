@@ -56,3 +56,16 @@ públicos** y este estudio no los inventa.
    `projects/<slug>/photo-credits.json` → los créditos van en la descripción de la publicación.
 7. **Normas impresas (`lawPage`)**: el texto es el literal de la norma (fuente oficial), nunca la
    transcripción. Si se recorta, usar «…».
+
+## 4. Ritmo y retención (pedido del equipo: «que enganche más»)
+
+Aplicación de lo público de Guille Collado («ritmo, estructura y narrativa para retener», «Estímulos»,
+«Sonido», «ruptura de patrón», «subtítulos que enganchan»):
+
+- **Cada corte se mueve**: `move: 'snap'` (golpe de zoom de 8 % que cae en 4 frames y sigue empujando +3 %).
+  En el veredicto y las rupturas (`FALSO`, `NINGUNA NORMA`, `NO ES VÁLIDO`): `punchIn` + `crash`.
+- **Estímulo auditivo constante**: tic `snap` en cada corte libre; cada recurso visual entra con su
+  sonido (pop / whoosh / shutter / type / click / ding / kiran); veredictos con riser → `hit` + `stamp`;
+  rupturas con `drop`; objeción del público con `scratch`. Niveles −7…−17 dB (antes −14…−22).
+- **Destellos** (`flash`, 5 frames) en los cambios de bloque: hook→desmentido, objeción, cierre.
+- **Palabras clave más grandes** en el subtítulo (`emphasis`, ×1.32 con pop).

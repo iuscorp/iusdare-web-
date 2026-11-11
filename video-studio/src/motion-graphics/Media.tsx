@@ -204,3 +204,10 @@ export const DenyMark: React.FC<{x?: number; y?: number; size?: number; duration
     />
   );
 };
+
+/** Destello blanco (ruptura de patrón entre bloques). */
+export const Flash: React.FC<{opacity?: number; durationInFrames: number}> = ({opacity = 0.85, durationInFrames}) => {
+  const frame = useCurrentFrame();
+  const o = interpolate(frame, [0, 1, durationInFrames], [opacity, opacity, 0], {extrapolateRight: 'clamp'});
+  return <AbsoluteFill style={{background: 'white', opacity: o}} />;
+};

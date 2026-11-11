@@ -28,7 +28,7 @@ export const WordCaption: React.FC<{
   const {fps, width, height} = useVideoConfig();
   const pos = follow ? follow(frame) : {x: 0.5, y};
   const pop = emphasis && CAPTION.keywordPop ? spring({frame, fps, config: {damping: 12, stiffness: 300}, durationInFrames: 5}) : 1;
-  const scale = (emphasis ? 1.12 : 1) * interpolate(pop, [0, 1], [0.86, 1]);
+  const scale = (emphasis ? 1.32 : 1) * interpolate(pop, [0, 1], [0.86, 1]);
   const display = CAPTION.lowercase ? smartLower(text) : text;
   return (
     <div

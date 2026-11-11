@@ -4,7 +4,7 @@ import type {Overlay} from '../lib/schema';
 import {Comparison, EmojiEquation, StepList, VerdictStamp} from './Explainers';
 import {LawCard} from './LawCard';
 import {LawPage} from './LawPage';
-import {BackgroundPlate, BigLetter, Cutout, DenyMark, DocumentCover, LogoBadge, PhotoCard} from './Media';
+import {BackgroundPlate, BigLetter, Cutout, DenyMark, Flash, DocumentCover, LogoBadge, PhotoCard} from './Media';
 import {SelectionLabel} from './SelectionLabel';
 import {KineticWord, RevealTitle, TextBadge} from './Kinetic';
 import {Sticker} from './Sticker';
@@ -24,6 +24,8 @@ export const renderOverlay = (o: Overlay, durationInFrames: number) => {
       return <LogoBadge image={o.image} label={o.label} {...clean(pos)} />;
     case 'photoCard':
       return <PhotoCard image={o.image} rotate={o.rotate} w={o.w} h={o.h} label={o.label} {...clean(pos)} />;
+    case 'flash':
+      return <Flash opacity={o.opacity} durationInFrames={durationInFrames} />;
     case 'cutout':
       return <Cutout image={o.image} w={o.w} rotate={o.rotate} label={o.label} {...clean(pos)} />;
     case 'lawPage':
