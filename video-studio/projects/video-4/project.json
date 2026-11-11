@@ -4,7 +4,7 @@
   "createdAt": "2026-11-10T22:44:27.147Z",
   "raw": "footage/raw/video-4/raw.MOV",
   "proxy": "footage/video-4/source.mp4",
-  "status": "preview-renderizado",
+  "status": "canvas-listo",
   "workflow": [
     "ANÁLISIS",
     "ESTRUCTURA NARRATIVA",

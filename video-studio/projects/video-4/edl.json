@@ -25,8 +25,8 @@
       "in": 2.6,
       "out": 3.967,
       "role": "context",
-      "framing": "base",
-      "move": "none",
+      "framing": "punchIn",
+      "move": "crash",
       "note": "del colegio. Eso es falso."
     },
     {
@@ -35,7 +35,7 @@
       "out": 6.633,
       "role": "legal-basis",
       "framing": "punchIn",
-      "move": "none",
+      "move": "snap",
       "note": "Ni el reglamento del colegio ni el acuerdo que puedan haber"
     },
     {
@@ -44,7 +44,7 @@
       "out": 9.2,
       "role": "context",
       "framing": "subtleIn",
-      "move": "none",
+      "move": "snap",
       "note": "firmado tus papás en la matrícula están por encima de"
     },
     {
@@ -53,7 +53,7 @@
       "out": 9.867,
       "role": "legal-basis",
       "framing": "base",
-      "move": "none",
+      "move": "snap",
       "note": "la Constitución."
     },
     {
@@ -62,7 +62,7 @@
       "out": 12.167,
       "role": "context",
       "framing": "subtleIn",
-      "move": "none",
+      "move": "snap",
       "note": "Porque existe la supremacía constitucional?"
     },
     {
@@ -71,7 +71,7 @@
       "out": 14.967,
       "role": "legal-basis",
       "framing": "subtleIn",
-      "move": "none",
+      "move": "snap",
       "note": "Eso quiere decir que la Constitución es la norma más alta de"
     },
     {
@@ -79,8 +79,8 @@
       "in": 14.967,
       "out": 17.9,
       "role": "legal-basis",
-      "framing": "base",
-      "move": "none",
+      "framing": "punchIn",
+      "move": "crash",
       "note": "todas. Ninguna norma y mucho menos un reglamento interno,"
     },
     {
@@ -89,7 +89,7 @@
       "out": 18.9,
       "role": "context",
       "framing": "punchIn",
-      "move": "none",
+      "move": "snap",
       "note": "puede contradecirla."
     },
     {
@@ -98,7 +98,7 @@
       "out": 20.533,
       "role": "twist",
       "framing": "subtleIn",
-      "move": "none",
+      "move": "snap",
       "note": "Pero mis papás se comprometieron al firmar."
     },
     {
@@ -107,7 +107,7 @@
       "out": 21.867,
       "role": "context",
       "framing": "base",
-      "move": "none",
+      "move": "snap",
       "note": "Bueno, sí, firmaron,"
     },
     {
@@ -115,8 +115,8 @@
       "in": 22.167,
       "out": 25.267,
       "role": "twist",
-      "framing": "subtleIn",
-      "move": "none",
+      "framing": "punchIn",
+      "move": "crash",
       "note": "pero no es válido al ser una renuncia a derechos fundamentales."
     },
     {
@@ -125,7 +125,7 @@
       "out": 27.533,
       "role": "context",
       "framing": "subtleIn",
-      "move": "none",
+      "move": "snap",
       "note": "Así que si te prohiben entrar al colegio,"
     },
     {
@@ -134,7 +134,7 @@
       "out": 30.367,
       "role": "context",
       "framing": "base",
-      "move": "none",
+      "move": "snap",
       "note": "por llevar el cabello pintado o maquillaje y te dicen"
     },
     {
@@ -143,7 +143,7 @@
       "out": 32.867,
       "role": "cta",
       "framing": "punchIn",
-      "move": "none",
+      "move": "snap",
       "note": "es que está en el reglamento sigue vulnerando tu"
     },
     {
@@ -152,7 +152,7 @@
       "out": 34.867,
       "role": "context",
       "framing": "subtleIn",
-      "move": "none",
+      "move": "snap",
       "note": "derecho al libre desarrollo de la personalidad"
     },
     {
@@ -161,7 +161,7 @@
       "out": 35.4,
       "role": "context",
       "framing": "base",
-      "move": "none",
+      "move": "snap",
       "note": "y si"
     },
     {
@@ -170,7 +170,7 @@
       "out": 36.7,
       "role": "legal-basis",
       "framing": "subtleIn",
-      "move": "none",
+      "move": "snap",
       "note": "Indecopi ya lo dejó claro los"
     },
     {
@@ -179,7 +179,7 @@
       "out": 39.333,
       "role": "context",
       "framing": "subtleIn",
-      "move": "none",
+      "move": "snap",
       "note": "colegios pueden tener reglas de presentación siempre y cuando"
     },
     {
@@ -188,7 +188,7 @@
       "out": 40.433,
       "role": "context",
       "framing": "base",
-      "move": "none",
+      "move": "snap",
       "note": "no vulneren tus derechos"
     },
     {
@@ -197,7 +197,7 @@
       "out": 43.167,
       "role": "legal-basis",
       "framing": "punchIn",
-      "move": "none",
+      "move": "snap",
       "note": "así que el reglamento debe de adaptarse a la constitución"
     },
     {
@@ -206,7 +206,7 @@
       "out": 44.767,
       "role": "legal-basis",
       "framing": "subtleIn",
-      "move": "none",
+      "move": "snap",
       "note": "no la Constitución al reglamento"
     },
     {
@@ -215,7 +215,7 @@
       "out": 47.7,
       "role": "cta",
       "framing": "base",
-      "move": "none",
+      "move": "snap",
       "note": "así que sigue a Vocare Iuris y guarda este vídeo no sabes cuándo"
     },
     {
@@ -269,7 +269,7 @@
       "text": "maquillarte",
       "start": 1.393,
       "end": 1.873,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "por",
@@ -287,7 +287,7 @@
       "text": "reglamento",
       "start": 2.293,
       "end": 2.533,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "del",
@@ -317,7 +317,7 @@
       "text": "falso",
       "start": 3.647,
       "end": 3.9,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "Ni",
@@ -335,7 +335,7 @@
       "text": "reglamento",
       "start": 4.093,
       "end": 4.5,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "del",
@@ -479,13 +479,13 @@
       "text": "supremacía",
       "start": 10.44,
       "end": 10.9,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "constitucional",
       "start": 10.9,
       "end": 11.767,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "Eso",
@@ -539,7 +539,7 @@
       "text": "norma",
       "start": 13.427,
       "end": 13.707,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "más",
@@ -569,13 +569,13 @@
       "text": "Ninguna",
       "start": 14.807,
       "end": 15.107,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "norma",
       "start": 15.107,
       "end": 15.607,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "y",
@@ -605,7 +605,7 @@
       "text": "reglamento",
       "start": 16.387,
       "end": 16.877,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "interno",
@@ -707,7 +707,7 @@
       "text": "válido",
       "start": 21.667,
       "end": 22.127,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "al",
@@ -749,7 +749,7 @@
       "text": "fundamentales",
       "start": 23.487,
       "end": 24.333,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "Así",
@@ -779,7 +779,7 @@
       "text": "prohíben",
       "start": 24.953,
       "end": 25.313,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "entrar",
@@ -839,7 +839,7 @@
       "text": "maquillaje",
       "start": 27.907,
       "end": 28.447,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "y",
@@ -893,7 +893,7 @@
       "text": "reglamento",
       "start": 29.907,
       "end": 30.567,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "sigue",
@@ -929,7 +929,7 @@
       "text": "libre",
       "start": 32.107,
       "end": 32.247,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "desarrollo",
@@ -953,7 +953,7 @@
       "text": "personalidad",
       "start": 32.947,
       "end": 33.633,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "y",
@@ -971,7 +971,7 @@
       "text": "Indecopi",
       "start": 34.05,
       "end": 34.52,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "ya",
@@ -1103,7 +1103,7 @@
       "text": "reglamento",
       "start": 39.5,
       "end": 39.96,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "debe",
@@ -1169,7 +1169,7 @@
       "text": "reglamento",
       "start": 42.6,
       "end": 43.067,
-      "emphasis": false
+      "emphasis": true
     },
     {
       "text": "así",
@@ -1287,6 +1287,13 @@
       "note": "norma: el reglamento del colegio (objeto sin fondo)"
     },
     {
+      "type": "flash",
+      "opacity": 0.7,
+      "start": 3.213,
+      "end": 3.393,
+      "note": "ruptura de patrón"
+    },
+    {
       "type": "verdictStamp",
       "text": "Falso",
       "tone": "deny",
@@ -1367,18 +1374,17 @@
     {
       "type": "kineticWord",
       "syllables": [
-        "NIN",
-        "GU",
-        "NA"
+        "NINGUNA",
+        "NORMA"
       ],
-      "layout": "stack",
+      "layout": "rows",
       "uppercase": true,
-      "stepFrames": 4,
+      "stepFrames": 5,
       "x": 0.5,
       "y": 0.6,
       "start": 14.807,
       "end": 15.697,
-      "note": "pattern interrupt"
+      "note": "pattern interrupt: «ninguna norma»"
     },
     {
       "type": "denyMark",
@@ -1387,6 +1393,13 @@
       "start": 16.237,
       "end": 18.317,
       "note": "«un reglamento interno no puede contradecirla»"
+    },
+    {
+      "type": "flash",
+      "opacity": 0.7,
+      "start": 18.347,
+      "end": 18.527,
+      "note": "ruptura de patrón"
     },
     {
       "type": "sticker",
@@ -1517,6 +1530,13 @@
       "note": "límite: no vulnerar derechos"
     },
     {
+      "type": "flash",
+      "opacity": 0.7,
+      "start": 39.48,
+      "end": 39.66,
+      "note": "ruptura de patrón"
+    },
+    {
       "type": "comparison",
       "left": {
         "label": "Reglamento",
@@ -1547,142 +1567,287 @@
     {
       "name": "pop",
       "at": 0,
-      "volumeDb": -16
+      "volumeDb": -10
+    },
+    {
+      "name": "whoosh",
+      "at": 0,
+      "volumeDb": -12
     },
     {
       "name": "riser",
-      "at": 1.733,
-      "volumeDb": -22
+      "at": 1.633,
+      "volumeDb": -14
+    },
+    {
+      "name": "whoosh",
+      "at": 2.163,
+      "volumeDb": -15
     },
     {
       "name": "pop",
       "at": 2.223,
-      "volumeDb": -16
+      "volumeDb": -10
+    },
+    {
+      "name": "snap",
+      "at": 2.523,
+      "volumeDb": -17
+    },
+    {
+      "name": "hit",
+      "at": 3.233,
+      "volumeDb": -7
     },
     {
       "name": "stamp",
       "at": 3.233,
-      "volumeDb": -11
+      "volumeDb": -9
     },
     {
       "name": "whoosh",
-      "at": 3.933,
-      "volumeDb": -19
+      "at": 3.913,
+      "volumeDb": -15
+    },
+    {
+      "name": "shutter",
+      "at": 3.973,
+      "volumeDb": -9
     },
     {
       "name": "pop",
       "at": 5.313,
-      "volumeDb": -16
+      "volumeDb": -10
+    },
+    {
+      "name": "snap",
+      "at": 6.556,
+      "volumeDb": -17
     },
     {
       "name": "pop",
       "at": 7.643,
-      "volumeDb": -16
+      "volumeDb": -10
     },
     {
       "name": "pop",
       "at": 8.313,
-      "volumeDb": -16
+      "volumeDb": -10
+    },
+    {
+      "name": "snap",
+      "at": 9.123,
+      "volumeDb": -17
+    },
+    {
+      "name": "snap",
+      "at": 9.79,
+      "volumeDb": -17
     },
     {
       "name": "click",
       "at": 10.34,
-      "volumeDb": -14
+      "volumeDb": -10
+    },
+    {
+      "name": "ding",
+      "at": 10.64,
+      "volumeDb": -16
     },
     {
       "name": "swish",
       "at": 11.737,
-      "volumeDb": -15
+      "volumeDb": -11
+    },
+    {
+      "name": "type",
+      "at": 11.857,
+      "volumeDb": -12
     },
     {
       "name": "click",
       "at": 12.627,
+      "volumeDb": -12
+    },
+    {
+      "name": "snap",
+      "at": 14.424,
       "volumeDb": -17
     },
     {
       "name": "whoosh",
-      "at": 14.777,
-      "volumeDb": -15
+      "at": 14.757,
+      "volumeDb": -12
+    },
+    {
+      "name": "drop",
+      "at": 14.807,
+      "volumeDb": -8
+    },
+    {
+      "name": "pop",
+      "at": 15.107,
+      "volumeDb": -11
     },
     {
       "name": "poi",
       "at": 16.237,
-      "volumeDb": -15
+      "volumeDb": -10
+    },
+    {
+      "name": "snap",
+      "at": 17.357,
+      "volumeDb": -17
+    },
+    {
+      "name": "scratch",
+      "at": 18.317,
+      "volumeDb": -8
     },
     {
       "name": "pop",
       "at": 18.367,
-      "volumeDb": -16
+      "volumeDb": -10
     },
     {
       "name": "pop",
       "at": 19.967,
-      "volumeDb": -16
+      "volumeDb": -10
+    },
+    {
+      "name": "hit",
+      "at": 21.387,
+      "volumeDb": -8
     },
     {
       "name": "stamp",
       "at": 21.387,
-      "volumeDb": -11
+      "volumeDb": -9
     },
     {
       "name": "click",
       "at": 22.767,
-      "volumeDb": -14
+      "volumeDb": -10
+    },
+    {
+      "name": "snap",
+      "at": 24.324,
+      "volumeDb": -17
     },
     {
       "name": "pop",
       "at": 24.903,
-      "volumeDb": -16
+      "volumeDb": -10
+    },
+    {
+      "name": "snap",
+      "at": 26.357,
+      "volumeDb": -17
     },
     {
       "name": "pop",
       "at": 26.787,
-      "volumeDb": -16
+      "volumeDb": -10
     },
     {
       "name": "pop",
       "at": 27.877,
-      "volumeDb": -16
+      "volumeDb": -10
+    },
+    {
+      "name": "whoosh",
+      "at": 28.657,
+      "volumeDb": -15
     },
     {
       "name": "pop",
       "at": 28.717,
-      "volumeDb": -16
+      "volumeDb": -10
+    },
+    {
+      "name": "snap",
+      "at": 29.124,
+      "volumeDb": -17
     },
     {
       "name": "swish",
       "at": 30.497,
-      "volumeDb": -15
+      "volumeDb": -11
+    },
+    {
+      "name": "type",
+      "at": 30.617,
+      "volumeDb": -12
+    },
+    {
+      "name": "snap",
+      "at": 31.624,
+      "volumeDb": -17
     },
     {
       "name": "click",
       "at": 32.107,
+      "volumeDb": -12
+    },
+    {
+      "name": "ding",
+      "at": 32.257,
+      "volumeDb": -17
+    },
+    {
+      "name": "snap",
+      "at": 33.624,
       "volumeDb": -17
     },
     {
       "name": "kiran",
       "at": 33.85,
-      "volumeDb": -16
+      "volumeDb": -11
+    },
+    {
+      "name": "type",
+      "at": 33.95,
+      "volumeDb": -14
     },
     {
       "name": "pop",
       "at": 35.387,
-      "volumeDb": -16
+      "volumeDb": -10
     },
     {
       "name": "pop",
       "at": 37.247,
-      "volumeDb": -16
+      "volumeDb": -10
     },
     {
-      "name": "swish",
-      "at": 39.5,
-      "volumeDb": -16
+      "name": "snap",
+      "at": 37.79,
+      "volumeDb": -17
+    },
+    {
+      "name": "snap",
+      "at": 38.89,
+      "volumeDb": -17
+    },
+    {
+      "name": "whoosh",
+      "at": 39.45,
+      "volumeDb": -11
     },
     {
       "name": "kiran",
       "at": 41.46,
-      "volumeDb": -16
+      "volumeDb": -11
+    },
+    {
+      "name": "boom",
+      "at": 41.46,
+      "volumeDb": -12
+    },
+    {
+      "name": "snap",
+      "at": 43.057,
+      "volumeDb": -17
     }
   ],
   "showSafeZones": false,
