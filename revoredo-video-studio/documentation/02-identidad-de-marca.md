@@ -23,7 +23,7 @@ Archivo fuente de todos los valores: `src/brand/tokens.ts`. **Ningún componente
 
 | Token | HEX | Uso |
 |---|---|---|
-| `gold` | `#E9A93B` | Acento de marca: bug, reglas, énfasis de una palabra, kickers. **Nunca como fondo grande** |
+| `gold` | `#FAA726` (acento oficial de revoredo.pe) | Acento de marca: bug, reglas, énfasis de una palabra, kickers. **Nunca como fondo grande** |
 | `goldSoft` | `#F3C969` | Palabra enfatizada en subtítulos |
 | `goldDeep` | `#B9832A` | Acento sobre fondos claros |
 | `ink` | `#111214` | Fondos de tarjeta y end card |
@@ -32,14 +32,14 @@ Archivo fuente de todos los valores: `src/brand/tokens.ts`. **Ningún componente
 | `mist` / `steel` | `#C9D3D6` / `#6E8590` | Neutros fríos del set (oficina) y notas de fuente |
 | `risk` | `#C8553D` | Solo para “lo que faltó” o un incumplimiento (KeyPoints `cross`) |
 
-El color dorado sale del bug de la referencia. Los neutros fríos salen del set: pared clara con acento turquesa y vidrio.
+El dorado y Lato salen de revoredo.pe (reglas doradas bajo los títulos y el marco de las cifras +25 / +150 / +$175). Los neutros fríos salen del set: pared clara con acento turquesa y vidrio.
 
 ## Tipografía
 
 | Rol | Fuente | Por qué |
 |---|---|---|
 | Subtítulos, titulares y datos | **Instrument Serif** (regular e itálica) | Reproduce la serif itálica de los subtítulos de la referencia. Transmite elegancia y autoridad |
-| Etiquetas, notas y fuentes | **Inter** (400–700) | Sans neutra y legible en tamaños chicos |
+| Etiquetas, datos y motion graphics | **Lato** (300 / 400 / 700 / 900) | Tipografía oficial de revoredo.pe |
 
 Las fuentes están incluidas en `public/brand/fonts/` (woff2), así que el render no depende de la red.
 

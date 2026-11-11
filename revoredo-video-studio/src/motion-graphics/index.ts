@@ -7,6 +7,8 @@ import { LegalReference } from "./LegalReference";
 import { LowerThird } from "./LowerThird";
 import { QuoteCard } from "./QuoteCard";
 import { StrategicText } from "./StrategicText";
+import { TechList } from "./TechList";
+import { ProgressSteps } from "./ProgressSteps";
 
 /** Registry used by the EDL (`graphics[].component`). */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -19,6 +21,8 @@ export const graphicsRegistry: Record<string, React.FC<any>> = {
   QuoteCard,
   AccentLine,
   CTAEndCard,
+  TechList,
+  ProgressSteps,
 };
 
-export { AccentLine, CTAEndCard, DataCard, KeyPoints, LegalReference, LowerThird, QuoteCard, StrategicText };
+export { AccentLine, CTAEndCard, DataCard, KeyPoints, LegalReference, LowerThird, ProgressSteps, QuoteCard, StrategicText, TechList };

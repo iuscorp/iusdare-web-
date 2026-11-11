@@ -5,16 +5,17 @@
  * the studio. Components never hard-code brand values: they read them here.
  *
  * Origin of each value is documented in documentation/02-identidad-de-marca.md:
- *  - gold: sampled from the Revoredo "power" bug used in the reference reels.
+ *  - gold: official accent of revoredo.pe (#FAA726: heading rules, stat frame).
+ *  - Lato: official typeface of revoredo.pe (labels, data, UI).
  *  - ink / paper / mist / steel: sampled from the reference set (office, wardrobe).
  *  - Serif italic captions: matched to the reference reel caption style.
  */
 
 export const colors = {
-  /** Brand gold — the Revoredo power bug. Accent only, never large fills. */
-  gold: "#E9A93B",
-  goldSoft: "#F3C969",
-  goldDeep: "#B9832A",
+  /** Brand gold — revoredo.pe accent (#FAA726). Accent only, never large fills. */
+  gold: "#FAA726",
+  goldSoft: "#FDC468",
+  goldDeep: "#C9801A",
   /** Near-black used for cards, end frames and type on light. */
   ink: "#111214",
   inkSoft: "#1C1D20",
@@ -35,8 +36,8 @@ export type BrandColor = keyof typeof colors;
 export const fonts = {
   /** Display + captions: elegant serif, italic for spoken captions. */
   serif: "Instrument Serif",
-  /** Labels, data, UI chrome. */
-  sans: "Inter",
+  /** Labels, data, UI chrome — Lato, as on revoredo.pe. */
+  sans: "Lato",
 } as const;
 
 /**

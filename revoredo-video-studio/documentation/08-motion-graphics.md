@@ -1,5 +1,10 @@
 # 08 · Biblioteca de motion graphics
 
+> **Dirección vigente (feedback de dirección, nov 2026):**
+> - Seguir la línea gráfica de revoredo.pe, “Abogados Digitales”: dorado #FAA726, Lato, reglas doradas cortas, marcos de contorno y un aire tech.
+> - **Sin cajas ni tarjetas con fondo:** usar `TechList`, `ProgressSteps` y los recursos de `tech.tsx` (corchetes de esquina, nodos).
+> - **Sin títulos arriba** (`StrategicText`) salvo pedido expreso: el énfasis va en el subtítulo (palabras en dorado) y en los punch-ins.
+
 Código: `src/motion-graphics/`. Para revisar toda la biblioteca: `npm run studio:showcase` → `previews/_library/library-showcase.mp4`.
 
 Cada elemento tiene que cumplir al menos una de estas funciones: **1) comprensión, 2) énfasis, 3) retención**. En el EDL se declara en `graphics[].function`. Si no cumple ninguna, no se usa.
@@ -12,6 +17,8 @@ Cada elemento tiene que cumplir al menos una de estas funciones: **1) comprensi�
 | `LegalReference` | Comprensión (autoridad) | `reference`, `authority`, `detail` | Cuando se nombra una norma o una autoridad |
 | `QuoteCard` | Comprensión (autoridad) | `quote`, `attribution` | Cita literal breve de una resolución o norma |
 | `LowerThird` | Autoridad | `name`, `role` | Una vez, entre 3 y 6 s después del hook |
+| `TechList` | Comprensión | `title`, `items[]`, `revealAt[]`, `numbered` | **Preferido sobre KeyPoints.** Línea tech de revoredo.pe sin caja: línea dorada vertical, nodos en rombo e índices 01/02/03 |
+| `ProgressSteps` | Comprensión | `label`, `steps`, `stepLabels[]`, `caption`, `fillSec` | Algo gradual (vesting, plazos, etapas): barra segmentada que se llena con contador de % |
 | `AccentLine` | Retención | `y`, `length` | Marcar un cambio de beat sin agregar texto |
 | `CTAEndCard` | Retención y conversión | `line`, `action`, `handle` | Cierre. Se agrega automáticamente desde `endCard` |
 

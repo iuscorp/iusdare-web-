@@ -144,7 +144,7 @@ const spoken = (src: string, a: number, b: number) =>
 
   const gText = (g: Edit["graphics"][number]) => {
     const pr = g.props as Record<string, unknown>;
-    return [pr.kicker, pr.text, pr.prefix !== undefined ? `${pr.prefix ?? ""}${pr.value}${pr.suffix ?? ""}` : null, pr.label, pr.title, Array.isArray(pr.items) ? (pr.items as string[]).join(" · ") : null, pr.reference, pr.authority, pr.quote, pr.name, pr.role, pr.line].filter(Boolean).map((x) => esc(x)).join("<br>");
+    return [pr.kicker, pr.text, pr.prefix !== undefined ? `${pr.prefix ?? ""}${pr.value}${pr.suffix ?? ""}` : null, pr.label, pr.title, Array.isArray(pr.items) ? (pr.items as string[]).join(" · ") : null, pr.reference, pr.authority, pr.quote, pr.name, pr.role, pr.line, pr.caption].filter(Boolean).map((x) => esc(x)).join("<br>");
   };
   const secE = edit.graphics
     .map((g) => {
@@ -169,7 +169,7 @@ const spoken = (src: string, a: number, b: number) =>
 --hook:#E9A93B;--context:#6E8590;--tension:#C8553D;--development:#4F6D8F;--reveal:#8A6BB8;--resolution:#6E9F7B;--cta:#111214;}
 @media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0E0F11;--panel:#17181B;--ink:#F2F0EC;--muted:#9AA1A8;--line:rgba(255,255,255,.12);--gold:#E9A93B;--gold-bg:rgba(233,169,59,.14);--warn:#E07A62;--ok:#7FBF92;--cta:#F2F0EC;}}
 :root[data-theme=dark]{--bg:#0E0F11;--panel:#17181B;--ink:#F2F0EC;--muted:#9AA1A8;--line:rgba(255,255,255,.12);--gold:#E9A93B;--gold-bg:rgba(233,169,59,.14);--warn:#E07A62;--ok:#7FBF92;--cta:#F2F0EC;}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 Lato,Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
 header.top{padding:40px 16px 24px;max-width:1240px;margin:auto}h1{font:400 clamp(30px,5vw,52px)/1.05 "Instrument Serif",Georgia,serif;margin:6px 0 10px}
 .kicker{letter-spacing:.22em;text-transform:uppercase;font-size:12px;color:var(--gold);font-weight:600}
 nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);overflow-x:auto;white-space:nowrap}nav div{max-width:1240px;margin:auto;padding:10px 16px;display:flex;gap:18px}nav a{color:var(--muted);text-decoration:none;font-size:13px}nav a:hover{color:var(--ink)}

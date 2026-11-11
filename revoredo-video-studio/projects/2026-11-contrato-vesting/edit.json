@@ -37,10 +37,9 @@
       },
       "nativeCodes": [
         "hook",
-        "punch-in",
-        "strategic-text"
+        "punch-in"
       ],
-      "rationale": "Plano cerrado + título “Contrato de vesting”: en 1 s se sabe de qué trata y para quién.",
+      "rationale": "Plano cerrado + pregunta directa; sin título encima (decisión de dirección).",
       "transitionIn": "cut"
     },
     {
@@ -76,10 +75,10 @@
         "zoomTo": 1.03
       },
       "nativeCodes": [
-        "strategic-text",
-        "scale-change"
+        "scale-change",
+        "visual-stimulus"
       ],
-      "rationale": "Definición con texto de apoyo “participación progresiva”.",
+      "rationale": "Definición apoyada por la barra de progreso “participación progresiva”.",
       "transitionIn": "cut"
     },
     {
@@ -114,10 +113,9 @@
       },
       "nativeCodes": [
         "reveal",
-        "punch-in",
-        "strategic-text"
+        "punch-in"
       ],
-      "rationale": "Se omite “En otras palabras” y se va directo a la idea clave con acercamiento.",
+      "rationale": "Se omite “En otras palabras”; la idea clave se marca con acercamiento y el subtítulo en dorado.",
       "transitionIn": "cut"
     },
     {
@@ -134,7 +132,6 @@
       },
       "nativeCodes": [
         "payoff",
-        "strategic-text",
         "pattern-interrupt"
       ],
       "rationale": "B-roll de planificación en “gradual” y luego la lista de condiciones al ritmo de la voz.",
@@ -208,8 +205,7 @@
         "zoomTo": 1
       },
       "nativeCodes": [
-        "retention-loop",
-        "strategic-text"
+        "retention-loop"
       ],
       "rationale": "Traslado al servicio; B-roll de firma en “estructura contractual”.",
       "transitionIn": "cut"
@@ -273,46 +269,21 @@
   "graphics": [
     {
       "id": "G01",
-      "component": "StrategicText",
-      "start": 0.1,
-      "end": 3.48,
-      "function": "retencion",
-      "props": {
-        "kicker": "Startups",
-        "text": "Contrato de vesting",
-        "emphasis": "vesting",
-        "size": "headline"
-      },
-      "rationale": "Título del tema en el hook: identifica el contenido de inmediato."
-    },
-    {
-      "id": "G02",
-      "component": "StrategicText",
-      "start": 7.7,
+      "component": "ProgressSteps",
+      "start": 6.8,
       "end": 10.3,
       "function": "comprension",
       "props": {
-        "text": "Participación progresiva",
-        "emphasis": "progresiva"
+        "label": "Participación",
+        "caption": "Adquisición progresiva",
+        "steps": 4,
+        "fillSec": 2.4
       },
-      "rationale": "Sintetiza la definición en dos palabras."
+      "rationale": "Visualiza “adquiere progresivamente participación”: barra segmentada que se llena mientras se dice."
     },
     {
-      "id": "G03",
-      "component": "StrategicText",
-      "start": 16.5,
-      "end": 19.56,
-      "function": "enfasis",
-      "props": {
-        "kicker": "La clave",
-        "text": "No se obtiene de inmediato",
-        "emphasis": "de inmediato"
-      },
-      "rationale": "Fija la idea central del vesting."
-    },
-    {
-      "id": "G04",
-      "component": "KeyPoints",
+      "id": "G02",
+      "component": "TechList",
       "start": 22.5,
       "end": 27.06,
       "function": "comprension",
@@ -323,17 +294,16 @@
           "Desempeño",
           "Hitos específicos"
         ],
-        "mode": "number",
         "revealAt": [
           1.12,
           2.26,
           3.3
         ]
       },
-      "rationale": "Los tres criterios aparecen cuando se nombran."
+      "rationale": "Los tres criterios aparecen cuando se nombran (línea tech, sin caja)."
     },
     {
-      "id": "G05",
+      "id": "G03",
       "component": "AccentLine",
       "start": 27.1,
       "end": 28.0,
@@ -344,21 +314,8 @@
       "rationale": "Marca el paso de “qué es” a “dónde se usa”."
     },
     {
-      "id": "G06",
-      "component": "StrategicText",
-      "start": 47.24,
-      "end": 49.88,
-      "function": "comprension",
-      "props": {
-        "kicker": "Revoredo Abogados",
-        "text": "Derecho corporativo y contractual",
-        "emphasis": "contractual"
-      },
-      "rationale": "Nombra el servicio mientras se menciona."
-    },
-    {
-      "id": "G07",
-      "component": "KeyPoints",
+      "id": "G04",
+      "component": "TechList",
       "start": 55.62,
       "end": 61.56,
       "function": "comprension",
@@ -368,13 +325,13 @@
           "Prevenir riesgos",
           "Proteger relaciones societarias"
         ],
-        "mode": "check",
+        "numbered": false,
         "revealAt": [
           1.86,
           3.56
         ]
       },
-      "rationale": "Beneficios concretos como cierre de valor."
+      "rationale": "Beneficios concretos del servicio como cierre de valor."
     }
   ],
   "broll": [

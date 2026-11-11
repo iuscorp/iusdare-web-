@@ -11,7 +11,9 @@ import {
   LegalReference,
   LowerThird,
   QuoteCard,
+  ProgressSteps,
   StrategicText,
+  TechList,
 } from "../motion-graphics";
 
 /** Neutral stand-in for footage: the cool grey office tone of the reference set. */
@@ -40,6 +42,8 @@ export const LibraryShowcase: React.FC = () => {
     <LegalReference key="lr" reference="Ley N.º 29733" authority="Autoridad Nacional de Protección de Datos Personales" detail="Ley de Protección de Datos Personales" />,
     <LowerThird key="lt" name="Nombre Apellido" role="Abogada · Revoredo Abogados" />,
     <QuoteCard key="qc" quote="El consentimiento no se presume. Se acredita." attribution="Revoredo Abogados" />,
+    <TechList key="tl" title="Condiciones" items={["Permanencia", "Desempeño", "Hitos específicos"]} revealEverySec={0.45} />,
+    <ProgressSteps key="ps" label="Participación" caption="Adquisición progresiva" fillSec={2} />,
     <AccentLine key="al" />,
     <CTAEndCard key="cta" />,
   ];

@@ -43,7 +43,7 @@ const Hud: React.FC<{ label: string }> = ({ label }) => (
       padding: "6px 12px",
       background: "rgba(0,0,0,0.6)",
       color: "#fff",
-      fontFamily: "Inter",
+      fontFamily: "Lato",
       fontSize: 22,
       borderRadius: 6,
     }}

@@ -11,13 +11,14 @@ const faces: { family: string; file: string; weight: string; style: string }[] =
   { family: fonts.serif, file: "instrument-serif-latin-400-italic.woff2", weight: "400", style: "italic" },
   { family: fonts.serif, file: "instrument-serif-latin-ext-400-normal.woff2", weight: "400", style: "normal" },
   { family: fonts.serif, file: "instrument-serif-latin-ext-400-italic.woff2", weight: "400", style: "italic" },
-  { family: fonts.sans, file: "inter-latin-400-normal.woff2", weight: "400", style: "normal" },
-  { family: fonts.sans, file: "inter-latin-500-normal.woff2", weight: "500", style: "normal" },
-  { family: fonts.sans, file: "inter-latin-600-normal.woff2", weight: "600", style: "normal" },
-  { family: fonts.sans, file: "inter-latin-700-normal.woff2", weight: "700", style: "normal" },
-  { family: fonts.sans, file: "inter-latin-ext-400-normal.woff2", weight: "400", style: "normal" },
-  { family: fonts.sans, file: "inter-latin-ext-500-normal.woff2", weight: "500", style: "normal" },
-  { family: fonts.sans, file: "inter-latin-ext-600-normal.woff2", weight: "600", style: "normal" },
+  { family: fonts.sans, file: "lato-latin-300-normal.woff2", weight: "300", style: "normal" },
+  { family: fonts.sans, file: "lato-latin-400-normal.woff2", weight: "400", style: "normal" },
+  // Lato has no 500/600: map them to 700 so existing weights render bold.
+  { family: fonts.sans, file: "lato-latin-700-normal.woff2", weight: "500 700", style: "normal" },
+  { family: fonts.sans, file: "lato-latin-900-normal.woff2", weight: "900", style: "normal" },
+  { family: fonts.sans, file: "lato-latin-ext-300-normal.woff2", weight: "300", style: "normal" },
+  { family: fonts.sans, file: "lato-latin-ext-400-normal.woff2", weight: "400", style: "normal" },
+  { family: fonts.sans, file: "lato-latin-ext-700-normal.woff2", weight: "500 700", style: "normal" },
 ];
 
 let loaded: Promise<unknown> | null = null;

@@ -27,7 +27,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="LibraryShowcase"
         component={LibraryShowcase}
-        durationInFrames={SHOWCASE_ITEM_FRAMES * 8}
+        durationInFrames={SHOWCASE_ITEM_FRAMES * 10}
         fps={30}
         width={1080}
         height={1920}
