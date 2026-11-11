@@ -62,7 +62,7 @@ export const LogoBadge: React.FC<{image: string; label?: string; x?: number; y?:
 };
 
 /**
- * Foto de ejemplo tipo "recorte" [REF: fotos de ejemplo con borde blanco al costado].
+ * Foto de LUGAR o CONTEXTO (con fondo), sin marco: esquinas redondeadas y sombra.
  * Entra con pop + giro, hace un zoom lento dentro del marco (Ken Burns) y puede llevar
  * una etiqueta amarilla debajo («Restaurante», «Discoteca»…).
  */
@@ -88,7 +88,8 @@ export const PhotoCard: React.FC<{image: string; rotate?: number; x?: number; y?
         transform: `translate(-50%, -50%) scale(${interpolate(p, [0, 1], [0.4, 1])}) rotate(${interpolate(p, [0, 1], [rotate * 3, rotate])}deg)`,
       }}
     >
-      <div style={{background: 'white', padding: 10, boxShadow: '0 18px 34px rgba(0,0,0,0.4)'}}>
+      {/* sin borde/marco blanco (pedido del equipo): esquinas redondeadas + sombra */}
+      <div style={{borderRadius: 26, overflow: 'hidden', boxShadow: '0 18px 34px rgba(0,0,0,0.4)'}}>
         <div style={{width: w, height: h, overflow: 'hidden'}}>
           <Img src={src(image)} style={{width: w, height: h, objectFit: 'cover', display: 'block', transform: `scale(${kb})`}} />
         </div>

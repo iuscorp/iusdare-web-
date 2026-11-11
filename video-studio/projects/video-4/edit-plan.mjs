@@ -59,9 +59,9 @@ const ind = at('Indecopi');
 const si = [...e.captions].reverse().find((c) => c.start < ind.start && norm(c.text) === 'si');
 if (si) si.text = 'sí';
 
-// ── 1. HOOK: foto en el frame 0 + desmentido
-photo('maquillaje', 0, at('reglamento').start - 0.05, {x: 0.5, y: 0.66, w: 500, h: 380, label: '¿Prohibido?', emoji: '💄', note: 'hook: la situación (frame 0)'});
-sticker('📕', at('reglamento').start - 0.05, at('Eso').start - at('reglamento').start, 0.7, 0.62, 'el reglamento del colegio');
+// ── 1. HOOK: emoji en el frame 0 → el reglamento (norma: imagen sin fondo) → desmentido
+sticker('💄', 0, at('reglamento').start - 0.08, 0.66, 0.62, 'hook: maquillarse');
+photo('reglamento', at('reglamento').start - 0.05, at('Eso').start - at('reglamento').start, {x: 0.34, y: 0.64, rotate: -6, cw: 300, label: 'Reglamento', emoji: '📋', note: 'norma: el reglamento del colegio (objeto sin fondo)'});
 const falso = at('falso');
 add({type: 'verdictStamp', text: 'Falso', tone: 'deny', x: 0.5, y: 0.6, start: at('Eso').start, end: at('Ni').start + 0.35}, 'desmentido inmediato (antihook)');
 fx('riser', at('Eso').start - 1.5, -22);
@@ -69,9 +69,10 @@ fx('stamp', at('Eso').start, -11);
 
 // ── 2. Ni el reglamento ni lo que firmaron tus papás
 const ni2 = at('ni', at('colegio', 4).start);
-photo('colegio', at('reglamento', 3.9).start - 0.1, ni2.start - at('reglamento', 3.9).start + 0.05, {x: 0.32, y: 0.64, rotate: -4, label: 'Reglamento', emoji: '🏫', note: 'el colegio'});
-photo('firma', ni2.start, at('estan').start - ni2.start - 0.05, {x: 0.66, y: 0.64, rotate: 4, label: 'Matrícula', emoji: '✍️', note: 'el acuerdo firmado por los papás'});
-sticker('🙅', at('estan').start, at('Porque').start - at('estan').start, 0.3, 0.62, '«no están por encima de la Constitución»');
+photo('aula', at('reglamento', 3.9).start - 0.1, ni2.start - at('reglamento', 3.9).start + 0.05, {x: 0.34, y: 0.64, w: 460, h: 340, rotate: -3, label: 'El colegio', emoji: '🏫', note: 'lugar: el colegio (foto con fondo)'});
+sticker('👨‍👩‍👧', ni2.start, at('matricula').start - ni2.start - 0.03, 0.68, 0.62, 'los papás');
+sticker('🗂️', at('matricula').start - 0.03, at('estan').start - at('matricula').start, 0.32, 0.62, 'la matrícula');
+sticker('🔝', at('estan').start, at('Porque').start - at('estan').start, 0.68, 0.62, '«no están por encima de la Constitución»');
 
 // ── 3. Supremacía constitucional → art. 51 impreso
 const sup = at('supremacia');
@@ -104,24 +105,25 @@ fx('poi', reg3.start - 0.15, -15);
 
 // ── 4. Loop abierto: la objeción del público
 const pero = at('Pero');
-sticker('🤨', pero.start, at('Bueno').start - pero.start, 0.7, 0.62, 'objeción: «pero mis papás firmaron»');
+sticker('🙋‍♀️', pero.start, at('Bueno').start - pero.start, 0.7, 0.62, 'objeción: «pero mis papás firmaron»');
 const bueno = at('Bueno');
-sticker('✍️', bueno.start, at('no', bueno.start).start - bueno.start - 0.05, 0.3, 0.62, '«sí, firmaron»');
+sticker('🖊️', bueno.start, at('no', bueno.start).start - bueno.start - 0.05, 0.3, 0.62, '«sí, firmaron»');
 const noVal = at('no', bueno.start);
 add({type: 'verdictStamp', text: 'No es válido', tone: 'deny', x: 0.5, y: 0.6, start: noVal.start, end: at('renuncia').start - 0.03}, 'respuesta a la objeción');
 fx('stamp', noVal.start, -11);
 add({type: 'selectionLabel', text: 'Derechos fundamentales', cursor: true, x: 0.5, y: 0.64, start: at('renuncia').start, end: at('Asi', noVal.start).start - 0.05}, 'no se puede renunciar a ellos');
 fx('click', at('renuncia').start, -14);
 
-// ── 5. Ráfaga: entrar al colegio / cabello pintado / maquillaje
+// ── 5. Ráfaga de emojis: entrar al colegio / cabello pintado / maquillaje → el reglamento (imagen)
 const asi = at('Asi', noVal.start);
 const cab = at('cabello');
 const maq = at('maquillaje', cab.start);
-photo('alumnos', at('prohiben').start - 0.05, cab.start - at('prohiben').start - 0.1, {x: 0.34, y: 0.64, rotate: -4, label: 'Sin entrar al colegio', emoji: '🚫', note: '«si te prohíben entrar»'});
-photo('cabello', cab.start - 0.06, maq.start - cab.start, {x: 0.66, y: 0.64, rotate: 4, label: 'Cabello pintado', cw: 330, emoji: '💇', note: 'ráfaga 1/2'});
-sticker('💄', maq.start - 0.03, at('y', maq.start).start - maq.start + 0.1, 0.32, 0.62, 'ráfaga 2/2');
+sticker('🚷', at('prohiben').start - 0.05, cab.start - at('prohiben').start - 0.1, 0.32, 0.62, '«si te prohíben entrar al colegio»');
+add({type: 'emojiEquation', items: ['💇‍♀️', '+', '🎨'], x: 0.5, y: 0.64, start: cab.start - 0.06, end: maq.start - 0.03}, 'cabello pintado');
+fx('pop', cab.start - 0.06, -16);
+sticker('💋', maq.start - 0.03, at('y', maq.start).start - maq.start + 0.1, 0.68, 0.62, 'maquillaje');
 const dicen = at('dicen', maq.start);
-sticker('🙄', dicen.start - 0.05, at('sigue', dicen.start).start - dicen.start - 0.05, 0.7, 0.62, '«es que está en el reglamento»');
+photo('reglamento', dicen.start - 0.05, at('sigue', dicen.start).start - dicen.start - 0.05, {x: 0.66, y: 0.64, rotate: 6, cw: 300, label: '«Está en el reglamento»', emoji: '📋', note: 'norma citada por el colegio'});
 
 // ── 6. Libre desarrollo de la personalidad (art. 2.1 impreso)
 const sigue = at('sigue', dicen.start);
@@ -147,13 +149,13 @@ fx('click', libre.start, -17);
 add({type: 'lawCard', title: 'INDECOPI', subtitle: 'Ya lo dejó claro', color: 'yellow', x: 0.5, y: 0.66, start: ind.start - 0.2, end: at('colegios', ind.start).start - 0.03}, 'autoridad (verificar pronunciamiento)');
 fx('kiran', ind.start - 0.2, -16);
 const col = at('colegios', ind.start);
-sticker('✅', col.start, at('siempre').start - col.start - 0.03, 0.7, 0.62, 'sí pueden tener reglas de presentación');
+sticker('👔', col.start, at('siempre').start - col.start - 0.03, 0.7, 0.62, 'sí pueden tener reglas de presentación (uniforme, presentación)');
 const siem = at('siempre');
-sticker('⚖️', siem.start, at('asi', siem.start).start - siem.start - 0.03, 0.3, 0.62, 'límite: no vulnerar derechos');
+sticker('⚠️', siem.start, at('asi', siem.start).start - siem.start - 0.03, 0.3, 0.62, 'límite: no vulnerar derechos');
 
 // ── 8. Cierre en bucle
 const cierre = at('asi', siem.start);
-add({type: 'comparison', left: {label: 'Reglamento', emoji: '📕'}, right: {label: 'Constitución', emoji: '📜'}, x: 0.5, y: 0.64, start: at('reglamento', cierre.start).start, end: at('no', cierre.start).start - 0.03}, 'el reglamento se adapta a la Constitución');
+add({type: 'comparison', left: {label: 'Reglamento', emoji: '📋'}, right: {label: 'Constitución', emoji: '🇵🇪'}, x: 0.5, y: 0.64, start: at('reglamento', cierre.start).start, end: at('no', cierre.start).start - 0.03}, 'el reglamento se adapta a la Constitución');
 fx('swish', at('reglamento', cierre.start).start, -16);
 const no2 = at('no', cierre.start);
 add({type: 'selectionLabel', text: 'La Constitución manda', cursor: false, x: 0.5, y: 0.64, start: no2.start, end: at('sigue', no2.start).start - 0.05}, 'cierre: vuelve al concepto');

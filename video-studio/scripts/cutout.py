@@ -3,8 +3,7 @@
 
 Uso: cutout.py <entrada.jpg> <salida.png> [--outline 10] [--model models/birefnet/model.onnx]
 
-Salida: PNG RGBA recortado al objeto, con un borde blanco de --outline px (estilo sticker de
-CapCut). Modelo: huggingface.co/onnx-community/BiRefNet_lite-ONNX → models/birefnet/model.onnx
+Salida: PNG RGBA recortado al objeto, sin borde (pedido del equipo); --outline N añade uno blanco. Modelo: huggingface.co/onnx-community/BiRefNet_lite-ONNX → models/birefnet/model.onnx
 """
 import argparse
 import os
@@ -42,7 +41,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("input")
     ap.add_argument("output")
-    ap.add_argument("--outline", type=int, default=10)
+    ap.add_argument("--outline", type=int, default=0, help="borde blanco en px (el equipo prefiere SIN borde: 0)")
     ap.add_argument("--model", default=DEFAULT_MODEL)
     ap.add_argument("--max", type=int, default=900, help="lado máximo del resultado")
     a = ap.parse_args()
