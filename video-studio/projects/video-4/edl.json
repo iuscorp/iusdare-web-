@@ -1264,27 +1264,27 @@
   ],
   "overlays": [
     {
-      "type": "cutout",
-      "image": "footage/video-4/photos/maquillaje.png",
-      "x": 0.5,
-      "y": 0.66,
-      "w": 430,
-      "rotate": -3,
-      "label": "¿Prohibido?",
-      "credit": "«Lipstick and mirror» — shawnzrossi (CC BY 2.0)",
+      "type": "sticker",
+      "emoji": "💄",
+      "size": 175,
+      "x": 0.66,
+      "y": 0.62,
       "start": 0,
       "end": 2.213,
-      "note": "hook: la situación (frame 0)"
+      "note": "hook: maquillarse"
     },
     {
-      "type": "sticker",
-      "emoji": "📕",
-      "size": 175,
-      "x": 0.7,
-      "y": 0.62,
+      "type": "cutout",
+      "image": "footage/video-4/photos/reglamento.png",
+      "x": 0.34,
+      "y": 0.64,
+      "w": 300,
+      "rotate": -6,
+      "label": "Reglamento",
+      "credit": "«notebooks» — Muffet (CC BY 2.0)",
       "start": 2.243,
       "end": 3.183,
-      "note": "el reglamento del colegio"
+      "note": "norma: el reglamento del colegio (objeto sin fondo)"
     },
     {
       "type": "verdictStamp",
@@ -1297,36 +1297,44 @@
       "note": "desmentido inmediato (antihook)"
     },
     {
-      "type": "cutout",
-      "image": "footage/video-4/photos/colegio.png",
-      "x": 0.32,
+      "type": "photoCard",
+      "image": "footage/video-4/photos/aula.jpg",
+      "x": 0.34,
       "y": 0.64,
-      "w": 430,
-      "rotate": -4,
-      "label": "Reglamento",
+      "w": 460,
+      "h": 340,
+      "rotate": -3,
+      "label": "El colegio",
       "credit": "«Village School Classroom» — ToGa Wanderings (CC BY 2.0)",
       "start": 3.993,
       "end": 5.263,
-      "note": "el colegio"
-    },
-    {
-      "type": "cutout",
-      "image": "footage/video-4/photos/firma.png",
-      "x": 0.66,
-      "y": 0.64,
-      "w": 430,
-      "rotate": 4,
-      "label": "Matrícula",
-      "credit": "«Legal Contract & Signature - Cool Tones» — Visual Content (CC BY 2.0)",
-      "start": 5.313,
-      "end": 8.263,
-      "note": "el acuerdo firmado por los papás"
+      "note": "lugar: el colegio (foto con fondo)"
     },
     {
       "type": "sticker",
-      "emoji": "🙅",
+      "emoji": "👫",
       "size": 175,
-      "x": 0.3,
+      "x": 0.68,
+      "y": 0.62,
+      "start": 5.313,
+      "end": 7.613,
+      "note": "los papás"
+    },
+    {
+      "type": "sticker",
+      "emoji": "🗂️",
+      "size": 175,
+      "x": 0.32,
+      "y": 0.62,
+      "start": 7.643,
+      "end": 8.283,
+      "note": "la matrícula"
+    },
+    {
+      "type": "sticker",
+      "emoji": "🔝",
+      "size": 175,
+      "x": 0.68,
       "y": 0.62,
       "start": 8.313,
       "end": 9.79,
@@ -1382,7 +1390,7 @@
     },
     {
       "type": "sticker",
-      "emoji": "🤨",
+      "emoji": "✋",
       "size": 175,
       "x": 0.7,
       "y": 0.62,
@@ -1421,50 +1429,47 @@
       "note": "no se puede renunciar a ellos"
     },
     {
-      "type": "cutout",
-      "image": "footage/video-4/photos/alumnos.png",
-      "x": 0.34,
-      "y": 0.64,
-      "w": 430,
-      "rotate": -4,
-      "label": "Sin entrar al colegio",
-      "credit": "«Weird School Bus» — KB35 (CC BY 2.0)",
-      "start": 24.903,
-      "end": 26.697,
-      "note": "«si te prohíben entrar»"
-    },
-    {
-      "type": "cutout",
-      "image": "footage/video-4/photos/cabello.png",
-      "x": 0.66,
-      "y": 0.64,
-      "w": 330,
-      "rotate": 4,
-      "label": "Cabello pintado",
-      "credit": "«Red hair» — kevin dooley (CC BY 2.0)",
-      "start": 26.787,
-      "end": 27.847,
-      "note": "ráfaga 1/2"
-    },
-    {
       "type": "sticker",
-      "emoji": "💄",
+      "emoji": "🚷",
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 27.877,
-      "end": 28.517,
-      "note": "ráfaga 2/2"
+      "start": 24.903,
+      "end": 26.697,
+      "note": "«si te prohíben entrar al colegio»"
     },
     {
       "type": "sticker",
-      "emoji": "🙄",
+      "emoji": "🎨",
       "size": 175,
-      "x": 0.7,
+      "x": 0.5,
       "y": 0.62,
+      "start": 26.787,
+      "end": 27.847,
+      "note": "cabello pintado"
+    },
+    {
+      "type": "sticker",
+      "emoji": "💋",
+      "size": 175,
+      "x": 0.68,
+      "y": 0.62,
+      "start": 27.877,
+      "end": 28.517,
+      "note": "maquillaje"
+    },
+    {
+      "type": "cutout",
+      "image": "footage/video-4/photos/reglamento.png",
+      "x": 0.66,
+      "y": 0.64,
+      "w": 300,
+      "rotate": 6,
+      "label": "«Está en el reglamento»",
+      "credit": "«notebooks» — Muffet (CC BY 2.0)",
       "start": 28.737,
       "end": 30.467,
-      "note": "«es que está en el reglamento»"
+      "note": "norma citada por el colegio"
     },
     {
       "type": "lawPage",
@@ -1493,17 +1498,17 @@
     },
     {
       "type": "sticker",
-      "emoji": "✅",
+      "emoji": "👔",
       "size": 175,
       "x": 0.7,
       "y": 0.62,
       "start": 35.387,
       "end": 37.217,
-      "note": "sí pueden tener reglas de presentación"
+      "note": "sí pueden tener reglas de presentación (uniforme, presentación)"
     },
     {
       "type": "sticker",
-      "emoji": "⚖️",
+      "emoji": "⛔",
       "size": 175,
       "x": 0.3,
       "y": 0.62,
@@ -1515,7 +1520,7 @@
       "type": "comparison",
       "left": {
         "label": "Reglamento",
-        "emoji": "📕"
+        "emoji": "📋"
       },
       "right": {
         "label": "Constitución",
@@ -1551,7 +1556,7 @@
     },
     {
       "name": "pop",
-      "at": 2.243,
+      "at": 2.223,
       "volumeDb": -16
     },
     {
@@ -1560,13 +1565,18 @@
       "volumeDb": -11
     },
     {
+      "name": "whoosh",
+      "at": 3.933,
+      "volumeDb": -19
+    },
+    {
       "name": "pop",
-      "at": 3.973,
+      "at": 5.313,
       "volumeDb": -16
     },
     {
       "name": "pop",
-      "at": 5.293,
+      "at": 7.643,
       "volumeDb": -16
     },
     {
@@ -1621,12 +1631,12 @@
     },
     {
       "name": "pop",
-      "at": 24.883,
+      "at": 24.903,
       "volumeDb": -16
     },
     {
       "name": "pop",
-      "at": 26.767,
+      "at": 26.787,
       "volumeDb": -16
     },
     {
@@ -1636,7 +1646,7 @@
     },
     {
       "name": "pop",
-      "at": 28.737,
+      "at": 28.717,
       "volumeDb": -16
     },
     {

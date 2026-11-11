@@ -46,7 +46,7 @@
       "name": "True peak",
       "ok": true,
       "level": "ok",
-      "detail": "-1.4 dBFS"
+      "detail": "-1.5 dBFS"
     },
     {
       "name": "Silencios residuales (>0.6 s)",
@@ -64,30 +64,25 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 0 ms, p90 |73| ms, 158/172 palabras alineadas"
+      "detail": "mediana 7 ms, p90 |107| ms, 156/172 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
-      "ok": true,
-      "level": "ok",
-      "detail": "14 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "ok": false,
+      "level": "warn",
+      "detail": "16 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 158,
+    "matched": 156,
     "total": 172,
-    "medianOffset": 0,
-    "p90AbsOffset": 0.07299999999999995,
+    "medianOffset": 0.006999999999997897,
+    "p90AbsOffset": 0.10699999999999932,
     "mismatches": [
       {
         "at": 3.233,
         "caption": "Eso",
         "heard": "No sé si es falso,"
-      },
-      {
-        "at": 4.5,
-        "caption": "del",
-        "heard": "reglamento de colegio,"
       },
       {
         "at": 9.79,
@@ -97,7 +92,7 @@
       {
         "at": 19.047,
         "caption": "comprometieron",
-        "heard": "papás se decidieron al firmar."
+        "heard": "papás se despedieron al firmar."
       },
       {
         "at": 22.767,
@@ -112,7 +107,7 @@
       {
         "at": 24.953,
         "caption": "prohíben",
-        "heard": "que si te prueben entrar"
+        "heard": "que si te pude entrar"
       },
       {
         "at": 29.567,
@@ -130,9 +125,19 @@
         "heard": "que están en arreglamento."
       },
       {
+        "at": 31.907,
+        "caption": "al",
+        "heard": "tu derecho libre de"
+      },
+      {
         "at": 34.05,
         "caption": "Indecopi",
-        "heard": "Y sí, Inecopi"
+        "heard": "Y sí, Inocopi"
+      },
+      {
+        "at": 38.367,
+        "caption": "tus",
+        "heard": "vulneren tu derecho."
       },
       {
         "at": 39.96,
@@ -145,6 +150,11 @@
         "heard": "de edad. a la"
       },
       {
+        "at": 42.16,
+        "caption": "al",
+        "heard": "Constitución a Reglamento."
+      },
+      {
         "at": 43.44,
         "caption": "sigue",
         "heard": "Así que siga a vocare"
@@ -154,7 +164,7 @@
   "loudness": {
     "integratedLufs": -14.1,
     "lra": 3.5,
-    "truePeakDb": -1.4
+    "truePeakDb": -1.5
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/video-4/video-4-preview.mp4"
 }

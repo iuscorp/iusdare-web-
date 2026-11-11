@@ -2,7 +2,7 @@
  "model": "small",
  "language": "es",
  "duration": 46.784,
- "text": "Te dijeron que sí pueden prohibirte maquillarte por el reglamento del colegio. No sé si es falso, ni el reglamento de colegio, ni el acuerdo que puedan haber firmado tus papás en la matrícula que están por encima de la Constitución. ¿Por qué existen las…? Si existe la supremacía constitucional, eso quiere decir que la constitución es la norma más alta de todas. Ninguna norma y mucho menos un reglamento interno pueda contradicirla. Pero mis papás se decidieron al firmar. Bueno, sí. Bueno, sí, firmaron, pero no es válido al ser una ranuncia de derechos fundamentales. Así que si te prueben entrar al colegio, por llevar el cabello pintado o maquillaje y te dicen es que están en arreglamento. El reglamento sigue vulnerando tu derecho al libre desarrollo de la personalidad. Y sí, Inecopi ya lo dejó claro, los colegios pueden tener reglas de presentación, siempre y cuando no vulneren tus derechos. Así que el reglamento de edad. De adaptarlos a la Constitución. No a la Constitución al reglamento. Así que siga a vocare Iuris y guarda este video. No sabes cuándo puede necesitarlo.",
+ "text": "Te dijeron que sí pueden prohibirte maquillarte por el reglamento del colegio. No sé si es falso, ni el reglamento del colegio, ni el acuerdo que os puedan haber firmado tus papás en la matrícula que están por encima de la Constitución. ¿Por qué existen las... Si existe la supremacía constitucional, eso quiere decir que la constitución es la norma más alta de todas. Ninguna norma y mucho menos un reglamento interno pueda contradicirla. Pero mis papás se despedieron al firmar. Bueno, sí. Bueno, sí, firmaron, pero no es válido al ser una ranuncia de derechos fundamentales. Así que si te pude entrar al colegio, por llevar el cabello pintado o maquillaje y te dicen es que están en arreglamento. El reglamento sigue vulnerando tu derecho libre de desarrollo de la personalidad. Y sí, Inocopi ya lo dejó claro, los colegios pueden tener reglas de presentación, siempre y cuando no vulneren tu derecho. Así que el reglamento de edad. De adaptarlos a la Constitución. No la Constitución a Reglamento. Así que siga a vocare Iuris y guarda este video. No sabes cuándo puede necesitarlo.",
  "segments": [
   {
    "start": 0.0,
@@ -12,12 +12,12 @@
   {
    "start": 3.22,
    "end": 9.78,
-   "text": "No sé si es falso, ni el reglamento de colegio, ni el acuerdo que puedan haber firmado tus papás en la matrícula que están por encima de la Constitución."
+   "text": "No sé si es falso, ni el reglamento del colegio, ni el acuerdo que os puedan haber firmado tus papás en la matrícula que están por encima de la Constitución."
   },
   {
    "start": 9.82,
    "end": 10.48,
-   "text": "¿Por qué existen las…?"
+   "text": "¿Por qué existen las..."
   },
   {
    "start": 10.0,
@@ -26,7 +26,7 @@
   },
   {
    "start": 11.8,
-   "end": 14.62,
+   "end": 14.64,
    "text": "eso quiere decir que la constitución es la norma más alta de todas."
   },
   {
@@ -37,7 +37,7 @@
   {
    "start": 18.4,
    "end": 19.86,
-   "text": "Pero mis papás se decidieron al firmar."
+   "text": "Pero mis papás se despedieron al firmar."
   },
   {
    "start": 19.96,
@@ -51,28 +51,28 @@
   },
   {
    "start": 24.36,
-   "end": 28.78,
-   "text": "Así que si te prueben entrar al colegio, por llevar el cabello pintado o maquillaje y te"
+   "end": 29.14,
+   "text": "Así que si te pude entrar al colegio, por llevar el cabello pintado o maquillaje y te dicen"
   },
   {
-   "start": 28.78,
+   "start": 29.14,
    "end": 30.38,
-   "text": "dicen es que están en arreglamento."
+   "text": "es que están en arreglamento."
   },
   {
    "start": 30.0,
    "end": 33.6,
-   "text": "El reglamento sigue vulnerando tu derecho al libre desarrollo de la personalidad."
+   "text": "El reglamento sigue vulnerando tu derecho libre de desarrollo de la personalidad."
   },
   {
    "start": 33.76,
-   "end": 37.5,
-   "text": "Y sí, Inecopi ya lo dejó claro, los colegios pueden tener reglas de presentación, siempre"
+   "end": 37.52,
+   "text": "Y sí, Inocopi ya lo dejó claro, los colegios pueden tener reglas de presentación, siempre"
   },
   {
-   "start": 37.5,
-   "end": 38.86,
-   "text": "y cuando no vulneren tus derechos."
+   "start": 37.52,
+   "end": 38.82,
+   "text": "y cuando no vulneren tu derecho."
   },
   {
    "start": 38.92,
@@ -87,7 +87,7 @@
   {
    "start": 41.52,
    "end": 42.96,
-   "text": "No a la Constitución al reglamento."
+   "text": "No la Constitución a Reglamento."
   },
   {
    "start": 43.1,
@@ -105,145 +105,145 @@
    "w": "Te",
    "s": 0.0,
    "e": 0.1,
-   "p": 0.304
+   "p": 0.276
   },
   {
    "w": "dijeron",
    "s": 0.1,
    "e": 0.38,
-   "p": 0.943
+   "p": 0.939
   },
   {
    "w": "que",
    "s": 0.38,
    "e": 0.5,
-   "p": 0.977
+   "p": 0.971
   },
   {
    "w": "sí",
    "s": 0.5,
    "e": 0.66,
-   "p": 0.696
+   "p": 0.683
   },
   {
    "w": "pueden",
    "s": 0.66,
-   "e": 0.94,
-   "p": 0.85
+   "e": 0.92,
+   "p": 0.864
   },
   {
    "w": "prohibirte",
-   "s": 0.94,
+   "s": 0.92,
    "e": 1.38,
-   "p": 0.956
+   "p": 0.95
   },
   {
    "w": "maquillarte",
    "s": 1.38,
    "e": 1.88,
-   "p": 0.96
+   "p": 0.965
   },
   {
    "w": "por",
    "s": 1.88,
    "e": 2.1,
-   "p": 0.963
+   "p": 0.967
   },
   {
    "w": "el",
    "s": 2.1,
    "e": 2.22,
-   "p": 0.983
+   "p": 0.96
   },
   {
    "w": "reglamento",
    "s": 2.22,
    "e": 2.58,
-   "p": 0.975
+   "p": 0.97
   },
   {
    "w": "del",
    "s": 2.58,
    "e": 2.7,
-   "p": 0.914
+   "p": 0.904
   },
   {
    "w": "colegio.",
    "s": 2.7,
    "e": 3.22,
-   "p": 0.961
+   "p": 0.964
   },
   {
    "w": "No",
    "s": 3.22,
    "e": 3.3,
-   "p": 0.353
+   "p": 0.279
   },
   {
    "w": "sé",
    "s": 3.3,
    "e": 3.4,
-   "p": 0.513
+   "p": 0.526
   },
   {
    "w": "si",
    "s": 3.4,
    "e": 3.52,
-   "p": 0.325
+   "p": 0.298
   },
   {
    "w": "es",
    "s": 3.52,
    "e": 3.52,
-   "p": 0.959
+   "p": 0.962
   },
   {
    "w": "falso,",
    "s": 3.52,
    "e": 3.86,
-   "p": 0.966
+   "p": 0.957
   },
   {
    "w": "ni",
    "s": 3.92,
    "e": 4.0,
-   "p": 0.913
+   "p": 0.906
   },
   {
    "w": "el",
    "s": 4.0,
    "e": 4.08,
-   "p": 0.769
+   "p": 0.805
   },
   {
    "w": "reglamento",
    "s": 4.08,
    "e": 4.56,
-   "p": 0.964
+   "p": 0.979
   },
   {
-   "w": "de",
+   "w": "del",
    "s": 4.56,
    "e": 4.72,
-   "p": 0.508
+   "p": 0.539
   },
   {
    "w": "colegio,",
    "s": 4.72,
    "e": 5.34,
-   "p": 0.994
+   "p": 0.996
   },
   {
    "w": "ni",
    "s": 5.36,
    "e": 5.42,
-   "p": 0.992
+   "p": 0.988
   },
   {
    "w": "el",
    "s": 5.42,
    "e": 5.54,
-   "p": 0.995
+   "p": 0.991
   },
   {
    "w": "acuerdo",
@@ -255,77 +255,83 @@
    "w": "que",
    "s": 5.86,
    "e": 6.08,
-   "p": 0.972
+   "p": 0.948
+  },
+  {
+   "w": "os",
+   "s": 6.08,
+   "e": 6.18,
+   "p": 0.076
   },
   {
    "w": "puedan",
-   "s": 6.08,
+   "s": 6.18,
    "e": 6.34,
-   "p": 0.469
+   "p": 0.742
   },
   {
    "w": "haber",
    "s": 6.34,
    "e": 6.58,
-   "p": 0.991
+   "p": 0.967
   },
   {
    "w": "firmado",
    "s": 6.58,
    "e": 7.0,
-   "p": 0.989
+   "p": 0.982
   },
   {
    "w": "tus",
    "s": 7.0,
    "e": 7.16,
-   "p": 0.931
+   "p": 0.87
   },
   {
    "w": "papás",
    "s": 7.16,
    "e": 7.48,
-   "p": 0.979
+   "p": 0.982
   },
   {
    "w": "en",
    "s": 7.48,
-   "e": 7.6,
-   "p": 0.97
+   "e": 7.58,
+   "p": 0.969
   },
   {
    "w": "la",
-   "s": 7.6,
+   "s": 7.58,
    "e": 7.66,
-   "p": 0.935
+   "p": 0.95
   },
   {
    "w": "matrícula",
    "s": 7.66,
-   "e": 8.34,
+   "e": 8.32,
    "p": 0.991
   },
   {
    "w": "que",
-   "s": 8.34,
-   "e": 8.4,
-   "p": 0.328
+   "s": 8.32,
+   "e": 8.38,
+   "p": 0.303
   },
   {
    "w": "están",
-   "s": 8.4,
+   "s": 8.38,
    "e": 8.54,
-   "p": 0.99
+   "p": 0.985
   },
   {
    "w": "por",
    "s": 8.54,
-   "e": 8.72,
-   "p": 0.994
+   "e": 8.7,
+   "p": 0.99
   },
   {
    "w": "encima",
-   "s": 8.72,
+   "s": 8.7,
    "e": 8.96,
    "p": 0.997
   },
@@ -333,67 +339,67 @@
    "w": "de",
    "s": 8.96,
    "e": 9.12,
-   "p": 0.996
+   "p": 0.994
   },
   {
    "w": "la",
    "s": 9.12,
    "e": 9.22,
-   "p": 0.996
+   "p": 0.994
   },
   {
    "w": "Constitución.",
    "s": 9.22,
    "e": 9.78,
-   "p": 0.827
+   "p": 0.811
   },
   {
    "w": "¿Por",
    "s": 9.82,
    "e": 9.88,
-   "p": 0.668
+   "p": 0.695
   },
   {
    "w": "qué",
    "s": 9.88,
    "e": 10.02,
-   "p": 0.913
+   "p": 0.919
   },
   {
    "w": "existen",
    "s": 10.02,
    "e": 10.36,
-   "p": 0.808
+   "p": 0.814
   },
   {
-   "w": "las…?",
+   "w": "las...",
    "s": 10.36,
    "e": 10.48,
-   "p": 0.412
+   "p": 0.399
   },
   {
    "w": "la",
    "s": 10.3,
    "e": 10.44,
-   "p": 0.994
+   "p": 0.993
   },
   {
    "w": "supremacía",
    "s": 10.44,
    "e": 10.94,
-   "p": 0.848
+   "p": 0.853
   },
   {
    "w": "constitucional,",
    "s": 10.94,
    "e": 11.62,
-   "p": 0.99
+   "p": 0.991
   },
   {
    "w": "eso",
    "s": 11.8,
    "e": 11.96,
-   "p": 0.885
+   "p": 0.871
   },
   {
    "w": "quiere",
@@ -405,7 +411,7 @@
    "w": "decir",
    "s": 12.14,
    "e": 12.38,
-   "p": 0.999
+   "p": 0.998
   },
   {
    "w": "que",
@@ -417,31 +423,31 @@
    "w": "la",
    "s": 12.52,
    "e": 12.62,
-   "p": 0.984
+   "p": 0.983
   },
   {
    "w": "constitución",
    "s": 12.62,
    "e": 13.18,
-   "p": 0.782
+   "p": 0.754
   },
   {
    "w": "es",
    "s": 13.18,
    "e": 13.34,
-   "p": 0.984
+   "p": 0.989
   },
   {
    "w": "la",
    "s": 13.34,
    "e": 13.44,
-   "p": 0.992
+   "p": 0.991
   },
   {
    "w": "norma",
    "s": 13.44,
    "e": 13.74,
-   "p": 0.986
+   "p": 0.987
   },
   {
    "w": "más",
@@ -453,7 +459,7 @@
    "w": "alta",
    "s": 13.92,
    "e": 14.24,
-   "p": 0.996
+   "p": 0.997
   },
   {
    "w": "de",
@@ -464,36 +470,36 @@
   {
    "w": "todas.",
    "s": 14.42,
-   "e": 14.62,
-   "p": 0.914
+   "e": 14.64,
+   "p": 0.92
   },
   {
    "w": "Ninguna",
    "s": 14.82,
    "e": 15.12,
-   "p": 0.927
+   "p": 0.925
   },
   {
    "w": "norma",
    "s": 15.12,
    "e": 15.6,
-   "p": 0.995
+   "p": 0.996
   },
   {
    "w": "y",
    "s": 15.6,
    "e": 15.7,
-   "p": 0.738
+   "p": 0.717
   },
   {
    "w": "mucho",
    "s": 15.7,
-   "e": 15.92,
-   "p": 0.96
+   "e": 15.94,
+   "p": 0.965
   },
   {
    "w": "menos",
-   "s": 15.92,
+   "s": 15.94,
    "e": 16.14,
    "p": 0.997
   },
@@ -501,65 +507,65 @@
    "w": "un",
    "s": 16.14,
    "e": 16.38,
-   "p": 0.99
+   "p": 0.991
   },
   {
    "w": "reglamento",
    "s": 16.38,
    "e": 16.84,
-   "p": 0.989
+   "p": 0.988
   },
   {
    "w": "interno",
    "s": 16.84,
    "e": 17.32,
-   "p": 0.758
+   "p": 0.806
   },
   {
    "w": "pueda",
    "s": 17.32,
    "e": 17.58,
-   "p": 0.493
+   "p": 0.512
   },
   {
    "w": "contradicirla.",
    "s": 17.58,
    "e": 18.32,
-   "p": 0.676
+   "p": 0.68
   },
   {
    "w": "Pero",
    "s": 18.4,
    "e": 18.5,
-   "p": 0.923
+   "p": 0.917
   },
   {
    "w": "mis",
    "s": 18.5,
    "e": 18.64,
-   "p": 0.918
+   "p": 0.916
   },
   {
    "w": "papás",
    "s": 18.64,
    "e": 18.9,
-   "p": 0.909
+   "p": 0.877
   },
   {
    "w": "se",
    "s": 18.9,
    "e": 18.96,
-   "p": 0.972
+   "p": 0.975
   },
   {
-   "w": "decidieron",
+   "w": "despedieron",
    "s": 18.96,
-   "e": 19.26,
-   "p": 0.525
+   "e": 19.28,
+   "p": 0.6
   },
   {
    "w": "al",
-   "s": 19.26,
+   "s": 19.28,
    "e": 19.4,
    "p": 0.72
   },
@@ -567,31 +573,31 @@
    "w": "firmar.",
    "s": 19.4,
    "e": 19.86,
-   "p": 0.978
+   "p": 0.984
   },
   {
    "w": "Bueno,",
    "s": 19.96,
    "e": 20.16,
-   "p": 0.954
+   "p": 0.944
   },
   {
    "w": "sí.",
    "s": 20.36,
    "e": 20.48,
-   "p": 0.847
+   "p": 0.838
   },
   {
    "w": "sí,",
    "s": 20.38,
    "e": 20.5,
-   "p": 0.881
+   "p": 0.867
   },
   {
    "w": "firmaron,",
    "s": 20.64,
    "e": 21.12,
-   "p": 0.989
+   "p": 0.988
   },
   {
    "w": "pero",
@@ -608,38 +614,38 @@
   {
    "w": "es",
    "s": 21.58,
-   "e": 21.68,
+   "e": 21.66,
    "p": 0.983
   },
   {
    "w": "válido",
-   "s": 21.68,
+   "s": 21.66,
    "e": 22.18,
-   "p": 0.958
+   "p": 0.957
   },
   {
    "w": "al",
    "s": 22.18,
    "e": 22.4,
-   "p": 0.614
+   "p": 0.664
   },
   {
    "w": "ser",
    "s": 22.4,
    "e": 22.58,
-   "p": 0.509
+   "p": 0.568
   },
   {
    "w": "una",
    "s": 22.58,
    "e": 22.76,
-   "p": 0.948
+   "p": 0.956
   },
   {
    "w": "ranuncia",
    "s": 22.76,
    "e": 23.16,
-   "p": 0.666
+   "p": 0.66
   },
   {
    "w": "de",
@@ -651,13 +657,13 @@
    "w": "derechos",
    "s": 23.22,
    "e": 23.48,
-   "p": 0.951
+   "p": 0.954
   },
   {
    "w": "fundamentales.",
    "s": 23.48,
    "e": 24.3,
-   "p": 0.996
+   "p": 0.997
   },
   {
    "w": "Así",
@@ -668,42 +674,42 @@
   {
    "w": "que",
    "s": 24.52,
-   "e": 24.7,
-   "p": 0.992
+   "e": 24.68,
+   "p": 0.993
   },
   {
    "w": "si",
-   "s": 24.7,
+   "s": 24.68,
    "e": 24.8,
-   "p": 0.509
+   "p": 0.483
   },
   {
    "w": "te",
    "s": 24.8,
-   "e": 24.9,
-   "p": 0.987
+   "e": 24.94,
+   "p": 0.988
   },
   {
-   "w": "prueben",
-   "s": 24.9,
-   "e": 25.32,
-   "p": 0.546
+   "w": "pude",
+   "s": 24.94,
+   "e": 25.16,
+   "p": 0.412
   },
   {
    "w": "entrar",
-   "s": 25.32,
-   "e": 25.58,
-   "p": 0.698
+   "s": 25.16,
+   "e": 25.46,
+   "p": 0.571
   },
   {
    "w": "al",
-   "s": 25.58,
-   "e": 25.8,
-   "p": 0.991
+   "s": 25.46,
+   "e": 25.78,
+   "p": 0.986
   },
   {
    "w": "colegio,",
-   "s": 25.8,
+   "s": 25.78,
    "e": 26.32,
    "p": 0.992
   },
@@ -711,145 +717,145 @@
    "w": "por",
    "s": 26.4,
    "e": 26.48,
-   "p": 0.948
+   "p": 0.915
   },
   {
    "w": "llevar",
    "s": 26.48,
    "e": 26.66,
-   "p": 0.604
+   "p": 0.749
   },
   {
    "w": "el",
    "s": 26.66,
-   "e": 26.86,
-   "p": 0.295
+   "e": 26.84,
+   "p": 0.51
   },
   {
    "w": "cabello",
-   "s": 26.86,
+   "s": 26.84,
    "e": 27.16,
-   "p": 0.762
+   "p": 0.788
   },
   {
    "w": "pintado",
    "s": 27.16,
    "e": 27.74,
-   "p": 0.981
+   "p": 0.971
   },
   {
    "w": "o",
    "s": 27.74,
    "e": 27.92,
-   "p": 0.962
+   "p": 0.948
   },
   {
    "w": "maquillaje",
    "s": 27.92,
    "e": 28.5,
-   "p": 0.994
+   "p": 0.993
   },
   {
    "w": "y",
    "s": 28.5,
    "e": 28.66,
-   "p": 0.554
+   "p": 0.559
   },
   {
    "w": "te",
    "s": 28.66,
    "e": 28.78,
-   "p": 0.991
+   "p": 0.987
   },
   {
    "w": "dicen",
    "s": 28.78,
    "e": 29.14,
-   "p": 0.996
+   "p": 0.993
   },
   {
    "w": "es",
    "s": 29.14,
    "e": 29.46,
-   "p": 0.32
+   "p": 0.287
   },
   {
    "w": "que",
    "s": 29.46,
-   "e": 29.58,
-   "p": 0.996
+   "e": 29.56,
+   "p": 0.995
   },
   {
    "w": "están",
-   "s": 29.58,
+   "s": 29.56,
    "e": 29.76,
-   "p": 0.921
+   "p": 0.861
   },
   {
    "w": "en",
    "s": 29.76,
    "e": 29.9,
-   "p": 0.602
+   "p": 0.682
   },
   {
    "w": "arreglamento.",
    "s": 29.9,
    "e": 30.38,
-   "p": 0.76
+   "p": 0.761
   },
   {
    "w": "sigue",
    "s": 30.52,
    "e": 30.96,
-   "p": 0.921
+   "p": 0.918
   },
   {
    "w": "vulnerando",
    "s": 30.96,
    "e": 31.48,
-   "p": 0.986
+   "p": 0.985
   },
   {
    "w": "tu",
    "s": 31.48,
    "e": 31.64,
-   "p": 0.912
+   "p": 0.915
   },
   {
    "w": "derecho",
    "s": 31.64,
    "e": 31.9,
-   "p": 0.922
-  },
-  {
-   "w": "al",
-   "s": 31.9,
-   "e": 32.1,
-   "p": 0.37
+   "p": 0.909
   },
   {
    "w": "libre",
-   "s": 32.1,
+   "s": 31.9,
    "e": 32.24,
-   "p": 0.426
+   "p": 0.356
+  },
+  {
+   "w": "de",
+   "s": 32.24,
+   "e": 32.38,
+   "p": 0.411
   },
   {
    "w": "desarrollo",
-   "s": 32.24,
+   "s": 32.38,
    "e": 32.66,
-   "p": 0.994
+   "p": 0.991
   },
   {
    "w": "de",
    "s": 32.66,
-   "e": 32.86,
-   "p": 0.996
+   "e": 32.84,
+   "p": 0.981
   },
   {
    "w": "la",
-   "s": 32.86,
+   "s": 32.84,
    "e": 32.94,
-   "p": 0.984
+   "p": 0.982
   },
   {
    "w": "personalidad.",
@@ -861,37 +867,37 @@
    "w": "Y",
    "s": 33.76,
    "e": 33.78,
-   "p": 0.742
+   "p": 0.777
   },
   {
    "w": "sí,",
    "s": 33.78,
    "e": 33.94,
-   "p": 0.602
+   "p": 0.562
   },
   {
-   "w": "Inecopi",
+   "w": "Inocopi",
    "s": 34.12,
    "e": 34.52,
-   "p": 0.414
+   "p": 0.5
   },
   {
    "w": "ya",
    "s": 34.52,
    "e": 34.6,
-   "p": 0.488
+   "p": 0.446
   },
   {
    "w": "lo",
    "s": 34.6,
    "e": 34.7,
-   "p": 0.994
+   "p": 0.993
   },
   {
    "w": "dejó",
    "s": 34.7,
    "e": 34.92,
-   "p": 0.951
+   "p": 0.937
   },
   {
    "w": "claro,",
@@ -903,19 +909,19 @@
    "w": "los",
    "s": 35.34,
    "e": 35.38,
-   "p": 0.953
+   "p": 0.94
   },
   {
    "w": "colegios",
    "s": 35.38,
    "e": 35.8,
-   "p": 0.996
+   "p": 0.995
   },
   {
    "w": "pueden",
    "s": 35.8,
    "e": 36.04,
-   "p": 0.974
+   "p": 0.97
   },
   {
    "w": "tener",
@@ -927,7 +933,7 @@
    "w": "reglas",
    "s": 36.32,
    "e": 36.6,
-   "p": 0.949
+   "p": 0.946
   },
   {
    "w": "de",
@@ -939,17 +945,17 @@
    "w": "presentación,",
    "s": 36.68,
    "e": 37.26,
-   "p": 0.947
+   "p": 0.959
   },
   {
    "w": "siempre",
    "s": 37.34,
-   "e": 37.5,
-   "p": 0.954
+   "e": 37.52,
+   "p": 0.95
   },
   {
    "w": "y",
-   "s": 37.5,
+   "s": 37.52,
    "e": 37.6,
    "p": 0.988
   },
@@ -957,7 +963,7 @@
    "w": "cuando",
    "s": 37.6,
    "e": 37.8,
-   "p": 0.917
+   "p": 0.915
   },
   {
    "w": "no",
@@ -969,65 +975,65 @@
    "w": "vulneren",
    "s": 38.02,
    "e": 38.38,
-   "p": 0.889
+   "p": 0.888
   },
   {
-   "w": "tus",
+   "w": "tu",
    "s": 38.38,
-   "e": 38.5,
-   "p": 0.552
+   "e": 38.48,
+   "p": 0.411
   },
   {
-   "w": "derechos.",
-   "s": 38.5,
-   "e": 38.86,
-   "p": 0.991
+   "w": "derecho.",
+   "s": 38.48,
+   "e": 38.82,
+   "p": 0.99
   },
   {
    "w": "Así",
    "s": 38.92,
    "e": 39.1,
-   "p": 0.934
+   "p": 0.925
   },
   {
    "w": "que",
    "s": 39.1,
    "e": 39.34,
-   "p": 0.993
+   "p": 0.991
   },
   {
    "w": "el",
    "s": 39.34,
    "e": 39.5,
-   "p": 0.492
+   "p": 0.484
   },
   {
    "w": "reglamento",
    "s": 39.5,
    "e": 39.96,
-   "p": 0.995
+   "p": 0.996
   },
   {
    "w": "de",
    "s": 39.96,
    "e": 40.18,
-   "p": 0.833
+   "p": 0.825
   },
   {
    "w": "edad.",
    "s": 40.18,
    "e": 40.42,
-   "p": 0.887
+   "p": 0.868
   },
   {
    "w": "a",
    "s": 40.66,
-   "e": 40.74,
-   "p": 0.993
+   "e": 40.76,
+   "p": 0.991
   },
   {
    "w": "la",
-   "s": 40.74,
+   "s": 40.76,
    "e": 40.82,
    "p": 0.991
   },
@@ -1035,109 +1041,103 @@
    "w": "Constitución.",
    "s": 40.82,
    "e": 41.42,
-   "p": 0.818
+   "p": 0.816
   },
   {
    "w": "No",
    "s": 41.52,
    "e": 41.6,
-   "p": 0.847
-  },
-  {
-   "w": "a",
-   "s": 41.6,
-   "e": 41.72,
-   "p": 0.337
+   "p": 0.858
   },
   {
    "w": "la",
-   "s": 41.72,
-   "e": 41.74,
-   "p": 0.955
+   "s": 41.6,
+   "e": 41.72,
+   "p": 0.42
   },
   {
    "w": "Constitución",
-   "s": 41.74,
+   "s": 41.72,
    "e": 42.34,
-   "p": 0.99
+   "p": 0.972
   },
   {
-   "w": "al",
+   "w": "a",
    "s": 42.34,
-   "e": 42.46,
-   "p": 0.439
+   "e": 42.44,
+   "p": 0.318
   },
   {
-   "w": "reglamento.",
-   "s": 42.46,
+   "w": "Reglamento.",
+   "s": 42.44,
    "e": 42.96,
-   "p": 0.785
+   "p": 0.719
   },
   {
    "w": "Así",
    "s": 43.1,
    "e": 43.26,
-   "p": 0.974
+   "p": 0.975
   },
   {
    "w": "que",
    "s": 43.26,
    "e": 43.44,
-   "p": 0.993
+   "p": 0.991
   },
   {
    "w": "siga",
    "s": 43.44,
    "e": 43.72,
-   "p": 0.708
+   "p": 0.712
   },
   {
    "w": "a",
    "s": 43.72,
    "e": 43.76,
-   "p": 0.385
+   "p": 0.352
   },
   {
    "w": "vocare",
    "s": 43.76,
-   "e": 44.02,
-   "p": 0.074
+   "e": 44.0,
+   "p": 0.071
   },
   {
    "w": "Iuris",
-   "s": 44.02,
+   "s": 44.0,
    "e": 44.4,
-   "p": 0.487
+   "p": 0.465
   },
   {
    "w": "y",
    "s": 44.4,
    "e": 44.5,
-   "p": 0.485
+   "p": 0.507
   },
   {
    "w": "guarda",
    "s": 44.5,
    "e": 44.74,
-   "p": 0.854
+   "p": 0.849
   },
   {
    "w": "este",
    "s": 44.74,
    "e": 44.84,
-   "p": 0.97
+   "p": 0.973
   },
   {
    "w": "video.",
    "s": 44.84,
    "e": 45.12,
-   "p": 0.724
+   "p": 0.744
   },
   {
    "w": "No",
    "s": 45.26,
    "e": 45.3,
-   "p": 0.95
+   "p": 0.945
   },
   {
    "w": "sabes",
@@ -1149,19 +1149,19 @@
    "w": "cuándo",
    "s": 45.5,
    "e": 45.92,
-   "p": 0.948
+   "p": 0.942
   },
   {
    "w": "puede",
    "s": 45.92,
    "e": 46.08,
-   "p": 0.486
+   "p": 0.516
   },
   {
    "w": "necesitarlo.",
    "s": 46.08,
    "e": 46.72,
-   "p": 0.986
+   "p": 0.988
   }
  ]
 }
