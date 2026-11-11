@@ -49,6 +49,16 @@ def main() -> None:
     img = Image.open(a.input).convert("RGB")
     m = mask(img, a.model)
     m = np.where(m > 20, m, 0).astype(np.uint8)
+    # sólo el objeto principal: se descartan islas pequeñas sueltas (< 12 % de la mayor)
+    import cv2
+
+    n, lab, stats, _ = cv2.connectedComponentsWithStats((m > 128).astype(np.uint8), connectivity=8)
+    if n > 2:
+        areas = stats[1:, cv2.CC_STAT_AREA]
+        keep = [i + 1 for i, a in enumerate(areas) if a >= 0.12 * areas.max()]
+        solid = np.isin(lab, keep).astype(np.uint8)
+        solid = cv2.dilate(solid, np.ones((9, 9), np.uint8))
+        m = (m * solid).astype(np.uint8)
     rgba = img.convert("RGBA")
     rgba.putalpha(Image.fromarray(m))
     ys, xs = np.nonzero(m > 128)

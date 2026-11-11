@@ -10,7 +10,7 @@
       "name": "Bitrate de video",
       "ok": true,
       "level": "ok",
-      "detail": "7.8 Mbps"
+      "detail": "7.7 Mbps"
     },
     {
       "name": "Espacio de color",
@@ -46,7 +46,7 @@
       "name": "True peak",
       "ok": true,
       "level": "ok",
-      "detail": "-1.5 dBFS"
+      "detail": "-1.4 dBFS"
     },
     {
       "name": "Silencios residuales (>0.6 s)",
@@ -64,30 +64,40 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 0 ms, p90 |80| ms, 159/172 palabras alineadas"
+      "detail": "mediana 0 ms, p90 |73| ms, 158/172 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
       "ok": true,
       "level": "ok",
-      "detail": "13 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "detail": "14 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 159,
+    "matched": 158,
     "total": 172,
     "medianOffset": 0,
-    "p90AbsOffset": 0.0799999999999983,
+    "p90AbsOffset": 0.07299999999999995,
     "mismatches": [
+      {
+        "at": 3.233,
+        "caption": "Eso",
+        "heard": "No sé si es falso,"
+      },
       {
         "at": 4.5,
         "caption": "del",
         "heard": "reglamento de colegio,"
       },
       {
+        "at": 9.79,
+        "caption": "Porque",
+        "heard": "¿Por qué existen"
+      },
+      {
         "at": 19.047,
         "caption": "comprometieron",
-        "heard": "papás se despedieron al firmar."
+        "heard": "papás se decidieron al firmar."
       },
       {
         "at": 22.767,
@@ -102,27 +112,27 @@
       {
         "at": 24.953,
         "caption": "prohíben",
-        "heard": "que si te pueden entrar"
+        "heard": "que si te prueben entrar"
       },
       {
         "at": 29.567,
         "caption": "está",
-        "heard": "es que están de reglamento."
-      },
-      {
-        "at": 29.727,
-        "caption": "en",
-        "heard": "que están de reglamento."
+        "heard": "es que están en arreglamento."
       },
       {
         "at": 29.847,
         "caption": "el",
-        "heard": "que están de reglamento."
+        "heard": "que están en arreglamento."
+      },
+      {
+        "at": 29.907,
+        "caption": "reglamento",
+        "heard": "que están en arreglamento."
       },
       {
         "at": 34.05,
         "caption": "Indecopi",
-        "heard": "Y sí, Inocopi"
+        "heard": "Y sí, Inecopi"
       },
       {
         "at": 39.96,
@@ -135,11 +145,6 @@
         "heard": "de edad. a la"
       },
       {
-        "at": 42.16,
-        "caption": "al",
-        "heard": "la Constitución a Reglamento."
-      },
-      {
         "at": 43.44,
         "caption": "sigue",
         "heard": "Así que siga a vocare"
@@ -149,7 +154,7 @@
   "loudness": {
     "integratedLufs": -14.1,
     "lra": 3.5,
-    "truePeakDb": -1.5
+    "truePeakDb": -1.4
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/video-4/video-4-preview.mp4"
 }

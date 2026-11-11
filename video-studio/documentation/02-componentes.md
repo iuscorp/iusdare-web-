@@ -39,6 +39,7 @@ tiempos de `captions`, `overlays`, `sfx` = segundos de la **edición final**.
 | `documentCover` | `image`, `label` | REF | Mostrar el código/ley físico |
 | `logoBadge` | `image`, `label` | REF | Institución citada (Indecopi, SBS, SUNAFIL) |
 | `photoCard` | `image`, `rotate`, `w`, `h`, `label`, `credit` | REF | Ejemplo visual concreto (foto con marco blanco, zoom lento, etiqueta amarilla) |
+| `cutout` | `image` (PNG), `w`, `rotate`, `label` | REC | Foto SIN FONDO estilo sticker (preferida por el equipo) — `scripts/cutout.py <foto> <salida.png>` |
 | `lawPage` | `source`, `heading`, `body` (`**resaltado**`), `highlightAt` | REC | La norma impresa con resaltador sincronizado: prueba visual |
 | `backgroundPlate` | `image` | REF* | Contexto en la pared (*sin recorte de persona: franja superior) |
 | `bigLetter` | `text` | REF | Variante de una sola letra/palabra gigante |

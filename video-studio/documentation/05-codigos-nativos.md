@@ -51,7 +51,7 @@ públicos** y este estudio no los inventa.
 4. **Máximo 1** crash zoom, 1 título de revelación, 1 palabra cinética por video.
 5. El tono es cercano y profesional: emojis como actores/emociones, no como decoración.
 
-6. **Fotos de ejemplo**: sólo con licencia libre (Openverse / Wikimedia Commons, CC BY / CC BY-SA / CC0),
+6. **Fotos de ejemplo SIN FONDO** (preferencia del equipo): recorte tipo sticker con borde blanco (`cutout`, generado con `scripts/cutout.py` / BiRefNet-lite, MIT). Elegir fotos de UN objeto entero (esposas, maletín, plato, labiales…), no escenas. Fotos: sólo con licencia libre (Openverse / Wikimedia Commons, CC BY / CC BY-SA / CC0),
    guardadas en `public/footage/<slug>/photos/` (no se suben al repo) y con su crédito en
    `projects/<slug>/photo-credits.json` → los créditos van en la descripción de la publicación.
 7. **Normas impresas (`lawPage`)**: el texto es el literal de la norma (fuente oficial), nunca la
