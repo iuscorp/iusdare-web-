@@ -1,0 +1,1242 @@
+{
+  "meta": {
+    "slug": "2026-11-contrato-vesting",
+    "title": "Contrato de vesting: qué es y por qué lo usan las startups",
+    "format": "vertical",
+    "fps": 30,
+    "status": "canvas"
+  },
+  "sources": {
+    "main": "footage/raw/2026-11-contrato-vesting/main.mp4"
+  },
+  "story": {
+    "problem": "Founders y empresas en crecimiento reparten participación sin condiciones de permanencia o desempeño.",
+    "whyItMatters": "El vesting es hoy una herramienta estándar en startups, corporate y venture capital: los inversionistas la esperan.",
+    "riskOrOpportunity": "Sin vesting, un socio que se va pronto conserva toda su participación (riesgo societario).",
+    "openQuestion": "¿Qué es exactamente un contrato de vesting y cómo funciona?",
+    "payoff": "La participación se adquiere de forma gradual, condicionada a permanencia, desempeño e hitos.",
+    "cta": "Revoredo estructura estos contratos: ¡Escríbenos! · Tenemos una conversación pendiente."
+  },
+  "layout": {
+    "faceTop": 0.26,
+    "faceBottom": 0.45,
+    "backdrop": "light"
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 0.0,
+      "out": 3.52,
+      "role": "hook",
+      "purpose": "Pregunta que define el tema y al público (startups)",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1.04
+      },
+      "nativeCodes": [
+        "hook",
+        "punch-in",
+        "strategic-text"
+      ],
+      "rationale": "Plano cerrado + título “Contrato de vesting”: en 1 s se sabe de qué trata y para quién.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S02",
+      "in": 38.34,
+      "out": 46.98,
+      "role": "context",
+      "purpose": "Por qué importa hoy: herramienta clave en startups, corporate y venture capital",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "open-loop",
+        "pattern-interrupt",
+        "scale-change"
+      ],
+      "rationale": "Se adelanta la relevancia (estaba en el seg. 38): primero el “por qué me importa”, luego la definición.",
+      "transitionIn": "flash"
+    },
+    {
+      "id": "S03",
+      "in": 3.94,
+      "out": 10.32,
+      "role": "development",
+      "purpose": "Definición: adquisición progresiva de participación",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "strategic-text",
+        "scale-change"
+      ],
+      "rationale": "Definición con texto de apoyo “participación progresiva”.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S04",
+      "in": 10.46,
+      "out": 14.96,
+      "role": "development",
+      "purpose": "Qué se adquiere: acciones o beneficios en un periodo",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "B-roll de mercado/acciones ilustra “acciones o beneficios”.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S05",
+      "in": 16.42,
+      "out": 19.58,
+      "role": "reveal",
+      "purpose": "La clave: no se obtiene de inmediato",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1.05
+      },
+      "nativeCodes": [
+        "reveal",
+        "punch-in",
+        "strategic-text"
+      ],
+      "rationale": "Se omite “En otras palabras” y se va directo a la idea clave con acercamiento.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S06",
+      "in": 19.6,
+      "out": 27.08,
+      "role": "resolution",
+      "purpose": "Condiciones: permanencia, desempeño, hitos",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "payoff",
+        "strategic-text",
+        "pattern-interrupt"
+      ],
+      "rationale": "B-roll de planificación en “gradual” y luego la lista de condiciones al ritmo de la voz.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S07",
+      "in": 27.08,
+      "out": 31.34,
+      "role": "development",
+      "purpose": "Dónde se usa: startups",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "scale-change",
+        "rhythm-change"
+      ],
+      "rationale": "Cambio de bloque marcado con línea dorada; plano cerrado.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S08",
+      "in": 31.7,
+      "out": 35.04,
+      "role": "development",
+      "purpose": "Empresas en crecimiento y founders",
+      "framing": {
+        "preset": "wide",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "B-roll de socios reunidos en “relaciones entre founders”.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S09",
+      "in": 35.56,
+      "out": 38.14,
+      "role": "development",
+      "purpose": "Programas de incentivos",
+      "framing": {
+        "preset": "wide",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "match-cut"
+      ],
+      "rationale": "Se elimina “de trabajo” (error de dicción); el B-roll cubre el corte.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S10",
+      "in": 47.18,
+      "out": 55.56,
+      "role": "cta",
+      "purpose": "Qué hace Revoredo: derecho corporativo y estructuración contractual",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "retention-loop",
+        "strategic-text"
+      ],
+      "rationale": "Traslado al servicio; B-roll de firma en “estructura contractual”.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S11",
+      "in": 55.56,
+      "out": 58.68,
+      "role": "cta",
+      "purpose": "Prevención de riesgos",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "payoff",
+        "scale-change"
+      ],
+      "rationale": "Beneficio concreto para el cliente.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S12",
+      "in": 58.74,
+      "out": 61.6,
+      "role": "cta",
+      "purpose": "Protección de relaciones societarias",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "scale-change"
+      ],
+      "rationale": "El cambio de escala disimula el salto que trae el raw en 58.7 s.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S13",
+      "in": 61.78,
+      "out": 62.42,
+      "role": "cta",
+      "purpose": "¡Escríbenos!",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "retention-loop"
+      ],
+      "rationale": "Llamado directo antes del end card.",
+      "transitionIn": "cut"
+    }
+  ],
+  "graphics": [
+    {
+      "id": "G01",
+      "component": "StrategicText",
+      "start": 0.1,
+      "end": 3.48,
+      "function": "retencion",
+      "props": {
+        "kicker": "Startups",
+        "text": "Contrato de vesting",
+        "emphasis": "vesting",
+        "size": "headline"
+      },
+      "rationale": "Título del tema en el hook: identifica el contenido de inmediato."
+    },
+    {
+      "id": "G02",
+      "component": "StrategicText",
+      "start": 7.7,
+      "end": 10.3,
+      "function": "comprension",
+      "props": {
+        "text": "Participación progresiva",
+        "emphasis": "progresiva"
+      },
+      "rationale": "Sintetiza la definición en dos palabras."
+    },
+    {
+      "id": "G03",
+      "component": "StrategicText",
+      "start": 16.5,
+      "end": 19.56,
+      "function": "enfasis",
+      "props": {
+        "kicker": "La clave",
+        "text": "No se obtiene de inmediato",
+        "emphasis": "de inmediato"
+      },
+      "rationale": "Fija la idea central del vesting."
+    },
+    {
+      "id": "G04",
+      "component": "KeyPoints",
+      "start": 22.5,
+      "end": 27.06,
+      "function": "comprension",
+      "props": {
+        "title": "Condiciones",
+        "items": [
+          "Permanencia",
+          "Desempeño",
+          "Hitos específicos"
+        ],
+        "mode": "number",
+        "revealAt": [
+          1.12,
+          2.26,
+          3.3
+        ]
+      },
+      "rationale": "Los tres criterios aparecen cuando se nombran."
+    },
+    {
+      "id": "G05",
+      "component": "AccentLine",
+      "start": 27.1,
+      "end": 28.0,
+      "function": "retencion",
+      "props": {
+        "y": 0.56
+      },
+      "rationale": "Marca el paso de “qué es” a “dónde se usa”."
+    },
+    {
+      "id": "G06",
+      "component": "StrategicText",
+      "start": 47.24,
+      "end": 49.88,
+      "function": "comprension",
+      "props": {
+        "kicker": "Revoredo Abogados",
+        "text": "Derecho corporativo y contractual",
+        "emphasis": "contractual"
+      },
+      "rationale": "Nombra el servicio mientras se menciona."
+    },
+    {
+      "id": "G07",
+      "component": "KeyPoints",
+      "start": 55.62,
+      "end": 61.56,
+      "function": "comprension",
+      "props": {
+        "title": "Te acompañamos en",
+        "items": [
+          "Prevenir riesgos",
+          "Proteger relaciones societarias"
+        ],
+        "mode": "check",
+        "revealAt": [
+          1.86,
+          3.56
+        ]
+      },
+      "rationale": "Beneficios concretos como cierre de valor."
+    }
+  ],
+  "broll": [
+    {
+      "id": "B01",
+      "start": 38.4,
+      "end": 41.1,
+      "src": "b-roll/library/cv-equipo-coworking-startup.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "Actualmente los contratos de vesting se han convertido…",
+      "concept": "Ecosistema startup",
+      "function": "Contextualizar: el público ve su propio entorno (equipo fundador).",
+      "description": "Equipo joven trabajando en coworking, vista cenital",
+      "searchQuery": "",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-equipo-coworking-startup",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado",
+      "grade": "none"
+    },
+    {
+      "id": "B02",
+      "start": 44.1,
+      "end": 46.96,
+      "src": "b-roll/library/cv-ejecutivos-pantalla-graficos.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "…startups, corporate y venture capital",
+      "concept": "Inversión / venture capital",
+      "function": "Representar el mundo inversor que exige vesting.",
+      "description": "Dos ejecutivos frente a pantalla con gráficos de mercado",
+      "searchQuery": "",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-ejecutivos-pantalla-graficos",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado",
+      "grade": "none"
+    },
+    {
+      "id": "B03",
+      "start": 10.5,
+      "end": 12.62,
+      "src": "b-roll/library/cv-analista-trading-pantalla.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "acciones o beneficios dentro de una empresa",
+      "concept": "Acciones / participación",
+      "function": "Visualizar “acciones” como activo con valor.",
+      "description": "Analista frente a pantalla con cotizaciones",
+      "searchQuery": "",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-analista-trading-pantalla",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado",
+      "grade": "none"
+    },
+    {
+      "id": "B04",
+      "start": 19.62,
+      "end": 22.46,
+      "src": "b-roll/library/cv-tablet-diagrama-stylus.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "sino de manera gradual y condicionado a ciertos criterios",
+      "concept": "Calendario progresivo / plan",
+      "function": "Representar “gradual y condicionado” como un plan por etapas.",
+      "description": "Mano trazando un diagrama de proceso en tablet",
+      "searchQuery": "",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-tablet-diagrama-stylus",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado",
+      "grade": "none"
+    },
+    {
+      "id": "B05",
+      "start": 33.24,
+      "end": 38.12,
+      "src": "b-roll/library/cv-directivos-reunion-sofa.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "relaciones entre founders, programa de incentivos…",
+      "concept": "Socios fundadores / directivos",
+      "function": "Ilustrar la relación entre socios y cubrir el corte del error de dicción.",
+      "description": "Directivos conversando en sala de reuniones",
+      "searchQuery": "",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-directivos-reunion-sofa",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado",
+      "grade": "none"
+    },
+    {
+      "id": "B06",
+      "start": 49.94,
+      "end": 52.66,
+      "src": "b-roll/library/cv-firma-documento-manos.mp4",
+      "trimStart": 2.0,
+      "layout": "full",
+      "phrase": "derecho corporativo y estructura contractual",
+      "concept": "Contrato / firma",
+      "function": "Reforzar el servicio: el contrato que se firma.",
+      "description": "Manos firmando un documento, plano detalle",
+      "searchQuery": "",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-firma-documento-manos",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado",
+      "grade": "none"
+    }
+  ],
+  "captions": {
+    "enabled": true,
+    "wordsPerGroup": 3,
+    "emphasis": [
+      "vesting",
+      "progresivamente",
+      "inmediato",
+      "permanencia",
+      "desempeño",
+      "hitos",
+      "founders",
+      "Revoredo"
+    ],
+    "words": [
+      {
+        "w": "¿Qué",
+        "s": 0.0,
+        "e": 0.08
+      },
+      {
+        "w": "es",
+        "s": 0.08,
+        "e": 0.26
+      },
+      {
+        "w": "un",
+        "s": 0.26,
+        "e": 0.4
+      },
+      {
+        "w": "contrato",
+        "s": 0.4,
+        "e": 0.8
+      },
+      {
+        "w": "de",
+        "s": 0.8,
+        "e": 1.0
+      },
+      {
+        "w": "vesting",
+        "s": 1.0,
+        "e": 1.36
+      },
+      {
+        "w": "y",
+        "s": 1.36,
+        "e": 1.62
+      },
+      {
+        "w": "por",
+        "s": 1.62,
+        "e": 1.8
+      },
+      {
+        "w": "qué",
+        "s": 1.8,
+        "e": 1.92
+      },
+      {
+        "w": "están",
+        "s": 1.92,
+        "e": 2.14
+      },
+      {
+        "w": "utilizados",
+        "s": 2.14,
+        "e": 2.82
+      },
+      {
+        "w": "en",
+        "s": 2.82,
+        "e": 2.94
+      },
+      {
+        "w": "las",
+        "s": 2.94,
+        "e": 3.08
+      },
+      {
+        "w": "startups?",
+        "s": 3.08,
+        "e": 3.48
+      },
+      {
+        "w": "Los",
+        "s": 3.98,
+        "e": 4.1
+      },
+      {
+        "w": "contratos",
+        "s": 4.1,
+        "e": 4.58
+      },
+      {
+        "w": "de",
+        "s": 4.58,
+        "e": 4.76
+      },
+      {
+        "w": "vesting",
+        "s": 4.76,
+        "e": 5.18
+      },
+      {
+        "w": "son",
+        "s": 5.18,
+        "e": 5.46
+      },
+      {
+        "w": "acuerdos",
+        "s": 5.46,
+        "e": 5.96
+      },
+      {
+        "w": "que",
+        "s": 5.96,
+        "e": 6.16
+      },
+      {
+        "w": "establecen",
+        "s": 6.16,
+        "e": 6.82
+      },
+      {
+        "w": "cómo",
+        "s": 6.82,
+        "e": 7.16
+      },
+      {
+        "w": "una",
+        "s": 7.16,
+        "e": 7.34
+      },
+      {
+        "w": "persona",
+        "s": 7.34,
+        "e": 7.86
+      },
+      {
+        "w": "adquiere",
+        "s": 7.86,
+        "e": 8.38
+      },
+      {
+        "w": "progresivamente",
+        "s": 8.38,
+        "e": 9.24
+      },
+      {
+        "w": "participación,",
+        "s": 9.24,
+        "e": 10.28
+      },
+      {
+        "w": "acciones",
+        "s": 10.5,
+        "e": 11.0
+      },
+      {
+        "w": "o",
+        "s": 11.0,
+        "e": 11.36
+      },
+      {
+        "w": "beneficios",
+        "s": 11.36,
+        "e": 12.0
+      },
+      {
+        "w": "dentro",
+        "s": 12.0,
+        "e": 12.24
+      },
+      {
+        "w": "de",
+        "s": 12.24,
+        "e": 12.5
+      },
+      {
+        "w": "una",
+        "s": 12.5,
+        "e": 12.6
+      },
+      {
+        "w": "empresa",
+        "s": 12.6,
+        "e": 12.94
+      },
+      {
+        "w": "durante",
+        "s": 12.94,
+        "e": 13.38
+      },
+      {
+        "w": "un",
+        "s": 13.38,
+        "e": 13.68
+      },
+      {
+        "w": "periodo",
+        "s": 13.68,
+        "e": 14.14
+      },
+      {
+        "w": "determinado.",
+        "s": 14.14,
+        "e": 14.9
+      },
+      {
+        "w": "En",
+        "s": 15.18,
+        "e": 15.34
+      },
+      {
+        "w": "otras",
+        "s": 15.34,
+        "e": 15.58
+      },
+      {
+        "w": "palabras,",
+        "s": 15.58,
+        "e": 16.04
+      },
+      {
+        "w": "el",
+        "s": 16.46,
+        "e": 16.6
+      },
+      {
+        "w": "acceso",
+        "s": 16.6,
+        "e": 16.9
+      },
+      {
+        "w": "a",
+        "s": 16.9,
+        "e": 17.12
+      },
+      {
+        "w": "esa",
+        "s": 17.12,
+        "e": 17.24
+      },
+      {
+        "w": "participación",
+        "s": 17.24,
+        "e": 18.12
+      },
+      {
+        "w": "no",
+        "s": 18.12,
+        "e": 18.48
+      },
+      {
+        "w": "se",
+        "s": 18.48,
+        "e": 18.6
+      },
+      {
+        "w": "obtiene",
+        "s": 18.6,
+        "e": 18.96
+      },
+      {
+        "w": "de",
+        "s": 18.96,
+        "e": 19.1
+      },
+      {
+        "w": "inmediato,",
+        "s": 19.1,
+        "e": 19.54
+      },
+      {
+        "w": "sino",
+        "s": 19.62,
+        "e": 19.86
+      },
+      {
+        "w": "de",
+        "s": 19.86,
+        "e": 20.08
+      },
+      {
+        "w": "manera",
+        "s": 20.08,
+        "e": 20.38
+      },
+      {
+        "w": "gradual",
+        "s": 20.38,
+        "e": 20.92
+      },
+      {
+        "w": "y",
+        "s": 20.92,
+        "e": 21.24
+      },
+      {
+        "w": "condicionado",
+        "s": 21.24,
+        "e": 22.02
+      },
+      {
+        "w": "a",
+        "s": 22.02,
+        "e": 22.26
+      },
+      {
+        "w": "ciertos",
+        "s": 22.26,
+        "e": 22.6
+      },
+      {
+        "w": "criterios,",
+        "s": 22.6,
+        "e": 23.22
+      },
+      {
+        "w": "como",
+        "s": 23.42,
+        "e": 23.62
+      },
+      {
+        "w": "permanencia,",
+        "s": 23.62,
+        "e": 24.46
+      },
+      {
+        "w": "desempeño",
+        "s": 24.76,
+        "e": 25.46
+      },
+      {
+        "w": "e",
+        "s": 25.46,
+        "e": 25.8
+      },
+      {
+        "w": "hitos",
+        "s": 25.8,
+        "e": 26.2
+      },
+      {
+        "w": "específicos.",
+        "s": 26.2,
+        "e": 27.06
+      },
+      {
+        "w": "Este",
+        "s": 27.06,
+        "e": 27.52
+      },
+      {
+        "w": "tipo",
+        "s": 27.52,
+        "e": 27.86
+      },
+      {
+        "w": "de",
+        "s": 27.86,
+        "e": 28.04
+      },
+      {
+        "w": "contratos",
+        "s": 28.04,
+        "e": 28.64
+      },
+      {
+        "w": "son",
+        "s": 28.64,
+        "e": 29.3
+      },
+      {
+        "w": "muy",
+        "s": 29.3,
+        "e": 29.66
+      },
+      {
+        "w": "utilizados",
+        "s": 29.66,
+        "e": 30.34
+      },
+      {
+        "w": "en",
+        "s": 30.34,
+        "e": 30.66
+      },
+      {
+        "w": "startups,",
+        "s": 30.66,
+        "e": 31.3
+      },
+      {
+        "w": "empresas",
+        "s": 31.76,
+        "e": 32.06
+      },
+      {
+        "w": "en",
+        "s": 32.06,
+        "e": 32.28
+      },
+      {
+        "w": "crecimiento,",
+        "s": 32.28,
+        "e": 32.96
+      },
+      {
+        "w": "relaciones",
+        "s": 33.26,
+        "e": 33.54
+      },
+      {
+        "w": "entre",
+        "s": 33.54,
+        "e": 33.88
+      },
+      {
+        "w": "founders,",
+        "s": 33.88,
+        "e": 34.34
+      },
+      {
+        "w": "programa",
+        "s": 34.7,
+        "e": 35.04
+      },
+      {
+        "w": "de",
+        "s": 35.04,
+        "e": 35.3
+      },
+      {
+        "w": "trabajo",
+        "s": 35.3,
+        "e": 35.56
+      },
+      {
+        "w": "de",
+        "s": 35.56,
+        "e": 35.76
+      },
+      {
+        "w": "incentivos",
+        "s": 35.76,
+        "e": 36.22
+      },
+      {
+        "w": "para",
+        "s": 36.22,
+        "e": 36.48
+      },
+      {
+        "w": "trabajadores",
+        "s": 36.48,
+        "e": 37.18
+      },
+      {
+        "w": "o",
+        "s": 37.18,
+        "e": 37.52
+      },
+      {
+        "w": "directores.",
+        "s": 37.52,
+        "e": 38.1
+      },
+      {
+        "w": "Actualmente,",
+        "s": 38.38,
+        "e": 38.98
+      },
+      {
+        "w": "los",
+        "s": 38.98,
+        "e": 39.18
+      },
+      {
+        "w": "contratos",
+        "s": 39.18,
+        "e": 39.66
+      },
+      {
+        "w": "de",
+        "s": 39.66,
+        "e": 39.84
+      },
+      {
+        "w": "vesting",
+        "s": 39.84,
+        "e": 40.24
+      },
+      {
+        "w": "se",
+        "s": 40.24,
+        "e": 40.46
+      },
+      {
+        "w": "han",
+        "s": 40.46,
+        "e": 40.54
+      },
+      {
+        "w": "convertido",
+        "s": 40.54,
+        "e": 41.1
+      },
+      {
+        "w": "en",
+        "s": 41.1,
+        "e": 41.22
+      },
+      {
+        "w": "herramientas",
+        "s": 41.22,
+        "e": 41.94
+      },
+      {
+        "w": "fundamentales",
+        "s": 41.94,
+        "e": 42.86
+      },
+      {
+        "w": "para",
+        "s": 42.86,
+        "e": 43.24
+      },
+      {
+        "w": "el",
+        "s": 43.24,
+        "e": 43.42
+      },
+      {
+        "w": "ecosistema",
+        "s": 43.42,
+        "e": 44.06
+      },
+      {
+        "w": "de",
+        "s": 44.06,
+        "e": 44.18
+      },
+      {
+        "w": "startups,",
+        "s": 44.18,
+        "e": 44.62
+      },
+      {
+        "w": "corporate",
+        "s": 44.94,
+        "e": 45.36
+      },
+      {
+        "w": "y",
+        "s": 45.36,
+        "e": 45.86
+      },
+      {
+        "w": "de",
+        "s": 45.86,
+        "e": 45.98
+      },
+      {
+        "w": "venture",
+        "s": 45.98,
+        "e": 46.3
+      },
+      {
+        "w": "capital.",
+        "s": 46.3,
+        "e": 46.94
+      },
+      {
+        "w": "En",
+        "s": 47.2,
+        "e": 47.5
+      },
+      {
+        "w": "Revoredo",
+        "s": 47.5,
+        "e": 47.76
+      },
+      {
+        "w": "abogados",
+        "s": 47.92,
+        "e": 48.36
+      },
+      {
+        "w": "brindamos",
+        "s": 48.36,
+        "e": 49.28
+      },
+      {
+        "w": "asesoría",
+        "s": 49.28,
+        "e": 49.94
+      },
+      {
+        "w": "en",
+        "s": 49.94,
+        "e": 50.04
+      },
+      {
+        "w": "derecho",
+        "s": 50.04,
+        "e": 50.28
+      },
+      {
+        "w": "corporativo",
+        "s": 50.28,
+        "e": 50.94
+      },
+      {
+        "w": "y",
+        "s": 50.94,
+        "e": 51.34
+      },
+      {
+        "w": "estructura",
+        "s": 51.34,
+        "e": 51.96
+      },
+      {
+        "w": "contractual",
+        "s": 51.96,
+        "e": 52.62
+      },
+      {
+        "w": "para",
+        "s": 52.62,
+        "e": 52.88
+      },
+      {
+        "w": "startups,",
+        "s": 52.88,
+        "e": 53.46
+      },
+      {
+        "w": "empresas",
+        "s": 53.64,
+        "e": 53.98
+      },
+      {
+        "w": "y",
+        "s": 53.98,
+        "e": 54.32
+      },
+      {
+        "w": "proyectos",
+        "s": 54.32,
+        "e": 54.82
+      },
+      {
+        "w": "en",
+        "s": 54.82,
+        "e": 54.96
+      },
+      {
+        "w": "crecimiento.",
+        "s": 54.96,
+        "e": 55.54
+      },
+      {
+        "w": "acompañando",
+        "s": 55.54,
+        "e": 56.38
+      },
+      {
+        "w": "a",
+        "s": 56.38,
+        "e": 56.48
+      },
+      {
+        "w": "los",
+        "s": 56.48,
+        "e": 56.58
+      },
+      {
+        "w": "clientes",
+        "s": 56.58,
+        "e": 57.24
+      },
+      {
+        "w": "en",
+        "s": 57.24,
+        "e": 57.38
+      },
+      {
+        "w": "la",
+        "s": 57.38,
+        "e": 57.48
+      },
+      {
+        "w": "prevención",
+        "s": 57.48,
+        "e": 58.0
+      },
+      {
+        "w": "de",
+        "s": 58.0,
+        "e": 58.16
+      },
+      {
+        "w": "riesgos",
+        "s": 58.16,
+        "e": 58.66
+      },
+      {
+        "w": "y",
+        "s": 58.66,
+        "e": 59.02
+      },
+      {
+        "w": "la",
+        "s": 59.02,
+        "e": 59.18
+      },
+      {
+        "w": "protección",
+        "s": 59.18,
+        "e": 59.88
+      },
+      {
+        "w": "de",
+        "s": 59.88,
+        "e": 60.12
+      },
+      {
+        "w": "sus",
+        "s": 60.12,
+        "e": 60.32
+      },
+      {
+        "w": "relaciones",
+        "s": 60.32,
+        "e": 60.86
+      },
+      {
+        "w": "societarias.",
+        "s": 60.86,
+        "e": 61.54
+      },
+      {
+        "w": "¡Escríbenos!",
+        "s": 61.82,
+        "e": 62.3
+      }
+    ],
+    "replace": {}
+  },
+  "audio": {
+    "voiceGainDb": 0,
+    "music": null,
+    "sfx": []
+  },
+  "endCard": {
+    "enabled": true,
+    "durationSec": 2.2,
+    "line": "Tenemos una conversación pendiente",
+    "action": "Escríbenos"
+  },
+  "showLogo": true
+}

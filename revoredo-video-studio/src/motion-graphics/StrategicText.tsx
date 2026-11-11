@@ -1,8 +1,8 @@
 import React from "react";
 import { useVideoConfig } from "remotion";
-import { colors, fonts, scaleFor, type as t } from "../brand/tokens";
+import { fonts, scaleFor, type as t } from "../brand/tokens";
 import { useEnvelope, useStagger } from "../lib/anim";
-import { GoldRule, Stage, withEmphasis, type Position } from "./primitives";
+import { GoldRule, Stage, toneStyle, useTone, withEmphasis, type Position, type Tone } from "./primitives";
 
 export type StrategicTextProps = {
   /** Small sans label above (e.g. "DATO", "OJO", "CASO REAL"). Optional. */
@@ -13,6 +13,8 @@ export type StrategicTextProps = {
   position?: Position;
   size?: "title" | "headline";
   rule?: boolean;
+  /** "auto" follows edit.layout.backdrop (ink text on light walls). */
+  tone?: Tone | "auto";
 };
 
 /**
@@ -26,9 +28,11 @@ export const StrategicText: React.FC<StrategicTextProps> = ({
   position = "auto",
   size = "title",
   rule = true,
+  tone = "auto",
 }) => {
   const { width } = useVideoConfig();
   const k = scaleFor(width);
+  const ts = toneStyle(useTone(tone), k);
   const env = useEnvelope();
   const p0 = useStagger(0);
   const p1 = useStagger(1, 4);
@@ -43,10 +47,10 @@ export const StrategicText: React.FC<StrategicTextProps> = ({
               fontWeight: 600,
               fontSize: t.label * k,
               letterSpacing: 6 * k,
-              color: colors.gold,
+              color: ts.accent,
               textTransform: "uppercase",
               opacity: p0,
-              textShadow: `0 ${2 * k}px ${10 * k}px rgba(0,0,0,0.45)`,
+              textShadow: ts.shadow,
             }}
           >
             {kicker}
@@ -57,14 +61,14 @@ export const StrategicText: React.FC<StrategicTextProps> = ({
             fontFamily: fonts.serif,
             fontSize: (size === "headline" ? t.headline : t.title) * k,
             lineHeight: 1.02,
-            color: colors.white,
+            color: ts.color,
             letterSpacing: -1 * k,
             transform: `translateY(${(1 - p1) * 24 * k}px)`,
             opacity: p1,
-            textShadow: `0 ${3 * k}px ${22 * k}px rgba(0,0,0,0.5)`,
+            textShadow: ts.shadow,
           }}
         >
-          {withEmphasis(text, emphasis)}
+          {withEmphasis(text, emphasis, ts.accent)}
         </div>
         {rule ? <GoldRule progress={p2} width={160 * k} k={k} /> : null}
       </div>

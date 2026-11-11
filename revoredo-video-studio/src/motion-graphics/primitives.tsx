@@ -90,14 +90,28 @@ export const GoldRule: React.FC<{ progress: number; width: number; k: number; al
   </div>
 );
 
+export type Tone = "light" | "ink";
+
+/** Tone for text-only graphics: explicit prop > zone (from the EDL) > light. */
+export const useTone = (tone?: Tone | "auto"): Tone => {
+  const zone = useContext(ZoneContext);
+  if (tone && tone !== "auto") return tone;
+  return zone?.tone ?? "light";
+};
+
+export const toneStyle = (tone: Tone, k: number) =>
+  tone === "ink"
+    ? { color: colors.ink, accent: colors.goldDeep, shadow: `0 ${1 * k}px ${12 * k}px rgba(255,255,255,0.55)` }
+    : { color: colors.white, accent: colors.goldSoft, shadow: `0 ${3 * k}px ${22 * k}px rgba(0,0,0,0.5)` };
+
 /** Splits `text` and colors the `emphasis` substring in gold. */
-export const withEmphasis = (text: string, emphasis?: string) => {
+export const withEmphasis = (text: string, emphasis?: string, accent: string = colors.goldSoft) => {
   if (!emphasis || !text.includes(emphasis)) return <>{text}</>;
   const [a, ...rest] = text.split(emphasis);
   return (
     <>
       {a}
-      <span style={{ color: colors.goldSoft }}>{emphasis}</span>
+      <span style={{ color: accent }}>{emphasis}</span>
       {rest.join(emphasis)}
     </>
   );

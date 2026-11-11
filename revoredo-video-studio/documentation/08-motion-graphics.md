@@ -26,6 +26,12 @@ Con eso, centra el gráfico sobre la cabeza o entre el mentón y los subtítulos
 
 Las tarjetas altas (`KeyPoints` con 3 ítems o más, `DataCard` con nota) se colocan sobre segmentos `medium`/`wide` o sobre B-roll. En planos `close`, la franja libre es menor.
 
+## Tono: fondos claros vs. oscuros
+
+Si el set es claro (por ejemplo, una pared blanca detrás de la cabeza), en `edit.json` se pone `layout.backdrop: "light"`. Con eso, `StrategicText` pasa a texto tinta con énfasis en dorado oscuro.
+
+Sobre B-roll siempre se usa texto claro. Un texto no debe cruzar el límite entre presentador y B-roll: se termina antes o se divide en dos. También se puede forzar el tono por gráfico con `tone: "light" | "ink"`.
+
 ## Uso en el EDL
 
 ```json

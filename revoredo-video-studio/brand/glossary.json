@@ -20,7 +20,11 @@
     "fintech",
     "soft landing",
     "vesting",
-    "arequipeño"
+    "arequipeño",
+    "founders",
+    "venture capital",
+    "corporate",
+    "cliff"
   ],
   "corrections": {
     "reboreado": "Revoredo",
@@ -32,6 +36,9 @@
     "anpd": "ANPD",
     "sunafil": "SUNAFIL",
     "indecopi": "INDECOPI",
-    "equipeño": "arequipeño"
+    "equipeño": "arequipeño",
+    "besting": "vesting",
+    "rebore": "Revoredo",
+    "discríbenos": "¡Escríbenos!"
   }
 }

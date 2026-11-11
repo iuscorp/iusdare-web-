@@ -220,6 +220,13 @@ export const editSchema = z.object({
     .object({
       faceTop: z.number().min(0).max(1).default(0.27),
       faceBottom: z.number().min(0).max(1).default(0.46),
+      /**
+       * Brightness of the set behind the presenter's head (where text-only
+       * graphics land). "light" (white wall) switches StrategicText /
+       * LowerThird to ink text with deep-gold emphasis. Over b-roll the
+       * light-on-dark style is always used.
+       */
+      backdrop: z.enum(["dark", "light"]).default("dark"),
     })
     .default({}),
 });
