@@ -1,47 +1,20 @@
 {
- "maquillaje": {
-  "title": "Lipstick and mirror",
-  "creator": "shawnzrossi",
+ "reglamento": {
+  "title": "notebooks",
+  "creator": "Muffet",
   "license": "CC BY 2.0",
-  "source": "https://www.flickr.com/photos/19517696@N00/54117410",
-  "openverse_id": "6d3251da-cca7-4c89-9cf1-37d80110c310",
-  "credit": "«Lipstick and mirror» — shawnzrossi (CC BY 2.0)",
+  "source": "https://www.flickr.com/photos/53133240@N00/4539970",
+  "openverse_id": "4b45381c-f4ae-4362-8e98-ae5e90334816",
+  "credit": "«notebooks» — Muffet (CC BY 2.0)",
   "cutout": true
  },
- "cabello": {
-  "title": "Red hair",
-  "creator": "kevin dooley",
-  "license": "CC BY 2.0",
-  "source": "https://www.flickr.com/photos/12836528@N00/7580251034",
-  "openverse_id": "b3a62c9f-da5a-453a-9872-b3bd8763ebd0",
-  "credit": "«Red hair» — kevin dooley (CC BY 2.0)",
-  "cutout": true
- },
- "firma": {
-  "title": "Legal Contract & Signature - Cool Tones",
-  "creator": "Visual Content",
-  "license": "CC BY 2.0",
-  "source": "https://www.flickr.com/photos/143601516@N03/27571322193",
-  "openverse_id": "74601036-3309-4406-8398-614b98189cb1",
-  "credit": "«Legal Contract & Signature - Cool Tones» — Visual Content (CC BY 2.0)",
-  "cutout": true
- },
- "colegio": {
+ "aula": {
   "title": "Village School Classroom",
   "creator": "ToGa Wanderings",
   "license": "CC BY 2.0",
   "source": "https://www.flickr.com/photos/69031678@N00/6416193813",
   "openverse_id": "85b6e4a1-985d-48be-b2d0-d30bbb58a94c",
   "credit": "«Village School Classroom» — ToGa Wanderings (CC BY 2.0)",
-  "cutout": true
- },
- "alumnos": {
-  "title": "Weird School Bus",
-  "creator": "KB35",
-  "license": "CC BY 2.0",
-  "source": "https://www.flickr.com/photos/17021192@N00/1368677930",
-  "openverse_id": "d337d92a-3739-49ec-be6b-214eb0c00cea",
-  "credit": "«Weird School Bus» — KB35 (CC BY 2.0)",
-  "cutout": true
+  "cutout": false
  }
 }

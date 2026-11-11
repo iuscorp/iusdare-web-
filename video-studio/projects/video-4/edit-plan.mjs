@@ -70,7 +70,7 @@ fx('stamp', at('Eso').start, -11);
 // ── 2. Ni el reglamento ni lo que firmaron tus papás
 const ni2 = at('ni', at('colegio', 4).start);
 photo('aula', at('reglamento', 3.9).start - 0.1, ni2.start - at('reglamento', 3.9).start + 0.05, {x: 0.34, y: 0.64, w: 460, h: 340, rotate: -3, label: 'El colegio', emoji: '🏫', note: 'lugar: el colegio (foto con fondo)'});
-sticker('👨‍👩‍👧', ni2.start, at('matricula').start - ni2.start - 0.03, 0.68, 0.62, 'los papás');
+sticker('👫', ni2.start, at('matricula').start - ni2.start - 0.03, 0.68, 0.62, 'los papás');
 sticker('🗂️', at('matricula').start - 0.03, at('estan').start - at('matricula').start, 0.32, 0.62, 'la matrícula');
 sticker('🔝', at('estan').start, at('Porque').start - at('estan').start, 0.68, 0.62, '«no están por encima de la Constitución»');
 
@@ -105,9 +105,9 @@ fx('poi', reg3.start - 0.15, -15);
 
 // ── 4. Loop abierto: la objeción del público
 const pero = at('Pero');
-sticker('🙋‍♀️', pero.start, at('Bueno').start - pero.start, 0.7, 0.62, 'objeción: «pero mis papás firmaron»');
+sticker('✋', pero.start, at('Bueno').start - pero.start, 0.7, 0.62, 'objeción: «pero mis papás firmaron»');
 const bueno = at('Bueno');
-sticker('🖊️', bueno.start, at('no', bueno.start).start - bueno.start - 0.05, 0.3, 0.62, '«sí, firmaron»');
+sticker('✍️', bueno.start, at('no', bueno.start).start - bueno.start - 0.05, 0.3, 0.62, '«sí, firmaron»');
 const noVal = at('no', bueno.start);
 add({type: 'verdictStamp', text: 'No es válido', tone: 'deny', x: 0.5, y: 0.6, start: noVal.start, end: at('renuncia').start - 0.03}, 'respuesta a la objeción');
 fx('stamp', noVal.start, -11);
@@ -119,8 +119,7 @@ const asi = at('Asi', noVal.start);
 const cab = at('cabello');
 const maq = at('maquillaje', cab.start);
 sticker('🚷', at('prohiben').start - 0.05, cab.start - at('prohiben').start - 0.1, 0.32, 0.62, '«si te prohíben entrar al colegio»');
-add({type: 'emojiEquation', items: ['💇‍♀️', '+', '🎨'], x: 0.5, y: 0.64, start: cab.start - 0.06, end: maq.start - 0.03}, 'cabello pintado');
-fx('pop', cab.start - 0.06, -16);
+sticker('🎨', cab.start - 0.06, maq.start - cab.start + 0.03, 0.5, 0.62, 'cabello pintado');
 sticker('💋', maq.start - 0.03, at('y', maq.start).start - maq.start + 0.1, 0.68, 0.62, 'maquillaje');
 const dicen = at('dicen', maq.start);
 photo('reglamento', dicen.start - 0.05, at('sigue', dicen.start).start - dicen.start - 0.05, {x: 0.66, y: 0.64, rotate: 6, cw: 300, label: '«Está en el reglamento»', emoji: '📋', note: 'norma citada por el colegio'});
@@ -151,11 +150,11 @@ fx('kiran', ind.start - 0.2, -16);
 const col = at('colegios', ind.start);
 sticker('👔', col.start, at('siempre').start - col.start - 0.03, 0.7, 0.62, 'sí pueden tener reglas de presentación (uniforme, presentación)');
 const siem = at('siempre');
-sticker('⚠️', siem.start, at('asi', siem.start).start - siem.start - 0.03, 0.3, 0.62, 'límite: no vulnerar derechos');
+sticker('⛔', siem.start, at('asi', siem.start).start - siem.start - 0.03, 0.3, 0.62, 'límite: no vulnerar derechos');
 
 // ── 8. Cierre en bucle
 const cierre = at('asi', siem.start);
-add({type: 'comparison', left: {label: 'Reglamento', emoji: '📋'}, right: {label: 'Constitución', emoji: '🇵🇪'}, x: 0.5, y: 0.64, start: at('reglamento', cierre.start).start, end: at('no', cierre.start).start - 0.03}, 'el reglamento se adapta a la Constitución');
+add({type: 'comparison', left: {label: 'Reglamento', emoji: '📋'}, right: {label: 'Constitución', emoji: '📜'}, x: 0.5, y: 0.64, start: at('reglamento', cierre.start).start, end: at('no', cierre.start).start - 0.03}, 'el reglamento se adapta a la Constitución');
 fx('swish', at('reglamento', cierre.start).start, -16);
 const no2 = at('no', cierre.start);
 add({type: 'selectionLabel', text: 'La Constitución manda', cursor: false, x: 0.5, y: 0.64, start: no2.start, end: at('sigue', no2.start).start - 0.05}, 'cierre: vuelve al concepto');

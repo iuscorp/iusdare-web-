@@ -16,7 +16,7 @@ Reglas:
 - Veredicto: sello de impacto `verdictStamp` («ESO ES ILEGAL» junto) con riser → stamp → fahhh.
 - SFX de marca: pop, click, poi, kiran, fahhh, risers (ver documentation/02-componentes.md).
 - Emojis: siempre estilo iOS. Textos de impacto pueden ir detrás del presentador (`behindPerson`).
-- **Priman los emojis.** Variar el repertorio: no repetir los mismos emojis de videos anteriores; elegir el más específico para cada palabra.
+- **Priman los emojis.** Variar el repertorio: no repetir los mismos emojis de videos anteriores; elegir el más específico para cada palabra. Usar emojis disponibles a 160 px (si `draft`/`canvas` avisa «sólo disponibles a 64 px», cambiarlos: se ven borrosos).
 - **Imágenes sólo** cuando algo no se puede ejemplificar con un emoji o cuando se habla de códigos/normativa (reglamento, ley, contrato). Intercalar imagen ↔ emoji.
 - Imagen de OBJETO → **sin fondo** (`cutout`, `scripts/cutout.py`). Imagen de LUGAR o CONTEXTO → **con fondo** (`photoCard`). **Nunca con borde** (ni contorno blanco ni marco).
 - **Sólo se monta voz del presentador EN CÁMARA.** En sesiones en bruto hay una voz detrás de cámara que dicta las frases: nunca usar esas tomas. `analyze` mide labios + voz (`speaker-activity.json`) y valida cada tramo (`hablante: N/N`); revisar cualquier aviso `off-camera-voice` antes del canvas. Con `npm run analyze` la línea de tiempo N/d/. de cada tramo queda en `cleanup.json → speaker`.
