@@ -1,0 +1,101 @@
+{
+  "key": "76434733-1794513154415.925",
+  "raw": {
+    "file": "/home/user/iusdare-web-/video-studio/footage/raw/video-6/raw.MOV",
+    "duration": 52.291338,
+    "sizeMB": 76.4,
+    "bitrateKbps": 11690,
+    "video": {
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "pixFmt": "yuv420p",
+      "rotation": 0,
+      "colorTransfer": "bt709"
+    },
+    "audio": {
+      "codec": "aac",
+      "sampleRate": 44100,
+      "channels": 2
+    }
+  },
+  "proxy": {
+    "file": "/home/user/iusdare-web-/video-studio/public/footage/video-6/source.mp4",
+    "duration": 52.291995,
+    "sizeMB": 76.4,
+    "bitrateKbps": 11694,
+    "video": {
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "pixFmt": "yuv420p",
+      "rotation": 0,
+      "colorTransfer": "bt709"
+    },
+    "audio": {
+      "codec": "aac",
+      "sampleRate": 44100,
+      "channels": 2
+    }
+  },
+  "audio": {
+    "integratedLufs": -27.6,
+    "lra": 3.3,
+    "truePeakDb": -13.1,
+    "silences": [
+      {
+        "start": 0.941769,
+        "end": 1.25091
+      },
+      {
+        "start": 26.3829,
+        "end": 26.8884
+      },
+      {
+        "start": 29.4725,
+        "end": 29.873
+      },
+      {
+        "start": 31.1906,
+        "end": 31.455
+      },
+      {
+        "start": 33.2889,
+        "end": 33.5762
+      },
+      {
+        "start": 34.8435,
+        "end": 35.2958
+      },
+      {
+        "start": 38.2646,
+        "end": 38.7168
+      },
+      {
+        "start": 41.1412,
+        "end": 41.5151
+      },
+      {
+        "start": 46.9426,
+        "end": 47.3103
+      },
+      {
+        "start": 49.3728,
+        "end": 49.6488
+      },
+      {
+        "start": 52.0421,
+        "end": 52.3131
+      }
+    ],
+    "silenceTotal": 3.96
+  },
+  "video": {
+    "blackSegments": [],
+    "lumaAvg": 137.4,
+    "saturationAvg": 15.6
+  },
+  "warnings": []
+}
