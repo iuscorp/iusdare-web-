@@ -1,0 +1,260 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": false,
+      "level": "warn",
+      "detail": "5.5 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "30 (footage 30)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "48.00 s (EDL 48.00 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-2.3 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.00 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana 7 ms, p90 |100| ms, 121/155 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": false,
+      "level": "warn",
+      "detail": "34 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 121,
+    "total": 155,
+    "medianOffset": 0.007000000000005002,
+    "p90AbsOffset": 0.09999999999999787,
+    "mismatches": [
+      {
+        "at": 4.305,
+        "caption": "pagando",
+        "heard": "está está dando un"
+      },
+      {
+        "at": 10.393,
+        "caption": "IGV",
+        "heard": "como"
+      },
+      {
+        "at": 11.01,
+        "caption": "Son",
+        "heard": "(nada)"
+      },
+      {
+        "at": 11.18,
+        "caption": "dos",
+        "heard": "(nada)"
+      },
+      {
+        "at": 11.42,
+        "caption": "impuestos",
+        "heard": "El"
+      },
+      {
+        "at": 11.86,
+        "caption": "distintos",
+        "heard": "El"
+      },
+      {
+        "at": 12.433,
+        "caption": "El",
+        "heard": "IGB"
+      },
+      {
+        "at": 12.603,
+        "caption": "IGV",
+        "heard": "IGB graba"
+      },
+      {
+        "at": 13.023,
+        "caption": "grava",
+        "heard": "IGB graba casi"
+      },
+      {
+        "at": 15.373,
+        "caption": "ISC",
+        "heard": "el ICC graba"
+      },
+      {
+        "at": 15.653,
+        "caption": "grava",
+        "heard": "ICC graba"
+      },
+      {
+        "at": 17.667,
+        "caption": "ISC",
+        "heard": "El ICC solo"
+      },
+      {
+        "at": 18.367,
+        "caption": "grava",
+        "heard": "solo graba productos"
+      },
+      {
+        "at": 19.8,
+        "caption": "alcohol",
+        "heard": "(nada)"
+      },
+      {
+        "at": 22.363,
+        "caption": "vehículos",
+        "heard": "algunos médicos y"
+      },
+      {
+        "at": 23.94,
+        "caption": "qué",
+        "heard": "porque por dos"
+      },
+      {
+        "at": 28.007,
+        "caption": "dañan",
+        "heard": "porque bañen"
+      },
+      {
+        "at": 29.293,
+        "caption": "daño",
+        "heard": "o hacen baño al medio"
+      },
+      {
+        "at": 30.3,
+        "caption": "esa",
+        "heard": "Es... función"
+      },
+      {
+        "at": 32.517,
+        "caption": "Legalmente",
+        "heard": "(nada)"
+      },
+      {
+        "at": 33.027,
+        "caption": "lo",
+        "heard": "pero"
+      },
+      {
+        "at": 33.307,
+        "caption": "debería",
+        "heard": "pero"
+      },
+      {
+        "at": 33.687,
+        "caption": "pagar",
+        "heard": "pero"
+      },
+      {
+        "at": 33.927,
+        "caption": "el",
+        "heard": "(nada)"
+      },
+      {
+        "at": 34.127,
+        "caption": "productor",
+        "heard": "(nada)"
+      },
+      {
+        "at": 34.447,
+        "caption": "o",
+        "heard": "(nada)"
+      },
+      {
+        "at": 34.767,
+        "caption": "importador",
+        "heard": "(nada)"
+      },
+      {
+        "at": 35.153,
+        "caption": "Pero",
+        "heard": "adivina"
+      },
+      {
+        "at": 36.587,
+        "caption": "asumiendo",
+        "heard": "lo está sumiendo."
+      },
+      {
+        "at": 38.527,
+        "caption": "precio",
+        "heard": "en el preso final."
+      },
+      {
+        "at": 40.275,
+        "caption": "veas",
+        "heard": "que ves el... ves el precio de"
+      },
+      {
+        "at": 43.85,
+        "caption": "Sigue",
+        "heard": "ves. Sí abocare"
+      },
+      {
+        "at": 44.041,
+        "caption": "a",
+        "heard": "Sí abocare"
+      },
+      {
+        "at": 44.398,
+        "caption": "Vocare",
+        "heard": "Sí abocare Iuris"
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14,
+    "lra": 7,
+    "truePeakDb": -2.3
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/video-5/video-5-preview.mp4"
+}
