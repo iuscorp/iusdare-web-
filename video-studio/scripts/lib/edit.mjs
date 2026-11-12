@@ -226,6 +226,16 @@ export const cleanup = (transcript, {keepAllFillers = false, silences = [], deep
       if (sameTake && gap > RULES.maxGap) reasons.push({kind: 'silence', from: round(prev.e), to: round(w.s), text: `${gap.toFixed(2)} s → ${keep.toFixed(2)} s`});
     }
   }
+  // con tomas elegidas a mano, el plano nunca sale de los límites de la toma (fuera puede estar la voz
+  // de quien dicta): el aire de seguridad antes/después de la palabra no puede cruzar sel.in / sel.out
+  if (selects) {
+    for (const r of ranges) {
+      const sel = selects[r.words[0]?.sel];
+      if (!sel) continue;
+      r.in = Math.max(r.in, sel.in);
+      r.out = Math.min(r.out, sel.out);
+    }
+  }
   const sourceSpeech = words.length ? words[words.length - 1].e - words[0].s : 0;
   const keptDur = ranges.reduce((a, r) => a + (r.out - r.in), 0);
   return {

@@ -122,6 +122,15 @@
    "replace": [
     "IGV"
    ]
+  },
+  {
+   "match": "si abocare iuris",
+   "replace": [
+    "Sigue",
+    "a",
+    "Vocare",
+    "Iuris"
+   ]
   }
  ]
 }
