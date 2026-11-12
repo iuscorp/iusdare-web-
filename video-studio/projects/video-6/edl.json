@@ -50,6 +50,19 @@
     {
       "id": "s05",
       "in": 8.233,
+      "out": 9.281,
+      "role": "twist",
+      "framing": {
+        "scale": 2.2,
+        "x": 0.58,
+        "y": -0.516
+      },
+      "move": "crash",
+      "note": "primer plano del celular (captura de pantalla)"
+    },
+    {
+      "id": "s05",
+      "in": 9.281,
       "out": 10.8,
       "role": "twist",
       "framing": "subtleIn",
@@ -1227,16 +1240,6 @@
       "start": 5.477,
       "end": 6.777,
       "note": "término clave"
-    },
-    {
-      "type": "sticker",
-      "emoji": "🤳",
-      "size": 175,
-      "x": 0.32,
-      "y": 0.62,
-      "start": 6.807,
-      "end": 9.157,
-      "note": "«confían en la captura de pantalla»"
     },
     {
       "type": "denyMark",

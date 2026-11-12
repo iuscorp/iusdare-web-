@@ -2,16 +2,16 @@
  "model": "small",
  "language": "es",
  "duration": 51.179,
- "text": "Te mandare un voucher y el dinero no aparece en tu cuenta. Cuidado, podrías estar siendo víctima de una transferencia simulada. Muchos suelen confiar en la captura de pantalla, pero el voucher no era en tu cuenta. No garantís el pago. La clave para no caer está en la verificación. Primero, no entregués el producto hasta que veas el monto reflejado en tu saldo disponible. Segundo, si es yape o plin, verifí... Verifique la notificación directamente desde tu app. No confíes en el celular del comprador porque las capturas se editan en segundos. Ojo, si ya te pasó, este es un delito de estapa. Typificado en el... Debes guardar todos los chats, el número de cuenta del receptor y hacer tu denuncia de inmediato. Al ser un fraude mediante medios digital. Los medios digitales también aplica la ley de delitos informáticos Ley 30.096 para rastrear al responsable. Sigue Vocare Iuris para más contenido legal y guarda este video, no sabes cuándo podrías Podrías necesitarlo.",
+ "text": "Te mandaron un voucher y el dinero no aparece en tu cuenta. Cuidado, podrías estar siendo víctima de una transferencia simulada. Muchos suelen confiar en la captura de pantalla, pero el voucher no era en tu cuenta. No garantís el pago. La clave para no caer está en la verificación. Primero, no entregués el producto hasta que veas el monto reflejado en tu saldo disponible. Segundo, si es yape o plin, verif... Verifique la notificación directamente desde tu app. No confíes en el celular del comprador porque las capturas se editan en segundos. Ojo, si ya te pasó, este es un delito de estapa. Typificado en el... Debes guardar todos los chats, el número de cuenta del receptor y hacer tu denuncia de inmediato. Al ser un fraude mediante medios digital. Los medios digitales también aplica la ley de delitos informáticos Ley 30.096 para rastrear al responsable. Sigue Vocare Iuris para más contenido legal y guarda este video. No sabes cuándo podrías hacer. Podrías necesitarlo.",
  "segments": [
   {
    "start": 0.0,
    "end": 4.5,
-   "text": "Te mandare un voucher y el dinero no aparece en tu cuenta. Cuidado, podrías estar siendo"
+   "text": "Te mandaron un voucher y el dinero no aparece en tu cuenta. Cuidado, podrías estar siendo"
   },
   {
    "start": 4.5,
-   "end": 9.02,
+   "end": 9.0,
    "text": "víctima de una transferencia simulada. Muchos suelen confiar en la captura de pantalla,"
   },
   {
@@ -32,7 +32,7 @@
   {
    "start": 18.62,
    "end": 20.48,
-   "text": "Segundo, si es yape o plin, verifí..."
+   "text": "Segundo, si es yape o plin, verif..."
   },
   {
    "start": 20.0,
@@ -61,7 +61,7 @@
   },
   {
    "start": 37.46,
-   "end": 38.12,
+   "end": 38.14,
    "text": "inmediato."
   },
   {
@@ -81,8 +81,13 @@
   },
   {
    "start": 46.16,
+   "end": 49.2,
+   "text": "Sigue Vocare Iuris para más contenido legal y guarda este video."
+  },
+  {
+   "start": 49.34,
    "end": 50.48,
-   "text": "Sigue Vocare Iuris para más contenido legal y guarda este video, no sabes cuándo podrías"
+   "text": "No sabes cuándo podrías hacer."
   },
   {
    "start": 50.0,
@@ -95,61 +100,61 @@
    "w": "Te",
    "s": 0.0,
    "e": 0.06,
-   "p": 0.507
+   "p": 0.499
   },
   {
-   "w": "mandare",
+   "w": "mandaron",
    "s": 0.06,
-   "e": 0.34,
-   "p": 0.367
+   "e": 0.36,
+   "p": 0.384
   },
   {
    "w": "un",
-   "s": 0.34,
-   "e": 0.5,
-   "p": 0.797
+   "s": 0.36,
+   "e": 0.54,
+   "p": 0.934
   },
   {
    "w": "voucher",
-   "s": 0.5,
+   "s": 0.54,
    "e": 1.04,
-   "p": 0.976
+   "p": 0.974
   },
   {
    "w": "y",
    "s": 1.04,
    "e": 1.32,
-   "p": 0.741
+   "p": 0.72
   },
   {
    "w": "el",
    "s": 1.32,
    "e": 1.44,
-   "p": 0.983
+   "p": 0.987
   },
   {
    "w": "dinero",
    "s": 1.44,
    "e": 1.76,
-   "p": 0.991
+   "p": 0.997
   },
   {
    "w": "no",
    "s": 1.76,
    "e": 2.08,
-   "p": 0.967
+   "p": 0.975
   },
   {
    "w": "aparece",
    "s": 2.08,
    "e": 2.36,
-   "p": 0.724
+   "p": 0.799
   },
   {
    "w": "en",
    "s": 2.36,
    "e": 2.56,
-   "p": 0.982
+   "p": 0.992
   },
   {
    "w": "tu",
@@ -160,44 +165,44 @@
   {
    "w": "cuenta.",
    "s": 2.64,
-   "e": 2.94,
-   "p": 0.995
+   "e": 2.96,
+   "p": 0.998
   },
   {
    "w": "Cuidado,",
    "s": 3.1,
    "e": 3.5,
-   "p": 0.906
+   "p": 0.9
   },
   {
    "w": "podrías",
-   "s": 3.64,
+   "s": 3.62,
    "e": 4.0,
-   "p": 0.932
+   "p": 0.984
   },
   {
    "w": "estar",
    "s": 4.0,
-   "e": 4.24,
-   "p": 0.982
+   "e": 4.26,
+   "p": 0.988
   },
   {
    "w": "siendo",
-   "s": 4.24,
+   "s": 4.26,
    "e": 4.5,
-   "p": 0.957
+   "p": 0.976
   },
   {
    "w": "víctima",
    "s": 4.5,
    "e": 5.02,
-   "p": 0.977
+   "p": 0.986
   },
   {
    "w": "de",
    "s": 5.02,
    "e": 5.34,
-   "p": 0.992
+   "p": 0.993
   },
   {
    "w": "una",
@@ -209,7 +214,7 @@
    "w": "transferencia",
    "s": 5.5,
    "e": 6.12,
-   "p": 0.961
+   "p": 0.955
   },
   {
    "w": "simulada.",
@@ -219,63 +224,63 @@
   },
   {
    "w": "Muchos",
-   "s": 6.78,
-   "e": 7.16,
-   "p": 0.986
+   "s": 6.8,
+   "e": 7.14,
+   "p": 0.988
   },
   {
    "w": "suelen",
-   "s": 7.16,
+   "s": 7.14,
    "e": 7.4,
-   "p": 0.994
+   "p": 0.995
   },
   {
    "w": "confiar",
    "s": 7.4,
-   "e": 7.8,
+   "e": 7.78,
    "p": 0.994
   },
   {
    "w": "en",
-   "s": 7.8,
+   "s": 7.78,
    "e": 8.1,
-   "p": 0.99
+   "p": 0.994
   },
   {
    "w": "la",
    "s": 8.1,
    "e": 8.18,
-   "p": 0.979
+   "p": 0.982
   },
   {
    "w": "captura",
    "s": 8.18,
    "e": 8.5,
-   "p": 0.995
+   "p": 0.996
   },
   {
    "w": "de",
    "s": 8.5,
    "e": 8.6,
-   "p": 0.994
+   "p": 0.993
   },
   {
    "w": "pantalla,",
    "s": 8.6,
-   "e": 9.02,
-   "p": 0.996
+   "e": 9.0,
+   "p": 0.997
   },
   {
    "w": "pero",
    "s": 9.18,
    "e": 9.28,
-   "p": 0.98
+   "p": 0.985
   },
   {
    "w": "el",
    "s": 9.28,
    "e": 9.38,
-   "p": 0.98
+   "p": 0.981
   },
   {
    "w": "voucher",
@@ -287,31 +292,31 @@
    "w": "no",
    "s": 9.9,
    "e": 10.22,
-   "p": 0.955
+   "p": 0.956
   },
   {
    "w": "era",
    "s": 10.22,
    "e": 10.36,
-   "p": 0.875
+   "p": 0.888
   },
   {
    "w": "en",
    "s": 10.36,
    "e": 10.48,
-   "p": 0.416
+   "p": 0.425
   },
   {
    "w": "tu",
    "s": 10.48,
    "e": 10.48,
-   "p": 0.578
+   "p": 0.577
   },
   {
    "w": "cuenta.",
    "s": 10.48,
    "e": 10.48,
-   "p": 0.112
+   "p": 0.159
   },
   {
    "w": "el",
@@ -323,85 +328,85 @@
    "w": "pago.",
    "s": 10.78,
    "e": 11.1,
-   "p": 0.99
+   "p": 0.991
   },
   {
    "w": "La",
    "s": 11.28,
    "e": 11.38,
-   "p": 0.948
+   "p": 0.943
   },
   {
    "w": "clave",
    "s": 11.38,
    "e": 11.7,
-   "p": 0.972
+   "p": 0.969
   },
   {
    "w": "para",
    "s": 11.7,
    "e": 11.88,
-   "p": 0.988
+   "p": 0.989
   },
   {
    "w": "no",
    "s": 11.88,
    "e": 12.04,
-   "p": 0.98
+   "p": 0.981
   },
   {
    "w": "caer",
    "s": 12.04,
    "e": 12.46,
-   "p": 0.994
+   "p": 0.993
   },
   {
    "w": "está",
    "s": 12.46,
    "e": 12.74,
-   "p": 0.879
+   "p": 0.869
   },
   {
    "w": "en",
    "s": 12.74,
    "e": 12.84,
-   "p": 0.991
+   "p": 0.99
   },
   {
    "w": "la",
    "s": 12.84,
    "e": 12.9,
-   "p": 0.982
+   "p": 0.981
   },
   {
    "w": "verificación.",
    "s": 12.9,
    "e": 13.36,
-   "p": 0.996
+   "p": 0.995
   },
   {
    "w": "Primero,",
    "s": 13.64,
    "e": 14.04,
-   "p": 0.95
+   "p": 0.957
   },
   {
    "w": "no",
    "s": 14.22,
    "e": 14.3,
-   "p": 0.978
+   "p": 0.974
   },
   {
    "w": "entregués",
    "s": 14.3,
    "e": 14.66,
-   "p": 0.614
+   "p": 0.631
   },
   {
    "w": "el",
    "s": 14.66,
    "e": 14.76,
-   "p": 0.992
+   "p": 0.993
   },
   {
    "w": "producto",
@@ -413,7 +418,7 @@
    "w": "hasta",
    "s": 15.06,
    "e": 15.42,
-   "p": 0.943
+   "p": 0.936
   },
   {
    "w": "que",
@@ -425,7 +430,7 @@
    "w": "veas",
    "s": 15.58,
    "e": 15.9,
-   "p": 0.975
+   "p": 0.97
   },
   {
    "w": "el",
@@ -437,7 +442,7 @@
    "w": "monto",
    "s": 16.12,
    "e": 16.56,
-   "p": 0.924
+   "p": 0.916
   },
   {
    "w": "reflejado",
@@ -449,79 +454,79 @@
    "w": "en",
    "s": 17.42,
    "e": 17.68,
-   "p": 0.992
+   "p": 0.993
   },
   {
    "w": "tu",
    "s": 17.68,
    "e": 17.8,
-   "p": 0.984
+   "p": 0.985
   },
   {
    "w": "saldo",
    "s": 17.8,
    "e": 18.08,
-   "p": 0.836
+   "p": 0.816
   },
   {
    "w": "disponible.",
    "s": 18.08,
    "e": 18.56,
-   "p": 0.993
+   "p": 0.992
   },
   {
    "w": "Segundo,",
    "s": 18.62,
    "e": 19.0,
-   "p": 0.984
+   "p": 0.982
   },
   {
    "w": "si",
    "s": 19.16,
    "e": 19.24,
-   "p": 0.965
+   "p": 0.97
   },
   {
    "w": "es",
    "s": 19.24,
    "e": 19.36,
-   "p": 0.982
+   "p": 0.98
   },
   {
    "w": "yape",
    "s": 19.36,
    "e": 19.64,
-   "p": 0.401
+   "p": 0.424
   },
   {
    "w": "o",
    "s": 19.64,
    "e": 19.78,
-   "p": 0.401
+   "p": 0.3
   },
   {
    "w": "plin,",
    "s": 19.78,
    "e": 20.1,
-   "p": 0.754
+   "p": 0.767
   },
   {
-   "w": "verifí...",
+   "w": "verif...",
    "s": 20.26,
    "e": 20.48,
-   "p": 0.406
+   "p": 0.493
   },
   {
    "w": "la",
    "s": 20.6,
    "e": 20.74,
-   "p": 0.978
+   "p": 0.976
   },
   {
    "w": "notificación",
    "s": 20.74,
    "e": 21.28,
-   "p": 0.99
+   "p": 0.989
   },
   {
    "w": "directamente",
@@ -533,31 +538,31 @@
    "w": "desde",
    "s": 21.68,
    "e": 22.18,
-   "p": 0.944
+   "p": 0.935
   },
   {
    "w": "tu",
    "s": 22.18,
    "e": 22.38,
-   "p": 0.98
+   "p": 0.981
   },
   {
    "w": "app.",
    "s": 22.38,
    "e": 22.52,
-   "p": 0.816
+   "p": 0.818
   },
   {
    "w": "No",
    "s": 22.68,
    "e": 22.74,
-   "p": 0.925
+   "p": 0.923
   },
   {
    "w": "confíes",
    "s": 22.74,
    "e": 23.3,
-   "p": 0.863
+   "p": 0.861
   },
   {
    "w": "en",
@@ -569,37 +574,37 @@
    "w": "el",
    "s": 23.4,
    "e": 23.5,
-   "p": 0.991
+   "p": 0.993
   },
   {
    "w": "celular",
    "s": 23.5,
    "e": 23.84,
-   "p": 0.995
+   "p": 0.996
   },
   {
    "w": "del",
    "s": 23.84,
    "e": 24.02,
-   "p": 0.928
+   "p": 0.918
   },
   {
    "w": "comprador",
    "s": 24.02,
    "e": 24.48,
-   "p": 0.973
+   "p": 0.972
   },
   {
    "w": "porque",
    "s": 24.48,
    "e": 24.64,
-   "p": 0.767
+   "p": 0.777
   },
   {
    "w": "las",
    "s": 24.64,
    "e": 24.8,
-   "p": 0.982
+   "p": 0.98
   },
   {
    "w": "capturas",
@@ -611,13 +616,13 @@
    "w": "se",
    "s": 25.26,
    "e": 25.56,
-   "p": 0.976
+   "p": 0.975
   },
   {
    "w": "editan",
    "s": 25.56,
    "e": 25.86,
-   "p": 0.877
+   "p": 0.884
   },
   {
    "w": "en",
@@ -629,19 +634,19 @@
    "w": "segundos.",
    "s": 25.94,
    "e": 26.32,
-   "p": 0.967
+   "p": 0.969
   },
   {
    "w": "Ojo,",
    "s": 26.76,
    "e": 27.06,
-   "p": 0.913
+   "p": 0.899
   },
   {
    "w": "si",
    "s": 27.2,
    "e": 27.28,
-   "p": 0.981
+   "p": 0.978
   },
   {
    "w": "ya",
@@ -658,14 +663,14 @@
   {
    "w": "pasó,",
    "s": 27.54,
-   "e": 27.88,
-   "p": 0.935
+   "e": 27.86,
+   "p": 0.949
   },
   {
    "w": "este",
    "s": 28.04,
    "e": 28.36,
-   "p": 0.891
+   "p": 0.892
   },
   {
    "w": "es",
@@ -677,13 +682,13 @@
    "w": "un",
    "s": 28.6,
    "e": 28.72,
-   "p": 0.993
+   "p": 0.994
   },
   {
    "w": "delito",
    "s": 28.72,
    "e": 29.04,
-   "p": 0.981
+   "p": 0.987
   },
   {
    "w": "de",
@@ -695,13 +700,13 @@
    "w": "estapa.",
    "s": 29.14,
    "e": 29.48,
-   "p": 0.911
+   "p": 0.919
   },
   {
    "w": "Typificado",
    "s": 29.92,
    "e": 30.32,
-   "p": 0.699
+   "p": 0.708
   },
   {
    "w": "en",
@@ -713,91 +718,91 @@
    "w": "el...",
    "s": 30.48,
    "e": 30.48,
-   "p": 0.578
+   "p": 0.534
   },
   {
    "w": "Debes",
    "s": 33.26,
    "e": 33.7,
-   "p": 0.47
+   "p": 0.468
   },
   {
    "w": "guardar",
    "s": 33.7,
    "e": 34.14,
-   "p": 0.977
+   "p": 0.978
   },
   {
    "w": "todos",
    "s": 34.14,
    "e": 34.3,
-   "p": 0.911
+   "p": 0.919
   },
   {
    "w": "los",
    "s": 34.3,
    "e": 34.52,
-   "p": 0.985
+   "p": 0.986
   },
   {
    "w": "chats,",
    "s": 34.52,
    "e": 34.74,
-   "p": 0.974
+   "p": 0.975
   },
   {
    "w": "el",
-   "s": 34.92,
+   "s": 34.9,
    "e": 34.96,
-   "p": 0.966
+   "p": 0.968
   },
   {
    "w": "número",
    "s": 34.96,
    "e": 35.16,
-   "p": 0.962
+   "p": 0.959
   },
   {
    "w": "de",
    "s": 35.16,
    "e": 35.36,
-   "p": 0.99
+   "p": 0.987
   },
   {
    "w": "cuenta",
    "s": 35.36,
    "e": 35.58,
-   "p": 0.877
+   "p": 0.809
   },
   {
    "w": "del",
    "s": 35.58,
    "e": 35.8,
-   "p": 0.938
+   "p": 0.923
   },
   {
    "w": "receptor",
    "s": 35.8,
-   "e": 36.18,
-   "p": 0.978
+   "e": 36.2,
+   "p": 0.98
   },
   {
    "w": "y",
-   "s": 36.18,
+   "s": 36.2,
    "e": 36.4,
-   "p": 0.863
+   "p": 0.875
   },
   {
    "w": "hacer",
    "s": 36.4,
    "e": 36.6,
-   "p": 0.852
+   "p": 0.887
   },
   {
    "w": "tu",
    "s": 36.6,
    "e": 36.76,
-   "p": 0.939
+   "p": 0.934
   },
   {
    "w": "denuncia",
@@ -809,19 +814,19 @@
    "w": "de",
    "s": 37.24,
    "e": 37.46,
-   "p": 0.972
+   "p": 0.971
   },
   {
    "w": "inmediato.",
    "s": 37.46,
-   "e": 38.12,
-   "p": 0.982
+   "e": 38.14,
+   "p": 0.98
   },
   {
    "w": "Al",
    "s": 38.18,
    "e": 38.38,
-   "p": 0.958
+   "p": 0.95
   },
   {
    "w": "ser",
@@ -833,145 +838,145 @@
    "w": "un",
    "s": 38.58,
    "e": 38.7,
-   "p": 0.977
+   "p": 0.974
   },
   {
    "w": "fraude",
    "s": 38.7,
    "e": 39.08,
-   "p": 0.988
+   "p": 0.99
   },
   {
    "w": "mediante",
    "s": 39.08,
    "e": 39.68,
-   "p": 0.982
+   "p": 0.987
   },
   {
    "w": "medios",
    "s": 39.68,
    "e": 40.1,
-   "p": 0.93
+   "p": 0.926
   },
   {
    "w": "digital.",
    "s": 40.1,
    "e": 40.34,
-   "p": 0.916
+   "p": 0.912
   },
   {
    "w": "también",
-   "s": 41.02,
+   "s": 41.04,
    "e": 41.2,
-   "p": 0.923
+   "p": 0.919
   },
   {
    "w": "aplica",
    "s": 41.2,
    "e": 41.64,
-   "p": 0.898
+   "p": 0.895
   },
   {
    "w": "la",
    "s": 41.64,
    "e": 41.76,
-   "p": 0.923
+   "p": 0.929
   },
   {
    "w": "ley",
    "s": 41.76,
    "e": 41.9,
-   "p": 0.767
+   "p": 0.775
   },
   {
    "w": "de",
    "s": 41.9,
    "e": 42.04,
-   "p": 0.987
+   "p": 0.986
   },
   {
    "w": "delitos",
    "s": 42.04,
    "e": 42.4,
-   "p": 0.988
+   "p": 0.989
   },
   {
    "w": "informáticos",
    "s": 42.4,
    "e": 43.06,
-   "p": 0.97
+   "p": 0.976
   },
   {
    "w": "Ley",
    "s": 43.06,
    "e": 43.24,
-   "p": 0.171
+   "p": 0.195
   },
   {
    "w": "30",
    "s": 43.24,
    "e": 43.68,
-   "p": 0.905
+   "p": 0.901
   },
   {
    "w": ".096",
    "s": 43.68,
    "e": 44.62,
-   "p": 0.7
+   "p": 0.655
   },
   {
    "w": "para",
    "s": 44.62,
    "e": 44.88,
-   "p": 0.727
+   "p": 0.738
   },
   {
    "w": "rastrear",
    "s": 44.88,
    "e": 45.46,
-   "p": 0.916
+   "p": 0.92
   },
   {
    "w": "al",
    "s": 45.46,
    "e": 45.62,
-   "p": 0.954
+   "p": 0.95
   },
   {
    "w": "responsable.",
    "s": 45.62,
    "e": 46.1,
-   "p": 0.878
+   "p": 0.902
   },
   {
    "w": "Sigue",
    "s": 46.16,
    "e": 46.3,
-   "p": 0.907
+   "p": 0.896
   },
   {
    "w": "Vocare",
    "s": 46.3,
    "e": 46.6,
-   "p": 0.201
+   "p": 0.193
   },
   {
    "w": "Iuris",
    "s": 46.6,
-   "e": 47.0,
-   "p": 0.608
+   "e": 47.02,
+   "p": 0.612
   },
   {
    "w": "para",
-   "s": 47.0,
+   "s": 47.02,
    "e": 47.26,
-   "p": 0.925
+   "p": 0.932
   },
   {
    "w": "más",
    "s": 47.26,
    "e": 47.44,
-   "p": 0.968
+   "p": 0.972
   },
   {
    "w": "contenido",
@@ -989,49 +994,55 @@
    "w": "y",
    "s": 48.16,
    "e": 48.58,
-   "p": 0.572
+   "p": 0.701
   },
   {
    "w": "guarda",
    "s": 48.58,
    "e": 48.82,
-   "p": 0.891
+   "p": 0.895
   },
   {
    "w": "este",
    "s": 48.82,
    "e": 48.94,
-   "p": 0.982
+   "p": 0.98
   },
   {
-   "w": "video,",
+   "w": "video.",
    "s": 48.94,
    "e": 49.2,
-   "p": 0.601
+   "p": 0.595
   },
   {
-   "w": "no",
+   "w": "No",
    "s": 49.34,
    "e": 49.46,
-   "p": 0.909
+   "p": 0.81
   },
   {
    "w": "sabes",
    "s": 49.46,
    "e": 49.66,
-   "p": 0.971
+   "p": 0.976
   },
   {
    "w": "cuándo",
    "s": 49.66,
    "e": 50.06,
-   "p": 0.938
+   "p": 0.945
   },
   {
    "w": "podrías",
    "s": 50.06,
    "e": 50.48,
-   "p": 0.797
+   "p": 0.81
+  },
+  {
+   "w": "hacer.",
+   "s": 50.48,
+   "e": 50.48,
+   "p": 0.223
   },
   {
    "w": "necesitarlo.",
