@@ -1,0 +1,328 @@
+// Smart Booking — modelo de datos
+// Convención: tablas en snake_case (@@map), campos camelCase en TS.
+// Todas las fechas se guardan en UTC (timestamptz).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ───────────────────────── Administración ─────────────────────────
+
+model AdminUser {
+  id           String         @id @default(uuid()) @db.Uuid
+  email        String         @unique
+  name         String
+  passwordHash String
+  createdAt    DateTime       @default(now()) @db.Timestamptz(3)
+  lastLoginAt  DateTime?      @db.Timestamptz(3)
+  sessions     AdminSession[]
+  auditLogs    AuditLog[]
+
+  @@map("admin_users")
+}
+
+model AdminSession {
+  id        String    @id @default(uuid()) @db.Uuid
+  tokenHash String    @unique
+  adminId   String    @db.Uuid
+  admin     AdminUser @relation(fields: [adminId], references: [id], onDelete: Cascade)
+  createdAt DateTime  @default(now()) @db.Timestamptz(3)
+  expiresAt DateTime  @db.Timestamptz(3)
+  ipHash    String?
+  userAgent String?
+
+  @@index([adminId])
+  @@map("admin_sessions")
+}
+
+/// Configuración global (fila única id = 1)
+model AppSettings {
+  id                  Int      @id @default(1)
+  timezone            String   @default("America/Lima")
+  holdMinutes         Int      @default(10)
+  paymentHoldMinutes  Int      @default(30)
+  onboardingCompleted Boolean  @default(false)
+  ownerName           String?
+  updatedAt           DateTime @updatedAt @db.Timestamptz(3)
+
+  @@map("app_settings")
+}
+
+// ───────────────────────── Integraciones ─────────────────────────
+
+enum CalendarProvider {
+  GOOGLE
+  MICROSOFT
+}
+
+enum IntegrationStatus {
+  CONNECTED
+  ERROR
+  DISCONNECTED
+}
+
+model CalendarIntegration {
+  id              String            @id @default(uuid()) @db.Uuid
+  provider        CalendarProvider  @unique
+  accountEmail    String?
+  /// Tokens cifrados con AES-256-GCM (ver src/server/security/crypto.ts)
+  accessTokenEnc  String?
+  refreshTokenEnc String?
+  tokenExpiresAt  DateTime?         @db.Timestamptz(3)
+  scopes          String?
+  /// Google: calendario destino de las reservas (por defecto "primary")
+  targetCalendarId String?
+  /// Calendarios consultados para disponibilidad (vacío = principal)
+  busyCalendarIds String[]          @default([])
+  status          IntegrationStatus @default(DISCONNECTED)
+  lastSyncAt      DateTime?         @db.Timestamptz(3)
+  lastError       String?
+  connectedAt     DateTime?         @db.Timestamptz(3)
+  updatedAt       DateTime          @updatedAt @db.Timestamptz(3)
+
+  @@map("calendar_integrations")
+}
+
+enum SyncStatus {
+  SUCCESS
+  FAILURE
+}
+
+model SyncLog {
+  id         String           @id @default(uuid()) @db.Uuid
+  provider   String
+  operation  String
+  status     SyncStatus
+  message    String?
+  bookingId  String?          @db.Uuid
+  durationMs Int?
+  createdAt  DateTime         @default(now()) @db.Timestamptz(3)
+
+  @@index([createdAt])
+  @@index([provider, createdAt])
+  @@map("sync_logs")
+}
+
+// ───────────────────────── Tipos de reunión y disponibilidad ─────────────────────────
+
+model MeetingType {
+  id                  String    @id @default(uuid()) @db.Uuid
+  slug                String    @unique
+  name                String
+  /// Prefijo del título del evento en Google Calendar: "<prefix> | <nombre>"
+  eventTitle          String
+  description         String
+  durationMinutes     Int
+  slotIntervalMinutes Int       @default(30)
+  minNoticeMinutes    Int       @default(120)
+  maxDaysAhead        Int       @default(60)
+  bufferBeforeMinutes Int       @default(0)
+  bufferAfterMinutes  Int       @default(0)
+  requiresPayment     Boolean   @default(false)
+  /// Monto en la unidad mínima de la moneda (ej. céntimos). null = no configurado.
+  priceAmount         Int?
+  currency            String?
+  addVideoConference  Boolean   @default(true)
+  isActive            Boolean   @default(true)
+  sortOrder           Int       @default(0)
+  accentColor         String    @default("#123A5E")
+  /// Definición del formulario (ver src/lib/forms/schema.ts)
+  formFields          Json
+  createdAt           DateTime  @default(now()) @db.Timestamptz(3)
+  updatedAt           DateTime  @updatedAt @db.Timestamptz(3)
+  bookings            Booking[]
+
+  @@map("meeting_types")
+}
+
+/// Disponibilidad semanal global (compartida por todos los tipos de reunión)
+model AvailabilityRule {
+  id          String @id @default(uuid()) @db.Uuid
+  /// ISO: 1 = lunes … 7 = domingo
+  weekday     Int
+  /// Minutos desde medianoche en la zona horaria de AppSettings
+  startMinute Int
+  endMinute   Int
+
+  @@index([weekday])
+  @@map("availability_rules")
+}
+
+enum ExceptionKind {
+  /// Bloquea todo el día o un rango horario
+  BLOCKED
+  /// Sustituye el horario del día por un rango personalizado
+  CUSTOM_HOURS
+}
+
+model AvailabilityException {
+  id          String        @id @default(uuid()) @db.Uuid
+  kind        ExceptionKind
+  /// Fechas locales (YYYY-MM-DD) en la zona horaria de AppSettings, inclusivas
+  startDate   String
+  endDate     String
+  /// null = todo el día (solo BLOCKED)
+  startMinute Int?
+  endMinute   Int?
+  reason      String?
+  createdAt   DateTime      @default(now()) @db.Timestamptz(3)
+
+  @@index([startDate, endDate])
+  @@map("availability_exceptions")
+}
+
+// ───────────────────────── Reservas ─────────────────────────
+
+enum BookingStatus {
+  PENDING
+  PAYMENT_PENDING
+  CONFIRMED
+  CANCELLED
+  RESCHEDULED
+  EXPIRED
+  FAILED
+}
+
+enum CalendarSyncState {
+  NOT_SYNCED
+  SYNCED
+  FAILED
+  DELETED
+}
+
+model Participant {
+  id        String    @id @default(uuid()) @db.Uuid
+  fullName  String
+  email     String
+  phone     String
+  createdAt DateTime  @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime  @updatedAt @db.Timestamptz(3)
+  bookings  Booking[]
+
+  @@index([email])
+  @@map("participants")
+}
+
+model Booking {
+  id                String            @id @default(uuid()) @db.Uuid
+  /// Código legible para el participante (ej. SB-7K2M9Q)
+  reference         String            @unique
+  meetingTypeId     String            @db.Uuid
+  meetingType       MeetingType       @relation(fields: [meetingTypeId], references: [id])
+  participantId     String            @db.Uuid
+  participant       Participant       @relation(fields: [participantId], references: [id])
+  startAt           DateTime          @db.Timestamptz(3)
+  endAt             DateTime          @db.Timestamptz(3)
+  /// Rango bloqueado incluyendo buffers; protegido por constraint EXCLUDE
+  blockedStartAt    DateTime          @db.Timestamptz(3)
+  blockedEndAt      DateTime          @db.Timestamptz(3)
+  /// Zona horaria elegida por el participante
+  participantTimezone String
+  status            BookingStatus
+  /// Expiración de la reserva temporal (PENDING / PAYMENT_PENDING)
+  expiresAt         DateTime?         @db.Timestamptz(3)
+  googleEventId     String?
+  googleCalendarId  String?
+  meetingUrl        String?
+  calendarSyncState CalendarSyncState @default(NOT_SYNCED)
+  calendarSyncError String?
+  confirmedAt       DateTime?         @db.Timestamptz(3)
+  cancelledAt       DateTime?         @db.Timestamptz(3)
+  cancelReason      String?
+  rescheduledFromId String?           @unique @db.Uuid
+  rescheduledFrom   Booking?          @relation("Reschedule", fields: [rescheduledFromId], references: [id])
+  rescheduledTo     Booking?          @relation("Reschedule")
+  /// Token (hash) para que el participante consulte su reserva
+  accessTokenHash   String?
+  createdAt         DateTime          @default(now()) @db.Timestamptz(3)
+  updatedAt         DateTime          @updatedAt @db.Timestamptz(3)
+  answers           FormResponse[]
+  payments          Payment[]
+
+  @@index([status, startAt])
+  @@index([meetingTypeId, startAt])
+  @@index([expiresAt])
+  @@map("bookings")
+}
+
+model FormResponse {
+  id        String  @id @default(uuid()) @db.Uuid
+  bookingId String  @db.Uuid
+  booking   Booking @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  fieldKey  String
+  label     String
+  value     Json
+
+  @@unique([bookingId, fieldKey])
+  @@map("form_responses")
+}
+
+// ───────────────────────── Pagos ─────────────────────────
+
+enum PaymentStatus {
+  PENDING
+  PAID
+  FAILED
+  EXPIRED
+  REFUNDED
+}
+
+model Payment {
+  id                      String        @id @default(uuid()) @db.Uuid
+  bookingId               String        @db.Uuid
+  booking                 Booking       @relation(fields: [bookingId], references: [id])
+  provider                String        @default("stripe")
+  stripeCheckoutSessionId String?       @unique
+  stripePaymentIntentId   String?
+  amount                  Int
+  currency                String
+  status                  PaymentStatus @default(PENDING)
+  paidAt                  DateTime?     @db.Timestamptz(3)
+  refundedAt              DateTime?     @db.Timestamptz(3)
+  failureReason           String?
+  createdAt               DateTime      @default(now()) @db.Timestamptz(3)
+  updatedAt               DateTime      @updatedAt @db.Timestamptz(3)
+
+  @@index([bookingId])
+  @@index([status])
+  @@map("payments")
+}
+
+/// Idempotencia de webhooks de Stripe
+model StripeEvent {
+  id          String   @id
+  type        String
+  processedAt DateTime @default(now()) @db.Timestamptz(3)
+
+  @@map("stripe_events")
+}
+
+// ───────────────────────── Operación ─────────────────────────
+
+model AuditLog {
+  id        String     @id @default(uuid()) @db.Uuid
+  adminId   String?    @db.Uuid
+  admin     AdminUser? @relation(fields: [adminId], references: [id], onDelete: SetNull)
+  action    String
+  entity    String?
+  entityId  String?
+  metadata  Json?
+  createdAt DateTime   @default(now()) @db.Timestamptz(3)
+
+  @@index([createdAt])
+  @@map("audit_logs")
+}
+
+/// Rate limiting distribuido (ventana fija) — funciona con varias instancias
+model RateLimitBucket {
+  key         String   @id
+  count       Int
+  windowStart DateTime @db.Timestamptz(3)
+
+  @@map("rate_limit_buckets")
+}
