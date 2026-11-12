@@ -1,0 +1,348 @@
+{
+  "key": "239645903-1794458109553.7747",
+  "raw": {
+    "file": "/home/user/iusdare-web-/video-studio/footage/raw/video-5/raw.MOV",
+    "duration": 177.883333,
+    "sizeMB": 67.1,
+    "bitrateKbps": 3019,
+    "video": {
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "fps": 29.997189168930948,
+      "pixFmt": "yuv420p",
+      "rotation": 0,
+      "colorTransfer": "bt709"
+    },
+    "audio": {
+      "codec": "aac",
+      "sampleRate": 48000,
+      "channels": 1
+    }
+  },
+  "proxy": {
+    "file": "/home/user/iusdare-web-/video-studio/public/footage/video-5/source.mp4",
+    "duration": 177.9,
+    "sizeMB": 239.6,
+    "bitrateKbps": 10777,
+    "video": {
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "pixFmt": "yuv420p",
+      "rotation": 0,
+      "colorTransfer": "bt709"
+    },
+    "audio": {
+      "codec": "aac",
+      "sampleRate": 48000,
+      "channels": 1
+    }
+  },
+  "audio": {
+    "integratedLufs": -15,
+    "lra": 17.3,
+    "truePeakDb": 0.1,
+    "silences": [
+      {
+        "start": 0,
+        "end": 0.918396
+      },
+      {
+        "start": 1.29908,
+        "end": 3.58123
+      },
+      {
+        "start": 3.83346,
+        "end": 5.3596
+      },
+      {
+        "start": 5.39167,
+        "end": 5.81629
+      },
+      {
+        "start": 5.83194,
+        "end": 6.79856
+      },
+      {
+        "start": 6.80044,
+        "end": 9.70148
+      },
+      {
+        "start": 9.81554,
+        "end": 11.5139
+      },
+      {
+        "start": 13.6361,
+        "end": 15.5195
+      },
+      {
+        "start": 17.5237,
+        "end": 18.0163
+      },
+      {
+        "start": 21.3,
+        "end": 21.9123
+      },
+      {
+        "start": 22.8063,
+        "end": 23.3229
+      },
+      {
+        "start": 24.6323,
+        "end": 25.0117
+      },
+      {
+        "start": 28.8885,
+        "end": 29.4854
+      },
+      {
+        "start": 29.5115,
+        "end": 29.9087
+      },
+      {
+        "start": 33.0392,
+        "end": 33.295
+      },
+      {
+        "start": 37.245,
+        "end": 37.9515
+      },
+      {
+        "start": 38.2699,
+        "end": 38.9012
+      },
+      {
+        "start": 45.0979,
+        "end": 45.4782
+      },
+      {
+        "start": 45.8532,
+        "end": 46.5422
+      },
+      {
+        "start": 49.6081,
+        "end": 49.8703
+      },
+      {
+        "start": 50.4517,
+        "end": 51.0455
+      },
+      {
+        "start": 53.6236,
+        "end": 54.3551
+      },
+      {
+        "start": 56.5462,
+        "end": 57.5839
+      },
+      {
+        "start": 59.0399,
+        "end": 59.346
+      },
+      {
+        "start": 60.8532,
+        "end": 61.1722
+      },
+      {
+        "start": 63.0586,
+        "end": 63.7587
+      },
+      {
+        "start": 68.1435,
+        "end": 69.968
+      },
+      {
+        "start": 76.6315,
+        "end": 76.9151
+      },
+      {
+        "start": 78.8132,
+        "end": 79.0793
+      },
+      {
+        "start": 80.9029,
+        "end": 81.3842
+      },
+      {
+        "start": 82.8514,
+        "end": 83.1177
+      },
+      {
+        "start": 85.2289,
+        "end": 85.9238
+      },
+      {
+        "start": 88.0385,
+        "end": 88.7939
+      },
+      {
+        "start": 89.0067,
+        "end": 89.2762
+      },
+      {
+        "start": 90.6993,
+        "end": 90.963
+      },
+      {
+        "start": 93.1373,
+        "end": 94.2419
+      },
+      {
+        "start": 94.5665,
+        "end": 94.881
+      },
+      {
+        "start": 99.7096,
+        "end": 100.287
+      },
+      {
+        "start": 100.339,
+        "end": 100.837
+      },
+      {
+        "start": 102.375,
+        "end": 102.703
+      },
+      {
+        "start": 104.05,
+        "end": 104.324
+      },
+      {
+        "start": 104.834,
+        "end": 105.218
+      },
+      {
+        "start": 105.936,
+        "end": 106.582
+      },
+      {
+        "start": 109.73,
+        "end": 110.051
+      },
+      {
+        "start": 111.422,
+        "end": 111.874
+      },
+      {
+        "start": 114.221,
+        "end": 114.61
+      },
+      {
+        "start": 115.415,
+        "end": 116.485
+      },
+      {
+        "start": 116.76,
+        "end": 117.013
+      },
+      {
+        "start": 117.245,
+        "end": 117.794
+      },
+      {
+        "start": 118.769,
+        "end": 119.285
+      },
+      {
+        "start": 120.003,
+        "end": 120.261
+      },
+      {
+        "start": 122.375,
+        "end": 122.999
+      },
+      {
+        "start": 124.648,
+        "end": 125.281
+      },
+      {
+        "start": 128.681,
+        "end": 129.056
+      },
+      {
+        "start": 131.61,
+        "end": 132.431
+      },
+      {
+        "start": 133.637,
+        "end": 134.088
+      },
+      {
+        "start": 138.707,
+        "end": 139.038
+      },
+      {
+        "start": 139.335,
+        "end": 139.605
+      },
+      {
+        "start": 141.511,
+        "end": 141.799
+      },
+      {
+        "start": 141.959,
+        "end": 142.375
+      },
+      {
+        "start": 143.14,
+        "end": 144.343
+      },
+      {
+        "start": 146.137,
+        "end": 147.207
+      },
+      {
+        "start": 149.102,
+        "end": 149.414
+      },
+      {
+        "start": 152.008,
+        "end": 152.373
+      },
+      {
+        "start": 156.026,
+        "end": 156.295
+      },
+      {
+        "start": 157.248,
+        "end": 157.988
+      },
+      {
+        "start": 157.992,
+        "end": 158.35
+      },
+      {
+        "start": 164.08,
+        "end": 164.635
+      },
+      {
+        "start": 165.612,
+        "end": 166.231
+      },
+      {
+        "start": 167.42,
+        "end": 167.867
+      },
+      {
+        "start": 169.501,
+        "end": 169.854
+      },
+      {
+        "start": 177.439,
+        "end": 177.899
+      }
+    ],
+    "silenceTotal": 46.21
+  },
+  "video": {
+    "blackSegments": [],
+    "lumaAvg": 148.8,
+    "saturationAvg": 6.5
+  },
+  "warnings": [
+    "Resolución de origen 720x1280: se escala a 1080x1920 (posible pérdida de nitidez; limita los punch-in a ≤1.15x).",
+    "Posible saturación de audio (true peak 0.1 dBFS)."
+  ]
+}
