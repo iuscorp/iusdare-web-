@@ -137,9 +137,10 @@ export async function getAvailableSlots(
   rangeStart: number,
   rangeEnd: number,
   now = Date.now(),
+  opts: CollectBusyOptions = {},
 ): Promise<Slot[]> {
   const schedule = await loadSchedule();
-  const busy = await collectBusy(paddedRange(mt, rangeStart, rangeEnd));
+  const busy = await collectBusy(paddedRange(mt, rangeStart, rangeEnd), opts);
   return computeSlots({
     scheduleTimezone: schedule.timezone,
     rules: schedule.rules,

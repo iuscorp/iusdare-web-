@@ -1,6 +1,6 @@
 import "server-only";
 import { prisma } from "../db";
-import { useFakeCalendars } from "../env";
+import { fakeCalendarsEnabled } from "../env";
 import { fakeDestination, fakeGoogleBusy, fakeMicrosoftBusy } from "./fake";
 import { googleBusySource, googleDestination } from "./google";
 import { microsoftBusySource } from "./microsoft";
@@ -32,7 +32,7 @@ export async function getActiveBusySources(): Promise<ActiveSources> {
   if (overrides?.busySources) {
     return { sources: overrides.busySources, broken: [], googleReady: overrides.destination !== null };
   }
-  if (useFakeCalendars()) return { sources: [fakeGoogleBusy, fakeMicrosoftBusy], broken: [], googleReady: true };
+  if (fakeCalendarsEnabled()) return { sources: [fakeGoogleBusy, fakeMicrosoftBusy], broken: [], googleReady: true };
 
   const integrations = await prisma.calendarIntegration.findMany();
   const sources: BusySource[] = [];
@@ -57,6 +57,6 @@ export async function getActiveBusySources(): Promise<ActiveSources> {
 
 export function getEventDestination(): EventDestination | null {
   if (overrides && "destination" in overrides) return overrides.destination ?? null;
-  if (useFakeCalendars()) return fakeDestination;
+  if (fakeCalendarsEnabled()) return fakeDestination;
   return googleDestination;
 }

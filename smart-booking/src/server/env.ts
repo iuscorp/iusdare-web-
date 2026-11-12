@@ -62,7 +62,7 @@ export function resetEnvCache() {
   cached = null;
 }
 
-export function useFakeCalendars(): boolean {
+export function fakeCalendarsEnabled(): boolean {
   const e = env();
   return e.DEV_FAKE_CALENDARS && e.NODE_ENV !== "production";
 }

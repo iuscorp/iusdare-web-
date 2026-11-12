@@ -77,7 +77,6 @@ export interface MultiValue {
 
 /** Elimina caracteres de control (excepto saltos de línea en textareas). */
 function clean(v: string, multiline: boolean) {
-  // eslint-disable-next-line no-control-regex
   const re = multiline ? /[\u0000-\u0009\u000B\u000C\u000E-\u001F\u007F]/g : /[\u0000-\u001F\u007F]/g;
   return v.replace(re, "").trim();
 }
