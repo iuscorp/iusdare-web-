@@ -2,7 +2,7 @@
  "model": "small",
  "language": "es",
  "duration": 177.899,
- "text": "¿Sabías que cada vez que compras una cerveza? O alguien compra cigarros. Está estagando un impuesto extra que ni siquiera aparece en el ticket. Se llama impuesto selectivo al consumo. Y no, no cuenta como IGB. Son dos impuestos distintos. El IGV graba casi todo lo que compras. Pero el ICC graba productos específicos. alcohol, tabaco Combustibles. Combustibles. Algunos vehículos. Y hasta Juegos de Azar. ¿Por qué? ¿Por qué? Perdón. Por dos razones. Recohación del Estado. Recohación del Estado. Y desincentivar su consumo. Porque bañen tu salud o hacen baño al medio ambiente. Esa funciona es regulatoria. Pero ojo. Legalmente lo debería pagar el productor o importador. Pero adivina quién lo está sumiendo. Tú, porque va incluido en el preso final. Así que la próxima vez que ves el precio de una chela. ¿Ya sabes que hay? Hay un impuesto que no ves. Si, abocare Iuris y guarda este video. No sabes cuándo podrás necesitarlo.",
+ "text": "¿Sabías que cada vez que compras una cerveza? O alguien compra cigarros. Está estagando un impuesto extra que ni siquiera aparece en el ticket. Se llama impuesto selectivo al consumo. Y no, no cuenta como IGB. Son dos impuestos distintos. El IGV graba casi todo lo que compras. El ICS solo graba productos específicos. alcohol, tabaco Combustibles. Combustibles. Algunos vehículos. Y hasta Juegos de Azar. ¿Por qué? ¿Por qué? Perdón. Por dos razones. Recohación del Estado. Recohación del Estado. Y desincentivar su consumo. Porque bañen tu salud o hacen baño al medio ambiente. Esa funciona es regulatoria. Pero ojo. Legalmente lo debería pagar el productor o importador. Pero adivina quién lo está sumiendo. Tú, porque va incluido en el preso final. Así que la próxima vez que ves el precio de una chela. ¿Ya sabes que hay? Hay un impuesto que no ves. Si, abocare Iuris y guarda este video. No sabes cuándo podrás necesitarlo.",
  "segments": [
   {
    "start": 17.55,
@@ -47,9 +47,9 @@
    "take": 6
   },
   {
-   "start": 57.1,
-   "end": 60.28,
-   "text": "Pero el ICC graba productos específicos.",
+   "start": 69.55,
+   "end": 72.23,
+   "text": "El ICS solo graba productos específicos.",
    "take": 7
   },
   {
@@ -529,45 +529,45 @@
    "take": 6
   },
   {
-   "w": "Pero",
-   "s": 57.35,
-   "e": 57.8,
-   "p": 0.323,
+   "w": "El",
+   "s": 69.8,
+   "e": 70.11,
+   "p": 0.127,
    "take": 7
   },
   {
-   "w": "el",
-   "s": 57.8,
-   "e": 58.14,
-   "p": 0.599,
+   "w": "ICS",
+   "s": 70.11,
+   "e": 70.63,
+   "p": 0.717,
    "take": 7
   },
   {
-   "w": "ICC",
-   "s": 58.14,
-   "e": 58.54,
-   "p": 0.411,
+   "w": "solo",
+   "s": 70.63,
+   "e": 70.81,
+   "p": 0.557,
    "take": 7
   },
   {
    "w": "graba",
-   "s": 58.54,
-   "e": 58.96,
-   "p": 0.799,
+   "s": 70.81,
+   "e": 71.13,
+   "p": 0.703,
    "take": 7
   },
   {
    "w": "productos",
-   "s": 58.96,
-   "e": 59.58,
-   "p": 0.885,
+   "s": 71.13,
+   "e": 71.43,
+   "p": 0.934,
    "take": 7
   },
   {
    "w": "específicos.",
-   "s": 59.58,
-   "e": 60.15,
-   "p": 0.947,
+   "s": 71.43,
+   "e": 72.23,
+   "p": 0.991,
    "take": 7
   },
   {
@@ -980,7 +980,7 @@
    "w": "Así",
    "s": 160.59,
    "e": 160.87,
-   "p": 0.567,
+   "p": 0.577,
    "take": 22
   },
   {
@@ -994,7 +994,7 @@
    "w": "la",
    "s": 161.01,
    "e": 161.15,
-   "p": 0.895,
+   "p": 0.889,
    "take": 22
   },
   {
@@ -1007,43 +1007,43 @@
   {
    "w": "vez",
    "s": 161.43,
-   "e": 161.75,
-   "p": 0.991,
+   "e": 161.73,
+   "p": 0.99,
    "take": 22
   },
   {
    "w": "que",
-   "s": 161.75,
+   "s": 161.73,
    "e": 161.85,
-   "p": 0.936,
+   "p": 0.962,
    "take": 22
   },
   {
    "w": "ves",
    "s": 161.85,
    "e": 161.97,
-   "p": 0.222,
+   "p": 0.233,
    "take": 22
   },
   {
    "w": "el",
    "s": 161.97,
    "e": 162.09,
-   "p": 0.821,
+   "p": 0.824,
    "take": 22
   },
   {
    "w": "precio",
    "s": 162.09,
    "e": 162.25,
-   "p": 0.974,
+   "p": 0.978,
    "take": 22
   },
   {
    "w": "de",
    "s": 162.25,
    "e": 162.39,
-   "p": 0.982,
+   "p": 0.983,
    "take": 22
   },
   {
@@ -1057,7 +1057,7 @@
    "w": "chela.",
    "s": 162.49,
    "e": 162.87,
-   "p": 0.968,
+   "p": 0.971,
    "take": 22
   },
   {

@@ -28,7 +28,7 @@
       "name": "Duración",
       "ok": true,
       "level": "ok",
-      "detail": "44.37 s (EDL 44.37 s)"
+      "detail": "47.27 s (EDL 47.27 s)"
     },
     {
       "name": "Fotogramas negros",
@@ -46,7 +46,7 @@
       "name": "True peak",
       "ok": true,
       "level": "ok",
-      "detail": "-2.5 dBFS"
+      "detail": "-2.2 dBFS"
     },
     {
       "name": "Silencios residuales (>0.6 s)",
@@ -64,93 +64,83 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 0 ms, p90 |100| ms, 133/148 palabras alineadas"
+      "detail": "mediana 0 ms, p90 |106| ms, 135/148 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
       "ok": false,
       "level": "warn",
-      "detail": "15 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "detail": "13 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 133,
+    "matched": 135,
     "total": 148,
     "medianOffset": 0,
-    "p90AbsOffset": 0.10000000000000009,
+    "p90AbsOffset": 0.10600000000000165,
     "mismatches": [
       {
-        "at": 3.838,
-        "caption": "pagando",
-        "heard": "está está dando un"
+        "at": 9.76,
+        "caption": "IGV",
+        "heard": "como IGB."
       },
       {
-        "at": 6.323,
-        "caption": "ticket",
-        "heard": "en el tiktok, se llama"
-      },
-      {
-        "at": 12.223,
+        "at": 12.523,
         "caption": "grava",
         "heard": "IGV graba casi"
       },
       {
-        "at": 14.64,
+        "at": 14.543,
         "caption": "ISC",
-        "heard": "el ICC graba"
+        "heard": "El ICS"
       },
       {
-        "at": 15.04,
+        "at": 15.243,
         "caption": "grava",
-        "heard": "ICC graba"
+        "heard": "solo graba productos"
       },
       {
-        "at": 16.08,
-        "caption": "específicos",
-        "heard": "productos espacial,"
+        "at": 22.007,
+        "caption": "qué",
+        "heard": "porque por dos"
       },
       {
-        "at": 16.477,
-        "caption": "alcohol",
-        "heard": "espacial, cojabaco,"
+        "at": 25.84,
+        "caption": "dañan",
+        "heard": "porque bañan"
       },
       {
-        "at": 17.09,
-        "caption": "tabaco",
-        "heard": "cojabaco,"
-      },
-      {
-        "at": 24.1,
-        "caption": "Porque",
-        "heard": "¿Por qué?"
-      },
-      {
-        "at": 25.96,
+        "at": 27.36,
         "caption": "daño",
-        "heard": "O hacen baño al medio"
+        "heard": "o hacen baño al medio"
       },
       {
-        "at": 37.008,
+        "at": 39.06,
         "caption": "veas",
-        "heard": "vez que ves el precio de"
+        "heard": "vez que va a ser precio de"
       },
       {
-        "at": 38.747,
-        "caption": "ahí",
-        "heard": "que hay un"
+        "at": 39.19,
+        "caption": "el",
+        "heard": "que va a ser precio de una"
       },
       {
-        "at": 40.38,
+        "at": 40.678,
+        "caption": "Ya",
+        "heard": "sabes que"
+      },
+      {
+        "at": 43.113,
         "caption": "Sigue",
-        "heard": "ves. abocare"
+        "heard": "ves si abocare"
       },
       {
-        "at": 40.518,
+        "at": 43.251,
         "caption": "a",
-        "heard": "abocare"
+        "heard": "si abocare"
       },
       {
-        "at": 40.835,
+        "at": 43.568,
         "caption": "Vocare",
         "heard": "abocare Iuris"
       }
@@ -158,8 +148,8 @@
   },
   "loudness": {
     "integratedLufs": -14,
-    "lra": 5.6,
-    "truePeakDb": -2.5
+    "lra": 6.3,
+    "truePeakDb": -2.2
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/video-5/video-5-preview.mp4"
 }

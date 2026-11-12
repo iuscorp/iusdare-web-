@@ -136,7 +136,7 @@
     },
     {
       "in": 29.87,
-      "out": 32.8,
+      "out": 32.92,
       "words": [
         {
           "w": "estás",
@@ -261,7 +261,7 @@
     },
     {
       "in": 35.28,
-      "out": 37.18,
+      "out": 37.21,
       "words": [
         {
           "w": "Se",
@@ -328,7 +328,7 @@
     },
     {
       "in": 40.3,
-      "out": 42.07,
+      "out": 42.1,
       "words": [
         {
           "w": "Y",
@@ -394,7 +394,7 @@
     },
     {
       "in": 46.51,
-      "out": 47.93,
+      "out": 48.04,
       "words": [
         {
           "w": "Son",
@@ -441,7 +441,7 @@
     },
     {
       "in": 51,
-      "out": 53.4,
+      "out": 53.42,
       "words": [
         {
           "w": "El",
@@ -526,42 +526,42 @@
       "text": "El IGV grava casi todo lo que compras."
     },
     {
-      "in": 57.54,
-      "out": 59.95,
+      "in": 69.92,
+      "out": 72.26,
       "words": [
         {
-          "w": "Pero",
-          "s": 57.54,
-          "e": 57.8,
-          "p": 0.323,
+          "w": "El",
+          "s": 69.92,
+          "e": 70.11,
+          "p": 0.127,
           "take": 7,
-          "s0": 57.35,
+          "s0": 69.8,
           "sel": 7,
           "i": 48
         },
         {
-          "w": "el",
-          "s": 57.8,
-          "e": 58.14,
-          "p": 0.599,
-          "take": 7,
-          "s0": 57.8,
+          "w": "ISC",
+          "s": 70.11,
+          "e": 70.63,
+          "p": 1,
+          "corrected": true,
           "sel": 7,
           "i": 49
         },
         {
-          "w": "ISC",
-          "s": 58.14,
-          "e": 58.54,
-          "p": 1,
-          "corrected": true,
+          "w": "solo",
+          "s": 70.63,
+          "e": 70.81,
+          "p": 0.557,
+          "take": 7,
+          "s0": 70.63,
           "sel": 7,
           "i": 50
         },
         {
           "w": "grava",
-          "s": 58.54,
-          "e": 58.96,
+          "s": 70.81,
+          "e": 71.13,
           "p": 1,
           "corrected": true,
           "sel": 7,
@@ -569,30 +569,30 @@
         },
         {
           "w": "productos",
-          "s": 58.96,
-          "e": 59.58,
-          "p": 0.885,
+          "s": 71.13,
+          "e": 71.43,
+          "p": 0.934,
           "take": 7,
-          "s0": 58.96,
+          "s0": 71.13,
           "sel": 7,
           "i": 52
         },
         {
           "w": "específicos.",
-          "s": 59.58,
-          "e": 59.95,
-          "p": 0.947,
+          "s": 71.43,
+          "e": 72.22,
+          "p": 0.991,
           "take": 7,
-          "s0": 59.58,
+          "s0": 71.43,
           "sel": 7,
           "i": 53
         }
       ],
-      "text": "Pero el ISC grava productos específicos."
+      "text": "El ISC solo grava productos específicos."
     },
     {
       "in": 74.11,
-      "out": 74.68,
+      "out": 74.82,
       "words": [
         {
           "w": "alcohol,",
@@ -609,7 +609,7 @@
     },
     {
       "in": 74.92,
-      "out": 75.6,
+      "out": 76,
       "words": [
         {
           "w": "tabaco",
@@ -626,7 +626,7 @@
     },
     {
       "in": 76.88,
-      "out": 77.68,
+      "out": 77.78,
       "words": [
         {
           "w": "Combustibles.",
@@ -652,8 +652,8 @@
       "text": "Combustibles. Combustibles."
     },
     {
-      "in": 78.75,
-      "out": 79.95,
+      "in": 78.73,
+      "out": 80.17,
       "words": [
         {
           "w": "Algunos",
@@ -680,7 +680,7 @@
     },
     {
       "in": 81.35,
-      "out": 82.27,
+      "out": 82.37,
       "words": [
         {
           "w": "Y",
@@ -734,7 +734,7 @@
     },
     {
       "in": 83.07,
-      "out": 83.42,
+      "out": 83.45,
       "words": [
         {
           "w": "¿Por",
@@ -778,7 +778,7 @@
     },
     {
       "in": 86.89,
-      "out": 87.91,
+      "out": 88,
       "words": [
         {
           "w": "Recaudación",
@@ -814,7 +814,7 @@
     },
     {
       "in": 91.58,
-      "out": 92.88,
+      "out": 92.91,
       "words": [
         {
           "w": "desincentivar",
@@ -897,7 +897,7 @@
     },
     {
       "in": 102.66,
-      "out": 103.97,
+      "out": 104.05,
       "words": [
         {
           "w": "o",
@@ -1007,7 +1007,7 @@
       "text": "esa función es regulatoria."
     },
     {
-      "in": 119.241,
+      "in": 119.24,
       "out": 119.91,
       "words": [
         {
@@ -1034,8 +1034,8 @@
       "text": "Pero ojo."
     },
     {
-      "in": 134.18,
-      "out": 137.02,
+      "in": 134.1,
+      "out": 137.06,
       "words": [
         {
           "w": "Legalmente",
@@ -1122,7 +1122,7 @@
     },
     {
       "in": 139.56,
-      "out": 141.3,
+      "out": 141.36,
       "words": [
         {
           "w": "Pero",
@@ -1272,14 +1272,14 @@
       "text": "Tú, porque va incluido en el precio final."
     },
     {
-      "in": 160.51,
-      "out": 162.93,
+      "in": 160.11,
+      "out": 163.45,
       "words": [
         {
           "w": "Así",
           "s": 160.59,
           "e": 160.87,
-          "p": 0.567,
+          "p": 0.577,
           "take": 22,
           "s0": 160.59,
           "sel": 22,
@@ -1299,7 +1299,7 @@
           "w": "la",
           "s": 161.01,
           "e": 161.15,
-          "p": 0.895,
+          "p": 0.889,
           "take": 22,
           "s0": 161.01,
           "sel": 22,
@@ -1318,8 +1318,8 @@
         {
           "w": "vez",
           "s": 161.43,
-          "e": 161.75,
-          "p": 0.991,
+          "e": 161.73,
+          "p": 0.99,
           "take": 22,
           "s0": 161.43,
           "sel": 22,
@@ -1327,8 +1327,8 @@
         },
         {
           "w": "que",
-          "s": 161.75,
-          "e": 161.875,
+          "s": 161.73,
+          "e": 161.85999999999999,
           "p": 1,
           "corrected": true,
           "sel": 22,
@@ -1336,8 +1336,8 @@
         },
         {
           "w": "veas",
-          "s": 161.875,
-          "e": 162,
+          "s": 161.85999999999999,
+          "e": 161.99,
           "p": 1,
           "corrected": true,
           "sel": 22,
@@ -1345,8 +1345,8 @@
         },
         {
           "w": "el",
-          "s": 162,
-          "e": 162.125,
+          "s": 161.99,
+          "e": 162.12,
           "p": 1,
           "corrected": true,
           "sel": 22,
@@ -1354,7 +1354,7 @@
         },
         {
           "w": "precio",
-          "s": 162.125,
+          "s": 162.12,
           "e": 162.25,
           "p": 1,
           "corrected": true,
@@ -1365,7 +1365,7 @@
           "w": "de",
           "s": 162.25,
           "e": 162.39,
-          "p": 0.982,
+          "p": 0.983,
           "take": 22,
           "s0": 162.25,
           "sel": 22,
@@ -1385,7 +1385,7 @@
           "w": "chela.",
           "s": 162.49,
           "e": 162.87,
-          "p": 0.968,
+          "p": 0.971,
           "take": 22,
           "s0": 162.49,
           "sel": 22,
@@ -1395,8 +1395,8 @@
       "text": "Así que la próxima vez que veas el precio de una chela."
     },
     {
-      "in": 164.591,
-      "out": 165.45,
+      "in": 164.59,
+      "out": 165.61,
       "words": [
         {
           "w": "¿Ya",
@@ -1508,7 +1508,7 @@
     },
     {
       "in": 171.78,
-      "out": 174.08,
+      "out": 174.23,
       "words": [
         {
           "w": "Sigue",
@@ -1701,9 +1701,9 @@
     },
     {
       "kind": "low-confidence",
-      "at": 57.35,
-      "text": "Pero",
-      "p": 0.323,
+      "at": 69.8,
+      "text": "El",
+      "p": 0.127,
       "note": "Verificar ortografía/término en subtítulo."
     },
     {
@@ -1777,6 +1777,12 @@
     },
     {
       "kind": "off-camera-voice",
+      "at": 74.92,
+      "text": "tabaco",
+      "note": "45 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    },
+    {
+      "kind": "off-camera-voice",
       "at": 91.58,
       "text": "desincentivar su consumo.",
       "note": "43 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
@@ -1785,11 +1791,11 @@
   "stats": {
     "sourceDuration": 177.899,
     "sourceSpeechSpan": 159.6,
-    "outputDuration": 44.348,
-    "savedSeconds": 130.221,
+    "outputDuration": 47.21,
+    "savedSeconds": 130.371,
     "words": 147,
-    "wordsPerSecond": 3.083,
-    "acousticAirRemoved": 3.33
+    "wordsPerSecond": 3.093,
+    "acousticAirRemoved": 3.29
   },
   "speaker": [
     {
@@ -1808,84 +1814,84 @@
     },
     {
       "in": 29.87,
-      "out": 32.8,
+      "out": 32.92,
       "text": "estás pagando un impuesto extra que ni siquiera aparece en el ticket.",
-      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
       "in": 35.28,
-      "out": 37.18,
+      "out": 37.21,
       "text": "Se llama impuesto selectivo al consumo.",
-      "timeline": "NNNNNNNNNNNNNNNdddd",
-      "offCamera": 0.21
+      "timeline": "NNNNNNNNNNNNNNNddddd",
+      "offCamera": 0.25
     },
     {
       "in": 40.3,
-      "out": 42.07,
+      "out": 42.1,
       "text": "Y no, no cuenta como IGV.",
       "timeline": "NNNNdNNNNNNNNNNNNN",
       "offCamera": 0.06
     },
     {
       "in": 46.51,
-      "out": 47.93,
+      "out": 48.04,
       "text": "Son dos impuestos distintos.",
-      "timeline": "NNNNNNNNNNNNNNN",
-      "offCamera": 0
+      "timeline": "NNNNNNNNNNNNNNNd",
+      "offCamera": 0.06
     },
     {
       "in": 51,
-      "out": 53.4,
+      "out": 53.42,
       "text": "El IGV grava casi todo lo que compras.",
-      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 57.54,
-      "out": 59.95,
-      "text": "Pero el ISC grava productos específicos.",
-      "timeline": "NNNNNNNNNNNNNNNN.NNNNNNNN",
-      "offCamera": 0
+      "in": 69.92,
+      "out": 72.26,
+      "text": "El ISC solo grava productos específicos.",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNdd",
+      "offCamera": 0.08
     },
     {
       "in": 74.11,
-      "out": 74.68,
+      "out": 74.82,
       "text": "alcohol,",
-      "timeline": "NNNNNd",
-      "offCamera": 0.17
+      "timeline": "NNNNNdNN",
+      "offCamera": 0.13
     },
     {
       "in": 74.92,
-      "out": 75.6,
+      "out": 76,
       "text": "tabaco",
-      "timeline": "NNNNNNd",
-      "offCamera": 0.14
+      "timeline": "NNNNNNddddd",
+      "offCamera": 0.45
     },
     {
       "in": 76.88,
-      "out": 77.68,
+      "out": 77.78,
       "text": "Combustibles. Combustibles.",
-      "timeline": "NNNNNNNNd",
-      "offCamera": 0.11
+      "timeline": "NNNNNNNNdd",
+      "offCamera": 0.2
     },
     {
-      "in": 78.75,
-      "out": 79.95,
+      "in": 78.73,
+      "out": 80.17,
       "text": "Algunos vehículos.",
-      "timeline": "N.NNNNNNNNNNN",
-      "offCamera": 0
+      "timeline": "N.NNNNNNNNNNNdN",
+      "offCamera": 0.07
     },
     {
       "in": 81.35,
-      "out": 82.27,
+      "out": 82.37,
       "text": "Y hasta juegos de azar.",
-      "timeline": "NNNNNNNNNN",
+      "timeline": "NNNNNNNNNNN",
       "offCamera": 0
     },
     {
       "in": 83.07,
-      "out": 83.42,
+      "out": 83.45,
       "text": "¿Por qué?",
       "timeline": "NNNN",
       "offCamera": 0
@@ -1899,14 +1905,14 @@
     },
     {
       "in": 86.89,
-      "out": 87.91,
+      "out": 88,
       "text": "Recaudación del Estado.",
-      "timeline": "NNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNN",
       "offCamera": 0
     },
     {
       "in": 91.58,
-      "out": 92.88,
+      "out": 92.91,
       "text": "desincentivar su consumo.",
       "timeline": "NNNNNNNNdddddd",
       "offCamera": 0.43
@@ -1920,7 +1926,7 @@
     },
     {
       "in": 102.66,
-      "out": 103.97,
+      "out": 104.05,
       "text": "o hacen daño al medio ambiente.",
       "timeline": "NNNNNNNNNNNNNN",
       "offCamera": 0
@@ -1933,24 +1939,24 @@
       "offCamera": 0
     },
     {
-      "in": 119.241,
+      "in": 119.24,
       "out": 119.91,
       "text": "Pero ojo.",
       "timeline": "NNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 134.18,
-      "out": 137.02,
+      "in": 134.1,
+      "out": 137.06,
       "text": "Legalmente lo debería pagar el productor o importador.",
-      "timeline": "NNNNNNNNNNNNNNNNddNNdNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNNNNNNddNNdNNNNNNNN",
       "offCamera": 0.1
     },
     {
       "in": 139.56,
-      "out": 141.3,
+      "out": 141.36,
       "text": "Pero adivina quién lo está asumiendo.",
-      "timeline": "NNNNNNNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
@@ -1961,17 +1967,17 @@
       "offCamera": 0.05
     },
     {
-      "in": 160.51,
-      "out": 162.93,
+      "in": 160.11,
+      "out": 163.45,
       "text": "Así que la próxima vez que veas el precio de una chela.",
-      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 164.591,
-      "out": 165.45,
+      "in": 164.59,
+      "out": 165.61,
       "text": "¿Ya sabes que ahí?",
-      "timeline": "NNNNNNNNN",
+      "timeline": "NNNNNNNNNNN",
       "offCamera": 0
     },
     {
@@ -1983,10 +1989,10 @@
     },
     {
       "in": 171.78,
-      "out": 174.08,
+      "out": 174.23,
       "text": "Sigue a Vocare Iuris y guarda este video.",
-      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNN",
-      "offCamera": 0
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNd",
+      "offCamera": 0.04
     },
     {
       "in": 175.75,
