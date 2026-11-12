@@ -4,7 +4,7 @@
     "title": "Contrato de vesting: qué es y por qué lo usan las startups",
     "format": "vertical",
     "fps": 30,
-    "status": "canvas"
+    "status": "revision"
   },
   "sources": {
     "main": "footage/raw/2026-11-contrato-vesting/main.mp4"
@@ -231,7 +231,7 @@
     },
     {
       "id": "S12",
-      "in": 58.74,
+      "in": 59.0,
       "out": 61.6,
       "role": "cta",
       "purpose": "Protección de relaciones societarias",
@@ -244,7 +244,7 @@
       "nativeCodes": [
         "scale-change"
       ],
-      "rationale": "El cambio de escala disimula el salto que trae el raw en 58.7 s.",
+      "rationale": "El cambio de escala disimula el salto del raw; se evitan 5 fotogramas negros del raw (58.70–58.85 s).",
       "transitionIn": "cut"
     },
     {
