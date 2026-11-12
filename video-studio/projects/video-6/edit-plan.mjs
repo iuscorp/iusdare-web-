@@ -67,7 +67,7 @@ add({type: 'selectionLabel', text: 'Transferencia simulada', cursor: true, x: 0.
 
 // ── 2. La captura no prueba el pago
 const muchos = at('Muchos');
-sticker('🤳', muchos.start, at('pero').start - muchos.start - 0.03, 0.32, 0.62, '«confían en la captura de pantalla»');
+// «la captura de pantalla»: sin emoji, zoom al celular que muestra (pedido del equipo)
 const pero = at('pero');
 add({type: 'denyMark', x: 0.68, y: 0.62, start: pero.start, end: at('La', pero.start).start - 0.03}, '«el voucher no garantiza el pago»');
 const clave = at('La', pero.start);
@@ -150,6 +150,29 @@ for (const s of e.segments) {
 }
 e.segments[0].framing = 'subtleIn';
 e.segments[0].move = 'settle';
+
+// Primer plano del celular en «la captura de pantalla»: se parte el plano (audio continuo) y se
+// encuadra el teléfono que la presentadora levanta (≈ x 0.26, y 0.65 del cuadro) a 2.2×.
+{
+  const cap = at('captura');
+  const pero2 = at('pero', cap.start);
+  let o = 0;
+  for (let i = 0; i < e.segments.length; i++) {
+    const s = e.segments[i];
+    const d = s.out - s.in;
+    if (cap.start >= o && cap.start < o + d) {
+      const srcCut = r(s.in + (pero2.start - o) - 0.04); // fuente: justo antes de «pero»
+      const srcIn = r(Math.max(s.in, s.in + (at('la', muchos.start).start - o) - 0.04)); // fuente: «la captura»
+      const parts = [];
+      if (srcIn > s.in + 0.05) parts.push({...s, out: srcIn});
+      parts.push({...s, in: srcIn, out: srcCut, framing: {scale: 2.2, x: 0.58, y: -0.516}, move: 'crash', note: 'primer plano del celular (captura de pantalla)'});
+      parts.push({...s, in: srcCut, framing: 'subtleIn', move: 'slowPush'});
+      e.segments.splice(i, 1, ...parts);
+      break;
+    }
+    o += d;
+  }
+}
 
 const KEY = ['voucher', 'dinero', 'cuidado', 'simulada', 'captura', 'garantiza', 'verificacion', 'producto', 'saldo', 'notificacion', 'editan', 'estafa', 'chats', 'denuncia', 'digitales', 'informaticos', 'responsable'];
 for (const c of e.captions) if (c.start < cta.start && KEY.includes(norm(c.text))) c.emphasis = true;
