@@ -56,3 +56,8 @@ Formato: **Contexto → Decisión → Consecuencias**. Las decisiones se numeran
 
 ## ADR-012 · Calendarios simulados en desarrollo
 - `DEV_FAKE_CALENDARS=true` permite probar todo el flujo sin credenciales; la app rechaza arrancar con esta opción en producción.
+
+## ADR-013 · Identidad visual Revoredo IusCorp con lenguaje iOS
+- **Contexto:** la titular pidió un diseño tipo iOS, con transiciones fluidas, y con la identidad de Revoredo IusCorp en lugar de la de IUS DARE.
+- **Decisión:** paleta oficial (marino `#102438`, guinda `#621410`, gris `#E2E2E2`, blanco); titulares en serif editorial (Playfair Display) alternando romana y cursiva; texto en Inter. Patrones iOS: barra translúcida, listas agrupadas, controles en forma de píldora, barra de progreso segmentada, transiciones push/sheet con `cubic-bezier(.32,.72,0,1)` y respuesta táctil. El token `gold` se conserva por compatibilidad, pero ahora apunta al guinda.
+- **Consecuencias:** el panel admin hereda los tokens. Si la marca entrega su serif oficial o la tipografía Aftika, basta con cambiarla en `src/app/layout.tsx`.

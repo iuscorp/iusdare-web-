@@ -68,7 +68,7 @@ export function MonthCalendar({
   return (
     <div>
       <div className="mb-3 flex items-center justify-between">
-        <h3 className="font-display text-base font-semibold text-navy-deep first-letter:uppercase" aria-live="polite">
+        <h3 className="font-display text-[20px] text-navy-deep first-letter:uppercase" aria-live="polite">
           {title}
         </h3>
         <div className="flex gap-1">
@@ -102,16 +102,16 @@ export function MonthCalendar({
                   onClick={() => onSelect(iso)}
                   aria-label={`${d.setLocale("es").toFormat("cccc d 'de' LLLL")}${available ? `, ${count} horarios disponibles` : ", sin disponibilidad"}`}
                   className={cn(
-                    "relative mx-auto flex aspect-square w-full max-w-[52px] items-center justify-center rounded-xl text-sm transition-colors",
-                    available && !selected && "bg-navy-50 font-semibold text-navy hover:bg-navy-200",
-                    selected && "bg-navy-deep font-semibold text-white shadow-lift",
+                    "relative mx-auto flex aspect-square w-full max-w-[48px] items-center justify-center rounded-full text-[16px] tabular-nums transition-all duration-300 ease-ios",
+                    available && !selected && "font-semibold text-navy-deep hover:bg-navy-50 active:scale-90",
+                    selected && "animate-pop bg-guinda font-semibold text-white shadow-[0_8px_18px_-8px_rgba(98,20,16,.8)]",
                     !available && "cursor-default text-navy-deep/30",
                   )}
                 >
                   {d.day}
                   {isToday && (
                     <span
-                      className={cn("absolute bottom-1.5 h-1 w-1 rounded-full", selected ? "bg-gold-light" : "bg-gold")}
+                      className={cn("absolute bottom-1 h-1 w-1 rounded-full", selected ? "bg-white" : "bg-guinda")}
                       aria-hidden="true"
                     />
                   )}
@@ -132,7 +132,7 @@ function NavBtn({ label, disabled, onClick, dir }: { label: string; disabled: bo
       onClick={onClick}
       disabled={disabled}
       aria-label={label}
-      className="flex h-10 w-10 items-center justify-center rounded-lg text-navy-deep transition-colors hover:bg-navy-50 disabled:cursor-not-allowed disabled:opacity-30"
+      className="flex h-10 w-10 items-center justify-center rounded-full text-guinda transition-all duration-200 ease-ios hover:bg-guinda-soft active:scale-90 disabled:cursor-not-allowed disabled:opacity-30"
     >
       <svg viewBox="0 0 20 20" className="h-4 w-4" aria-hidden="true">
         <path

@@ -1,22 +1,22 @@
 import type { Metadata, Viewport } from "next";
-import { Poppins, Inter, IBM_Plex_Mono } from "next/font/google";
+import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 
-const display = Poppins({ subsets: ["latin"], weight: ["500", "600", "700"], variable: "--font-display", display: "swap" });
+// Serif editorial de alto contraste (titulares, con cursivas) + sans limpia tipo sistema iOS.
+const display = Playfair_Display({ subsets: ["latin"], weight: ["400", "500", "600"], style: ["normal", "italic"], variable: "--font-display", display: "swap" });
 const body = Inter({ subsets: ["latin"], variable: "--font-body", display: "swap" });
-const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-mono", display: "swap" });
 
 export const metadata: Metadata = {
-  title: { default: "Agenda una reunión", template: "%s · Agenda" },
-  description: "Reserva una reunión: entrevistas Vocare Iuris, cafecito virtual o asesoría profesional.",
+  title: { default: "Agenda · Revoredo IusCorp", template: "%s · Revoredo IusCorp" },
+  description: "El mundo jurídico en un solo lugar. Agenda una entrevista Vocare Iuris, un cafecito virtual o una asesoría profesional.",
   robots: { index: true, follow: true },
 };
 
-export const viewport: Viewport = { themeColor: "#102438", width: "device-width", initialScale: 1 };
+export const viewport: Viewport = { themeColor: "#102438", width: "device-width", initialScale: 1, viewportFit: "cover" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" className={`${display.variable} ${body.variable} ${mono.variable}`}>
+    <html lang="es" className={`${display.variable} ${body.variable}`}>
       <body className="min-h-dvh">{children}</body>
     </html>
   );

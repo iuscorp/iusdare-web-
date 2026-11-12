@@ -235,13 +235,15 @@ export function BookingFlow({ meeting }: { meeting: PublicMeetingType }) {
     : "";
 
   return (
-    <div className="grid overflow-hidden rounded-3xl border border-line bg-white shadow-lift lg:grid-cols-[minmax(280px,340px)_1fr]">
+    <div className="grid animate-sheet-in overflow-hidden rounded-[28px] bg-white shadow-lift lg:grid-cols-[minmax(300px,360px)_1fr]">
       {/* Panel informativo */}
-      <aside className="relative border-b border-line bg-navy-deep p-6 text-white sm:p-8 lg:border-b-0 lg:border-r">
-        <span className="absolute inset-x-0 top-0 h-1" style={{ background: meeting.accentColor }} aria-hidden="true" />
-        <p className="eyebrow text-gold-light">Agenda una reunión</p>
-        <h1 className="mt-3 font-display text-2xl font-semibold leading-tight sm:text-[28px]">{meeting.name}</h1>
-        <ul className="mt-5 space-y-2.5 text-sm text-white/80">
+      <aside className="relative overflow-hidden bg-navy-deep p-6 text-white sm:p-8">
+        <span className="pointer-events-none absolute -right-24 -top-24 h-64 w-64 rounded-full bg-white/[0.04]" aria-hidden="true" />
+        <span className="pointer-events-none absolute -bottom-32 -left-16 h-72 w-72 rounded-full bg-guinda/20 blur-3xl" aria-hidden="true" />
+        <p className="eyebrow relative text-guinda-tint">Agenda una reunión</p>
+        <h1 className="relative mt-3 text-[30px] leading-[1.08] sm:text-[34px]">{meeting.name}</h1>
+        <span className="relative mt-4 block h-[3px] w-12 rounded-full bg-guinda-tint/80" aria-hidden="true" />
+        <ul className="relative mt-5 space-y-2.5 text-[14px] text-white/80">
           <li className="flex items-center gap-2.5">
             <ClockIcon /> {meeting.durationMinutes} minutos
           </li>
@@ -254,17 +256,17 @@ export function BookingFlow({ meeting }: { meeting: PublicMeetingType }) {
             <li className="flex items-center gap-2.5">
               <CardIcon />
               <span>
-                <span className="font-semibold text-gold-light">{meeting.priceLabel}</span> · pago seguro con Stripe
+                <span className="font-semibold text-white">{meeting.priceLabel}</span> · pago seguro con Stripe
               </span>
             </li>
           )}
         </ul>
-        <p className="mt-5 text-[15px] leading-relaxed text-white/75">{meeting.description}</p>
+        <p className="relative mt-5 text-[15px] leading-relaxed text-white/70">{meeting.description}</p>
 
         {selectedSlot && (
-          <div className="mt-6 animate-fade-up rounded-2xl border border-white/15 bg-white/5 p-4">
-            <p className="eyebrow text-[10px] text-gold-light">Horario elegido</p>
-            <p className="mt-1.5 font-display text-base font-semibold first-letter:uppercase">{selectedDateLabel}</p>
+          <div className="relative mt-6 animate-pop rounded-2xl bg-white/[0.08] p-4 ring-1 ring-inset ring-white/15 backdrop-blur">
+            <p className="eyebrow text-[10px] text-guinda-tint">Horario elegido</p>
+            <p className="mt-1.5 font-display text-[18px] first-letter:uppercase">{selectedDateLabel}</p>
             <p className="text-sm text-white/80">
               {slotLabel(selectedSlot)} – {DateTime.fromISO(selectedSlot.end, { zone: timezone }).toFormat("HH:mm")} ·{" "}
               {tzLabel(timezone)}
@@ -287,8 +289,8 @@ export function BookingFlow({ meeting }: { meeting: PublicMeetingType }) {
 
         {step === "redirect" ? (
           <div className="flex flex-col items-center justify-center gap-4 py-16 text-center" role="status">
-            <Spinner className="h-8 w-8 text-navy" />
-            <h2 ref={stepHeading} tabIndex={-1} className="font-display text-xl font-semibold">
+            <Spinner className="h-8 w-8 text-guinda" />
+            <h2 ref={stepHeading} tabIndex={-1} className="text-[24px]">
               Redirigiendo a pago seguro…
             </h2>
             <p className="max-w-sm text-sm text-navy-deep/70">
@@ -296,14 +298,14 @@ export function BookingFlow({ meeting }: { meeting: PublicMeetingType }) {
             </p>
           </div>
         ) : step === "form" && selectedSlot ? (
-          <form onSubmit={submit} noValidate className="animate-fade-up">
+          <form key="form" onSubmit={submit} noValidate className="animate-push-in">
             <div className="mb-5 flex items-center justify-between gap-3">
-              <h2 ref={stepHeading} tabIndex={-1} className="font-display text-xl font-semibold">
-                Tus datos
+              <h2 ref={stepHeading} tabIndex={-1} className="text-[26px] leading-tight">
+                Tus <em className="text-guinda">datos</em>
               </h2>
-              <Button type="button" variant="ghost" size="sm" onClick={() => setStep("time")} disabled={submitting}>
-                ← Cambiar horario
-              </Button>
+              <BackButton onClick={() => setStep("time")} disabled={submitting}>
+                Horario
+              </BackButton>
             </div>
             <DynamicForm fields={allFields} values={answers} errors={errors} onChange={setAnswer} disabled={submitting} />
 
@@ -327,13 +329,13 @@ export function BookingFlow({ meeting }: { meeting: PublicMeetingType }) {
             </Button>
           </form>
         ) : (
-          <div className="grid gap-8 md:grid-cols-[1fr_minmax(200px,240px)]">
+          <div key={step} className="grid animate-push-in gap-8 md:grid-cols-[1fr_minmax(200px,240px)]">
             <div className={cn(step === "time" && "hidden md:block")}>
-              <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                <h2 ref={step === "date" ? stepHeading : undefined} tabIndex={-1} className="font-display text-xl font-semibold">
-                  Elige una fecha
+              <div className="mb-4 flex flex-col gap-3">
+                <h2 ref={step === "date" ? stepHeading : undefined} tabIndex={-1} className="text-[26px] leading-tight">
+                  Elige una <em className="text-guinda">fecha</em>
                 </h2>
-                <div className="sm:w-64">
+                <div className="sm:max-w-xs">
                   <TimezoneSelect value={timezone} detected={detected} onChange={changeTimezone} />
                 </div>
               </div>
@@ -380,18 +382,14 @@ export function BookingFlow({ meeting }: { meeting: PublicMeetingType }) {
 
             <div className={cn(step === "date" && "hidden md:block")}>
               {step === "time" && (
-                <button
-                  type="button"
-                  className="mb-3 text-sm font-medium text-navy md:hidden"
-                  onClick={() => setStep("date")}
-                >
-                  ← Volver al calendario
-                </button>
+                <BackButton className="mb-3 md:hidden" onClick={() => setStep("date")}>
+                  Calendario
+                </BackButton>
               )}
               <h2
                 ref={step === "time" ? stepHeading : undefined}
                 tabIndex={-1}
-                className="font-display text-base font-semibold first-letter:uppercase"
+                className="font-display text-[20px] leading-tight first-letter:uppercase"
               >
                 {selectedDate ? selectedDateLabel : "Horarios"}
               </h2>
@@ -400,12 +398,12 @@ export function BookingFlow({ meeting }: { meeting: PublicMeetingType }) {
                 loading ? (
                   <SlotSkeleton />
                 ) : (
-                  <p className="rounded-xl border border-dashed border-line p-4 text-sm text-navy-deep/60">
+                  <p className="rounded-2xl bg-navy-50 p-4 text-sm text-navy-deep/60">
                     Selecciona un día disponible para ver los horarios.
                   </p>
                 )
               ) : (
-                <ul className="max-h-[420px] space-y-2 overflow-y-auto pr-1" aria-label={`Horarios disponibles el ${selectedDateLabel}`}>
+                <ul className="grid max-h-[440px] grid-cols-2 gap-2 overflow-y-auto pr-1 md:grid-cols-1" aria-label={`Horarios disponibles el ${selectedDateLabel}`}>
                   {daySlots.map((s) => (
                     <li key={s.start}>
                       <button
@@ -413,10 +411,10 @@ export function BookingFlow({ meeting }: { meeting: PublicMeetingType }) {
                         onClick={() => pickSlot(s)}
                         aria-pressed={selectedSlot?.start === s.start}
                         className={cn(
-                          "flex h-12 w-full items-center justify-center rounded-xl border font-display text-[15px] font-semibold transition-all",
+                          "flex h-12 w-full items-center justify-center rounded-2xl text-[16px] font-semibold tabular-nums transition-all duration-300 ease-ios active:scale-[.96]",
                           selectedSlot?.start === s.start
-                            ? "border-navy-deep bg-navy-deep text-white"
-                            : "border-navy/25 text-navy hover:border-navy hover:bg-navy-50",
+                            ? "bg-navy-deep text-white shadow-[0_8px_18px_-10px_rgba(16,36,56,.8)]"
+                            : "bg-navy-50 text-navy-deep hover:bg-navy-100",
                         )}
                       >
                         {slotLabel(s)}
@@ -433,11 +431,29 @@ export function BookingFlow({ meeting }: { meeting: PublicMeetingType }) {
   );
 }
 
+function BackButton({ children, className, ...p }: React.ButtonHTMLAttributes<HTMLButtonElement>) {
+  return (
+    <button
+      type="button"
+      className={cn(
+        "press inline-flex items-center gap-0.5 rounded-full py-1 pl-1 pr-3 text-[15px] font-medium text-guinda hover:bg-guinda-soft disabled:opacity-50",
+        className,
+      )}
+      {...p}
+    >
+      <svg viewBox="0 0 20 20" className="h-5 w-5" aria-hidden="true">
+        <path d="M12.5 4.5 7 10l5.5 5.5" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+      {children}
+    </button>
+  );
+}
+
 function SlotSkeleton() {
   return (
     <div className="space-y-2" aria-hidden="true">
       {Array.from({ length: 5 }).map((_, i) => (
-        <div key={i} className="skeleton h-12" />
+        <div key={i} className="skeleton h-12 rounded-2xl" />
       ))}
     </div>
   );
@@ -445,7 +461,7 @@ function SlotSkeleton() {
 
 function ClockIcon() {
   return (
-    <svg viewBox="0 0 20 20" className="h-4 w-4 text-gold-light" aria-hidden="true">
+    <svg viewBox="0 0 20 20" className="h-4 w-4 text-guinda-tint" aria-hidden="true">
       <circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
       <path d="M10 6v4.2l2.8 1.8" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
     </svg>
@@ -453,7 +469,7 @@ function ClockIcon() {
 }
 function VideoIcon() {
   return (
-    <svg viewBox="0 0 20 20" className="h-4 w-4 text-gold-light" aria-hidden="true">
+    <svg viewBox="0 0 20 20" className="h-4 w-4 text-guinda-tint" aria-hidden="true">
       <rect x="2.5" y="5" width="10.5" height="10" rx="2" fill="none" stroke="currentColor" strokeWidth="1.6" />
       <path d="M13 9l4.5-2.5v7L13 11" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
     </svg>
@@ -461,7 +477,7 @@ function VideoIcon() {
 }
 function CardIcon() {
   return (
-    <svg viewBox="0 0 20 20" className="h-4 w-4 text-gold-light" aria-hidden="true">
+    <svg viewBox="0 0 20 20" className="h-4 w-4 text-guinda-tint" aria-hidden="true">
       <rect x="2.5" y="4.5" width="15" height="11" rx="2" fill="none" stroke="currentColor" strokeWidth="1.6" />
       <path d="M2.5 8.5h15" stroke="currentColor" strokeWidth="1.6" />
     </svg>

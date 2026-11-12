@@ -1,4 +1,5 @@
 "use client";
+import { BrandMark } from "@/components/booking/PublicShell";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -21,7 +22,7 @@ export function Sidebar({ adminName, logout }: { adminName: string; logout: () =
   return (
     <>
       <header className="sticky top-0 z-40 flex h-14 items-center justify-between bg-ink px-4 lg:hidden">
-        <span className="font-display text-sm font-bold tracking-[0.16em] text-white">IUS DARE</span>
+        <BrandMark inverted />
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
@@ -43,8 +44,8 @@ export function Sidebar({ adminName, logout }: { adminName: string; logout: () =
         )}
       >
         <div className="hidden px-6 py-6 lg:block">
-          <p className="font-display text-lg font-bold tracking-[0.16em]">IUS DARE</p>
-          <p className="eyebrow mt-1 text-gold-light">Smart Booking</p>
+          <BrandMark inverted />
+          <p className="eyebrow mt-3 text-white/40">Agenda · Panel</p>
         </div>
         <nav className="flex-1 space-y-1 px-3 py-4 lg:py-0" aria-label="Panel">
           {NAV.map((item) => (

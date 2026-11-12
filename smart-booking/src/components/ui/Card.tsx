@@ -2,7 +2,7 @@ import type { HTMLAttributes } from "react";
 import { cn } from "@/lib/cn";
 
 export function Card({ className, ...p }: HTMLAttributes<HTMLDivElement>) {
-  return <div className={cn("rounded-2xl border border-line bg-white shadow-card", className)} {...p} />;
+  return <div className={cn("rounded-3xl bg-white shadow-card", className)} {...p} />;
 }
 
 export function Badge({
@@ -16,7 +16,7 @@ export function Badge({
     warning: "bg-amber-50 text-amber-800 ring-amber-600/20",
     danger: "bg-red-50 text-red-800 ring-red-600/20",
     info: "bg-sky-50 text-sky-800 ring-sky-600/20",
-    gold: "bg-gold-50 text-gold-dark ring-gold/30",
+    gold: "bg-guinda-soft text-guinda ring-guinda/20",
   } as const;
   return (
     <span
@@ -44,7 +44,7 @@ export function Alert({
     warning: "border-amber-200 bg-amber-50 text-amber-900",
   } as const;
   return (
-    <div role={tone === "danger" ? "alert" : "status"} className={cn("rounded-xl border px-4 py-3 text-sm", tones[tone], className)}>
+    <div role={tone === "danger" ? "alert" : "status"} className={cn("rounded-2xl border px-4 py-3 text-sm animate-fade-up", tones[tone], className)}>
       {title && <p className="font-semibold">{title}</p>}
       {children && <div className={title ? "mt-1" : ""}>{children}</div>}
     </div>

@@ -39,7 +39,7 @@ export function TimezoneSelect({
         id={id}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="h-9 w-full min-w-0 rounded-lg border border-navy-deep/15 bg-white px-2 text-sm text-navy-deep focus:border-navy focus:outline-none focus:ring-2 focus:ring-gold/60"
+        className="h-9 w-full min-w-0 cursor-pointer rounded-full border-0 bg-navy-50 px-3.5 text-[13px] font-medium text-navy-deep transition-colors duration-200 ease-ios hover:bg-navy-100 focus:outline-none focus:ring-4 focus:ring-navy-deep/10"
       >
         <optgroup label="Sugeridas">
           {zones.common.map((z) => (

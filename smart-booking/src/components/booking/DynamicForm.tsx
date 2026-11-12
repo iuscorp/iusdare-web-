@@ -144,10 +144,10 @@ function MultiSelectField({
             <label
               key={o.value}
               className={cn(
-                "inline-flex min-h-[40px] cursor-pointer select-none items-center gap-2 rounded-full border px-3.5 py-1.5 text-sm transition-colors has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-gold",
+                "inline-flex min-h-[40px] cursor-pointer select-none items-center gap-2 rounded-full border px-3.5 py-1.5 text-sm transition-all duration-200 ease-ios active:scale-95 has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-guinda/50",
                 checked
                   ? "border-navy-deep bg-navy-deep text-white"
-                  : "border-navy-deep/20 bg-white text-navy-deep hover:border-navy-deep/50",
+                  : "border-transparent bg-navy-50 text-navy-deep hover:bg-navy-100",
                 disabled && "pointer-events-none opacity-60",
               )}
             >
@@ -170,8 +170,8 @@ function MultiSelectField({
         {field.allowCustom && (
           <label
             className={cn(
-              "inline-flex min-h-[40px] cursor-pointer select-none items-center gap-2 rounded-full border border-dashed px-3.5 py-1.5 text-sm transition-colors has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-gold",
-              customOn ? "border-gold bg-gold-50 text-gold-dark" : "border-navy-deep/30 text-navy-deep/80 hover:border-navy-deep/60",
+              "inline-flex min-h-[40px] cursor-pointer select-none items-center gap-2 rounded-full border border-dashed px-3.5 py-1.5 text-sm transition-all duration-200 ease-ios active:scale-95 has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-guinda/50",
+              customOn ? "border-guinda bg-guinda-soft text-guinda" : "border-navy-deep/30 text-navy-deep/80 hover:border-navy-deep/60",
             )}
           >
             <input

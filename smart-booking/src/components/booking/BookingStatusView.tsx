@@ -281,7 +281,7 @@ function Row({ label, value }: { label: string; value: React.ReactNode }) {
 function StatusHeader({ tone, title }: { tone: "success" | "pending" | "danger" | "warning" | "info" | "neutral"; title: string }) {
   const ring = {
     success: "bg-emerald-50 text-emerald-700",
-    pending: "bg-gold-50 text-gold-dark",
+    pending: "bg-guinda-soft text-guinda",
     danger: "bg-red-50 text-red-700",
     warning: "bg-amber-50 text-amber-700",
     info: "bg-sky-50 text-sky-700",

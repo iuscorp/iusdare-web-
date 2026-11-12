@@ -125,8 +125,8 @@ smart-booking/
 
 ## 7. Estándares de UX/UI
 
-- Identidad visual alineada a IUS DARE: navy `#123A5E` / `#102438`, dorado `#C08128`, papel `#FAFCFD`;
-  tipografías Poppins (display), Inter (texto), IBM Plex Mono (etiquetas).
+- Identidad visual **Revoredo IusCorp** con lenguaje iOS: azul marino `#102438` (dominante), guinda `#621410` (acento), gris claro `#E2E2E2`, blanco. Fondos agrupados `#F2F2F4`, superficies translúcidas, radios amplios, curvas `ease-ios` (cubic-bezier(.32,.72,0,1)) y respuesta táctil (scale .97);
+  tipografías: serif editorial Playfair Display para titulares (alternando romana + *cursiva*), Inter para texto. Sin colores saturados ni clichés jurídicos.
 - Mobile-first; táctil ≥ 44 px; contraste AA; foco visible; `aria-live` para estados de carga/errores.
 - Flujo: tipo de reunión → fecha → horario → formulario → (pago) → confirmación, con indicador de progreso.
 - Nunca mostrar horarios no disponibles: los días sin horarios se deshabilitan; si un horario se pierde entre la

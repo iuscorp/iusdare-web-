@@ -2,7 +2,7 @@ import { forwardRef, type InputHTMLAttributes, type ReactNode, type TextareaHTML
 import { cn } from "@/lib/cn";
 
 const control =
-  "w-full rounded-lg border border-navy-deep/20 bg-white px-3.5 py-2.5 text-[15px] text-navy-deep placeholder:text-navy-deep/40 transition-colors focus:border-navy focus:outline-none focus:ring-2 focus:ring-gold/60 aria-[invalid=true]:border-guinda aria-[invalid=true]:ring-guinda/30";
+  "w-full rounded-xl border border-transparent bg-navy-50 px-4 py-2.5 text-[16px] text-navy-deep placeholder:text-navy-deep/40 transition-all duration-200 ease-ios focus:border-navy-deep/20 focus:bg-white focus:outline-none focus:ring-4 focus:ring-navy-deep/10 aria-[invalid=true]:border-guinda aria-[invalid=true]:ring-guinda/30";
 
 export function Field({
   id,
@@ -37,7 +37,7 @@ export function Field({
 }
 
 export const Input = forwardRef<HTMLInputElement, InputHTMLAttributes<HTMLInputElement>>(function Input({ className, ...p }, ref) {
-  return <input ref={ref} className={cn(control, "h-11", className)} {...p} />;
+  return <input ref={ref} className={cn(control, "h-12", className)} {...p} />;
 });
 
 export const Textarea = forwardRef<HTMLTextAreaElement, TextareaHTMLAttributes<HTMLTextAreaElement>>(function Textarea(
@@ -48,5 +48,5 @@ export const Textarea = forwardRef<HTMLTextAreaElement, TextareaHTMLAttributes<H
 });
 
 export const Select = forwardRef<HTMLSelectElement, SelectHTMLAttributes<HTMLSelectElement>>(function Select({ className, ...p }, ref) {
-  return <select ref={ref} className={cn(control, "h-11 pr-8", className)} {...p} />;
+  return <select ref={ref} className={cn(control, "h-12 pr-8", className)} {...p} />;
 });

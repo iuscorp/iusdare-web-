@@ -78,7 +78,7 @@ export const DEFAULT_MEETING_TYPES: MeetingTypeSeed[] = [
     durationMinutes: 30,
     slotIntervalMinutes: 30,
     requiresPayment: false,
-    accentColor: "#C08128",
+    accentColor: "#102438",
     sortOrder: 2,
     formFields: [
       {
@@ -102,7 +102,7 @@ export const DEFAULT_MEETING_TYPES: MeetingTypeSeed[] = [
     durationMinutes: 45,
     slotIntervalMinutes: 30,
     requiresPayment: true,
-    accentColor: "#123A5E",
+    accentColor: "#4A6078",
     sortOrder: 3,
     formFields: [
       {

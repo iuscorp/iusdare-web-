@@ -5,16 +5,16 @@ type Variant = "primary" | "gold" | "outline" | "ghost" | "danger";
 type Size = "sm" | "md" | "lg";
 
 const variants: Record<Variant, string> = {
-  primary: "bg-navy-deep text-white hover:bg-navy disabled:bg-navy-deep/40",
-  gold: "bg-gold text-ink hover:bg-gold-light disabled:bg-gold/40",
-  outline: "border border-navy-deep/25 text-navy-deep hover:border-navy-deep hover:bg-navy-50 disabled:opacity-50",
+  primary: "bg-navy-deep text-white hover:bg-navy disabled:bg-navy-deep/40 shadow-[0_6px_16px_-8px_rgba(16,36,56,.6)]",
+  gold: "bg-guinda text-white hover:bg-[#7A1D18] disabled:bg-guinda/40 shadow-[0_6px_16px_-8px_rgba(98,20,16,.7)]",
+  outline: "bg-white border border-navy-deep/15 text-navy-deep hover:border-navy-deep hover:bg-navy-50 disabled:opacity-50",
   ghost: "text-navy-deep hover:bg-navy-50 disabled:opacity-50",
   danger: "bg-guinda text-white hover:bg-guinda/90 disabled:opacity-50",
 };
 const sizes: Record<Size, string> = {
-  sm: "h-9 px-3 text-sm",
-  md: "h-11 px-5 text-[15px]",
-  lg: "h-12 px-6 text-base",
+  sm: "h-9 px-3.5 text-sm rounded-full",
+  md: "h-11 px-5 text-[15px] rounded-xl",
+  lg: "h-[52px] px-7 text-[16px] rounded-2xl",
 };
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -31,7 +31,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button
     <button
       ref={ref}
       className={cn(
-        "inline-flex items-center justify-center gap-2 rounded-lg font-display font-semibold tracking-tight transition-colors disabled:cursor-not-allowed",
+        "inline-flex items-center justify-center gap-2 font-sans font-semibold tracking-[-0.01em] transition-[transform,background-color,box-shadow,color] duration-200 ease-ios active:scale-[.97] disabled:cursor-not-allowed disabled:active:scale-100",
         variants[variant],
         sizes[size],
         className,
