@@ -1,0 +1,19 @@
+# Entorno local completo: PostgreSQL + app. Uso: docker compose up --build
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: smartbooking
+      POSTGRES_PASSWORD: smartbooking
+      POSTGRES_DB: smartbooking
+    ports: ["5432:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+  app:
+    build: .
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://smartbooking:smartbooking@db:5432/smartbooking
+    ports: ["3000:3000"]
+    depends_on: [db]
+volumes:
+  pgdata:

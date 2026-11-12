@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; }
+  body { @apply bg-paper text-navy-deep font-sans antialiased; font-feature-settings: "cv11", "ss01"; letter-spacing: -0.006em; }
+  h1, h2, h3, h4 { @apply font-display; letter-spacing: -0.015em; font-weight: 500; }
+  :focus-visible { @apply outline-none ring-2 ring-guinda/60 ring-offset-2 ring-offset-paper; }
+  ::selection { background: rgba(98, 20, 16, .18); }
+  button, a { -webkit-touch-callout: none; }
+}
+
+@layer components {
+  /* Kicker editorial: MAYÚSCULAS, sans, tracking amplio */
+  .eyebrow { @apply font-sans text-[11px] font-semibold uppercase tracking-[0.18em]; }
+  /* Superficie translúcida estilo iOS */
+  .glass { @apply bg-white/70 backdrop-blur-xl backdrop-saturate-150 shadow-glass; }
+  /* Respuesta táctil iOS */
+  .press { @apply transition-transform duration-200 ease-ios active:scale-[.97]; }
+  /* Grupo de filas "inset grouped" */
+  .grouped { @apply overflow-hidden rounded-2xl bg-white shadow-card; }
+  .grouped > * + * { @apply border-t border-line; }
+  .skeleton { @apply relative overflow-hidden rounded-xl bg-navy-100; }
+  .skeleton::after {
+    content: "";
+    @apply absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/70 to-transparent;
+    animation: shimmer 1.4s infinite;
+  }
+  /* Línea guinda corta (recurso editorial de marca) */
+  .rule { @apply block h-[3px] w-12 rounded-full bg-guinda; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}

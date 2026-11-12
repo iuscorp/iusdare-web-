@@ -1,0 +1,22 @@
+{
+  // Despliegue en Cloudflare Workers mediante OpenNext (ver docs/CLOUDFLARE.md)
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "smart-booking",
+  "main": "cloudflare/worker.ts",
+  "compatibility_date": "2025-09-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
+  "observability": { "enabled": true },
+  // Tarea periódica: expira reservas temporales y reintenta eventos de Google (llama a /api/cron/maintenance)
+  "triggers": { "crons": ["*/10 * * * *"] },
+  // Conexión a PostgreSQL con pooling en el edge. Crear con:
+  //   npx wrangler hyperdrive create smart-booking-db --connection-string="postgres://..."
+  // y reemplazar el id. En local se usa localConnectionString.
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "REEMPLAZAR_CON_ID_DE_HYPERDRIVE",
+      "localConnectionString": "postgresql://smartbooking:smartbooking@localhost:5432/smartbooking"
+    }
+  ]
+}
