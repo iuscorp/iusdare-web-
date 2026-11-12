@@ -3,7 +3,9 @@
 // Todas las fechas se guardan en UTC (timestamptz).
 
 generator client {
-  provider = "prisma-client-js"
+  provider        = "prisma-client-js"
+  // Cliente sin motor nativo (TypeScript/WASM) + driver adapter `pg`: funciona en Node y en Cloudflare Workers
+  engineType      = "client"
 }
 
 datasource db {

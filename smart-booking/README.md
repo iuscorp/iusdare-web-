@@ -78,7 +78,7 @@ La suite cubre el motor de disponibilidad (zonas horarias, DST, buffers, excepci
 adaptadores Google/Microsoft (con `fetch` simulado), concurrencia real contra PostgreSQL, flujos de pago y webhooks.
 
 ## Despliegue
-Ver [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) (Vercel + Postgres gestionado, o Docker). Incluye la tarea
+Ver [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) (Vercel + Postgres gestionado, o Docker) y [`docs/CLOUDFLARE.md`](docs/CLOUDFLARE.md) (Cloudflare Workers + Hyperdrive, validado en `workerd`). Incluye la tarea
 periódica `/api/cron/maintenance`.
 
 ## Estructura

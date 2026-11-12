@@ -61,3 +61,10 @@ Formato: **Contexto → Decisión → Consecuencias**. Las decisiones se numeran
 - **Contexto:** la titular pidió un diseño tipo iOS, con transiciones fluidas, y con la identidad de Revoredo IusCorp en lugar de la de IUS DARE.
 - **Decisión:** paleta oficial (marino `#102438`, guinda `#621410`, gris `#E2E2E2`, blanco); titulares en serif editorial (Playfair Display) alternando romana y cursiva; texto en Inter. Patrones iOS: barra translúcida, listas agrupadas, controles en forma de píldora, barra de progreso segmentada, transiciones push/sheet con `cubic-bezier(.32,.72,0,1)` y respuesta táctil. El token `gold` se conserva por compatibilidad, pero ahora apunta al guinda.
 - **Consecuencias:** el panel admin hereda los tokens. Si la marca entrega su serif oficial o la tipografía Aftika, basta con cambiarla en `src/app/layout.tsx`.
+
+## ADR-014 · Cloudflare Workers como opción de hosting
+- **Contexto:** se evalúa Cloudflare como alternativa temprana a Vercel.
+- **Decisión:** OpenNext (`@opennextjs/cloudflare`) + Hyperdrive hacia PostgreSQL. Prisma pasa a `engineType = "client"`
+  con `@prisma/adapter-pg`, y en Workers se crea un cliente por petición. D1 descartado (no soporta `EXCLUDE`).
+  Cron Trigger en `cloudflare/worker.ts`. Docker sigue disponible (`BUILD_TARGET=docker`).
+- **Consecuencias:** un único código para Node/Docker/Vercel/Cloudflare. Validado en `workerd` local (ver `docs/CLOUDFLARE.md`).
