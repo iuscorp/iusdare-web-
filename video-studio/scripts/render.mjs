@@ -33,6 +33,8 @@ if (!preview && !meta.approval?.approved) {
 const outDir = preview ? P.previewsDir : P.exportsDir;
 const raw = path.join(outDir, `${slug}${preview ? '-preview' : ''}.raw.mp4`);
 const final = path.join(outDir, `${slug}${preview ? '-preview' : ''}.mp4`);
+// nunca dejar un video anterior en su lugar: si este render falla, no queda nada que enviar por error
+fs.rmSync(final, {force: true});
 let last = -1;
 console.log(`→ Renderizando ${preview ? 'PREVIEW' : 'FINAL'}…`);
 await renderVideo(edl, raw, {

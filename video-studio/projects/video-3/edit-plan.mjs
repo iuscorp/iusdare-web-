@@ -192,7 +192,7 @@ overlays.forEach((o, i) => {
   if (o.end > cta.start - 0.05) o.end = r(Math.max(o.start + 0.35, cta.start - 0.05));
 });
 e.overlays = overlays;
-e.sfx = sfx.sort((a, b) => a.at - b.at);
+e.sfx = []; // sin SFX: el equipo los pone en su edición (los del plan quedan sólo como referencia de marcas)
 e.colorPreset = 'none';
 fs.writeFileSync(f, JSON.stringify(e, null, 2));
 const photos = overlays.filter((o) => o.type === 'photoCard').length;

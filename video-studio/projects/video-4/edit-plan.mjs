@@ -215,7 +215,7 @@ overlays.forEach((o, i) => {
 for (const t of [at('Eso').start, pero.start, at('reglamento', cierre.start).start]) overlays.push({type: 'flash', opacity: 0.7, start: r(t - 0.02), end: r(t + 0.16), note: 'ruptura de patrón'});
 overlays.sort((a, b) => a.start - b.start);
 e.overlays = overlays;
-e.sfx = sfx.sort((a, b) => a.at - b.at);
+e.sfx = []; // sin SFX: el equipo los pone en su edición (los del plan quedan sólo como referencia de marcas)
 e.colorPreset = 'none';
 fs.writeFileSync(f, JSON.stringify(e, null, 2));
 console.log(`✓ plan aplicado: ${overlays.length} recursos (${overlays.filter((o) => o.type === 'photoCard').length} fotos, ${overlays.filter((o) => o.type === 'lawPage').length} normas impresas), ${sfx.length} SFX`);

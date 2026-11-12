@@ -13,8 +13,8 @@ Cuando el usuario entregue **raw footage + brief**, seguir SIEMPRE este flujo, s
 
 Reglas:
 - Fidelidad a las referencias: no inventar estilo nuevo; los valores [REF] de `src/brand/tokens.ts` no se cambian sin pedirlo.
-- Veredicto: sello de impacto `verdictStamp` («ESO ES ILEGAL» junto) con riser → stamp → fahhh.
-- SFX de marca: pop, click, poi, kiran, fahhh, risers (ver documentation/02-componentes.md).
+- Veredicto: sello de impacto `verdictStamp` («ESO ES ILEGAL» junto).
+- **SIN efectos de sonido**: el equipo los pone en su edición. `edl.sfx` siempre vacío (la librería `public/sfx` queda disponible sólo si lo piden).
 - Emojis: siempre estilo iOS. Textos de impacto pueden ir detrás del presentador (`behindPerson`).
 - **Priman los emojis.** Variar el repertorio: no repetir los mismos emojis de videos anteriores; elegir el más específico para cada palabra. Usar emojis disponibles a 160 px (si `draft`/`canvas` avisa «sólo disponibles a 64 px», cambiarlos: se ven borrosos).
 - **Imágenes sólo** cuando algo no se puede ejemplificar con un emoji o cuando se habla de códigos/normativa (reglamento, ley, contrato). Intercalar imagen ↔ emoji.

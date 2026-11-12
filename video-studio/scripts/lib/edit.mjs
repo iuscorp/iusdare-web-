@@ -476,7 +476,8 @@ export const buildEdl = ({slug, title, source, clean, emphasisExtra = []}) => {
     segments,
     captions,
     overlays,
-    sfx: sfx.sort((a, b) => a.at - b.at),
+    // sin SFX por defecto: el equipo de Vocare Iuris pone los efectos de sonido en su edición
+    sfx: [],
     showSafeZones: false,
   };
 };
