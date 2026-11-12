@@ -2,23 +2,23 @@
  "model": "small",
  "language": "es",
  "duration": 177.899,
- "text": "¿Sabías que cada vez que compras una cerveza? ¿O alguien compra cigarros? Está estagando un impuesto extra que ni siquiera aparece en el ticket. Se llama impuesto selectivo al consumo. Y no, no cuenta como IGB. Son dos impuestos distintos. El IGV graba casi todo lo que compras. Pero el ICC graba productos específicos. El ICS solo graba productos específicos. alcohol, tabaco Compostibles. Algunos vehículos. Y hasta Juegos de Azar. ¿Por qué? ¿Por qué? Perdón. Por dos razones. Recohación del Estado. Recohación del Estado. Y desincentivar su consumo. Porque bañen tu salud o hacen baño al medio ambiente. Esa funciona es regulatoria. Pero ojo. Legalmente lo debería pagar el productor importador. Pero adivina quién lo está asumiendo. Tú, porque va incluido en el preso final. Así que la próxima vez que ves el precio de una chela. ¿Ya sabes que hay? Hay un impuesto que no ves. Si, aboca a Iuris y guarda este video. No sabes cuándo podrás necesitarlo.",
+ "text": "¿Sabías que cada vez que compras una cerveza? O alguien compra cigarros. Está estagando un impuesto extra que ni siquiera aparece en el ticket. Se llama impuesto selectivo al consumo. Y no, no cuenta como IGB. Son dos impuestos distintos. El IGV graba casi todo lo que compras. Pero el ICC graba productos específicos. alcohol, tabaco Combustibles. Combustibles. Algunos vehículos. Y hasta Juegos de Azar. ¿Por qué? ¿Por qué? Perdón. Por dos razones. Recohación del Estado. Recohación del Estado. Y desincentivar su consumo. Porque bañen tu salud o hacen baño al medio ambiente. Esa funciona es regulatoria. Pero ojo. Legalmente lo debería pagar el productor o importador. Pero adivina quién lo está sumiendo. Tú, porque va incluido en el preso final. Así que la próxima vez que ves el precio de una chela. ¿Ya sabes que hay? Hay un impuesto que no ves. Si, abocare Iuris y guarda este video. No sabes cuándo podrás necesitarlo.",
  "segments": [
   {
    "start": 17.55,
-   "end": 20.21,
+   "end": 20.19,
    "text": "¿Sabías que cada vez que compras una cerveza?",
    "take": 0
   },
   {
-   "start": 24.15,
-   "end": 26.23,
-   "text": "¿O alguien compra cigarros?",
+   "start": 24.6,
+   "end": 26.22,
+   "text": "O alguien compra cigarros.",
    "take": 1
   },
   {
    "start": 29.45,
-   "end": 32.83,
+   "end": 32.79,
    "text": "Está estagando un impuesto extra que ni siquiera aparece en el ticket.",
    "take": 2
   },
@@ -48,37 +48,37 @@
   },
   {
    "start": 57.1,
-   "end": 60.52,
+   "end": 60.28,
    "text": "Pero el ICC graba productos específicos.",
    "take": 7
   },
   {
-   "start": 69.5,
-   "end": 72.18,
-   "text": "El ICS solo graba productos específicos.",
+   "start": 73.75,
+   "end": 75.55,
+   "text": "alcohol, tabaco",
    "take": 8
   },
   {
-   "start": 73.75,
-   "end": 75.57,
-   "text": "alcohol, tabaco",
+   "start": 76.15,
+   "end": 77.19,
+   "text": "Combustibles.",
    "take": 9
   },
   {
-   "start": 76.65,
+   "start": 77.19,
    "end": 77.59,
-   "text": "Compostibles.",
-   "take": 10
+   "text": "Combustibles.",
+   "take": 9
   },
   {
-   "start": 77.89,
-   "end": 78.65,
+   "start": 78.15,
+   "end": 80.07,
    "text": "Algunos vehículos.",
    "take": 10
   },
   {
-   "start": 81.01,
-   "end": 82.17,
+   "start": 80.7,
+   "end": 82.18,
    "text": "Y hasta Juegos de Azar.",
    "take": 11
   },
@@ -119,7 +119,7 @@
    "take": 14
   },
   {
-   "start": 90.55,
+   "start": 90.95,
    "end": 92.79,
    "text": "Y desincentivar su consumo.",
    "take": 15
@@ -143,15 +143,15 @@
    "take": 18
   },
   {
-   "start": 125.9,
-   "end": 128.72,
-   "text": "Legalmente lo debería pagar el productor importador.",
+   "start": 134.26,
+   "end": 136.96,
+   "text": "Legalmente lo debería pagar el productor o importador.",
    "take": 19
   },
   {
-   "start": 138.6,
+   "start": 139.2,
    "end": 141.28,
-   "text": "Pero adivina quién lo está asumiendo.",
+   "text": "Pero adivina quién lo está sumiendo.",
    "take": 20
   },
   {
@@ -167,8 +167,8 @@
    "take": 22
   },
   {
-   "start": 163.9,
-   "end": 165.5,
+   "start": 163.65,
+   "end": 165.47,
    "text": "¿Ya sabes que hay?",
    "take": 23
   },
@@ -179,9 +179,9 @@
    "take": 24
   },
   {
-   "start": 171.2,
-   "end": 173.98,
-   "text": "Si, aboca a Iuris y guarda este video.",
+   "start": 171.35,
+   "end": 173.99,
+   "text": "Si, abocare Iuris y guarda este video.",
    "take": 25
   },
   {
@@ -195,106 +195,106 @@
   {
    "w": "¿Sabías",
    "s": 17.8,
-   "e": 18.35,
-   "p": 0.674,
+   "e": 18.37,
+   "p": 0.728,
    "take": 0
   },
   {
    "w": "que",
-   "s": 18.35,
+   "s": 18.37,
    "e": 18.55,
-   "p": 0.98,
+   "p": 0.982,
    "take": 0
   },
   {
    "w": "cada",
    "s": 18.55,
    "e": 18.89,
-   "p": 0.989,
+   "p": 0.991,
    "take": 0
   },
   {
    "w": "vez",
    "s": 18.89,
-   "e": 19.11,
+   "e": 19.09,
    "p": 0.998,
    "take": 0
   },
   {
    "w": "que",
-   "s": 19.11,
+   "s": 19.09,
    "e": 19.23,
-   "p": 0.954,
+   "p": 0.951,
    "take": 0
   },
   {
    "w": "compras",
    "s": 19.23,
    "e": 19.53,
-   "p": 0.945,
+   "p": 0.947,
    "take": 0
   },
   {
    "w": "una",
    "s": 19.53,
    "e": 19.65,
-   "p": 0.985,
+   "p": 0.987,
    "take": 0
   },
   {
    "w": "cerveza?",
    "s": 19.65,
-   "e": 20.21,
+   "e": 20.19,
    "p": 0.995,
    "take": 0
   },
   {
-   "w": "¿O",
-   "s": 24.4,
-   "e": 25.05,
-   "p": 0.281,
+   "w": "O",
+   "s": 24.85,
+   "e": 25.06,
+   "p": 0.196,
    "take": 1
   },
   {
    "w": "alguien",
-   "s": 25.05,
-   "e": 25.29,
-   "p": 0.994,
+   "s": 25.06,
+   "e": 25.28,
+   "p": 0.991,
    "take": 1
   },
   {
    "w": "compra",
-   "s": 25.29,
-   "e": 25.59,
-   "p": 0.869,
+   "s": 25.28,
+   "e": 25.58,
+   "p": 0.934,
    "take": 1
   },
   {
-   "w": "cigarros?",
-   "s": 25.59,
-   "e": 26.23,
-   "p": 0.977,
+   "w": "cigarros.",
+   "s": 25.58,
+   "e": 26.22,
+   "p": 0.982,
    "take": 1
   },
   {
    "w": "Está",
    "s": 29.7,
    "e": 30.07,
-   "p": 0.283,
+   "p": 0.323,
    "take": 2
   },
   {
    "w": "estagando",
    "s": 30.07,
    "e": 30.51,
-   "p": 0.673,
+   "p": 0.692,
    "take": 2
   },
   {
    "w": "un",
    "s": 30.51,
    "e": 30.61,
-   "p": 0.989,
+   "p": 0.992,
    "take": 2
   },
   {
@@ -308,21 +308,21 @@
    "w": "extra",
    "s": 31.03,
    "e": 31.33,
-   "p": 0.928,
+   "p": 0.933,
    "take": 2
   },
   {
    "w": "que",
    "s": 31.33,
    "e": 31.51,
-   "p": 0.896,
+   "p": 0.917,
    "take": 2
   },
   {
    "w": "ni",
    "s": 31.51,
    "e": 31.65,
-   "p": 0.984,
+   "p": 0.986,
    "take": 2
   },
   {
@@ -336,28 +336,28 @@
    "w": "aparece",
    "s": 31.95,
    "e": 32.25,
-   "p": 0.799,
+   "p": 0.792,
    "take": 2
   },
   {
    "w": "en",
    "s": 32.25,
    "e": 32.47,
-   "p": 0.969,
+   "p": 0.97,
    "take": 2
   },
   {
    "w": "el",
    "s": 32.47,
    "e": 32.59,
-   "p": 0.994,
+   "p": 0.995,
    "take": 2
   },
   {
    "w": "ticket.",
    "s": 32.59,
-   "e": 32.83,
-   "p": 0.572,
+   "e": 32.79,
+   "p": 0.471,
    "take": 2
   },
   {
@@ -476,21 +476,21 @@
    "w": "El",
    "s": 50.8,
    "e": 51.17,
-   "p": 0.172,
+   "p": 0.152,
    "take": 6
   },
   {
    "w": "IGV",
    "s": 51.17,
    "e": 51.59,
-   "p": 0.471,
+   "p": 0.533,
    "take": 6
   },
   {
    "w": "graba",
    "s": 51.59,
    "e": 51.97,
-   "p": 0.888,
+   "p": 0.895,
    "take": 6
   },
   {
@@ -504,14 +504,14 @@
    "w": "todo",
    "s": 52.19,
    "e": 52.57,
-   "p": 0.915,
+   "p": 0.921,
    "take": 6
   },
   {
    "w": "lo",
    "s": 52.57,
    "e": 52.77,
-   "p": 0.976,
+   "p": 0.978,
    "take": 6
   },
   {
@@ -525,161 +525,126 @@
    "w": "compras.",
    "s": 52.89,
    "e": 53.35,
-   "p": 0.733,
+   "p": 0.74,
    "take": 6
   },
   {
    "w": "Pero",
    "s": 57.35,
    "e": 57.8,
-   "p": 0.414,
+   "p": 0.323,
    "take": 7
   },
   {
    "w": "el",
    "s": 57.8,
    "e": 58.14,
-   "p": 0.515,
+   "p": 0.599,
    "take": 7
   },
   {
    "w": "ICC",
    "s": 58.14,
-   "e": 58.42,
-   "p": 0.604,
+   "e": 58.54,
+   "p": 0.411,
    "take": 7
   },
   {
    "w": "graba",
-   "s": 58.42,
-   "e": 58.94,
-   "p": 0.861,
+   "s": 58.54,
+   "e": 58.96,
+   "p": 0.799,
    "take": 7
   },
   {
    "w": "productos",
-   "s": 58.94,
-   "e": 59.6,
-   "p": 0.855,
+   "s": 58.96,
+   "e": 59.58,
+   "p": 0.885,
    "take": 7
   },
   {
    "w": "específicos.",
-   "s": 59.6,
-   "e": 60.52,
-   "p": 0.974,
+   "s": 59.58,
+   "e": 60.15,
+   "p": 0.947,
    "take": 7
-  },
-  {
-   "w": "El",
-   "s": 69.75,
-   "e": 70.1,
-   "p": 0.159,
-   "take": 8
-  },
-  {
-   "w": "ICS",
-   "s": 70.1,
-   "e": 70.64,
-   "p": 0.646,
-   "take": 8
-  },
-  {
-   "w": "solo",
-   "s": 70.64,
-   "e": 70.8,
-   "p": 0.625,
-   "take": 8
-  },
-  {
-   "w": "graba",
-   "s": 70.8,
-   "e": 71.14,
-   "p": 0.593,
-   "take": 8
-  },
-  {
-   "w": "productos",
-   "s": 71.14,
-   "e": 71.42,
-   "p": 0.869,
-   "take": 8
-  },
-  {
-   "w": "específicos.",
-   "s": 71.42,
-   "e": 72.18,
-   "p": 0.991,
-   "take": 8
   },
   {
    "w": "alcohol,",
    "s": 74.0,
    "e": 74.59,
-   "p": 0.733,
-   "take": 9
+   "p": 0.775,
+   "take": 8
   },
   {
    "w": "tabaco",
    "s": 74.99,
-   "e": 75.57,
-   "p": 0.849,
+   "e": 75.55,
+   "p": 0.845,
+   "take": 8
+  },
+  {
+   "w": "Combustibles.",
+   "s": 76.65,
+   "e": 77.19,
+   "p": 0.637,
    "take": 9
   },
   {
-   "w": "Compostibles.",
-   "s": 76.9,
+   "w": "Combustibles.",
+   "s": 77.19,
    "e": 77.59,
-   "p": 0.491,
-   "take": 10
+   "p": 0.749,
+   "take": 9
   },
   {
    "w": "Algunos",
-   "s": 77.89,
-   "e": 78.23,
-   "p": 0.612,
+   "s": 78.65,
+   "e": 79.51,
+   "p": 0.617,
    "take": 10
   },
   {
    "w": "vehículos.",
-   "s": 78.23,
-   "e": 78.65,
-   "p": 0.519,
+   "s": 79.51,
+   "e": 80.07,
+   "p": 0.982,
    "take": 10
   },
   {
    "w": "Y",
-   "s": 81.01,
-   "e": 81.43,
-   "p": 0.239,
+   "s": 81.2,
+   "e": 81.42,
+   "p": 0.271,
    "take": 11
   },
   {
    "w": "hasta",
-   "s": 81.43,
-   "e": 81.53,
-   "p": 0.914,
+   "s": 81.42,
+   "e": 81.54,
+   "p": 0.857,
    "take": 11
   },
   {
    "w": "Juegos",
-   "s": 81.53,
-   "e": 81.87,
-   "p": 0.609,
+   "s": 81.54,
+   "e": 81.86,
+   "p": 0.667,
    "take": 11
   },
   {
    "w": "de",
-   "s": 81.87,
-   "e": 81.95,
-   "p": 0.657,
+   "s": 81.86,
+   "e": 81.96,
+   "p": 0.753,
    "take": 11
   },
   {
    "w": "Azar.",
-   "s": 81.95,
-   "e": 82.17,
-   "p": 0.688,
+   "s": 81.96,
+   "e": 82.18,
+   "p": 0.576,
    "take": 11
   },
   {
@@ -725,31 +690,24 @@
    "take": 14
   },
   {
-   "w": "Y",
-   "s": 90.8,
-   "e": 91.11,
-   "p": 0.1,
-   "take": 15
-  },
-  {
    "w": "desincentivar",
-   "s": 91.11,
+   "s": 91.45,
    "e": 92.29,
-   "p": 0.831,
+   "p": 0.861,
    "take": 15
   },
   {
    "w": "su",
    "s": 92.29,
    "e": 92.35,
-   "p": 0.986,
+   "p": 0.982,
    "take": 15
   },
   {
    "w": "consumo.",
    "s": 92.35,
    "e": 92.79,
-   "p": 0.997,
+   "p": 0.996,
    "take": 15
   },
   {
@@ -866,93 +824,100 @@
   },
   {
    "w": "Legalmente",
-   "s": 126.15,
-   "e": 126.66,
-   "p": 0.662,
+   "s": 134.26,
+   "e": 134.74,
+   "p": 0.883,
    "take": 19
   },
   {
    "w": "lo",
-   "s": 126.66,
-   "e": 126.94,
-   "p": 0.766,
+   "s": 134.74,
+   "e": 134.9,
+   "p": 0.863,
    "take": 19
   },
   {
    "w": "debería",
-   "s": 126.94,
-   "e": 127.32,
-   "p": 0.982,
+   "s": 134.9,
+   "e": 135.3,
+   "p": 0.991,
    "take": 19
   },
   {
    "w": "pagar",
-   "s": 127.32,
-   "e": 127.56,
-   "p": 0.926,
+   "s": 135.3,
+   "e": 135.48,
+   "p": 0.912,
    "take": 19
   },
   {
    "w": "el",
-   "s": 127.56,
-   "e": 127.76,
-   "p": 0.675,
+   "s": 135.48,
+   "e": 135.72,
+   "p": 0.973,
    "take": 19
   },
   {
    "w": "productor",
-   "s": 127.76,
-   "e": 128.2,
-   "p": 0.874,
+   "s": 135.72,
+   "e": 136.24,
+   "p": 0.987,
+   "take": 19
+  },
+  {
+   "w": "o",
+   "s": 136.24,
+   "e": 136.4,
+   "p": 0.969,
    "take": 19
   },
   {
    "w": "importador.",
-   "s": 128.2,
-   "e": 128.72,
-   "p": 0.62,
+   "s": 136.4,
+   "e": 136.96,
+   "p": 0.986,
    "take": 19
   },
   {
    "w": "Pero",
-   "s": 138.85,
-   "e": 139.7,
-   "p": 0.248,
+   "s": 139.45,
+   "e": 139.76,
+   "p": 0.227,
    "take": 20
   },
   {
    "w": "adivina",
-   "s": 139.7,
+   "s": 139.76,
    "e": 140.32,
-   "p": 0.921,
+   "p": 0.927,
    "take": 20
   },
   {
    "w": "quién",
    "s": 140.32,
    "e": 140.56,
-   "p": 0.585,
+   "p": 0.652,
    "take": 20
   },
   {
    "w": "lo",
    "s": 140.56,
    "e": 140.68,
-   "p": 0.959,
+   "p": 0.974,
    "take": 20
   },
   {
    "w": "está",
    "s": 140.68,
    "e": 140.82,
-   "p": 0.926,
+   "p": 0.949,
    "take": 20
   },
   {
-   "w": "asumiendo.",
+   "w": "sumiendo.",
    "s": 140.82,
    "e": 141.28,
-   "p": 0.91,
+   "p": 0.759,
    "take": 20
   },
   {
@@ -1098,29 +1063,29 @@
   {
    "w": "¿Ya",
    "s": 164.15,
-   "e": 164.76,
-   "p": 0.477,
+   "e": 164.75,
+   "p": 0.357,
    "take": 23
   },
   {
    "w": "sabes",
-   "s": 164.76,
-   "e": 165.08,
-   "p": 0.995,
+   "s": 164.75,
+   "e": 165.09,
+   "p": 0.991,
    "take": 23
   },
   {
    "w": "que",
-   "s": 165.08,
-   "e": 165.28,
-   "p": 0.857,
+   "s": 165.09,
+   "e": 165.27,
+   "p": 0.893,
    "take": 23
   },
   {
    "w": "hay?",
-   "s": 165.28,
-   "e": 165.5,
-   "p": 0.792,
+   "s": 165.27,
+   "e": 165.47,
+   "p": 0.729,
    "take": 23
   },
   {
@@ -1167,58 +1132,51 @@
   },
   {
    "w": "Si,",
-   "s": 171.45,
-   "e": 171.94,
-   "p": 0.064,
+   "s": 171.6,
+   "e": 171.95,
+   "p": 0.155,
    "take": 25
   },
   {
-   "w": "aboca",
-   "s": 172.06,
-   "e": 172.3,
-   "p": 0.706,
-   "take": 25
-  },
-  {
-   "w": "a",
-   "s": 172.3,
-   "e": 172.42,
-   "p": 0.639,
+   "w": "abocare",
+   "s": 172.05,
+   "e": 172.45,
+   "p": 0.608,
    "take": 25
   },
   {
    "w": "Iuris",
-   "s": 172.42,
-   "e": 172.88,
-   "p": 0.645,
+   "s": 172.45,
+   "e": 172.87,
+   "p": 0.644,
    "take": 25
   },
   {
    "w": "y",
-   "s": 172.88,
-   "e": 173.04,
-   "p": 0.975,
+   "s": 172.87,
+   "e": 173.03,
+   "p": 0.972,
    "take": 25
   },
   {
    "w": "guarda",
-   "s": 173.04,
-   "e": 173.44,
-   "p": 0.943,
+   "s": 173.03,
+   "e": 173.43,
+   "p": 0.959,
    "take": 25
   },
   {
    "w": "este",
-   "s": 173.44,
-   "e": 173.66,
-   "p": 0.97,
+   "s": 173.43,
+   "e": 173.65,
+   "p": 0.981,
    "take": 25
   },
   {
    "w": "video.",
-   "s": 173.66,
-   "e": 173.98,
-   "p": 0.723,
+   "s": 173.65,
+   "e": 173.99,
+   "p": 0.74,
    "take": 25
   },
   {

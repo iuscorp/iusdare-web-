@@ -4,7 +4,7 @@
   "createdAt": "2026-11-12T04:35:09.570Z",
   "raw": "footage/raw/video-5/raw.MOV",
   "proxy": "footage/video-5/source.mp4",
-  "status": "borrador-edl",
+  "status": "preview-renderizado",
   "workflow": [
     "ANÁLISIS",
     "ESTRUCTURA NARRATIVA",
@@ -22,7 +22,7 @@
   },
   "lastRender": {
     "file": "../previews/video-5/video-5-preview.mp4",
-    "at": "2026-11-12T12:11:28.354Z",
+    "at": "2026-11-12T14:33:52.137Z",
     "preview": true
   },
   "editing": {

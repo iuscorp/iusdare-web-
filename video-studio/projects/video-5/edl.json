@@ -14,7 +14,7 @@
     {
       "id": "s01",
       "in": 18,
-      "out": 20.3,
+      "out": 20.267,
       "role": "hook",
       "framing": "subtleIn",
       "move": "settle",
@@ -22,285 +22,213 @@
     },
     {
       "id": "s02",
-      "in": 24.333,
-      "out": 24.767,
-      "role": "context",
-      "framing": "base",
-      "move": "snap",
-      "note": "¿O"
-    },
-    {
-      "id": "s03",
       "in": 24.967,
       "out": 26.3,
       "role": "context",
-      "framing": "punchIn",
-      "move": "snap",
-      "note": "alguien compra cigarros?"
+      "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "O alguien compra cigarros."
     },
     {
-      "id": "s04",
+      "id": "s03",
       "in": 29.867,
       "out": 32.467,
       "role": "context",
       "framing": "subtleIn",
-      "move": "snap",
+      "move": "slowPush",
       "note": "estás pagando un impuesto extra que ni siquiera aparece en"
     },
     {
-      "id": "s05",
+      "id": "s04",
       "in": 32.467,
-      "out": 32.933,
+      "out": 32.8,
       "role": "context",
       "framing": "base",
-      "move": "snap",
+      "move": "slowPush",
       "note": "el ticket."
     },
     {
-      "id": "s06",
-      "in": 34.833,
-      "out": 35.033,
-      "role": "context",
-      "framing": "subtleIn",
-      "move": "snap",
-      "note": "Se"
-    },
-    {
-      "id": "s07",
+      "id": "s05",
       "in": 35.267,
       "out": 37.167,
       "role": "context",
-      "framing": "punchIn",
-      "move": "crash",
-      "note": "llama impuesto selectivo al consumo."
+      "framing": "base",
+      "move": "slowPush",
+      "note": "Se llama impuesto selectivo al consumo."
     },
     {
-      "id": "s08",
+      "id": "s06",
       "in": 40.3,
       "out": 42.067,
       "role": "context",
       "framing": "punchIn",
       "move": "crash",
-      "note": "Y no, no cuenta como IGB."
+      "note": "Y no, no cuenta como IGV."
     },
     {
-      "id": "s09",
+      "id": "s07",
       "in": 46.5,
       "out": 47.933,
       "role": "context",
-      "framing": "punchIn",
-      "move": "snap",
+      "framing": "base",
+      "move": "slowPush",
       "note": "Son dos impuestos distintos."
     },
     {
-      "id": "s10",
+      "id": "s08",
       "in": 51,
-      "out": 52.367,
-      "role": "context",
-      "framing": "subtleIn",
-      "move": "snap",
-      "note": "El IGV grava casi"
-    },
-    {
-      "id": "s11",
-      "in": 52.433,
       "out": 53.4,
       "role": "context",
       "framing": "base",
-      "move": "snap",
-      "note": "todo lo que compras."
+      "move": "slowPush",
+      "note": "El IGV grava casi todo lo que compras."
     },
     {
-      "id": "s12",
+      "id": "s09",
       "in": 57.533,
-      "out": 59.033,
+      "out": 59.967,
       "role": "twist",
       "framing": "punchIn",
       "move": "crash",
-      "note": "Pero el ISC grava"
+      "note": "Pero el ISC grava productos específicos."
     },
     {
-      "id": "s13",
-      "in": 59.3,
-      "out": 60.533,
-      "role": "context",
-      "framing": "subtleIn",
-      "move": "snap",
-      "note": "productos específicos."
-    },
-    {
-      "id": "s14",
-      "in": 69.933,
-      "out": 72.233,
-      "role": "context",
-      "framing": "base",
-      "move": "snap",
-      "note": "El ISC solo grava productos específicos."
-    },
-    {
-      "id": "s15",
+      "id": "s10",
       "in": 74.1,
       "out": 74.667,
       "role": "context",
-      "framing": "punchIn",
-      "move": "snap",
+      "framing": "base",
+      "move": "slowPush",
       "note": "alcohol,"
     },
     {
-      "id": "s16",
+      "id": "s11",
       "in": 74.933,
-      "out": 75.667,
+      "out": 75.6,
       "role": "context",
-      "framing": "subtleIn",
-      "move": "snap",
+      "framing": "base",
+      "move": "slowPush",
       "note": "tabaco"
     },
     {
-      "id": "s17",
-      "in": 76.9,
-      "out": 77.867,
+      "id": "s12",
+      "in": 76.867,
+      "out": 77.667,
       "role": "context",
       "framing": "base",
-      "move": "snap",
-      "note": "combustibles."
+      "move": "slowPush",
+      "note": "Combustibles. Combustibles."
     },
     {
-      "id": "s18",
-      "in": 77.933,
-      "out": 78.733,
+      "id": "s13",
+      "in": 78.767,
+      "out": 79.967,
       "role": "context",
       "framing": "subtleIn",
-      "move": "snap",
+      "move": "slowPush",
       "note": "Algunos vehículos."
     },
     {
-      "id": "s19",
+      "id": "s14",
       "in": 81.367,
       "out": 82.267,
       "role": "context",
       "framing": "subtleIn",
-      "move": "snap",
+      "move": "slowPush",
       "note": "Y hasta juegos de azar."
     },
     {
-      "id": "s20",
+      "id": "s15",
       "in": 83.067,
-      "out": 83.467,
+      "out": 83.433,
       "role": "context",
-      "framing": "base",
-      "move": "snap",
+      "framing": "subtleIn",
+      "move": "slowPush",
       "note": "¿Por qué?"
     },
     {
-      "id": "s21",
+      "id": "s16",
       "in": 84.467,
       "out": 85.3,
       "role": "context",
       "framing": "punchIn",
-      "move": "snap",
+      "move": "slowPush",
       "note": "razones."
     },
     {
-      "id": "s22",
+      "id": "s17",
       "in": 86.9,
       "out": 87.9,
       "role": "context",
-      "framing": "subtleIn",
-      "move": "snap",
+      "framing": "punchIn",
+      "move": "slowPush",
       "note": "Recaudación del Estado."
     },
     {
-      "id": "s23",
-      "in": 90.933,
-      "out": 91.3,
-      "role": "context",
-      "framing": "base",
-      "move": "snap",
-      "note": "Y"
-    },
-    {
-      "id": "s24",
+      "id": "s18",
       "in": 91.567,
       "out": 92.867,
       "role": "context",
-      "framing": "subtleIn",
-      "move": "snap",
+      "framing": "punchIn",
+      "move": "slowPush",
       "note": "desincentivar su consumo."
     },
     {
-      "id": "s25",
+      "id": "s19",
       "in": 100.8,
-      "out": 101.3,
-      "role": "context",
-      "framing": "subtleIn",
-      "move": "snap",
-      "note": "Porque dañan"
-    },
-    {
-      "id": "s26",
-      "in": 101.533,
       "out": 102.367,
       "role": "context",
-      "framing": "base",
-      "move": "snap",
-      "note": "tu salud o"
+      "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "Porque dañan tu salud"
     },
     {
-      "id": "s27",
+      "id": "s20",
       "in": 102.667,
       "out": 103.967,
       "role": "context",
-      "framing": "punchIn",
-      "move": "snap",
-      "note": "hacen daño al medio ambiente."
+      "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "o hacen daño al medio ambiente."
     },
     {
-      "id": "s28",
+      "id": "s21",
       "in": 108.3,
       "out": 109.767,
       "role": "context",
       "framing": "subtleIn",
-      "move": "snap",
+      "move": "slowPush",
       "note": "esa función es regulatoria."
     },
     {
-      "id": "s29",
+      "id": "s22",
       "in": 119.233,
       "out": 119.9,
       "role": "twist",
       "framing": "base",
-      "move": "snap",
+      "move": "slowPush",
       "note": "Pero ojo."
     },
     {
-      "id": "s30",
-      "in": 126.067,
-      "out": 128.8,
+      "id": "s23",
+      "in": 134.167,
+      "out": 137.033,
       "role": "context",
-      "framing": "subtleIn",
-      "move": "snap",
+      "framing": "base",
+      "move": "slowPush",
       "note": "Legalmente lo debería pagar el productor o importador."
     },
     {
-      "id": "s31",
-      "in": 139.033,
-      "out": 139.2,
-      "role": "twist",
-      "framing": "subtleIn",
-      "move": "snap",
-      "note": "Pero"
-    },
-    {
-      "id": "s32",
+      "id": "s24",
       "in": 139.567,
-      "out": 141.367,
-      "role": "context",
-      "framing": "punchIn",
-      "move": "crash",
-      "note": "adivina quién lo está asumiendo."
+      "out": 141.3,
+      "role": "twist",
+      "framing": "base",
+      "move": "slowPush",
+      "note": "Pero adivina quién lo está asumiendo."
     },
     {
-      "id": "s33",
+      "id": "s25",
       "in": 147.167,
       "out": 149.1,
       "role": "context",
@@ -309,52 +237,43 @@
       "note": "Tú, porque va incluido en el precio final."
     },
     {
-      "id": "s34",
-      "in": 160.667,
+      "id": "s26",
+      "in": 160.5,
       "out": 162.933,
       "role": "context",
-      "framing": "subtleIn",
-      "move": "snap",
+      "framing": "base",
+      "move": "slowPush",
       "note": "Así que la próxima vez que veas el precio de una chela."
     },
     {
-      "id": "s35",
+      "id": "s27",
       "in": 164.6,
-      "out": 165.6,
+      "out": 165.467,
       "role": "context",
       "framing": "base",
-      "move": "snap",
+      "move": "slowPush",
       "note": "¿Ya sabes que ahí?"
     },
     {
-      "id": "s36",
+      "id": "s28",
       "in": 168.033,
       "out": 169.467,
-      "role": "context",
-      "framing": "subtleIn",
-      "move": "snap",
+      "role": "recap",
+      "framing": "base",
+      "move": "slowPush",
       "note": "Hay un impuesto que no ves."
     },
     {
-      "id": "s37",
-      "in": 171.367,
-      "out": 171.6,
-      "role": "cta",
-      "framing": "base",
-      "move": "none",
-      "note": "Sigue"
-    },
-    {
-      "id": "s38",
+      "id": "s29",
       "in": 171.767,
       "out": 174.067,
       "role": "cta",
       "framing": "base",
       "move": "none",
-      "note": "a Vocare Iuris y guarda este video."
+      "note": "Sigue a Vocare Iuris y guarda este video."
     },
     {
-      "id": "s39",
+      "id": "s30",
       "in": 175.767,
       "out": 177.467,
       "role": "cta",
@@ -367,12 +286,12 @@
     {
       "text": "¿Sabías",
       "start": 0,
-      "end": 0.35,
+      "end": 0.37,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 0.35,
+      "start": 0.37,
       "end": 0.55,
       "emphasis": false
     },
@@ -385,12 +304,12 @@
     {
       "text": "vez",
       "start": 0.89,
-      "end": 1.11,
+      "end": 1.09,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 1.11,
+      "start": 1.09,
       "end": 1.23,
       "emphasis": false
     },
@@ -409,889 +328,847 @@
     {
       "text": "cerveza",
       "start": 1.65,
-      "end": 2.3,
+      "end": 2.267,
       "emphasis": false
     },
     {
       "text": "O",
-      "start": 2.367,
-      "end": 2.733,
+      "start": 2.27,
+      "end": 2.39,
       "emphasis": false
     },
     {
       "text": "alguien",
-      "start": 2.817,
-      "end": 3.057,
+      "start": 2.36,
+      "end": 2.58,
       "emphasis": false
     },
     {
       "text": "compra",
-      "start": 3.057,
-      "end": 3.357,
+      "start": 2.58,
+      "end": 2.88,
       "emphasis": false
     },
     {
       "text": "cigarros",
-      "start": 3.357,
-      "end": 4.067,
+      "start": 2.88,
+      "end": 3.6,
       "emphasis": false
     },
     {
       "text": "estás",
-      "start": 4.07,
-      "end": 4.305,
+      "start": 3.603,
+      "end": 3.838,
       "emphasis": false
     },
     {
       "text": "pagando",
-      "start": 4.305,
-      "end": 4.71,
+      "start": 3.838,
+      "end": 4.243,
       "emphasis": false
     },
     {
       "text": "un",
-      "start": 4.71,
-      "end": 4.83,
+      "start": 4.243,
+      "end": 4.363,
       "emphasis": false
     },
     {
       "text": "impuesto",
-      "start": 4.81,
-      "end": 5.23,
+      "start": 4.343,
+      "end": 4.763,
       "emphasis": true
     },
     {
       "text": "extra",
-      "start": 5.23,
-      "end": 5.53,
+      "start": 4.763,
+      "end": 5.063,
       "emphasis": true
     },
     {
       "text": "que",
-      "start": 5.53,
-      "end": 5.71,
+      "start": 5.063,
+      "end": 5.243,
       "emphasis": false
     },
     {
       "text": "ni",
-      "start": 5.71,
-      "end": 5.85,
+      "start": 5.243,
+      "end": 5.383,
       "emphasis": false
     },
     {
       "text": "siquiera",
-      "start": 5.85,
-      "end": 6.15,
+      "start": 5.383,
+      "end": 5.683,
       "emphasis": false
     },
     {
       "text": "aparece",
-      "start": 6.15,
-      "end": 6.45,
+      "start": 5.683,
+      "end": 5.983,
       "emphasis": false
     },
     {
       "text": "en",
-      "start": 6.45,
-      "end": 6.667,
+      "start": 5.983,
+      "end": 6.2,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 6.67,
-      "end": 6.79,
+      "start": 6.203,
+      "end": 6.323,
       "emphasis": false
     },
     {
       "text": "ticket",
-      "start": 6.79,
-      "end": 7.133,
+      "start": 6.323,
+      "end": 6.533,
       "emphasis": true
     },
     {
       "text": "Se",
-      "start": 7.2,
-      "end": 7.333,
+      "start": 6.547,
+      "end": 6.667,
       "emphasis": false
     },
     {
       "text": "llama",
-      "start": 7.417,
-      "end": 7.697,
+      "start": 6.617,
+      "end": 6.897,
       "emphasis": false
     },
     {
       "text": "impuesto",
-      "start": 7.697,
-      "end": 8.217,
+      "start": 6.897,
+      "end": 7.417,
       "emphasis": true
     },
     {
       "text": "selectivo",
-      "start": 8.217,
-      "end": 8.737,
+      "start": 7.417,
+      "end": 7.937,
       "emphasis": true
     },
     {
       "text": "al",
-      "start": 8.737,
-      "end": 8.857,
+      "start": 7.937,
+      "end": 8.057,
       "emphasis": false
     },
     {
       "text": "consumo",
-      "start": 8.817,
-      "end": 9.233,
+      "start": 8.017,
+      "end": 8.433,
       "emphasis": true
     },
     {
       "text": "Y",
-      "start": 9.233,
-      "end": 9.353,
+      "start": 8.433,
+      "end": 8.553,
       "emphasis": false
     },
     {
       "text": "no",
-      "start": 9.353,
-      "end": 9.653,
+      "start": 8.553,
+      "end": 8.853,
       "emphasis": false
     },
     {
       "text": "no",
-      "start": 9.653,
-      "end": 9.813,
+      "start": 8.853,
+      "end": 9.013,
       "emphasis": false
     },
     {
       "text": "cuenta",
-      "start": 9.813,
-      "end": 10.113,
+      "start": 9.013,
+      "end": 9.313,
       "emphasis": false
     },
     {
       "text": "como",
-      "start": 10.113,
-      "end": 10.393,
+      "start": 9.313,
+      "end": 9.593,
       "emphasis": false
     },
     {
       "text": "IGV",
-      "start": 10.393,
-      "end": 11,
+      "start": 9.593,
+      "end": 10.2,
       "emphasis": true
     },
     {
       "text": "Son",
-      "start": 11.01,
-      "end": 11.18,
+      "start": 10.21,
+      "end": 10.38,
       "emphasis": false
     },
     {
       "text": "dos",
-      "start": 11.18,
-      "end": 11.42,
+      "start": 10.38,
+      "end": 10.62,
       "emphasis": false
     },
     {
       "text": "impuestos",
-      "start": 11.42,
-      "end": 11.86,
+      "start": 10.62,
+      "end": 11.06,
       "emphasis": false
     },
     {
       "text": "distintos",
-      "start": 11.86,
-      "end": 12.433,
+      "start": 11.06,
+      "end": 11.633,
       "emphasis": true
     },
     {
       "text": "El",
-      "start": 12.433,
-      "end": 12.603,
+      "start": 11.633,
+      "end": 11.803,
       "emphasis": false
     },
     {
       "text": "IGV",
-      "start": 12.603,
-      "end": 13.023,
+      "start": 11.803,
+      "end": 12.223,
       "emphasis": true
     },
     {
       "text": "grava",
-      "start": 13.023,
-      "end": 13.403,
+      "start": 12.223,
+      "end": 12.603,
       "emphasis": false
     },
     {
       "text": "casi",
-      "start": 13.403,
-      "end": 13.8,
+      "start": 12.603,
+      "end": 12.823,
       "emphasis": false
     },
     {
       "text": "todo",
-      "start": 13.787,
-      "end": 13.937,
+      "start": 12.823,
+      "end": 13.203,
       "emphasis": false
     },
     {
       "text": "lo",
-      "start": 13.937,
-      "end": 14.137,
+      "start": 13.203,
+      "end": 13.403,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 14.137,
-      "end": 14.257,
+      "start": 13.403,
+      "end": 13.523,
       "emphasis": false
     },
     {
       "text": "compras",
-      "start": 14.257,
-      "end": 14.767,
+      "start": 13.523,
+      "end": 14.033,
       "emphasis": false
     },
     {
       "text": "Pero",
-      "start": 14.773,
-      "end": 15.033,
+      "start": 14.04,
+      "end": 14.3,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 15.033,
-      "end": 15.373,
+      "start": 14.3,
+      "end": 14.64,
       "emphasis": false
     },
     {
       "text": "ISC",
-      "start": 15.373,
-      "end": 15.653,
+      "start": 14.64,
+      "end": 15.04,
       "emphasis": true
     },
     {
       "text": "grava",
-      "start": 15.653,
-      "end": 16.267,
+      "start": 15.04,
+      "end": 15.46,
       "emphasis": false
     },
     {
       "text": "productos",
-      "start": 16.267,
-      "end": 16.567,
+      "start": 15.46,
+      "end": 16.08,
       "emphasis": false
     },
     {
       "text": "específicos",
-      "start": 16.567,
-      "end": 17.5,
-      "emphasis": true
-    },
-    {
-      "text": "El",
-      "start": 17.487,
-      "end": 17.667,
-      "emphasis": false
-    },
-    {
-      "text": "ISC",
-      "start": 17.667,
-      "end": 18.207,
-      "emphasis": true
-    },
-    {
-      "text": "solo",
-      "start": 18.207,
-      "end": 18.367,
-      "emphasis": false
-    },
-    {
-      "text": "grava",
-      "start": 18.367,
-      "end": 18.707,
-      "emphasis": false
-    },
-    {
-      "text": "productos",
-      "start": 18.707,
-      "end": 18.987,
-      "emphasis": false
-    },
-    {
-      "text": "específicos",
-      "start": 18.987,
-      "end": 19.8,
+      "start": 16.08,
+      "end": 16.467,
       "emphasis": true
     },
     {
       "text": "alcohol",
-      "start": 19.8,
-      "end": 20.367,
+      "start": 16.477,
+      "end": 17.033,
       "emphasis": true
     },
     {
       "text": "tabaco",
-      "start": 20.423,
-      "end": 21.1,
+      "start": 17.09,
+      "end": 17.7,
       "emphasis": true
     },
     {
-      "text": "combustibles",
-      "start": 21.1,
-      "end": 22.067,
+      "text": "Combustibles",
+      "start": 17.713,
+      "end": 18.023,
       "emphasis": true
     },
     {
       "text": "Algunos",
-      "start": 22.063,
-      "end": 22.363,
+      "start": 18.483,
+      "end": 19.243,
       "emphasis": false
     },
     {
       "text": "vehículos",
-      "start": 22.363,
-      "end": 22.867,
+      "start": 19.243,
+      "end": 19.7,
       "emphasis": true
     },
     {
       "text": "Y",
-      "start": 22.85,
-      "end": 22.97,
+      "start": 19.683,
+      "end": 19.803,
       "emphasis": false
     },
     {
       "text": "hasta",
-      "start": 22.93,
-      "end": 23.05,
+      "start": 19.753,
+      "end": 19.873,
       "emphasis": false
     },
     {
       "text": "juegos",
-      "start": 23.03,
-      "end": 23.243,
+      "start": 19.873,
+      "end": 20.087,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 23.243,
-      "end": 23.457,
+      "start": 20.087,
+      "end": 20.3,
       "emphasis": false
     },
     {
       "text": "azar",
-      "start": 23.457,
-      "end": 23.767,
+      "start": 20.3,
+      "end": 20.6,
       "emphasis": true
     },
     {
       "text": "Por",
-      "start": 23.77,
-      "end": 23.94,
+      "start": 20.603,
+      "end": 20.773,
       "emphasis": false
     },
     {
       "text": "qué",
-      "start": 23.94,
-      "end": 24.167,
+      "start": 20.773,
+      "end": 20.967,
       "emphasis": false
     },
     {
       "text": "Por",
-      "start": 24.15,
-      "end": 24.433,
+      "start": 20.95,
+      "end": 21.233,
       "emphasis": false
     },
     {
       "text": "dos",
-      "start": 24.433,
-      "end": 24.717,
+      "start": 21.233,
+      "end": 21.517,
       "emphasis": false
     },
     {
       "text": "razones",
-      "start": 24.717,
-      "end": 25,
+      "start": 21.517,
+      "end": 21.8,
       "emphasis": true
     },
     {
       "text": "Recaudación",
-      "start": 24.99,
-      "end": 25.46,
+      "start": 21.79,
+      "end": 22.26,
       "emphasis": true
     },
     {
       "text": "del",
-      "start": 25.46,
-      "end": 25.62,
+      "start": 22.26,
+      "end": 22.42,
       "emphasis": false
     },
     {
       "text": "Estado",
-      "start": 25.62,
-      "end": 26,
-      "emphasis": false
-    },
-    {
-      "text": "Y",
-      "start": 25.987,
-      "end": 26.367,
+      "start": 22.42,
+      "end": 22.8,
       "emphasis": false
     },
     {
       "text": "desincentivar",
-      "start": 26.38,
-      "end": 27.09,
+      "start": 22.813,
+      "end": 23.523,
       "emphasis": false
     },
     {
       "text": "su",
-      "start": 27.09,
-      "end": 27.21,
+      "start": 23.523,
+      "end": 23.643,
       "emphasis": false
     },
     {
       "text": "consumo",
-      "start": 27.15,
-      "end": 27.667,
+      "start": 23.583,
+      "end": 24.1,
       "emphasis": true
     },
     {
       "text": "Porque",
-      "start": 27.667,
-      "end": 28.007,
+      "start": 24.1,
+      "end": 24.44,
       "emphasis": false
     },
     {
       "text": "dañan",
-      "start": 28.007,
-      "end": 28.167,
+      "start": 24.44,
+      "end": 25.14,
       "emphasis": false
     },
     {
       "text": "tu",
-      "start": 28.473,
-      "end": 28.593,
+      "start": 25.14,
+      "end": 25.26,
       "emphasis": true
     },
     {
       "text": "salud",
-      "start": 28.523,
-      "end": 28.893,
+      "start": 25.19,
+      "end": 25.667,
       "emphasis": true
     },
     {
       "text": "o",
-      "start": 28.893,
-      "end": 29.013,
+      "start": 25.66,
+      "end": 25.8,
       "emphasis": false
     },
     {
       "text": "hacen",
-      "start": 29.133,
-      "end": 29.293,
+      "start": 25.8,
+      "end": 25.96,
       "emphasis": false
     },
     {
       "text": "daño",
-      "start": 29.293,
-      "end": 29.573,
+      "start": 25.96,
+      "end": 26.24,
       "emphasis": false
     },
     {
       "text": "al",
-      "start": 29.573,
-      "end": 29.693,
+      "start": 26.24,
+      "end": 26.36,
       "emphasis": false
     },
     {
       "text": "medio",
+      "start": 26.34,
+      "end": 26.5,
+      "emphasis": false
+    },
+    {
+      "text": "ambiente",
+      "start": 26.5,
+      "end": 26.967,
+      "emphasis": true
+    },
+    {
+      "text": "esa",
+      "start": 26.967,
+      "end": 27.087,
+      "emphasis": false
+    },
+    {
+      "text": "función",
+      "start": 26.972,
+      "end": 27.527,
+      "emphasis": false
+    },
+    {
+      "text": "es",
+      "start": 27.527,
+      "end": 27.707,
+      "emphasis": false
+    },
+    {
+      "text": "regulatoria",
+      "start": 27.707,
+      "end": 28.433,
+      "emphasis": true
+    },
+    {
+      "text": "Pero",
+      "start": 28.441,
+      "end": 28.64,
+      "emphasis": false
+    },
+    {
+      "text": "ojo",
+      "start": 28.64,
+      "end": 29.1,
+      "emphasis": false
+    },
+    {
+      "text": "Legalmente",
+      "start": 29.193,
+      "end": 29.673,
+      "emphasis": true
+    },
+    {
+      "text": "lo",
       "start": 29.673,
       "end": 29.833,
       "emphasis": false
     },
     {
-      "text": "ambiente",
-      "start": 29.833,
-      "end": 30.3,
-      "emphasis": true
-    },
-    {
-      "text": "esa",
-      "start": 30.3,
-      "end": 30.42,
-      "emphasis": false
-    },
-    {
-      "text": "función",
-      "start": 30.305,
-      "end": 30.86,
-      "emphasis": false
-    },
-    {
-      "text": "es",
-      "start": 30.86,
-      "end": 31.04,
-      "emphasis": false
-    },
-    {
-      "text": "regulatoria",
-      "start": 31.04,
-      "end": 31.767,
-      "emphasis": true
-    },
-    {
-      "text": "Pero",
-      "start": 31.774,
-      "end": 31.973,
-      "emphasis": false
-    },
-    {
-      "text": "ojo",
-      "start": 31.973,
-      "end": 32.433,
-      "emphasis": false
-    },
-    {
-      "text": "Legalmente",
-      "start": 32.517,
-      "end": 33.027,
-      "emphasis": true
-    },
-    {
-      "text": "lo",
-      "start": 33.027,
-      "end": 33.307,
-      "emphasis": false
-    },
-    {
       "text": "debería",
-      "start": 33.307,
-      "end": 33.687,
+      "start": 29.833,
+      "end": 30.233,
       "emphasis": false
     },
     {
       "text": "pagar",
-      "start": 33.687,
-      "end": 33.927,
+      "start": 30.233,
+      "end": 30.413,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 33.927,
-      "end": 34.127,
+      "start": 30.413,
+      "end": 30.653,
       "emphasis": false
     },
     {
       "text": "productor",
-      "start": 34.127,
-      "end": 34.447,
+      "start": 30.653,
+      "end": 31.173,
       "emphasis": false
     },
     {
       "text": "o",
-      "start": 34.447,
-      "end": 34.767,
+      "start": 31.173,
+      "end": 31.333,
       "emphasis": false
     },
     {
       "text": "importador",
-      "start": 34.767,
-      "end": 35.167,
+      "start": 31.333,
+      "end": 31.967,
       "emphasis": false
     },
     {
       "text": "Pero",
-      "start": 35.153,
-      "end": 35.333,
+      "start": 31.96,
+      "end": 32.16,
       "emphasis": false
     },
     {
       "text": "adivina",
-      "start": 35.467,
-      "end": 36.087,
+      "start": 32.16,
+      "end": 32.72,
       "emphasis": false
     },
     {
       "text": "quién",
-      "start": 36.087,
-      "end": 36.327,
+      "start": 32.72,
+      "end": 32.96,
       "emphasis": false
     },
     {
       "text": "lo",
-      "start": 36.327,
-      "end": 36.447,
+      "start": 32.96,
+      "end": 33.08,
       "emphasis": false
     },
     {
       "text": "está",
-      "start": 36.447,
-      "end": 36.587,
+      "start": 33.08,
+      "end": 33.22,
       "emphasis": false
     },
     {
       "text": "asumiendo",
-      "start": 36.587,
-      "end": 37.133,
+      "start": 33.22,
+      "end": 33.7,
       "emphasis": false
     },
     {
       "text": "Tú",
-      "start": 37.127,
-      "end": 37.527,
+      "start": 33.703,
+      "end": 34.093,
       "emphasis": true
     },
     {
       "text": "porque",
-      "start": 37.527,
-      "end": 37.727,
+      "start": 34.093,
+      "end": 34.293,
       "emphasis": false
     },
     {
       "text": "va",
-      "start": 37.727,
-      "end": 37.847,
+      "start": 34.293,
+      "end": 34.413,
       "emphasis": false
     },
     {
       "text": "incluido",
-      "start": 37.847,
-      "end": 38.287,
+      "start": 34.413,
+      "end": 34.853,
       "emphasis": false
     },
     {
       "text": "en",
-      "start": 38.287,
-      "end": 38.447,
+      "start": 34.853,
+      "end": 35.013,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 38.447,
-      "end": 38.567,
+      "start": 35.013,
+      "end": 35.133,
       "emphasis": false
     },
     {
       "text": "precio",
-      "start": 38.527,
-      "end": 38.747,
+      "start": 35.093,
+      "end": 35.313,
       "emphasis": true
     },
     {
       "text": "final",
-      "start": 38.747,
-      "end": 39.067,
+      "start": 35.313,
+      "end": 35.633,
       "emphasis": false
     },
     {
       "text": "Así",
-      "start": 39.07,
-      "end": 39.27,
+      "start": 35.723,
+      "end": 36.003,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 39.27,
-      "end": 39.41,
+      "start": 36.003,
+      "end": 36.143,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 39.41,
-      "end": 39.55,
+      "start": 36.143,
+      "end": 36.283,
       "emphasis": false
     },
     {
       "text": "próxima",
-      "start": 39.55,
-      "end": 39.83,
+      "start": 36.283,
+      "end": 36.563,
       "emphasis": false
     },
     {
       "text": "vez",
-      "start": 39.83,
-      "end": 40.15,
+      "start": 36.563,
+      "end": 36.883,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 40.15,
-      "end": 40.275,
+      "start": 36.883,
+      "end": 37.008,
       "emphasis": false
     },
     {
       "text": "veas",
-      "start": 40.275,
-      "end": 40.4,
+      "start": 37.008,
+      "end": 37.133,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 40.4,
-      "end": 40.525,
+      "start": 37.133,
+      "end": 37.258,
       "emphasis": false
     },
     {
       "text": "precio",
-      "start": 40.525,
-      "end": 40.65,
+      "start": 37.258,
+      "end": 37.383,
       "emphasis": true
     },
     {
       "text": "de",
-      "start": 40.65,
-      "end": 40.79,
+      "start": 37.383,
+      "end": 37.523,
       "emphasis": false
     },
     {
       "text": "una",
-      "start": 40.79,
-      "end": 40.91,
+      "start": 37.523,
+      "end": 37.643,
       "emphasis": false
     },
     {
       "text": "chela",
-      "start": 40.89,
-      "end": 41.333,
+      "start": 37.623,
+      "end": 38.067,
       "emphasis": true
     },
     {
       "text": "Ya",
-      "start": 41.344,
-      "end": 41.493,
+      "start": 38.078,
+      "end": 38.217,
       "emphasis": false
     },
     {
       "text": "sabes",
-      "start": 41.493,
-      "end": 41.813,
+      "start": 38.217,
+      "end": 38.557,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 41.813,
-      "end": 42.023,
+      "start": 38.557,
+      "end": 38.747,
       "emphasis": false
     },
     {
       "text": "ahí",
-      "start": 42.023,
-      "end": 42.333,
+      "start": 38.747,
+      "end": 38.933,
       "emphasis": false
     },
     {
       "text": "Hay",
-      "start": 42.33,
-      "end": 42.5,
+      "start": 38.93,
+      "end": 39.1,
       "emphasis": false
     },
     {
       "text": "un",
-      "start": 42.5,
-      "end": 42.64,
+      "start": 39.1,
+      "end": 39.24,
       "emphasis": false
     },
     {
       "text": "impuesto",
-      "start": 42.64,
-      "end": 43.08,
+      "start": 39.24,
+      "end": 39.68,
       "emphasis": true
     },
     {
       "text": "que",
-      "start": 43.08,
-      "end": 43.26,
+      "start": 39.68,
+      "end": 39.86,
       "emphasis": false
     },
     {
       "text": "no",
-      "start": 43.26,
-      "end": 43.44,
+      "start": 39.86,
+      "end": 40.04,
       "emphasis": false
     },
     {
       "text": "ves",
-      "start": 43.44,
-      "end": 43.767,
+      "start": 40.04,
+      "end": 40.367,
       "emphasis": true
     },
     {
       "text": "Sigue",
-      "start": 43.85,
-      "end": 44,
+      "start": 40.38,
+      "end": 40.518,
       "emphasis": false
     },
     {
       "text": "a",
-      "start": 44.041,
-      "end": 44.398,
+      "start": 40.518,
+      "end": 40.835,
       "emphasis": false
     },
     {
       "text": "Vocare",
-      "start": 44.398,
-      "end": 44.756,
+      "start": 40.835,
+      "end": 41.153,
       "emphasis": false
     },
     {
       "text": "Iuris",
-      "start": 44.756,
-      "end": 45.113,
+      "start": 41.153,
+      "end": 41.47,
       "emphasis": false
     },
     {
       "text": "y",
-      "start": 45.113,
-      "end": 45.273,
+      "start": 41.47,
+      "end": 41.63,
       "emphasis": false
     },
     {
       "text": "guarda",
-      "start": 45.273,
-      "end": 45.673,
+      "start": 41.63,
+      "end": 42.03,
       "emphasis": false
     },
     {
       "text": "este",
-      "start": 45.673,
-      "end": 45.893,
+      "start": 42.03,
+      "end": 42.25,
       "emphasis": false
     },
     {
       "text": "video",
-      "start": 45.893,
-      "end": 46.3,
+      "start": 42.25,
+      "end": 42.667,
       "emphasis": false
     },
     {
       "text": "No",
-      "start": 46.283,
-      "end": 46.413,
+      "start": 42.65,
+      "end": 42.78,
       "emphasis": false
     },
     {
       "text": "sabes",
-      "start": 46.413,
-      "end": 46.613,
+      "start": 42.78,
+      "end": 42.98,
       "emphasis": false
     },
     {
       "text": "cuándo",
-      "start": 46.613,
-      "end": 47.033,
+      "start": 42.98,
+      "end": 43.4,
       "emphasis": false
     },
     {
       "text": "podrás",
-      "start": 47.033,
-      "end": 47.333,
+      "start": 43.4,
+      "end": 43.7,
       "emphasis": false
     },
     {
       "text": "necesitarlo",
-      "start": 47.333,
-      "end": 48,
+      "start": 43.7,
+      "end": 44.367,
       "emphasis": false
     }
   ],
@@ -1303,7 +1180,7 @@
       "x": 0.68,
       "y": 0.62,
       "start": 0,
-      "end": 2.337,
+      "end": 2.24,
       "note": "hook: comprar una cerveza"
     },
     {
@@ -1312,8 +1189,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 2.367,
-      "end": 4.04,
+      "start": 2.27,
+      "end": 3.573,
       "note": "«o alguien compra cigarros»"
     },
     {
@@ -1322,8 +1199,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 4.07,
-      "end": 5.5,
+      "start": 3.603,
+      "end": 5.033,
       "note": "«un impuesto extra»"
     },
     {
@@ -1335,8 +1212,8 @@
       "rotate": -4,
       "label": "Ticket",
       "credit": "«Close-up of the receipts spooling out» — ben_osteen (CC BY 2.0)",
-      "start": 5.53,
-      "end": 7.17,
+      "start": 5.063,
+      "end": 6.517,
       "note": "objeto: el ticket (sin fondo)"
     },
     {
@@ -1347,15 +1224,15 @@
       "color": "yellow",
       "x": 0.5,
       "y": 0.66,
-      "start": 7.2,
-      "end": 9.203,
+      "start": 6.547,
+      "end": 8.403,
       "note": "normativa: nombre del impuesto (verificar cita)"
     },
     {
       "type": "flash",
       "opacity": 0.7,
-      "start": 9.213,
-      "end": 9.393,
+      "start": 8.413,
+      "end": 8.593,
       "note": "ruptura de patrón"
     },
     {
@@ -1364,8 +1241,8 @@
       "tone": "deny",
       "x": 0.5,
       "y": 0.6,
-      "start": 9.233,
-      "end": 10.98,
+      "start": 8.433,
+      "end": 10.18,
       "note": "desmentido"
     },
     {
@@ -1380,8 +1257,8 @@
       },
       "x": 0.5,
       "y": 0.64,
-      "start": 11.01,
-      "end": 12.403,
+      "start": 10.21,
+      "end": 11.603,
       "note": "«son dos impuestos distintos»"
     },
     {
@@ -1390,16 +1267,9 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 12.433,
-      "end": 14.743,
+      "start": 11.633,
+      "end": 14.01,
       "note": "IGV: casi todo lo que compras"
-    },
-    {
-      "type": "flash",
-      "opacity": 0.7,
-      "start": 14.753,
-      "end": 14.933,
-      "note": "ruptura de patrón"
     },
     {
       "type": "sticker",
@@ -1407,8 +1277,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 14.773,
-      "end": 18.627,
+      "start": 14.04,
+      "end": 15.4,
       "note": "ISC: productos específicos"
     },
     {
@@ -1422,8 +1292,8 @@
       "stepFrames": 5,
       "x": 0.5,
       "y": 0.6,
-      "start": 18.657,
-      "end": 19.77,
+      "start": 15.43,
+      "end": 16.447,
       "note": "ruptura: el concepto clave"
     },
     {
@@ -1432,8 +1302,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 19.8,
-      "end": 20.393,
+      "start": 16.477,
+      "end": 17.06,
       "note": "producto gravado: alcohol"
     },
     {
@@ -1442,8 +1312,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 20.423,
-      "end": 21.07,
+      "start": 17.09,
+      "end": 17.683,
       "note": "producto gravado: tabaco"
     },
     {
@@ -1452,8 +1322,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 21.1,
-      "end": 22.033,
+      "start": 17.713,
+      "end": 18.453,
       "note": "producto gravado: combustibles"
     },
     {
@@ -1462,8 +1332,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 22.063,
-      "end": 22.82,
+      "start": 18.483,
+      "end": 19.653,
       "note": "producto gravado: Algunos"
     },
     {
@@ -1472,8 +1342,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 22.85,
-      "end": 23.74,
+      "start": 19.683,
+      "end": 20.573,
       "note": "producto gravado: Y"
     },
     {
@@ -1482,8 +1352,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 23.77,
-      "end": 24.403,
+      "start": 20.603,
+      "end": 21.203,
       "note": "pregunta (loop abierto)"
     },
     {
@@ -1492,8 +1362,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 24.433,
-      "end": 24.96,
+      "start": 21.233,
+      "end": 21.76,
       "note": "dos razones"
     },
     {
@@ -1502,8 +1372,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 24.99,
-      "end": 25.957,
+      "start": 21.79,
+      "end": 22.783,
       "note": "razón 1: recaudación"
     },
     {
@@ -1512,8 +1382,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 25.987,
-      "end": 27.637,
+      "start": 22.813,
+      "end": 24.07,
       "note": "razón 2: desincentivar el consumo"
     },
     {
@@ -1522,8 +1392,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 27.667,
-      "end": 28.863,
+      "start": 24.1,
+      "end": 25.63,
       "note": "daña la salud"
     },
     {
@@ -1532,8 +1402,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 28.893,
-      "end": 30.27,
+      "start": 25.66,
+      "end": 26.937,
       "note": "daña el medio ambiente"
     },
     {
@@ -1542,16 +1412,9 @@
       "cursor": true,
       "x": 0.5,
       "y": 0.64,
-      "start": 30.3,
-      "end": 31.744,
+      "start": 26.967,
+      "end": 28.411,
       "note": "concepto"
-    },
-    {
-      "type": "flash",
-      "opacity": 0.7,
-      "start": 31.754,
-      "end": 31.934,
-      "note": "ruptura de patrón"
     },
     {
       "type": "sticker",
@@ -1559,8 +1422,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 31.774,
-      "end": 32.487,
+      "start": 28.441,
+      "end": 29.163,
       "note": "«pero ojo» (giro)"
     },
     {
@@ -1570,8 +1433,8 @@
       "color": "white",
       "x": 0.5,
       "y": 0.66,
-      "start": 32.517,
-      "end": 34.097,
+      "start": 29.193,
+      "end": 30.623,
       "note": "normativa: sujetos del ISC (verificar)"
     },
     {
@@ -1580,8 +1443,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 34.127,
-      "end": 34.737,
+      "start": 30.653,
+      "end": 31.303,
       "note": "productor"
     },
     {
@@ -1590,8 +1453,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 34.767,
-      "end": 35.123,
+      "start": 31.333,
+      "end": 31.93,
       "note": "importador"
     },
     {
@@ -1600,15 +1463,15 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 35.153,
-      "end": 37.097,
+      "start": 31.96,
+      "end": 33.673,
       "note": "«adivina quién lo está asumiendo»"
     },
     {
       "type": "flash",
       "opacity": 0.7,
-      "start": 37.107,
-      "end": 37.287,
+      "start": 33.683,
+      "end": 33.863,
       "note": "ruptura de patrón"
     },
     {
@@ -1621,8 +1484,8 @@
       "stepFrames": 3,
       "x": 0.5,
       "y": 0.58,
-      "start": 37.127,
-      "end": 37.497,
+      "start": 33.703,
+      "end": 34.063,
       "note": "revelación"
     },
     {
@@ -1631,8 +1494,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 37.527,
-      "end": 39.04,
+      "start": 34.093,
+      "end": 35.693,
       "note": "va incluido en el precio final"
     },
     {
@@ -1641,8 +1504,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 39.07,
-      "end": 41.314,
+      "start": 35.723,
+      "end": 38.048,
       "note": "cierre: vuelve a la chela del hook"
     },
     {
@@ -1651,8 +1514,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 41.344,
-      "end": 42.3,
+      "start": 38.078,
+      "end": 38.9,
       "note": "«ya sabes que ahí…»"
     },
     {
@@ -1661,8 +1524,8 @@
       "cursor": false,
       "x": 0.5,
       "y": 0.64,
-      "start": 42.33,
-      "end": 43.8,
+      "start": 38.93,
+      "end": 40.33,
       "note": "cierre: la idea central"
     }
   ],
