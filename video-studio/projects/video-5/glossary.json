@@ -1,21 +1,127 @@
 {
  "_info": "Correcciones de video-5 (impuesto selectivo al consumo). Verificar con el equipo.",
  "corrections": [
-  {"match": "esta estagando", "replace": ["estás", "pagando"]},
-  {"match": "graba", "replace": ["grava"]},
-  {"match": "icc", "replace": ["ISC"]},
-  {"match": "ics", "replace": ["ISC"]},
-  {"match": "compostibles", "replace": ["combustibles"]},
-  {"match": "recohacion", "replace": ["Recaudación"]},
-  {"match": "recabacion", "replace": ["Recaudación"]},
-  {"match": "banen", "replace": ["dañan"]},
-  {"match": "bano", "replace": ["daño"]},
-  {"match": "esa funciona", "replace": ["esa", "función"]},
-  {"match": "productor importador", "replace": ["productor", "o", "importador"]},
-  {"match": "preso final", "replace": ["precio", "final"]},
-  {"match": "que ves el precio", "replace": ["que", "veas", "el", "precio"]},
-  {"match": "que hay", "replace": ["que", "ahí"]},
-  {"match": "si aboca a iuris", "replace": ["Sigue", "a", "Vocare", "Iuris"]},
-  {"match": "juegos de azar", "replace": ["juegos", "de", "azar"]}
+  {
+   "match": "esta estagando",
+   "replace": [
+    "estás",
+    "pagando"
+   ]
+  },
+  {
+   "match": "graba",
+   "replace": [
+    "grava"
+   ]
+  },
+  {
+   "match": "icc",
+   "replace": [
+    "ISC"
+   ]
+  },
+  {
+   "match": "ics",
+   "replace": [
+    "ISC"
+   ]
+  },
+  {
+   "match": "compostibles",
+   "replace": [
+    "combustibles"
+   ]
+  },
+  {
+   "match": "recohacion",
+   "replace": [
+    "Recaudación"
+   ]
+  },
+  {
+   "match": "recabacion",
+   "replace": [
+    "Recaudación"
+   ]
+  },
+  {
+   "match": "banen",
+   "replace": [
+    "dañan"
+   ]
+  },
+  {
+   "match": "bano",
+   "replace": [
+    "daño"
+   ]
+  },
+  {
+   "match": "esa funciona",
+   "replace": [
+    "esa",
+    "función"
+   ]
+  },
+  {
+   "match": "productor importador",
+   "replace": [
+    "productor",
+    "o",
+    "importador"
+   ]
+  },
+  {
+   "match": "preso final",
+   "replace": [
+    "precio",
+    "final"
+   ]
+  },
+  {
+   "match": "que ves el precio",
+   "replace": [
+    "que",
+    "veas",
+    "el",
+    "precio"
+   ]
+  },
+  {
+   "match": "que hay",
+   "replace": [
+    "que",
+    "ahí"
+   ]
+  },
+  {
+   "match": "si aboca a iuris",
+   "replace": [
+    "Sigue",
+    "a",
+    "Vocare",
+    "Iuris"
+   ]
+  },
+  {
+   "match": "juegos de azar",
+   "replace": [
+    "juegos",
+    "de",
+    "azar"
+   ]
+  },
+  {
+   "match": "sumiendo",
+   "replace": [
+    "asumiendo"
+   ]
+  },
+  {
+   "match": "igb",
+   "replace": [
+    "IGV"
+   ]
+  }
  ]
 }

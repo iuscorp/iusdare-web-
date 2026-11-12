@@ -52,8 +52,11 @@ const photo = (name, t, dur, {x = 0.5, y = 0.64, w = 500, h = 380, rotate = -3, 
   } else if (emoji) sticker(emoji, t, dur, x, 0.62, `${note} (sin foto: emoji)`);
 };
 
+// Subtítulos: palabras duplicadas por el margen de transcripción (p. ej. «combustibles combustibles»)
+e.captions = e.captions.filter((c, i, a) => !(i > 0 && norm(c.text) === norm(a[i - 1].text) && norm(c.text).length > 3));
 // Subtítulos: correcciones puntuales
 for (const c of e.captions) {
+  if (norm(c.text) === 'sumiendo') c.text = 'asumiendo';
   if (c.text === 'IGB') c.text = 'IGV';
   if (c.text === 'Sabías') c.text = '¿Sabías';
 }
@@ -86,9 +89,8 @@ add({type: 'comparison', left: {label: 'IGV', emoji: '💳'}, right: {label: 'IS
 const igv = at('El', at('distintos').start);
 sticker('💳', igv.start, at('Pero').start - igv.start - 0.03, 0.68, 0.62, 'IGV: casi todo lo que compras');
 const pero1 = at('Pero');
-sticker('🎯', pero1.start, at('productos', at('solo').start).start - pero1.start - 0.08, 0.32, 0.62, 'ISC: productos específicos');
-const solo = at('solo');
-add({type: 'kineticWord', syllables: ['PRODUCTOS', 'ESPECÍFICOS'], layout: 'rows', uppercase: true, stepFrames: 5, x: 0.5, y: 0.6, start: at('productos', solo.start).start - 0.05, end: at('alcohol').start - 0.03}, 'ruptura: el concepto clave');
+sticker('🎯', pero1.start, at('productos', pero1.start).start - pero1.start - 0.05, 0.32, 0.62, 'ISC: productos específicos');
+add({type: 'kineticWord', syllables: ['PRODUCTOS', 'ESPECÍFICOS'], layout: 'rows', uppercase: true, stepFrames: 5, x: 0.5, y: 0.6, start: at('productos', pero1.start).start - 0.03, end: at('alcohol').start - 0.03}, 'ruptura: el concepto clave');
 
 // ── 4. Ráfaga de productos (un emoji por palabra)
 const prods = [['alcohol', '🍷', 0.32], ['tabaco', '🚬', 0.68], ['combustibles', '⛽', 0.32], ['Algunos', '🚗', 0.68], ['Y', '🎰', 0.32]];
@@ -129,11 +131,14 @@ const ya = at('Ya');
 sticker('🙈', ya.start, at('Hay').start - ya.start - 0.03, 0.68, 0.62, '«ya sabes que ahí…»');
 add({type: 'selectionLabel', text: 'Un impuesto que no ves', cursor: false, x: 0.5, y: 0.64, start: at('Hay').start, end: at('Sigue').start - 0.05}, 'cierre: la idea central');
 
-// ── Encuadres: cada corte con golpe de zoom; crash en los choques; CTA en base
+// ── Encuadres: pocos cambios visibles (pedido del equipo: «dinámico pero sin que se noten tantos cortes»).
+//    El encuadre sólo cambia cada ~3 planos o en un momento de choque; entre medias se mantiene igual
+//    y la cámara empuja suave y continuo (slowPush), así los cortes de limpieza pasan desapercibidos.
 const cta = at('Sigue');
-const pattern = ['subtleIn', 'base', 'punchIn', 'subtleIn', 'base', 'subtleIn'];
 const hits = [noIgv.start, pero1.start, tu.start];
-let k = 0;
+const looks = ['subtleIn', 'base', 'subtleIn', 'punchIn'];
+let look = 0;
+let sinceChange = 0;
 let outT = 0;
 for (const s of e.segments) {
   const t = outT;
@@ -143,12 +148,20 @@ for (const s of e.segments) {
     s.move = 'none';
     continue;
   }
-  s.framing = pattern[k++ % pattern.length];
-  s.move = 'snap';
-  if (hits.some((x) => x >= t - 0.05 && x < outT)) {
+  const hit = hits.some((x) => x >= t - 0.05 && x < outT);
+  if (hit) {
     s.framing = 'punchIn';
     s.move = 'crash';
+    sinceChange = 0;
+    continue;
   }
+  if (sinceChange >= 3) {
+    look = (look + 1) % looks.length;
+    sinceChange = 0;
+  }
+  s.framing = looks[look];
+  s.move = 'slowPush';
+  sinceChange++;
 }
 e.segments[0].framing = 'subtleIn';
 e.segments[0].move = 'settle';
@@ -164,7 +177,7 @@ overlays.forEach((o, i) => {
   if (o.end > cta.start - 0.05) o.end = r(Math.max(o.start + 0.35, cta.start - 0.05));
 });
 // destellos de ruptura de patrón (no recortan recursos)
-for (const t of [noIgv.start, pero1.start, ojo.start, tu.start]) overlays.push({type: 'flash', opacity: 0.7, start: r(t - 0.02), end: r(t + 0.16), note: 'ruptura de patrón'});
+for (const t of [noIgv.start, tu.start]) overlays.push({type: 'flash', opacity: 0.7, start: r(t - 0.02), end: r(t + 0.16), note: 'ruptura de patrón'});
 overlays.sort((a, b) => a.start - b.start);
 e.overlays = overlays;
 e.sfx = []; // sin SFX: el equipo los pone en su edición

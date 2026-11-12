@@ -1,137 +1,164 @@
 [
  {
   "in": 17.9,
-  "out": 20.7,
-  "note": "¿Sabías que cada vez que compras una cerveza"
+  "out": 20.4,
+  "note": "¿Sabías que cada vez que compras una cerveza",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
-  "in": 24.5,
-  "out": 26.25,
-  "note": "o alguien compra cigarros"
+  "in": 24.95,
+  "out": 26.75,
+  "note": "o alguien compra cigarros",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 29.8,
-  "out": 33.1,
-  "note": "estás pagando un impuesto extra que ni siquiera aparece en el ticket?"
+  "out": 32.8,
+  "note": "estás pagando un impuesto extra que ni siquiera aparece en el ticket?",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 35,
   "out": 37.35,
-  "note": "Se llama impuesto selectivo al consumo"
+  "note": "Se llama impuesto selectivo al consumo",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 40.05,
   "out": 42.1,
-  "note": "No, no cuenta como IGV"
+  "note": "No, no cuenta como IGV",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 46.45,
   "out": 48.2,
-  "note": "son dos impuestos distintos"
+  "note": "son dos impuestos distintos",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 50.9,
-  "out": 54.05,
-  "note": "El IGV grava casi todo lo que compras"
+  "out": 53.4,
+  "note": "El IGV grava casi todo lo que compras",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 57.45,
-  "out": 60.5,
-  "note": "pero el ISC grava productos específicos"
- },
- {
-  "in": 69.85,
-  "out": 72.1,
-  "note": "El ISC solo grava productos específicos"
+  "out": 59.95,
+  "note": "pero el ISC grava productos específicos",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 74.1,
-  "out": 75.95,
-  "note": "alcohol, tabaco"
+  "out": 75.6,
+  "note": "alcohol, tabaco",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
-  "in": 77,
-  "out": 79.1,
-  "note": "combustibles, algunos vehículos"
+  "in": 76.75,
+  "out": 77.85,
+  "note": "combustibles",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
-  "in": 80.2,
+  "in": 78.75,
+  "out": 79.95,
+  "note": "algunos vehículos",
+  "speaker": "Piero (labios + tono de voz)"
+ },
+ {
+  "in": 81.3,
   "out": 82.35,
-  "note": "y hasta juegos de azar"
+  "note": "y hasta juegos de azar",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 82.9,
   "out": 83.42,
-  "note": "¿Por qué?"
+  "note": "¿Por qué?",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 84.36,
   "out": 85.3,
-  "note": "Por dos razones"
+  "note": "Por dos razones",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 86.78,
   "out": 88.1,
-  "note": "recaudación del Estado"
+  "note": "recaudación del Estado",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
-  "in": 90.9,
-  "out": 93.1,
-  "note": "y desincentivar su consumo"
+  "in": 91.55,
+  "out": 93,
+  "note": "y desincentivar su consumo",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 100.55,
   "out": 104.15,
-  "note": "porque dañan tu salud o hacen daño al medio ambiente"
+  "note": "porque dañan tu salud o hacen daño al medio ambiente",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 107.85,
   "out": 109.95,
-  "note": "esa función es regulatoria"
+  "note": "esa función es regulatoria",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 119.1,
   "out": 119.95,
-  "note": "Pero ojo"
+  "note": "Pero ojo",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
-  "in": 126.25,
-  "out": 129,
-  "note": "legalmente lo debería pagar el productor o importador"
+  "in": 134.05,
+  "out": 137.1,
+  "note": "Legalmente lo debería pagar el productor o importador",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
-  "in": 138.95,
-  "out": 141.45,
-  "note": "pero adivina quién lo está asumiendo"
+  "in": 139.55,
+  "out": 141.3,
+  "note": "pero adivina quién lo está asumiendo",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 146.95,
   "out": 149.3,
-  "note": "Tú, porque va incluido en el precio final"
+  "note": "Tú, porque va incluido en el precio final",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 159.3,
   "out": 163.3,
-  "note": "Así que la próxima vez que veas el precio de una chela"
+  "note": "Así que la próxima vez que veas el precio de una chela",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 164.25,
-  "out": 165.85,
-  "note": "ya sabes que ahí"
+  "out": 165.45,
+  "note": "ya sabes que ahí",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 167.75,
   "out": 169.62,
-  "note": "hay un impuesto que no ves"
+  "note": "hay un impuesto que no ves",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 171.55,
   "out": 174.25,
-  "note": "Sigue a Vocare Iuris y guarda este video"
+  "note": "Sigue a Vocare Iuris y guarda este video",
+  "speaker": "Piero (labios + tono de voz)"
  },
  {
   "in": 175.75,
   "out": 177.45,
-  "note": "No sabes cuándo podrás necesitarlo"
+  "note": "No sabes cuándo podrás necesitarlo",
+  "speaker": "Piero (labios + tono de voz)"
  }
 ]

@@ -4,7 +4,7 @@
   "createdAt": "2026-11-12T04:35:09.570Z",
   "raw": "footage/raw/video-5/raw.MOV",
   "proxy": "footage/video-5/source.mp4",
-  "status": "preview-renderizado",
+  "status": "borrador-edl",
   "workflow": [
     "ANÁLISIS",
     "ESTRUCTURA NARRATIVA",
@@ -24,5 +24,9 @@
     "file": "../previews/video-5/video-5-preview.mp4",
     "at": "2026-11-12T12:11:28.354Z",
     "preview": true
+  },
+  "editing": {
+    "minPause": 0.4,
+    "_nota": "sólo se cortan pausas internas > 0.4 s: menos cortes visibles (pedido del equipo)"
   }
 }

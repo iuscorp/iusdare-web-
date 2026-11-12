@@ -97,7 +97,7 @@ const plan = cleanup(source, {silences: silences(proxy, -40, 0.3), deepSilences:
   const rngFile = path.join(P.analysisDir, 'ranges.json');
   const tightFile = path.join(P.analysisDir, 'tighten.json');
   writeJson(rngFile, plan.ranges.map((r) => [r.in, r.out]));
-  run(python(), [path.join(STUDIO_ROOT, 'scripts', 'tighten.py'), proxy, rngFile, tightFile, '--min-pause', String(args['min-pause'] ?? 0.14)]);
+  run(python(), [path.join(STUDIO_ROOT, 'scripts', 'tighten.py'), proxy, rngFile, tightFile, '--min-pause', String(args['min-pause'] ?? readJson(P.meta).editing?.minPause ?? 0.14)]);
   const {tightenRanges} = await import('./lib/edit.mjs');
   const res = tightenRanges(plan.ranges, readJson(tightFile));
   plan.ranges = res.ranges;
