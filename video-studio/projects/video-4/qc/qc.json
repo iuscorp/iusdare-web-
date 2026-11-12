@@ -10,7 +10,7 @@
       "name": "Bitrate de video",
       "ok": true,
       "level": "ok",
-      "detail": "7.7 Mbps"
+      "detail": "7.8 Mbps"
     },
     {
       "name": "Espacio de color",
@@ -64,25 +64,30 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 7 ms, p90 |107| ms, 156/172 palabras alineadas"
+      "detail": "mediana 0 ms, p90 |53| ms, 157/172 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
       "ok": false,
       "level": "warn",
-      "detail": "16 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "detail": "15 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 156,
+    "matched": 157,
     "total": 172,
-    "medianOffset": 0.006999999999997897,
-    "p90AbsOffset": 0.10699999999999932,
+    "medianOffset": 0,
+    "p90AbsOffset": 0.053000000000000824,
     "mismatches": [
       {
         "at": 3.233,
         "caption": "Eso",
-        "heard": "No sé si es falso,"
+        "heard": "Ese es falso,"
+      },
+      {
+        "at": 4.5,
+        "caption": "del",
+        "heard": "reglamento de colegio,"
       },
       {
         "at": 9.79,
@@ -107,37 +112,27 @@
       {
         "at": 24.953,
         "caption": "prohíben",
-        "heard": "que si te pude entrar"
+        "heard": "que si te prueben entrar"
       },
       {
         "at": 29.567,
         "caption": "está",
-        "heard": "es que están en arreglamento."
+        "heard": "es que están de reglamento."
+      },
+      {
+        "at": 29.727,
+        "caption": "en",
+        "heard": "que están de reglamento."
       },
       {
         "at": 29.847,
         "caption": "el",
-        "heard": "que están en arreglamento."
-      },
-      {
-        "at": 29.907,
-        "caption": "reglamento",
-        "heard": "que están en arreglamento."
-      },
-      {
-        "at": 31.907,
-        "caption": "al",
-        "heard": "tu derecho libre de"
+        "heard": "que están de reglamento."
       },
       {
         "at": 34.05,
         "caption": "Indecopi",
-        "heard": "Y sí, Inocopi"
-      },
-      {
-        "at": 38.367,
-        "caption": "tus",
-        "heard": "vulneren tu derecho."
+        "heard": "Y sí, Inecopi"
       },
       {
         "at": 39.96,
@@ -152,18 +147,18 @@
       {
         "at": 42.16,
         "caption": "al",
-        "heard": "Constitución a Reglamento."
+        "heard": "Constitución arreglamento."
       },
       {
-        "at": 43.44,
-        "caption": "sigue",
-        "heard": "Así que siga a vocare"
+        "at": 42.6,
+        "caption": "reglamento",
+        "heard": "arreglamento."
       }
     ]
   },
   "loudness": {
     "integratedLufs": -14.1,
-    "lra": 3.5,
+    "lra": 3.7,
     "truePeakDb": -1.5
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/video-4/video-4-preview.mp4"
