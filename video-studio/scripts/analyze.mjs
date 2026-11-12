@@ -101,6 +101,25 @@ const plan = cleanup(source, {silences: silences(proxy, -40, 0.3), deepSilences:
   const {tightenRanges} = await import('./lib/edit.mjs');
   const res = tightenRanges(plan.ranges, readJson(tightFile));
   plan.ranges = res.ranges;
+  // bordes en silencio real: no cortar sílabas finales/iniciales (sin invadir otra voz)
+  const edgeIn = path.join(P.analysisDir, 'ranges-tight.json');
+  const edgeOut = path.join(P.analysisDir, 'ranges-edges.json');
+  writeJson(edgeIn, plan.ranges.map((r) => [r.in, r.out]));
+  const er = run(python(), [path.join(STUDIO_ROOT, 'scripts', 'edges.py'), proxy, edgeIn, edgeOut]);
+  readJson(edgeOut).forEach(([i, o], k) => {
+    plan.ranges[k].in = i;
+    plan.ranges[k].out = o;
+  });
+  // selects con forceOut: el editor fija a mano el final de la toma (sílaba final tras una pausa interna)
+  if (selects) {
+    const lastOf = new Map();
+    plan.ranges.forEach((r, k) => {
+      const sel = r.words?.[0]?.sel;
+      if (sel !== undefined) lastOf.set(sel, k);
+    });
+    for (const [sel, k] of lastOf) if (selects[sel]?.forceOut) plan.ranges[k].out = selects[sel].forceOut; // corte exacto
+  }
+  console.log('  ' + er.stdout.trim());
   plan.stats.outputDuration = Math.round(plan.ranges.reduce((a, r) => a + r.out - r.in, 0) * 1000) / 1000;
   plan.stats.acousticAirRemoved = res.saved;
   console.log(`  ajuste acústico: −${res.saved.toFixed(2)} s de aire/pausas`);

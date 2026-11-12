@@ -27,7 +27,8 @@
   "in": 40.05,
   "out": 42.1,
   "note": "No, no cuenta como IGV",
-  "speaker": "Piero (labios + tono de voz)"
+  "speaker": "Piero (labios + tono de voz)",
+  "forceOut": 42.1
  },
  {
   "in": 46.45,
@@ -42,9 +43,9 @@
   "speaker": "Piero (labios + tono de voz)"
  },
  {
-  "in": 57.45,
-  "out": 59.95,
-  "note": "pero el ISC grava productos específicos",
+  "in": 69.9,
+  "out": 72.25,
+  "note": "El ISC solo grava productos específicos",
   "speaker": "Piero (labios + tono de voz)"
  },
  {
@@ -133,9 +134,10 @@
  },
  {
   "in": 159.3,
-  "out": 163.3,
+  "out": 163.45,
   "note": "Así que la próxima vez que veas el precio de una chela",
-  "speaker": "Piero (labios + tono de voz)"
+  "speaker": "Piero (labios + tono de voz)",
+  "forceOut": 163.45
  },
  {
   "in": 164.25,

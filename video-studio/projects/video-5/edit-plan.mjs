@@ -88,7 +88,7 @@ add({type: 'comparison', left: {label: 'IGV', emoji: '💳'}, right: {label: 'IS
 // ── 3. IGV vs ISC
 const igv = at('El', at('distintos').start);
 sticker('💳', igv.start, at('Pero').start - igv.start - 0.03, 0.68, 0.62, 'IGV: casi todo lo que compras');
-const pero1 = at('Pero');
+const pero1 = e.captions[e.captions.findIndex((c) => norm(c.text) === 'isc') - 1]; // «El» de «El ISC solo grava…»
 sticker('🎯', pero1.start, at('productos', pero1.start).start - pero1.start - 0.05, 0.32, 0.62, 'ISC: productos específicos');
 add({type: 'kineticWord', syllables: ['PRODUCTOS', 'ESPECÍFICOS'], layout: 'rows', uppercase: true, stepFrames: 5, x: 0.5, y: 0.6, start: at('productos', pero1.start).start - 0.03, end: at('alcohol').start - 0.03}, 'ruptura: el concepto clave');
 
