@@ -19,6 +19,12 @@ const slug = args._[0];
 const P = projectPaths(slug);
 const meta = readJson(P.meta);
 const edl = readJson(P.edl);
+// nunca dejar un video anterior en su lugar: se borra ANTES de validar, así si algo falla no queda nada que enviar por error
+{
+  const pv = Boolean(args.preview);
+  const dir = pv ? P.previewsDir : P.exportsDir;
+  fs.rmSync(path.join(dir, `${slug}${pv ? '-preview' : ''}.mp4`), {force: true});
+}
 if (ensurePersonMatte(slug, edl)) writeJson(P.edl, edl);
 edlSchemaCheck(edl);
 const missing = ensureStickers(emojisInEdl(edl));
@@ -33,8 +39,6 @@ if (!preview && !meta.approval?.approved) {
 const outDir = preview ? P.previewsDir : P.exportsDir;
 const raw = path.join(outDir, `${slug}${preview ? '-preview' : ''}.raw.mp4`);
 const final = path.join(outDir, `${slug}${preview ? '-preview' : ''}.mp4`);
-// nunca dejar un video anterior en su lugar: si este render falla, no queda nada que enviar por error
-fs.rmSync(final, {force: true});
 let last = -1;
 console.log(`→ Renderizando ${preview ? 'PREVIEW' : 'FINAL'}…`);
 await renderVideo(edl, raw, {
