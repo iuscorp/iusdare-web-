@@ -437,6 +437,8 @@ export async function handlePaymentSucceeded(p: PaymentConfirmation): Promise<Fi
   });
 
   if (booking.status === "CONFIRMED") return { status: "CONFIRMED" };
+  // Reserva ya reprogramada: el pago vive en la reserva vigente; nunca resucitar la anterior.
+  if (booking.status === "RESCHEDULED") return { status: "RESCHEDULED" };
   if (booking.status === "CANCELLED") {
     await refundBookingPayments(booking.id, "Reserva cancelada antes de confirmar el pago");
     return { status: "CANCELLED" };
