@@ -1,7 +1,7 @@
 {
   "name": "revoredo-abogados-video-studio",
   "version": "1.0.0",
-  "description": "Revoredo Abogados Video Studio — sistema de producción audiovisual (Remotion + React + TypeScript + FFmpeg)",
+  "description": "Revoredo Abogados Video Studio \u2014 sistema de producci\u00f3n audiovisual (Remotion + React + TypeScript + FFmpeg)",
   "repository": {},
   "license": "UNLICENSED",
   "engines": {
@@ -46,7 +46,8 @@
     "studio:showcase": "remotion render LibraryShowcase previews/_library/library-showcase.mp4 --scale=0.5",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc && tsc -p tsconfig.scripts.json"
+    "lint": "eslint src && tsc && tsc -p tsconfig.scripts.json",
+    "studio:snap": "python3 -I scripts/snap_cuts.py"
   },
   "allowScripts": {
     "esbuild": false

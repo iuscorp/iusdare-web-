@@ -25,8 +25,8 @@
   "segments": [
     {
       "id": "S01",
-      "in": 0.0,
-      "out": 3.52,
+      "in": 0,
+      "out": 3.92,
       "role": "hook",
       "purpose": "Pregunta que define el tema y al público (startups)",
       "framing": {
@@ -44,8 +44,8 @@
     },
     {
       "id": "S02",
-      "in": 38.34,
-      "out": 46.98,
+      "in": 38.28,
+      "out": 47.07,
       "role": "context",
       "purpose": "Por qué importa hoy: herramienta clave en startups, corporate y venture capital",
       "framing": {
@@ -64,8 +64,8 @@
     },
     {
       "id": "S03",
-      "in": 3.94,
-      "out": 10.32,
+      "in": 3.9,
+      "out": 10.49,
       "role": "development",
       "purpose": "Definición: adquisición progresiva de participación",
       "framing": {
@@ -83,8 +83,8 @@
     },
     {
       "id": "S04",
-      "in": 10.46,
-      "out": 14.96,
+      "in": 10.49,
+      "out": 14.91,
       "role": "development",
       "purpose": "Qué se adquiere: acciones o beneficios en un periodo",
       "framing": {
@@ -101,7 +101,7 @@
     },
     {
       "id": "S05",
-      "in": 16.42,
+      "in": 16.31,
       "out": 19.58,
       "role": "reveal",
       "purpose": "La clave: no se obtiene de inmediato",
@@ -120,8 +120,8 @@
     },
     {
       "id": "S06",
-      "in": 19.6,
-      "out": 27.08,
+      "in": 19.59,
+      "out": 27.06,
       "role": "resolution",
       "purpose": "Condiciones: permanencia, desempeño, hitos",
       "framing": {
@@ -139,8 +139,8 @@
     },
     {
       "id": "S07",
-      "in": 27.08,
-      "out": 31.34,
+      "in": 27.06,
+      "out": 31.71,
       "role": "development",
       "purpose": "Dónde se usa: startups",
       "framing": {
@@ -158,10 +158,10 @@
     },
     {
       "id": "S08",
-      "in": 31.7,
-      "out": 35.04,
+      "in": 31.68,
+      "out": 38.34,
       "role": "development",
-      "purpose": "Empresas en crecimiento y founders",
+      "purpose": "Empresas en crecimiento, founders y programas de incentivos",
       "framing": {
         "preset": "wide",
         "focusY": 0.36,
@@ -171,31 +171,13 @@
       "nativeCodes": [
         "visual-stimulus"
       ],
-      "rationale": "B-roll de socios reunidos en “relaciones entre founders”.",
-      "transitionIn": "cut"
-    },
-    {
-      "id": "S09",
-      "in": 35.56,
-      "out": 38.14,
-      "role": "development",
-      "purpose": "Programas de incentivos",
-      "framing": {
-        "preset": "wide",
-        "focusY": 0.36,
-        "zoomFrom": 1,
-        "zoomTo": 1
-      },
-      "nativeCodes": [
-        "match-cut"
-      ],
-      "rationale": "Se elimina “de trabajo” (error de dicción); el B-roll cubre el corte.",
+      "rationale": "Frase completa tal como se dijo (sin micro-cortes); B-roll de socios en “relaciones entre founders”.",
       "transitionIn": "cut"
     },
     {
       "id": "S10",
-      "in": 47.18,
-      "out": 55.56,
+      "in": 47.07,
+      "out": 55.54,
       "role": "cta",
       "purpose": "Qué hace Revoredo: derecho corporativo y estructuración contractual",
       "framing": {
@@ -212,8 +194,8 @@
     },
     {
       "id": "S11",
-      "in": 55.56,
-      "out": 58.68,
+      "in": 55.54,
+      "out": 58.69,
       "role": "cta",
       "purpose": "Prevención de riesgos",
       "framing": {
@@ -227,12 +209,13 @@
         "scale-change"
       ],
       "rationale": "Beneficio concreto para el cliente.",
-      "transitionIn": "cut"
+      "transitionIn": "cut",
+      "lockOut": true
     },
     {
       "id": "S12",
-      "in": 59.0,
-      "out": 61.6,
+      "in": 58.88,
+      "out": 61.7,
       "role": "cta",
       "purpose": "Protección de relaciones societarias",
       "framing": {
@@ -245,12 +228,13 @@
         "scale-change"
       ],
       "rationale": "El cambio de escala disimula el salto del raw; se evitan 5 fotogramas negros del raw (58.70–58.85 s).",
-      "transitionIn": "cut"
+      "transitionIn": "cut",
+      "lockIn": true
     },
     {
       "id": "S13",
-      "in": 61.78,
-      "out": 62.42,
+      "in": 61.7,
+      "out": 62.49,
       "role": "cta",
       "purpose": "¡Escríbenos!",
       "framing": {
@@ -408,7 +392,7 @@
       "layout": "full",
       "phrase": "relaciones entre founders, programa de incentivos…",
       "concept": "Socios fundadores / directivos",
-      "function": "Ilustrar la relación entre socios y cubrir el corte del error de dicción.",
+      "function": "Ilustrar la relación entre socios fundadores y directivos.",
       "description": "Directivos conversando en sala de reuniones",
       "searchQuery": "",
       "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-directivos-reunion-sofa",
