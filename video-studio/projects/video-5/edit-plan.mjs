@@ -57,15 +57,14 @@ for (const c of e.captions) {
   if (c.text === 'IGB') c.text = 'IGV';
   if (c.text === 'Sabías') c.text = '¿Sabías';
 }
-// «Por dos razones»: la transcripción por toma sólo captó «razones»
+// «Por dos razones»: la transcripción por toma sólo captó «razones» → se reparte su tiempo en 3 palabras
 {
   const i = e.captions.findIndex((c) => norm(c.text) === 'razones');
   if (i > 0 && norm(e.captions[i - 1].text) !== 'dos') {
     const c = e.captions[i];
-    const prev = e.captions[i - 1];
-    const a = prev.end ?? prev.start + 0.15;
-    const span = Math.max(0.3, c.start - a);
-    e.captions.splice(i, 0, {...c, text: 'Por', start: r(a), end: r(a + span / 2)}, {...c, text: 'dos', start: r(a + span / 2), end: r(c.start)});
+    const end = c.end ?? c.start + 0.8;
+    const d = (end - c.start) / 3;
+    e.captions.splice(i, 1, {...c, text: 'Por', start: r(c.start), end: r(c.start + d)}, {...c, text: 'dos', start: r(c.start + d), end: r(c.start + 2 * d)}, {...c, text: 'razones', start: r(c.start + 2 * d), end: r(end)});
   }
 }
 
