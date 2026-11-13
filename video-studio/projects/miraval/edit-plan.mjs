@@ -27,6 +27,8 @@ for (const c of e.captions) c.emphasis = ['abogado', 'docente', 'publicidad', 't
 const desde = e.captions.find((c) => norm(c.text) === 'si' && c.who === 'L');
 if (desde) e.captions = e.captions.filter((c) => c.start >= desde.start);
 e.captionScale = 0.7;
+// pedido final del equipo: sin subtítulos
+e.captions = [];
 
 for (const s of e.segments) {
   s.framing = 'base';
