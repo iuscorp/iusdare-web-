@@ -170,6 +170,8 @@ export const edlSchema = z.object({
   headTrack: z
     .object({fps: z.number(), cx: z.array(z.number()), top: z.array(z.number())})
     .optional(),
+  /** escala del subtítulo (1 = tamaño de marca); p. ej. 0.7 en entrevistas */
+  captionScale: z.number().optional(),
   /** varias personas (entrevistas/lives): una pista por persona; caption.who elige cuál seguir */
   headTracks: z
     .object({fps: z.number(), tracks: z.record(z.string(), z.object({cx: z.array(z.number()), top: z.array(z.number())}))})

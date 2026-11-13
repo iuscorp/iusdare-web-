@@ -31,15 +31,16 @@
  },
  {
   "in": 22.62,
-  "out": 27.75,
+  "out": 27.5,
   "who": "L",
-  "note": "¿Y cree que algo de ese gusto por el teatro le ayuda hoy en el ejercicio del derecho?"
+  "note": "¿Y cree que algo de ese gusto por el teatro le ayuda hoy en el ejercicio del derecho?",
+  "forceOut": 27.5
  },
  {
-  "in": 40.4,
-  "out": 45.9,
+  "in": 27.7,
+  "out": 33.15,
   "who": "R",
-  "note": "Me ayuda a poder presentar el caso ante los tribunales."
+  "note": "Me ayuda para presentar los casos que considero que deben ser de conocimiento de la justicia. (primera respuesta)"
  },
  {
   "in": 55.2,

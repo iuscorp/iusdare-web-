@@ -66,7 +66,7 @@ export const VocareEdit: React.FC<Edl> = (edl) => {
         const follow = track && c.y === undefined ? (local: number) => headAnchor(edl, track, starts, segFrames, from + local, fps) : undefined;
         return (
           <Sequence key={i} from={from} durationInFrames={dur} layout="none" name={`“${c.text}”`}>
-            <WordCaption text={c.text} emphasis={c.emphasis} y={y} follow={follow} durationInFrames={dur} />
+            <WordCaption text={c.text} emphasis={c.emphasis} y={y} follow={follow} durationInFrames={dur} size={edl.captionScale ?? 1} />
           </Sequence>
         );
       })}
@@ -94,7 +94,8 @@ const headAnchor = (edl: Edl, track: {fps: number; cx: number[]; top: number[]},
   const hx = ox + (track.cx[srcIdx] - ox) * t.scale + t.x;
   const hy = oy + (track.top[srcIdx] - oy) * t.scale + t.y;
   return {
-    x: Math.min(CAPTION.maxX, Math.max(CAPTION.minX, hx)),
+    // con varias personas el subtítulo debe poder llegar a la cabeza de quien está en el borde
+    x: edl.headTracks ? Math.min(0.9, Math.max(0.1, hx)) : Math.min(CAPTION.maxX, Math.max(CAPTION.minX, hx)),
     y: Math.max(CAPTION.minY, hy - CAPTION.headGap),
   };
 };

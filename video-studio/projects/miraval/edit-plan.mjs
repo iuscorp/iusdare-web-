@@ -23,6 +23,11 @@ for (const c of e.captions) {
 }
 for (const c of e.captions) c.emphasis = ['abogado', 'docente', 'publicidad', 'teatro', 'tribunales', 'error', 'mito', 'alimentos', 'tasas', 'judiciales', 'live', 'noviembre', 'noche'].includes(norm(c.text));
 
+// subtítulos sólo desde «Si no hubiese sido abogado…» (pedido del equipo) y más pequeños
+const desde = e.captions.find((c) => norm(c.text) === 'si' && c.who === 'L');
+if (desde) e.captions = e.captions.filter((c) => c.start >= desde.start);
+e.captionScale = 0.7;
+
 for (const s of e.segments) {
   s.framing = 'base';
   s.move = 'none';

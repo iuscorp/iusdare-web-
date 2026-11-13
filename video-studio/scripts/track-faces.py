@@ -72,15 +72,65 @@ def detect_haar(video, step=2):
     return out
 
 
+def detect_pose(video, step=2):
+    """PoseLandmarker (hasta 2 personas): encuentra la cabeza aunque esté de perfil.
+    Centro = media de los puntos de la cara (nariz, ojos, orejas, boca); parte superior de la
+    cabeza = punto más alto de la cara − 1.3 × (altura ojos→boca)."""
+    import os
+    import mediapipe as mp
+    from mediapipe.tasks.python import BaseOptions
+    from mediapipe.tasks.python.vision import PoseLandmarker, PoseLandmarkerOptions, RunningMode
+    model = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "models", "pose_landmarker_full.task")
+    pl = PoseLandmarker.create_from_options(PoseLandmarkerOptions(base_options=BaseOptions(model_asset_path=model), running_mode=RunningMode.VIDEO, num_poses=2, min_pose_detection_confidence=0.3, min_pose_presence_confidence=0.3, min_tracking_confidence=0.3))
+    cap = cv2.VideoCapture(video)
+    fps = cap.get(cv2.CAP_PROP_FPS) or 24
+    out, i, last = [], 0, []
+    while True:
+        ok, frame = cap.read()
+        if not ok:
+            break
+        if i % step == 0:
+            small = cv2.resize(frame, (540, int(frame.shape[0] * 540 / frame.shape[1])))
+            img = mp.Image(image_format=mp.ImageFormat.SRGB, data=cv2.cvtColor(small, cv2.COLOR_BGR2RGB))
+            res = pl.detect_for_video(img, int(i * 1000 / fps))
+            pts = []
+            for lm in res.pose_landmarks or []:
+                face = [lm[k] for k in range(11) if (getattr(lm[k], "visibility", 1) or 0) > 0.3]
+                if len(face) < 3:
+                    continue
+                xs = [p.x for p in face]; ys = [p.y for p in face]
+                span = max(ys) - min(ys)
+                pts.append((float(np.mean(xs)), float(min(ys) - 1.3 * max(span, 0.015)), float(np.mean(ys))))
+            last = pts
+        out.append(last)
+        i += 1
+    pl.close()
+    return fps, out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("video"); ap.add_argument("out")
     ap.add_argument("--split", type=float, default=0.45, help="x que separa a la persona de la izquierda (L) de la de la derecha (R)")
+    ap.add_argument("--detector", default="combo", choices=["combo", "pose", "face"], help="combo (pose a la izquierda + rostro a la derecha), pose o face")
     ap.add_argument("--cuts", default="", help="tiempos (s) de cambio de clip, separados por comas: la posición típica se calcula por clip")
     a = ap.parse_args()
-    fps, frames = detect_mediapipe(a.video)
-    haar = detect_haar(a.video)
-    frames = [list(m) + list(h) for m, h in zip(frames, haar)]
+    ap_detector = getattr(a, "detector", "pose")
+    if ap_detector == "combo":
+        # cada persona con el detector que mejor la ve: pose (perfiles) a la izquierda, rostro a la derecha
+        fps, pose = detect_pose(a.video)
+        haar = detect_haar(a.video)
+        frames = []
+        for pp, hh in zip(pose, haar):
+            left = [p for p in pp if p[0] < a.split] or [p for p in hh if p[0] < a.split]
+            right = [p for p in hh if p[0] >= a.split] or [p for p in pp if p[0] >= a.split]
+            frames.append(left[:1] + right[:1])
+    elif ap_detector == "pose":
+        fps, frames = detect_pose(a.video)
+    else:
+        fps, frames = detect_mediapipe(a.video)
+        haar = detect_haar(a.video)
+        frames = [list(m) + list(h) for m, h in zip(frames, haar)]
     tr = {"L": [], "R": []}
     for pts in frames:
         cur = {"L": None, "R": None}

@@ -18,10 +18,13 @@ export const WordCaption: React.FC<{
   /** posición dinámica por fotograma (seguimiento de cabeza); x,y normalizados 0–1 */
   follow?: (localFrame: number) => {x: number; y: number};
   durationInFrames: number;
+  /** escala del tamaño de letra (edl.captionScale) */
+  size?: number;
 }> = ({
   text,
   emphasis = false,
   y = CAPTION.defaultY,
+  size = 1,
   follow,
 }) => {
   const frame = useCurrentFrame();
@@ -41,7 +44,7 @@ export const WordCaption: React.FC<{
         fontFamily: FONTS.caption,
         fontStyle: CAPTION.italic ? 'italic' : 'normal',
         fontWeight: CAPTION.fontWeight,
-        fontSize: CAPTION.fontSize,
+        fontSize: CAPTION.fontSize * size,
         letterSpacing: '0.005em',
         color: COLORS.captionYellow,
         // trazo exterior delgado en amarillo oscuro: paint-order lo dibuja detrás del relleno,
