@@ -46,6 +46,8 @@ export const captionSchema = z.object({
   start: z.number(),
   end: z.number(),
   emphasis: z.boolean().default(false),
+  /** quién habla (clave de edl.headTracks): el subtítulo sigue la cabeza de esa persona */
+  who: z.string().optional(),
   /** posición vertical 0–1 (por defecto CAPTION.defaultY) */
   y: z.number().optional(),
 });
@@ -167,6 +169,10 @@ export const edlSchema = z.object({
   personMatte: z.string().optional(),
   headTrack: z
     .object({fps: z.number(), cx: z.array(z.number()), top: z.array(z.number())})
+    .optional(),
+  /** varias personas (entrevistas/lives): una pista por persona; caption.who elige cuál seguir */
+  headTracks: z
+    .object({fps: z.number(), tracks: z.record(z.string(), z.object({cx: z.array(z.number()), top: z.array(z.number())}))})
     .optional(),
 });
 

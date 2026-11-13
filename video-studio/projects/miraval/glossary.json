@@ -1,0 +1,12 @@
+{
+ "_info": "Correcciones del Ping Pong con Miguel Eduardo Ramos Miraval.",
+ "corrections": [
+  {"match": "mirabal", "replace": ["Miraval"]},
+  {"match": "bocari yuris", "replace": ["Vocare", "Iuris"]},
+  {"match": "bocariyuris", "replace": ["Vocare", "Iuris"]},
+  {"match": "boca de iuris", "replace": ["Vocare", "Iuris"]},
+  {"match": "boca de iglesias", "replace": ["Vocare", "Iuris"]},
+  {"match": "ping pong", "replace": ["Ping", "Pong"]},
+  {"match": "a que se dedica", "replace": ["¿A", "qué", "se", "dedica?"]}
+ ]
+}

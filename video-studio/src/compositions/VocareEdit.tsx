@@ -61,7 +61,9 @@ export const VocareEdit: React.FC<Edl> = (edl) => {
         // sin seguimiento: el rostro sube al acercar y el subtítulo sube con él
         const y = c.y ?? Math.max(0.12, CAPTION.defaultY - (t.scale - 1) * 0.16 + t.y * 0.5);
         // con seguimiento: posición recalculada en cada fotograma sobre la cabeza
-        const follow = edl.headTrack && c.y === undefined ? (local: number) => headAnchor(edl, starts, segFrames, from + local, fps) : undefined;
+        const multi = c.who && edl.headTracks?.tracks[c.who] ? {fps: edl.headTracks.fps, ...edl.headTracks.tracks[c.who]} : null;
+        const track = multi ?? edl.headTrack;
+        const follow = track && c.y === undefined ? (local: number) => headAnchor(edl, track, starts, segFrames, from + local, fps) : undefined;
         return (
           <Sequence key={i} from={from} durationInFrames={dur} layout="none" name={`“${c.text}”`}>
             <WordCaption text={c.text} emphasis={c.emphasis} y={y} follow={follow} durationInFrames={dur} />
@@ -80,8 +82,7 @@ export const VocareEdit: React.FC<Edl> = (edl) => {
  * presentador en el fotograma FUENTE correspondiente y le aplica el mismo reencuadre
  * (escala con origen 50 %/32 % + desplazamiento) que tiene el video en ese plano.
  */
-const headAnchor = (edl: Edl, starts: number[], segFrames: number[], frame: number, fps: number) => {
-  const track = edl.headTrack!;
+const headAnchor = (edl: Edl, track: {fps: number; cx: number[]; top: number[]}, starts: number[], segFrames: number[], frame: number, fps: number) => {
   let k = 0;
   while (k < segFrames.length - 1 && frame >= starts[k + 1]) k++;
   const seg = edl.segments[k];

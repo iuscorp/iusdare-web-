@@ -27,7 +27,14 @@ const edl = buildEdl({
   title: meta.title,
   source: {file: meta.proxy, width: 1080, height: 1920, fps: Math.round(probe.proxy.video.fps) || 30, duration: probe.proxy.duration},
   clean,
+  selects: fs.existsSync(path.join(P.dir, 'selects.json')) ? readJson(path.join(P.dir, 'selects.json')) : null,
 });
+// entrevistas / lives: una pista de cabeza por persona (scripts/track-faces.py)
+const tracksFile = path.join(P.analysisDir, 'head-tracks.json');
+if (fs.existsSync(tracksFile)) {
+  const t = readJson(tracksFile);
+  edl.headTracks = {fps: t.fps, tracks: t.tracks};
+}
 const headFile = path.join(P.analysisDir, 'head-track.json');
 if (fs.existsSync(headFile)) {
   const h = readJson(headFile);

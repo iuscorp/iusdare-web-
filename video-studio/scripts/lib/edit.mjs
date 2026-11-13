@@ -392,7 +392,7 @@ export const applyGlossary = (words, glossary = {corrections: []}) => {
  *  4. remapea las palabras a la línea de tiempo final → subtítulos 1 palabra
  *  5. sugiere stickers / tarjetas de norma y SFX (marcados auto:true para aprobación)
  */
-export const buildEdl = ({slug, title, source, clean, emphasisExtra = []}) => {
+export const buildEdl = ({slug, title, source, clean, emphasisExtra = [], selects: clean_selects = null}) => {
   const FPS = Math.round(source.fps) || 30;
   const segments = [];
   const captions = [];
@@ -451,6 +451,8 @@ export const buildEdl = ({slug, title, source, clean, emphasisExtra = []}) => {
         start: round(Math.max(0, s)),
         end: round(Math.max(s + 0.12, Math.min(nextStart, tOut + dur))),
         emphasis: ['ilegal', 'derecho', 'derechos', 'delito', 'ley', 'constitucion', 'prohibido', 'denunciar', 'denuncia', ...emphasisExtra].includes(n0),
+        // quién habla (selects[].who): en entrevistas el subtítulo sigue la cabeza de esa persona
+        ...(w.sel !== undefined && clean_selects?.[w.sel]?.who ? {who: clean_selects[w.sel].who} : {}),
       });
     });
     p.outStart = tOut;
