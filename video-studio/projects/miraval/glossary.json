@@ -101,6 +101,14 @@
     "querido",
     "hacer"
    ]
+  },
+  {
+   "match": "conocimiento y la",
+   "replace": [
+    "conocimiento",
+    "de",
+    "la"
+   ]
   }
  ]
 }
