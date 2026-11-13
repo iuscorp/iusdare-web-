@@ -25,6 +25,7 @@ Reglas:
 - **Pocos cortes visibles**: sólo cortar pausas internas largas (`project.json → editing.minPause`, p. ej. 0.4 s) y cambiar el encuadre cada ~3 planos o en un choque; entre medias `slowPush` continuo. Nada de golpe de zoom en cada corte.
 - Sesiones largas con varias tomas: elegir la mejor toma de cada frase en `projects/<slug>/selects.json` (orden de guion). Cada toma se transcribe por separado; `skipFirst` descarta palabras iniciales ajenas.
 - Subtítulos: siempre siguen la cabeza del presentador (`headTrack`). Verificar en fotogramas reales.
+- **Entrevistas / lives con varias personas**: `scripts/track-faces.py <video> analysis/head-tracks.json --cuts <cambios de clip>` (L = izquierda, R = derecha) y `who: "L"|"R"` en cada toma de `selects.json`; cada subtítulo sigue la cabeza de quien habla (`caption.who` → `edl.headTracks`). Sin recursos gráficos salvo que se pidan; encuadre fijo para no recortar a nadie.
 - No afirmar que el preset de color replica exactamente el ajuste «Combinación visual» de CapCut: es una réplica comparativa.
 - Precisión jurídica por encima del efecto.
 - Footage, previews y exports no se suben al repositorio (`.gitignore`).
