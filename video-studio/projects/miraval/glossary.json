@@ -1,0 +1,114 @@
+{
+ "_info": "Correcciones del Ping Pong con Miguel Eduardo Ramos Miraval.",
+ "corrections": [
+  {
+   "match": "mirabal",
+   "replace": [
+    "Miraval"
+   ]
+  },
+  {
+   "match": "bocari yuris",
+   "replace": [
+    "Vocare",
+    "Iuris"
+   ]
+  },
+  {
+   "match": "bocariyuris",
+   "replace": [
+    "Vocare",
+    "Iuris"
+   ]
+  },
+  {
+   "match": "boca de iuris",
+   "replace": [
+    "Vocare",
+    "Iuris"
+   ]
+  },
+  {
+   "match": "boca de iglesias",
+   "replace": [
+    "Vocare",
+    "Iuris"
+   ]
+  },
+  {
+   "match": "ping pong",
+   "replace": [
+    "Ping",
+    "Pong"
+   ]
+  },
+  {
+   "match": "a que se dedica",
+   "replace": [
+    "¿A",
+    "qué",
+    "se",
+    "dedica?"
+   ]
+  },
+  {
+   "match": "pink pong kong",
+   "replace": [
+    "Ping",
+    "Pong",
+    "con"
+   ]
+  },
+  {
+   "match": "docento",
+   "replace": [
+    "docente"
+   ]
+  },
+  {
+   "match": "me hubiera seguido",
+   "replace": [
+    "Hubiese",
+    "ido"
+   ]
+  },
+  {
+   "match": "crea que",
+   "replace": [
+    "cree",
+    "que"
+   ]
+  },
+  {
+   "match": "el mita",
+   "replace": [
+    "el",
+    "mito"
+   ]
+  },
+  {
+   "match": "ocho a noche",
+   "replace": [
+    "8",
+    "de",
+    "la",
+    "noche"
+   ]
+  },
+  {
+   "match": "querido ser",
+   "replace": [
+    "querido",
+    "hacer"
+   ]
+  },
+  {
+   "match": "conocimiento y la",
+   "replace": [
+    "conocimiento",
+    "de",
+    "la"
+   ]
+  }
+ ]
+}

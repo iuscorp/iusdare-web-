@@ -1,0 +1,55 @@
+{
+ "entrada": {
+  "title": "Door",
+  "creator": "sk8geek",
+  "license": "CC BY-SA 2.0",
+  "source": "https://www.flickr.com/photos/26170836@N05/5827246153",
+  "openverse_id": "f1e5deb0-058d-401e-ba71-ea388f9454d0",
+  "credit": "«Door» — sk8geek (CC BY-SA 2.0)",
+  "cutout": true
+ },
+ "prision": {
+  "title": "Early handcuffs, pt. 2",
+  "creator": "Marcin Wichary",
+  "license": "CC BY 2.0",
+  "source": "https://www.flickr.com/photos/8399025@N07/2648060321",
+  "openverse_id": "1147272f-2916-46f6-baa1-fe613412b962",
+  "credit": "«Early handcuffs, pt. 2» — Marcin Wichary (CC BY 2.0)",
+  "cutout": true
+ },
+ "trabajo": {
+  "title": "Briefcase",
+  "creator": "Menswear Market",
+  "license": "CC BY 2.0",
+  "source": "https://www.flickr.com/photos/85546319@N04/8154258737",
+  "openverse_id": "2779436a-2340-4ba5-a978-3e855dbc2b32",
+  "credit": "«Briefcase» — Menswear Market (CC BY 2.0)",
+  "cutout": true
+ },
+ "hotel": {
+  "title": "Fairmont Hotel Lobby",
+  "creator": "Pargon",
+  "license": "CC BY 2.0",
+  "source": "https://www.flickr.com/photos/24539921@N08/2466357253",
+  "openverse_id": "4bc2cfc4-5a6e-4a81-b41b-c2e1c20c6acb",
+  "credit": "«Fairmont Hotel Lobby» — Pargon (CC BY 2.0)"
+ },
+ "discoteca": {
+  "title": "disco ball",
+  "creator": "blinkbyblink",
+  "license": "CC BY 2.0",
+  "source": "https://www.flickr.com/photos/23889748@N00/1102111398",
+  "openverse_id": "39840e0a-4fd6-4c1c-99b2-1b0b9de35d0b",
+  "credit": "«disco ball» — blinkbyblink (CC BY 2.0)",
+  "cutout": true
+ },
+ "restaurante": {
+  "title": "sri lanka food in usa",
+  "creator": "r-z",
+  "license": "CC BY 2.0",
+  "source": "https://www.flickr.com/photos/66795748@N00/2252037176",
+  "openverse_id": "a85b7b9a-fb73-497b-8497-1e52a84b567f",
+  "credit": "«sri lanka food in usa» — r-z (CC BY 2.0)",
+  "cutout": true
+ }
+}

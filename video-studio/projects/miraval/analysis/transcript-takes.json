@@ -1,0 +1,956 @@
+{
+ "model": "small",
+ "language": "es",
+ "duration": 137.131,
+ "text": "Pink Pong Kong Miguel Eduardo Ramos Mirabal. ¿A qué se dedica? Abogado y docento universitario. Si no hubiese sido abogado, ¿qué hubiese querido ser? Me hubiera seguido por la publicidad o el teatro. Y cree que algo de ese gusto por el teatro le ayuda hoy en el ejercicio del derecho. Me ayuda para presentar los casos que considero que deben ser de conocimiento y la justicia. ¿Cuál crea que es el error más común en los procesos de alimentos? Considerar que el alimentista tiene que pagar tasas judiciales. Y él mita más común sobre los procesos de alimentos. Eso lo veremos en el live. Nos vemos este 26 de noviembre ocho a noche en el live que estará organizando Vocare Iuris. Los esperamos.",
+ "segments": [
+  {
+   "start": 1.1,
+   "end": 5.04,
+   "text": "Pink Pong Kong Miguel Eduardo Ramos Mirabal.",
+   "take": 0
+  },
+  {
+   "start": 4.82,
+   "end": 6.4,
+   "text": "¿A qué se dedica?",
+   "take": 1
+  },
+  {
+   "start": 6.6,
+   "end": 8.64,
+   "text": "Abogado y docento universitario.",
+   "take": 2
+  },
+  {
+   "start": 9.48,
+   "end": 11.52,
+   "text": "Si no hubiese sido abogado, ¿qué hubiese querido ser?",
+   "take": 3
+  },
+  {
+   "start": 18.85,
+   "end": 21.91,
+   "text": "Me hubiera seguido por la publicidad o el teatro.",
+   "take": 4
+  },
+  {
+   "start": 22.27,
+   "end": 27.27,
+   "text": "Y cree que algo de ese gusto por el teatro le ayuda hoy en el ejercicio del derecho.",
+   "take": 5
+  },
+  {
+   "start": 27.35,
+   "end": 33.07,
+   "text": "Me ayuda para presentar los casos que considero que deben ser de conocimiento y la justicia.",
+   "take": 6
+  },
+  {
+   "start": 55.37,
+   "end": 58.31,
+   "text": "¿Cuál crea que es el error más común en los procesos de alimentos?",
+   "take": 7
+  },
+  {
+   "start": 59.05,
+   "end": 62.45,
+   "text": "Considerar que el alimentista tiene que pagar tasas judiciales.",
+   "take": 8
+  },
+  {
+   "start": 100.75,
+   "end": 102.91,
+   "text": "Y él mita más común sobre los procesos de alimentos.",
+   "take": 9
+  },
+  {
+   "start": 103.98,
+   "end": 105.14,
+   "text": "Eso lo veremos en el live.",
+   "take": 10
+  },
+  {
+   "start": 124.85,
+   "end": 130.67,
+   "text": "Nos vemos este 26 de noviembre ocho a noche en el live que estará organizando Vocare Iuris.",
+   "take": 11
+  },
+  {
+   "start": 135.1,
+   "end": 136.4,
+   "text": "Los esperamos.",
+   "take": 12
+  }
+ ],
+ "words": [
+  {
+   "w": "Pink",
+   "s": 1.35,
+   "e": 1.88,
+   "p": 0.229,
+   "take": 0
+  },
+  {
+   "w": "Pong",
+   "s": 1.88,
+   "e": 2.5,
+   "p": 0.698,
+   "take": 0
+  },
+  {
+   "w": "Kong",
+   "s": 2.5,
+   "e": 3.06,
+   "p": 0.334,
+   "take": 0
+  },
+  {
+   "w": "Miguel",
+   "s": 3.06,
+   "e": 3.8,
+   "p": 0.715,
+   "take": 0
+  },
+  {
+   "w": "Eduardo",
+   "s": 3.8,
+   "e": 4.18,
+   "p": 0.975,
+   "take": 0
+  },
+  {
+   "w": "Ramos",
+   "s": 4.18,
+   "e": 4.64,
+   "p": 0.986,
+   "take": 0
+  },
+  {
+   "w": "Mirabal.",
+   "s": 4.64,
+   "e": 5.04,
+   "p": 0.843,
+   "take": 0
+  },
+  {
+   "w": "¿A",
+   "s": 5.32,
+   "e": 5.86,
+   "p": 0.483,
+   "take": 1
+  },
+  {
+   "w": "qué",
+   "s": 5.86,
+   "e": 5.96,
+   "p": 0.719,
+   "take": 1
+  },
+  {
+   "w": "se",
+   "s": 5.96,
+   "e": 6.08,
+   "p": 0.967,
+   "take": 1
+  },
+  {
+   "w": "dedica?",
+   "s": 6.08,
+   "e": 6.4,
+   "p": 0.965,
+   "take": 1
+  },
+  {
+   "w": "Abogado",
+   "s": 6.85,
+   "e": 7.48,
+   "p": 0.675,
+   "take": 2
+  },
+  {
+   "w": "y",
+   "s": 7.48,
+   "e": 7.66,
+   "p": 0.962,
+   "take": 2
+  },
+  {
+   "w": "docento",
+   "s": 7.66,
+   "e": 8.02,
+   "p": 0.67,
+   "take": 2
+  },
+  {
+   "w": "universitario.",
+   "s": 8.02,
+   "e": 8.64,
+   "p": 0.854,
+   "take": 2
+  },
+  {
+   "w": "Si",
+   "s": 9.48,
+   "e": 9.8,
+   "p": 0.686,
+   "take": 3
+  },
+  {
+   "w": "no",
+   "s": 9.8,
+   "e": 9.94,
+   "p": 0.995,
+   "take": 3
+  },
+  {
+   "w": "hubiese",
+   "s": 9.94,
+   "e": 10.1,
+   "p": 0.965,
+   "take": 3
+  },
+  {
+   "w": "sido",
+   "s": 10.1,
+   "e": 10.3,
+   "p": 0.997,
+   "take": 3
+  },
+  {
+   "w": "abogado,",
+   "s": 10.3,
+   "e": 10.74,
+   "p": 0.977,
+   "take": 3
+  },
+  {
+   "w": "¿qué",
+   "s": 10.82,
+   "e": 10.9,
+   "p": 0.842,
+   "take": 3
+  },
+  {
+   "w": "hubiese",
+   "s": 10.9,
+   "e": 11.06,
+   "p": 0.998,
+   "take": 3
+  },
+  {
+   "w": "querido",
+   "s": 11.06,
+   "e": 11.36,
+   "p": 0.977,
+   "take": 3
+  },
+  {
+   "w": "ser?",
+   "s": 11.36,
+   "e": 11.52,
+   "p": 0.764,
+   "take": 3
+  },
+  {
+   "w": "Me",
+   "s": 19.1,
+   "e": 19.85,
+   "p": 0.042,
+   "take": 4
+  },
+  {
+   "w": "hubiera",
+   "s": 19.85,
+   "e": 19.99,
+   "p": 0.683,
+   "take": 4
+  },
+  {
+   "w": "seguido",
+   "s": 19.99,
+   "e": 20.27,
+   "p": 0.789,
+   "take": 4
+  },
+  {
+   "w": "por",
+   "s": 20.27,
+   "e": 20.43,
+   "p": 0.894,
+   "take": 4
+  },
+  {
+   "w": "la",
+   "s": 20.43,
+   "e": 20.55,
+   "p": 0.971,
+   "take": 4
+  },
+  {
+   "w": "publicidad",
+   "s": 20.55,
+   "e": 21.05,
+   "p": 0.875,
+   "take": 4
+  },
+  {
+   "w": "o",
+   "s": 21.05,
+   "e": 21.35,
+   "p": 0.895,
+   "take": 4
+  },
+  {
+   "w": "el",
+   "s": 21.35,
+   "e": 21.53,
+   "p": 0.913,
+   "take": 4
+  },
+  {
+   "w": "teatro.",
+   "s": 21.53,
+   "e": 21.91,
+   "p": 0.973,
+   "take": 4
+  },
+  {
+   "w": "Y",
+   "s": 22.52,
+   "e": 23.17,
+   "p": 0.71,
+   "take": 5
+  },
+  {
+   "w": "cree",
+   "s": 23.17,
+   "e": 23.37,
+   "p": 0.851,
+   "take": 5
+  },
+  {
+   "w": "que",
+   "s": 23.37,
+   "e": 23.55,
+   "p": 0.994,
+   "take": 5
+  },
+  {
+   "w": "algo",
+   "s": 23.55,
+   "e": 23.81,
+   "p": 0.992,
+   "take": 5
+  },
+  {
+   "w": "de",
+   "s": 23.81,
+   "e": 23.99,
+   "p": 0.978,
+   "take": 5
+  },
+  {
+   "w": "ese",
+   "s": 23.99,
+   "e": 24.15,
+   "p": 0.937,
+   "take": 5
+  },
+  {
+   "w": "gusto",
+   "s": 24.15,
+   "e": 24.39,
+   "p": 0.995,
+   "take": 5
+  },
+  {
+   "w": "por",
+   "s": 24.39,
+   "e": 24.63,
+   "p": 0.952,
+   "take": 5
+  },
+  {
+   "w": "el",
+   "s": 24.63,
+   "e": 24.73,
+   "p": 0.982,
+   "take": 5
+  },
+  {
+   "w": "teatro",
+   "s": 24.73,
+   "e": 25.13,
+   "p": 0.906,
+   "take": 5
+  },
+  {
+   "w": "le",
+   "s": 25.13,
+   "e": 25.29,
+   "p": 0.897,
+   "take": 5
+  },
+  {
+   "w": "ayuda",
+   "s": 25.29,
+   "e": 25.55,
+   "p": 0.994,
+   "take": 5
+  },
+  {
+   "w": "hoy",
+   "s": 25.55,
+   "e": 25.99,
+   "p": 0.937,
+   "take": 5
+  },
+  {
+   "w": "en",
+   "s": 25.99,
+   "e": 26.27,
+   "p": 0.927,
+   "take": 5
+  },
+  {
+   "w": "el",
+   "s": 26.27,
+   "e": 26.39,
+   "p": 0.991,
+   "take": 5
+  },
+  {
+   "w": "ejercicio",
+   "s": 26.39,
+   "e": 26.87,
+   "p": 0.991,
+   "take": 5
+  },
+  {
+   "w": "del",
+   "s": 26.87,
+   "e": 27.01,
+   "p": 0.941,
+   "take": 5
+  },
+  {
+   "w": "derecho.",
+   "s": 27.01,
+   "e": 27.27,
+   "p": 0.973,
+   "take": 5
+  },
+  {
+   "w": "Me",
+   "s": 27.6,
+   "e": 28.13,
+   "p": 0.46,
+   "take": 6
+  },
+  {
+   "w": "ayuda",
+   "s": 28.13,
+   "e": 29.05,
+   "p": 0.957,
+   "take": 6
+  },
+  {
+   "w": "para",
+   "s": 29.05,
+   "e": 29.33,
+   "p": 0.892,
+   "take": 6
+  },
+  {
+   "w": "presentar",
+   "s": 29.33,
+   "e": 29.79,
+   "p": 0.992,
+   "take": 6
+  },
+  {
+   "w": "los",
+   "s": 29.79,
+   "e": 29.91,
+   "p": 0.992,
+   "take": 6
+  },
+  {
+   "w": "casos",
+   "s": 29.91,
+   "e": 30.17,
+   "p": 0.996,
+   "take": 6
+  },
+  {
+   "w": "que",
+   "s": 30.17,
+   "e": 30.43,
+   "p": 0.987,
+   "take": 6
+  },
+  {
+   "w": "considero",
+   "s": 30.43,
+   "e": 31.31,
+   "p": 0.947,
+   "take": 6
+  },
+  {
+   "w": "que",
+   "s": 31.31,
+   "e": 31.41,
+   "p": 0.968,
+   "take": 6
+  },
+  {
+   "w": "deben",
+   "s": 31.41,
+   "e": 31.67,
+   "p": 0.939,
+   "take": 6
+  },
+  {
+   "w": "ser",
+   "s": 31.67,
+   "e": 31.93,
+   "p": 0.993,
+   "take": 6
+  },
+  {
+   "w": "de",
+   "s": 31.93,
+   "e": 32.03,
+   "p": 0.487,
+   "take": 6
+  },
+  {
+   "w": "conocimiento",
+   "s": 32.03,
+   "e": 32.45,
+   "p": 0.991,
+   "take": 6
+  },
+  {
+   "w": "y",
+   "s": 32.45,
+   "e": 32.53,
+   "p": 0.702,
+   "take": 6
+  },
+  {
+   "w": "la",
+   "s": 32.53,
+   "e": 32.61,
+   "p": 0.539,
+   "take": 6
+  },
+  {
+   "w": "justicia.",
+   "s": 32.61,
+   "e": 33.07,
+   "p": 0.964,
+   "take": 6
+  },
+  {
+   "w": "¿Cuál",
+   "s": 55.37,
+   "e": 55.79,
+   "p": 0.885,
+   "take": 7
+  },
+  {
+   "w": "crea",
+   "s": 55.79,
+   "e": 56.03,
+   "p": 0.892,
+   "take": 7
+  },
+  {
+   "w": "que",
+   "s": 56.03,
+   "e": 56.13,
+   "p": 0.984,
+   "take": 7
+  },
+  {
+   "w": "es",
+   "s": 56.13,
+   "e": 56.31,
+   "p": 0.968,
+   "take": 7
+  },
+  {
+   "w": "el",
+   "s": 56.31,
+   "e": 56.41,
+   "p": 0.986,
+   "take": 7
+  },
+  {
+   "w": "error",
+   "s": 56.41,
+   "e": 56.63,
+   "p": 0.986,
+   "take": 7
+  },
+  {
+   "w": "más",
+   "s": 56.63,
+   "e": 56.89,
+   "p": 0.961,
+   "take": 7
+  },
+  {
+   "w": "común",
+   "s": 56.89,
+   "e": 57.25,
+   "p": 0.995,
+   "take": 7
+  },
+  {
+   "w": "en",
+   "s": 57.25,
+   "e": 57.45,
+   "p": 0.962,
+   "take": 7
+  },
+  {
+   "w": "los",
+   "s": 57.45,
+   "e": 57.57,
+   "p": 0.968,
+   "take": 7
+  },
+  {
+   "w": "procesos",
+   "s": 57.57,
+   "e": 58.01,
+   "p": 0.996,
+   "take": 7
+  },
+  {
+   "w": "de",
+   "s": 58.01,
+   "e": 58.11,
+   "p": 0.989,
+   "take": 7
+  },
+  {
+   "w": "alimentos?",
+   "s": 58.11,
+   "e": 58.31,
+   "p": 0.938,
+   "take": 7
+  },
+  {
+   "w": "Considerar",
+   "s": 59.3,
+   "e": 59.97,
+   "p": 0.506,
+   "take": 8
+  },
+  {
+   "w": "que",
+   "s": 59.97,
+   "e": 60.11,
+   "p": 0.989,
+   "take": 8
+  },
+  {
+   "w": "el",
+   "s": 60.11,
+   "e": 60.21,
+   "p": 0.857,
+   "take": 8
+  },
+  {
+   "w": "alimentista",
+   "s": 60.21,
+   "e": 60.91,
+   "p": 0.912,
+   "take": 8
+  },
+  {
+   "w": "tiene",
+   "s": 60.91,
+   "e": 61.19,
+   "p": 0.984,
+   "take": 8
+  },
+  {
+   "w": "que",
+   "s": 61.19,
+   "e": 61.35,
+   "p": 0.997,
+   "take": 8
+  },
+  {
+   "w": "pagar",
+   "s": 61.35,
+   "e": 61.53,
+   "p": 0.65,
+   "take": 8
+  },
+  {
+   "w": "tasas",
+   "s": 61.53,
+   "e": 61.85,
+   "p": 0.786,
+   "take": 8
+  },
+  {
+   "w": "judiciales.",
+   "s": 61.85,
+   "e": 62.45,
+   "p": 0.939,
+   "take": 8
+  },
+  {
+   "w": "Y",
+   "s": 100.75,
+   "e": 101.11,
+   "p": 0.557,
+   "take": 9
+  },
+  {
+   "w": "él",
+   "s": 101.11,
+   "e": 101.29,
+   "p": 0.869,
+   "take": 9
+  },
+  {
+   "w": "mita",
+   "s": 101.29,
+   "e": 101.47,
+   "p": 0.705,
+   "take": 9
+  },
+  {
+   "w": "más",
+   "s": 101.47,
+   "e": 101.63,
+   "p": 0.909,
+   "take": 9
+  },
+  {
+   "w": "común",
+   "s": 101.63,
+   "e": 101.87,
+   "p": 0.907,
+   "take": 9
+  },
+  {
+   "w": "sobre",
+   "s": 101.87,
+   "e": 102.13,
+   "p": 0.979,
+   "take": 9
+  },
+  {
+   "w": "los",
+   "s": 102.13,
+   "e": 102.29,
+   "p": 0.938,
+   "take": 9
+  },
+  {
+   "w": "procesos",
+   "s": 102.29,
+   "e": 102.69,
+   "p": 0.98,
+   "take": 9
+  },
+  {
+   "w": "de",
+   "s": 102.69,
+   "e": 102.77,
+   "p": 0.937,
+   "take": 9
+  },
+  {
+   "w": "alimentos.",
+   "s": 102.77,
+   "e": 102.91,
+   "p": 0.937,
+   "take": 9
+  },
+  {
+   "w": "Eso",
+   "s": 104.0,
+   "e": 104.3,
+   "p": 0.52,
+   "take": 10
+  },
+  {
+   "w": "lo",
+   "s": 104.3,
+   "e": 104.44,
+   "p": 0.99,
+   "take": 10
+  },
+  {
+   "w": "veremos",
+   "s": 104.44,
+   "e": 104.76,
+   "p": 0.995,
+   "take": 10
+  },
+  {
+   "w": "en",
+   "s": 104.76,
+   "e": 104.92,
+   "p": 0.99,
+   "take": 10
+  },
+  {
+   "w": "el",
+   "s": 104.92,
+   "e": 105.02,
+   "p": 0.928,
+   "take": 10
+  },
+  {
+   "w": "live.",
+   "s": 105.02,
+   "e": 105.14,
+   "p": 0.491,
+   "take": 10
+  },
+  {
+   "w": "Nos",
+   "s": 125.1,
+   "e": 125.31,
+   "p": 0.173,
+   "take": 11
+  },
+  {
+   "w": "vemos",
+   "s": 125.31,
+   "e": 125.95,
+   "p": 0.993,
+   "take": 11
+  },
+  {
+   "w": "este",
+   "s": 125.95,
+   "e": 126.23,
+   "p": 0.929,
+   "take": 11
+  },
+  {
+   "w": "26",
+   "s": 126.23,
+   "e": 126.63,
+   "p": 0.698,
+   "take": 11
+  },
+  {
+   "w": "de",
+   "s": 126.63,
+   "e": 126.79,
+   "p": 0.97,
+   "take": 11
+  },
+  {
+   "w": "noviembre",
+   "s": 126.79,
+   "e": 127.33,
+   "p": 0.947,
+   "take": 11
+  },
+  {
+   "w": "ocho",
+   "s": 127.33,
+   "e": 127.81,
+   "p": 0.665,
+   "take": 11
+  },
+  {
+   "w": "a",
+   "s": 127.81,
+   "e": 127.87,
+   "p": 0.611,
+   "take": 11
+  },
+  {
+   "w": "noche",
+   "s": 127.87,
+   "e": 128.13,
+   "p": 0.876,
+   "take": 11
+  },
+  {
+   "w": "en",
+   "s": 128.13,
+   "e": 128.41,
+   "p": 0.958,
+   "take": 11
+  },
+  {
+   "w": "el",
+   "s": 128.41,
+   "e": 128.55,
+   "p": 0.97,
+   "take": 11
+  },
+  {
+   "w": "live",
+   "s": 128.55,
+   "e": 128.73,
+   "p": 0.466,
+   "take": 11
+  },
+  {
+   "w": "que",
+   "s": 128.73,
+   "e": 128.93,
+   "p": 0.977,
+   "take": 11
+  },
+  {
+   "w": "estará",
+   "s": 128.93,
+   "e": 129.19,
+   "p": 0.566,
+   "take": 11
+  },
+  {
+   "w": "organizando",
+   "s": 129.19,
+   "e": 129.69,
+   "p": 0.975,
+   "take": 11
+  },
+  {
+   "w": "Vocare",
+   "s": 129.69,
+   "e": 130.01,
+   "p": 0.032,
+   "take": 11
+  },
+  {
+   "w": "Iuris.",
+   "s": 130.01,
+   "e": 130.67,
+   "p": 0.564,
+   "take": 11
+  },
+  {
+   "w": "Los",
+   "s": 135.6,
+   "e": 135.9,
+   "p": 0.392,
+   "take": 12
+  },
+  {
+   "w": "esperamos.",
+   "s": 135.9,
+   "e": 136.4,
+   "p": 0.998,
+   "take": 12
+  }
+ ]
+}

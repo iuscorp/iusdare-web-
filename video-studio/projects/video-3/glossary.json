@@ -1,0 +1,52 @@
+{
+ "_info": "Correcciones específicas de video-3 (discriminación). Verificar con el equipo.",
+ "corrections": [
+  {
+   "match": "in the copy pueden",
+   "replace": [
+    "Indecopi",
+    "puede"
+   ]
+  },
+  {
+   "match": "in the copy",
+   "replace": [
+    "Indecopi"
+   ]
+  },
+  {
+   "match": "paden",
+   "replace": [
+    "paguen"
+   ]
+  },
+  {
+   "match": "30 a 79",
+   "replace": [
+    "30709"
+   ],
+   "_nota": "Ley N.° 30709 (discriminación remunerativa varones/mujeres); confirmar el número que se dice en cámara"
+  },
+  {
+   "match": "bocariyuris",
+   "replace": [
+    "Vocare",
+    "Iuris"
+   ]
+  },
+  {
+   "match": "bocari yuris",
+   "replace": [
+    "Vocare",
+    "Iuris"
+   ]
+  },
+  {
+   "match": "prohibe que",
+   "replace": [
+    "prohíben",
+    "que"
+   ]
+  }
+ ]
+}

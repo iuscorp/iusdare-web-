@@ -1,0 +1,115 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "7.4 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "30"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "31.10 s (EDL 31.03 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14.1 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.5 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.00 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana 0 ms, p90 |20| ms, 115/120 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": true,
+      "level": "ok",
+      "detail": "5 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 115,
+    "total": 120,
+    "medianOffset": 0,
+    "p90AbsOffset": 0.020000000000003126,
+    "mismatches": [
+      {
+        "at": 2.3,
+        "caption": "Eso",
+        "heard": "Ese"
+      },
+      {
+        "at": 8.02,
+        "caption": "quieren",
+        "heard": "Y"
+      },
+      {
+        "at": 27.713,
+        "caption": "sigue",
+        "heard": "que"
+      },
+      {
+        "at": 27.907,
+        "caption": "a",
+        "heard": "abocare"
+      },
+      {
+        "at": 28.1,
+        "caption": "Vocare",
+        "heard": "Iuris"
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14.1,
+    "lra": 2.5,
+    "truePeakDb": -1.5
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/video-1026/video-1026-preview.mp4"
+}

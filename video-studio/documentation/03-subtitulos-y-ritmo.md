@@ -1,0 +1,51 @@
+# Subtítulos, ritmo y limpieza de silencios
+
+## Limpieza (scripts/lib/edit.mjs)
+| Regla | Valor | Origen |
+|---|---|---|
+| Hueco máximo entre palabras | 0.30 s | REF (máx. observado en 5 piezas) |
+| Aire antes / después de cada corte | 0.08 / 0.09 s | evita cortar ataques y colas |
+| Pausa conservada antes de veredicto («ilegal», «delito», «depende», «nunca», «nadie») o tras pregunta | ≤ 0.45 s | REF |
+| Muletillas eliminadas automáticamente | eh, em, mm, ehm, ajá | — |
+| Muletillas sólo señaladas | este, bueno, o sea, pues, entonces, digamos | pueden tener función («o sea» traduce) |
+| Tomas repetidas | misma frase iniciada 2 veces en < 25 s → se conserva la ÚLTIMA | práctica de grabación |
+| Tartamudeo | palabra corta repetida («el el») | — |
+| Primera palabra | en el frame 0 | REF |
+
+Precisión de los cortes: Whisper tiende a estirar palabras sobre los silencios; el estudio cruza
+sus marcas con la detección acústica de FFmpeg (`refineWithSilences`) y alinea cada corte a la
+rejilla de fotogramas. Nunca se corta dentro de una palabra.
+
+## Sesiones en bruto con voz detrás de cámara
+Muchas grabaciones tienen a una persona que dicta cada frase antes de que el presentador la
+repita. **Sólo se monta al presentador en cámara.**
+1. `scripts/speaker-activity.py` mide la apertura de la boca (MediaPipe Face Landmarker) y el
+   nivel de audio. `scripts/lib/speaker-timeline.mjs` produce una línea de tiempo cada 0.1–0.25 s:
+   `N` = voz con labios en movimiento (presentador), `d` = voz sin labios (detrás), `.` = silencio.
+2. Se eligen las tomas de Naoki/presentador en `selects.json` (orden de guion).
+3. `analyze` transcribe cada toma por separado (Whisper fusiona dictado y repetición en el audio
+   largo) y valida que cada tramo sea `N`; avisa `off-camera-voice` si > 35 % es `d`.
+
+## Reencuadre para ritmo
+Los rangos limpios se dividen en sub-planos de 1.2–2.5 s en límites de palabra (preferentemente
+al final de frase). Cada corte alterna `base` ↔ `subtleIn`; la revelación y los giros llevan
+`punchIn`; el CTA vuelve a `base`.
+
+## Subtítulos
+- DM Sans Bold (itálica), amarillo `#FFE61B`, trazo exterior delgado amarillo oscuro `#D9A800`
+  (`CAPTION.strokeWidth`, `COLORS.captionStroke`), glow amarillo **suave** (`COLORS.captionGlow`, reducido
+  para mejorar la lectura) y sombra corta.
+- 1 palabra por vez, desde el inicio de la palabra hasta el inicio de la siguiente (sin huecos).
+- Minúsculas salvo siglas y números; signos de puntuación eliminados.
+- Énfasis (+12 % y micro-pop) en: ilegal, derecho(s), delito, ley, constitución, prohibido,
+  denunciar/denuncia — ampliable por proyecto (`emphasisExtra`).
+- Se ocultan mientras hay una palabra cinética o letra gigante en pantalla (REF).
+- **El subtítulo sigue la cabeza del presentador**: `scripts/track-head.py` (OpenCV) detecta el rostro
+  en cada fotograma, estima el borde superior del pelo y suaviza la trayectoria; la composición le
+  aplica el mismo zoom/reencuadre del plano y coloca la palabra `CAPTION.headGap` (4 % de la altura)
+  por encima, centrada en la cabeza (limitada a x 0.28–0.72, y ≥ 0.10). Sin trayectoria, se usa
+  posición fija.
+- **Ortografía**: `templates/glossary.json` corrige automáticamente errores reales observados
+  (p. ej. «Bocari Yuris» → «Vocare Iuris», «intercopy» → «Indecopi», números de ley partidos).
+  Añadir cada nuevo error al glosario. El QC compara el subtítulo con una re-transcripción del
+  render y lista las discrepancias.

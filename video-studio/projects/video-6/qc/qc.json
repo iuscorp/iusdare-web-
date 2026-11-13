@@ -1,0 +1,135 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "6.4 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "30 (footage 30)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "51.20 s (EDL 51.17 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.5 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.00 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana 7 ms, p90 |53| ms, 150/159 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": true,
+      "level": "ok",
+      "detail": "9 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 150,
+    "total": 159,
+    "medianOffset": 0.006999999999997897,
+    "p90AbsOffset": 0.05299999999999905,
+    "mismatches": [
+      {
+        "at": 10.207,
+        "caption": "garantiza",
+        "heard": "no era en tu cuenta."
+      },
+      {
+        "at": 26.307,
+        "caption": "Ojo",
+        "heard": "en segundos."
+      },
+      {
+        "at": 29.687,
+        "caption": "tipificado",
+        "heard": "Typificado"
+      },
+      {
+        "at": 30.547,
+        "caption": "artículo",
+        "heard": "en el..."
+      },
+      {
+        "at": 30.987,
+        "caption": "196",
+        "heard": "(nada)"
+      },
+      {
+        "at": 31.707,
+        "caption": "del",
+        "heard": "(nada)"
+      },
+      {
+        "at": 32.527,
+        "caption": "Código",
+        "heard": "(nada)"
+      },
+      {
+        "at": 32.847,
+        "caption": "Penal",
+        "heard": "Debes"
+      },
+      {
+        "at": 43.267,
+        "caption": "30096",
+        "heard": "Ley 30 .096"
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14,
+    "lra": 2.8,
+    "truePeakDb": -1.5
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/video-6/video-6-preview.mp4"
+}

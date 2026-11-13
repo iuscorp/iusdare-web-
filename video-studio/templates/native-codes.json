@@ -1,0 +1,129 @@
+{
+  "_fuente": "GC = respaldado por material público de Guille Collado (guillermocollado.com, programa «Hackeando el Algoritmo» y comunidad «Hackeando la Edición»). REF = observado en las referencias de Vocare Iuris. REC = recomendación creativa del estudio. Los nombres exactos de los «8 códigos nativos» de Guille Collado NO son públicos; no se atribuyen nombres no verificados.",
+  "codes": {
+    "reveal-antihook": {
+      "name": "Reveal / Antihook",
+      "source": ["GC", "REF"],
+      "what": "Arrancar con la situación concreta en 2.ª persona y revelar el veredicto en los primeros 3 s (\"…eso es ilegal\"), sin preámbulo ni presentación.",
+      "function": "Plantear el problema cotidiano y la promesa de valor en el mismo bloque.",
+      "retention": "Superar el filtro de los primeros 3 segundos.",
+      "edit": "Primera palabra en el frame 0; encuadre subtleIn con settle; subtítulo desde el frame 0."
+    },
+    "build-up": {
+      "name": "Build Up",
+      "source": ["GC", "REF"],
+      "what": "Tras el veredicto, construir la base: norma, artículo, institución. Expectativa creciente hasta el giro.",
+      "function": "Dar respaldo jurídico verificable sin leer la norma.",
+      "retention": "Sostener la curva después del hook con información nueva cada 2–3 s.",
+      "edit": "Tarjeta de norma con tecleo + SFX type; empuje lento (slowPush) opcional."
+    },
+    "value": {
+      "name": "Value (aporte de valor)",
+      "source": ["GC", "REF"],
+      "what": "Traducción a lenguaje claro (\"o sea…\", \"eso significa…\") y pasos prácticos (\"¿Y qué hacer? Primero…\").",
+      "function": "Que una persona sin formación jurídica entienda y sepa actuar.",
+      "retention": "Recompensa la permanencia; motiva guardar el video.",
+      "edit": "Etiqueta seleccionada para el término técnico; lista de pasos o stickers-actor."
+    },
+    "cta": {
+      "name": "CTA",
+      "source": ["GC", "REF"],
+      "what": "Cierre fijo de marca: \"Sigue a Vocare Iuris y guarda este video. No sabes cuándo podrás necesitarlo.\"",
+      "function": "Convertir la utilidad percibida en seguimiento y guardados.",
+      "retention": "Guardados = señal de valor; el cierre corto evita caída final.",
+      "edit": "Encuadre base, sin gráficos que compitan; termina sin cola muda (< 0.3 s)."
+    },
+    "pattern-interrupt": {
+      "name": "Ruptura de patrón",
+      "source": ["GC", "REF"],
+      "what": "Cambio súbito de escala, sticker, letra gigante o aspa roja que rompe la monotonía del plano fijo.",
+      "function": "Marcar una idea importante o una negación.",
+      "retention": "Recuperar atención en caídas previsibles (cada 4–6 s sin estímulo).",
+      "edit": "Un estímulo visual cada ≤ 3 s; nunca dos grandes a la vez."
+    },
+    "punch-in": {
+      "name": "Punch-in / acercamiento estratégico",
+      "source": ["REF"],
+      "what": "Jump cut con cambio de escala ~1.10–1.17x en la frase clave.",
+      "function": "Enfatizar el veredicto o el giro (\"pero…\").",
+      "retention": "Sensación de ritmo sin cambiar de plano real.",
+      "edit": "framing: punchIn + SFX whoosh suave (-22 dB)."
+    },
+    "crash-zoom": {
+      "name": "Crash zoom",
+      "source": ["REF"],
+      "what": "Zoom rápido (~6–8 frames) hasta ~1.4x sobre el rostro.",
+      "function": "Sorpresa, complicidad o reacción (máx. 1 por video).",
+      "retention": "Estímulo fuerte de alto contraste visual.",
+      "edit": "move: crash + SFX whoosh."
+    },
+    "jump-cut-reframe": {
+      "name": "Jump cut con reencuadre",
+      "source": ["REF"],
+      "what": "Cada 1.2–2.5 s, corte en límite de palabra alternando encuadre base ↔ subtleIn.",
+      "function": "Eliminar silencios sin que el corte se note como error.",
+      "retention": "Ritmo constante de 3.2–3.6 palabras/s.",
+      "edit": "Automático en draft-edl."
+    },
+    "native-captions": {
+      "name": "Subtítulos que enganchan / textos nativos",
+      "source": ["GC", "REF"],
+      "what": "Una palabra a la vez, amarilla con glow, sobre la cabeza.",
+      "function": "Comprensión sin sonido y lectura sin esfuerzo.",
+      "retention": "El ojo sigue el ritmo de la voz; ancla la mirada en el rostro.",
+      "edit": "WordCaption."
+    },
+    "visual-stimulus": {
+      "name": "Estímulos visuales (stickers / B-roll)",
+      "source": ["GC", "REF"],
+      "what": "Emoji 3D o foto que representa al actor o la emoción (policía, banco, profesor, 😱).",
+      "function": "Representar la situación cotidiana en una imagen.",
+      "retention": "Novedad visual barata y legible.",
+      "edit": "Sticker / PhotoCard / BackgroundPlate + SFX pop."
+    },
+    "auditory-stimulus": {
+      "name": "Estímulos auditivos",
+      "source": ["GC", "REF"],
+      "what": "SFX discretos sincronizados con apariciones (pop, tecleo, whoosh).",
+      "function": "Subrayar el gráfico sin tapar la voz.",
+      "retention": "Refuerza la ruptura de patrón por un segundo canal.",
+      "edit": "SfxLayer, -14 a -22 dB."
+    },
+    "open-loop": {
+      "name": "Loop narrativo / pregunta abierta",
+      "source": ["REF", "REC"],
+      "what": "Pregunta del público formulada en voz (\"¿realmente el colegio puede prohibirlo?\") que se responde más tarde.",
+      "function": "Anticipar la objeción del espectador.",
+      "retention": "Genera expectativa hasta la respuesta.",
+      "edit": "Pausa conservada tras la pregunta (≤ 0.45 s) + sticker 🤨/🤔."
+    },
+    "editor-ui": {
+      "name": "Interfaz de edición visible",
+      "source": ["REF"],
+      "what": "Caja de selección azul con tiradores y cursor que \"selecciona\" un término.",
+      "function": "Convertir un término técnico en etiqueta memorable.",
+      "retention": "Rompe la cuarta pared; lenguaje nativo de creador.",
+      "edit": "SelectionLabel."
+    },
+    "verdict-loop": {
+      "name": "Cierre en bucle",
+      "source": ["REF"],
+      "what": "Repetir el veredicto inicial antes del CTA (\"cobrarte algo que nunca fue informado es ilegal\").",
+      "function": "Fijar el mensaje principal.",
+      "retention": "Coherencia hook–cierre favorece re-visualización.",
+      "edit": "Punch-in + énfasis en 'ilegal'; VerdictStamp opcional [REC]."
+    }
+  },
+  "roleToCodes": {
+    "hook": ["reveal-antihook", "native-captions"],
+    "reveal": ["reveal-antihook", "punch-in"],
+    "context": ["jump-cut-reframe", "visual-stimulus"],
+    "legal-basis": ["build-up", "auditory-stimulus"],
+    "translation": ["value", "editor-ui"],
+    "build-up": ["build-up"],
+    "twist": ["open-loop", "punch-in", "pattern-interrupt"],
+    "steps": ["value"],
+    "recap": ["verdict-loop"],
+    "cta": ["cta"]
+  }
+}
