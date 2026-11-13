@@ -1,0 +1,265 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "6.4 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "24 (footage 24)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "32.60 s (EDL 32.58 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14.2 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.4 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.03 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana 23 ms, p90 |113| ms, 83/118 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": false,
+      "level": "warn",
+      "detail": "35 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 83,
+    "total": 118,
+    "medianOffset": 0.022999999999999687,
+    "p90AbsOffset": 0.11299999999999955,
+    "mismatches": [
+      {
+        "at": 1.004,
+        "caption": "con",
+        "heard": "Kong Miguel"
+      },
+      {
+        "at": 6.873,
+        "caption": "hacer",
+        "heard": "hubiese querido ser? Hubiese"
+      },
+      {
+        "at": 7.967,
+        "caption": "publicidad",
+        "heard": "por la policía"
+      },
+      {
+        "at": 10.358,
+        "caption": "gusto",
+        "heard": "de ese..."
+      },
+      {
+        "at": 10.598,
+        "caption": "por",
+        "heard": "ese..."
+      },
+      {
+        "at": 10.838,
+        "caption": "el",
+        "heard": "(nada)"
+      },
+      {
+        "at": 10.938,
+        "caption": "teatro",
+        "heard": "(nada)"
+      },
+      {
+        "at": 11.318,
+        "caption": "le",
+        "heard": "(nada)"
+      },
+      {
+        "at": 11.498,
+        "caption": "ayuda",
+        "heard": "(nada)"
+      },
+      {
+        "at": 11.758,
+        "caption": "hoy",
+        "heard": "(nada)"
+      },
+      {
+        "at": 12.218,
+        "caption": "en",
+        "heard": "(nada)"
+      },
+      {
+        "at": 12.478,
+        "caption": "el",
+        "heard": "(nada)"
+      },
+      {
+        "at": 12.598,
+        "caption": "ejercicio",
+        "heard": "(nada)"
+      },
+      {
+        "at": 13.078,
+        "caption": "del",
+        "heard": "(nada)"
+      },
+      {
+        "at": 13.218,
+        "caption": "derecho",
+        "heard": "(nada)"
+      },
+      {
+        "at": 13.627,
+        "caption": "Me",
+        "heard": "(nada)"
+      },
+      {
+        "at": 13.855,
+        "caption": "ayuda",
+        "heard": "(nada)"
+      },
+      {
+        "at": 14.275,
+        "caption": "a",
+        "heard": "(nada)"
+      },
+      {
+        "at": 14.535,
+        "caption": "poder",
+        "heard": "(nada)"
+      },
+      {
+        "at": 14.615,
+        "caption": "presentar",
+        "heard": "(nada)"
+      },
+      {
+        "at": 15.435,
+        "caption": "el",
+        "heard": "(nada)"
+      },
+      {
+        "at": 15.595,
+        "caption": "caso",
+        "heard": "(nada)"
+      },
+      {
+        "at": 16.035,
+        "caption": "ante",
+        "heard": "(nada)"
+      },
+      {
+        "at": 16.775,
+        "caption": "los",
+        "heard": "¿Cuál"
+      },
+      {
+        "at": 17.035,
+        "caption": "tribunales",
+        "heard": "¿Cuál"
+      },
+      {
+        "at": 17.707,
+        "caption": "cree",
+        "heard": "crea que es"
+      },
+      {
+        "at": 28.913,
+        "caption": "8",
+        "heard": "ocho a"
+      },
+      {
+        "at": 29.113,
+        "caption": "de",
+        "heard": "ocho a noche,"
+      },
+      {
+        "at": 29.313,
+        "caption": "la",
+        "heard": "ocho a noche,"
+      },
+      {
+        "at": 30.513,
+        "caption": "estará",
+        "heard": "que es..."
+      },
+      {
+        "at": 30.773,
+        "caption": "organizando",
+        "heard": "es..."
+      },
+      {
+        "at": 31.273,
+        "caption": "Vocare",
+        "heard": "esperamos."
+      },
+      {
+        "at": 31.593,
+        "caption": "Iuris",
+        "heard": "esperamos."
+      },
+      {
+        "at": 31.923,
+        "caption": "Los",
+        "heard": "(nada)"
+      },
+      {
+        "at": 31.983,
+        "caption": "esperamos",
+        "heard": "(nada)"
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14.2,
+    "lra": 4.9,
+    "truePeakDb": -1.4
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/miraval/miraval-preview.mp4"
+}

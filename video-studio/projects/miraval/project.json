@@ -1,0 +1,31 @@
+{
+  "slug": "miraval",
+  "title": "Ping Pong con Miguel Eduardo Ramos Miraval",
+  "createdAt": "2026-11-13T18:17:40.783Z",
+  "raw": "footage/raw/miraval/miraval.mp4",
+  "proxy": "footage/miraval/source.mp4",
+  "status": "preview-renderizado",
+  "workflow": [
+    "ANÁLISIS",
+    "ESTRUCTURA NARRATIVA",
+    "CÓDIGOS NATIVOS",
+    "CANVAS VISUAL",
+    "APROBACIÓN",
+    "EDICIÓN COMPLETA",
+    "CONTROL DE CALIDAD",
+    "EXPORTACIÓN"
+  ],
+  "approval": {
+    "approved": false,
+    "approvedAt": null,
+    "notes": []
+  },
+  "editing": {
+    "minPause": 0.4
+  },
+  "lastRender": {
+    "file": "../previews/miraval/miraval-preview.mp4",
+    "at": "2026-11-13T19:16:27.917Z",
+    "preview": true
+  }
+}

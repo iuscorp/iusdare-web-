@@ -68,8 +68,7 @@
   {
    "match": "me hubiera seguido",
    "replace": [
-    "Me",
-    "hubiese",
+    "Hubiese",
     "ido"
    ]
   },
@@ -94,6 +93,13 @@
     "de",
     "la",
     "noche"
+   ]
+  },
+  {
+   "match": "querido ser",
+   "replace": [
+    "querido",
+    "hacer"
    ]
   }
  ]

@@ -1,0 +1,1499 @@
+{
+  "ranges": [
+    {
+      "in": 1.6,
+      "out": 2.58,
+      "words": [
+        {
+          "w": "Ping",
+          "s": 1.60879,
+          "e": 2.0925266666666666,
+          "p": 1,
+          "corrected": true,
+          "sel": 0,
+          "i": 0
+        },
+        {
+          "w": "Pong",
+          "s": 2.0925266666666666,
+          "e": 2.5762633333333333,
+          "p": 1,
+          "corrected": true,
+          "sel": 0,
+          "i": 1
+        }
+      ],
+      "text": "Ping Pong"
+    },
+    {
+      "in": 2.88,
+      "out": 3.18,
+      "words": [
+        {
+          "w": "con",
+          "s": 2.879,
+          "e": 3.06,
+          "p": 1,
+          "corrected": true,
+          "sel": 0,
+          "i": 2
+        }
+      ],
+      "text": "con"
+    },
+    {
+      "in": 3.58,
+      "out": 5.13,
+      "words": [
+        {
+          "w": "Miguel",
+          "s": 3.60004,
+          "e": 3.8,
+          "p": 0.715,
+          "take": 0,
+          "s0": 3.06,
+          "sel": 0,
+          "i": 3
+        },
+        {
+          "w": "Eduardo",
+          "s": 3.8,
+          "e": 4.18,
+          "p": 0.975,
+          "take": 0,
+          "s0": 3.8,
+          "sel": 0,
+          "i": 4
+        },
+        {
+          "w": "Ramos",
+          "s": 4.18,
+          "e": 4.64,
+          "p": 0.986,
+          "take": 0,
+          "s0": 4.18,
+          "sel": 0,
+          "i": 5
+        },
+        {
+          "w": "Miraval.",
+          "s": 4.64,
+          "e": 5.04,
+          "p": 1,
+          "corrected": true,
+          "sel": 0,
+          "i": 6
+        }
+      ],
+      "text": "Miguel Eduardo Ramos Miraval."
+    },
+    {
+      "in": 5.75,
+      "out": 6.49,
+      "words": [
+        {
+          "w": "¿A",
+          "s": 5.75,
+          "e": 5.8,
+          "p": 1,
+          "corrected": true,
+          "sel": 1,
+          "i": 7
+        },
+        {
+          "w": "qué",
+          "s": 5.75,
+          "e": 5.86,
+          "p": 1,
+          "corrected": true,
+          "sel": 1,
+          "i": 8
+        },
+        {
+          "w": "se",
+          "s": 5.86,
+          "e": 6.130000000000001,
+          "p": 1,
+          "corrected": true,
+          "sel": 1,
+          "i": 9
+        },
+        {
+          "w": "dedica??",
+          "s": 6.130000000000001,
+          "e": 6.4,
+          "p": 1,
+          "corrected": true,
+          "sel": 1,
+          "i": 10
+        }
+      ],
+      "text": "¿A qué se dedica??"
+    },
+    {
+      "in": 6.95,
+      "out": 8.63,
+      "words": [
+        {
+          "w": "Abogado",
+          "s": 6.95,
+          "e": 7.48,
+          "p": 0.675,
+          "take": 2,
+          "s0": 6.85,
+          "sel": 2,
+          "i": 11
+        },
+        {
+          "w": "y",
+          "s": 7.48,
+          "e": 7.66,
+          "p": 0.962,
+          "take": 2,
+          "s0": 7.48,
+          "sel": 2,
+          "i": 12
+        },
+        {
+          "w": "docente",
+          "s": 7.66,
+          "e": 8.02,
+          "p": 1,
+          "corrected": true,
+          "sel": 2,
+          "i": 13
+        },
+        {
+          "w": "universitario.",
+          "s": 8.02,
+          "e": 8.63,
+          "p": 0.854,
+          "take": 2,
+          "s0": 8.02,
+          "sel": 2,
+          "i": 14
+        }
+      ],
+      "text": "Abogado y docente universitario."
+    },
+    {
+      "in": 9.68,
+      "out": 11.6,
+      "words": [
+        {
+          "w": "Si",
+          "s": 9.676,
+          "e": 9.8,
+          "p": 0.686,
+          "take": 3,
+          "s0": 9.48,
+          "sel": 3,
+          "i": 15
+        },
+        {
+          "w": "no",
+          "s": 9.8,
+          "e": 9.94,
+          "p": 0.995,
+          "take": 3,
+          "s0": 9.8,
+          "sel": 3,
+          "i": 16
+        },
+        {
+          "w": "hubiese",
+          "s": 9.94,
+          "e": 10.1,
+          "p": 0.965,
+          "take": 3,
+          "s0": 9.94,
+          "sel": 3,
+          "i": 17
+        },
+        {
+          "w": "sido",
+          "s": 10.1,
+          "e": 10.3,
+          "p": 0.997,
+          "take": 3,
+          "s0": 10.1,
+          "sel": 3,
+          "i": 18
+        },
+        {
+          "w": "abogado,",
+          "s": 10.3,
+          "e": 10.74,
+          "p": 0.977,
+          "take": 3,
+          "s0": 10.3,
+          "sel": 3,
+          "i": 19
+        },
+        {
+          "w": "¿qué",
+          "s": 10.82,
+          "e": 10.9,
+          "p": 0.842,
+          "take": 3,
+          "s0": 10.82,
+          "sel": 3,
+          "i": 20
+        },
+        {
+          "w": "hubiese",
+          "s": 10.9,
+          "e": 11.06,
+          "p": 0.998,
+          "take": 3,
+          "s0": 10.9,
+          "sel": 3,
+          "i": 21
+        },
+        {
+          "w": "querido",
+          "s": 11.06,
+          "e": 11.29,
+          "p": 1,
+          "corrected": true,
+          "sel": 3,
+          "i": 22
+        },
+        {
+          "w": "hacer?",
+          "s": 11.29,
+          "e": 11.52,
+          "p": 1,
+          "corrected": true,
+          "sel": 3,
+          "i": 23
+        }
+      ],
+      "text": "Si no hubiese sido abogado, ¿qué hubiese querido hacer?"
+    },
+    {
+      "in": 19.74,
+      "out": 21.82,
+      "words": [
+        {
+          "w": "Hubiese",
+          "s": 19.737,
+          "e": 19.86855,
+          "p": 1,
+          "corrected": true,
+          "sel": 4,
+          "i": 24
+        },
+        {
+          "w": "ido",
+          "s": 19.86855,
+          "e": 20.27,
+          "p": 1,
+          "corrected": true,
+          "sel": 4,
+          "i": 25
+        },
+        {
+          "w": "por",
+          "s": 20.27,
+          "e": 20.43,
+          "p": 0.894,
+          "take": 4,
+          "s0": 20.27,
+          "sel": 4,
+          "i": 26
+        },
+        {
+          "w": "la",
+          "s": 20.43,
+          "e": 20.55,
+          "p": 0.971,
+          "take": 4,
+          "s0": 20.43,
+          "sel": 4,
+          "i": 27
+        },
+        {
+          "w": "publicidad",
+          "s": 20.55,
+          "e": 21.05,
+          "p": 0.875,
+          "take": 4,
+          "s0": 20.55,
+          "sel": 4,
+          "i": 28
+        },
+        {
+          "w": "o",
+          "s": 21.05,
+          "e": 21.35,
+          "p": 0.895,
+          "take": 4,
+          "s0": 21.05,
+          "sel": 4,
+          "i": 29
+        },
+        {
+          "w": "el",
+          "s": 21.35,
+          "e": 21.53,
+          "p": 0.913,
+          "take": 4,
+          "s0": 21.35,
+          "sel": 4,
+          "i": 30
+        },
+        {
+          "w": "teatro.",
+          "s": 21.53,
+          "e": 21.817,
+          "p": 0.973,
+          "take": 4,
+          "s0": 21.53,
+          "sel": 4,
+          "i": 31
+        }
+      ],
+      "text": "Hubiese ido por la publicidad o el teatro."
+    },
+    {
+      "in": 23.05,
+      "out": 27.4,
+      "words": [
+        {
+          "w": "Y",
+          "s": 23.046,
+          "e": 23.17,
+          "p": 0.605,
+          "take": 5,
+          "s0": 22.52,
+          "sel": 5,
+          "i": 32
+        },
+        {
+          "w": "cree",
+          "s": 23.17,
+          "e": 23.37,
+          "p": 0.766,
+          "take": 5,
+          "s0": 23.17,
+          "sel": 5,
+          "i": 33
+        },
+        {
+          "w": "que",
+          "s": 23.37,
+          "e": 23.55,
+          "p": 0.991,
+          "take": 5,
+          "s0": 23.37,
+          "sel": 5,
+          "i": 34
+        },
+        {
+          "w": "algo",
+          "s": 23.55,
+          "e": 23.81,
+          "p": 0.991,
+          "take": 5,
+          "s0": 23.55,
+          "sel": 5,
+          "i": 35
+        },
+        {
+          "w": "de",
+          "s": 23.81,
+          "e": 23.99,
+          "p": 0.979,
+          "take": 5,
+          "s0": 23.81,
+          "sel": 5,
+          "i": 36
+        },
+        {
+          "w": "ese",
+          "s": 23.99,
+          "e": 24.15,
+          "p": 0.933,
+          "take": 5,
+          "s0": 23.99,
+          "sel": 5,
+          "i": 37
+        },
+        {
+          "w": "gusto",
+          "s": 24.15,
+          "e": 24.39,
+          "p": 0.994,
+          "take": 5,
+          "s0": 24.15,
+          "sel": 5,
+          "i": 38
+        },
+        {
+          "w": "por",
+          "s": 24.39,
+          "e": 24.63,
+          "p": 0.947,
+          "take": 5,
+          "s0": 24.39,
+          "sel": 5,
+          "i": 39
+        },
+        {
+          "w": "el",
+          "s": 24.63,
+          "e": 24.73,
+          "p": 0.978,
+          "take": 5,
+          "s0": 24.63,
+          "sel": 5,
+          "i": 40
+        },
+        {
+          "w": "teatro",
+          "s": 24.73,
+          "e": 25.11,
+          "p": 0.909,
+          "take": 5,
+          "s0": 24.73,
+          "sel": 5,
+          "i": 41
+        },
+        {
+          "w": "le",
+          "s": 25.11,
+          "e": 25.29,
+          "p": 0.894,
+          "take": 5,
+          "s0": 25.11,
+          "sel": 5,
+          "i": 42
+        },
+        {
+          "w": "ayuda",
+          "s": 25.29,
+          "e": 25.55,
+          "p": 0.993,
+          "take": 5,
+          "s0": 25.29,
+          "sel": 5,
+          "i": 43
+        },
+        {
+          "w": "hoy",
+          "s": 25.55,
+          "e": 26.01,
+          "p": 0.935,
+          "take": 5,
+          "s0": 25.55,
+          "sel": 5,
+          "i": 44
+        },
+        {
+          "w": "en",
+          "s": 26.01,
+          "e": 26.27,
+          "p": 0.913,
+          "take": 5,
+          "s0": 26.01,
+          "sel": 5,
+          "i": 45
+        },
+        {
+          "w": "el",
+          "s": 26.27,
+          "e": 26.39,
+          "p": 0.991,
+          "take": 5,
+          "s0": 26.27,
+          "sel": 5,
+          "i": 46
+        },
+        {
+          "w": "ejercicio",
+          "s": 26.39,
+          "e": 26.87,
+          "p": 0.99,
+          "take": 5,
+          "s0": 26.39,
+          "sel": 5,
+          "i": 47
+        },
+        {
+          "w": "del",
+          "s": 26.87,
+          "e": 27.01,
+          "p": 0.932,
+          "take": 5,
+          "s0": 26.87,
+          "sel": 5,
+          "i": 48
+        },
+        {
+          "w": "derecho.",
+          "s": 27.01,
+          "e": 27.31,
+          "p": 0.965,
+          "take": 5,
+          "s0": 27.01,
+          "sel": 5,
+          "i": 49
+        }
+      ],
+      "text": "Y cree que algo de ese gusto por el teatro le ayuda hoy en el ejercicio del derecho."
+    },
+    {
+      "in": 40.98,
+      "out": 44.93,
+      "words": [
+        {
+          "w": "Me",
+          "s": 41.0015,
+          "e": 41.23,
+          "p": 0.285,
+          "take": 6,
+          "s0": 40.3,
+          "sel": 6,
+          "i": 50
+        },
+        {
+          "w": "ayuda",
+          "s": 41.23,
+          "e": 41.65,
+          "p": 0.963,
+          "take": 6,
+          "s0": 41.23,
+          "sel": 6,
+          "i": 51
+        },
+        {
+          "w": "a",
+          "s": 41.65,
+          "e": 41.91,
+          "p": 0.87,
+          "take": 6,
+          "s0": 41.65,
+          "sel": 6,
+          "i": 52
+        },
+        {
+          "w": "poder",
+          "s": 41.91,
+          "e": 41.99,
+          "p": 0.976,
+          "take": 6,
+          "s0": 41.91,
+          "sel": 6,
+          "i": 53
+        },
+        {
+          "w": "presentar",
+          "s": 41.99,
+          "e": 42.81,
+          "p": 0.991,
+          "take": 6,
+          "s0": 41.99,
+          "sel": 6,
+          "i": 54
+        },
+        {
+          "w": "el",
+          "s": 42.81,
+          "e": 42.97,
+          "p": 0.996,
+          "take": 6,
+          "s0": 42.81,
+          "sel": 6,
+          "i": 55
+        },
+        {
+          "w": "caso",
+          "s": 42.97,
+          "e": 43.41,
+          "p": 0.999,
+          "take": 6,
+          "s0": 42.97,
+          "sel": 6,
+          "i": 56
+        },
+        {
+          "w": "ante",
+          "s": 43.41,
+          "e": 44.15,
+          "p": 0.86,
+          "take": 6,
+          "s0": 43.41,
+          "sel": 6,
+          "i": 57
+        },
+        {
+          "w": "los",
+          "s": 44.15,
+          "e": 44.41,
+          "p": 0.992,
+          "take": 6,
+          "s0": 44.15,
+          "sel": 6,
+          "i": 58
+        },
+        {
+          "w": "tribunales.",
+          "s": 44.41,
+          "e": 44.89,
+          "p": 0.986,
+          "take": 6,
+          "s0": 44.41,
+          "sel": 6,
+          "i": 59
+        }
+      ],
+      "text": "Me ayuda a poder presentar el caso ante los tribunales."
+    },
+    {
+      "in": 55.63,
+      "out": 58.55,
+      "words": [
+        {
+          "w": "¿Cuál",
+          "s": 55.631,
+          "e": 55.79,
+          "p": 0.885,
+          "take": 7,
+          "s0": 55.37,
+          "sel": 7,
+          "i": 60
+        },
+        {
+          "w": "cree",
+          "s": 55.79,
+          "e": 55.96,
+          "p": 1,
+          "corrected": true,
+          "sel": 7,
+          "i": 61
+        },
+        {
+          "w": "que",
+          "s": 55.96,
+          "e": 56.13,
+          "p": 1,
+          "corrected": true,
+          "sel": 7,
+          "i": 62
+        },
+        {
+          "w": "es",
+          "s": 56.13,
+          "e": 56.31,
+          "p": 0.968,
+          "take": 7,
+          "s0": 56.13,
+          "sel": 7,
+          "i": 63
+        },
+        {
+          "w": "el",
+          "s": 56.31,
+          "e": 56.41,
+          "p": 0.986,
+          "take": 7,
+          "s0": 56.31,
+          "sel": 7,
+          "i": 64
+        },
+        {
+          "w": "error",
+          "s": 56.41,
+          "e": 56.63,
+          "p": 0.986,
+          "take": 7,
+          "s0": 56.41,
+          "sel": 7,
+          "i": 65
+        },
+        {
+          "w": "más",
+          "s": 56.63,
+          "e": 56.89,
+          "p": 0.961,
+          "take": 7,
+          "s0": 56.63,
+          "sel": 7,
+          "i": 66
+        },
+        {
+          "w": "común",
+          "s": 56.89,
+          "e": 57.25,
+          "p": 0.995,
+          "take": 7,
+          "s0": 56.89,
+          "sel": 7,
+          "i": 67
+        },
+        {
+          "w": "en",
+          "s": 57.25,
+          "e": 57.45,
+          "p": 0.962,
+          "take": 7,
+          "s0": 57.25,
+          "sel": 7,
+          "i": 68
+        },
+        {
+          "w": "los",
+          "s": 57.45,
+          "e": 57.57,
+          "p": 0.968,
+          "take": 7,
+          "s0": 57.45,
+          "sel": 7,
+          "i": 69
+        },
+        {
+          "w": "procesos",
+          "s": 57.57,
+          "e": 58.01,
+          "p": 0.996,
+          "take": 7,
+          "s0": 57.57,
+          "sel": 7,
+          "i": 70
+        },
+        {
+          "w": "de",
+          "s": 58.01,
+          "e": 58.11,
+          "p": 0.989,
+          "take": 7,
+          "s0": 58.01,
+          "sel": 7,
+          "i": 71
+        },
+        {
+          "w": "alimentos?",
+          "s": 58.11,
+          "e": 58.31,
+          "p": 0.938,
+          "take": 7,
+          "s0": 58.11,
+          "sel": 7,
+          "i": 72
+        }
+      ],
+      "text": "¿Cuál cree que es el error más común en los procesos de alimentos?"
+    },
+    {
+      "in": 59.24,
+      "out": 62.31,
+      "words": [
+        {
+          "w": "Considerar",
+          "s": 59.4,
+          "e": 59.97,
+          "p": 0.506,
+          "take": 8,
+          "s0": 59.3,
+          "sel": 8,
+          "i": 73
+        },
+        {
+          "w": "que",
+          "s": 59.97,
+          "e": 60.11,
+          "p": 0.989,
+          "take": 8,
+          "s0": 59.97,
+          "sel": 8,
+          "i": 74
+        },
+        {
+          "w": "el",
+          "s": 60.11,
+          "e": 60.21,
+          "p": 0.857,
+          "take": 8,
+          "s0": 60.11,
+          "sel": 8,
+          "i": 75
+        },
+        {
+          "w": "alimentista",
+          "s": 60.21,
+          "e": 60.91,
+          "p": 0.912,
+          "take": 8,
+          "s0": 60.21,
+          "sel": 8,
+          "i": 76
+        },
+        {
+          "w": "tiene",
+          "s": 60.91,
+          "e": 61.19,
+          "p": 0.984,
+          "take": 8,
+          "s0": 60.91,
+          "sel": 8,
+          "i": 77
+        },
+        {
+          "w": "que",
+          "s": 61.19,
+          "e": 61.35,
+          "p": 0.997,
+          "take": 8,
+          "s0": 61.19,
+          "sel": 8,
+          "i": 78
+        },
+        {
+          "w": "pagar",
+          "s": 61.35,
+          "e": 61.53,
+          "p": 0.65,
+          "take": 8,
+          "s0": 61.35,
+          "sel": 8,
+          "i": 79
+        },
+        {
+          "w": "tasas",
+          "s": 61.53,
+          "e": 61.85,
+          "p": 0.786,
+          "take": 8,
+          "s0": 61.53,
+          "sel": 8,
+          "i": 80
+        },
+        {
+          "w": "judiciales.",
+          "s": 61.85,
+          "e": 62.31,
+          "p": 0.939,
+          "take": 8,
+          "s0": 61.85,
+          "sel": 8,
+          "i": 81
+        }
+      ],
+      "text": "Considerar que el alimentista tiene que pagar tasas judiciales."
+    },
+    {
+      "in": 100.98,
+      "out": 103.13,
+      "words": [
+        {
+          "w": "Y",
+          "s": 100.98,
+          "e": 101.11,
+          "p": 0.557,
+          "take": 9,
+          "s0": 100.75,
+          "sel": 9,
+          "i": 82
+        },
+        {
+          "w": "el",
+          "s": 101.11,
+          "e": 101.28999999999999,
+          "p": 1,
+          "corrected": true,
+          "sel": 9,
+          "i": 83
+        },
+        {
+          "w": "mito",
+          "s": 101.28999999999999,
+          "e": 101.47,
+          "p": 1,
+          "corrected": true,
+          "sel": 9,
+          "i": 84
+        },
+        {
+          "w": "más",
+          "s": 101.47,
+          "e": 101.63,
+          "p": 0.909,
+          "take": 9,
+          "s0": 101.47,
+          "sel": 9,
+          "i": 85
+        },
+        {
+          "w": "común",
+          "s": 101.63,
+          "e": 101.87,
+          "p": 0.907,
+          "take": 9,
+          "s0": 101.63,
+          "sel": 9,
+          "i": 86
+        },
+        {
+          "w": "sobre",
+          "s": 101.87,
+          "e": 102.13,
+          "p": 0.979,
+          "take": 9,
+          "s0": 101.87,
+          "sel": 9,
+          "i": 87
+        },
+        {
+          "w": "los",
+          "s": 102.13,
+          "e": 102.29,
+          "p": 0.938,
+          "take": 9,
+          "s0": 102.13,
+          "sel": 9,
+          "i": 88
+        },
+        {
+          "w": "procesos",
+          "s": 102.29,
+          "e": 102.69,
+          "p": 0.98,
+          "take": 9,
+          "s0": 102.29,
+          "sel": 9,
+          "i": 89
+        },
+        {
+          "w": "de",
+          "s": 102.69,
+          "e": 102.77,
+          "p": 0.937,
+          "take": 9,
+          "s0": 102.69,
+          "sel": 9,
+          "i": 90
+        },
+        {
+          "w": "alimentos.",
+          "s": 102.77,
+          "e": 102.91,
+          "p": 0.937,
+          "take": 9,
+          "s0": 102.77,
+          "sel": 9,
+          "i": 91
+        }
+      ],
+      "text": "Y el mito más común sobre los procesos de alimentos."
+    },
+    {
+      "in": 104.14,
+      "out": 105.23,
+      "words": [
+        {
+          "w": "Eso",
+          "s": 104.14,
+          "e": 104.3,
+          "p": 0.52,
+          "take": 10,
+          "s0": 104,
+          "sel": 10,
+          "i": 92
+        },
+        {
+          "w": "lo",
+          "s": 104.3,
+          "e": 104.44,
+          "p": 0.99,
+          "take": 10,
+          "s0": 104.3,
+          "sel": 10,
+          "i": 93
+        },
+        {
+          "w": "veremos",
+          "s": 104.44,
+          "e": 104.76,
+          "p": 0.995,
+          "take": 10,
+          "s0": 104.44,
+          "sel": 10,
+          "i": 94
+        },
+        {
+          "w": "en",
+          "s": 104.76,
+          "e": 104.92,
+          "p": 0.99,
+          "take": 10,
+          "s0": 104.76,
+          "sel": 10,
+          "i": 95
+        },
+        {
+          "w": "el",
+          "s": 104.92,
+          "e": 105.02,
+          "p": 0.928,
+          "take": 10,
+          "s0": 104.92,
+          "sel": 10,
+          "i": 96
+        },
+        {
+          "w": "live.",
+          "s": 105.02,
+          "e": 105.14,
+          "p": 0.491,
+          "take": 10,
+          "s0": 105.02,
+          "sel": 10,
+          "i": 97
+        }
+      ],
+      "text": "Eso lo veremos en el live."
+    },
+    {
+      "in": 125.16,
+      "out": 130.33,
+      "words": [
+        {
+          "w": "Nos",
+          "s": 125.2,
+          "e": 125.31,
+          "p": 0.173,
+          "take": 11,
+          "s0": 125.1,
+          "sel": 11,
+          "i": 98
+        },
+        {
+          "w": "vemos",
+          "s": 125.31,
+          "e": 125.95,
+          "p": 0.993,
+          "take": 11,
+          "s0": 125.31,
+          "sel": 11,
+          "i": 99
+        },
+        {
+          "w": "este",
+          "s": 125.95,
+          "e": 126.23,
+          "p": 0.929,
+          "take": 11,
+          "s0": 125.95,
+          "sel": 11,
+          "i": 100
+        },
+        {
+          "w": "26",
+          "s": 126.23,
+          "e": 126.63,
+          "p": 0.698,
+          "take": 11,
+          "s0": 126.23,
+          "sel": 11,
+          "i": 101
+        },
+        {
+          "w": "de",
+          "s": 126.63,
+          "e": 126.79,
+          "p": 0.97,
+          "take": 11,
+          "s0": 126.63,
+          "sel": 11,
+          "i": 102
+        },
+        {
+          "w": "noviembre",
+          "s": 126.79,
+          "e": 127.33,
+          "p": 0.947,
+          "take": 11,
+          "s0": 126.79,
+          "sel": 11,
+          "i": 103
+        },
+        {
+          "w": "8",
+          "s": 127.33,
+          "e": 127.53,
+          "p": 1,
+          "corrected": true,
+          "sel": 11,
+          "i": 104
+        },
+        {
+          "w": "de",
+          "s": 127.53,
+          "e": 127.72999999999999,
+          "p": 1,
+          "corrected": true,
+          "sel": 11,
+          "i": 105
+        },
+        {
+          "w": "la",
+          "s": 127.72999999999999,
+          "e": 127.92999999999999,
+          "p": 1,
+          "corrected": true,
+          "sel": 11,
+          "i": 106
+        },
+        {
+          "w": "noche",
+          "s": 127.92999999999999,
+          "e": 128.13,
+          "p": 1,
+          "corrected": true,
+          "sel": 11,
+          "i": 107
+        },
+        {
+          "w": "en",
+          "s": 128.13,
+          "e": 128.41,
+          "p": 0.958,
+          "take": 11,
+          "s0": 128.13,
+          "sel": 11,
+          "i": 108
+        },
+        {
+          "w": "el",
+          "s": 128.41,
+          "e": 128.55,
+          "p": 0.97,
+          "take": 11,
+          "s0": 128.41,
+          "sel": 11,
+          "i": 109
+        },
+        {
+          "w": "live",
+          "s": 128.55,
+          "e": 128.73,
+          "p": 0.466,
+          "take": 11,
+          "s0": 128.55,
+          "sel": 11,
+          "i": 110
+        },
+        {
+          "w": "que",
+          "s": 128.73,
+          "e": 128.93,
+          "p": 0.977,
+          "take": 11,
+          "s0": 128.73,
+          "sel": 11,
+          "i": 111
+        },
+        {
+          "w": "estará",
+          "s": 128.93,
+          "e": 129.19,
+          "p": 0.566,
+          "take": 11,
+          "s0": 128.93,
+          "sel": 11,
+          "i": 112
+        },
+        {
+          "w": "organizando",
+          "s": 129.19,
+          "e": 129.69,
+          "p": 0.975,
+          "take": 11,
+          "s0": 129.19,
+          "sel": 11,
+          "i": 113
+        },
+        {
+          "w": "Vocare",
+          "s": 129.69,
+          "e": 130.01,
+          "p": 0.032,
+          "take": 11,
+          "s0": 129.69,
+          "sel": 11,
+          "i": 114
+        },
+        {
+          "w": "Iuris.",
+          "s": 130.01,
+          "e": 130.33,
+          "p": 0.564,
+          "take": 11,
+          "s0": 130.01,
+          "sel": 11,
+          "i": 115
+        }
+      ],
+      "text": "Nos vemos este 26 de noviembre 8 de la noche en el live que estará organizando Vocare Iuris."
+    },
+    {
+      "in": 135.84,
+      "out": 136.49,
+      "words": [
+        {
+          "w": "Los",
+          "s": 135.84,
+          "e": 135.9,
+          "p": 0.392,
+          "take": 12,
+          "s0": 135.6,
+          "sel": 12,
+          "i": 116
+        },
+        {
+          "w": "esperamos.",
+          "s": 135.9,
+          "e": 136.4,
+          "p": 0.998,
+          "take": 12,
+          "s0": 135.9,
+          "sel": 12,
+          "i": 117
+        }
+      ],
+      "text": "Los esperamos."
+    }
+  ],
+  "removed": [
+    {
+      "kind": "silence",
+      "from": 3.06,
+      "to": 3.6,
+      "text": "0.54 s → 0.17 s"
+    }
+  ],
+  "keptPauses": [],
+  "flags": [
+    {
+      "kind": "low-confidence",
+      "at": 41.0015,
+      "text": "Me",
+      "p": 0.285,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 59.3,
+      "text": "Considerar",
+      "p": 0.506,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 104,
+      "text": "Eso",
+      "p": 0.52,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 105.02,
+      "text": "live.",
+      "p": 0.491,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 125.1,
+      "text": "Nos",
+      "p": 0.173,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "soft-filler",
+      "at": 125.95,
+      "text": "este",
+      "note": "Revisar: puede tener función (transición o traducción)."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 128.55,
+      "text": "live",
+      "p": 0.466,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 129.69,
+      "text": "Vocare",
+      "p": 0.032,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 135.6,
+      "text": "Los",
+      "p": 0.392,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "off-camera-voice",
+      "at": 5.75,
+      "text": "¿A qué se dedica??",
+      "note": "88 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    },
+    {
+      "kind": "off-camera-voice",
+      "at": 9.68,
+      "text": "Si no hubiese sido abogado, ¿qué hubiese querido hacer?",
+      "note": "85 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    },
+    {
+      "kind": "off-camera-voice",
+      "at": 23.05,
+      "text": "Y cree que algo de ese gusto por el teatro le ayuda hoy en el ejercicio del derecho.",
+      "note": "91 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    },
+    {
+      "kind": "off-camera-voice",
+      "at": 55.63,
+      "text": "¿Cuál cree que es el error más común en los procesos de alimentos?",
+      "note": "100 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    },
+    {
+      "kind": "off-camera-voice",
+      "at": 59.24,
+      "text": "Considerar que el alimentista tiene que pagar tasas judiciales.",
+      "note": "100 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    },
+    {
+      "kind": "off-camera-voice",
+      "at": 100.98,
+      "text": "Y el mito más común sobre los procesos de alimentos.",
+      "note": "100 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    },
+    {
+      "kind": "off-camera-voice",
+      "at": 104.14,
+      "text": "Eso lo veremos en el live.",
+      "note": "100 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    }
+  ],
+  "stats": {
+    "sourceDuration": 137.131,
+    "sourceSpeechSpan": 134.791,
+    "outputDuration": 32.6,
+    "savedSeconds": 102.077,
+    "words": 118,
+    "wordsPerSecond": 3.366,
+    "acousticAirRemoved": 2.96
+  },
+  "speaker": [
+    {
+      "in": 1.6,
+      "out": 2.58,
+      "text": "Ping Pong",
+      "timeline": "ddNN.NNNN.",
+      "offCamera": 0.25
+    },
+    {
+      "in": 2.88,
+      "out": 3.18,
+      "text": "con",
+      "timeline": "NNN",
+      "offCamera": 0
+    },
+    {
+      "in": 3.58,
+      "out": 5.13,
+      "text": "Miguel Eduardo Ramos Miraval.",
+      "timeline": "NNNNNNNNNNNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 5.75,
+      "out": 6.49,
+      "text": "¿A qué se dedica??",
+      "timeline": "Nddddddd",
+      "offCamera": 0.88
+    },
+    {
+      "in": 6.95,
+      "out": 8.63,
+      "text": "Abogado y docente universitario.",
+      "timeline": "NNNNNNNNNNNNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 9.68,
+      "out": 11.6,
+      "text": "Si no hubiese sido abogado, ¿qué hubiese querido hacer?",
+      "timeline": "dddddddddddddddddNNN",
+      "offCamera": 0.85
+    },
+    {
+      "in": 19.74,
+      "out": 21.82,
+      "text": "Hubiese ido por la publicidad o el teatro.",
+      "timeline": "dNNNNNNNNNNNNNNNNNNNN",
+      "offCamera": 0.05
+    },
+    {
+      "in": 23.05,
+      "out": 27.4,
+      "text": "Y cree que algo de ese gusto por el teatro le ayuda hoy en el ejercicio del derecho.",
+      "timeline": "dddddddddddddddddddddddddddddddddNNN.Ndddddd",
+      "offCamera": 0.91
+    },
+    {
+      "in": 40.98,
+      "out": 44.93,
+      "text": "Me ayuda a poder presentar el caso ante los tribunales.",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNddNNNNNNNNNNNN.",
+      "offCamera": 0.05
+    },
+    {
+      "in": 55.63,
+      "out": 58.55,
+      "text": "¿Cuál cree que es el error más común en los procesos de alimentos?",
+      "timeline": "dddddddddddddddddddddddddddddd",
+      "offCamera": 1
+    },
+    {
+      "in": 59.24,
+      "out": 62.31,
+      "text": "Considerar que el alimentista tiene que pagar tasas judiciales.",
+      "timeline": "ddddddddddddddddddddddddddddddd",
+      "offCamera": 1
+    },
+    {
+      "in": 100.98,
+      "out": 103.13,
+      "text": "Y el mito más común sobre los procesos de alimentos.",
+      "timeline": "dddddddddddddddddddddd",
+      "offCamera": 1
+    },
+    {
+      "in": 104.14,
+      "out": 105.23,
+      "text": "Eso lo veremos en el live.",
+      "timeline": "ddddddddddd",
+      "offCamera": 1
+    },
+    {
+      "in": 125.16,
+      "out": 130.33,
+      "text": "Nos vemos este 26 de noviembre 8 de la noche en el live que estará organizando Vocare Iuris.",
+      "timeline": "NN..NNNNNNNNNNNNNNNNNNNdNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+      "offCamera": 0.02
+    },
+    {
+      "in": 135.84,
+      "out": 136.49,
+      "text": "Los esperamos.",
+      "timeline": "NNNNNNN",
+      "offCamera": 0
+    }
+  ]
+}
