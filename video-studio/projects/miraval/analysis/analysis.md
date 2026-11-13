@@ -18,16 +18,18 @@
 > A dos, tres va. Pink, Pong, Kong. Miguel Eduardo Ramos Mirabal. ¿A qué se dedica? Abogado y docente universitario. Si no hubiese sido abogado, ¿qué hubiese querido ser? Me hubiese ido por el tema de policía o el teatro. Una vez más la repuesta o la repuesta. Me hubiese ido por la policía o el teatro. ¿Y cree que algo de ese gusto por el teatro le ayuda hoy en el ejercicio del derecho? me ayuda para presentar los casos que considero que deben ser de conocimiento y la justicia. Una vez más la respuesta. Me ayuda a, voy a otra vez, me ayuda a poder presentar el caso ante los tribunales. ¿Cuál cree que os...? No, no nos quedamos. ¿La pregunta? Sí, te he tocado un tipo de preguntado. Ok. ¿Cuál cree que es el error más común en los procesos de alimentos? Considerar que el alimentista tiene que pagar tasas judiciales. ¿Y el mito más común del proceso de alimentos? Considerar que... O sea, ahí bien. Vamos a ir juntos, estas frases nos están moviendo. Ya, ahí. Y a él en esa respuesta eso lo veremos en el live. Ahí va. Y el mito más común sobre el proceso de alimentos, eso lo veremos en el live. Ya eso lo veremos en el live, la idea es que mira cámara cuando lo esté diciendo uno vez más. Y el mito más común sobre los derechos. Y el mito más común sobre los procesos de alimentos, eso lo veremos en el live. No vemos este 26 de noviembre ocho a noche en el live que alemos con Boca de Iuris, los esperamos. Ya una vez más. Nos vemos este 26 de noviembre ocho a noche en el live que estará organizando... Bueno, si no lo podemos separar también. Nos vemos este 26 de noviembre, las ocho a la noche. Ya, nos vemos este 26 de noviembre ocho a noche en el live que estará organizando Boca de Iuris. Los esperamos. ¿Y ahora más la parte de los esperamos? Ya, los esperamos.
 
 ## Limpieza propuesta
-- Duración original: 137.13 s → editada: **32.60 s** (−102.08 s).
-- Ritmo resultante: **3.366 palabras/s** (referencias: 3.2–3.6).
-- Eliminado: 1 elementos (1 silencios, 0 muletillas, 0 tomas repetidas, 0 tartamudeos).
+- Duración original: 137.13 s → editada: **33.65 s** (−101.16 s).
+- Ritmo resultante: **3.447 palabras/s** (referencias: 3.2–3.6).
+- Eliminado: 2 elementos (2 silencios, 0 muletillas, 0 tomas repetidas, 0 tartamudeos).
 - Pausas conservadas con función: 0.
-- Para revisar: 16 (muletillas blandas / palabras de baja confianza).
+- Para revisar: 17 (muletillas blandas / palabras de baja confianza).
 
 - `3.06–3.60` **silence** 0.54 s → 0.17 s
+- `28.45–29.05` **silence** 0.60 s → 0.17 s
 
 ### Revisión manual
-- `41.00` low-confidence: “Me” — Verificar ortografía/término en subtítulo.
+- `27.71` low-confidence: “Me” — Verificar ortografía/término en subtítulo.
+- `31.93` low-confidence: “de” — Verificar ortografía/término en subtítulo.
 - `59.30` low-confidence: “Considerar” — Verificar ortografía/término en subtítulo.
 - `104.00` low-confidence: “Eso” — Verificar ortografía/término en subtítulo.
 - `105.02` low-confidence: “live.” — Verificar ortografía/término en subtítulo.

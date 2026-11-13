@@ -2,7 +2,7 @@
  "model": "small",
  "language": "es",
  "duration": 137.131,
- "text": "Pink Pong Kong Miguel Eduardo Ramos Mirabal. ¿A qué se dedica? Abogado y docento universitario. Si no hubiese sido abogado, ¿qué hubiese querido ser? Me hubiera seguido por la publicidad o el teatro. Y cree que algo de ese gusto por el teatro le ayuda hoy en el ejercicio del derecho. Me ayuda a poder presentar el caso ante los tribunales. ¿Cuál crea que es el error más común en los procesos de alimentos? Considerar que el alimentista tiene que pagar tasas judiciales. Y él mita más común sobre los procesos de alimentos. Eso lo veremos en el live. Nos vemos este 26 de noviembre ocho a noche en el live que estará organizando Vocare Iuris. Los esperamos.",
+ "text": "Pink Pong Kong Miguel Eduardo Ramos Mirabal. ¿A qué se dedica? Abogado y docento universitario. Si no hubiese sido abogado, ¿qué hubiese querido ser? Me hubiera seguido por la publicidad o el teatro. Y cree que algo de ese gusto por el teatro le ayuda hoy en el ejercicio del derecho. Me ayuda para presentar los casos que considero que deben ser de conocimiento y la justicia. ¿Cuál crea que es el error más común en los procesos de alimentos? Considerar que el alimentista tiene que pagar tasas judiciales. Y él mita más común sobre los procesos de alimentos. Eso lo veremos en el live. Nos vemos este 26 de noviembre ocho a noche en el live que estará organizando Vocare Iuris. Los esperamos.",
  "segments": [
   {
    "start": 1.1,
@@ -36,14 +36,14 @@
   },
   {
    "start": 22.27,
-   "end": 27.31,
+   "end": 27.27,
    "text": "Y cree que algo de ese gusto por el teatro le ayuda hoy en el ejercicio del derecho.",
    "take": 5
   },
   {
-   "start": 40.05,
-   "end": 44.89,
-   "text": "Me ayuda a poder presentar el caso ante los tribunales.",
+   "start": 27.35,
+   "end": 33.07,
+   "text": "Me ayuda para presentar los casos que considero que deben ser de conocimiento y la justicia.",
    "take": 6
   },
   {
@@ -319,98 +319,98 @@
    "w": "Y",
    "s": 22.52,
    "e": 23.17,
-   "p": 0.605,
+   "p": 0.71,
    "take": 5
   },
   {
    "w": "cree",
    "s": 23.17,
    "e": 23.37,
-   "p": 0.766,
+   "p": 0.851,
    "take": 5
   },
   {
    "w": "que",
    "s": 23.37,
    "e": 23.55,
-   "p": 0.991,
+   "p": 0.994,
    "take": 5
   },
   {
    "w": "algo",
    "s": 23.55,
    "e": 23.81,
-   "p": 0.991,
+   "p": 0.992,
    "take": 5
   },
   {
    "w": "de",
    "s": 23.81,
    "e": 23.99,
-   "p": 0.979,
+   "p": 0.978,
    "take": 5
   },
   {
    "w": "ese",
    "s": 23.99,
    "e": 24.15,
-   "p": 0.933,
+   "p": 0.937,
    "take": 5
   },
   {
    "w": "gusto",
    "s": 24.15,
    "e": 24.39,
-   "p": 0.994,
+   "p": 0.995,
    "take": 5
   },
   {
    "w": "por",
    "s": 24.39,
    "e": 24.63,
-   "p": 0.947,
+   "p": 0.952,
    "take": 5
   },
   {
    "w": "el",
    "s": 24.63,
    "e": 24.73,
-   "p": 0.978,
+   "p": 0.982,
    "take": 5
   },
   {
    "w": "teatro",
    "s": 24.73,
-   "e": 25.11,
-   "p": 0.909,
+   "e": 25.13,
+   "p": 0.906,
    "take": 5
   },
   {
    "w": "le",
-   "s": 25.11,
+   "s": 25.13,
    "e": 25.29,
-   "p": 0.894,
+   "p": 0.897,
    "take": 5
   },
   {
    "w": "ayuda",
    "s": 25.29,
    "e": 25.55,
-   "p": 0.993,
+   "p": 0.994,
    "take": 5
   },
   {
    "w": "hoy",
    "s": 25.55,
-   "e": 26.01,
-   "p": 0.935,
+   "e": 25.99,
+   "p": 0.937,
    "take": 5
   },
   {
    "w": "en",
-   "s": 26.01,
+   "s": 25.99,
    "e": 26.27,
-   "p": 0.913,
+   "p": 0.927,
    "take": 5
   },
   {
@@ -424,91 +424,133 @@
    "w": "ejercicio",
    "s": 26.39,
    "e": 26.87,
-   "p": 0.99,
+   "p": 0.991,
    "take": 5
   },
   {
    "w": "del",
    "s": 26.87,
    "e": 27.01,
-   "p": 0.932,
+   "p": 0.941,
    "take": 5
   },
   {
    "w": "derecho.",
    "s": 27.01,
-   "e": 27.31,
-   "p": 0.965,
+   "e": 27.27,
+   "p": 0.973,
    "take": 5
   },
   {
    "w": "Me",
-   "s": 40.3,
-   "e": 41.23,
-   "p": 0.285,
+   "s": 27.6,
+   "e": 28.13,
+   "p": 0.46,
    "take": 6
   },
   {
    "w": "ayuda",
-   "s": 41.23,
-   "e": 41.65,
-   "p": 0.963,
+   "s": 28.13,
+   "e": 29.05,
+   "p": 0.957,
    "take": 6
   },
   {
-   "w": "a",
-   "s": 41.65,
-   "e": 41.91,
-   "p": 0.87,
-   "take": 6
-  },
-  {
-   "w": "poder",
-   "s": 41.91,
-   "e": 41.99,
-   "p": 0.976,
+   "w": "para",
+   "s": 29.05,
+   "e": 29.33,
+   "p": 0.892,
    "take": 6
   },
   {
    "w": "presentar",
-   "s": 41.99,
-   "e": 42.81,
-   "p": 0.991,
-   "take": 6
-  },
-  {
-   "w": "el",
-   "s": 42.81,
-   "e": 42.97,
-   "p": 0.996,
-   "take": 6
-  },
-  {
-   "w": "caso",
-   "s": 42.97,
-   "e": 43.41,
-   "p": 0.999,
-   "take": 6
-  },
-  {
-   "w": "ante",
-   "s": 43.41,
-   "e": 44.15,
-   "p": 0.86,
-   "take": 6
-  },
-  {
-   "w": "los",
-   "s": 44.15,
-   "e": 44.41,
+   "s": 29.33,
+   "e": 29.79,
    "p": 0.992,
    "take": 6
   },
   {
-   "w": "tribunales.",
-   "s": 44.41,
-   "e": 44.89,
-   "p": 0.986,
+   "w": "los",
+   "s": 29.79,
+   "e": 29.91,
+   "p": 0.992,
+   "take": 6
+  },
+  {
+   "w": "casos",
+   "s": 29.91,
+   "e": 30.17,
+   "p": 0.996,
+   "take": 6
+  },
+  {
+   "w": "que",
+   "s": 30.17,
+   "e": 30.43,
+   "p": 0.987,
+   "take": 6
+  },
+  {
+   "w": "considero",
+   "s": 30.43,
+   "e": 31.31,
+   "p": 0.947,
+   "take": 6
+  },
+  {
+   "w": "que",
+   "s": 31.31,
+   "e": 31.41,
+   "p": 0.968,
+   "take": 6
+  },
+  {
+   "w": "deben",
+   "s": 31.41,
+   "e": 31.67,
+   "p": 0.939,
+   "take": 6
+  },
+  {
+   "w": "ser",
+   "s": 31.67,
+   "e": 31.93,
+   "p": 0.993,
+   "take": 6
+  },
+  {
+   "w": "de",
+   "s": 31.93,
+   "e": 32.03,
+   "p": 0.487,
+   "take": 6
+  },
+  {
+   "w": "conocimiento",
+   "s": 32.03,
+   "e": 32.45,
+   "p": 0.991,
+   "take": 6
+  },
+  {
+   "w": "y",
+   "s": 32.45,
+   "e": 32.53,
+   "p": 0.702,
+   "take": 6
+  },
+  {
+   "w": "la",
+   "s": 32.53,
+   "e": 32.61,
+   "p": 0.539,
+   "take": 6
+  },
+  {
+   "w": "justicia.",
+   "s": 32.61,
+   "e": 33.07,
+   "p": 0.964,
    "take": 6
   },
   {

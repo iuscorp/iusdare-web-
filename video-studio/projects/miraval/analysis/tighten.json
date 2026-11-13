@@ -54,18 +54,26 @@
  },
  {
   "in": 22.826,
-  "out": 27.4,
+  "out": 27.36,
   "voiceIn": 23.086,
-  "voiceOut": 27.386,
+  "voiceOut": 27.366,
   "thrDb": -44.5,
   "pauses": []
  },
  {
-  "in": 40.922,
-  "out": 44.98,
-  "voiceIn": 41.022,
-  "voiceOut": 44.872,
-  "thrDb": -47.3,
+  "in": 27.7,
+  "out": 28.539,
+  "voiceIn": 27.79,
+  "voiceOut": 28.43,
+  "thrDb": -46.8,
+  "pauses": []
+ },
+ {
+  "in": 28.97,
+  "out": 33.15,
+  "voiceIn": 28.97,
+  "voiceOut": 32.92,
+  "thrDb": -48.4,
   "pauses": []
  },
  {

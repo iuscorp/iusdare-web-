@@ -10,7 +10,7 @@
       "name": "Bitrate de video",
       "ok": true,
       "level": "ok",
-      "detail": "6.4 Mbps"
+      "detail": "6.3 Mbps"
     },
     {
       "name": "Espacio de color",
@@ -28,7 +28,7 @@
       "name": "Duración",
       "ok": true,
       "level": "ok",
-      "detail": "32.60 s (EDL 32.58 s)"
+      "detail": "33.70 s (EDL 33.67 s)"
     },
     {
       "name": "Fotogramas negros",
@@ -46,7 +46,7 @@
       "name": "True peak",
       "ok": true,
       "level": "ok",
-      "detail": "-1.4 dBFS"
+      "detail": "-1.5 dBFS"
     },
     {
       "name": "Silencios residuales (>0.6 s)",
@@ -56,34 +56,29 @@
     },
     {
       "name": "Primera palabra en el frame 0",
-      "ok": true,
-      "level": "ok",
-      "detail": "0.03 s"
+      "ok": false,
+      "level": "warn",
+      "detail": "5.26 s"
     },
     {
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 23 ms, p90 |113| ms, 83/118 palabras alineadas"
+      "detail": "mediana -2 ms, p90 |103| ms, 70/109 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
       "ok": false,
       "level": "warn",
-      "detail": "35 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "detail": "39 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 83,
-    "total": 118,
-    "medianOffset": 0.022999999999999687,
-    "p90AbsOffset": 0.11299999999999955,
+    "matched": 70,
+    "total": 109,
+    "medianOffset": -0.0019999999999988916,
+    "p90AbsOffset": 0.10299999999999798,
     "mismatches": [
-      {
-        "at": 1.004,
-        "caption": "con",
-        "heard": "Kong Miguel"
-      },
       {
         "at": 6.873,
         "caption": "hacer",
@@ -95,171 +90,196 @@
         "heard": "por la policía"
       },
       {
-        "at": 10.358,
-        "caption": "gusto",
-        "heard": "de ese..."
+        "at": 17.035,
+        "caption": "deben",
+        "heard": "que vencede"
       },
       {
-        "at": 10.598,
-        "caption": "por",
-        "heard": "ese..."
+        "at": 17.295,
+        "caption": "ser",
+        "heard": "que vencede conocimiento"
       },
       {
-        "at": 10.838,
+        "at": 17.555,
+        "caption": "de",
+        "heard": "conocimiento"
+      },
+      {
+        "at": 17.848,
+        "caption": "de",
+        "heard": "conocimiento y la justicia."
+      },
+      {
+        "at": 20.25,
+        "caption": "en",
+        "heard": "común?"
+      },
+      {
+        "at": 20.45,
+        "caption": "los",
+        "heard": "(nada)"
+      },
+      {
+        "at": 20.57,
+        "caption": "procesos",
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.01,
+        "caption": "de",
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.11,
+        "caption": "alimentos",
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.692,
+        "caption": "Considerar",
+        "heard": "(nada)"
+      },
+      {
+        "at": 22.262,
+        "caption": "que",
+        "heard": "(nada)"
+      },
+      {
+        "at": 22.402,
         "caption": "el",
         "heard": "(nada)"
       },
       {
-        "at": 10.938,
-        "caption": "teatro",
+        "at": 22.502,
+        "caption": "alimentista",
         "heard": "(nada)"
       },
       {
-        "at": 11.318,
-        "caption": "le",
+        "at": 23.202,
+        "caption": "tiene",
         "heard": "(nada)"
       },
       {
-        "at": 11.498,
-        "caption": "ayuda",
+        "at": 23.482,
+        "caption": "que",
         "heard": "(nada)"
       },
       {
-        "at": 11.758,
-        "caption": "hoy",
+        "at": 23.642,
+        "caption": "pagar",
         "heard": "(nada)"
       },
       {
-        "at": 12.218,
+        "at": 23.822,
+        "caption": "tasas",
+        "heard": "(nada)"
+      },
+      {
+        "at": 24.142,
+        "caption": "judiciales",
+        "heard": "(nada)"
+      },
+      {
+        "at": 24.563,
+        "caption": "Y",
+        "heard": "(nada)"
+      },
+      {
+        "at": 24.693,
+        "caption": "el",
+        "heard": "(nada)"
+      },
+      {
+        "at": 24.873,
+        "caption": "mito",
+        "heard": "(nada)"
+      },
+      {
+        "at": 25.053,
+        "caption": "más",
+        "heard": "(nada)"
+      },
+      {
+        "at": 25.213,
+        "caption": "común",
+        "heard": "(nada)"
+      },
+      {
+        "at": 25.453,
+        "caption": "sobre",
+        "heard": "(nada)"
+      },
+      {
+        "at": 25.713,
+        "caption": "los",
+        "heard": "(nada)"
+      },
+      {
+        "at": 25.873,
+        "caption": "procesos",
+        "heard": "(nada)"
+      },
+      {
+        "at": 26.273,
+        "caption": "de",
+        "heard": "(nada)"
+      },
+      {
+        "at": 26.353,
+        "caption": "alimentos",
+        "heard": "(nada)"
+      },
+      {
+        "at": 26.723,
+        "caption": "Eso",
+        "heard": "(nada)"
+      },
+      {
+        "at": 26.883,
+        "caption": "lo",
+        "heard": "(nada)"
+      },
+      {
+        "at": 27.023,
+        "caption": "veremos",
+        "heard": "(nada)"
+      },
+      {
+        "at": 27.343,
         "caption": "en",
         "heard": "(nada)"
       },
       {
-        "at": 12.478,
+        "at": 27.503,
         "caption": "el",
         "heard": "(nada)"
       },
       {
-        "at": 12.598,
-        "caption": "ejercicio",
+        "at": 27.603,
+        "caption": "live",
         "heard": "(nada)"
       },
       {
-        "at": 13.078,
-        "caption": "del",
-        "heard": "(nada)"
+        "at": 27.867,
+        "caption": "Nos",
+        "heard": "Vemos"
       },
       {
-        "at": 13.218,
-        "caption": "derecho",
-        "heard": "(nada)"
-      },
-      {
-        "at": 13.627,
-        "caption": "Me",
-        "heard": "(nada)"
-      },
-      {
-        "at": 13.855,
-        "caption": "ayuda",
-        "heard": "(nada)"
-      },
-      {
-        "at": 14.275,
-        "caption": "a",
-        "heard": "(nada)"
-      },
-      {
-        "at": 14.535,
-        "caption": "poder",
-        "heard": "(nada)"
-      },
-      {
-        "at": 14.615,
-        "caption": "presentar",
-        "heard": "(nada)"
-      },
-      {
-        "at": 15.435,
-        "caption": "el",
-        "heard": "(nada)"
-      },
-      {
-        "at": 15.595,
-        "caption": "caso",
-        "heard": "(nada)"
-      },
-      {
-        "at": 16.035,
-        "caption": "ante",
-        "heard": "(nada)"
-      },
-      {
-        "at": 16.775,
-        "caption": "los",
-        "heard": "¿Cuál"
-      },
-      {
-        "at": 17.035,
-        "caption": "tribunales",
-        "heard": "¿Cuál"
-      },
-      {
-        "at": 17.707,
-        "caption": "cree",
-        "heard": "crea que es"
-      },
-      {
-        "at": 28.913,
-        "caption": "8",
-        "heard": "ocho a"
-      },
-      {
-        "at": 29.113,
-        "caption": "de",
-        "heard": "ocho a noche,"
-      },
-      {
-        "at": 29.313,
+        "at": 30.397,
         "caption": "la",
-        "heard": "ocho a noche,"
+        "heard": "8 de noviembre, 8 de noviembre, 8 de noviembre, 8 de noviembre. a Noche en"
       },
       {
-        "at": 30.513,
-        "caption": "estará",
-        "heard": "que es..."
-      },
-      {
-        "at": 30.773,
-        "caption": "organizando",
-        "heard": "es..."
-      },
-      {
-        "at": 31.273,
-        "caption": "Vocare",
-        "heard": "esperamos."
-      },
-      {
-        "at": 31.593,
-        "caption": "Iuris",
-        "heard": "esperamos."
-      },
-      {
-        "at": 31.923,
+        "at": 33.007,
         "caption": "Los",
-        "heard": "(nada)"
-      },
-      {
-        "at": 31.983,
-        "caption": "esperamos",
-        "heard": "(nada)"
+        "heard": "Iuris. Nos esperamos."
       }
     ]
   },
   "loudness": {
     "integratedLufs": -14.2,
-    "lra": 4.9,
-    "truePeakDb": -1.4
+    "lra": 5.2,
+    "truePeakDb": -1.5
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/miraval/miraval-preview.mp4"
 }
