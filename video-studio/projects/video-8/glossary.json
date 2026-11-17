@@ -1,0 +1,58 @@
+{
+ "_info": "Correcciones de video-8 (cancelación / nulidad de marca)",
+ "corrections": [
+  {
+   "match": "robatela",
+   "replace": [
+    "róbatela"
+   ]
+  },
+  {
+   "match": "anulidad",
+   "replace": [
+    "nulidad"
+   ]
+  },
+  {
+   "match": "indecopy",
+   "replace": [
+    "Indecopi"
+   ]
+  },
+  {
+   "match": "indecopi",
+   "replace": [
+    "Indecopi"
+   ]
+  },
+  {
+   "match": "bocara y uri",
+   "replace": [
+    "Vocare",
+    "Iuris"
+   ]
+  },
+  {
+   "match": "vocar a urip",
+   "replace": [
+    "Vocare",
+    "Iuris"
+   ]
+  },
+  {
+   "match": "bocalayurid",
+   "replace": [
+    "a",
+    "Vocare",
+    "Iuris"
+   ]
+  },
+  {
+   "match": "evocare yuris",
+   "replace": [
+    "Vocare",
+    "Iuris"
+   ]
+  }
+ ]
+}
