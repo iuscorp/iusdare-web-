@@ -4,7 +4,7 @@
     "title": "PLAFT: qué es y por qué importa a tu empresa",
     "format": "vertical",
     "fps": 30,
-    "status": "canvas"
+    "status": "aprobado"
   },
   "sources": {
     "main": "footage/raw/2026-11-plaft/main.mp4"
@@ -38,9 +38,10 @@
       },
       "nativeCodes": [
         "hook",
+        "visual-stimulus",
         "punch-in"
       ],
-      "rationale": "Toma final del hook (la 3ª); plano cerrado con acercamiento lento.",
+      "rationale": "Abre con B-roll de flujos financieros (gancho) y corta al plano cerrado; el B-roll tapa el gesto previo a la toma.",
       "transitionIn": "cut"
     },
     {
@@ -614,6 +615,20 @@
     }
   ],
   "broll": [
+    {
+      "id": "B00",
+      "start": 16.95,
+      "end": 18.25,
+      "src": "b-roll/library/cv-globo-datos-mercados.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "¿Qué es el PLAFT…",
+      "concept": "Flujos financieros globales",
+      "function": "Gancho visual de apertura; tapa el gesto previo a la toma (manos en el pelo).",
+      "description": "Globo terráqueo con datos de mercados",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-globo-datos-mercados",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
     {
       "id": "B01",
       "start": 55.3,
