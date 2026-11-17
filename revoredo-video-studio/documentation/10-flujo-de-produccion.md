@@ -40,6 +40,20 @@ Completar `story` en `edit.json` respondiendo:
 
 Con esas respuestas se definen los `segments`: orden, `in`/`out` en los huecos entre palabras, `role`, `purpose`, encuadre, `nativeCodes` y `rationale`. Cada cambio de ritmo o recurso tiene que responder a una necesidad concreta de comprensión o retención (ver `04-codigos-nativos.md`).
 
+### PASO 2b: Solo la voz en pantalla, sin silencios (obligatorio)
+
+```bash
+npm run studio:tighten -- <slug>          # --min-f0 150 por defecto (presentadora). Para un presentador hombre: --min-f0 0 --max-f0 165
+```
+
+Este paso:
+
+- divide cada segmento en sus islas de voz y elimina los silencios de más de 0,22 s;
+- descarta la voz fuera de cámara según el tono (pYIN);
+- alterna la escala ±4 % en cada micro-corte.
+
+Revisa el informe. Si un tramo de la presentadora queda marcado por error (por ejemplo, un final de frase grave), márcalo con `"keepVoice": true`.
+
 ## PASO 3: Planificar y buscar el B-roll
 
 1. Declarar los slots de `broll[]` (frase, concepto, función, descripción y búsqueda) **desde el guion**.

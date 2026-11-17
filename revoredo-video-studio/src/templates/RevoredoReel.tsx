@@ -5,7 +5,7 @@ import { z } from "zod";
 import "../brand/fonts";
 import { colors } from "../brand/tokens";
 import { editSchema, formats, type Edit } from "../schema/edit";
-import { buildTimeline, mapRange } from "../lib/timeline";
+import { buildTimeline, mapRange, sourceToOutput } from "../lib/timeline";
 import { Reframe } from "../framing/Reframe";
 import { Captions } from "../components/text/Captions";
 import { LogoBug } from "../components/brand/LogoMark";
@@ -118,10 +118,20 @@ export const RevoredoReel: React.FC<ReelProps> = (props) => {
         const r = mapRange(tl, g);
         const C = graphicsRegistry[g.component];
         if (!r || !C) return null;
+        // revealAtSource: reveal times in SOURCE seconds (the moment each item is
+        // spoken). Converted here so reveals stay in sync after any re-cut.
+        const props: Record<string, unknown> = { ...g.props };
+        if (Array.isArray(props.revealAtSource)) {
+          props.revealAt = (props.revealAtSource as number[]).map((t) => {
+            const f = sourceToOutput(tl, g.source, t);
+            return f === null ? 0 : Math.max(0, (f - r.from) / fps);
+          });
+          delete props.revealAtSource;
+        }
         return (
           <Sequence key={g.id} from={r.from} durationInFrames={r.durationInFrames} name={`mg ${g.component}`}>
             <ZoneContext.Provider value={zoneAt(edit, tl, r.from + 1)}>
-              <C {...g.props} />
+              <C {...props} />
             </ZoneContext.Provider>
           </Sequence>
         );

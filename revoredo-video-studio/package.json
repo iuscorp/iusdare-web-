@@ -48,7 +48,8 @@
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc && tsc -p tsconfig.scripts.json",
     "studio:snap": "python3 -I scripts/snap_cuts.py",
-    "studio:music": "python3 -I scripts/compose_bed.py"
+    "studio:music": "python3 -I scripts/compose_bed.py",
+    "studio:tighten": "python3 -I scripts/tighten.py"
   },
   "allowScripts": {
     "esbuild": false

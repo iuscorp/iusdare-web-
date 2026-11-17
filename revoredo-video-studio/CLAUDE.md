@@ -36,6 +36,11 @@ Tono: **corporativo, minimalista, moderno, sofisticado, con autoridad.** No es u
 
 ## Reglas firmes
 
+- **Solo la voz de la persona en pantalla, sin silencios (OBLIGATORIO):** después de definir los segmentos, correr siempre `npm run studio:tighten -- <slug>`. Elimina los silencios internos y toda voz fuera de cámara (director que dicta, comentarios). Revisar el informe y proteger con `"keepVoice": true` un tramo propio con voz grave verificada. En sesiones dictadas, elegir siempre la repetición de la presentadora, nunca la línea dictada.
+- **Cortes en silencio:** verificar el nivel en cada in/out (debe ser menor a −45 dB) y comprobar el export volviendo a transcribirlo.
+- **Material HDR de iPhone (HLG/BT.2020):** convertir a SDR BT.709 antes de editar (`zscale` + `tonemap=hable`, npl=100).
+- **Listas y siglas:** usar `revealAtSource` (tiempos del raw) para que sigan a la voz tras cualquier re-corte.
+
 - Corte directo por defecto. Cada corte del presentador cambia de escala.
 - Todo recurso (código nativo, B-roll, texto, MG, SFX) debe responder: **¿qué problema de comprensión o retención resuelve?** Si no, no se usa.
 - Los gráficos nunca tapan el rostro: usar `position: "auto"` y una `layout` medida.
