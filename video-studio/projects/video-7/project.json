@@ -21,16 +21,17 @@
     "notes": []
   },
   "editing": {
-    "minPause": 0.4,
+    "minPause": 0.15,
     "voice": {
       "splitHz": 60,
       "quietDb": -34,
       "_nota": "presentadora: se separa por NIVEL (micro de solapa ≈ −28 dB; voz fuera de cámara ≈ −38 dB), no por tono"
-    }
+    },
+    "dropDb": 20
   },
   "lastRender": {
     "file": "../previews/video-7/video-7-preview.mp4",
-    "at": "2026-11-17T16:06:51.891Z",
+    "at": "2026-11-17T16:20:43.301Z",
     "preview": true
   }
 }

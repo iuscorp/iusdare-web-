@@ -73,55 +73,55 @@ const st = (emoji, t, end, x, note) => sticker(emoji, t, end - t, x, 0.62, note)
 
 // ── 1. HOOK: el comunicado → ¿qué decía? → el CEO investigado → espionaje
 st('📢', 0, until('Que'), 0.68, 'hook: NVIDIA publicó un comunicado');
-st('❔', S('Que'), until('Que', 3.5), 0.32, '«¿Qué decía?»');
+st('❔', S('Que'), until('Que', S('Que') + 0.05), 0.32, '«¿Qué decía?»');
 st('🎩', S('directorio'), until('investigando'), 0.68, 'el directorio');
 st('🔦', S('investigando'), until('Por'), 0.32, 'investigando a su propio CEO');
 st('📰', S('Por'), until('espionaje'), 0.68, 'por reportes');
-st('👂', S('espionaje'), until('El', 9), 0.32, 'espionaje extranjero');
+st('👂', S('espionaje'), until('El', S('extranjero')), 0.32, 'espionaje extranjero');
 
 // ── 2. CHOQUE: el lunes cayeron las acciones
-const lun = at('El', 9);
+const lun = at('El', S('extranjero'));
 st('📆', lun.start, until('cayeron'), 0.68, 'el lunes');
 const cay = at('cayeron');
 add({type: 'kineticWord', syllables: ['−5 %'], layout: 'line', uppercase: true, stepFrames: 3, x: 0.5, y: 0.58, start: cay.start, end: until('Ahora')}, 'cayeron más del 5 % (dato a verificar)');
-st('💡', S('Ahora'), until('Que', 16), 0.32, '«ahora piensa»');
-st('🔥', S('Que', 16), until('Porque'), 0.68, 'perder millones');
+st('💡', S('Ahora'), until('Que', S('algo')), 0.32, '«ahora piensa»');
+st('🔥', S('Que', S('algo')), until('Porque'), 0.68, 'perder millones');
 const obl = at('Porque');
 add({type: 'verdictStamp', text: 'Está obligada', tone: 'ok', x: 0.5, y: 0.6, start: obl.start, end: until('Y', obl.start)}, 'respuesta: obligación legal');
 
 // ── 3. BASE LEGAL: en Perú → hecho de importancia
-st('🗺️', S('Peru'), until('Se', 20), 0.32, 'en Perú existe la misma regla');
-add({type: 'lawCard', title: 'Hecho de importancia', subtitle: 'Ley del Mercado de Valores · SMV', color: 'yellow', x: 0.5, y: 0.66, start: S('Se', 20), end: until('Si', 22)}, 'normativa (verificar cita)');
-st('📈', S('Si', 22), until('bonos'), 0.68, 'vende acciones en bolsa');
-st('📃', S('bonos'), until('Y', 27), 0.32, 'o bonos');
+st('🗺️', S('Peru'), until('Se', S('regla')), 0.32, 'en Perú existe la misma regla');
+add({type: 'lawCard', title: 'Hecho de importancia', subtitle: 'Ley del Mercado de Valores · SMV', color: 'yellow', x: 0.5, y: 0.66, start: S('Se', S('regla')), end: until('Si', S('importancia'))}, 'normativa (verificar cita)');
+st('📈', S('Si', S('importancia')), until('bonos'), 0.68, 'vende acciones en bolsa');
+st('📃', S('bonos'), until('Y', S('peruana')), 0.32, 'o bonos');
 st('😳', S('pasa'), until('cambie'), 0.68, 'pasa algo importante');
 st('🔄', S('cambie'), until('Tiene'), 0.32, 'cambia de opinión');
-st('📣', S('Tiene'), until('Y', 34), 0.68, 'tiene que contarlo');
+st('📣', S('Tiene'), until('Y', S('contarlo')), 0.68, 'tiene que contarlo');
 
 // ── 4. ¿Cuándo? → el mismo día; si duda → igual
 st('⏰', S('cuando'), until('mismo'), 0.32, '¿Y cuándo?');
-add({type: 'selectionLabel', text: 'El mismo día', cursor: true, x: 0.5, y: 0.64, start: S('mismo') - 0.05, end: until('Y', 37)}, 'plazo');
+add({type: 'selectionLabel', text: 'El mismo día', cursor: true, x: 0.5, y: 0.64, start: S('mismo') - 0.05, end: until('Y', S('enteran'))}, 'plazo');
 st('😕', S('duda'), until('Igual'), 0.68, 'la empresa duda');
 const igu = at('Igual');
 add({type: 'kineticWord', syllables: ['IGUAL'], layout: 'line', uppercase: true, stepFrames: 3, x: 0.5, y: 0.58, start: igu.start, end: until('Por', igu.start)}, 'igual tiene que contarlo');
 
 // ── 5. ¿Por qué tan estricto? → los gerentes saben → pierdes tú
 st('😤', S('Por', igu.start), until('Imagina'), 0.32, '¿por qué tan estricto?');
-st('🤐', S('Imagina'), until('el', 45), 0.68, 'sólo los gerentes saben');
-st('😵', S('el', 45), until('eres'), 0.32, 'acciones que valen menos');
+st('🤐', S('Imagina'), until('el', S('noticia')), 0.68, 'sólo los gerentes saben');
+st('😵', S('el', S('noticia')), until('eres'), 0.32, 'acciones que valen menos');
 const tu = at('eres');
 add({type: 'kineticWord', syllables: ['¡TÚ!'], layout: 'line', uppercase: true, stepFrames: 3, x: 0.5, y: 0.58, start: tu.start, end: until('Y', tu.start)}, 'el que pierde eres tú');
 
 // ── 6. Giro: la AFP → tu plata
-st('🙃', S('Y', tu.start), until('Si', 52), 0.68, '«no creas que no tiene que ver contigo»');
-st('🐷', S('Si', 52), until('parte'), 0.32, 'tu AFP');
-st('💵', S('parte'), until('Por', 56), 0.68, 'tu plata invertida');
+st('🙃', S('Y', tu.start), until('Si', S('contigo')), 0.68, '«no creas que no tiene que ver contigo»');
+st('🐷', S('Si', S('contigo')), until('parte'), 0.32, 'tu AFP');
+st('💵', S('parte'), until('Por', S('empresas')), 0.68, 'tu plata invertida');
 
 // ── 7. Sanción
-st('🙊', S('Por', 56), until('la', 58.5), 0.32, 'oculta información');
-st('⌛', S('la', 58.5), until('La', 59.5), 0.68, 'o la cuenta tarde');
-add({type: 'lawCard', title: 'SMV', subtitle: 'Superintendencia del Mercado de Valores', color: 'white', x: 0.5, y: 0.66, start: S('La', 59.5), end: until('sancionarla')}, 'autoridad supervisora');
-st('🚨', S('sancionarla'), until('Y', 62), 0.32, 'puede sancionarla');
+st('🙊', S('Por', S('empresas')), until('la', S('informacion')), 0.32, 'oculta información');
+st('⌛', S('la', S('informacion')), until('La', S('tarde')), 0.68, 'o la cuenta tarde');
+add({type: 'lawCard', title: 'SMV', subtitle: 'Superintendencia del Mercado de Valores', color: 'white', x: 0.5, y: 0.66, start: S('La', S('tarde')), end: until('sancionarla')}, 'autoridad supervisora');
+st('🚨', S('sancionarla'), until('Y', S('sancionarla')), 0.32, 'puede sancionarla');
 
 // ── 8. Pregunta al público + CTA
 st('🤞', S('Lograste'), until('Cuentalo'), 0.68, '¿lograste vender?');
@@ -148,13 +148,14 @@ for (const s of e.segments) {
     sinceChange = 0;
     continue;
   }
-  if (sinceChange >= 3) {
+  // el encuadre cambia cada ~5 s (no en cada corte): los cortes de pausa quedan dentro del mismo plano
+  if (sinceChange >= 5) {
     look = (look + 1) % looks.length;
     sinceChange = 0;
   }
   s.framing = looks[look];
   s.move = 'slowPush';
-  sinceChange++;
+  sinceChange += s.out - s.in;
 }
 e.segments[0].framing = 'subtleIn';
 e.segments[0].move = 'settle';

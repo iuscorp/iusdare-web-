@@ -23,7 +23,7 @@
     {
       "id": "s02",
       "in": 54.875,
-      "out": 55.583,
+      "out": 55.5,
       "role": "context",
       "framing": "subtleIn",
       "move": "slowPush",
@@ -43,7 +43,7 @@
       "in": 74.792,
       "out": 77.417,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "slowPush",
       "note": "Que su directorio estaba investigando a su propio"
     },
@@ -59,32 +59,68 @@
     {
       "id": "s06",
       "in": 86.208,
+      "out": 86.958,
+      "role": "context",
+      "framing": "base",
+      "move": "slowPush",
+      "note": "Por reportes que"
+    },
+    {
+      "id": "s07",
+      "in": 87,
       "out": 89.375,
       "role": "context",
       "framing": "base",
       "move": "slowPush",
-      "note": "Por reportes que había sido blanco de espionaje extranjero."
-    },
-    {
-      "id": "s07",
-      "in": 58.208,
-      "out": 61.375,
-      "role": "context",
-      "framing": "punchIn",
-      "move": "crash",
-      "note": "El lunes sus acciones cayeron mas del 5%."
+      "note": "había sido blanco de espionaje extranjero."
     },
     {
       "id": "s08",
+      "in": 58.458,
+      "out": 59,
+      "role": "context",
+      "framing": "base",
+      "move": "slowPush",
+      "note": "El lunes sus"
+    },
+    {
+      "id": "s09",
+      "in": 59.208,
+      "out": 60.417,
+      "role": "context",
+      "framing": "punchIn",
+      "move": "crash",
+      "note": "acciones cayeron mas del"
+    },
+    {
+      "id": "s10",
+      "in": 60.458,
+      "out": 61.333,
+      "role": "context",
+      "framing": "base",
+      "move": "slowPush",
+      "note": "5%."
+    },
+    {
+      "id": "s11",
       "in": 95.625,
+      "out": 96.125,
+      "role": "context",
+      "framing": "base",
+      "move": "slowPush",
+      "note": "Ahora,"
+    },
+    {
+      "id": "s12",
+      "in": 96.208,
       "out": 96.708,
       "role": "context",
       "framing": "base",
       "move": "slowPush",
-      "note": "Ahora, piensa."
+      "note": "piensa."
     },
     {
-      "id": "s09",
+      "id": "s13",
       "in": 97.125,
       "out": 99.208,
       "role": "context",
@@ -93,16 +129,34 @@
       "note": "¿Por qué una empresa publicaría algo?"
     },
     {
-      "id": "s10",
+      "id": "s14",
       "in": 117.25,
-      "out": 119.667,
+      "out": 117.875,
       "role": "context",
       "framing": "base",
       "move": "slowPush",
-      "note": "Que sabe que le va a hacer perder millones."
+      "note": "Que sabe que"
     },
     {
-      "id": "s11",
+      "id": "s15",
+      "in": 117.917,
+      "out": 118.542,
+      "role": "context",
+      "framing": "base",
+      "move": "slowPush",
+      "note": "le va a"
+    },
+    {
+      "id": "s16",
+      "in": 118.625,
+      "out": 119.667,
+      "role": "context",
+      "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "hacer perder millones."
+    },
+    {
+      "id": "s17",
       "in": 122,
       "out": 123.25,
       "role": "context",
@@ -111,61 +165,106 @@
       "note": "Porque está obligada."
     },
     {
-      "id": "s12",
+      "id": "s18",
       "in": 126.625,
-      "out": 129.25,
+      "out": 127.417,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "slowPush",
-      "note": "Y en Perú existe la misma regla."
+      "note": "Y en Perú"
     },
     {
-      "id": "s13",
+      "id": "s19",
+      "in": 127.5,
+      "out": 127.625,
+      "role": "context",
+      "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "existe"
+    },
+    {
+      "id": "s20",
+      "in": 127.667,
+      "out": 129.25,
+      "role": "context",
+      "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "la misma regla."
+    },
+    {
+      "id": "s21",
       "in": 131.167,
       "out": 131.667,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "slowPush",
       "note": "Se llama"
     },
     {
-      "id": "s14",
+      "id": "s22",
       "in": 132.042,
       "out": 133.167,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "slowPush",
       "note": "hecho de importancia."
     },
     {
-      "id": "s15",
+      "id": "s23",
       "in": 141.792,
-      "out": 144.583,
+      "out": 142.583,
       "role": "context",
       "framing": "subtleIn",
       "move": "slowPush",
-      "note": "Si una empresa vende acciones o bonos"
+      "note": "Si una empresa"
     },
     {
-      "id": "s16",
-      "in": 144.583,
-      "out": 145.708,
+      "id": "s24",
+      "in": 142.75,
+      "out": 143.5,
       "role": "context",
       "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "vende"
+    },
+    {
+      "id": "s25",
+      "in": 143.5,
+      "out": 143.875,
+      "role": "context",
+      "framing": "punchIn",
+      "move": "slowPush",
+      "note": "acciones o"
+    },
+    {
+      "id": "s26",
+      "in": 143.917,
+      "out": 144.5,
+      "role": "context",
+      "framing": "punchIn",
+      "move": "slowPush",
+      "note": "bonos"
+    },
+    {
+      "id": "s27",
+      "in": 144.625,
+      "out": 145.708,
+      "role": "context",
+      "framing": "punchIn",
       "move": "slowPush",
       "note": "en la bolsa peruana..."
     },
     {
-      "id": "s17",
+      "id": "s28",
       "in": 189.792,
       "out": 192.375,
       "role": "context",
-      "framing": "subtleIn",
+      "framing": "punchIn",
       "move": "slowPush",
       "note": "Y pasa algo que haría que una persona"
     },
     {
-      "id": "s18",
+      "id": "s29",
       "in": 192.375,
       "out": 193.083,
       "role": "context",
@@ -174,25 +273,25 @@
       "note": "sensata"
     },
     {
-      "id": "s19",
-      "in": 195.875,
+      "id": "s30",
+      "in": 195.917,
       "out": 198.208,
       "role": "context",
-      "framing": "punchIn",
+      "framing": "subtleIn",
       "move": "slowPush",
       "note": "Cambia de opinión sobre invertir en ella."
     },
     {
-      "id": "s20",
+      "id": "s31",
       "in": 200.25,
       "out": 201.25,
       "role": "context",
-      "framing": "punchIn",
+      "framing": "subtleIn",
       "move": "slowPush",
       "note": "Tiene que contarlo."
     },
     {
-      "id": "s21",
+      "id": "s32",
       "in": 203.625,
       "out": 204.333,
       "role": "context",
@@ -201,25 +300,34 @@
       "note": "¿Y cuándo?"
     },
     {
-      "id": "s22",
+      "id": "s33",
       "in": 220.042,
-      "out": 222.667,
+      "out": 221.375,
       "role": "context",
       "framing": "subtleIn",
       "move": "slowPush",
-      "note": "mismo día que pasa o cuando se enteran."
+      "note": "mismo día que pasa o"
     },
     {
-      "id": "s23",
+      "id": "s34",
+      "in": 221.458,
+      "out": 222.667,
+      "role": "context",
+      "framing": "base",
+      "move": "slowPush",
+      "note": "cuando se enteran."
+    },
+    {
+      "id": "s35",
       "in": 226.333,
       "out": 228.875,
       "role": "context",
-      "framing": "subtleIn",
+      "framing": "base",
       "move": "slowPush",
       "note": "¿Y si la empresa duda si es importante o no?"
     },
     {
-      "id": "s24",
+      "id": "s36",
       "in": 230.667,
       "out": 232,
       "role": "context",
@@ -228,25 +336,25 @@
       "note": "Igual tiene que contarlo."
     },
     {
-      "id": "s25",
+      "id": "s37",
       "in": 234.167,
       "out": 235.542,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "slowPush",
       "note": "¿Por qué es tan estricto esto?"
     },
     {
-      "id": "s26",
+      "id": "s38",
       "in": 243.792,
       "out": 246.5,
       "role": "context",
-      "framing": "base",
+      "framing": "subtleIn",
       "move": "slowPush",
       "note": "Imagina que solo los gerentes saben de la mala noticia."
     },
     {
-      "id": "s27",
+      "id": "s39",
       "in": 260.708,
       "out": 262.917,
       "role": "context",
@@ -255,7 +363,7 @@
       "note": "el que se queda con acciones que valen menos,"
     },
     {
-      "id": "s28",
+      "id": "s40",
       "in": 263.167,
       "out": 263.75,
       "role": "context",
@@ -264,112 +372,148 @@
       "note": "eres tú."
     },
     {
-      "id": "s29",
+      "id": "s41",
       "in": 279.5,
-      "out": 282.208,
-      "role": "context",
-      "framing": "base",
-      "move": "slowPush",
-      "note": "Y no creerás que si no inviertes en bolsa no tiene"
-    },
-    {
-      "id": "s30",
-      "in": 282.208,
-      "out": 282.917,
-      "role": "context",
-      "framing": "base",
-      "move": "slowPush",
-      "note": "que ver contigo."
-    },
-    {
-      "id": "s31",
-      "in": 295,
-      "out": 297.667,
-      "role": "context",
-      "framing": "base",
-      "move": "slowPush",
-      "note": "Si tienes AFP, parte de tu plata está"
-    },
-    {
-      "id": "s32",
-      "in": 297.667,
-      "out": 298.917,
+      "out": 280.208,
       "role": "context",
       "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "Y no creerás que"
+    },
+    {
+      "id": "s42",
+      "in": 280.375,
+      "out": 282.917,
+      "role": "context",
+      "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "si no inviertes en bolsa no tiene que ver contigo."
+    },
+    {
+      "id": "s43",
+      "in": 295,
+      "out": 295.958,
+      "role": "context",
+      "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "Si tienes AFP,"
+    },
+    {
+      "id": "s44",
+      "in": 296.125,
+      "out": 297.292,
+      "role": "context",
+      "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "parte de tu plata está"
+    },
+    {
+      "id": "s45",
+      "in": 297.458,
+      "out": 298.917,
+      "role": "context",
+      "framing": "punchIn",
       "move": "slowPush",
       "note": "invertida en estas empresas."
     },
     {
-      "id": "s33",
+      "id": "s46",
       "in": 302.792,
-      "out": 305.542,
-      "role": "context",
-      "framing": "subtleIn",
-      "move": "slowPush",
-      "note": "Por eso, si una empresa oculta información o"
-    },
-    {
-      "id": "s34",
-      "in": 305.542,
-      "out": 306.375,
-      "role": "context",
-      "framing": "subtleIn",
-      "move": "slowPush",
-      "note": "la cuenta tarde"
-    },
-    {
-      "id": "s35",
-      "in": 324.417,
-      "out": 327.292,
+      "out": 304.125,
       "role": "context",
       "framing": "punchIn",
       "move": "slowPush",
-      "note": "La SMV puede investigarla y sancionarla."
+      "note": "Por eso, si una empresa oculta"
     },
     {
-      "id": "s36",
+      "id": "s47",
+      "in": 304.25,
+      "out": 306.375,
+      "role": "context",
+      "framing": "punchIn",
+      "move": "slowPush",
+      "note": "información o la cuenta tarde"
+    },
+    {
+      "id": "s48",
+      "in": 324.417,
+      "out": 325.208,
+      "role": "context",
+      "framing": "punchIn",
+      "move": "slowPush",
+      "note": "La SMV puede"
+    },
+    {
+      "id": "s49",
+      "in": 325.333,
+      "out": 326.292,
+      "role": "context",
+      "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "investigarla"
+    },
+    {
+      "id": "s50",
+      "in": 326.333,
+      "out": 327.25,
+      "role": "context",
+      "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "y sancionarla."
+    },
+    {
+      "id": "s51",
       "in": 381.292,
       "out": 381.708,
       "role": "context",
-      "framing": "punchIn",
+      "framing": "subtleIn",
       "move": "slowPush",
       "note": "Y"
     },
     {
-      "id": "s37",
+      "id": "s52",
       "in": 381.958,
-      "out": 384.708,
+      "out": 383.375,
       "role": "context",
-      "framing": "punchIn",
-      "move": "slowPush",
-      "note": "ya que tocábamos el tema ¿Lograste vender tus"
-    },
-    {
-      "id": "s38",
-      "in": 384.708,
-      "out": 386.167,
-      "role": "recap",
       "framing": "subtleIn",
       "move": "slowPush",
-      "note": "acciones de NVIDIA lunes?"
+      "note": "ya que tocábamos el tema"
     },
     {
-      "id": "s39",
+      "id": "s53",
+      "in": 383.5,
+      "out": 386.167,
+      "role": "context",
+      "framing": "subtleIn",
+      "move": "slowPush",
+      "note": "¿Lograste vender tus acciones de NVIDIA lunes?"
+    },
+    {
+      "id": "s54",
       "in": 387.958,
       "out": 388.875,
-      "role": "context",
-      "framing": "subtleIn",
+      "role": "recap",
+      "framing": "base",
       "move": "slowPush",
       "note": "Telo en los comentarios."
     },
     {
-      "id": "s40",
+      "id": "s55",
       "in": 413.833,
+      "out": 414.583,
+      "role": "context",
+      "framing": "base",
+      "move": "none",
+      "note": "Si abocar a Iuris"
+    },
+    {
+      "id": "s56",
+      "in": 414.625,
       "out": 416.5,
       "role": "context",
       "framing": "base",
       "move": "none",
-      "note": "Si abocar a Iuris para conocer más sobre tus derechos."
+      "note": "para conocer más sobre tus derechos."
     }
   ],
   "captions": [
@@ -424,1273 +568,1273 @@
     {
       "text": "líneas",
       "start": 2.757,
-      "end": 3.25,
+      "end": 3.167,
       "emphasis": false
     },
     {
       "text": "Qué",
-      "start": 3.235,
-      "end": 3.375,
+      "start": 3.152,
+      "end": 3.292,
       "emphasis": false
     },
     {
       "text": "decía",
-      "start": 3.375,
-      "end": 3.875,
+      "start": 3.292,
+      "end": 3.792,
       "emphasis": false
     },
     {
       "text": "Que",
-      "start": 3.883,
-      "end": 4.003,
+      "start": 3.8,
+      "end": 3.92,
       "emphasis": false
     },
     {
       "text": "su",
-      "start": 3.993,
-      "end": 4.253,
+      "start": 3.91,
+      "end": 4.17,
       "emphasis": false
     },
     {
       "text": "directorio",
-      "start": 4.253,
-      "end": 4.933,
+      "start": 4.17,
+      "end": 4.85,
       "emphasis": false
     },
     {
       "text": "estaba",
-      "start": 4.933,
-      "end": 5.213,
+      "start": 4.85,
+      "end": 5.13,
       "emphasis": false
     },
     {
       "text": "investigando",
-      "start": 5.213,
-      "end": 5.873,
+      "start": 5.13,
+      "end": 5.79,
       "emphasis": false
     },
     {
       "text": "a",
-      "start": 5.873,
-      "end": 6.053,
+      "start": 5.79,
+      "end": 5.97,
       "emphasis": false
     },
     {
       "text": "su",
-      "start": 6.053,
-      "end": 6.173,
+      "start": 5.97,
+      "end": 6.09,
       "emphasis": false
     },
     {
       "text": "propio",
-      "start": 6.173,
-      "end": 6.5,
+      "start": 6.09,
+      "end": 6.417,
       "emphasis": false
     },
     {
       "text": "CEO",
-      "start": 6.493,
-      "end": 7.042,
+      "start": 6.41,
+      "end": 6.958,
       "emphasis": true
     },
     {
       "text": "Por",
-      "start": 7.058,
-      "end": 7.178,
+      "start": 6.974,
+      "end": 7.094,
       "emphasis": false
     },
     {
       "text": "reportes",
-      "start": 7.153,
-      "end": 7.773,
+      "start": 7.07,
+      "end": 7.69,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 7.773,
-      "end": 7.913,
+      "start": 7.69,
+      "end": 7.81,
       "emphasis": false
     },
     {
       "text": "había",
-      "start": 7.913,
-      "end": 8.073,
+      "start": 7.788,
+      "end": 7.948,
       "emphasis": false
     },
     {
       "text": "sido",
-      "start": 8.073,
-      "end": 8.353,
+      "start": 7.948,
+      "end": 8.228,
       "emphasis": false
     },
     {
       "text": "blanco",
-      "start": 8.353,
-      "end": 8.813,
+      "start": 8.228,
+      "end": 8.688,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 8.813,
-      "end": 9.053,
+      "start": 8.688,
+      "end": 8.928,
       "emphasis": false
     },
     {
       "text": "espionaje",
-      "start": 9.053,
-      "end": 9.513,
+      "start": 8.928,
+      "end": 9.388,
       "emphasis": true
     },
     {
       "text": "extranjero",
-      "start": 9.513,
-      "end": 10.208,
+      "start": 9.388,
+      "end": 10.083,
       "emphasis": false
     },
     {
       "text": "El",
-      "start": 10.2,
-      "end": 10.61,
+      "start": 10.075,
+      "end": 10.235,
       "emphasis": false
     },
     {
       "text": "lunes",
-      "start": 10.61,
-      "end": 10.95,
+      "start": 10.235,
+      "end": 10.575,
       "emphasis": false
     },
     {
       "text": "sus",
-      "start": 10.95,
-      "end": 11.27,
+      "start": 10.575,
+      "end": 10.695,
       "emphasis": false
     },
     {
       "text": "acciones",
-      "start": 11.27,
-      "end": 11.59,
+      "start": 10.687,
+      "end": 11.007,
       "emphasis": false
     },
     {
       "text": "cayeron",
-      "start": 11.59,
-      "end": 11.99,
+      "start": 11.007,
+      "end": 11.407,
       "emphasis": true
     },
     {
       "text": "más",
-      "start": 11.99,
-      "end": 12.11,
+      "start": 11.407,
+      "end": 11.527,
       "emphasis": false
     },
     {
       "text": "del",
-      "start": 12.11,
-      "end": 12.27,
+      "start": 11.527,
+      "end": 11.833,
       "emphasis": false
     },
     {
       "text": "5%",
-      "start": 12.27,
-      "end": 13.375,
+      "start": 11.835,
+      "end": 12.708,
       "emphasis": false
     },
     {
       "text": "Ahora",
-      "start": 13.55,
-      "end": 13.94,
+      "start": 12.883,
+      "end": 13.208,
       "emphasis": false
     },
     {
       "text": "piensa",
-      "start": 13.94,
-      "end": 14.458,
+      "start": 13.2,
+      "end": 13.708,
       "emphasis": false
     },
     {
       "text": "Por",
-      "start": 14.483,
-      "end": 14.603,
+      "start": 13.733,
+      "end": 13.853,
       "emphasis": false
     },
     {
       "text": "qué",
-      "start": 14.583,
-      "end": 14.703,
+      "start": 13.833,
+      "end": 13.953,
       "emphasis": false
     },
     {
       "text": "una",
-      "start": 14.703,
-      "end": 14.823,
+      "start": 13.953,
+      "end": 14.073,
       "emphasis": false
     },
     {
       "text": "empresa",
-      "start": 14.823,
-      "end": 15.163,
+      "start": 14.073,
+      "end": 14.413,
       "emphasis": false
     },
     {
       "text": "publicaría",
-      "start": 15.163,
-      "end": 15.983,
+      "start": 14.413,
+      "end": 15.233,
       "emphasis": false
     },
     {
       "text": "algo",
-      "start": 15.983,
-      "end": 16.542,
+      "start": 15.233,
+      "end": 15.792,
       "emphasis": false
     },
     {
       "text": "Que",
-      "start": 16.562,
-      "end": 16.682,
+      "start": 15.812,
+      "end": 15.932,
       "emphasis": false
     },
     {
       "text": "sabe",
-      "start": 16.652,
-      "end": 16.952,
+      "start": 15.902,
+      "end": 16.202,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 16.952,
-      "end": 17.312,
+      "start": 16.202,
+      "end": 16.417,
       "emphasis": false
     },
     {
       "text": "le",
-      "start": 17.312,
-      "end": 17.472,
+      "start": 16.52,
+      "end": 16.68,
       "emphasis": false
     },
     {
       "text": "va",
-      "start": 17.472,
-      "end": 17.672,
+      "start": 16.68,
+      "end": 16.88,
       "emphasis": false
     },
     {
       "text": "a",
-      "start": 17.672,
-      "end": 17.892,
+      "start": 16.88,
+      "end": 17.042,
       "emphasis": false
     },
     {
       "text": "hacer",
-      "start": 17.892,
-      "end": 18.052,
+      "start": 17.027,
+      "end": 17.177,
       "emphasis": false
     },
     {
       "text": "perder",
-      "start": 18.052,
-      "end": 18.352,
+      "start": 17.177,
+      "end": 17.477,
       "emphasis": false
     },
     {
       "text": "millones",
-      "start": 18.352,
-      "end": 18.958,
+      "start": 17.477,
+      "end": 18.083,
       "emphasis": true
     },
     {
       "text": "Porque",
-      "start": 18.978,
-      "end": 19.158,
+      "start": 18.103,
+      "end": 18.283,
       "emphasis": false
     },
     {
       "text": "está",
-      "start": 19.158,
-      "end": 19.438,
+      "start": 18.283,
+      "end": 18.563,
       "emphasis": false
     },
     {
       "text": "obligada",
-      "start": 19.438,
-      "end": 20.208,
+      "start": 18.563,
+      "end": 19.333,
       "emphasis": true
     },
     {
       "text": "Y",
-      "start": 20.193,
-      "end": 20.333,
+      "start": 19.328,
+      "end": 19.458,
       "emphasis": false
     },
     {
       "text": "en",
-      "start": 20.333,
-      "end": 20.453,
+      "start": 19.458,
+      "end": 19.578,
       "emphasis": false
     },
     {
       "text": "Perú",
-      "start": 20.453,
-      "end": 20.913,
+      "start": 19.578,
+      "end": 20.125,
       "emphasis": true
     },
     {
       "text": "existe",
-      "start": 20.913,
-      "end": 21.333,
+      "start": 20.115,
+      "end": 20.25,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 21.333,
-      "end": 21.833,
+      "start": 20.333,
+      "end": 20.833,
       "emphasis": false
     },
     {
       "text": "misma",
-      "start": 21.833,
-      "end": 22.173,
+      "start": 20.833,
+      "end": 21.173,
       "emphasis": false
     },
     {
       "text": "regla",
-      "start": 22.173,
-      "end": 22.833,
+      "start": 21.173,
+      "end": 21.833,
       "emphasis": false
     },
     {
       "text": "Se",
-      "start": 22.827,
-      "end": 22.947,
+      "start": 21.827,
+      "end": 21.947,
       "emphasis": false
     },
     {
       "text": "llama",
-      "start": 22.907,
-      "end": 23.333,
+      "start": 21.907,
+      "end": 22.333,
       "emphasis": false
     },
     {
       "text": "hecho",
-      "start": 23.373,
-      "end": 23.592,
+      "start": 22.373,
+      "end": 22.592,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 23.592,
-      "end": 23.752,
+      "start": 22.592,
+      "end": 22.752,
       "emphasis": false
     },
     {
       "text": "importancia",
-      "start": 23.752,
-      "end": 24.458,
+      "start": 22.752,
+      "end": 23.458,
       "emphasis": true
     },
     {
       "text": "Si",
-      "start": 24.477,
-      "end": 24.597,
+      "start": 23.477,
+      "end": 23.597,
       "emphasis": false
     },
     {
       "text": "una",
-      "start": 24.537,
-      "end": 24.657,
+      "start": 23.537,
+      "end": 23.657,
       "emphasis": false
     },
     {
       "text": "empresa",
-      "start": 24.657,
-      "end": 25.017,
+      "start": 23.657,
+      "end": 24.25,
       "emphasis": false
     },
     {
       "text": "vende",
-      "start": 25.017,
-      "end": 25.797,
+      "start": 24.25,
+      "end": 25,
       "emphasis": false
     },
     {
       "text": "acciones",
-      "start": 25.797,
-      "end": 26.417,
+      "start": 24.99,
+      "end": 25.25,
       "emphasis": false
     },
     {
       "text": "o",
-      "start": 26.417,
-      "end": 26.697,
+      "start": 25.25,
+      "end": 25.375,
       "emphasis": false
     },
     {
       "text": "bonos",
-      "start": 26.697,
-      "end": 27.25,
+      "start": 25.488,
+      "end": 25.958,
       "emphasis": false
     },
     {
       "text": "en",
-      "start": 27.237,
-      "end": 27.417,
+      "start": 25.973,
+      "end": 26.093,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 27.417,
-      "end": 27.537,
+      "start": 26.083,
+      "end": 26.203,
       "emphasis": false
     },
     {
       "text": "bolsa",
-      "start": 27.497,
-      "end": 27.797,
+      "start": 26.163,
+      "end": 26.463,
       "emphasis": true
     },
     {
       "text": "peruana",
-      "start": 27.797,
-      "end": 28.375,
+      "start": 26.463,
+      "end": 27.042,
       "emphasis": false
     },
     {
       "text": "Y",
-      "start": 28.405,
-      "end": 28.525,
+      "start": 27.072,
+      "end": 27.192,
       "emphasis": false
     },
     {
       "text": "pasa",
-      "start": 28.493,
-      "end": 28.813,
+      "start": 27.16,
+      "end": 27.48,
       "emphasis": false
     },
     {
       "text": "algo",
-      "start": 28.813,
-      "end": 29.173,
+      "start": 27.48,
+      "end": 27.84,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 29.173,
-      "end": 29.533,
+      "start": 27.84,
+      "end": 28.2,
       "emphasis": false
     },
     {
       "text": "haría",
-      "start": 29.533,
-      "end": 29.993,
+      "start": 28.2,
+      "end": 28.66,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 29.993,
-      "end": 30.253,
+      "start": 28.66,
+      "end": 28.92,
       "emphasis": false
     },
     {
       "text": "una",
-      "start": 30.253,
-      "end": 30.513,
+      "start": 28.92,
+      "end": 29.18,
       "emphasis": false
     },
     {
       "text": "persona",
-      "start": 30.513,
-      "end": 30.958,
+      "start": 29.18,
+      "end": 29.625,
       "emphasis": false
     },
     {
       "text": "sensata",
-      "start": 30.953,
-      "end": 31.667,
+      "start": 29.62,
+      "end": 30.333,
       "emphasis": true
     },
     {
       "text": "cambie",
-      "start": 31.697,
-      "end": 31.962,
+      "start": 30.322,
+      "end": 30.587,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 31.962,
-      "end": 32.082,
+      "start": 30.587,
+      "end": 30.707,
       "emphasis": false
     },
     {
       "text": "opinión",
-      "start": 32.022,
-      "end": 32.502,
+      "start": 30.647,
+      "end": 31.127,
       "emphasis": false
     },
     {
       "text": "sobre",
-      "start": 32.502,
-      "end": 32.842,
+      "start": 31.127,
+      "end": 31.467,
       "emphasis": false
     },
     {
       "text": "invertir",
-      "start": 32.842,
-      "end": 33.462,
+      "start": 31.467,
+      "end": 32.087,
       "emphasis": false
     },
     {
       "text": "en",
-      "start": 33.462,
-      "end": 33.582,
+      "start": 32.087,
+      "end": 32.207,
       "emphasis": false
     },
     {
       "text": "ella",
-      "start": 33.582,
-      "end": 34,
+      "start": 32.207,
+      "end": 32.625,
       "emphasis": false
     },
     {
       "text": "Tiene",
-      "start": 34.009,
-      "end": 34.24,
+      "start": 32.634,
+      "end": 32.865,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 34.24,
-      "end": 34.38,
+      "start": 32.865,
+      "end": 33.005,
       "emphasis": false
     },
     {
       "text": "contarlo",
-      "start": 34.38,
-      "end": 35,
+      "start": 33.005,
+      "end": 33.625,
       "emphasis": true
     },
     {
       "text": "Y",
-      "start": 34.985,
-      "end": 35.105,
+      "start": 33.61,
+      "end": 33.73,
       "emphasis": false
     },
     {
       "text": "cuándo",
-      "start": 35.095,
-      "end": 35.708,
+      "start": 33.72,
+      "end": 34.333,
       "emphasis": false
     },
     {
       "text": "mismo",
-      "start": 35.867,
-      "end": 36.117,
+      "start": 34.492,
+      "end": 34.742,
       "emphasis": false
     },
     {
       "text": "día",
-      "start": 36.117,
-      "end": 36.337,
+      "start": 34.742,
+      "end": 34.962,
       "emphasis": true
     },
     {
       "text": "que",
-      "start": 36.337,
-      "end": 36.497,
+      "start": 34.962,
+      "end": 35.122,
       "emphasis": false
     },
     {
       "text": "pasa",
-      "start": 36.497,
-      "end": 36.877,
+      "start": 35.122,
+      "end": 35.502,
       "emphasis": false
     },
     {
       "text": "o",
-      "start": 36.877,
-      "end": 37.237,
+      "start": 35.502,
+      "end": 35.667,
       "emphasis": false
     },
     {
       "text": "cuando",
-      "start": 37.237,
-      "end": 37.557,
+      "start": 35.778,
+      "end": 36.098,
       "emphasis": false
     },
     {
       "text": "se",
-      "start": 37.557,
-      "end": 37.757,
+      "start": 36.098,
+      "end": 36.298,
       "emphasis": false
     },
     {
       "text": "enteran",
-      "start": 37.757,
-      "end": 38.333,
+      "start": 36.298,
+      "end": 36.875,
       "emphasis": false
     },
     {
       "text": "Y",
-      "start": 38.32,
-      "end": 38.45,
+      "start": 36.862,
+      "end": 36.992,
       "emphasis": false
     },
     {
       "text": "si",
-      "start": 38.45,
-      "end": 38.57,
+      "start": 36.992,
+      "end": 37.112,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 38.55,
-      "end": 38.67,
+      "start": 37.092,
+      "end": 37.212,
       "emphasis": false
     },
     {
       "text": "empresa",
-      "start": 38.67,
-      "end": 39.01,
+      "start": 37.212,
+      "end": 37.552,
       "emphasis": false
     },
     {
       "text": "duda",
-      "start": 39.01,
-      "end": 39.39,
+      "start": 37.552,
+      "end": 37.932,
       "emphasis": false
     },
     {
       "text": "si",
-      "start": 39.39,
-      "end": 39.73,
+      "start": 37.932,
+      "end": 38.272,
       "emphasis": false
     },
     {
       "text": "es",
-      "start": 39.73,
-      "end": 39.87,
+      "start": 38.272,
+      "end": 38.412,
       "emphasis": false
     },
     {
       "text": "importante",
-      "start": 39.87,
-      "end": 40.39,
+      "start": 38.412,
+      "end": 38.932,
       "emphasis": false
     },
     {
       "text": "o",
-      "start": 40.39,
-      "end": 40.63,
+      "start": 38.932,
+      "end": 39.172,
       "emphasis": false
     },
     {
       "text": "no",
-      "start": 40.63,
-      "end": 40.875,
+      "start": 39.172,
+      "end": 39.417,
       "emphasis": false
     },
     {
       "text": "Igual",
-      "start": 40.868,
-      "end": 41.178,
+      "start": 39.41,
+      "end": 39.72,
       "emphasis": true
     },
     {
       "text": "tiene",
-      "start": 41.178,
-      "end": 41.398,
+      "start": 39.72,
+      "end": 39.94,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 41.398,
-      "end": 41.538,
+      "start": 39.94,
+      "end": 40.08,
       "emphasis": false
     },
     {
       "text": "contarlo",
-      "start": 41.538,
-      "end": 42.208,
+      "start": 40.08,
+      "end": 40.75,
       "emphasis": true
     },
     {
       "text": "Por",
-      "start": 42.222,
-      "end": 42.342,
+      "start": 40.763,
+      "end": 40.883,
       "emphasis": false
     },
     {
       "text": "qué",
-      "start": 42.322,
-      "end": 42.442,
+      "start": 40.863,
+      "end": 40.983,
       "emphasis": false
     },
     {
       "text": "es",
-      "start": 42.442,
-      "end": 42.602,
+      "start": 40.983,
+      "end": 41.143,
       "emphasis": false
     },
     {
       "text": "tan",
-      "start": 42.602,
-      "end": 42.722,
+      "start": 41.143,
+      "end": 41.263,
       "emphasis": false
     },
     {
       "text": "estricto",
-      "start": 42.652,
-      "end": 43.162,
+      "start": 41.193,
+      "end": 41.703,
       "emphasis": true
     },
     {
       "text": "esto",
-      "start": 43.162,
-      "end": 43.583,
+      "start": 41.703,
+      "end": 42.125,
       "emphasis": false
     },
     {
       "text": "Imagina",
-      "start": 43.642,
-      "end": 44.072,
+      "start": 42.183,
+      "end": 42.613,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 44.072,
-      "end": 44.212,
+      "start": 42.613,
+      "end": 42.753,
       "emphasis": false
     },
     {
       "text": "solo",
-      "start": 44.212,
-      "end": 44.412,
+      "start": 42.753,
+      "end": 42.953,
       "emphasis": false
     },
     {
       "text": "los",
-      "start": 44.412,
-      "end": 44.612,
+      "start": 42.953,
+      "end": 43.153,
       "emphasis": false
     },
     {
       "text": "gerentes",
-      "start": 44.612,
-      "end": 45.032,
+      "start": 43.153,
+      "end": 43.573,
       "emphasis": true
     },
     {
       "text": "saben",
-      "start": 45.032,
-      "end": 45.412,
+      "start": 43.573,
+      "end": 43.953,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 45.412,
-      "end": 45.592,
+      "start": 43.953,
+      "end": 44.133,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 45.592,
-      "end": 45.712,
+      "start": 44.133,
+      "end": 44.253,
       "emphasis": false
     },
     {
       "text": "mala",
-      "start": 45.712,
-      "end": 45.892,
+      "start": 44.253,
+      "end": 44.433,
       "emphasis": false
     },
     {
       "text": "noticia",
-      "start": 45.892,
-      "end": 46.292,
+      "start": 44.433,
+      "end": 44.833,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 46.333,
-      "end": 46.453,
+      "start": 44.875,
+      "end": 44.995,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 46.433,
-      "end": 46.553,
+      "start": 44.975,
+      "end": 45.095,
       "emphasis": false
     },
     {
       "text": "se",
-      "start": 46.553,
-      "end": 46.673,
+      "start": 45.095,
+      "end": 45.215,
       "emphasis": false
     },
     {
       "text": "queda",
-      "start": 46.673,
-      "end": 47.033,
+      "start": 45.215,
+      "end": 45.575,
       "emphasis": false
     },
     {
       "text": "con",
-      "start": 47.033,
-      "end": 47.273,
+      "start": 45.575,
+      "end": 45.815,
       "emphasis": false
     },
     {
       "text": "acciones",
-      "start": 47.273,
-      "end": 47.613,
+      "start": 45.815,
+      "end": 46.155,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 47.613,
-      "end": 47.793,
+      "start": 46.155,
+      "end": 46.335,
       "emphasis": false
     },
     {
       "text": "valen",
-      "start": 47.793,
-      "end": 48.033,
+      "start": 46.335,
+      "end": 46.575,
       "emphasis": false
     },
     {
       "text": "menos",
-      "start": 48.033,
-      "end": 48.5,
+      "start": 46.575,
+      "end": 47.042,
       "emphasis": false
     },
     {
       "text": "eres",
-      "start": 48.483,
-      "end": 48.683,
+      "start": 47.025,
+      "end": 47.225,
       "emphasis": false
     },
     {
       "text": "tú",
-      "start": 48.683,
-      "end": 49.083,
+      "start": 47.225,
+      "end": 47.625,
       "emphasis": true
     },
     {
       "text": "Y",
-      "start": 49.083,
-      "end": 49.203,
+      "start": 47.625,
+      "end": 47.745,
       "emphasis": false
     },
     {
       "text": "no",
-      "start": 49.173,
-      "end": 49.293,
+      "start": 47.715,
+      "end": 47.835,
       "emphasis": false
     },
     {
       "text": "creerás",
-      "start": 49.293,
-      "end": 49.793,
+      "start": 47.835,
+      "end": 48.333,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 49.793,
-      "end": 50.033,
+      "start": 48.335,
+      "end": 48.455,
       "emphasis": false
     },
     {
       "text": "si",
-      "start": 50.033,
-      "end": 50.193,
+      "start": 48.408,
+      "end": 48.568,
       "emphasis": false
     },
     {
       "text": "no",
-      "start": 50.193,
-      "end": 50.313,
+      "start": 48.568,
+      "end": 48.688,
       "emphasis": false
     },
     {
       "text": "inviertes",
-      "start": 50.273,
-      "end": 50.653,
+      "start": 48.648,
+      "end": 49.028,
       "emphasis": false
     },
     {
       "text": "en",
-      "start": 50.653,
-      "end": 50.793,
+      "start": 49.028,
+      "end": 49.168,
       "emphasis": false
     },
     {
       "text": "bolsa",
-      "start": 50.793,
-      "end": 51.193,
+      "start": 49.168,
+      "end": 49.568,
       "emphasis": true
     },
     {
       "text": "no",
-      "start": 51.193,
-      "end": 51.533,
+      "start": 49.568,
+      "end": 49.908,
       "emphasis": false
     },
     {
       "text": "tiene",
-      "start": 51.533,
-      "end": 51.792,
+      "start": 49.908,
+      "end": 50.148,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 51.773,
-      "end": 51.913,
+      "start": 50.148,
+      "end": 50.288,
       "emphasis": false
     },
     {
       "text": "ver",
-      "start": 51.913,
-      "end": 52.053,
+      "start": 50.288,
+      "end": 50.428,
       "emphasis": false
     },
     {
       "text": "contigo",
-      "start": 52.053,
-      "end": 52.5,
+      "start": 50.428,
+      "end": 50.875,
       "emphasis": false
     },
     {
       "text": "Si",
-      "start": 52.48,
-      "end": 52.6,
+      "start": 50.855,
+      "end": 50.975,
       "emphasis": false
     },
     {
       "text": "tienes",
-      "start": 52.55,
-      "end": 52.81,
+      "start": 50.925,
+      "end": 51.185,
       "emphasis": false
     },
     {
       "text": "AFP",
-      "start": 52.81,
-      "end": 53.59,
+      "start": 51.185,
+      "end": 51.833,
       "emphasis": true
     },
     {
       "text": "parte",
-      "start": 53.59,
-      "end": 53.89,
+      "start": 51.848,
+      "end": 52.098,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 53.89,
-      "end": 54.11,
+      "start": 52.098,
+      "end": 52.318,
       "emphasis": false
     },
     {
       "text": "tu",
-      "start": 54.11,
-      "end": 54.23,
+      "start": 52.318,
+      "end": 52.438,
       "emphasis": true
     },
     {
       "text": "plata",
-      "start": 54.21,
-      "end": 54.57,
+      "start": 52.418,
+      "end": 52.778,
       "emphasis": true
     },
     {
       "text": "está",
-      "start": 54.57,
-      "end": 55.167,
+      "start": 52.778,
+      "end": 53,
       "emphasis": false
     },
     {
       "text": "invertida",
-      "start": 55.15,
-      "end": 55.69,
+      "start": 53.192,
+      "end": 53.732,
       "emphasis": false
     },
     {
       "text": "en",
-      "start": 55.69,
-      "end": 55.89,
+      "start": 53.732,
+      "end": 53.932,
       "emphasis": false
     },
     {
       "text": "estas",
-      "start": 55.89,
-      "end": 56.05,
+      "start": 53.932,
+      "end": 54.092,
       "emphasis": false
     },
     {
       "text": "empresas",
-      "start": 56.05,
-      "end": 56.417,
+      "start": 54.092,
+      "end": 54.458,
       "emphasis": false
     },
     {
       "text": "Por",
-      "start": 56.425,
-      "end": 56.545,
+      "start": 54.467,
+      "end": 54.587,
       "emphasis": false
     },
     {
       "text": "eso",
-      "start": 56.495,
-      "end": 56.895,
+      "start": 54.537,
+      "end": 54.937,
       "emphasis": false
     },
     {
       "text": "si",
-      "start": 56.895,
-      "end": 57.015,
+      "start": 54.937,
+      "end": 55.057,
       "emphasis": false
     },
     {
       "text": "una",
-      "start": 56.995,
-      "end": 57.115,
+      "start": 55.037,
+      "end": 55.157,
       "emphasis": false
     },
     {
       "text": "empresa",
-      "start": 57.115,
-      "end": 57.495,
+      "start": 55.157,
+      "end": 55.537,
       "emphasis": false
     },
     {
       "text": "oculta",
-      "start": 57.495,
-      "end": 58.255,
+      "start": 55.537,
+      "end": 55.792,
       "emphasis": true
     },
     {
       "text": "información",
-      "start": 58.255,
-      "end": 58.695,
+      "start": 56.172,
+      "end": 56.612,
       "emphasis": false
     },
     {
       "text": "o",
-      "start": 58.695,
-      "end": 59.167,
+      "start": 56.612,
+      "end": 57.092,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 59.175,
-      "end": 59.295,
+      "start": 57.092,
+      "end": 57.212,
       "emphasis": false
     },
     {
       "text": "cuenta",
-      "start": 59.255,
-      "end": 59.515,
+      "start": 57.172,
+      "end": 57.432,
       "emphasis": false
     },
     {
       "text": "tarde",
-      "start": 59.515,
-      "end": 60,
+      "start": 57.432,
+      "end": 57.917,
       "emphasis": true
     },
     {
       "text": "La",
-      "start": 59.983,
-      "end": 60.103,
+      "start": 57.9,
+      "end": 58.02,
       "emphasis": false
     },
     {
       "text": "SMV",
-      "start": 60.093,
-      "end": 60.633,
+      "start": 58.01,
+      "end": 58.55,
       "emphasis": true
     },
     {
       "text": "puede",
-      "start": 60.633,
-      "end": 61.053,
+      "start": 58.55,
+      "end": 58.708,
       "emphasis": false
     },
     {
       "text": "investigarla",
-      "start": 61.053,
-      "end": 61.853,
+      "start": 58.845,
+      "end": 59.667,
       "emphasis": false
     },
     {
       "text": "y",
-      "start": 61.853,
-      "end": 62.013,
+      "start": 59.663,
+      "end": 59.783,
       "emphasis": false
     },
     {
       "text": "sancionarla",
-      "start": 62.013,
-      "end": 62.875,
+      "start": 59.763,
+      "end": 60.583,
       "emphasis": true
     },
     {
       "text": "Y",
-      "start": 62.883,
-      "end": 63.292,
+      "start": 60.592,
+      "end": 61,
       "emphasis": false
     },
     {
       "text": "ya",
-      "start": 63.383,
-      "end": 63.503,
+      "start": 61.092,
+      "end": 61.212,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 63.483,
-      "end": 63.603,
+      "start": 61.192,
+      "end": 61.312,
       "emphasis": false
     },
     {
       "text": "tocamos",
-      "start": 63.583,
-      "end": 64.023,
+      "start": 61.292,
+      "end": 61.732,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 64.023,
-      "end": 64.203,
+      "start": 61.732,
+      "end": 61.912,
       "emphasis": false
     },
     {
       "text": "tema",
-      "start": 64.203,
-      "end": 64.503,
+      "start": 61.912,
+      "end": 62.417,
       "emphasis": false
     },
     {
       "text": "Lograste",
-      "start": 64.503,
-      "end": 65.483,
+      "start": 62.427,
+      "end": 63.067,
       "emphasis": false
     },
     {
       "text": "vender",
-      "start": 65.483,
-      "end": 65.763,
+      "start": 63.067,
+      "end": 63.347,
       "emphasis": false
     },
     {
       "text": "tus",
-      "start": 65.763,
-      "end": 66.042,
+      "start": 63.347,
+      "end": 63.627,
       "emphasis": false
     },
     {
       "text": "acciones",
-      "start": 66.043,
-      "end": 66.443,
+      "start": 63.627,
+      "end": 64.027,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 66.443,
-      "end": 66.603,
+      "start": 64.027,
+      "end": 64.187,
       "emphasis": false
     },
     {
       "text": "NVIDIA",
-      "start": 66.603,
-      "end": 67.043,
+      "start": 64.187,
+      "end": 64.627,
       "emphasis": true
     },
     {
       "text": "lunes",
-      "start": 67.043,
-      "end": 67.5,
+      "start": 64.627,
+      "end": 65.083,
       "emphasis": false
     },
     {
       "text": "Cuéntalo",
-      "start": 67.49,
-      "end": 67.682,
+      "start": 65.073,
+      "end": 65.265,
       "emphasis": false
     },
     {
       "text": "en",
-      "start": 67.682,
-      "end": 67.802,
+      "start": 65.265,
+      "end": 65.385,
       "emphasis": false
     },
     {
       "text": "los",
-      "start": 67.802,
-      "end": 67.922,
+      "start": 65.385,
+      "end": 65.505,
       "emphasis": false
     },
     {
       "text": "comentarios",
-      "start": 67.862,
-      "end": 68.417,
+      "start": 65.445,
+      "end": 66,
       "emphasis": true
     },
     {
       "text": "Sigue",
-      "start": 68.403,
-      "end": 68.523,
+      "start": 65.987,
+      "end": 66.107,
       "emphasis": false
     },
     {
       "text": "a",
-      "start": 68.473,
-      "end": 68.813,
+      "start": 66.057,
+      "end": 66.397,
       "emphasis": false
     },
     {
       "text": "Vocare",
-      "start": 68.813,
-      "end": 68.933,
+      "start": 66.397,
+      "end": 66.517,
       "emphasis": false
     },
     {
       "text": "Iuris",
-      "start": 68.863,
-      "end": 69.133,
+      "start": 66.447,
+      "end": 66.75,
       "emphasis": false
     },
     {
       "text": "para",
-      "start": 69.133,
-      "end": 69.353,
+      "start": 66.765,
+      "end": 66.895,
       "emphasis": false
     },
     {
       "text": "conocer",
-      "start": 69.353,
-      "end": 69.693,
+      "start": 66.895,
+      "end": 67.235,
       "emphasis": false
     },
     {
       "text": "más",
-      "start": 69.693,
-      "end": 70.033,
+      "start": 67.235,
+      "end": 67.575,
       "emphasis": false
     },
     {
       "text": "sobre",
-      "start": 70.033,
-      "end": 70.253,
+      "start": 67.575,
+      "end": 67.795,
       "emphasis": false
     },
     {
       "text": "tus",
-      "start": 70.253,
-      "end": 70.473,
+      "start": 67.795,
+      "end": 68.015,
       "emphasis": false
     },
     {
       "text": "derechos",
-      "start": 70.473,
-      "end": 71.083,
+      "start": 68.015,
+      "end": 68.625,
       "emphasis": true
     }
   ],
@@ -1702,7 +1846,7 @@
       "x": 0.68,
       "y": 0.62,
       "start": 0,
-      "end": 3.205,
+      "end": 3.122,
       "note": "hook: NVIDIA publicó un comunicado"
     },
     {
@@ -1711,8 +1855,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 3.235,
-      "end": 3.853,
+      "start": 3.152,
+      "end": 3.77,
       "note": "«¿Qué decía?»"
     },
     {
@@ -1721,8 +1865,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 4.253,
-      "end": 5.183,
+      "start": 4.17,
+      "end": 5.1,
       "note": "el directorio"
     },
     {
@@ -1731,8 +1875,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 5.213,
-      "end": 7.028,
+      "start": 5.13,
+      "end": 6.944,
       "note": "investigando a su propio CEO"
     },
     {
@@ -1741,8 +1885,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 7.058,
-      "end": 9.023,
+      "start": 6.974,
+      "end": 8.898,
       "note": "por reportes"
     },
     {
@@ -1751,8 +1895,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 9.053,
-      "end": 10.17,
+      "start": 8.928,
+      "end": 10.045,
       "note": "espionaje extranjero"
     },
     {
@@ -1761,15 +1905,15 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 10.2,
-      "end": 11.56,
+      "start": 10.075,
+      "end": 10.977,
       "note": "el lunes"
     },
     {
       "type": "flash",
       "opacity": 0.7,
-      "start": 11.57,
-      "end": 11.75,
+      "start": 10.987,
+      "end": 11.167,
       "note": "ruptura de patrón"
     },
     {
@@ -1782,8 +1926,8 @@
       "stepFrames": 3,
       "x": 0.5,
       "y": 0.58,
-      "start": 11.59,
-      "end": 13.52,
+      "start": 11.007,
+      "end": 12.853,
       "note": "cayeron más del 5 % (dato a verificar)"
     },
     {
@@ -1792,8 +1936,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 13.55,
-      "end": 16.532,
+      "start": 12.883,
+      "end": 15.782,
       "note": "«ahora piensa»"
     },
     {
@@ -1802,15 +1946,15 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 16.562,
-      "end": 18.948,
+      "start": 15.812,
+      "end": 18.073,
       "note": "perder millones"
     },
     {
       "type": "flash",
       "opacity": 0.7,
-      "start": 18.958,
-      "end": 19.138,
+      "start": 18.083,
+      "end": 18.263,
       "note": "ruptura de patrón"
     },
     {
@@ -1819,8 +1963,8 @@
       "tone": "ok",
       "x": 0.5,
       "y": 0.6,
-      "start": 18.978,
-      "end": 20.163,
+      "start": 18.103,
+      "end": 19.298,
       "note": "respuesta: obligación legal"
     },
     {
@@ -1829,8 +1973,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 20.453,
-      "end": 22.797,
+      "start": 19.578,
+      "end": 21.797,
       "note": "en Perú existe la misma regla"
     },
     {
@@ -1840,8 +1984,8 @@
       "color": "yellow",
       "x": 0.5,
       "y": 0.66,
-      "start": 22.827,
-      "end": 24.447,
+      "start": 21.827,
+      "end": 23.447,
       "note": "normativa (verificar cita)"
     },
     {
@@ -1850,8 +1994,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 24.477,
-      "end": 26.667,
+      "start": 23.477,
+      "end": 25.458,
       "note": "vende acciones en bolsa"
     },
     {
@@ -1860,8 +2004,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 26.697,
-      "end": 28.375,
+      "start": 25.488,
+      "end": 27.042,
       "note": "o bonos"
     },
     {
@@ -1870,8 +2014,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 28.493,
-      "end": 31.667,
+      "start": 27.16,
+      "end": 30.292,
       "note": "pasa algo importante"
     },
     {
@@ -1880,8 +2024,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 31.697,
-      "end": 33.979,
+      "start": 30.322,
+      "end": 32.604,
       "note": "cambia de opinión"
     },
     {
@@ -1890,8 +2034,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 34.009,
-      "end": 34.955,
+      "start": 32.634,
+      "end": 33.58,
       "note": "tiene que contarlo"
     },
     {
@@ -1900,8 +2044,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 35.095,
-      "end": 35.787,
+      "start": 33.72,
+      "end": 34.412,
       "note": "¿Y cuándo?"
     },
     {
@@ -1910,8 +2054,8 @@
       "cursor": true,
       "x": 0.5,
       "y": 0.64,
-      "start": 35.817,
-      "end": 38.29,
+      "start": 34.442,
+      "end": 36.832,
       "note": "plazo"
     },
     {
@@ -1920,8 +2064,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 39.01,
-      "end": 40.838,
+      "start": 37.552,
+      "end": 39.38,
       "note": "la empresa duda"
     },
     {
@@ -1934,8 +2078,8 @@
       "stepFrames": 3,
       "x": 0.5,
       "y": 0.58,
-      "start": 40.868,
-      "end": 42.192,
+      "start": 39.41,
+      "end": 40.733,
       "note": "igual tiene que contarlo"
     },
     {
@@ -1944,8 +2088,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 42.222,
-      "end": 43.612,
+      "start": 40.763,
+      "end": 42.153,
       "note": "¿por qué tan estricto?"
     },
     {
@@ -1954,8 +2098,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 43.642,
-      "end": 46.303,
+      "start": 42.183,
+      "end": 44.845,
       "note": "sólo los gerentes saben"
     },
     {
@@ -1964,8 +2108,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 46.333,
-      "end": 48.453,
+      "start": 44.875,
+      "end": 46.995,
       "note": "acciones que valen menos"
     },
     {
@@ -1978,8 +2122,8 @@
       "stepFrames": 3,
       "x": 0.5,
       "y": 0.58,
-      "start": 48.483,
-      "end": 49.053,
+      "start": 47.025,
+      "end": 47.595,
       "note": "el que pierde eres tú"
     },
     {
@@ -1988,8 +2132,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 49.083,
-      "end": 52.45,
+      "start": 47.625,
+      "end": 50.825,
       "note": "«no creas que no tiene que ver contigo»"
     },
     {
@@ -1998,8 +2142,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 52.48,
-      "end": 53.56,
+      "start": 50.855,
+      "end": 51.818,
       "note": "tu AFP"
     },
     {
@@ -2008,8 +2152,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 53.59,
-      "end": 56.395,
+      "start": 51.848,
+      "end": 54.437,
       "note": "tu plata invertida"
     },
     {
@@ -2018,8 +2162,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 56.425,
-      "end": 59.145,
+      "start": 54.467,
+      "end": 57.062,
       "note": "oculta información"
     },
     {
@@ -2028,8 +2172,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 59.175,
-      "end": 59.953,
+      "start": 57.092,
+      "end": 57.87,
       "note": "o la cuenta tarde"
     },
     {
@@ -2039,8 +2183,8 @@
       "color": "white",
       "x": 0.5,
       "y": 0.66,
-      "start": 59.983,
-      "end": 61.983,
+      "start": 57.9,
+      "end": 59.733,
       "note": "autoridad supervisora"
     },
     {
@@ -2049,8 +2193,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 62.013,
-      "end": 62.853,
+      "start": 59.763,
+      "end": 60.562,
       "note": "puede sancionarla"
     },
     {
@@ -2059,8 +2203,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 64.503,
-      "end": 67.46,
+      "start": 62.427,
+      "end": 65.043,
       "note": "¿lograste vender?"
     },
     {
@@ -2069,8 +2213,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 67.49,
-      "end": 68.353,
+      "start": 65.073,
+      "end": 65.937,
       "note": "cuéntalo en los comentarios"
     }
   ],
