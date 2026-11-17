@@ -117,7 +117,11 @@ export const Captions: React.FC<{ edit: Edit; timeline: Timeline; hideRanges?: [
           fontSize: t.caption * k,
           lineHeight: 1.08,
           color: colors.white,
-          textShadow: `0 ${2 * k}px ${14 * k}px rgba(0,0,0,0.55), 0 0 ${2 * k}px rgba(0,0,0,0.35)`,
+          // Light sets (white wall / light clothing): stronger dark halo for legibility.
+          textShadow:
+            edit.layout.backdrop === "light"
+              ? `0 ${2 * k}px ${4 * k}px rgba(0,0,0,0.75), 0 0 ${14 * k}px rgba(0,0,0,0.7), 0 0 ${30 * k}px rgba(0,0,0,0.5)`
+              : `0 ${2 * k}px ${14 * k}px rgba(0,0,0,0.55), 0 0 ${2 * k}px rgba(0,0,0,0.35)`,
           letterSpacing: -0.3 * k,
         }}
       >

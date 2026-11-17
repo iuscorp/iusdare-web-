@@ -66,7 +66,7 @@
     {
       "id": "S03",
       "source": "main",
-      "in": 55.22,
+      "in": 55.19,
       "out": 62.7,
       "role": "development",
       "purpose": "Qué es: políticas, procedimientos y mecanismos de control",
@@ -145,7 +145,7 @@
     {
       "id": "S07",
       "source": "main",
-      "in": 195.0,
+      "in": 194.9,
       "out": 198.95,
       "role": "development",
       "purpose": "Un sistema PLAFT comprende…",
