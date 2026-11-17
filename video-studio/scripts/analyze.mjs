@@ -105,7 +105,10 @@ const plan = cleanup(source, {silences: silences(proxy, -40, 0.3), deepSilences:
   const edgeIn = path.join(P.analysisDir, 'ranges-tight.json');
   const edgeOut = path.join(P.analysisDir, 'ranges-edges.json');
   writeJson(edgeIn, plan.ranges.map((r) => [r.in, r.out]));
-  const er = run(python(), [path.join(STUDIO_ROOT, 'scripts', 'edges.py'), proxy, edgeIn, edgeOut]);
+  // voz del presentador vs. otra voz: por defecto tono (> 165 Hz y bajo) — en presentadoras se calibra por nivel
+  const voice = readJson(P.meta).editing?.voice ?? {};
+  const vArgs = [...(voice.splitHz ? ['--split-hz', String(voice.splitHz)] : []), ...(voice.quietDb ? ['--quiet-db', String(voice.quietDb)] : [])];
+  const er = run(python(), [path.join(STUDIO_ROOT, 'scripts', 'edges.py'), proxy, edgeIn, edgeOut, ...vArgs]);
   readJson(edgeOut).forEach(([i, o], k) => {
     plan.ranges[k].in = i;
     plan.ranges[k].out = o;
