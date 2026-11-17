@@ -1,0 +1,285 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "7.2 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "24 (footage 24)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "70.50 s (EDL 70.46 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.5 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.06 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana 2 ms, p90 |57| ms, 188/227 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": false,
+      "level": "warn",
+      "detail": "39 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 188,
+    "total": 227,
+    "medianOffset": 0.0020000000000024443,
+    "p90AbsOffset": 0.057000000000000384,
+    "mismatches": [
+      {
+        "at": 3.38,
+        "caption": "róbatela",
+        "heard": "Pues, rótela."
+      },
+      {
+        "at": 6.045,
+        "caption": "está",
+        "heard": "no esté en uso"
+      },
+      {
+        "at": 10.375,
+        "caption": "La",
+        "heard": "estrategia"
+      },
+      {
+        "at": 12.887,
+        "caption": "Paso",
+        "heard": "elijas, pasa o no,"
+      },
+      {
+        "at": 13.18,
+        "caption": "uno",
+        "heard": "pasa o no, identifica"
+      },
+      {
+        "at": 15.838,
+        "caption": "años",
+        "heard": "de tres al mismo tiempo,"
+      },
+      {
+        "at": 16.278,
+        "caption": "consecutivos",
+        "heard": "mismo tiempo, sin usarse."
+      },
+      {
+        "at": 20.203,
+        "caption": "vulnerando",
+        "heard": "(nada)"
+      },
+      {
+        "at": 20.883,
+        "caption": "la",
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.003,
+        "caption": "ley",
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.243,
+        "caption": "o",
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.443,
+        "caption": "derechos",
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.743,
+        "caption": "de",
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.963,
+        "caption": "terceros",
+        "heard": "(nada)"
+      },
+      {
+        "at": 22.55,
+        "caption": "Solicitas",
+        "heard": "(nada)"
+      },
+      {
+        "at": 23.15,
+        "caption": "la",
+        "heard": "(nada)"
+      },
+      {
+        "at": 23.27,
+        "caption": "nulidad",
+        "heard": "(nada)"
+      },
+      {
+        "at": 23.69,
+        "caption": "del",
+        "heard": "(nada)"
+      },
+      {
+        "at": 24.03,
+        "caption": "registro",
+        "heard": "Paz"
+      },
+      {
+        "at": 24.68,
+        "caption": "Paso",
+        "heard": "Paz 2,"
+      },
+      {
+        "at": 30.497,
+        "caption": "distintivos",
+        "heard": "signos."
+      },
+      {
+        "at": 31.097,
+        "caption": "de",
+        "heard": "(nada)"
+      },
+      {
+        "at": 31.237,
+        "caption": "Indecopi",
+        "heard": "(nada)"
+      },
+      {
+        "at": 32.088,
+        "caption": "fundamentando",
+        "heard": "(nada)"
+      },
+      {
+        "at": 32.668,
+        "caption": "la",
+        "heard": "(nada)"
+      },
+      {
+        "at": 32.768,
+        "caption": "causal",
+        "heard": "(nada)"
+      },
+      {
+        "at": 33.217,
+        "caption": "Y",
+        "heard": "(nada)"
+      },
+      {
+        "at": 33.317,
+        "caption": "pagando",
+        "heard": "(nada)"
+      },
+      {
+        "at": 33.757,
+        "caption": "la",
+        "heard": "(nada)"
+      },
+      {
+        "at": 33.877,
+        "caption": "tasa",
+        "heard": "(nada)"
+      },
+      {
+        "at": 34.217,
+        "caption": "correspondiente",
+        "heard": "Paz"
+      },
+      {
+        "at": 34.998,
+        "caption": "Paso",
+        "heard": "3."
+      },
+      {
+        "at": 39.927,
+        "caption": "Pero",
+        "heard": "marca."
+      },
+      {
+        "at": 40.187,
+        "caption": "ojo",
+        "heard": "en la"
+      },
+      {
+        "at": 46.85,
+        "caption": "sí",
+        "heard": "que es psicomersial,"
+      },
+      {
+        "at": 46.99,
+        "caption": "comercializan",
+        "heard": "que es psicomersial,"
+      },
+      {
+        "at": 61.952,
+        "caption": "La",
+        "heard": "tu nombre. Eliminación"
+      },
+      {
+        "at": 65.413,
+        "caption": "vía",
+        "heard": "la avión administrativa"
+      },
+      {
+        "at": 68.335,
+        "caption": "sigue a",
+        "heard": "sabes, siga Vocare Iuris"
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14,
+    "lra": 4.9,
+    "truePeakDb": -1.5
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/video-8/video-8-preview.mp4"
+}

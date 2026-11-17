@@ -1,18 +1,13 @@
 [
  {
-  "in": 11.45,
+  "in": 11.3,
   "out": 14.6,
   "note": "¿Te gusta una marca inactiva y quieres usarla para tu negocio?"
  },
  {
   "in": 16.55,
-  "out": 18.15,
+  "out": 18.1,
   "note": "Pues, róbatela."
- },
- {
-  "in": 22.25,
-  "out": 24.3,
-  "note": "Pues, róbatela. (alt)"
  },
  {
   "in": 27.85,
@@ -20,178 +15,156 @@
   "note": "Es totalmente válido."
  },
  {
-  "in": 29.9,
-  "out": 36.9,
+  "in": 33.3,
+  "out": 36.85,
   "note": "Si una marca no está en uso y afecta el registro de tu marca,"
  },
  {
-  "in": 39.6,
-  "out": 42.6,
+  "in": 39.5,
+  "out": 42.0,
   "note": "tienes derecho a exigir su eliminación."
  },
  {
   "in": 45.95,
-  "out": 49.1,
+  "out": 48.8,
   "note": "La estrategia depende de la vía legal que tú elijas."
  },
  {
-  "in": 52.7,
+  "in": 52.75,
   "out": 54.8,
   "note": "Paso uno, identifica la causal."
  },
  {
-  "in": 63.7,
-  "out": 71.5,
-  "note": "Si la marca lleva más de tres años consecutivos sin usarse,"
+  "in": 67.95,
+  "out": 71.45,
+  "note": "Si la marca lleva más de tres años consecutivos sin usarse,",
+  "forceOut": 71.42
  },
  {
-  "in": 72.3,
-  "out": 77.35,
+  "in": 74.5,
+  "out": 77.4,
   "note": "inicias una cancelación por falta de uso."
  },
  {
-  "in": 77.8,
-  "out": 81.6,
+  "in": 81.6,
+  "out": 85.5,
   "note": "Si se registró vulnerando la ley o derechos de terceros,"
  },
  {
-  "in": 88.8,
+  "in": 88.75,
   "out": 91.0,
   "note": "solicitas la nulidad del registro."
  },
  {
-  "in": 94.3,
-  "out": 96.4,
+  "in": 94.35,
+  "out": 96.6,
   "note": "Paso dos, presenta tu solicitud."
  },
  {
-  "in": 100.85,
-  "out": 103.6,
+  "in": 100.8,
+  "out": 103.4,
   "note": "Interpone la acción ante la autoridad competente,"
  },
  {
-  "in": 103.6,
-  "out": 110.6,
+  "in": 106.5,
+  "out": 110.4,
   "note": "como la Dirección de Signos Distintivos de Indecopi,"
  },
  {
-  "in": 114.6,
-  "out": 117.1,
+  "in": 114.3,
+  "out": 115.9,
   "note": "fundamentando la causal"
  },
  {
   "in": 119.0,
-  "out": 121.3,
+  "out": 121.0,
   "note": "y pagando la tasa correspondiente."
  },
  {
-  "in": 132.7,
-  "out": 135.4,
+  "in": 132.5,
+  "out": 135.1,
   "note": "Paso tres, notificación y carga probatoria."
  },
  {
-  "in": 142.85,
-  "out": 145.6,
+  "in": 142.9,
+  "out": 145.55,
   "note": "La autoridad notifica al titular de la marca."
  },
  {
-  "in": 167.75,
-  "out": 168.65,
-  "note": "Pero ojo,"
+  "in": 167.7,
+  "out": 168.35,
+  "note": "Pero ojo,",
+  "forceOut": 168.25
  },
  {
-  "in": 171.9,
-  "out": 173.7,
+  "in": 171.8,
+  "out": 173.65,
   "note": "en la cancelación por no uso,"
  },
  {
-  "in": 183.35,
-  "out": 185.85,
+  "in": 183.3,
+  "out": 185.5,
   "note": "la carga de la prueba la tiene el titular,"
  },
  {
-  "in": 187.45,
-  "out": 189.0,
+  "in": 187.5,
+  "out": 188.8,
   "note": "quien debe demostrar"
  },
  {
-  "in": 220.5,
-  "out": 224.3,
+  "in": 221.6,
+  "out": 224.5,
   "note": "con facturas o boletas que sí comercializa."
  },
  {
-  "in": 230.3,
-  "out": 232.3,
+  "in": 230.2,
+  "out": 231.95,
   "note": "Paso cuatro, resolución final."
  },
  {
-  "in": 283.1,
+  "in": 283.5,
   "out": 285.6,
   "note": "Si el titular no prueba el uso real"
  },
  {
-  "in": 294.5,
+  "in": 294.45,
   "out": 296.3,
   "note": "o se confirma la ilegalidad,"
  },
  {
-  "in": 301.1,
-  "out": 304.0,
-  "note": "la autoridad emite la resolución"
+  "in": 301.8,
+  "out": 304.1,
+  "note": "la autoridad emite la resolución",
+  "forceOut": 304.0
  },
  {
-  "in": 339.4,
+  "in": 339.35,
   "out": 341.2,
   "note": "declarando la extinción del registro."
  },
  {
   "in": 348.0,
-  "out": 350.5,
+  "out": 350.4,
   "note": "En el caso de la cancelación por no uso,"
  },
  {
-  "in": 355.2,
-  "out": 362.2,
-  "note": "para registrarla a tu nombre (?)"
+  "in": 357.45,
+  "out": 360.75,
+  "note": "tú obtienes el derecho preferente para registrarla a tu nombre."
  },
  {
-  "in": 366.1,
-  "out": 379.8,
-  "note": "tú obtienes el derecho preferente (?)"
- },
- {
-  "in": 397.3,
-  "out": 400.9,
+  "in": 397.35,
+  "out": 400.6,
   "note": "La eliminación de la marca exige una estrategia clara"
  },
  {
-  "in": 414.8,
-  "out": 419.0,
-  "note": "La eliminación de la marca exige una estrategia clara (alt)"
- },
- {
-  "in": 429.6,
-  "out": 433.2,
+  "in": 429.55,
+  "out": 432.5,
   "note": "entre la vía administrativa y la recopilación de pruebas."
  },
  {
-  "in": 433.2,
-  "out": 437.7,
-  "note": "Así que si estás evaluando iniciar un proceso de cancelación o nulidad (?)"
- },
- {
-  "in": 444.4,
-  "out": 447.25,
-  "note": "sigue a Vocare Iuris para conocer más sobre tus derechos (alt)"
- },
- {
-  "in": 456.3,
-  "out": 460.0,
+  "in": 456.25,
+  "out": 459.8,
   "note": "Ya lo sabes, sigue a Vocare Iuris para conocer tus derechos."
- },
- {
-  "in": 460.55,
-  "out": 464.6,
-  "note": "Ya lo sabes, sigue a Vocare Iuris para conocer más sobre tus derechos. (alt)"
  }
 ]

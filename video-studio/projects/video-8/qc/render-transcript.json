@@ -1,0 +1,1344 @@
+{
+ "model": "small",
+ "language": "es",
+ "duration": 70.464,
+ "text": "¿Te gusta una marca inactiva y quieres usarla para tu negocio? Pues, rótela. Es totalmente válido. Si una marca no esté en uso y afecta el registro de tu marca, tienes derecho a exigir su eliminación. La estrategia depende de la vía legal que tú elijas, pasa o no, identifica la causa. Si la marca lleva más de tres al mismo tiempo, sin usarse. Inicias una cancelación por falta de uso. Si se registró... Paz 2, presenta tu solicitud. Interpone la acción ante la autoridad competente, como la dirección de signos. Paz 3. Notificación y carga probatoria. La autoridad notifica al titular de la marca. Pero ojo, en la cancelación por no uso, la carga de la prueba la tiene el títula. Quien debe demostrar con facturas o boletas, que es psicomersial, paso 4. Resolución final. Si el titular no prueba el uso. Prove el uso real o se confirma la ilegalidad, la autoridad emite la resolución declarando la extinción del registro. En el caso de la cancelación por no uso, tú obtienes el derecho preferente. Es lo preferente para registrarlo a tu nombre. Eliminación de la marca exige una estrategia clara entre la avión administrativa y la recopilación de pruebas. Ya lo sabes, siga Vocare Iuris para conocer tus derechos.",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.96,
+   "text": "¿Te gusta una marca inactiva y quieres usarla para tu negocio?"
+  },
+  {
+   "start": 3.18,
+   "end": 3.82,
+   "text": "Pues, rótela."
+  },
+  {
+   "start": 4.0,
+   "end": 5.18,
+   "text": "Es totalmente válido."
+  },
+  {
+   "start": 5.28,
+   "end": 8.26,
+   "text": "Si una marca no esté en uso y afecta el registro de tu marca,"
+  },
+  {
+   "start": 8.46,
+   "end": 10.32,
+   "text": "tienes derecho a exigir su eliminación."
+  },
+  {
+   "start": 10.0,
+   "end": 14.44,
+   "text": "La estrategia depende de la vía legal que tú elijas, pasa o no, identifica la causa."
+  },
+  {
+   "start": 14.52,
+   "end": 17.06,
+   "text": "Si la marca lleva más de tres al mismo tiempo, sin usarse."
+  },
+  {
+   "start": 17.2,
+   "end": 19.3,
+   "text": "Inicias una cancelación por falta de uso."
+  },
+  {
+   "start": 19.42,
+   "end": 20.42,
+   "text": "Si se registró..."
+  },
+  {
+   "start": 24.26,
+   "end": 30.02,
+   "text": "Paz 2, presenta tu solicitud. Interpone la acción ante la autoridad competente, como la dirección"
+  },
+  {
+   "start": 30.02,
+   "end": 30.48,
+   "text": "de signos."
+  },
+  {
+   "start": 34.4,
+   "end": 39.76,
+   "text": "Paz 3. Notificación y carga probatoria. La autoridad notifica al titular de la marca."
+  },
+  {
+   "start": 40.0,
+   "end": 44.18,
+   "text": "Pero ojo, en la cancelación por no uso, la carga de la prueba la tiene el títula."
+  },
+  {
+   "start": 44.26,
+   "end": 48.92,
+   "text": "Quien debe demostrar con facturas o boletas, que es psicomersial, paso 4. Resolución final."
+  },
+  {
+   "start": 49.04,
+   "end": 50.48,
+   "text": "Si el titular no prueba el uso."
+  },
+  {
+   "start": 50.0,
+   "end": 55.44,
+   "text": "Prove el uso real o se confirma la ilegalidad, la autoridad emite la resolución declarando"
+  },
+  {
+   "start": 55.44,
+   "end": 59.92,
+   "text": "la extinción del registro. En el caso de la cancelación por no uso, tú obtienes el derecho"
+  },
+  {
+   "start": 59.92,
+   "end": 60.48,
+   "text": "preferente."
+  },
+  {
+   "start": 60.0,
+   "end": 61.88,
+   "text": "Es lo preferente para registrarlo a tu nombre."
+  },
+  {
+   "start": 61.98,
+   "end": 67.12,
+   "text": "Eliminación de la marca exige una estrategia clara entre la avión administrativa y la recopilación"
+  },
+  {
+   "start": 67.12,
+   "end": 67.64,
+   "text": "de pruebas."
+  },
+  {
+   "start": 67.72,
+   "end": 70.32,
+   "text": "Ya lo sabes, siga Vocare Iuris para conocer tus derechos."
+  }
+ ],
+ "words": [
+  {
+   "w": "¿Te",
+   "s": 0.0,
+   "e": 0.14,
+   "p": 0.56
+  },
+  {
+   "w": "gusta",
+   "s": 0.14,
+   "e": 0.34,
+   "p": 0.956
+  },
+  {
+   "w": "una",
+   "s": 0.34,
+   "e": 0.54,
+   "p": 0.988
+  },
+  {
+   "w": "marca",
+   "s": 0.54,
+   "e": 0.74,
+   "p": 0.993
+  },
+  {
+   "w": "inactiva",
+   "s": 0.74,
+   "e": 1.28,
+   "p": 0.991
+  },
+  {
+   "w": "y",
+   "s": 1.28,
+   "e": 1.42,
+   "p": 0.851
+  },
+  {
+   "w": "quieres",
+   "s": 1.42,
+   "e": 1.62,
+   "p": 0.985
+  },
+  {
+   "w": "usarla",
+   "s": 1.62,
+   "e": 2.04,
+   "p": 0.777
+  },
+  {
+   "w": "para",
+   "s": 2.04,
+   "e": 2.3,
+   "p": 0.992
+  },
+  {
+   "w": "tu",
+   "s": 2.3,
+   "e": 2.5,
+   "p": 0.978
+  },
+  {
+   "w": "negocio?",
+   "s": 2.5,
+   "e": 2.96,
+   "p": 0.998
+  },
+  {
+   "w": "Pues,",
+   "s": 3.18,
+   "e": 3.18,
+   "p": 0.746
+  },
+  {
+   "w": "rótela.",
+   "s": 3.36,
+   "e": 3.82,
+   "p": 0.505
+  },
+  {
+   "w": "Es",
+   "s": 4.0,
+   "e": 4.12,
+   "p": 0.908
+  },
+  {
+   "w": "totalmente",
+   "s": 4.12,
+   "e": 4.56,
+   "p": 0.997
+  },
+  {
+   "w": "válido.",
+   "s": 4.56,
+   "e": 5.18,
+   "p": 0.985
+  },
+  {
+   "w": "Si",
+   "s": 5.28,
+   "e": 5.34,
+   "p": 0.985
+  },
+  {
+   "w": "una",
+   "s": 5.34,
+   "e": 5.48,
+   "p": 0.989
+  },
+  {
+   "w": "marca",
+   "s": 5.48,
+   "e": 5.78,
+   "p": 0.997
+  },
+  {
+   "w": "no",
+   "s": 5.78,
+   "e": 6.04,
+   "p": 0.994
+  },
+  {
+   "w": "esté",
+   "s": 6.04,
+   "e": 6.26,
+   "p": 0.367
+  },
+  {
+   "w": "en",
+   "s": 6.26,
+   "e": 6.4,
+   "p": 0.998
+  },
+  {
+   "w": "uso",
+   "s": 6.4,
+   "e": 6.68,
+   "p": 0.992
+  },
+  {
+   "w": "y",
+   "s": 6.68,
+   "e": 6.94,
+   "p": 0.915
+  },
+  {
+   "w": "afecta",
+   "s": 6.94,
+   "e": 7.32,
+   "p": 0.985
+  },
+  {
+   "w": "el",
+   "s": 7.32,
+   "e": 7.38,
+   "p": 0.888
+  },
+  {
+   "w": "registro",
+   "s": 7.38,
+   "e": 7.74,
+   "p": 0.991
+  },
+  {
+   "w": "de",
+   "s": 7.74,
+   "e": 7.84,
+   "p": 0.995
+  },
+  {
+   "w": "tu",
+   "s": 7.84,
+   "e": 8.0,
+   "p": 0.984
+  },
+  {
+   "w": "marca,",
+   "s": 8.0,
+   "e": 8.26,
+   "p": 0.997
+  },
+  {
+   "w": "tienes",
+   "s": 8.46,
+   "e": 8.66,
+   "p": 0.961
+  },
+  {
+   "w": "derecho",
+   "s": 8.66,
+   "e": 8.96,
+   "p": 0.991
+  },
+  {
+   "w": "a",
+   "s": 8.96,
+   "e": 9.18,
+   "p": 0.941
+  },
+  {
+   "w": "exigir",
+   "s": 9.18,
+   "e": 9.52,
+   "p": 0.998
+  },
+  {
+   "w": "su",
+   "s": 9.52,
+   "e": 9.68,
+   "p": 0.973
+  },
+  {
+   "w": "eliminación.",
+   "s": 9.68,
+   "e": 10.32,
+   "p": 0.991
+  },
+  {
+   "w": "estrategia",
+   "s": 10.5,
+   "e": 11.18,
+   "p": 0.99
+  },
+  {
+   "w": "depende",
+   "s": 11.18,
+   "e": 11.34,
+   "p": 0.949
+  },
+  {
+   "w": "de",
+   "s": 11.34,
+   "e": 11.62,
+   "p": 0.787
+  },
+  {
+   "w": "la",
+   "s": 11.62,
+   "e": 11.66,
+   "p": 0.985
+  },
+  {
+   "w": "vía",
+   "s": 11.66,
+   "e": 11.86,
+   "p": 0.913
+  },
+  {
+   "w": "legal",
+   "s": 11.86,
+   "e": 12.08,
+   "p": 0.981
+  },
+  {
+   "w": "que",
+   "s": 12.08,
+   "e": 12.36,
+   "p": 0.903
+  },
+  {
+   "w": "tú",
+   "s": 12.36,
+   "e": 12.6,
+   "p": 0.787
+  },
+  {
+   "w": "elijas,",
+   "s": 12.6,
+   "e": 12.9,
+   "p": 0.67
+  },
+  {
+   "w": "pasa",
+   "s": 12.92,
+   "e": 13.08,
+   "p": 0.45
+  },
+  {
+   "w": "o",
+   "s": 13.08,
+   "e": 13.32,
+   "p": 0.28
+  },
+  {
+   "w": "no,",
+   "s": 13.32,
+   "e": 13.4,
+   "p": 0.997
+  },
+  {
+   "w": "identifica",
+   "s": 13.52,
+   "e": 14.02,
+   "p": 0.769
+  },
+  {
+   "w": "la",
+   "s": 14.02,
+   "e": 14.16,
+   "p": 0.974
+  },
+  {
+   "w": "causa.",
+   "s": 14.16,
+   "e": 14.44,
+   "p": 0.984
+  },
+  {
+   "w": "Si",
+   "s": 14.52,
+   "e": 14.6,
+   "p": 0.068
+  },
+  {
+   "w": "la",
+   "s": 14.6,
+   "e": 14.68,
+   "p": 0.683
+  },
+  {
+   "w": "marca",
+   "s": 14.68,
+   "e": 14.92,
+   "p": 0.965
+  },
+  {
+   "w": "lleva",
+   "s": 14.92,
+   "e": 15.16,
+   "p": 0.947
+  },
+  {
+   "w": "más",
+   "s": 15.16,
+   "e": 15.42,
+   "p": 0.902
+  },
+  {
+   "w": "de",
+   "s": 15.42,
+   "e": 15.62,
+   "p": 0.92
+  },
+  {
+   "w": "tres",
+   "s": 15.62,
+   "e": 15.82,
+   "p": 0.597
+  },
+  {
+   "w": "al",
+   "s": 15.82,
+   "e": 16.0,
+   "p": 0.536
+  },
+  {
+   "w": "mismo",
+   "s": 16.0,
+   "e": 16.16,
+   "p": 0.114
+  },
+  {
+   "w": "tiempo,",
+   "s": 16.16,
+   "e": 16.44,
+   "p": 0.532
+  },
+  {
+   "w": "sin",
+   "s": 16.54,
+   "e": 16.66,
+   "p": 0.544
+  },
+  {
+   "w": "usarse.",
+   "s": 16.66,
+   "e": 17.06,
+   "p": 0.442
+  },
+  {
+   "w": "Inicias",
+   "s": 17.2,
+   "e": 17.6,
+   "p": 0.668
+  },
+  {
+   "w": "una",
+   "s": 17.6,
+   "e": 17.9,
+   "p": 0.985
+  },
+  {
+   "w": "cancelación",
+   "s": 17.9,
+   "e": 18.48,
+   "p": 0.995
+  },
+  {
+   "w": "por",
+   "s": 18.48,
+   "e": 18.68,
+   "p": 0.979
+  },
+  {
+   "w": "falta",
+   "s": 18.68,
+   "e": 18.88,
+   "p": 0.998
+  },
+  {
+   "w": "de",
+   "s": 18.88,
+   "e": 19.08,
+   "p": 0.995
+  },
+  {
+   "w": "uso.",
+   "s": 19.08,
+   "e": 19.3,
+   "p": 0.997
+  },
+  {
+   "w": "Si",
+   "s": 19.42,
+   "e": 19.5,
+   "p": 0.97
+  },
+  {
+   "w": "se",
+   "s": 19.5,
+   "e": 19.64,
+   "p": 0.971
+  },
+  {
+   "w": "registró...",
+   "s": 19.64,
+   "e": 20.42,
+   "p": 0.738
+  },
+  {
+   "w": "Paz",
+   "s": 24.26,
+   "e": 24.8,
+   "p": 0.14
+  },
+  {
+   "w": "2,",
+   "s": 24.8,
+   "e": 25.1,
+   "p": 0.408
+  },
+  {
+   "w": "presenta",
+   "s": 25.24,
+   "e": 25.74,
+   "p": 0.844
+  },
+  {
+   "w": "tu",
+   "s": 25.74,
+   "e": 25.9,
+   "p": 0.84
+  },
+  {
+   "w": "solicitud.",
+   "s": 25.9,
+   "e": 26.42,
+   "p": 0.992
+  },
+  {
+   "w": "Interpone",
+   "s": 26.46,
+   "e": 26.98,
+   "p": 0.921
+  },
+  {
+   "w": "la",
+   "s": 26.98,
+   "e": 27.12,
+   "p": 0.957
+  },
+  {
+   "w": "acción",
+   "s": 27.12,
+   "e": 27.48,
+   "p": 0.991
+  },
+  {
+   "w": "ante",
+   "s": 27.48,
+   "e": 27.72,
+   "p": 0.981
+  },
+  {
+   "w": "la",
+   "s": 27.72,
+   "e": 27.88,
+   "p": 0.959
+  },
+  {
+   "w": "autoridad",
+   "s": 27.88,
+   "e": 28.28,
+   "p": 0.928
+  },
+  {
+   "w": "competente,",
+   "s": 28.28,
+   "e": 28.96,
+   "p": 0.994
+  },
+  {
+   "w": "como",
+   "s": 29.06,
+   "e": 29.3,
+   "p": 0.881
+  },
+  {
+   "w": "la",
+   "s": 29.3,
+   "e": 29.54,
+   "p": 0.944
+  },
+  {
+   "w": "dirección",
+   "s": 29.54,
+   "e": 30.02,
+   "p": 0.898
+  },
+  {
+   "w": "de",
+   "s": 30.02,
+   "e": 30.18,
+   "p": 0.744
+  },
+  {
+   "w": "signos.",
+   "s": 30.18,
+   "e": 30.48,
+   "p": 0.809
+  },
+  {
+   "w": "Paz",
+   "s": 34.4,
+   "e": 34.92,
+   "p": 0.161
+  },
+  {
+   "w": "3.",
+   "s": 34.92,
+   "e": 35.44,
+   "p": 0.427
+  },
+  {
+   "w": "Notificación",
+   "s": 35.66,
+   "e": 36.18,
+   "p": 0.908
+  },
+  {
+   "w": "y",
+   "s": 36.18,
+   "e": 36.5,
+   "p": 0.985
+  },
+  {
+   "w": "carga",
+   "s": 36.5,
+   "e": 36.66,
+   "p": 0.935
+  },
+  {
+   "w": "probatoria.",
+   "s": 36.66,
+   "e": 37.36,
+   "p": 0.926
+  },
+  {
+   "w": "La",
+   "s": 37.44,
+   "e": 37.52,
+   "p": 0.877
+  },
+  {
+   "w": "autoridad",
+   "s": 37.52,
+   "e": 37.96,
+   "p": 0.976
+  },
+  {
+   "w": "notifica",
+   "s": 37.96,
+   "e": 38.66,
+   "p": 0.977
+  },
+  {
+   "w": "al",
+   "s": 38.66,
+   "e": 38.92,
+   "p": 0.682
+  },
+  {
+   "w": "titular",
+   "s": 38.92,
+   "e": 39.3,
+   "p": 0.996
+  },
+  {
+   "w": "de",
+   "s": 39.3,
+   "e": 39.4,
+   "p": 0.987
+  },
+  {
+   "w": "la",
+   "s": 39.4,
+   "e": 39.5,
+   "p": 0.993
+  },
+  {
+   "w": "marca.",
+   "s": 39.5,
+   "e": 39.76,
+   "p": 0.987
+  },
+  {
+   "w": "en",
+   "s": 40.48,
+   "e": 40.54,
+   "p": 0.945
+  },
+  {
+   "w": "la",
+   "s": 40.54,
+   "e": 40.64,
+   "p": 0.995
+  },
+  {
+   "w": "cancelación",
+   "s": 40.64,
+   "e": 41.24,
+   "p": 0.996
+  },
+  {
+   "w": "por",
+   "s": 41.24,
+   "e": 41.52,
+   "p": 0.844
+  },
+  {
+   "w": "no",
+   "s": 41.52,
+   "e": 41.74,
+   "p": 0.992
+  },
+  {
+   "w": "uso,",
+   "s": 41.74,
+   "e": 42.06,
+   "p": 0.987
+  },
+  {
+   "w": "la",
+   "s": 42.26,
+   "e": 42.36,
+   "p": 0.981
+  },
+  {
+   "w": "carga",
+   "s": 42.36,
+   "e": 42.58,
+   "p": 0.943
+  },
+  {
+   "w": "de",
+   "s": 42.58,
+   "e": 42.74,
+   "p": 0.976
+  },
+  {
+   "w": "la",
+   "s": 42.74,
+   "e": 42.86,
+   "p": 0.969
+  },
+  {
+   "w": "prueba",
+   "s": 42.86,
+   "e": 43.16,
+   "p": 0.997
+  },
+  {
+   "w": "la",
+   "s": 43.16,
+   "e": 43.42,
+   "p": 0.927
+  },
+  {
+   "w": "tiene",
+   "s": 43.42,
+   "e": 43.64,
+   "p": 0.984
+  },
+  {
+   "w": "el",
+   "s": 43.64,
+   "e": 43.8,
+   "p": 0.979
+  },
+  {
+   "w": "títula.",
+   "s": 43.8,
+   "e": 44.18,
+   "p": 0.666
+  },
+  {
+   "w": "Quien",
+   "s": 44.26,
+   "e": 44.42,
+   "p": 0.824
+  },
+  {
+   "w": "debe",
+   "s": 44.42,
+   "e": 44.64,
+   "p": 0.992
+  },
+  {
+   "w": "demostrar",
+   "s": 44.64,
+   "e": 45.3,
+   "p": 0.949
+  },
+  {
+   "w": "con",
+   "s": 45.3,
+   "e": 45.44,
+   "p": 0.599
+  },
+  {
+   "w": "facturas",
+   "s": 45.44,
+   "e": 45.94,
+   "p": 0.997
+  },
+  {
+   "w": "o",
+   "s": 45.94,
+   "e": 46.32,
+   "p": 0.691
+  },
+  {
+   "w": "boletas,",
+   "s": 46.32,
+   "e": 46.68,
+   "p": 0.903
+  },
+  {
+   "w": "que",
+   "s": 46.78,
+   "e": 46.84,
+   "p": 0.956
+  },
+  {
+   "w": "es",
+   "s": 46.84,
+   "e": 46.96,
+   "p": 0.866
+  },
+  {
+   "w": "psicomersial,",
+   "s": 46.96,
+   "e": 47.42,
+   "p": 0.582
+  },
+  {
+   "w": "paso",
+   "s": 47.52,
+   "e": 47.68,
+   "p": 0.849
+  },
+  {
+   "w": "4.",
+   "s": 47.68,
+   "e": 48.02,
+   "p": 0.696
+  },
+  {
+   "w": "Resolución",
+   "s": 48.24,
+   "e": 48.64,
+   "p": 0.961
+  },
+  {
+   "w": "final.",
+   "s": 48.64,
+   "e": 48.92,
+   "p": 0.968
+  },
+  {
+   "w": "Si",
+   "s": 49.04,
+   "e": 49.1,
+   "p": 0.98
+  },
+  {
+   "w": "el",
+   "s": 49.1,
+   "e": 49.18,
+   "p": 0.997
+  },
+  {
+   "w": "titular",
+   "s": 49.18,
+   "e": 49.6,
+   "p": 0.899
+  },
+  {
+   "w": "no",
+   "s": 49.6,
+   "e": 49.94,
+   "p": 0.993
+  },
+  {
+   "w": "prueba",
+   "s": 49.94,
+   "e": 50.22,
+   "p": 0.906
+  },
+  {
+   "w": "el",
+   "s": 50.22,
+   "e": 50.42,
+   "p": 0.906
+  },
+  {
+   "w": "uso.",
+   "s": 50.42,
+   "e": 50.48,
+   "p": 0.706
+  },
+  {
+   "w": "el",
+   "s": 50.28,
+   "e": 50.4,
+   "p": 0.906
+  },
+  {
+   "w": "uso",
+   "s": 50.4,
+   "e": 50.54,
+   "p": 0.958
+  },
+  {
+   "w": "real",
+   "s": 50.54,
+   "e": 50.86,
+   "p": 0.974
+  },
+  {
+   "w": "o",
+   "s": 50.86,
+   "e": 51.12,
+   "p": 0.597
+  },
+  {
+   "w": "se",
+   "s": 51.12,
+   "e": 51.24,
+   "p": 0.913
+  },
+  {
+   "w": "confirma",
+   "s": 51.24,
+   "e": 51.72,
+   "p": 0.979
+  },
+  {
+   "w": "la",
+   "s": 51.72,
+   "e": 51.82,
+   "p": 0.962
+  },
+  {
+   "w": "ilegalidad,",
+   "s": 51.82,
+   "e": 52.6,
+   "p": 0.967
+  },
+  {
+   "w": "la",
+   "s": 52.76,
+   "e": 52.82,
+   "p": 0.965
+  },
+  {
+   "w": "autoridad",
+   "s": 52.82,
+   "e": 53.34,
+   "p": 0.974
+  },
+  {
+   "w": "emite",
+   "s": 53.34,
+   "e": 53.82,
+   "p": 0.974
+  },
+  {
+   "w": "la",
+   "s": 53.82,
+   "e": 53.96,
+   "p": 0.883
+  },
+  {
+   "w": "resolución",
+   "s": 53.96,
+   "e": 54.66,
+   "p": 0.996
+  },
+  {
+   "w": "declarando",
+   "s": 54.66,
+   "e": 55.44,
+   "p": 0.935
+  },
+  {
+   "w": "la",
+   "s": 55.44,
+   "e": 55.56,
+   "p": 0.966
+  },
+  {
+   "w": "extinción",
+   "s": 55.56,
+   "e": 56.0,
+   "p": 0.842
+  },
+  {
+   "w": "del",
+   "s": 56.0,
+   "e": 56.14,
+   "p": 0.979
+  },
+  {
+   "w": "registro.",
+   "s": 56.14,
+   "e": 56.66,
+   "p": 0.997
+  },
+  {
+   "w": "En",
+   "s": 56.7,
+   "e": 56.8,
+   "p": 0.959
+  },
+  {
+   "w": "el",
+   "s": 56.8,
+   "e": 56.94,
+   "p": 0.985
+  },
+  {
+   "w": "caso",
+   "s": 56.94,
+   "e": 57.16,
+   "p": 0.998
+  },
+  {
+   "w": "de",
+   "s": 57.16,
+   "e": 57.32,
+   "p": 0.997
+  },
+  {
+   "w": "la",
+   "s": 57.32,
+   "e": 57.42,
+   "p": 0.994
+  },
+  {
+   "w": "cancelación",
+   "s": 57.42,
+   "e": 58.02,
+   "p": 0.997
+  },
+  {
+   "w": "por",
+   "s": 58.02,
+   "e": 58.3,
+   "p": 0.926
+  },
+  {
+   "w": "no",
+   "s": 58.3,
+   "e": 58.46,
+   "p": 0.984
+  },
+  {
+   "w": "uso,",
+   "s": 58.46,
+   "e": 58.8,
+   "p": 0.98
+  },
+  {
+   "w": "tú",
+   "s": 58.94,
+   "e": 59.0,
+   "p": 0.842
+  },
+  {
+   "w": "obtienes",
+   "s": 59.0,
+   "e": 59.56,
+   "p": 0.994
+  },
+  {
+   "w": "el",
+   "s": 59.56,
+   "e": 59.66,
+   "p": 0.992
+  },
+  {
+   "w": "derecho",
+   "s": 59.66,
+   "e": 59.92,
+   "p": 0.914
+  },
+  {
+   "w": "preferente.",
+   "s": 59.92,
+   "e": 60.48,
+   "p": 0.953
+  },
+  {
+   "w": "para",
+   "s": 60.54,
+   "e": 60.82,
+   "p": 0.971
+  },
+  {
+   "w": "registrarlo",
+   "s": 60.82,
+   "e": 61.46,
+   "p": 0.97
+  },
+  {
+   "w": "a",
+   "s": 61.46,
+   "e": 61.54,
+   "p": 0.983
+  },
+  {
+   "w": "tu",
+   "s": 61.54,
+   "e": 61.6,
+   "p": 0.93
+  },
+  {
+   "w": "nombre.",
+   "s": 61.6,
+   "e": 61.88,
+   "p": 0.99
+  },
+  {
+   "w": "Eliminación",
+   "s": 61.98,
+   "e": 62.54,
+   "p": 0.734
+  },
+  {
+   "w": "de",
+   "s": 62.54,
+   "e": 62.66,
+   "p": 0.994
+  },
+  {
+   "w": "la",
+   "s": 62.66,
+   "e": 62.78,
+   "p": 0.977
+  },
+  {
+   "w": "marca",
+   "s": 62.78,
+   "e": 63.04,
+   "p": 0.99
+  },
+  {
+   "w": "exige",
+   "s": 63.04,
+   "e": 63.62,
+   "p": 0.996
+  },
+  {
+   "w": "una",
+   "s": 63.62,
+   "e": 63.9,
+   "p": 0.988
+  },
+  {
+   "w": "estrategia",
+   "s": 63.9,
+   "e": 64.46,
+   "p": 0.989
+  },
+  {
+   "w": "clara",
+   "s": 64.46,
+   "e": 64.86,
+   "p": 0.998
+  },
+  {
+   "w": "entre",
+   "s": 64.86,
+   "e": 65.14,
+   "p": 0.745
+  },
+  {
+   "w": "la",
+   "s": 65.14,
+   "e": 65.36,
+   "p": 0.913
+  },
+  {
+   "w": "avión",
+   "s": 65.36,
+   "e": 65.58,
+   "p": 0.636
+  },
+  {
+   "w": "administrativa",
+   "s": 65.58,
+   "e": 66.24,
+   "p": 0.982
+  },
+  {
+   "w": "y",
+   "s": 66.24,
+   "e": 66.44,
+   "p": 0.995
+  },
+  {
+   "w": "la",
+   "s": 66.44,
+   "e": 66.54,
+   "p": 0.981
+  },
+  {
+   "w": "recopilación",
+   "s": 66.54,
+   "e": 67.12,
+   "p": 0.865
+  },
+  {
+   "w": "de",
+   "s": 67.12,
+   "e": 67.24,
+   "p": 0.998
+  },
+  {
+   "w": "pruebas.",
+   "s": 67.24,
+   "e": 67.64,
+   "p": 0.996
+  },
+  {
+   "w": "Ya",
+   "s": 67.72,
+   "e": 67.78,
+   "p": 0.83
+  },
+  {
+   "w": "lo",
+   "s": 67.78,
+   "e": 67.9,
+   "p": 0.996
+  },
+  {
+   "w": "sabes,",
+   "s": 67.9,
+   "e": 68.2,
+   "p": 0.986
+  },
+  {
+   "w": "siga",
+   "s": 68.34,
+   "e": 68.5,
+   "p": 0.716
+  },
+  {
+   "w": "Vocare",
+   "s": 68.5,
+   "e": 68.78,
+   "p": 0.023
+  },
+  {
+   "w": "Iuris",
+   "s": 68.78,
+   "e": 69.16,
+   "p": 0.064
+  },
+  {
+   "w": "para",
+   "s": 69.16,
+   "e": 69.36,
+   "p": 0.955
+  },
+  {
+   "w": "conocer",
+   "s": 69.36,
+   "e": 69.68,
+   "p": 0.975
+  },
+  {
+   "w": "tus",
+   "s": 69.68,
+   "e": 70.0,
+   "p": 0.992
+  },
+  {
+   "w": "derechos.",
+   "s": 70.0,
+   "e": 70.32,
+   "p": 0.985
+  }
+ ]
+}
