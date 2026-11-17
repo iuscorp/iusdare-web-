@@ -96,6 +96,7 @@ export const graphicComponent = z.enum([
   "CTAEndCard",
   "TechList",
   "ProgressSteps",
+  "AcronymReveal",
 ]);
 
 export const graphic = z.object({

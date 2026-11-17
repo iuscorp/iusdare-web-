@@ -14,6 +14,10 @@ export type TechListProps = {
   revealEverySec?: number;
   /** Show 01 / 02 / 03 indices. */
   numbered?: boolean;
+  /** First index shown (to continue a list split in two: 5 → 05, 06…). */
+  startIndex?: number;
+  /** Tighter rows. Defaults to true from 4 items, so lists fit the band above the head. */
+  compact?: boolean;
   position?: Position;
   tone?: Tone | "auto";
 };
@@ -30,6 +34,8 @@ export const TechList: React.FC<TechListProps> = ({
   revealAt,
   revealEverySec = 0.7,
   numbered = true,
+  startIndex = 1,
+  compact,
   position = "auto",
   tone = "auto",
 }) => {
@@ -40,7 +46,8 @@ export const TechList: React.FC<TechListProps> = ({
   const tc = toneColors(useTone(tone));
   const at = items.map((_, i) => Math.round((revealAt?.[i] ?? 0.25 + i * revealEverySec) * fps));
   const head = interpolate(frame, [0, 10], [0, 1], { ...clamp, easing: easings.easeOut });
-  const rowH = 74 * k;
+  const tight = compact ?? items.length >= 4;
+  const rowH = (tight ? 58 : 74) * k;
   // spine grows to the last revealed item
   const revealed = at.filter((a) => frame >= a).length;
   const spineTarget = revealed === 0 ? 0 : (revealed - 0.5) * rowH;
@@ -53,7 +60,7 @@ export const TechList: React.FC<TechListProps> = ({
       <div style={{ opacity: env, position: "relative", padding: `${18 * k}px ${26 * k}px`, minWidth: 600 * k }}>
         <CornerBrackets progress={head} k={k} />
         {title ? (
-          <div style={{ display: "flex", alignItems: "center", gap: 14 * k, marginBottom: 20 * k, opacity: head }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 14 * k, marginBottom: (tight ? 10 : 20) * k, opacity: head }}>
             <div style={{ width: 34 * k * head, height: 3 * k, background: colors.gold }} />
             <div
               style={{
@@ -94,14 +101,14 @@ export const TechList: React.FC<TechListProps> = ({
                       fontVariantNumeric: "tabular-nums",
                     }}
                   >
-                    {String(i + 1).padStart(2, "0")}
+                    {String(i + startIndex).padStart(2, "0")}
                   </div>
                 ) : null}
                 <div
                   style={{
                     fontFamily: fonts.sans,
                     fontWeight: 400,
-                    fontSize: 56 * k,
+                    fontSize: (tight ? 46 : 56) * k,
                     color: tc.text,
                     textShadow: tc.shadow,
                     clipPath: `inset(0 ${100 - text}% 0 0)`,

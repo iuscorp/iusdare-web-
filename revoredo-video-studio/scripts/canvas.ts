@@ -144,7 +144,7 @@ const spoken = (src: string, a: number, b: number) =>
 
   const gText = (g: Edit["graphics"][number]) => {
     const pr = g.props as Record<string, unknown>;
-    return [pr.kicker, pr.text, pr.prefix !== undefined ? `${pr.prefix ?? ""}${pr.value}${pr.suffix ?? ""}` : null, pr.label, pr.title, Array.isArray(pr.items) ? (pr.items as string[]).join(" · ") : null, pr.reference, pr.authority, pr.quote, pr.name, pr.role, pr.line, pr.caption].filter(Boolean).map((x) => esc(x)).join("<br>");
+    return [pr.kicker, pr.text, pr.prefix !== undefined ? `${pr.prefix ?? ""}${pr.value}${pr.suffix ?? ""}` : null, pr.label, pr.title, Array.isArray(pr.items) ? (pr.items as string[]).join(" · ") : null, pr.reference, pr.authority, pr.quote, pr.name, pr.role, pr.line, pr.caption, Array.isArray(pr.parts) ? (pr.parts as {key:string;label:string}[]).map((x) => `${x.key} = ${x.label}`).join(" · ") : null].filter(Boolean).map((x) => esc(x)).join("<br>");
   };
   const secE = edit.graphics
     .map((g) => {

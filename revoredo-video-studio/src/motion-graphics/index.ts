@@ -9,6 +9,7 @@ import { QuoteCard } from "./QuoteCard";
 import { StrategicText } from "./StrategicText";
 import { TechList } from "./TechList";
 import { ProgressSteps } from "./ProgressSteps";
+import { AcronymReveal } from "./AcronymReveal";
 
 /** Registry used by the EDL (`graphics[].component`). */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -23,6 +24,7 @@ export const graphicsRegistry: Record<string, React.FC<any>> = {
   CTAEndCard,
   TechList,
   ProgressSteps,
+  AcronymReveal,
 };
 
-export { AccentLine, CTAEndCard, DataCard, KeyPoints, LegalReference, LowerThird, ProgressSteps, QuoteCard, StrategicText, TechList };
+export { AcronymReveal, AccentLine, CTAEndCard, DataCard, KeyPoints, LegalReference, LowerThird, ProgressSteps, QuoteCard, StrategicText, TechList };

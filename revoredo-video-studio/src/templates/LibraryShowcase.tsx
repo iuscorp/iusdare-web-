@@ -5,6 +5,7 @@ import { colors } from "../brand/tokens";
 import { LogoBug } from "../components/brand/LogoMark";
 import {
   AccentLine,
+  AcronymReveal,
   CTAEndCard,
   DataCard,
   KeyPoints,
@@ -44,6 +45,7 @@ export const LibraryShowcase: React.FC = () => {
     <QuoteCard key="qc" quote="El consentimiento no se presume. Se acredita." attribution="Revoredo Abogados" />,
     <TechList key="tl" title="Condiciones" items={["Permanencia", "Desempeño", "Hitos específicos"]} revealEverySec={0.45} />,
     <ProgressSteps key="ps" label="Participación" caption="Adquisición progresiva" fillSec={2} />,
+    <AcronymReveal key="ar" parts={[{ key: "P", label: "Prevención" }, { key: "LA", label: "Lavado de Activos" }, { key: "FT", label: "Financiamiento del Terrorismo" }]} revealAt={[0.3, 0.9, 1.5]} />,
     <AccentLine key="al" />,
     <CTAEndCard key="cta" />,
   ];
