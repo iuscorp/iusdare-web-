@@ -10,6 +10,8 @@ Código: `src/audio/AudioBed.tsx`. Normalización en `scripts/render.ts`.
 | **Efectos (SFX)** | Puntuación, no decoración: whoosh o tick suave en un cambio de bloque, un “pop” discreto en un dato. Volumen ≤ 0,4, entre 0 y 4 por video |
 | **Silencios** | Se eliminan en la edición. El QC alerta si quedan silencios de más de 1,2 s en el cuerpo |
 
+**Música original del estudio:** `npm run studio:music -- public/audio/music/<nombre>.wav --seconds <duración> [--bpm 100] [--key C] [--mood bright|calm]`. Genera una cama corporativa propia: piano arpegiado, pad, bajo suave y percusión ligera, con progresión I–V–vi–IV y pasa-altos a 70 Hz. Es útil cuando no hay pista con licencia disponible. `endBoost` sube la música en el end card, donde no hay voz.
+
 Archivos: `public/audio/music/` y `public/audio/sfx/`, con licencia registrada en `public/audio/LICENSES.md`.
 
 La referencia no tiene SFX audibles y parece tener una cama musical muy baja. Por defecto, el estudio entrega voz sola y agrega música o SFX solo si el brief lo pide.

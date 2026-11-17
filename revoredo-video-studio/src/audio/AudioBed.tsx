@@ -33,7 +33,9 @@ export const AudioBed: React.FC<{ edit: Edit; timeline: Timeline; brollRanges: [
               interpolate(f, [total - m.fadeOutSec * fps, total], [1, 0], clamp),
             );
             const ducked = brollRanges.some(([a, b]) => f >= a && f < b);
-            return (ducked ? m.duckedVolume : m.volume) * fade;
+            // Rise into the end card (no voice there), over 0.5 s.
+            const boost = interpolate(f, [timeline.bodyFrames - 0.5 * fps, timeline.bodyFrames], [1, m.endBoost], clamp);
+            return Math.min(1, (ducked ? m.duckedVolume : m.volume) * fade * boost);
           }}
         />
       ) : null}

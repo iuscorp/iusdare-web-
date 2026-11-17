@@ -4,7 +4,7 @@
     "title": "PLAFT: qué es y por qué importa a tu empresa",
     "format": "vertical",
     "fps": 30,
-    "status": "aprobado"
+    "status": "revision"
   },
   "sources": {
     "main": "footage/raw/2026-11-plaft/main.mp4"
@@ -127,7 +127,7 @@
       "id": "S06",
       "source": "main",
       "in": 157.15,
-      "out": 163.78,
+      "out": 164.2,
       "role": "tension",
       "purpose": "Finalidad: mitigar 4 tipos de riesgo",
       "framing": {
@@ -147,7 +147,7 @@
       "id": "S07",
       "source": "main",
       "in": 194.9,
-      "out": 198.95,
+      "out": 199.6,
       "role": "development",
       "purpose": "Un sistema PLAFT comprende…",
       "framing": {
@@ -688,7 +688,7 @@
     {
       "id": "B05",
       "start": 195.05,
-      "end": 198.9,
+      "end": 199.55,
       "src": "b-roll/library/cv-candado-ciberseguridad.mp4",
       "trimStart": 1.0,
       "layout": "full",
@@ -1661,7 +1661,15 @@
   },
   "audio": {
     "voiceGainDb": 0,
-    "music": null,
+    "music": {
+      "src": "audio/music/revoredo-bed-plaft.wav",
+      "volume": 0.02,
+      "duckedVolume": 0.02,
+      "fadeInSec": 0.8,
+      "fadeOutSec": 1.6,
+      "trimStart": 0,
+      "endBoost": 3
+    },
     "sfx": []
   },
   "endCard": {

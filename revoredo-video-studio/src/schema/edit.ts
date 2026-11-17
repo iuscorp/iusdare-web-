@@ -172,6 +172,8 @@ export const audio = z.object({
       fadeInSec: z.number().default(0.6),
       fadeOutSec: z.number().default(1.2),
       trimStart: z.number().default(0),
+      /** Multiplier on the end card, where there is no voice (≈ +8 dB at 2.5). */
+      endBoost: z.number().default(2.5),
     })
     .nullable()
     .default(null),
