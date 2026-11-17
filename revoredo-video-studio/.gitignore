@@ -21,3 +21,9 @@ projects/*/analysis/frames/
 
 # Proyecto de prueba del sistema (usa el video de referencia como raw)
 projects/prueba-sistema-referencia/
+
+# Audio media (licencias en public/audio/LICENSES.md)
+public/audio/music/*
+!public/audio/music/.gitkeep
+public/audio/sfx/*
+!public/audio/sfx/.gitkeep
