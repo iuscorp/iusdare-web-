@@ -27,12 +27,14 @@
  {
   "in": 45.95,
   "out": 48.8,
-  "note": "La estrategia depende de la vía legal que tú elijas."
+  "note": "La estrategia depende de la vía legal que tú elijas.",
+  "forceOut": 48.72
  },
  {
   "in": 52.75,
   "out": 54.8,
-  "note": "Paso uno, identifica la causal."
+  "note": "Paso uno, identifica la causal.",
+  "forceOut": 54.72
  },
  {
   "in": 67.95,
@@ -114,7 +116,8 @@
  {
   "in": 221.6,
   "out": 224.5,
-  "note": "con facturas o boletas que sí comercializa."
+  "note": "con facturas o boletas que sí comercializa.",
+  "forceOut": 224.34
  },
  {
   "in": 230.2,

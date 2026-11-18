@@ -28,7 +28,7 @@
       "name": "Duración",
       "ok": true,
       "level": "ok",
-      "detail": "70.50 s (EDL 70.46 s)"
+      "detail": "71.20 s (EDL 71.17 s)"
     },
     {
       "name": "Fotogramas negros",
@@ -40,7 +40,7 @@
       "name": "Loudness",
       "ok": true,
       "level": "ok",
-      "detail": "-14 LUFS (objetivo −14 ±1)"
+      "detail": "-13.9 LUFS (objetivo −14 ±1)"
     },
     {
       "name": "True peak",
@@ -64,20 +64,20 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 2 ms, p90 |57| ms, 188/227 palabras alineadas"
+      "detail": "mediana 5 ms, p90 |62| ms, 211/227 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
-      "ok": false,
-      "level": "warn",
-      "detail": "39 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "ok": true,
+      "level": "ok",
+      "detail": "16 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 188,
+    "matched": 211,
     "total": 227,
-    "medianOffset": 0.0020000000000024443,
-    "p90AbsOffset": 0.057000000000000384,
+    "medianOffset": 0.004999999999999893,
+    "p90AbsOffset": 0.06199999999999761,
     "mismatches": [
       {
         "at": 3.38,
@@ -97,188 +97,73 @@
       {
         "at": 12.887,
         "caption": "Paso",
-        "heard": "elijas, pasa o no,"
+        "heard": "elijas, pasa uno,"
       },
       {
-        "at": 13.18,
-        "caption": "uno",
-        "heard": "pasa o no, identifica"
+        "at": 20.137,
+        "caption": "Si",
+        "heard": "uso. registró"
       },
       {
-        "at": 15.838,
-        "caption": "años",
-        "heard": "de tres al mismo tiempo,"
+        "at": 20.192,
+        "caption": "se",
+        "heard": "uso. registró"
       },
       {
-        "at": 16.278,
-        "caption": "consecutivos",
-        "heard": "mismo tiempo, sin usarse."
-      },
-      {
-        "at": 20.203,
-        "caption": "vulnerando",
-        "heard": "(nada)"
-      },
-      {
-        "at": 20.883,
-        "caption": "la",
-        "heard": "(nada)"
-      },
-      {
-        "at": 21.003,
-        "caption": "ley",
-        "heard": "(nada)"
-      },
-      {
-        "at": 21.243,
-        "caption": "o",
-        "heard": "(nada)"
-      },
-      {
-        "at": 21.443,
-        "caption": "derechos",
-        "heard": "(nada)"
-      },
-      {
-        "at": 21.743,
-        "caption": "de",
-        "heard": "(nada)"
-      },
-      {
-        "at": 21.963,
-        "caption": "terceros",
-        "heard": "(nada)"
-      },
-      {
-        "at": 22.55,
-        "caption": "Solicitas",
-        "heard": "(nada)"
-      },
-      {
-        "at": 23.15,
-        "caption": "la",
-        "heard": "(nada)"
-      },
-      {
-        "at": 23.27,
+        "at": 23.978,
         "caption": "nulidad",
-        "heard": "(nada)"
+        "heard": "la anulidad del"
       },
       {
-        "at": 23.69,
-        "caption": "del",
-        "heard": "(nada)"
-      },
-      {
-        "at": 24.03,
-        "caption": "registro",
-        "heard": "Paz"
-      },
-      {
-        "at": 24.68,
-        "caption": "Paso",
-        "heard": "Paz 2,"
-      },
-      {
-        "at": 30.497,
-        "caption": "distintivos",
-        "heard": "signos."
-      },
-      {
-        "at": 31.097,
-        "caption": "de",
-        "heard": "(nada)"
-      },
-      {
-        "at": 31.237,
-        "caption": "Indecopi",
-        "heard": "(nada)"
-      },
-      {
-        "at": 32.088,
-        "caption": "fundamentando",
-        "heard": "(nada)"
-      },
-      {
-        "at": 32.668,
+        "at": 33.377,
         "caption": "la",
-        "heard": "(nada)"
+        "heard": "a causar"
       },
       {
-        "at": 32.768,
-        "caption": "causal",
-        "heard": "(nada)"
-      },
-      {
-        "at": 33.217,
-        "caption": "Y",
-        "heard": "(nada)"
-      },
-      {
-        "at": 33.317,
-        "caption": "pagando",
-        "heard": "(nada)"
-      },
-      {
-        "at": 33.757,
-        "caption": "la",
-        "heard": "(nada)"
-      },
-      {
-        "at": 33.877,
-        "caption": "tasa",
-        "heard": "(nada)"
-      },
-      {
-        "at": 34.217,
-        "caption": "correspondiente",
-        "heard": "Paz"
-      },
-      {
-        "at": 34.998,
-        "caption": "Paso",
-        "heard": "3."
-      },
-      {
-        "at": 39.927,
+        "at": 40.635,
         "caption": "Pero",
-        "heard": "marca."
+        "heard": "marca. ojo,"
       },
       {
-        "at": 40.187,
-        "caption": "ojo",
-        "heard": "en la"
-      },
-      {
-        "at": 46.85,
+        "at": 47.558,
         "caption": "sí",
-        "heard": "que es psicomersial,"
+        "heard": "que es psicomersalía."
       },
       {
-        "at": 46.99,
+        "at": 47.698,
         "caption": "comercializan",
-        "heard": "que es psicomersial,"
+        "heard": "que es psicomersalía."
       },
       {
-        "at": 61.952,
-        "caption": "La",
-        "heard": "tu nombre. Eliminación"
+        "at": 49.717,
+        "caption": "Si",
+        "heard": "final."
       },
       {
-        "at": 65.413,
+        "at": 49.797,
+        "caption": "el",
+        "heard": "(nada)"
+      },
+      {
+        "at": 49.877,
+        "caption": "titular",
+        "heard": "no"
+      },
+      {
+        "at": 66.122,
         "caption": "vía",
         "heard": "la avión administrativa"
       },
       {
-        "at": 68.335,
+        "at": 69.043,
         "caption": "sigue a",
-        "heard": "sabes, siga Vocare Iuris"
+        "heard": "sabes, diga Vocare"
       }
     ]
   },
   "loudness": {
-    "integratedLufs": -14,
-    "lra": 4.9,
+    "integratedLufs": -13.9,
+    "lra": 4.4,
     "truePeakDb": -1.5
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/video-8/video-8-preview.mp4"
