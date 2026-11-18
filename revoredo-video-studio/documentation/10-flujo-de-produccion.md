@@ -54,6 +54,10 @@ Este paso:
 
 Revisa el informe. Si un tramo de la presentadora queda marcado por error (por ejemplo, un final de frase grave), márcalo con `"keepVoice": true`.
 
+```bash
+npm run studio:clean -- <slug>            # quita voces y ruido de fondo; crea <raw>.clean.mp4 y apunta el EDL a él
+```
+
 ## PASO 3: Planificar y buscar el B-roll
 
 1. Declarar los slots de `broll[]` (frase, concepto, función, descripción y búsqueda) **desde el guion**.

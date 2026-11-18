@@ -7,7 +7,7 @@
     "status": "revision"
   },
   "sources": {
-    "main": "footage/raw/2026-11-plaft/main.mp4"
+    "main": "footage/raw/2026-11-plaft/main.clean.mp4"
   },
   "story": {
     "problem": "Muchas empresas no saben si están obligadas a tener un sistema PLAFT ni qué debe incluir.",
@@ -26,7 +26,7 @@
     {
       "id": "S01.a",
       "source": "main",
-      "in": 17.03,
+      "in": 17.42,
       "out": 17.96,
       "role": "hook",
       "purpose": "Pregunta-tema",
@@ -455,7 +455,7 @@
     {
       "id": "S16",
       "source": "main",
-      "in": 271.65,
+      "in": 271.69,
       "out": 272.58,
       "role": "reveal",
       "purpose": "¿Y a quiénes aplica?",
@@ -2099,15 +2099,7 @@
   },
   "audio": {
     "voiceGainDb": 0,
-    "music": {
-      "src": "audio/music/revoredo-bed-plaft.wav",
-      "volume": 0.02,
-      "duckedVolume": 0.02,
-      "fadeInSec": 0.8,
-      "fadeOutSec": 1.6,
-      "trimStart": 0,
-      "endBoost": 3
-    },
+    "music": null,
     "sfx": []
   },
   "endCard": {
