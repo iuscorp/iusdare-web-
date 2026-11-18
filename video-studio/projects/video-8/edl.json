@@ -104,7 +104,7 @@
     {
       "id": "s11",
       "in": 48.125,
-      "out": 48.542,
+      "out": 48.708,
       "role": "context",
       "framing": "base",
       "move": "slowPush",
@@ -122,7 +122,7 @@
     {
       "id": "s13",
       "in": 53.583,
-      "out": 54.583,
+      "out": 54.708,
       "role": "context",
       "framing": "subtleIn",
       "move": "slowPush",
@@ -311,7 +311,7 @@
     {
       "id": "s34",
       "in": 223.25,
-      "out": 224,
+      "out": 224.333,
       "role": "context",
       "framing": "punchIn",
       "move": "slowPush",
@@ -736,1093 +736,1093 @@
     {
       "text": "elijas",
       "start": 12.593,
-      "end": 12.875,
+      "end": 13.042,
       "emphasis": false
     },
     {
       "text": "Paso",
-      "start": 12.887,
-      "end": 13.18,
+      "start": 13.053,
+      "end": 13.347,
       "emphasis": false
     },
     {
       "text": "uno",
-      "start": 13.18,
-      "end": 13.5,
+      "start": 13.347,
+      "end": 13.667,
       "emphasis": false
     },
     {
       "text": "Identifica",
-      "start": 13.577,
-      "end": 14.037,
+      "start": 13.743,
+      "end": 14.203,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 14.037,
-      "end": 14.157,
+      "start": 14.203,
+      "end": 14.323,
       "emphasis": false
     },
     {
       "text": "causal",
-      "start": 14.157,
-      "end": 14.5,
+      "start": 14.323,
+      "end": 14.792,
       "emphasis": true
     },
     {
       "text": "Si",
-      "start": 14.508,
-      "end": 14.628,
+      "start": 14.8,
+      "end": 14.92,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 14.598,
-      "end": 14.738,
+      "start": 14.89,
+      "end": 15.03,
       "emphasis": false
     },
     {
       "text": "marca",
-      "start": 14.738,
-      "end": 14.978,
+      "start": 15.03,
+      "end": 15.27,
       "emphasis": false
     },
     {
       "text": "lleva",
-      "start": 14.978,
-      "end": 15.378,
+      "start": 15.27,
+      "end": 15.67,
       "emphasis": false
     },
     {
       "text": "más",
-      "start": 15.378,
-      "end": 15.658,
+      "start": 15.67,
+      "end": 15.95,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 15.658,
-      "end": 15.818,
+      "start": 15.95,
+      "end": 16.11,
       "emphasis": false
     },
     {
       "text": "tres",
-      "start": 15.818,
-      "end": 15.998,
+      "start": 16.11,
+      "end": 16.29,
       "emphasis": false
     },
     {
       "text": "años",
-      "start": 15.998,
-      "end": 16.258,
+      "start": 16.29,
+      "end": 16.55,
       "emphasis": true
     },
     {
       "text": "consecutivos",
-      "start": 16.258,
-      "end": 17.042,
+      "start": 16.55,
+      "end": 17.333,
       "emphasis": false
     },
     {
       "text": "sin",
-      "start": 17.038,
-      "end": 17.218,
+      "start": 17.33,
+      "end": 17.51,
       "emphasis": false
     },
     {
       "text": "usarse",
-      "start": 17.218,
-      "end": 17.875,
+      "start": 17.51,
+      "end": 18.167,
       "emphasis": false
     },
     {
       "text": "Inicias",
-      "start": 17.965,
-      "end": 18.405,
+      "start": 18.257,
+      "end": 18.697,
       "emphasis": false
     },
     {
       "text": "una",
-      "start": 18.405,
-      "end": 18.605,
+      "start": 18.697,
+      "end": 18.897,
       "emphasis": false
     },
     {
       "text": "cancelación",
-      "start": 18.605,
-      "end": 19.165,
+      "start": 18.897,
+      "end": 19.457,
       "emphasis": true
     },
     {
       "text": "por",
-      "start": 19.165,
-      "end": 19.385,
+      "start": 19.457,
+      "end": 19.677,
       "emphasis": false
     },
     {
       "text": "falta",
-      "start": 19.385,
-      "end": 19.585,
+      "start": 19.677,
+      "end": 19.877,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 19.585,
-      "end": 19.805,
+      "start": 19.877,
+      "end": 20.097,
       "emphasis": false
     },
     {
       "text": "uso",
-      "start": 19.805,
-      "end": 20.125,
+      "start": 20.097,
+      "end": 20.417,
       "emphasis": true
     },
     {
       "text": "Si",
-      "start": 20.137,
-      "end": 20.257,
+      "start": 20.428,
+      "end": 20.548,
       "emphasis": false
     },
     {
       "text": "se",
-      "start": 20.192,
-      "end": 20.332,
+      "start": 20.483,
+      "end": 20.623,
       "emphasis": false
     },
     {
       "text": "registró",
-      "start": 20.332,
-      "end": 20.912,
+      "start": 20.623,
+      "end": 21.203,
       "emphasis": false
     },
     {
       "text": "vulnerando",
-      "start": 20.912,
-      "end": 21.592,
+      "start": 21.203,
+      "end": 21.883,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 21.592,
-      "end": 21.712,
+      "start": 21.883,
+      "end": 22.003,
       "emphasis": false
     },
     {
       "text": "ley",
-      "start": 21.712,
-      "end": 21.952,
+      "start": 22.003,
+      "end": 22.243,
       "emphasis": true
     },
     {
       "text": "o",
-      "start": 21.952,
-      "end": 22.152,
+      "start": 22.243,
+      "end": 22.443,
       "emphasis": false
     },
     {
       "text": "derechos",
-      "start": 22.152,
-      "end": 22.452,
+      "start": 22.443,
+      "end": 22.743,
       "emphasis": true
     },
     {
       "text": "de",
-      "start": 22.452,
-      "end": 22.667,
+      "start": 22.743,
+      "end": 22.958,
       "emphasis": false
     },
     {
       "text": "terceros",
-      "start": 22.672,
-      "end": 23.25,
+      "start": 22.963,
+      "end": 23.542,
       "emphasis": true
     },
     {
       "text": "Solicitas",
-      "start": 23.258,
-      "end": 23.858,
+      "start": 23.55,
+      "end": 24.15,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 23.858,
-      "end": 23.978,
+      "start": 24.15,
+      "end": 24.27,
       "emphasis": false
     },
     {
       "text": "nulidad",
-      "start": 23.978,
-      "end": 24.398,
+      "start": 24.27,
+      "end": 24.69,
       "emphasis": true
     },
     {
       "text": "del",
-      "start": 24.398,
-      "end": 24.738,
+      "start": 24.69,
+      "end": 25.03,
       "emphasis": false
     },
     {
       "text": "registro",
-      "start": 24.738,
-      "end": 25.375,
+      "start": 25.03,
+      "end": 25.667,
       "emphasis": false
     },
     {
       "text": "Paso",
-      "start": 25.389,
-      "end": 25.655,
+      "start": 25.68,
+      "end": 25.947,
       "emphasis": false
     },
     {
       "text": "2",
-      "start": 25.655,
-      "end": 25.917,
+      "start": 25.947,
+      "end": 26.208,
       "emphasis": false
     },
     {
       "text": "Presenta",
-      "start": 25.987,
-      "end": 26.367,
+      "start": 26.278,
+      "end": 26.658,
       "emphasis": false
     },
     {
       "text": "tu",
-      "start": 26.367,
-      "end": 26.607,
+      "start": 26.658,
+      "end": 26.898,
       "emphasis": false
     },
     {
       "text": "solicitud",
-      "start": 26.607,
-      "end": 27.167,
+      "start": 26.898,
+      "end": 27.458,
       "emphasis": true
     },
     {
       "text": "Interpone",
-      "start": 27.3,
-      "end": 27.69,
+      "start": 27.592,
+      "end": 27.982,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 27.69,
-      "end": 27.83,
+      "start": 27.982,
+      "end": 28.122,
       "emphasis": false
     },
     {
       "text": "acción",
-      "start": 27.83,
-      "end": 28.17,
+      "start": 28.122,
+      "end": 28.462,
       "emphasis": false
     },
     {
       "text": "ante",
-      "start": 28.17,
-      "end": 28.43,
+      "start": 28.462,
+      "end": 28.722,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 28.43,
-      "end": 28.57,
+      "start": 28.722,
+      "end": 28.862,
       "emphasis": false
     },
     {
       "text": "autoridad",
-      "start": 28.57,
-      "end": 28.99,
+      "start": 28.862,
+      "end": 29.282,
       "emphasis": false
     },
     {
       "text": "competente",
-      "start": 28.99,
-      "end": 29.75,
+      "start": 29.282,
+      "end": 30.042,
       "emphasis": true
     },
     {
       "text": "Como",
-      "start": 29.762,
-      "end": 29.985,
+      "start": 30.054,
+      "end": 30.277,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 29.985,
-      "end": 30.245,
+      "start": 30.277,
+      "end": 30.537,
       "emphasis": false
     },
     {
       "text": "dirección",
-      "start": 30.245,
-      "end": 30.705,
+      "start": 30.537,
+      "end": 30.997,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 30.705,
-      "end": 30.885,
+      "start": 30.997,
+      "end": 31.177,
       "emphasis": false
     },
     {
       "text": "signos",
-      "start": 30.885,
-      "end": 31.205,
+      "start": 31.177,
+      "end": 31.497,
       "emphasis": false
     },
     {
       "text": "distintivos",
-      "start": 31.205,
-      "end": 31.805,
+      "start": 31.497,
+      "end": 32.097,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 31.805,
-      "end": 31.945,
+      "start": 32.097,
+      "end": 32.237,
       "emphasis": false
     },
     {
       "text": "Indecopi",
-      "start": 31.945,
-      "end": 32.542,
+      "start": 32.237,
+      "end": 32.833,
       "emphasis": true
     },
     {
       "text": "fundamentando",
-      "start": 32.797,
-      "end": 33.377,
+      "start": 33.088,
+      "end": 33.668,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 33.377,
-      "end": 33.497,
+      "start": 33.668,
+      "end": 33.788,
       "emphasis": false
     },
     {
       "text": "causal",
-      "start": 33.477,
-      "end": 33.917,
+      "start": 33.768,
+      "end": 34.208,
       "emphasis": true
     },
     {
       "text": "Y",
-      "start": 33.925,
-      "end": 34.045,
+      "start": 34.217,
+      "end": 34.337,
       "emphasis": false
     },
     {
       "text": "pagando",
-      "start": 34.025,
-      "end": 34.465,
+      "start": 34.317,
+      "end": 34.757,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 34.465,
-      "end": 34.585,
+      "start": 34.757,
+      "end": 34.877,
       "emphasis": false
     },
     {
       "text": "tasa",
-      "start": 34.585,
-      "end": 34.925,
+      "start": 34.877,
+      "end": 35.217,
       "emphasis": true
     },
     {
       "text": "correspondiente",
-      "start": 34.925,
-      "end": 35.708,
+      "start": 35.217,
+      "end": 36,
       "emphasis": false
     },
     {
       "text": "Paso",
-      "start": 35.707,
-      "end": 35.977,
+      "start": 35.998,
+      "end": 36.268,
       "emphasis": false
     },
     {
       "text": "3",
-      "start": 35.977,
-      "end": 36.25,
+      "start": 36.268,
+      "end": 36.542,
       "emphasis": false
     },
     {
       "text": "Notificación",
-      "start": 36.37,
-      "end": 36.89,
+      "start": 36.662,
+      "end": 37.182,
       "emphasis": true
     },
     {
       "text": "y",
-      "start": 36.89,
-      "end": 37.21,
+      "start": 37.182,
+      "end": 37.502,
       "emphasis": false
     },
     {
       "text": "carga",
-      "start": 37.21,
-      "end": 37.37,
+      "start": 37.502,
+      "end": 37.662,
       "emphasis": false
     },
     {
       "text": "probatoria",
-      "start": 37.37,
-      "end": 38.125,
+      "start": 37.662,
+      "end": 38.417,
       "emphasis": false
     },
     {
       "text": "La",
-      "start": 38.11,
-      "end": 38.23,
+      "start": 38.402,
+      "end": 38.522,
       "emphasis": false
     },
     {
       "text": "autoridad",
-      "start": 38.215,
-      "end": 38.675,
+      "start": 38.507,
+      "end": 38.967,
       "emphasis": false
     },
     {
       "text": "notifica",
-      "start": 38.675,
-      "end": 39.375,
+      "start": 38.967,
+      "end": 39.667,
       "emphasis": false
     },
     {
       "text": "al",
-      "start": 39.375,
-      "end": 39.615,
+      "start": 39.667,
+      "end": 39.907,
       "emphasis": false
     },
     {
       "text": "titular",
-      "start": 39.615,
-      "end": 39.995,
+      "start": 39.907,
+      "end": 40.287,
       "emphasis": true
     },
     {
       "text": "de",
-      "start": 39.995,
-      "end": 40.115,
+      "start": 40.287,
+      "end": 40.407,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 40.115,
-      "end": 40.235,
+      "start": 40.407,
+      "end": 40.527,
       "emphasis": false
     },
     {
       "text": "marca",
-      "start": 40.215,
-      "end": 40.625,
+      "start": 40.507,
+      "end": 40.917,
       "emphasis": false
     },
     {
       "text": "Pero",
-      "start": 40.635,
-      "end": 40.895,
+      "start": 40.927,
+      "end": 41.187,
       "emphasis": false
     },
     {
       "text": "ojo",
-      "start": 40.895,
-      "end": 41.125,
+      "start": 41.187,
+      "end": 41.417,
       "emphasis": true
     },
     {
       "text": "En",
-      "start": 41.133,
-      "end": 41.263,
+      "start": 41.425,
+      "end": 41.555,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 41.263,
-      "end": 41.383,
+      "start": 41.555,
+      "end": 41.675,
       "emphasis": false
     },
     {
       "text": "cancelación",
-      "start": 41.343,
-      "end": 41.943,
+      "start": 41.635,
+      "end": 42.235,
       "emphasis": true
     },
     {
       "text": "por",
-      "start": 41.943,
-      "end": 42.223,
+      "start": 42.235,
+      "end": 42.515,
       "emphasis": false
     },
     {
       "text": "no",
-      "start": 42.223,
-      "end": 42.463,
+      "start": 42.515,
+      "end": 42.755,
       "emphasis": false
     },
     {
       "text": "uso",
-      "start": 42.463,
-      "end": 42.917,
+      "start": 42.755,
+      "end": 43.208,
       "emphasis": true
     },
     {
       "text": "La",
-      "start": 42.913,
-      "end": 43.073,
+      "start": 43.205,
+      "end": 43.365,
       "emphasis": false
     },
     {
       "text": "carga",
-      "start": 43.073,
-      "end": 43.273,
+      "start": 43.365,
+      "end": 43.565,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 43.273,
-      "end": 43.473,
+      "start": 43.565,
+      "end": 43.765,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 43.473,
-      "end": 43.593,
+      "start": 43.765,
+      "end": 43.885,
       "emphasis": false
     },
     {
       "text": "prueba",
-      "start": 43.573,
-      "end": 43.893,
+      "start": 43.865,
+      "end": 44.185,
       "emphasis": true
     },
     {
       "text": "la",
-      "start": 43.893,
-      "end": 44.133,
+      "start": 44.185,
+      "end": 44.425,
       "emphasis": false
     },
     {
       "text": "tiene",
-      "start": 44.133,
-      "end": 44.353,
+      "start": 44.425,
+      "end": 44.645,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 44.353,
-      "end": 44.493,
+      "start": 44.645,
+      "end": 44.785,
       "emphasis": false
     },
     {
       "text": "titular",
-      "start": 44.493,
-      "end": 44.917,
+      "start": 44.785,
+      "end": 45.208,
       "emphasis": true
     },
     {
       "text": "quien",
-      "start": 44.935,
-      "end": 45.155,
+      "start": 45.227,
+      "end": 45.447,
       "emphasis": false
     },
     {
       "text": "debe",
-      "start": 45.155,
-      "end": 45.335,
+      "start": 45.447,
+      "end": 45.627,
       "emphasis": false
     },
     {
       "text": "demostrar",
-      "start": 45.335,
-      "end": 46.042,
+      "start": 45.627,
+      "end": 46.333,
       "emphasis": false
     },
     {
       "text": "Con",
-      "start": 46.055,
-      "end": 46.185,
+      "start": 46.347,
+      "end": 46.477,
       "emphasis": false
     },
     {
       "text": "facturas",
-      "start": 46.185,
-      "end": 46.645,
+      "start": 46.477,
+      "end": 46.937,
       "emphasis": true
     },
     {
       "text": "o",
-      "start": 46.645,
-      "end": 47.045,
+      "start": 46.937,
+      "end": 47.337,
       "emphasis": false
     },
     {
       "text": "boletas",
-      "start": 47.045,
-      "end": 47.458,
+      "start": 47.337,
+      "end": 47.75,
       "emphasis": true
     },
     {
       "text": "que",
-      "start": 47.468,
-      "end": 47.588,
+      "start": 47.76,
+      "end": 47.88,
       "emphasis": false
     },
     {
       "text": "sí",
-      "start": 47.558,
-      "end": 47.698,
+      "start": 47.85,
+      "end": 47.99,
       "emphasis": false
     },
     {
       "text": "comercializan",
-      "start": 47.698,
-      "end": 48.208,
-      "emphasis": false
-    },
-    {
-      "text": "Paso",
-      "start": 48.245,
-      "end": 48.49,
-      "emphasis": false
-    },
-    {
-      "text": "4",
-      "start": 48.49,
+      "start": 47.99,
       "end": 48.833,
       "emphasis": false
     },
     {
+      "text": "Paso",
+      "start": 48.87,
+      "end": 49.115,
+      "emphasis": false
+    },
+    {
+      "text": "4",
+      "start": 49.115,
+      "end": 49.458,
+      "emphasis": false
+    },
+    {
       "text": "Resolución",
-      "start": 48.945,
-      "end": 49.345,
+      "start": 49.57,
+      "end": 49.97,
       "emphasis": false
     },
     {
       "text": "final",
-      "start": 49.345,
-      "end": 49.708,
+      "start": 49.97,
+      "end": 50.333,
       "emphasis": false
     },
     {
       "text": "Si",
-      "start": 49.717,
-      "end": 49.837,
+      "start": 50.342,
+      "end": 50.462,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 49.797,
-      "end": 49.917,
+      "start": 50.422,
+      "end": 50.542,
       "emphasis": false
     },
     {
       "text": "titular",
-      "start": 49.877,
-      "end": 50.317,
+      "start": 50.502,
+      "end": 50.942,
       "emphasis": true
     },
     {
       "text": "no",
-      "start": 50.317,
-      "end": 50.637,
+      "start": 50.942,
+      "end": 51.262,
       "emphasis": false
     },
     {
       "text": "prueba",
-      "start": 50.637,
-      "end": 50.937,
+      "start": 51.262,
+      "end": 51.562,
       "emphasis": true
     },
     {
       "text": "el",
-      "start": 50.937,
-      "end": 51.117,
+      "start": 51.562,
+      "end": 51.742,
       "emphasis": false
     },
     {
       "text": "uso",
-      "start": 51.117,
-      "end": 51.257,
+      "start": 51.742,
+      "end": 51.882,
       "emphasis": true
     },
     {
       "text": "real",
-      "start": 51.257,
-      "end": 51.708,
+      "start": 51.882,
+      "end": 52.333,
       "emphasis": false
     },
     {
       "text": "O",
-      "start": 51.723,
-      "end": 51.843,
+      "start": 52.348,
+      "end": 52.468,
       "emphasis": false
     },
     {
       "text": "se",
-      "start": 51.828,
-      "end": 51.948,
+      "start": 52.453,
+      "end": 52.573,
       "emphasis": false
     },
     {
       "text": "confirma",
-      "start": 51.948,
-      "end": 52.428,
+      "start": 52.573,
+      "end": 53.053,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 52.428,
-      "end": 52.548,
+      "start": 53.053,
+      "end": 53.173,
       "emphasis": false
     },
     {
       "text": "ilegalidad",
-      "start": 52.548,
-      "end": 53.417,
+      "start": 53.173,
+      "end": 54.042,
       "emphasis": true
     },
     {
       "text": "La",
-      "start": 53.402,
-      "end": 53.532,
+      "start": 54.027,
+      "end": 54.157,
       "emphasis": false
     },
     {
       "text": "autoridad",
-      "start": 53.532,
-      "end": 54.092,
+      "start": 54.157,
+      "end": 54.717,
       "emphasis": false
     },
     {
       "text": "emite",
-      "start": 54.092,
-      "end": 54.532,
+      "start": 54.717,
+      "end": 55.157,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 54.532,
-      "end": 54.692,
+      "start": 55.157,
+      "end": 55.317,
       "emphasis": false
     },
     {
       "text": "resolución",
-      "start": 54.692,
-      "end": 55.332,
+      "start": 55.317,
+      "end": 55.957,
       "emphasis": false
     },
     {
       "text": "Declarando",
-      "start": 55.332,
-      "end": 56.148,
+      "start": 55.957,
+      "end": 56.773,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 56.148,
-      "end": 56.268,
+      "start": 56.773,
+      "end": 56.893,
       "emphasis": false
     },
     {
       "text": "extinción",
-      "start": 56.268,
-      "end": 56.688,
+      "start": 56.893,
+      "end": 57.313,
       "emphasis": true
     },
     {
       "text": "del",
-      "start": 56.688,
-      "end": 56.868,
+      "start": 57.313,
+      "end": 57.493,
       "emphasis": false
     },
     {
       "text": "registro",
-      "start": 56.868,
-      "end": 57.375,
+      "start": 57.493,
+      "end": 58,
       "emphasis": false
     },
     {
       "text": "En",
-      "start": 57.387,
-      "end": 57.525,
+      "start": 58.012,
+      "end": 58.15,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 57.525,
-      "end": 57.645,
+      "start": 58.15,
+      "end": 58.27,
       "emphasis": false
     },
     {
       "text": "caso",
-      "start": 57.645,
-      "end": 57.865,
+      "start": 58.27,
+      "end": 58.49,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 57.865,
-      "end": 58.025,
+      "start": 58.49,
+      "end": 58.65,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 58.025,
-      "end": 58.145,
+      "start": 58.65,
+      "end": 58.77,
       "emphasis": false
     },
     {
       "text": "cancelación",
-      "start": 58.145,
-      "end": 58.708,
+      "start": 58.77,
+      "end": 59.333,
       "emphasis": true
     },
     {
       "text": "por",
-      "start": 58.725,
-      "end": 59.005,
+      "start": 59.35,
+      "end": 59.63,
       "emphasis": false
     },
     {
       "text": "no",
-      "start": 59.005,
-      "end": 59.185,
+      "start": 59.63,
+      "end": 59.81,
       "emphasis": false
     },
     {
       "text": "uso",
-      "start": 59.185,
-      "end": 59.625,
+      "start": 59.81,
+      "end": 60.25,
       "emphasis": true
     },
     {
       "text": "Tú",
-      "start": 59.621,
-      "end": 59.741,
+      "start": 60.246,
+      "end": 60.366,
       "emphasis": false
     },
     {
       "text": "obtienes",
-      "start": 59.723,
-      "end": 60.283,
+      "start": 60.348,
+      "end": 60.908,
       "emphasis": false
     },
     {
       "text": "el",
-      "start": 60.283,
-      "end": 60.403,
+      "start": 60.908,
+      "end": 61.028,
       "emphasis": false
     },
     {
       "text": "derecho",
-      "start": 60.363,
-      "end": 60.583,
+      "start": 60.988,
+      "end": 61.208,
       "emphasis": true
     },
     {
       "text": "preferente",
-      "start": 60.583,
-      "end": 61.243,
+      "start": 61.208,
+      "end": 61.868,
       "emphasis": true
     },
     {
       "text": "para",
-      "start": 61.243,
-      "end": 61.523,
+      "start": 61.868,
+      "end": 62.148,
       "emphasis": false
     },
     {
       "text": "registrarlo",
-      "start": 61.523,
-      "end": 62.167,
+      "start": 62.148,
+      "end": 62.792,
       "emphasis": false
     },
     {
       "text": "a",
-      "start": 62.163,
-      "end": 62.283,
+      "start": 62.788,
+      "end": 62.908,
       "emphasis": false
     },
     {
       "text": "tu",
-      "start": 62.243,
-      "end": 62.363,
+      "start": 62.868,
+      "end": 62.988,
       "emphasis": false
     },
     {
       "text": "nombre",
-      "start": 62.303,
-      "end": 62.667,
+      "start": 62.928,
+      "end": 63.292,
       "emphasis": true
     },
     {
       "text": "La",
-      "start": 62.66,
-      "end": 62.79,
+      "start": 63.285,
+      "end": 63.415,
       "emphasis": false
     },
     {
       "text": "eliminación",
-      "start": 62.79,
-      "end": 63.29,
+      "start": 63.415,
+      "end": 63.915,
       "emphasis": true
     },
     {
       "text": "de",
-      "start": 63.29,
-      "end": 63.41,
+      "start": 63.915,
+      "end": 64.035,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 63.41,
-      "end": 63.53,
+      "start": 64.035,
+      "end": 64.155,
       "emphasis": false
     },
     {
       "text": "marca",
-      "start": 63.53,
-      "end": 63.79,
+      "start": 64.155,
+      "end": 64.415,
       "emphasis": false
     },
     {
       "text": "exige",
-      "start": 63.79,
-      "end": 64.083,
+      "start": 64.415,
+      "end": 64.708,
       "emphasis": false
     },
     {
       "text": "una",
-      "start": 64.388,
-      "end": 64.648,
+      "start": 65.013,
+      "end": 65.273,
       "emphasis": false
     },
     {
       "text": "estrategia",
-      "start": 64.648,
-      "end": 65.208,
+      "start": 65.273,
+      "end": 65.833,
       "emphasis": false
     },
     {
       "text": "clara",
-      "start": 65.208,
-      "end": 65.667,
+      "start": 65.833,
+      "end": 66.292,
       "emphasis": true
     },
     {
       "text": "Entre",
-      "start": 65.682,
-      "end": 65.922,
+      "start": 66.307,
+      "end": 66.547,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 65.922,
-      "end": 66.122,
+      "start": 66.547,
+      "end": 66.747,
       "emphasis": false
     },
     {
       "text": "vía",
-      "start": 66.122,
-      "end": 66.342,
+      "start": 66.747,
+      "end": 66.967,
       "emphasis": false
     },
     {
       "text": "administrativa",
-      "start": 66.342,
-      "end": 66.982,
+      "start": 66.967,
+      "end": 67.607,
       "emphasis": false
     },
     {
       "text": "y",
-      "start": 66.982,
-      "end": 67.202,
+      "start": 67.607,
+      "end": 67.827,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 67.202,
-      "end": 67.322,
+      "start": 67.827,
+      "end": 67.947,
       "emphasis": false
     },
     {
       "text": "recopilación",
-      "start": 67.282,
-      "end": 67.882,
+      "start": 67.907,
+      "end": 68.507,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 67.882,
-      "end": 68.002,
+      "start": 68.507,
+      "end": 68.627,
       "emphasis": false
     },
     {
       "text": "pruebas",
-      "start": 68.002,
-      "end": 68.375,
+      "start": 68.627,
+      "end": 69,
       "emphasis": true
     },
     {
       "text": "Ya",
-      "start": 68.373,
-      "end": 68.543,
+      "start": 68.998,
+      "end": 69.168,
       "emphasis": false
     },
     {
       "text": "lo",
-      "start": 68.543,
-      "end": 68.663,
+      "start": 69.168,
+      "end": 69.288,
       "emphasis": false
     },
     {
       "text": "sabes",
-      "start": 68.663,
-      "end": 69.042,
+      "start": 69.288,
+      "end": 69.667,
       "emphasis": false
     },
     {
       "text": "sigue a",
-      "start": 69.043,
-      "end": 69.263,
+      "start": 69.668,
+      "end": 69.888,
       "emphasis": false
     },
     {
       "text": "Vocare",
-      "start": 69.263,
-      "end": 69.543,
+      "start": 69.888,
+      "end": 70.168,
       "emphasis": false
     },
     {
       "text": "Iuris",
-      "start": 69.543,
-      "end": 69.843,
+      "start": 70.168,
+      "end": 70.468,
       "emphasis": false
     },
     {
       "text": "para",
-      "start": 69.843,
-      "end": 69.963,
+      "start": 70.468,
+      "end": 70.588,
       "emphasis": false
     },
     {
       "text": "conocer",
-      "start": 70.118,
-      "end": 70.418,
+      "start": 70.743,
+      "end": 71.043,
       "emphasis": false
     },
     {
       "text": "tus",
-      "start": 70.418,
-      "end": 70.738,
+      "start": 71.043,
+      "end": 71.363,
       "emphasis": false
     },
     {
       "text": "derechos",
-      "start": 70.738,
-      "end": 71.167,
+      "start": 71.363,
+      "end": 71.792,
       "emphasis": true
     }
   ],
@@ -1915,7 +1915,7 @@
       "x": 0.32,
       "y": 0.62,
       "start": 10.375,
-      "end": 12.807,
+      "end": 12.973,
       "note": "la vía legal que elijas"
     },
     {
@@ -1924,8 +1924,8 @@
       "cursor": true,
       "x": 0.5,
       "y": 0.64,
-      "start": 12.837,
-      "end": 14.478,
+      "start": 13.003,
+      "end": 14.77,
       "note": "paso 1"
     },
     {
@@ -1934,8 +1934,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 14.508,
-      "end": 17.935,
+      "start": 14.8,
+      "end": 18.227,
       "note": "más de tres años sin usarse"
     },
     {
@@ -1945,8 +1945,8 @@
       "color": "yellow",
       "x": 0.5,
       "y": 0.66,
-      "start": 17.965,
-      "end": 20.107,
+      "start": 18.257,
+      "end": 20.398,
       "note": "normativa (CAN)"
     },
     {
@@ -1955,8 +1955,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 20.137,
-      "end": 23.228,
+      "start": 20.428,
+      "end": 23.52,
       "note": "vulnerando la ley o derechos de terceros"
     },
     {
@@ -1965,8 +1965,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 23.258,
-      "end": 25.309,
+      "start": 23.55,
+      "end": 25.6,
       "note": "nulidad del registro"
     },
     {
@@ -1975,8 +1975,8 @@
       "cursor": true,
       "x": 0.5,
       "y": 0.64,
-      "start": 25.339,
-      "end": 27.27,
+      "start": 25.63,
+      "end": 27.562,
       "note": "paso 2"
     },
     {
@@ -1985,8 +1985,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 27.3,
-      "end": 29.732,
+      "start": 27.592,
+      "end": 30.024,
       "note": "la autoridad competente"
     },
     {
@@ -1996,8 +1996,8 @@
       "color": "white",
       "x": 0.5,
       "y": 0.66,
-      "start": 29.762,
-      "end": 32.767,
+      "start": 30.054,
+      "end": 33.058,
       "note": "autoridad"
     },
     {
@@ -2006,8 +2006,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 32.797,
-      "end": 33.895,
+      "start": 33.088,
+      "end": 34.187,
       "note": "fundamentando la causal"
     },
     {
@@ -2016,8 +2016,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 34.025,
-      "end": 35.627,
+      "start": 34.317,
+      "end": 35.918,
       "note": "pagando la tasa"
     },
     {
@@ -2026,8 +2026,8 @@
       "cursor": true,
       "x": 0.5,
       "y": 0.64,
-      "start": 35.657,
-      "end": 38.08,
+      "start": 35.948,
+      "end": 38.372,
       "note": "paso 3"
     },
     {
@@ -2036,15 +2036,15 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 38.11,
-      "end": 40.605,
+      "start": 38.402,
+      "end": 40.897,
       "note": "notifica al titular"
     },
     {
       "type": "flash",
       "opacity": 0.7,
-      "start": 40.615,
-      "end": 40.795,
+      "start": 40.907,
+      "end": 41.087,
       "note": "ruptura de patrón"
     },
     {
@@ -2057,8 +2057,8 @@
       "stepFrames": 3,
       "x": 0.5,
       "y": 0.58,
-      "start": 40.635,
-      "end": 41.103,
+      "start": 40.927,
+      "end": 41.395,
       "note": "alerta"
     },
     {
@@ -2068,8 +2068,8 @@
       "color": "yellow",
       "x": 0.5,
       "y": 0.66,
-      "start": 41.133,
-      "end": 44.905,
+      "start": 41.425,
+      "end": 45.197,
       "note": "Decisión 486: carga de la prueba (no uso)"
     },
     {
@@ -2078,8 +2078,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 44.935,
-      "end": 48.165,
+      "start": 45.227,
+      "end": 48.79,
       "note": "facturas o boletas que prueben ventas"
     },
     {
@@ -2088,8 +2088,8 @@
       "cursor": true,
       "x": 0.5,
       "y": 0.64,
-      "start": 48.195,
-      "end": 49.687,
+      "start": 48.82,
+      "end": 50.312,
       "note": "paso 4"
     },
     {
@@ -2098,8 +2098,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 49.717,
-      "end": 51.693,
+      "start": 50.342,
+      "end": 52.318,
       "note": "no prueba el uso real"
     },
     {
@@ -2108,8 +2108,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 51.723,
-      "end": 53.372,
+      "start": 52.348,
+      "end": 53.997,
       "note": "o se confirma la ilegalidad"
     },
     {
@@ -2118,8 +2118,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 53.402,
-      "end": 55.302,
+      "start": 54.027,
+      "end": 55.927,
       "note": "la autoridad resuelve"
     },
     {
@@ -2128,8 +2128,8 @@
       "tone": "deny",
       "x": 0.5,
       "y": 0.6,
-      "start": 55.332,
-      "end": 57.357,
+      "start": 55.957,
+      "end": 57.982,
       "note": "extinción del registro"
     },
     {
@@ -2138,8 +2138,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 57.387,
-      "end": 59.591,
+      "start": 58.012,
+      "end": 60.216,
       "note": "en la cancelación por no uso"
     },
     {
@@ -2149,8 +2149,8 @@
       "color": "white",
       "x": 0.5,
       "y": 0.66,
-      "start": 59.621,
-      "end": 62.63,
+      "start": 60.246,
+      "end": 63.255,
       "note": "registrar la marca a tu nombre"
     },
     {
@@ -2159,8 +2159,8 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 62.66,
-      "end": 65.652,
+      "start": 63.285,
+      "end": 66.277,
       "note": "estrategia clara"
     },
     {
@@ -2169,8 +2169,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 65.682,
-      "end": 68.323,
+      "start": 66.307,
+      "end": 68.948,
       "note": "vía administrativa + pruebas"
     }
   ],

@@ -28,7 +28,7 @@
       "name": "Duración",
       "ok": true,
       "level": "ok",
-      "detail": "71.20 s (EDL 71.17 s)"
+      "detail": "71.90 s (EDL 71.79 s)"
     },
     {
       "name": "Fotogramas negros",
@@ -40,7 +40,7 @@
       "name": "Loudness",
       "ok": true,
       "level": "ok",
-      "detail": "-13.9 LUFS (objetivo −14 ±1)"
+      "detail": "-14 LUFS (objetivo −14 ±1)"
     },
     {
       "name": "True peak",
@@ -64,25 +64,25 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 5 ms, p90 |62| ms, 211/227 palabras alineadas"
+      "detail": "mediana 7 ms, p90 |55| ms, 218/227 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
       "ok": true,
       "level": "ok",
-      "detail": "16 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "detail": "9 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 211,
+    "matched": 218,
     "total": 227,
-    "medianOffset": 0.004999999999999893,
-    "p90AbsOffset": 0.06199999999999761,
+    "medianOffset": 0.006999999999997897,
+    "p90AbsOffset": 0.054999999999999716,
     "mismatches": [
       {
         "at": 3.38,
         "caption": "róbatela",
-        "heard": "Pues, rótela."
+        "heard": "Pues, rodatela,"
       },
       {
         "at": 6.045,
@@ -95,74 +95,39 @@
         "heard": "estrategia"
       },
       {
-        "at": 12.887,
-        "caption": "Paso",
-        "heard": "elijas, pasa uno,"
-      },
-      {
-        "at": 20.137,
+        "at": 20.428,
         "caption": "Si",
-        "heard": "uso. registró"
+        "heard": "uso. se registró"
       },
       {
-        "at": 20.192,
-        "caption": "se",
-        "heard": "uso. registró"
-      },
-      {
-        "at": 23.978,
+        "at": 24.27,
         "caption": "nulidad",
         "heard": "la anulidad del"
       },
       {
-        "at": 33.377,
+        "at": 33.668,
         "caption": "la",
         "heard": "a causar"
       },
       {
-        "at": 40.635,
-        "caption": "Pero",
-        "heard": "marca. ojo,"
-      },
-      {
-        "at": 47.558,
+        "at": 47.85,
         "caption": "sí",
-        "heard": "que es psicomersalía."
+        "heard": "que se comercializan."
       },
       {
-        "at": 47.698,
-        "caption": "comercializan",
-        "heard": "que es psicomersalía."
-      },
-      {
-        "at": 49.717,
+        "at": 50.342,
         "caption": "Si",
-        "heard": "final."
+        "heard": "final. el titular"
       },
       {
-        "at": 49.797,
-        "caption": "el",
-        "heard": "(nada)"
-      },
-      {
-        "at": 49.877,
-        "caption": "titular",
-        "heard": "no"
-      },
-      {
-        "at": 66.122,
-        "caption": "vía",
-        "heard": "la avión administrativa"
-      },
-      {
-        "at": 69.043,
-        "caption": "sigue a",
-        "heard": "sabes, diga Vocare"
+        "at": 63.285,
+        "caption": "La",
+        "heard": "tu nombre. Eliminación"
       }
     ]
   },
   "loudness": {
-    "integratedLufs": -13.9,
+    "integratedLufs": -14,
     "lra": 4.4,
     "truePeakDb": -1.5
   },

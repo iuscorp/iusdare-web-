@@ -504,7 +504,7 @@
     },
     {
       "in": 48.14,
-      "out": 48.55,
+      "out": 48.72,
       "words": [
         {
           "w": "tú",
@@ -558,7 +558,7 @@
     },
     {
       "in": 53.57,
-      "out": 54.59,
+      "out": 54.72,
       "words": [
         {
           "w": "Identifica",
@@ -1709,7 +1709,7 @@
     },
     {
       "in": 223.26,
-      "out": 224.02,
+      "out": 224.34,
       "words": [
         {
           "w": "que",
@@ -2811,7 +2811,7 @@
   "stats": {
     "sourceDuration": 464.981,
     "sourceSpeechSpan": 448.44,
-    "outputDuration": 71.13,
+    "outputDuration": 71.75,
     "savedSeconds": 391.087,
     "words": 228,
     "wordsPerSecond": 3.086,
@@ -2883,9 +2883,9 @@
     },
     {
       "in": 48.14,
-      "out": 48.55,
+      "out": 48.72,
       "text": "tú elijas.",
-      "timeline": "NNNNN",
+      "timeline": "NNNNNN",
       "offCamera": 0
     },
     {
@@ -2897,9 +2897,9 @@
     },
     {
       "in": 53.57,
-      "out": 54.59,
+      "out": 54.72,
       "text": "Identifica la causal.",
-      "timeline": "NNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNN",
       "offCamera": 0
     },
     {
@@ -3030,9 +3030,9 @@
     },
     {
       "in": 223.26,
-      "out": 224.02,
+      "out": 224.34,
       "text": "que se comercializan.",
-      "timeline": "NNNNNNNN",
+      "timeline": "NNNNNNNNNNN",
       "offCamera": 0
     },
     {
