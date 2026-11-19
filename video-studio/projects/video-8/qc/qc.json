@@ -28,7 +28,7 @@
       "name": "Duración",
       "ok": true,
       "level": "ok",
-      "detail": "71.90 s (EDL 71.79 s)"
+      "detail": "71.70 s (EDL 71.63 s)"
     },
     {
       "name": "Fotogramas negros",
@@ -64,25 +64,25 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 7 ms, p90 |55| ms, 218/227 palabras alineadas"
+      "detail": "mediana 3 ms, p90 |55| ms, 215/227 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
       "ok": true,
       "level": "ok",
-      "detail": "9 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "detail": "12 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 218,
+    "matched": 215,
     "total": 227,
-    "medianOffset": 0.006999999999997897,
-    "p90AbsOffset": 0.054999999999999716,
+    "medianOffset": 0.0030000000000001137,
+    "p90AbsOffset": 0.055,
     "mismatches": [
       {
         "at": 3.38,
         "caption": "róbatela",
-        "heard": "Pues, rodatela,"
+        "heard": "Pues, rótela."
       },
       {
         "at": 6.045,
@@ -105,9 +105,19 @@
         "heard": "la anulidad del"
       },
       {
+        "at": 30.054,
+        "caption": "Como",
+        "heard": "la"
+      },
+      {
         "at": 33.668,
         "caption": "la",
         "heard": "a causar"
+      },
+      {
+        "at": 37.662,
+        "caption": "probatoria",
+        "heard": "carga aprobatoria."
       },
       {
         "at": 47.85,
@@ -120,15 +130,20 @@
         "heard": "final. el titular"
       },
       {
-        "at": 63.285,
-        "caption": "La",
-        "heard": "tu nombre. Eliminación"
+        "at": 66.58,
+        "caption": "vía",
+        "heard": "la avión administrativa"
+      },
+      {
+        "at": 69.502,
+        "caption": "sigue a",
+        "heard": "sabes, diga Vocare"
       }
     ]
   },
   "loudness": {
     "integratedLufs": -14,
-    "lra": 4.4,
+    "lra": 4.2,
     "truePeakDb": -1.5
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/video-8/video-8-preview.mp4"
