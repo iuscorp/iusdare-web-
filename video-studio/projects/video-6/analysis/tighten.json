@@ -1,0 +1,42 @@
+[
+ {
+  "in": 0,
+  "out": 3.03,
+  "voiceIn": 0.0,
+  "voiceOut": 3.03,
+  "thrDb": -49.5,
+  "pauses": []
+ },
+ {
+  "in": 3.16,
+  "out": 34.99,
+  "voiceIn": 3.16,
+  "voiceOut": 34.86,
+  "thrDb": -49.5,
+  "pauses": []
+ },
+ {
+  "in": 35.24,
+  "out": 45.17,
+  "voiceIn": 35.26,
+  "voiceOut": 45.17,
+  "thrDb": -50.7,
+  "pauses": []
+ },
+ {
+  "in": 45.44,
+  "out": 46.69,
+  "voiceIn": 45.49,
+  "voiceOut": 46.69,
+  "thrDb": -49.7,
+  "pauses": []
+ },
+ {
+  "in": 47.18,
+  "out": 52.29,
+  "voiceIn": 47.19,
+  "voiceOut": 52.29,
+  "thrDb": -50.1,
+  "pauses": []
+ }
+]

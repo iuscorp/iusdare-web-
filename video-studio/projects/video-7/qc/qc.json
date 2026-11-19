@@ -1,0 +1,130 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "7.3 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "24 (footage 24)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "68.70 s (EDL 68.63 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14.1 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.4 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.01 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana 2 ms, p90 |73| ms, 212/220 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": true,
+      "level": "ok",
+      "detail": "8 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 212,
+    "total": 220,
+    "medianOffset": 0.0019999999999988916,
+    "p90AbsOffset": 0.0730000000000075,
+    "mismatches": [
+      {
+        "at": 0.697,
+        "caption": "NVIDIA",
+        "heard": "Invidia publicó"
+      },
+      {
+        "at": 58.01,
+        "caption": "SMV",
+        "heard": "la SMB"
+      },
+      {
+        "at": 60.592,
+        "caption": "Y",
+        "heard": "ya"
+      },
+      {
+        "at": 64.187,
+        "caption": "NVIDIA",
+        "heard": "de invidia"
+      },
+      {
+        "at": 65.073,
+        "caption": "Cuéntalo",
+        "heard": "lunes? Telo en los comentarios."
+      },
+      {
+        "at": 65.987,
+        "caption": "Sigue",
+        "heard": "Si evocara Iuris"
+      },
+      {
+        "at": 66.057,
+        "caption": "a",
+        "heard": "Si evocara Iuris"
+      },
+      {
+        "at": 66.397,
+        "caption": "Vocare",
+        "heard": "Si evocara Iuris para"
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14.1,
+    "lra": 3.7,
+    "truePeakDb": -1.4
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/video-7/video-7-preview.mp4"
+}

@@ -1,0 +1,15 @@
+{
+ "_info": "Correcciones de video-7 (NVIDIA / hechos de importancia). Verificar con el equipo.",
+ "corrections": [
+  {"match": "invidia", "replace": ["NVIDIA"]},
+  {"match": "envidia", "replace": ["NVIDIA"]},
+  {"match": "nvidia", "replace": ["NVIDIA"]},
+  {"match": "smb", "replace": ["SMV"]},
+  {"match": "ensata", "replace": ["sensata"]},
+  {"match": "bocara y uriz", "replace": ["Vocare", "Iuris"]},
+  {"match": "evocare yuris", "replace": ["Vocare", "Iuris"]},
+  {"match": "si evocare yuris", "replace": ["Sigue", "a", "Vocare", "Iuris"]},
+  {"match": "afp", "replace": ["AFP"]},
+  {"match": "ceo", "replace": ["CEO"]}
+ ]
+}

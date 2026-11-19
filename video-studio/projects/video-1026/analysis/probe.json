@@ -1,0 +1,55 @@
+{
+  "raw": {
+    "file": "/home/user/iusdare-web-/video-studio/footage/raw/video-1026/1026-4.MOV",
+    "duration": 31.166667,
+    "sizeMB": 47.3,
+    "bitrateKbps": 12151,
+    "video": {
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "pixFmt": "yuv420p",
+      "rotation": 0,
+      "colorTransfer": "bt709"
+    },
+    "audio": {
+      "codec": "aac",
+      "sampleRate": 44100,
+      "channels": 2
+    }
+  },
+  "proxy": {
+    "file": "/home/user/iusdare-web-/video-studio/public/footage/video-1026/source.mp4",
+    "duration": 31.183,
+    "sizeMB": 42.3,
+    "bitrateKbps": 10840,
+    "video": {
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "pixFmt": "yuv420p",
+      "rotation": 0,
+      "colorTransfer": "bt709"
+    },
+    "audio": {
+      "codec": "aac",
+      "sampleRate": 48000,
+      "channels": 2
+    }
+  },
+  "audio": {
+    "integratedLufs": -22.7,
+    "lra": 5.1,
+    "truePeakDb": -4.4,
+    "silences": [],
+    "silenceTotal": 0
+  },
+  "video": {
+    "blackSegments": [],
+    "lumaAvg": 133,
+    "saturationAvg": 10.1
+  },
+  "warnings": []
+}

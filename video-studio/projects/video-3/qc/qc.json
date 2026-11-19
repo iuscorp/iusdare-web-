@@ -1,0 +1,235 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "7.2 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "30 (footage 30)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "47.80 s (EDL 47.73 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.4 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.00 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana 7 ms, p90 |80| ms, 110/139 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": false,
+      "level": "warn",
+      "detail": "29 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 110,
+    "total": 139,
+    "medianOffset": 0.006999999999997897,
+    "p90AbsOffset": 0.0799999999999983,
+    "mismatches": [
+      {
+        "at": 20.207,
+        "caption": "sexual",
+        "heard": "seco."
+      },
+      {
+        "at": 20.727,
+        "caption": "e",
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.207,
+        "caption": "identidad",
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.647,
+        "caption": "de",
+        "heard": "(nada)"
+      },
+      {
+        "at": 21.807,
+        "caption": "género",
+        "heard": "(nada)"
+      },
+      {
+        "at": 22.207,
+        "caption": "o",
+        "heard": "(nada)"
+      },
+      {
+        "at": 22.327,
+        "caption": "sea",
+        "heard": "(nada)"
+      },
+      {
+        "at": 22.713,
+        "caption": "quien",
+        "heard": "(nada)"
+      },
+      {
+        "at": 22.833,
+        "caption": "discrimine",
+        "heard": "(nada)"
+      },
+      {
+        "at": 23.453,
+        "caption": "puede",
+        "heard": "(nada)"
+      },
+      {
+        "at": 23.807,
+        "caption": "ir",
+        "heard": "(nada)"
+      },
+      {
+        "at": 24.047,
+        "caption": "preso",
+        "heard": "(nada)"
+      },
+      {
+        "at": 24.507,
+        "caption": "y",
+        "heard": "(nada)"
+      },
+      {
+        "at": 24.627,
+        "caption": "es",
+        "heard": "(nada)"
+      },
+      {
+        "at": 24.827,
+        "caption": "entre",
+        "heard": "(nada)"
+      },
+      {
+        "at": 25.027,
+        "caption": "dos",
+        "heard": "(nada)"
+      },
+      {
+        "at": 25.287,
+        "caption": "a",
+        "heard": "(nada)"
+      },
+      {
+        "at": 25.587,
+        "caption": "tres",
+        "heard": "(nada)"
+      },
+      {
+        "at": 25.747,
+        "caption": "años",
+        "heard": "(nada)"
+      },
+      {
+        "at": 26.073,
+        "caption": "Y",
+        "heard": "(nada)"
+      },
+      {
+        "at": 26.133,
+        "caption": "en",
+        "heard": "(nada)"
+      },
+      {
+        "at": 26.213,
+        "caption": "el",
+        "heard": "(nada)"
+      },
+      {
+        "at": 26.313,
+        "caption": "trabajo",
+        "heard": "(nada)"
+      },
+      {
+        "at": 26.613,
+        "caption": "las",
+        "heard": "(nada)"
+      },
+      {
+        "at": 27.193,
+        "caption": "leyes",
+        "heard": "(nada)"
+      },
+      {
+        "at": 27.553,
+        "caption": "26772",
+        "heard": "(nada)"
+      },
+      {
+        "at": 29.453,
+        "caption": "y",
+        "heard": "(nada)"
+      },
+      {
+        "at": 29.713,
+        "caption": "30709",
+        "heard": "(nada)"
+      },
+      {
+        "at": 38.48,
+        "caption": "1500",
+        "heard": "de 1 .500"
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14,
+    "lra": 3.4,
+    "truePeakDb": -1.4
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/video-3/video-3-preview.mp4"
+}

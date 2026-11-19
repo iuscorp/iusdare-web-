@@ -1,0 +1,150 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "7.2 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "24 (footage 24)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "71.70 s (EDL 71.63 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.5 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.06 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana 3 ms, p90 |55| ms, 215/227 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": true,
+      "level": "ok",
+      "detail": "12 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 215,
+    "total": 227,
+    "medianOffset": 0.0030000000000001137,
+    "p90AbsOffset": 0.055,
+    "mismatches": [
+      {
+        "at": 3.38,
+        "caption": "róbatela",
+        "heard": "Pues, rótela."
+      },
+      {
+        "at": 6.045,
+        "caption": "está",
+        "heard": "no esté en uso"
+      },
+      {
+        "at": 10.375,
+        "caption": "La",
+        "heard": "estrategia"
+      },
+      {
+        "at": 20.428,
+        "caption": "Si",
+        "heard": "uso. se registró"
+      },
+      {
+        "at": 24.27,
+        "caption": "nulidad",
+        "heard": "la anulidad del"
+      },
+      {
+        "at": 30.054,
+        "caption": "Como",
+        "heard": "la"
+      },
+      {
+        "at": 33.668,
+        "caption": "la",
+        "heard": "a causar"
+      },
+      {
+        "at": 37.662,
+        "caption": "probatoria",
+        "heard": "carga aprobatoria."
+      },
+      {
+        "at": 47.85,
+        "caption": "sí",
+        "heard": "que se comercializan."
+      },
+      {
+        "at": 50.342,
+        "caption": "Si",
+        "heard": "final. el titular"
+      },
+      {
+        "at": 66.58,
+        "caption": "vía",
+        "heard": "la avión administrativa"
+      },
+      {
+        "at": 69.502,
+        "caption": "sigue a",
+        "heard": "sabes, diga Vocare"
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14,
+    "lra": 4.2,
+    "truePeakDb": -1.5
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/video-8/video-8-preview.mp4"
+}

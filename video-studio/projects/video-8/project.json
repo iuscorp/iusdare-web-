@@ -1,0 +1,37 @@
+{
+  "slug": "video-8",
+  "title": "¿Una marca inactiva? Pide su cancelación",
+  "createdAt": "2026-11-17T17:30:16.491Z",
+  "raw": "footage/raw/video-8/raw.MOV",
+  "proxy": "footage/video-8/source.mp4",
+  "status": "preview-renderizado",
+  "workflow": [
+    "ANÁLISIS",
+    "ESTRUCTURA NARRATIVA",
+    "CÓDIGOS NATIVOS",
+    "CANVAS VISUAL",
+    "APROBACIÓN",
+    "EDICIÓN COMPLETA",
+    "CONTROL DE CALIDAD",
+    "EXPORTACIÓN"
+  ],
+  "approval": {
+    "approved": false,
+    "approvedAt": null,
+    "notes": []
+  },
+  "editing": {
+    "minPause": 0.15,
+    "dropDb": 20,
+    "voice": {
+      "splitHz": 60,
+      "quietDb": -34,
+      "_nota": "presentadora en cámara ≈ −20/−30 dB; dictado fuera de cámara ≈ −38/−50 dB: se separa por nivel"
+    }
+  },
+  "lastRender": {
+    "file": "../previews/video-8/video-8-preview.mp4",
+    "at": "2026-11-19T22:23:52.420Z",
+    "preview": true
+  }
+}

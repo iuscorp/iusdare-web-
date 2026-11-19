@@ -1,0 +1,109 @@
+{
+  "key": "72294115-1794243195960.5469",
+  "raw": {
+    "file": "/home/user/iusdare-web-/video-studio/footage/raw/video-3/raw.MOV",
+    "duration": 49.666667,
+    "sizeMB": 72.3,
+    "bitrateKbps": 11641,
+    "video": {
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "pixFmt": "yuv420p",
+      "rotation": 0,
+      "colorTransfer": "bt709"
+    },
+    "audio": {
+      "codec": "aac",
+      "sampleRate": 44100,
+      "channels": 2
+    }
+  },
+  "proxy": {
+    "file": "/home/user/iusdare-web-/video-studio/public/footage/video-3/source.mp4",
+    "duration": 49.666667,
+    "sizeMB": 72.3,
+    "bitrateKbps": 11645,
+    "video": {
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "pixFmt": "yuv420p",
+      "rotation": 0,
+      "colorTransfer": "bt709"
+    },
+    "audio": {
+      "codec": "aac",
+      "sampleRate": 44100,
+      "channels": 2
+    }
+  },
+  "audio": {
+    "integratedLufs": -27.2,
+    "lra": 4.8,
+    "truePeakDb": -10.4,
+    "silences": [
+      {
+        "start": 4.25578,
+        "end": 4.69454
+      },
+      {
+        "start": 14.7884,
+        "end": 15.085
+      },
+      {
+        "start": 15.692,
+        "end": 16.0193
+      },
+      {
+        "start": 21.1585,
+        "end": 21.4477
+      },
+      {
+        "start": 22.9132,
+        "end": 23.2334
+      },
+      {
+        "start": 26.4263,
+        "end": 26.7293
+      },
+      {
+        "start": 28.2036,
+        "end": 28.6174
+      },
+      {
+        "start": 29.1312,
+        "end": 29.4112
+      },
+      {
+        "start": 31.6308,
+        "end": 31.8835
+      },
+      {
+        "start": 33.9053,
+        "end": 34.2473
+      },
+      {
+        "start": 38.4908,
+        "end": 38.8592
+      },
+      {
+        "start": 44.3108,
+        "end": 44.7268
+      },
+      {
+        "start": 49.397,
+        "end": 49.666
+      }
+    ],
+    "silenceTotal": 4.32
+  },
+  "video": {
+    "blackSegments": [],
+    "lumaAvg": 131.4,
+    "saturationAvg": 19.8
+  },
+  "warnings": []
+}

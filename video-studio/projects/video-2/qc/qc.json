@@ -1,0 +1,140 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "8.3 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "24 (footage 24)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "60.10 s (EDL 60.00 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.5 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.01 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana 0 ms, p90 |118| ms, 181/191 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": true,
+      "level": "ok",
+      "detail": "10 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 181,
+    "total": 191,
+    "medianOffset": 0,
+    "p90AbsOffset": 0.1180000000000021,
+    "mismatches": [
+      {
+        "at": 8.657,
+        "caption": "pongamos",
+        "heard": "apogamos una"
+      },
+      {
+        "at": 19.052,
+        "caption": "El",
+        "heard": "Entonces,"
+      },
+      {
+        "at": 19.192,
+        "caption": "TC",
+        "heard": "Entonces,"
+      },
+      {
+        "at": 29.415,
+        "caption": "les",
+        "heard": "se le dé la gana."
+      },
+      {
+        "at": 38.514,
+        "caption": "TC",
+        "heard": "el T .C. ordenó"
+      },
+      {
+        "at": 39.268,
+        "caption": "retiro",
+        "heard": "ordenó su repiro,"
+      },
+      {
+        "at": 50.338,
+        "caption": "Recuerda",
+        "heard": "(nada)"
+      },
+      {
+        "at": 53.127,
+        "caption": "restringir",
+        "heard": "reistringir"
+      },
+      {
+        "at": 56.744,
+        "caption": "sigue",
+        "heard": "Así que siga Vocare"
+      },
+      {
+        "at": 56.968,
+        "caption": "a",
+        "heard": "siga Vocare Iuris"
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14,
+    "lra": 3.3,
+    "truePeakDb": -1.5
+  },
+  "file": "previews/video-2/video-2-preview.mp4"
+}
