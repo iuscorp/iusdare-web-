@@ -2,7 +2,7 @@
  "model": "small",
  "language": "es",
  "duration": 464.981,
- "text": "Te gusta una marca inactiva y quieres usarlo para tu negocio? Pues, ¡robatela! Es totalmente valido. Si una marca no esté en uso y afecta el registro de tu marca Tienes derecho a exigir su eliminación. La estrategia depende de la vía legal que tú elijas. Paso uno. Identifica la causal. Si la marca lleva más de tres años consecutivos sin usarse Inicias una cancelación por falta de uso. Si se registró vulnerando la ley o derechos de terceros. Solicitas la anulidad del registro. Paso 2. Presenta tu solicitud. Interpone la acción ante la autoridad competente. Como la dirección de signos distintivos de Indecopi. Fundamentándola a causar. Y pagando la tasa correspondiente. Paso 3. Notificación y carga probatoria. La autoridad notifica al titular de la marca. Pero, ojo. En la cancelación por no uso. La carga de la prueba la tiene el título. ¿Quién debe demostrar? Con facturas o boletas que se comercializan. Paso 4. Resolución final. Si el titular no prueba el uso real. O se confirma la ilegalidad. La autoridad emite la resolución declarando Declarando la extinción del registro. En el caso de la cancelación, por no uso. Tú obtienes el derecho preferente para registrarlo a tu nombre. La eliminación de la marca exige una estrategia clara. Entre la avión administrativa y la recopilación de pruebas. Ya lo sabes, siga Vocare Iuri para conocer tus derechos.",
+ "text": "Te gusta una marca inactiva y quieres usarlo para tu negocio? Pues, ¡robatela! Es totalmente valido. Si una marca no esté en uso y afecta el registro de tu marca Tienes derecho a exigir su eliminación. La estrategia depende de la vía legal que tú elijas. Paso uno. Identifica la causal. Si la marca lleva más de tres años consecutivos sin usarse Inicias una cancelación por falta de uso. Si se registró vulnerando la ley o derechos de terceros. Solicitas la anulidad del registro. Paso 2. Presenta tu solicitud. Interpone la acción ante la autoridad competente. Como la dirección de signos distintivos de Indecopi. Fundamentándola a causar. Y pagando la tasa correspondiente. Paso 3. Notificación y carga probatoria. La autoridad notifica al titular de la marca. Pero, ojo. En la cancelación por no uso. La carga de la prueba la tiene el título. ¿Quién debe demostrar? Con facturas o boletas que se comercializan. Paso 4. Resolución final. Si el titular no prueba el uso real. O se confirma la ilegalidad. La autoridad emite la resolución. Declarando la extinción del registro. En el caso de la cancelación, por no uso. Tú obtienes el derecho preferente para registrarlo a tu nombre. La eliminación de la marca exige una estrategia clara. Entre la avión administrativa y la recopilación de pruebas. Ya lo sabes, siga Vocare Iuri para conocer tus derechos.",
  "segments": [
   {
    "start": 10.95,
@@ -161,9 +161,9 @@
    "take": 25
   },
   {
-   "start": 301.45,
-   "end": 304.43,
-   "text": "La autoridad emite la resolución declarando",
+   "start": 335.1,
+   "end": 337.38,
+   "text": "La autoridad emite la resolución.",
    "take": 26
   },
   {
@@ -1396,44 +1396,37 @@
   },
   {
    "w": "La",
-   "s": 301.7,
-   "e": 301.99,
-   "p": 0.52,
+   "s": 335.35,
+   "e": 335.68,
+   "p": 0.334,
    "take": 26
   },
   {
    "w": "autoridad",
-   "s": 301.99,
-   "e": 302.55,
-   "p": 0.955,
+   "s": 335.68,
+   "e": 336.18,
+   "p": 0.913,
    "take": 26
   },
   {
    "w": "emite",
-   "s": 302.55,
-   "e": 302.99,
-   "p": 0.959,
+   "s": 336.18,
+   "e": 336.58,
+   "p": 0.965,
    "take": 26
   },
   {
    "w": "la",
-   "s": 302.99,
-   "e": 303.15,
-   "p": 0.945,
+   "s": 336.58,
+   "e": 336.72,
+   "p": 0.988,
    "take": 26
   },
   {
-   "w": "resolución",
-   "s": 303.15,
-   "e": 303.79,
-   "p": 0.997,
-   "take": 26
-  },
-  {
-   "w": "declarando",
-   "s": 303.79,
-   "e": 304.3,
-   "p": 0.96,
+   "w": "resolución.",
+   "s": 336.72,
+   "e": 337.38,
+   "p": 0.996,
    "take": 26
   },
   {

@@ -74,6 +74,8 @@ for (const c of e.captions) {
   at('se', S('boletas')).text = 'sí';
   // «siga Vocare» → «sigue a Vocare»
   at('siga').text = 'sigue a';
+  // «…la resolución, declarando…»: una sola frase (minúscula y coma)
+  for (const c of e.captions) if (norm(c.text) === 'declarando') c.text = 'declarando';
   // «declarando» suelto al final de la toma (la frase sigue en la toma siguiente)
   const d1 = at('declarando');
   const d2 = e.captions[e.captions.indexOf(d1) + 1];
