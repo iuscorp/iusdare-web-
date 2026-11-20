@@ -27,6 +27,11 @@ export type ReelProps = z.input<typeof reelSchema>;
 
 const dbToGain = (db: number) => Math.min(1, Math.pow(10, db / 20));
 
+/** Audio micro-fade (2 frames ≈ 67 ms) at both edges of every cut: no clicks, no abrupt onsets. */
+const EDGE_FADE_FRAMES = 2;
+const edgeFade = (f: number, dur: number) =>
+  Math.max(0, Math.min(1, (f + 0.5) / EDGE_FADE_FRAMES, (dur - f - 0.5) / EDGE_FADE_FRAMES));
+
 export const calculateReelMetadata: CalculateMetadataFunction<ReelProps> = ({ props }) => {
   const edit = editSchema.parse(props.edit);
   const tl = buildTimeline(edit);
@@ -85,7 +90,7 @@ export const RevoredoReel: React.FC<ReelProps> = (props) => {
             <Video
               src={staticFile(edit.sources[s.source])}
               trimBefore={Math.round(s.in * fps)}
-              volume={voice * dbToGain(s.gainDb)}
+              volume={(f) => voice * dbToGain(s.gainDb) * edgeFade(f, s.durationInFrames)}
               objectFit="cover"
               style={{ width: "100%", height: "100%" }}
             />

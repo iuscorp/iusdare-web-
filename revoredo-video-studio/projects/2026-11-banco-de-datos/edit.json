@@ -1,0 +1,1628 @@
+{
+  "meta": {
+    "slug": "2026-11-banco-de-datos",
+    "title": "Banco de datos personales: ¿tu empresa tiene uno?",
+    "format": "vertical",
+    "fps": 30,
+    "status": "aprobado"
+  },
+  "sources": {
+    "main": "footage/raw/2026-11-banco-de-datos/main.clean.mp4"
+  },
+  "story": {
+    "problem": "Muchas empresas recopilan datos de clientes, trabajadores o proveedores sin saber que eso puede constituir un banco de datos personales.",
+    "whyItMatters": "Tener un banco de datos personales implica obligaciones legales bajo la Ley N.º 29733 y su reglamento.",
+    "riskOrOpportunity": "No inscribirlo ni gestionarlo correctamente expone a la empresa a contingencias.",
+    "openQuestion": "¿Tu empresa ya identificó y registró su banco de datos personales?",
+    "payoff": "Inscribirlo en el Registro Nacional y revisar cómo obtienes, usas, conservas y proteges los datos.",
+    "cta": "Revoredo Abogados protege tu negocio · Tenemos una conversación pendiente."
+  },
+  "segments": [
+    {
+      "id": "S01.a",
+      "source": "main",
+      "in": 5.56,
+      "out": 7.37,
+      "role": "hook",
+      "purpose": "Pregunta gancho: ¿recopilas datos?",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "hook",
+        "open-loop"
+      ],
+      "rationale": "Toma limpia de la presentadora: «Recopila datos de trabajadores, proveedores o potenciales clientes.»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S01.b",
+      "source": "main",
+      "in": 7.48,
+      "out": 9.19,
+      "role": "hook",
+      "purpose": "Pregunta gancho: ¿recopilas datos?",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.04,
+        "zoomTo": 1.071
+      },
+      "nativeCodes": [
+        "hook",
+        "open-loop"
+      ],
+      "rationale": "Toma limpia de la presentadora: «Recopila datos de trabajadores, proveedores o potenciales clientes.» · micro-corte de silencio",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S02",
+      "source": "main",
+      "in": 34.49,
+      "out": 38.5,
+      "role": "tension",
+      "purpose": "Riesgo: obligaciones legales",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "antihook",
+        "punch-in"
+      ],
+      "rationale": "Toma limpia de la presentadora: «Ojo, podrías tener un banco de datos personales y estar sujeto a obligaciones legales.»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S03",
+      "source": "main",
+      "in": 45.84,
+      "out": 48.32,
+      "role": "context",
+      "purpose": "Norma",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "strategic-text",
+        "scale-change"
+      ],
+      "rationale": "Toma limpia de la presentadora: «La ley número 29733»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S04",
+      "source": "main",
+      "in": 51.41,
+      "out": 52.52,
+      "role": "context",
+      "purpose": "Norma",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "scale-change"
+      ],
+      "rationale": "Toma limpia de la presentadora: «y su reglamento»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S05",
+      "source": "main",
+      "in": 58.63,
+      "out": 62.13,
+      "role": "development",
+      "purpose": "Definición",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "build-up"
+      ],
+      "rationale": "Toma limpia de la presentadora: «consideran banco de datos personales a un conjunto estructurado»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S06",
+      "source": "main",
+      "in": 66.73,
+      "out": 69.25,
+      "role": "development",
+      "purpose": "Definición",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "Toma limpia de la presentadora: «de datos que permiten acceder a información de personas,»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S07",
+      "source": "main",
+      "in": 71.94,
+      "out": 74.11,
+      "role": "development",
+      "purpose": "Definición",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "Toma limpia de la presentadora: «ya sea de forma automatizada o no.»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S08",
+      "source": "main",
+      "in": 75.85,
+      "out": 76.54,
+      "role": "development",
+      "purpose": "Ejemplo",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "rhythm-change"
+      ],
+      "rationale": "Toma limpia de la presentadora: «Por ejemplo,»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S09",
+      "source": "main",
+      "in": 90.12,
+      "out": 93.91,
+      "role": "development",
+      "purpose": "Ejemplo",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "Toma limpia de la presentadora: «tu base de clientes, trabajadores, proveedores o leads comerciales.»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S10",
+      "source": "main",
+      "in": 96.5,
+      "out": 97.39,
+      "role": "reveal",
+      "purpose": "Giro: qué hacer",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "open-loop",
+        "punch-in"
+      ],
+      "rationale": "Toma limpia de la presentadora: «¿Y qué debes hacer?»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S11",
+      "source": "main",
+      "in": 101.31,
+      "out": 103.62,
+      "role": "reveal",
+      "purpose": "Obligación",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "scale-change"
+      ],
+      "rationale": "Toma limpia de la presentadora: «Si eres titular de un banco de datos personales,»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S12",
+      "source": "main",
+      "in": 107.99,
+      "out": 111.38,
+      "role": "reveal",
+      "purpose": "Obligación",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "strategic-text",
+        "visual-stimulus"
+      ],
+      "rationale": "Toma limpia de la presentadora: «debes inscribirlo en el Registro Nacional de Protección de Datos Personales.»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S13",
+      "source": "main",
+      "in": 116.69,
+      "out": 119.86,
+      "role": "tension",
+      "purpose": "Matiz",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "pattern-interrupt"
+      ],
+      "rationale": "Toma limpia de la presentadora: «Pero registrar el banco no significa que ya cumpliste con la normativa.»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S14",
+      "source": "main",
+      "in": 123.13,
+      "out": 125.34,
+      "role": "development",
+      "purpose": "Checklist",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "build-up"
+      ],
+      "rationale": "Toma limpia de la presentadora: «También debes revisar cómo obtienes esos datos.»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S15",
+      "source": "main",
+      "in": 127.54,
+      "out": 129.24,
+      "role": "development",
+      "purpose": "Checklist",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "strategic-text"
+      ],
+      "rationale": "Toma limpia de la presentadora: «¿Qué información recopilas?»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S16",
+      "source": "main",
+      "in": 130.3,
+      "out": 131.45,
+      "role": "development",
+      "purpose": "Checklist",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "strategic-text"
+      ],
+      "rationale": "Toma limpia de la presentadora: «¿Para qué la utilizas?»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S17",
+      "source": "main",
+      "in": 133.55,
+      "out": 134.94,
+      "role": "development",
+      "purpose": "Checklist",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "strategic-text"
+      ],
+      "rationale": "Toma limpia de la presentadora: «¿Cuánto tiempo la conservas?»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S18",
+      "source": "main",
+      "in": 137.19,
+      "out": 138.66,
+      "role": "development",
+      "purpose": "Checklist",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "strategic-text"
+      ],
+      "rationale": "Toma limpia de la presentadora: «¿Y qué medidas de seguridad aplicas?»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S19",
+      "source": "main",
+      "in": 140.84,
+      "out": 142.02,
+      "role": "resolution",
+      "purpose": "Conclusión",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "Toma limpia de la presentadora: «En protección de datos,»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S20",
+      "source": "main",
+      "in": 144.6,
+      "out": 146.23,
+      "role": "resolution",
+      "purpose": "Conclusión",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "scale-change"
+      ],
+      "rationale": "Toma limpia de la presentadora: «no basta con tener una base de datos.»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S21",
+      "source": "main",
+      "in": 148.95,
+      "out": 150.9,
+      "role": "resolution",
+      "purpose": "Conclusión",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "payoff"
+      ],
+      "rationale": "Toma limpia de la presentadora: «Hay que saber gestionarla correctamente.»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S22",
+      "source": "main",
+      "in": 174.68,
+      "out": 177.95,
+      "role": "cta",
+      "purpose": "Pregunta de cierre",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "retention-loop",
+        "punch-in"
+      ],
+      "rationale": "Toma limpia de la presentadora: «¿Tu empresa ya identificó y registró su banco de datos personales?»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S23",
+      "source": "main",
+      "in": 188.4,
+      "out": 189.4,
+      "role": "cta",
+      "purpose": "Puente",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "scale-change"
+      ],
+      "rationale": "Toma limpia de la presentadora: «Si no es así,»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S24",
+      "source": "main",
+      "in": 197.58,
+      "out": 199.23,
+      "role": "cta",
+      "purpose": "Firma",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "payoff"
+      ],
+      "rationale": "Toma limpia de la presentadora: «tenemos una conversación pendiente.»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S25",
+      "source": "main",
+      "in": 200.73,
+      "out": 201.95,
+      "role": "cta",
+      "purpose": "Marca",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1.0,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "scale-change"
+      ],
+      "rationale": "Toma limpia de la presentadora: «En Revoredo Abogados»",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S26",
+      "source": "main",
+      "in": 228.53,
+      "out": 231.73,
+      "role": "cta",
+      "purpose": "Promesa",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "payoff"
+      ],
+      "rationale": "Toma limpia de la presentadora: «protegemos a tu negocio antes de que el riesgo se convierta en contingencia.»",
+      "transitionIn": "cut"
+    }
+  ],
+  "graphics": [
+    {
+      "id": "G01",
+      "component": "TechList",
+      "start": 45.95,
+      "end": 52.6,
+      "function": "comprension",
+      "props": {
+        "title": "Ley N.º 29733",
+        "items": [
+          "Protección de Datos Personales",
+          "y su reglamento"
+        ],
+        "numbered": false,
+        "revealAtSource": [
+          46.3,
+          51.5
+        ]
+      },
+      "rationale": "Ancla la norma que ella cita; autoridad."
+    },
+    {
+      "id": "G02",
+      "component": "TechList",
+      "start": 108.6,
+      "end": 111.5,
+      "function": "comprension",
+      "props": {
+        "title": "Inscripción obligatoria",
+        "items": [
+          "Registro Nacional de Protección de Datos Personales"
+        ],
+        "numbered": false,
+        "revealAtSource": [
+          109.3
+        ]
+      },
+      "rationale": "Fija el nombre exacto del registro, difícil de retener solo de oído."
+    },
+    {
+      "id": "G03",
+      "component": "TechList",
+      "start": 127.55,
+      "end": 138.8,
+      "function": "comprension",
+      "props": {
+        "title": "Revisa",
+        "items": [
+          "Qué información recopilas",
+          "Para qué la utilizas",
+          "Cuánto tiempo la conservas",
+          "Qué medidas de seguridad aplicas"
+        ],
+        "numbered": true,
+        "revealAtSource": [
+          127.65,
+          130.4,
+          133.65,
+          137.3
+        ]
+      },
+      "rationale": "Las cuatro preguntas como checklist que se arma en el orden en que ella las dice."
+    }
+  ],
+  "broll": [
+    {
+      "id": "B01",
+      "start": 7.6,
+      "end": 9.2,
+      "src": "b-roll/library/cv-laptop-excel-manos.mp4",
+      "trimStart": 2.0,
+      "layout": "full",
+      "phrase": "…proveedores o potenciales clientes",
+      "concept": "Base de contactos en hoja de cálculo",
+      "function": "Ilustra el gancho: los datos que ya recopilas.",
+      "description": "laptop excel manos",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-laptop-excel-manos",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B02",
+      "start": 60.0,
+      "end": 62.1,
+      "src": "b-roll/library/cv-datacenter-servidores.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "…a un conjunto estructurado",
+      "concept": "Datos estructurados",
+      "function": "Hace tangible la definición abstracta.",
+      "description": "datacenter servidores",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-datacenter-servidores",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B03",
+      "start": 72.0,
+      "end": 74.1,
+      "src": "b-roll/library/cv-flujo-datos-fibra.mp4",
+      "trimStart": 0.5,
+      "layout": "full",
+      "phrase": "…de forma automatizada o no",
+      "concept": "Tratamiento automatizado",
+      "function": "Estímulo visual en tramo definicional.",
+      "description": "flujo datos fibra",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-flujo-datos-fibra",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B04",
+      "start": 90.8,
+      "end": 93.9,
+      "src": "b-roll/library/cv-hoja-calculo-monitor.mp4",
+      "trimStart": 0.5,
+      "layout": "full",
+      "phrase": "…clientes, trabajadores, proveedores o leads",
+      "concept": "Base de clientes",
+      "function": "Ejemplo concreto que el espectador reconoce.",
+      "description": "hoja calculo monitor",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-hoja-calculo-monitor",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B05",
+      "start": 116.8,
+      "end": 118.2,
+      "src": "b-roll/library/cv-firma-documento-manos.mp4",
+      "trimStart": 3.0,
+      "layout": "full",
+      "phrase": "Pero registrar el banco…",
+      "concept": "Trámite / registro",
+      "function": "Interrupción de patrón en el giro.",
+      "description": "firma documento manos",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-firma-documento-manos",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B06",
+      "start": 140.9,
+      "end": 142.0,
+      "src": "b-roll/library/cv-candado-ciberseguridad.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "En protección de datos",
+      "concept": "Protección",
+      "function": "Respiro visual antes de la conclusión.",
+      "description": "candado ciberseguridad",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-candado-ciberseguridad",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B07",
+      "start": 149.6,
+      "end": 150.9,
+      "src": "b-roll/library/cv-dashboard-graficos-ui.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "…gestionarla correctamente",
+      "concept": "Gestión",
+      "function": "Refuerza el payoff con control y orden.",
+      "description": "dashboard graficos ui",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-dashboard-graficos-ui",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    }
+  ],
+  "captions": {
+    "enabled": true,
+    "wordsPerGroup": 3,
+    "emphasis": [
+      "datos",
+      "personales",
+      "29733",
+      "Registro",
+      "Nacional",
+      "normativa",
+      "seguridad",
+      "correctamente",
+      "Revoredo",
+      "contingencia",
+      "obligaciones"
+    ],
+    "words": [
+      {
+        "w": "Recopila",
+        "s": 5.5,
+        "e": 6.12
+      },
+      {
+        "w": "datos",
+        "s": 6.12,
+        "e": 6.4
+      },
+      {
+        "w": "de",
+        "s": 6.4,
+        "e": 6.66
+      },
+      {
+        "w": "trabajadores,",
+        "s": 6.66,
+        "e": 7.42
+      },
+      {
+        "w": "proveedores",
+        "s": 7.66,
+        "e": 8.1
+      },
+      {
+        "w": "o",
+        "s": 8.1,
+        "e": 8.34
+      },
+      {
+        "w": "potenciales",
+        "s": 8.34,
+        "e": 8.84
+      },
+      {
+        "w": "clientes.",
+        "s": 8.84,
+        "e": 9.26
+      },
+      {
+        "w": "Ojo,",
+        "s": 34.43,
+        "e": 34.91
+      },
+      {
+        "w": "podrías",
+        "s": 35.11,
+        "e": 35.25
+      },
+      {
+        "w": "tener",
+        "s": 35.25,
+        "e": 35.49
+      },
+      {
+        "w": "un",
+        "s": 35.49,
+        "e": 35.57
+      },
+      {
+        "w": "banco",
+        "s": 35.57,
+        "e": 35.73
+      },
+      {
+        "w": "de",
+        "s": 35.73,
+        "e": 35.85
+      },
+      {
+        "w": "datos",
+        "s": 35.85,
+        "e": 36.01
+      },
+      {
+        "w": "personales",
+        "s": 36.01,
+        "e": 36.61
+      },
+      {
+        "w": "y",
+        "s": 36.61,
+        "e": 36.71
+      },
+      {
+        "w": "estar",
+        "s": 36.71,
+        "e": 36.89
+      },
+      {
+        "w": "sujeto",
+        "s": 36.89,
+        "e": 37.49
+      },
+      {
+        "w": "a",
+        "s": 37.49,
+        "e": 37.63
+      },
+      {
+        "w": "obligaciones",
+        "s": 37.63,
+        "e": 38.07
+      },
+      {
+        "w": "legales.",
+        "s": 38.07,
+        "e": 38.57
+      },
+      {
+        "w": "La",
+        "s": 45.78,
+        "e": 46.34
+      },
+      {
+        "w": "ley",
+        "s": 46.34,
+        "e": 46.48
+      },
+      {
+        "w": "número",
+        "s": 46.48,
+        "e": 46.84
+      },
+      {
+        "w": "29733",
+        "s": 46.84,
+        "e": 48.22
+      },
+      {
+        "w": "y",
+        "s": 51.35,
+        "e": 51.63
+      },
+      {
+        "w": "su",
+        "s": 51.63,
+        "e": 51.79
+      },
+      {
+        "w": "reglamento",
+        "s": 51.79,
+        "e": 52.39
+      },
+      {
+        "w": "consideran",
+        "s": 58.57,
+        "e": 59.35
+      },
+      {
+        "w": "banco",
+        "s": 59.35,
+        "e": 59.65
+      },
+      {
+        "w": "de",
+        "s": 59.65,
+        "e": 59.75
+      },
+      {
+        "w": "datos",
+        "s": 59.75,
+        "e": 59.95
+      },
+      {
+        "w": "personales",
+        "s": 59.95,
+        "e": 60.67
+      },
+      {
+        "w": "a",
+        "s": 60.67,
+        "e": 60.81
+      },
+      {
+        "w": "un",
+        "s": 60.81,
+        "e": 61.03
+      },
+      {
+        "w": "conjunto",
+        "s": 61.03,
+        "e": 61.33
+      },
+      {
+        "w": "estructurado",
+        "s": 61.33,
+        "e": 62.07
+      },
+      {
+        "w": "de",
+        "s": 66.67,
+        "e": 67.01
+      },
+      {
+        "w": "datos",
+        "s": 67.01,
+        "e": 67.25
+      },
+      {
+        "w": "que",
+        "s": 67.25,
+        "e": 67.47
+      },
+      {
+        "w": "permiten",
+        "s": 67.47,
+        "e": 67.89
+      },
+      {
+        "w": "acceder",
+        "s": 67.89,
+        "e": 68.21
+      },
+      {
+        "w": "a",
+        "s": 68.21,
+        "e": 68.33
+      },
+      {
+        "w": "información",
+        "s": 68.33,
+        "e": 68.69
+      },
+      {
+        "w": "de",
+        "s": 68.69,
+        "e": 68.97
+      },
+      {
+        "w": "personas,",
+        "s": 68.97,
+        "e": 69.27
+      },
+      {
+        "w": "ya",
+        "s": 71.88,
+        "e": 72.28
+      },
+      {
+        "w": "sea",
+        "s": 72.28,
+        "e": 72.5
+      },
+      {
+        "w": "de",
+        "s": 72.5,
+        "e": 72.54
+      },
+      {
+        "w": "forma",
+        "s": 72.54,
+        "e": 72.9
+      },
+      {
+        "w": "automatizada",
+        "s": 72.9,
+        "e": 73.7
+      },
+      {
+        "w": "o",
+        "s": 73.7,
+        "e": 74.0
+      },
+      {
+        "w": "no.",
+        "s": 74.0,
+        "e": 74.14
+      },
+      {
+        "w": "Por",
+        "s": 75.91,
+        "e": 76.12
+      },
+      {
+        "w": "ejemplo,",
+        "s": 76.12,
+        "e": 76.55
+      },
+      {
+        "w": "tu",
+        "s": 90.06,
+        "e": 90.34
+      },
+      {
+        "w": "base",
+        "s": 90.34,
+        "e": 90.6
+      },
+      {
+        "w": "de",
+        "s": 90.6,
+        "e": 90.88
+      },
+      {
+        "w": "clientes,",
+        "s": 90.88,
+        "e": 91.48
+      },
+      {
+        "w": "trabajadores,",
+        "s": 91.78,
+        "e": 92.14
+      },
+      {
+        "w": "proveedores",
+        "s": 92.34,
+        "e": 92.84
+      },
+      {
+        "w": "o",
+        "s": 92.84,
+        "e": 93.06
+      },
+      {
+        "w": "leads",
+        "s": 93.06,
+        "e": 93.32
+      },
+      {
+        "w": "comerciales.",
+        "s": 93.32,
+        "e": 94.0
+      },
+      {
+        "w": "¿Y",
+        "s": 96.44,
+        "e": 96.74
+      },
+      {
+        "w": "qué",
+        "s": 96.74,
+        "e": 96.86
+      },
+      {
+        "w": "debes",
+        "s": 96.86,
+        "e": 97.1
+      },
+      {
+        "w": "hacer?",
+        "s": 97.1,
+        "e": 97.36
+      },
+      {
+        "w": "Si",
+        "s": 101.25,
+        "e": 101.49
+      },
+      {
+        "w": "eres",
+        "s": 101.49,
+        "e": 101.65
+      },
+      {
+        "w": "titular",
+        "s": 101.65,
+        "e": 102.05
+      },
+      {
+        "w": "de",
+        "s": 102.05,
+        "e": 102.27
+      },
+      {
+        "w": "un",
+        "s": 102.27,
+        "e": 102.41
+      },
+      {
+        "w": "banco",
+        "s": 102.41,
+        "e": 102.67
+      },
+      {
+        "w": "de",
+        "s": 102.67,
+        "e": 102.79
+      },
+      {
+        "w": "datos",
+        "s": 102.79,
+        "e": 102.95
+      },
+      {
+        "w": "personales,",
+        "s": 102.95,
+        "e": 103.71
+      },
+      {
+        "w": "debes",
+        "s": 107.93,
+        "e": 108.35
+      },
+      {
+        "w": "inscribirlo",
+        "s": 108.35,
+        "e": 108.99
+      },
+      {
+        "w": "en",
+        "s": 108.99,
+        "e": 109.15
+      },
+      {
+        "w": "el",
+        "s": 109.15,
+        "e": 109.27
+      },
+      {
+        "w": "Registro",
+        "s": 109.27,
+        "e": 109.55
+      },
+      {
+        "w": "Nacional",
+        "s": 109.55,
+        "e": 109.93
+      },
+      {
+        "w": "de",
+        "s": 109.93,
+        "e": 110.15
+      },
+      {
+        "w": "Protección",
+        "s": 110.15,
+        "e": 110.51
+      },
+      {
+        "w": "de",
+        "s": 110.51,
+        "e": 110.61
+      },
+      {
+        "w": "Datos",
+        "s": 110.61,
+        "e": 110.93
+      },
+      {
+        "w": "Personales.",
+        "s": 110.93,
+        "e": 111.45
+      },
+      {
+        "w": "Pero",
+        "s": 116.63,
+        "e": 116.99
+      },
+      {
+        "w": "registrar",
+        "s": 116.99,
+        "e": 117.39
+      },
+      {
+        "w": "el",
+        "s": 117.39,
+        "e": 117.51
+      },
+      {
+        "w": "banco",
+        "s": 117.51,
+        "e": 117.73
+      },
+      {
+        "w": "no",
+        "s": 117.73,
+        "e": 117.99
+      },
+      {
+        "w": "significa",
+        "s": 117.99,
+        "e": 118.47
+      },
+      {
+        "w": "que",
+        "s": 118.47,
+        "e": 118.61
+      },
+      {
+        "w": "ya",
+        "s": 118.61,
+        "e": 118.77
+      },
+      {
+        "w": "cumpliste",
+        "s": 118.77,
+        "e": 119.09
+      },
+      {
+        "w": "con",
+        "s": 119.09,
+        "e": 119.25
+      },
+      {
+        "w": "la",
+        "s": 119.25,
+        "e": 119.41
+      },
+      {
+        "w": "normativa.",
+        "s": 119.41,
+        "e": 119.83
+      },
+      {
+        "w": "También",
+        "s": 123.07,
+        "e": 123.47
+      },
+      {
+        "w": "debes",
+        "s": 123.47,
+        "e": 123.71
+      },
+      {
+        "w": "revisar",
+        "s": 123.71,
+        "e": 124.33
+      },
+      {
+        "w": "cómo",
+        "s": 124.33,
+        "e": 124.55
+      },
+      {
+        "w": "obtienes",
+        "s": 124.55,
+        "e": 125.03
+      },
+      {
+        "w": "esos",
+        "s": 125.03,
+        "e": 125.19
+      },
+      {
+        "w": "datos.",
+        "s": 125.19,
+        "e": 125.45
+      },
+      {
+        "w": "¿Qué",
+        "s": 127.48,
+        "e": 127.76
+      },
+      {
+        "w": "información",
+        "s": 127.76,
+        "e": 128.24
+      },
+      {
+        "w": "recopilas?",
+        "s": 128.24,
+        "e": 128.94
+      },
+      {
+        "w": "¿Para",
+        "s": 130.24,
+        "e": 130.6
+      },
+      {
+        "w": "qué",
+        "s": 130.6,
+        "e": 130.78
+      },
+      {
+        "w": "la",
+        "s": 130.78,
+        "e": 131.02
+      },
+      {
+        "w": "utilizas?",
+        "s": 131.02,
+        "e": 131.48
+      },
+      {
+        "w": "¿Cuánto",
+        "s": 133.49,
+        "e": 134.01
+      },
+      {
+        "w": "tiempo",
+        "s": 134.01,
+        "e": 134.21
+      },
+      {
+        "w": "la",
+        "s": 134.21,
+        "e": 134.47
+      },
+      {
+        "w": "conservas?",
+        "s": 134.47,
+        "e": 135.01
+      },
+      {
+        "w": "¿Y",
+        "s": 137.13,
+        "e": 137.45
+      },
+      {
+        "w": "qué",
+        "s": 137.45,
+        "e": 137.59
+      },
+      {
+        "w": "medidas",
+        "s": 137.59,
+        "e": 137.89
+      },
+      {
+        "w": "de",
+        "s": 137.89,
+        "e": 138.11
+      },
+      {
+        "w": "seguridad",
+        "s": 138.11,
+        "e": 138.29
+      },
+      {
+        "w": "aplicas?",
+        "s": 138.29,
+        "e": 138.77
+      },
+      {
+        "w": "En",
+        "s": 140.9,
+        "e": 141.04
+      },
+      {
+        "w": "protección",
+        "s": 141.04,
+        "e": 141.56
+      },
+      {
+        "w": "de",
+        "s": 141.56,
+        "e": 141.7
+      },
+      {
+        "w": "datos,",
+        "s": 141.7,
+        "e": 141.98
+      },
+      {
+        "w": "no",
+        "s": 144.54,
+        "e": 144.92
+      },
+      {
+        "w": "basta",
+        "s": 144.92,
+        "e": 145.16
+      },
+      {
+        "w": "con",
+        "s": 145.16,
+        "e": 145.42
+      },
+      {
+        "w": "tener",
+        "s": 145.42,
+        "e": 145.58
+      },
+      {
+        "w": "una",
+        "s": 145.58,
+        "e": 145.76
+      },
+      {
+        "w": "base",
+        "s": 145.76,
+        "e": 146.02
+      },
+      {
+        "w": "de",
+        "s": 146.02,
+        "e": 146.18
+      },
+      {
+        "w": "datos.",
+        "s": 146.18,
+        "e": 146.32
+      },
+      {
+        "w": "Hay",
+        "s": 148.89,
+        "e": 149.17
+      },
+      {
+        "w": "que",
+        "s": 149.17,
+        "e": 149.37
+      },
+      {
+        "w": "saber",
+        "s": 149.37,
+        "e": 149.61
+      },
+      {
+        "w": "gestionarla",
+        "s": 149.61,
+        "e": 150.25
+      },
+      {
+        "w": "correctamente.",
+        "s": 150.25,
+        "e": 150.83
+      },
+      {
+        "w": "¿Tu",
+        "s": 174.62,
+        "e": 174.86
+      },
+      {
+        "w": "empresa",
+        "s": 174.86,
+        "e": 175.18
+      },
+      {
+        "w": "ya",
+        "s": 175.18,
+        "e": 175.44
+      },
+      {
+        "w": "identificó",
+        "s": 175.44,
+        "e": 175.96
+      },
+      {
+        "w": "y",
+        "s": 175.96,
+        "e": 176.12
+      },
+      {
+        "w": "registró",
+        "s": 176.12,
+        "e": 176.68
+      },
+      {
+        "w": "su",
+        "s": 176.68,
+        "e": 176.88
+      },
+      {
+        "w": "banco",
+        "s": 176.88,
+        "e": 177.12
+      },
+      {
+        "w": "de",
+        "s": 177.12,
+        "e": 177.18
+      },
+      {
+        "w": "datos",
+        "s": 177.18,
+        "e": 177.34
+      },
+      {
+        "w": "personales?",
+        "s": 177.34,
+        "e": 178.0
+      },
+      {
+        "w": "Si",
+        "s": 188.34,
+        "e": 188.62
+      },
+      {
+        "w": "no",
+        "s": 188.62,
+        "e": 188.82
+      },
+      {
+        "w": "es",
+        "s": 188.82,
+        "e": 189.06
+      },
+      {
+        "w": "así,",
+        "s": 189.06,
+        "e": 189.26
+      },
+      {
+        "w": "tenemos",
+        "s": 197.52,
+        "e": 197.96
+      },
+      {
+        "w": "una",
+        "s": 197.96,
+        "e": 198.3
+      },
+      {
+        "w": "conversación",
+        "s": 198.3,
+        "e": 198.72
+      },
+      {
+        "w": "pendiente.",
+        "s": 198.72,
+        "e": 199.16
+      },
+      {
+        "w": "En",
+        "s": 200.67,
+        "e": 201.09
+      },
+      {
+        "w": "Revoredo",
+        "s": 201.09,
+        "e": 201.53
+      },
+      {
+        "w": "Abogados",
+        "s": 201.53,
+        "e": 201.97
+      },
+      {
+        "w": "protegemos",
+        "s": 228.47,
+        "e": 229.15
+      },
+      {
+        "w": "a",
+        "s": 229.15,
+        "e": 229.25
+      },
+      {
+        "w": "tu",
+        "s": 229.25,
+        "e": 229.37
+      },
+      {
+        "w": "negocio",
+        "s": 229.37,
+        "e": 229.85
+      },
+      {
+        "w": "antes",
+        "s": 229.85,
+        "e": 230.13
+      },
+      {
+        "w": "de",
+        "s": 230.13,
+        "e": 230.23
+      },
+      {
+        "w": "que",
+        "s": 230.23,
+        "e": 230.31
+      },
+      {
+        "w": "el",
+        "s": 230.31,
+        "e": 230.45
+      },
+      {
+        "w": "riesgo",
+        "s": 230.45,
+        "e": 230.69
+      },
+      {
+        "w": "se",
+        "s": 230.69,
+        "e": 230.87
+      },
+      {
+        "w": "convierta",
+        "s": 230.87,
+        "e": 231.27
+      },
+      {
+        "w": "en",
+        "s": 231.27,
+        "e": 231.33
+      },
+      {
+        "w": "contingencia.",
+        "s": 231.33,
+        "e": 231.89
+      }
+    ],
+    "replace": {}
+  },
+  "audio": {
+    "voiceGainDb": 0,
+    "music": null,
+    "sfx": []
+  },
+  "endCard": {
+    "enabled": true,
+    "durationSec": 2.2,
+    "line": "Tenemos una conversación pendiente",
+    "action": "Escríbenos"
+  },
+  "showLogo": true,
+  "layout": {
+    "faceTop": 0.26,
+    "faceBottom": 0.44,
+    "backdrop": "light"
+  }
+}

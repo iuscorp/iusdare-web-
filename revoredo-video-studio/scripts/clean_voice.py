@@ -6,7 +6,11 @@ CLEAN VOICE — elimina voces y ruido de fondo, deja solo la voz en primer plano
   (npm run studio:clean -- <slug>)
 
 Cadena (sobre el audio del raw, el video se copia sin recomprimir):
-  1. High-pass 80 Hz (rumble, aire acondicionado).
+  0. (Si hay modelo) DeepFilterNet3 a 48 kHz: realce de voz por red neuronal (ruido,
+     ambiente, reverberación). Modelo: --dfn <dir> o $DFN_MODEL_DIR, carpeta con
+     config.ini + model.safetensors (Hugging Face fal/DeepFilterNet3, Apache-2.0).
+     Requiere: pip install torch deepfilternet safetensors.
+  1. High-pass 85 Hz (rumble, aire acondicionado).
   2. Reducción espectral de ruido (ffmpeg afftdn, perfil adaptativo).
   3. Compuerta por envolvente: deja pasar solo la voz principal (nivel > --thresh dB)
      con hold 60 ms, ataque 5 ms y release 70 ms; fuera de ella atenúa --floor dB.
@@ -26,9 +30,10 @@ ap = argparse.ArgumentParser()
 ap.add_argument("slug")
 ap.add_argument("--source", default="main")
 ap.add_argument("--thresh", type=float, default=-41)
-ap.add_argument("--floor", type=float, default=-45)
+ap.add_argument("--floor", type=float, default=-60)
 ap.add_argument("--hold", type=int, default=2, help="hold en bloques de 10 ms")
 ap.add_argument("--nr", type=float, default=20)
+ap.add_argument("--dfn", default=os.environ.get("DFN_MODEL_DIR", ""), help="carpeta del modelo DeepFilterNet3")
 a = ap.parse_args()
 
 P = f"projects/{a.slug}/edit.json"
@@ -41,9 +46,53 @@ out_rel = rel.replace(".mp4", ".clean.mp4")
 tmp_wav = f"public/{rel}.tmp.wav"
 SR = 48000
 
+
+def deepfilter(model_dir, inp, out):
+    """Stage 0: neural speech enhancement (DeepFilterNet3). Returns True if applied."""
+    import sys
+    import types
+
+    try:
+        import torch
+        import torchaudio  # noqa: F401
+    except ImportError:
+        return False
+    try:
+        import torchaudio.backend.common  # noqa: F401
+    except Exception:  # torchaudio ≥2.2 removed the module deepfilternet still imports
+        m, c = types.ModuleType("torchaudio.backend"), types.ModuleType("torchaudio.backend.common")
+        c.AudioMetaData = type("AudioMetaData", (), {})
+        m.common = c
+        sys.modules["torchaudio.backend"], sys.modules["torchaudio.backend.common"] = m, c
+    ck = os.path.join(model_dir, "checkpoints", "model_120.ckpt.best")
+    if not os.path.exists(ck):
+        from safetensors.torch import load_file
+
+        os.makedirs(os.path.dirname(ck), exist_ok=True)
+        torch.save(load_file(os.path.join(model_dir, "model.safetensors")), ck)
+    from df.enhance import enhance, init_df
+
+    model, state, _ = init_df(model_base_dir=model_dir, log_level="ERROR")
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", inp, "-vn", "-ac", "1", "-ar", str(state.sr()), "-f", "f32le", "-"],
+                         check=True, stdout=subprocess.PIPE, stdin=subprocess.DEVNULL).stdout
+    x = torch.from_numpy(np.frombuffer(raw, np.float32).copy())[None]
+    y = enhance(model, state, x)[0].numpy().astype(np.float32)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "f32le", "-ar", str(state.sr()), "-ac", "1", "-i", "-", "-c:a", "pcm_f32le", out],
+                   input=y.tobytes(), check=True)
+    return True
+
+
+stage_in = src
+dfn_wav = f"public/{rel}.dfn.wav"
+if a.dfn and os.path.isdir(a.dfn) and deepfilter(a.dfn, src, dfn_wav):
+    stage_in = dfn_wav
+    print("• DeepFilterNet3 aplicado")
+else:
+    print("• DeepFilterNet3 no disponible (usa --dfn <dir>); sigo con filtros clásicos")
+
 # 1+2: high-pass + spectral denoise (mono voice)
 subprocess.run(
-    ["ffmpeg", "-v", "error", "-y", "-i", src, "-vn", "-ac", "1", "-ar", str(SR),
+    ["ffmpeg", "-v", "error", "-y", "-i", stage_in, "-vn", "-ac", "1", "-ar", str(SR),
      "-af", f"highpass=f=85,afftdn=nr={a.nr}:nf=-55:tn=1", "-c:a", "pcm_s16le", tmp_wav],
     check=True,
 )
@@ -85,6 +134,8 @@ subprocess.run(
     check=True,
 )
 os.remove(tmp_wav)
+if os.path.exists(dfn_wav):
+    os.remove(dfn_wav)
 edit["sources"][a.source] = out_rel
 json.dump(edit, open(P, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
 closed = 100 * (1 - open_.mean())
