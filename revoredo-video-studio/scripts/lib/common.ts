@@ -99,6 +99,10 @@ export const getBundle = async () => {
   process.stdout.write("• Empaquetando proyecto Remotion… ");
   bundled = await bundle({ entryPoint: p("src", "index.ts"), publicDir: PUBLIC });
   console.log("ok");
+  // The bundle copies public/ (raw footage included, ~1 GB): delete it on exit
+  // so repeated renders do not fill the disk.
+  const dir = bundled;
+  process.on("exit", () => fs.rmSync(dir, { recursive: true, force: true }));
   return bundled;
 };
 

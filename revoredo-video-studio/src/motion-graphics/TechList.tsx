@@ -47,17 +47,40 @@ export const TechList: React.FC<TechListProps> = ({
   const at = items.map((_, i) => Math.round((revealAt?.[i] ?? 0.25 + i * revealEverySec) * fps));
   const head = interpolate(frame, [0, 10], [0, 1], { ...clamp, easing: easings.easeOut });
   const tight = compact ?? items.length >= 4;
-  const rowH = (tight ? 58 : 74) * k;
+  const baseRowH = (tight ? 58 : 74) * k;
+  // Fit inside the frame: never overflow. Lines too long for the available
+  // width break into two balanced lines; the font only shrinks if still needed.
+  const baseFont = (tight ? 46 : 56) * k;
+  const avail = width * 0.84 - (26 * 2 + 16 * 3 + 46 + 20 + (numbered ? 56 : 0)) * k;
+  const em = 0.5; // Lato average glyph width / font size
+  const lay = items.map((it) => {
+    const one = it.length * em * baseFont;
+    if (one <= avail) return { lines: [it], font: baseFont };
+    const words = it.split(" ");
+    let best = [it, ""];
+    let bestW = Infinity;
+    for (let c = 1; c < words.length; c++) {
+      const a = words.slice(0, c).join(" ");
+      const b = words.slice(c).join(" ");
+      const w = Math.max(a.length, b.length);
+      if (w < bestW) [best, bestW] = [[a, b], w];
+    }
+    return { lines: best, font: Math.min(baseFont, avail / (bestW * em)) };
+  });
+  const font = Math.min(...lay.map((l) => l.font));
+  const rowHs = lay.map((l) => (l.lines.length > 1 ? baseRowH + font * 1.12 : baseRowH));
+  const rowTop = rowHs.map((_, i) => rowHs.slice(0, i).reduce((x, y) => x + y, 0));
+  const mid = (i: number) => rowTop[i] + rowHs[i] / 2 - rowHs[0] / 2;
   // spine grows to the last revealed item
   const revealed = at.filter((a) => frame >= a).length;
-  const spineTarget = revealed === 0 ? 0 : (revealed - 0.5) * rowH;
-  const spinePrev = revealed <= 1 ? 0 : (revealed - 1.5) * rowH;
+  const spineTarget = revealed === 0 ? 0 : mid(revealed - 1);
+  const spinePrev = revealed <= 1 ? 0 : mid(revealed - 2);
   const lastAt = at[Math.max(0, revealed - 1)] ?? 0;
   const spine = interpolate(frame, [lastAt, lastAt + 10], [spinePrev, spineTarget], { ...clamp, easing: easings.easeOut });
 
   return (
     <Stage position={position}>
-      <div style={{ opacity: env, position: "relative", padding: `${18 * k}px ${26 * k}px`, minWidth: 600 * k }}>
+      <div style={{ opacity: env, position: "relative", padding: `${18 * k}px ${26 * k}px`, minWidth: 600 * k, maxWidth: width * 0.9 }}>
         <CornerBrackets progress={head} k={k} />
         {title ? (
           <div style={{ display: "flex", alignItems: "center", gap: 14 * k, marginBottom: (tight ? 10 : 20) * k, opacity: head }}>
@@ -79,13 +102,13 @@ export const TechList: React.FC<TechListProps> = ({
         ) : null}
         <div style={{ position: "relative" }}>
           {/* spine */}
-          <div style={{ position: "absolute", left: 8 * k, top: rowH / 2, width: 2 * k, height: Math.max(0, spine), background: colors.gold, opacity: 0.85 }} />
+          <div style={{ position: "absolute", left: 8 * k, top: rowHs[0] / 2, width: 2 * k, height: Math.max(0, spine), background: colors.gold, opacity: 0.85 }} />
           {items.map((it, i) => {
             const p = interpolate(frame, [at[i], at[i] + 10], [0, 1], { ...clamp, easing: easings.easeOut });
             const line = interpolate(frame, [at[i] + 3, at[i] + 12], [0, 1], { ...clamp, easing: easings.easeOut });
             const text = interpolate(frame, [at[i] + 6, at[i] + 18], [0, 100], { ...clamp, easing: easings.easeOut });
             return (
-              <div key={i} style={{ height: rowH, display: "flex", alignItems: "center", gap: 16 * k, opacity: p > 0 ? 1 : 0 }}>
+              <div key={i} style={{ height: rowHs[i], display: "flex", alignItems: "center", gap: 16 * k, opacity: p > 0 ? 1 : 0 }}>
                 <DiamondNode progress={p} k={k} />
                 <div style={{ width: 46 * k * line, height: 1.5 * k, background: tc.line }} />
                 {numbered ? (
@@ -108,7 +131,9 @@ export const TechList: React.FC<TechListProps> = ({
                   style={{
                     fontFamily: fonts.sans,
                     fontWeight: 400,
-                    fontSize: (tight ? 46 : 56) * k,
+                    fontSize: font,
+                    lineHeight: 1.12,
+                    textAlign: "left",
                     color: tc.text,
                     textShadow: tc.shadow,
                     clipPath: `inset(0 ${100 - text}% 0 0)`,
@@ -116,7 +141,9 @@ export const TechList: React.FC<TechListProps> = ({
                     letterSpacing: 0.2 * k,
                   }}
                 >
-                  {it}
+                  {lay[i].lines.filter(Boolean).map((l, j) => (
+                    <div key={j}>{l}</div>
+                  ))}
                 </div>
               </div>
             );
