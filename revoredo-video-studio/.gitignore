@@ -1,0 +1,29 @@
+node_modules
+dist
+.DS_Store
+.env
+out
+
+# Media pesada: se sincroniza por Drive, no por git
+public/footage/raw/*
+!public/footage/raw/_placeholder/
+public/b-roll/library/*
+!public/b-roll/library/.gitkeep
+previews/*
+!previews/.gitkeep
+exports/*
+!exports/.gitkeep
+canvas/*
+!canvas/.gitkeep
+
+# Análisis regenerable (frames)
+projects/*/analysis/frames/
+
+# Proyecto de prueba del sistema (usa el video de referencia como raw)
+projects/prueba-sistema-referencia/
+
+# Audio media (licencias en public/audio/LICENSES.md)
+public/audio/music/*
+!public/audio/music/.gitkeep
+public/audio/sfx/*
+!public/audio/sfx/.gitkeep

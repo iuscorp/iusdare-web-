@@ -1,0 +1,1904 @@
+{
+  "meta": {
+    "slug": "2026-11-plaft",
+    "title": "PLAFT: qué es y por qué importa a tu empresa",
+    "format": "vertical",
+    "fps": 30,
+    "status": "canvas"
+  },
+  "sources": {
+    "main": "footage/raw/2026-11-plaft/main.mp4"
+  },
+  "story": {
+    "problem": "Muchas empresas no saben si están obligadas a tener un sistema PLAFT ni qué debe incluir.",
+    "whyItMatters": "Lavado de activos y financiamiento del terrorismo generan riesgos legales, regulatorios, financieros y reputacionales.",
+    "riskOrOpportunity": "Los sujetos obligados (financieras, inmobiliarias, notarías, estudios jurídicos…) son supervisados por la UIF.",
+    "openQuestion": "¿Qué es el PLAFT, a quién aplica y por qué es relevante?",
+    "payoff": "El PLAFT es un sistema de 7 componentes y un elemento esencial del compliance y el gobierno corporativo.",
+    "cta": "Revoredo acompaña la implementación · Tenemos una conversación pendiente."
+  },
+  "layout": {
+    "faceTop": 0.26,
+    "faceBottom": 0.44,
+    "backdrop": "light"
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "source": "main",
+      "in": 16.99,
+      "out": 21.55,
+      "role": "hook",
+      "purpose": "Pregunta-tema",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1.04
+      },
+      "nativeCodes": [
+        "hook",
+        "visual-stimulus",
+        "punch-in"
+      ],
+      "rationale": "Abre con B-roll de flujos financieros y corta al plano cerrado.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S02",
+      "source": "main",
+      "in": 31.9,
+      "out": 36.35,
+      "role": "context",
+      "purpose": "Qué significa PLAFT",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "strategic-text",
+        "scale-change"
+      ],
+      "rationale": "La sigla se desarma mientras ella la pronuncia.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S03",
+      "source": "main",
+      "in": 94.1,
+      "out": 98.65,
+      "role": "development",
+      "purpose": "Políticas, procedimientos y mecanismos de control",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "scale-change",
+        "visual-stimulus"
+      ],
+      "rationale": "Su toma limpia (la última).",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S04",
+      "source": "main",
+      "in": 118.1,
+      "out": 122.7,
+      "role": "development",
+      "purpose": "Prevenir, detectar y reportar",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "pattern-interrupt"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S05",
+      "source": "main",
+      "in": 127.98,
+      "out": 133.9,
+      "role": "development",
+      "purpose": "Operaciones vinculadas a fondos ilícitos",
+      "framing": {
+        "preset": "wide",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "B-roll de billetes.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S06",
+      "source": "main",
+      "in": 153.65,
+      "out": 155.8,
+      "role": "development",
+      "purpose": "…o financiamiento de actividades ilegales",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "B-roll de flujo de fondos.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S07",
+      "source": "main",
+      "in": 186.98,
+      "out": 192.7,
+      "role": "tension",
+      "purpose": "Finalidad: mitigar riesgos",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "build-up",
+        "strategic-text"
+      ],
+      "rationale": "Los riesgos aparecen cuando ella los nombra.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S08",
+      "source": "main",
+      "in": 201.0,
+      "out": 203.9,
+      "role": "development",
+      "purpose": "Un sistema PLAFT puede contener…",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "open-loop"
+      ],
+      "rationale": "B-roll de seguridad.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S09",
+      "source": "main",
+      "in": 210.2,
+      "out": 213.0,
+      "role": "development",
+      "purpose": "Debida diligencia y conocimiento del cliente",
+      "framing": {
+        "preset": "wide",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "rhythm-change"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S10",
+      "source": "main",
+      "in": 216.65,
+      "out": 219.05,
+      "role": "development",
+      "purpose": "Identificación y evaluación de riesgos",
+      "framing": {
+        "preset": "wide",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "rhythm-change"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S11",
+      "source": "main",
+      "in": 223.7,
+      "out": 225.45,
+      "role": "development",
+      "purpose": "Monitoreo de operaciones",
+      "framing": {
+        "preset": "wide",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "rhythm-change"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S12",
+      "source": "main",
+      "in": 240.32,
+      "out": 242.55,
+      "role": "development",
+      "purpose": "Controles internos y compliance",
+      "framing": {
+        "preset": "wide",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "rhythm-change"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S13",
+      "source": "main",
+      "in": 245.18,
+      "out": 246.52,
+      "role": "development",
+      "purpose": "Capacitación del personal",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "scale-change"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S14",
+      "source": "main",
+      "in": 249.6,
+      "out": 251.75,
+      "role": "development",
+      "purpose": "Conservación de documentos y registros",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "rhythm-change"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S15",
+      "source": "main",
+      "in": 258.1,
+      "out": 261.58,
+      "role": "development",
+      "purpose": "Reporte de operaciones sospechosas",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "payoff"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S16",
+      "source": "main",
+      "in": 271.65,
+      "out": 272.58,
+      "role": "reveal",
+      "purpose": "¿Y a quiénes aplica?",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1.05
+      },
+      "nativeCodes": [
+        "open-loop",
+        "punch-in"
+      ],
+      "rationale": "Pregunta que reabre la atención.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S17",
+      "source": "main",
+      "in": 279.1,
+      "out": 282.58,
+      "role": "development",
+      "purpose": "Aplica a sujetos obligados",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "scale-change"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S18",
+      "source": "main",
+      "in": 326.75,
+      "out": 328.9,
+      "role": "development",
+      "purpose": "Entidades financieras",
+      "framing": {
+        "preset": "wide",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "strategic-text"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S19",
+      "source": "main",
+      "in": 329.4,
+      "out": 332.85,
+      "role": "development",
+      "purpose": "Empresas inmobiliarias, notarías",
+      "framing": {
+        "preset": "wide",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "rhythm-change"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S20",
+      "source": "main",
+      "in": 389.95,
+      "out": 395.88,
+      "role": "development",
+      "purpose": "Estudios jurídicos y supervisados por la UIF",
+      "framing": {
+        "preset": "wide",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S21",
+      "source": "main",
+      "in": 399.88,
+      "out": 402.45,
+      "role": "development",
+      "purpose": "Conforme al marco regulatorio",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "scale-change"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S22",
+      "source": "main",
+      "in": 403.0,
+      "out": 404.35,
+      "role": "reveal",
+      "purpose": "¿Por qué es relevante?",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1.05
+      },
+      "nativeCodes": [
+        "open-loop",
+        "punch-in"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S23",
+      "source": "main",
+      "in": 445.45,
+      "out": 448.55,
+      "role": "resolution",
+      "purpose": "Elemento esencial",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "payoff"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S24",
+      "source": "main",
+      "in": 454.05,
+      "out": 456.9,
+      "role": "resolution",
+      "purpose": "…de compliance y gobierno corporativo",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "payoff"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S25",
+      "source": "main",
+      "in": 463.98,
+      "out": 468.35,
+      "role": "cta",
+      "purpose": "Revoredo: asesoría corporativa y compliance",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "retention-loop"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S26",
+      "source": "main",
+      "in": 478.8,
+      "out": 481.65,
+      "role": "cta",
+      "purpose": "Acompañando empresas en estrategias",
+      "framing": {
+        "preset": "wide",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S27",
+      "source": "main",
+      "in": 502.05,
+      "out": 505.55,
+      "role": "cta",
+      "purpose": "…mecanismos orientados al cumplimiento normativo",
+      "framing": {
+        "preset": "wide",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S28",
+      "source": "main",
+      "in": 507.45,
+      "out": 508.3,
+      "role": "cta",
+      "purpose": "…y gestión de riesgos",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.36,
+        "zoomFrom": 1,
+        "zoomTo": 1.03
+      },
+      "nativeCodes": [
+        "retention-loop"
+      ],
+      "rationale": "",
+      "transitionIn": "cut"
+    }
+  ],
+  "graphics": [
+    {
+      "id": "G01",
+      "component": "AcronymReveal",
+      "start": 32.0,
+      "end": 36.3,
+      "function": "comprension",
+      "props": {
+        "parts": [
+          {
+            "key": "P",
+            "label": "Prevención"
+          },
+          {
+            "key": "LA",
+            "label": "Lavado de Activos"
+          },
+          {
+            "key": "FT",
+            "label": "Financiamiento del Terrorismo"
+          }
+        ],
+        "revealAtSource": [
+          33.52,
+          34.14,
+          35.08
+        ]
+      },
+      "rationale": "Desarma la sigla mientras ella la pronuncia."
+    },
+    {
+      "id": "G02",
+      "component": "TechList",
+      "start": 187.0,
+      "end": 192.65,
+      "function": "comprension",
+      "props": {
+        "title": "Riesgos que mitiga",
+        "items": [
+          "Legales",
+          "Financieros",
+          "Reputacionales",
+          "Regulatorios"
+        ],
+        "numbered": false,
+        "revealAtSource": [
+          189.3,
+          190.18,
+          191.08,
+          192.1
+        ]
+      },
+      "rationale": "En el orden en que ella los dice."
+    },
+    {
+      "id": "G03",
+      "component": "TechList",
+      "start": 210.25,
+      "end": 242.5,
+      "function": "comprension",
+      "props": {
+        "title": "Sistema PLAFT",
+        "items": [
+          "Debida diligencia (KYC)",
+          "Evaluación de riesgos",
+          "Monitoreo de operaciones",
+          "Controles internos y compliance"
+        ],
+        "revealAtSource": [
+          210.2,
+          216.65,
+          223.8,
+          240.32
+        ]
+      },
+      "rationale": "Componentes 01–04."
+    },
+    {
+      "id": "G04",
+      "component": "TechList",
+      "start": 245.2,
+      "end": 261.5,
+      "function": "comprension",
+      "props": {
+        "title": "Sistema PLAFT",
+        "items": [
+          "Capacitación del personal",
+          "Conservación de registros",
+          "Reporte de operaciones sospechosas"
+        ],
+        "startIndex": 5,
+        "revealAtSource": [
+          245.62,
+          249.6,
+          258.1
+        ]
+      },
+      "rationale": "Componentes 05–07."
+    },
+    {
+      "id": "G05",
+      "component": "TechList",
+      "start": 326.8,
+      "end": 392.2,
+      "function": "comprension",
+      "props": {
+        "title": "Sujetos obligados",
+        "items": [
+          "Entidades financieras",
+          "Sector inmobiliario",
+          "Notarías",
+          "Estudios jurídicos"
+        ],
+        "revealAtSource": [
+          327.59,
+          329.45,
+          332.2,
+          389.95
+        ]
+      },
+      "rationale": "Sujetos obligados a medida que ella los nombra."
+    }
+  ],
+  "broll": [
+    {
+      "id": "B00",
+      "start": 16.95,
+      "end": 18.3,
+      "src": "b-roll/library/cv-globo-datos-mercados.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "¿Qué es el PLAFT…",
+      "concept": "Flujos financieros globales",
+      "function": "Gancho de apertura; tapa el gesto previo a la toma.",
+      "description": "Globo con datos de mercados",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-globo-datos-mercados",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B01",
+      "start": 94.1,
+      "end": 96.3,
+      "src": "b-roll/library/cv-checklist-digital-ui.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "consiste en el conjunto de políticas…",
+      "concept": "Políticas y procedimientos",
+      "function": "Visualizar un sistema de controles.",
+      "description": "Checklist digital",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-checklist-digital-ui",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B02",
+      "start": 118.1,
+      "end": 120.3,
+      "src": "b-roll/library/cv-analista-pantallas-neon.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "implementados por las organizaciones para prevenir…",
+      "concept": "Monitoreo",
+      "function": "Detección activa.",
+      "description": "Analista frente a pantallas",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-analista-pantallas-neon",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B03",
+      "start": 127.98,
+      "end": 133.9,
+      "src": "b-roll/library/cv-billetes-conteo.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "operaciones vinculadas al ingreso de fondos de origen ilícito",
+      "concept": "Dinero / lavado",
+      "function": "Hacer tangible “fondos de origen ilícito”.",
+      "description": "Manos contando billetes",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-billetes-conteo",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B04",
+      "start": 153.65,
+      "end": 155.8,
+      "src": "b-roll/library/cv-flujo-datos-fibra.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "o al financiamiento de actividades ilegales",
+      "concept": "Flujo de fondos",
+      "function": "Fondos que se mueven.",
+      "description": "Flujo de luz/datos",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-flujo-datos-fibra",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B05",
+      "start": 201.0,
+      "end": 203.9,
+      "src": "b-roll/library/cv-candado-ciberseguridad.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "Un sistema PLAFT puede contener…",
+      "concept": "Sistema de control",
+      "function": "Introduce la lista.",
+      "description": "Escudo con candado",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-candado-ciberseguridad",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B06",
+      "start": 279.1,
+      "end": 280.6,
+      "src": "b-roll/library/cv-ejecutivo-revisa-documentos.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "La normativa PLAFT…",
+      "concept": "Normativa",
+      "function": "Peso documental.",
+      "description": "Ejecutivo revisando documentos",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-ejecutivo-revisa-documentos",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B07",
+      "start": 392.3,
+      "end": 395.88,
+      "src": "b-roll/library/cv-numeros-financieros.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "supervisadas por la Unidad de Inteligencia Financiera",
+      "concept": "Inteligencia financiera",
+      "function": "Supervisión financiera.",
+      "description": "Cifras financieras",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-numeros-financieros",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B08",
+      "start": 454.05,
+      "end": 456.9,
+      "src": "b-roll/library/cv-directivos-reunion-sofa.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "dentro de los sistemas de compliance y gobierno corporativo",
+      "concept": "Gobierno corporativo",
+      "function": "Directorio de la empresa.",
+      "description": "Directivos reunidos",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-directivos-reunion-sofa",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B09",
+      "start": 478.8,
+      "end": 481.65,
+      "src": "b-roll/library/cv-reunion-documentos-mesa.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "acompañando empresas en la implementación de estrategias",
+      "concept": "Asesoría",
+      "function": "Acompañamiento; cubre empalme.",
+      "description": "Reunión de trabajo",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-reunion-documentos-mesa",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B10",
+      "start": 502.05,
+      "end": 505.55,
+      "src": "b-roll/library/cv-firma-documento-manos.mp4",
+      "trimStart": 2.0,
+      "layout": "full",
+      "phrase": "y mecanismos orientados al adecuado cumplimiento normativo",
+      "concept": "Cumplimiento",
+      "function": "Cierre documental; cubre empalme.",
+      "description": "Manos firmando",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-firma-documento-manos",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    }
+  ],
+  "captions": {
+    "enabled": true,
+    "wordsPerGroup": 3,
+    "emphasis": [
+      "PLAFT",
+      "lavado",
+      "terrorismo",
+      "riesgos",
+      "compliance",
+      "UIF",
+      "sujetos",
+      "obligados",
+      "relevante",
+      "Revoredo"
+    ],
+    "words": [
+      {
+        "w": "¿Qué",
+        "s": 17.87,
+        "e": 18.33
+      },
+      {
+        "w": "es",
+        "s": 18.33,
+        "e": 18.49
+      },
+      {
+        "w": "el",
+        "s": 18.49,
+        "e": 18.71
+      },
+      {
+        "w": "PLAFT",
+        "s": 18.71,
+        "e": 18.95
+      },
+      {
+        "w": "y",
+        "s": 18.95,
+        "e": 19.13
+      },
+      {
+        "w": "cuál",
+        "s": 19.13,
+        "e": 19.25
+      },
+      {
+        "w": "es",
+        "s": 19.25,
+        "e": 19.37
+      },
+      {
+        "w": "su",
+        "s": 19.37,
+        "e": 19.63
+      },
+      {
+        "w": "importancia",
+        "s": 19.63,
+        "e": 20.11
+      },
+      {
+        "w": "en",
+        "s": 20.11,
+        "e": 20.47
+      },
+      {
+        "w": "el",
+        "s": 20.47,
+        "e": 20.57
+      },
+      {
+        "w": "ámbito",
+        "s": 20.57,
+        "e": 20.85
+      },
+      {
+        "w": "corporativo?",
+        "s": 20.85,
+        "e": 21.39
+      },
+      {
+        "w": "El",
+        "s": 31.9,
+        "e": 32.2
+      },
+      {
+        "w": "PLAFT",
+        "s": 32.2,
+        "e": 32.44
+      },
+      {
+        "w": "hace",
+        "s": 32.44,
+        "e": 32.7
+      },
+      {
+        "w": "referencia",
+        "s": 32.7,
+        "e": 33.26
+      },
+      {
+        "w": "a",
+        "s": 33.26,
+        "e": 33.38
+      },
+      {
+        "w": "la",
+        "s": 33.38,
+        "e": 33.52
+      },
+      {
+        "w": "prevención",
+        "s": 33.52,
+        "e": 33.98
+      },
+      {
+        "w": "de",
+        "s": 33.98,
+        "e": 34.14
+      },
+      {
+        "w": "lavado",
+        "s": 34.14,
+        "e": 34.38
+      },
+      {
+        "w": "de",
+        "s": 34.38,
+        "e": 34.6
+      },
+      {
+        "w": "activos",
+        "s": 34.6,
+        "e": 34.9
+      },
+      {
+        "w": "y",
+        "s": 34.9,
+        "e": 35.08
+      },
+      {
+        "w": "financiamiento",
+        "s": 35.08,
+        "e": 35.62
+      },
+      {
+        "w": "del",
+        "s": 35.62,
+        "e": 35.8
+      },
+      {
+        "w": "terrorismo.",
+        "s": 35.8,
+        "e": 36.24
+      },
+      {
+        "w": "consiste",
+        "s": 94.1,
+        "e": 94.74
+      },
+      {
+        "w": "en",
+        "s": 94.74,
+        "e": 95.14
+      },
+      {
+        "w": "el",
+        "s": 95.14,
+        "e": 95.36
+      },
+      {
+        "w": "conjunto",
+        "s": 95.36,
+        "e": 95.6
+      },
+      {
+        "w": "de",
+        "s": 95.6,
+        "e": 95.94
+      },
+      {
+        "w": "políticas,",
+        "s": 95.94,
+        "e": 96.44
+      },
+      {
+        "w": "procedimientos",
+        "s": 96.72,
+        "e": 97.36
+      },
+      {
+        "w": "y",
+        "s": 97.36,
+        "e": 97.66
+      },
+      {
+        "w": "mecanismos",
+        "s": 97.66,
+        "e": 98.2
+      },
+      {
+        "w": "de",
+        "s": 98.2,
+        "e": 98.4
+      },
+      {
+        "w": "control.",
+        "s": 98.4,
+        "e": 98.62
+      },
+      {
+        "w": "implementados",
+        "s": 118.1,
+        "e": 118.82
+      },
+      {
+        "w": "por",
+        "s": 118.82,
+        "e": 119.02
+      },
+      {
+        "w": "las",
+        "s": 119.02,
+        "e": 119.2
+      },
+      {
+        "w": "organizaciones",
+        "s": 119.2,
+        "e": 119.8
+      },
+      {
+        "w": "para",
+        "s": 119.8,
+        "e": 120.28
+      },
+      {
+        "w": "prevenir,",
+        "s": 120.28,
+        "e": 121.18
+      },
+      {
+        "w": "detectar",
+        "s": 121.46,
+        "e": 121.98
+      },
+      {
+        "w": "y",
+        "s": 121.98,
+        "e": 122.16
+      },
+      {
+        "w": "reportar.",
+        "s": 122.16,
+        "e": 122.68
+      },
+      {
+        "w": "Operaciones",
+        "s": 127.98,
+        "e": 128.62
+      },
+      {
+        "w": "vinculadas",
+        "s": 128.62,
+        "e": 129.36
+      },
+      {
+        "w": "al",
+        "s": 129.36,
+        "e": 129.56
+      },
+      {
+        "w": "ingreso",
+        "s": 129.56,
+        "e": 130.7
+      },
+      {
+        "w": "de",
+        "s": 130.7,
+        "e": 130.92
+      },
+      {
+        "w": "fondos",
+        "s": 130.92,
+        "e": 131.76
+      },
+      {
+        "w": "de",
+        "s": 131.76,
+        "e": 131.96
+      },
+      {
+        "w": "origen",
+        "s": 131.96,
+        "e": 132.22
+      },
+      {
+        "w": "ilegito.",
+        "s": 132.22,
+        "e": 132.7
+      },
+      {
+        "w": "o",
+        "s": 153.65,
+        "e": 153.89
+      },
+      {
+        "w": "al",
+        "s": 153.89,
+        "e": 154.05
+      },
+      {
+        "w": "financiamiento",
+        "s": 154.05,
+        "e": 154.67
+      },
+      {
+        "w": "de",
+        "s": 154.67,
+        "e": 154.89
+      },
+      {
+        "w": "actividades",
+        "s": 154.89,
+        "e": 155.35
+      },
+      {
+        "w": "ilegales.",
+        "s": 155.35,
+        "e": 155.77
+      },
+      {
+        "w": "Su",
+        "s": 186.98,
+        "e": 187.16
+      },
+      {
+        "w": "finalidad",
+        "s": 187.16,
+        "e": 187.78
+      },
+      {
+        "w": "es",
+        "s": 187.78,
+        "e": 188.08
+      },
+      {
+        "w": "mitigar",
+        "s": 188.08,
+        "e": 188.86
+      },
+      {
+        "w": "riesgos",
+        "s": 188.86,
+        "e": 189.3
+      },
+      {
+        "w": "legales,",
+        "s": 189.3,
+        "e": 189.96
+      },
+      {
+        "w": "financieros,",
+        "s": 190.18,
+        "e": 190.84
+      },
+      {
+        "w": "reputacionales",
+        "s": 191.08,
+        "e": 191.88
+      },
+      {
+        "w": "o",
+        "s": 191.88,
+        "e": 192.1
+      },
+      {
+        "w": "regulatorios.",
+        "s": 192.1,
+        "e": 192.68
+      },
+      {
+        "w": "Un",
+        "s": 201.0,
+        "e": 201.24
+      },
+      {
+        "w": "sistema",
+        "s": 201.24,
+        "e": 201.58
+      },
+      {
+        "w": "PLAFT",
+        "s": 201.58,
+        "e": 201.92
+      },
+      {
+        "w": "puede",
+        "s": 201.92,
+        "e": 202.24
+      },
+      {
+        "w": "contener,",
+        "s": 202.24,
+        "e": 202.76
+      },
+      {
+        "w": "entre",
+        "s": 202.76,
+        "e": 203.06
+      },
+      {
+        "w": "otros",
+        "s": 203.06,
+        "e": 203.32
+      },
+      {
+        "w": "aspectos,",
+        "s": 203.32,
+        "e": 203.88
+      },
+      {
+        "w": "políticas",
+        "s": 210.2,
+        "e": 210.72
+      },
+      {
+        "w": "de",
+        "s": 210.72,
+        "e": 210.94
+      },
+      {
+        "w": "diligencia,",
+        "s": 210.94,
+        "e": 211.74
+      },
+      {
+        "w": "conocimiento",
+        "s": 211.86,
+        "e": 212.32
+      },
+      {
+        "w": "del",
+        "s": 212.32,
+        "e": 212.48
+      },
+      {
+        "w": "cliente.",
+        "s": 212.48,
+        "e": 212.92
+      },
+      {
+        "w": "identificación",
+        "s": 216.65,
+        "e": 217.61
+      },
+      {
+        "w": "y",
+        "s": 217.61,
+        "e": 217.97
+      },
+      {
+        "w": "evaluación",
+        "s": 217.97,
+        "e": 218.43
+      },
+      {
+        "w": "de",
+        "s": 218.43,
+        "e": 218.63
+      },
+      {
+        "w": "riesgos.",
+        "s": 218.63,
+        "e": 219.03
+      },
+      {
+        "w": "monitoreo",
+        "s": 223.8,
+        "e": 224.22
+      },
+      {
+        "w": "de",
+        "s": 224.22,
+        "e": 224.74
+      },
+      {
+        "w": "operaciones.",
+        "s": 224.74,
+        "e": 225.38
+      },
+      {
+        "w": "controles",
+        "s": 240.32,
+        "e": 240.92
+      },
+      {
+        "w": "internos",
+        "s": 240.92,
+        "e": 241.36
+      },
+      {
+        "w": "y",
+        "s": 241.36,
+        "e": 241.56
+      },
+      {
+        "w": "medidas",
+        "s": 241.56,
+        "e": 241.78
+      },
+      {
+        "w": "de",
+        "s": 241.78,
+        "e": 242.1
+      },
+      {
+        "w": "compliance.",
+        "s": 242.1,
+        "e": 242.4
+      },
+      {
+        "w": "y",
+        "s": 245.18,
+        "e": 245.62
+      },
+      {
+        "w": "capacitación",
+        "s": 245.62,
+        "e": 245.84
+      },
+      {
+        "w": "del",
+        "s": 245.84,
+        "e": 246.02
+      },
+      {
+        "w": "personal.",
+        "s": 246.02,
+        "e": 246.38
+      },
+      {
+        "w": "conservación",
+        "s": 249.6,
+        "e": 250.26
+      },
+      {
+        "w": "de",
+        "s": 250.26,
+        "e": 250.42
+      },
+      {
+        "w": "documentos",
+        "s": 250.42,
+        "e": 251.02
+      },
+      {
+        "w": "y",
+        "s": 251.02,
+        "e": 251.2
+      },
+      {
+        "w": "registros.",
+        "s": 251.2,
+        "e": 251.72
+      },
+      {
+        "w": "reportes",
+        "s": 258.1,
+        "e": 258.68
+      },
+      {
+        "w": "de",
+        "s": 258.68,
+        "e": 258.78
+      },
+      {
+        "w": "operaciones",
+        "s": 258.78,
+        "e": 259.22
+      },
+      {
+        "w": "sospechosas",
+        "s": 259.22,
+        "e": 260.0
+      },
+      {
+        "w": "ante",
+        "s": 260.0,
+        "e": 260.26
+      },
+      {
+        "w": "las",
+        "s": 260.26,
+        "e": 260.46
+      },
+      {
+        "w": "autoridades",
+        "s": 260.46,
+        "e": 260.88
+      },
+      {
+        "w": "competentes",
+        "s": 260.88,
+        "e": 261.54
+      },
+      {
+        "w": "y",
+        "s": 271.65,
+        "e": 271.93
+      },
+      {
+        "w": "a",
+        "s": 271.93,
+        "e": 271.97
+      },
+      {
+        "w": "quienes",
+        "s": 271.97,
+        "e": 272.13
+      },
+      {
+        "w": "aplica.",
+        "s": 272.13,
+        "e": 272.55
+      },
+      {
+        "w": "La",
+        "s": 279.1,
+        "e": 279.28
+      },
+      {
+        "w": "normativa",
+        "s": 279.28,
+        "e": 279.78
+      },
+      {
+        "w": "PLAFT",
+        "s": 279.78,
+        "e": 280.24
+      },
+      {
+        "w": "resulta",
+        "s": 280.24,
+        "e": 280.8
+      },
+      {
+        "w": "aplicable",
+        "s": 280.8,
+        "e": 281.22
+      },
+      {
+        "w": "a",
+        "s": 281.22,
+        "e": 281.5
+      },
+      {
+        "w": "ciertos",
+        "s": 281.5,
+        "e": 281.8
+      },
+      {
+        "w": "sujetos",
+        "s": 281.8,
+        "e": 282.16
+      },
+      {
+        "w": "obligados.",
+        "s": 282.16,
+        "e": 282.56
+      },
+      {
+        "w": "tales",
+        "s": 326.75,
+        "e": 327.15
+      },
+      {
+        "w": "como",
+        "s": 327.15,
+        "e": 327.59
+      },
+      {
+        "w": "entidades",
+        "s": 327.59,
+        "e": 328.03
+      },
+      {
+        "w": "financieras,",
+        "s": 328.03,
+        "e": 328.87
+      },
+      {
+        "w": "inmobiliarias,",
+        "s": 330.12,
+        "e": 331.92
+      },
+      {
+        "w": "notarías.",
+        "s": 332.16,
+        "e": 332.8
+      },
+      {
+        "w": "estudios",
+        "s": 389.95,
+        "e": 391.07
+      },
+      {
+        "w": "jurídicos",
+        "s": 391.07,
+        "e": 391.75
+      },
+      {
+        "w": "y",
+        "s": 391.75,
+        "e": 392.01
+      },
+      {
+        "w": "otras",
+        "s": 392.01,
+        "e": 392.29
+      },
+      {
+        "w": "organizaciones",
+        "s": 392.29,
+        "e": 393.27
+      },
+      {
+        "w": "supervisadas",
+        "s": 393.27,
+        "e": 394.23
+      },
+      {
+        "w": "por",
+        "s": 394.23,
+        "e": 394.47
+      },
+      {
+        "w": "la",
+        "s": 394.47,
+        "e": 394.55
+      },
+      {
+        "w": "Unidad",
+        "s": 394.55,
+        "e": 394.83
+      },
+      {
+        "w": "de",
+        "s": 394.83,
+        "e": 394.99
+      },
+      {
+        "w": "Inteligencia",
+        "s": 394.99,
+        "e": 395.43
+      },
+      {
+        "w": "Financiera.",
+        "s": 395.43,
+        "e": 395.85
+      },
+      {
+        "w": "conforme",
+        "s": 399.88,
+        "e": 400.7
+      },
+      {
+        "w": "al",
+        "s": 400.7,
+        "e": 400.86
+      },
+      {
+        "w": "marco",
+        "s": 400.86,
+        "e": 401.26
+      },
+      {
+        "w": "regulatorio",
+        "s": 401.26,
+        "e": 401.86
+      },
+      {
+        "w": "correspondiente.",
+        "s": 401.86,
+        "e": 402.42
+      },
+      {
+        "w": "¿Por",
+        "s": 403.0,
+        "e": 403.28
+      },
+      {
+        "w": "qué",
+        "s": 403.28,
+        "e": 403.58
+      },
+      {
+        "w": "es",
+        "s": 403.58,
+        "e": 404.02
+      },
+      {
+        "w": "relevante?",
+        "s": 404.02,
+        "e": 404.32
+      },
+      {
+        "w": "Actualmente",
+        "s": 445.45,
+        "e": 446.35
+      },
+      {
+        "w": "el",
+        "s": 446.35,
+        "e": 446.57
+      },
+      {
+        "w": "PLAFT",
+        "s": 446.57,
+        "e": 446.85
+      },
+      {
+        "w": "constituye",
+        "s": 446.85,
+        "e": 447.43
+      },
+      {
+        "w": "un",
+        "s": 447.43,
+        "e": 447.65
+      },
+      {
+        "w": "elemento",
+        "s": 447.65,
+        "e": 448.03
+      },
+      {
+        "w": "esencial.",
+        "s": 448.03,
+        "e": 448.53
+      },
+      {
+        "w": "dentro",
+        "s": 454.05,
+        "e": 454.45
+      },
+      {
+        "w": "de",
+        "s": 454.45,
+        "e": 454.59
+      },
+      {
+        "w": "los",
+        "s": 454.59,
+        "e": 454.75
+      },
+      {
+        "w": "sistemas",
+        "s": 454.75,
+        "e": 455.03
+      },
+      {
+        "w": "de",
+        "s": 455.03,
+        "e": 455.31
+      },
+      {
+        "w": "compliance",
+        "s": 455.31,
+        "e": 455.69
+      },
+      {
+        "w": "y",
+        "s": 455.69,
+        "e": 455.97
+      },
+      {
+        "w": "gobierno",
+        "s": 455.97,
+        "e": 456.31
+      },
+      {
+        "w": "corporativo.",
+        "s": 456.31,
+        "e": 456.87
+      },
+      {
+        "w": "En",
+        "s": 463.98,
+        "e": 464.24
+      },
+      {
+        "w": "Revoredo",
+        "s": 464.24,
+        "e": 464.7
+      },
+      {
+        "w": "Abogados",
+        "s": 464.7,
+        "e": 465.12
+      },
+      {
+        "w": "contamos",
+        "s": 465.12,
+        "e": 465.56
+      },
+      {
+        "w": "con",
+        "s": 465.56,
+        "e": 465.72
+      },
+      {
+        "w": "la",
+        "s": 465.72,
+        "e": 465.96
+      },
+      {
+        "w": "experiencia",
+        "s": 465.96,
+        "e": 466.52
+      },
+      {
+        "w": "en",
+        "s": 466.52,
+        "e": 466.76
+      },
+      {
+        "w": "asesoría",
+        "s": 466.76,
+        "e": 467.22
+      },
+      {
+        "w": "corporativa",
+        "s": 467.22,
+        "e": 467.84
+      },
+      {
+        "w": "y",
+        "s": 467.84,
+        "e": 468.1
+      },
+      {
+        "w": "compliance.",
+        "s": 468.1,
+        "e": 468.32
+      },
+      {
+        "w": "acompañando",
+        "s": 478.8,
+        "e": 479.54
+      },
+      {
+        "w": "empresas",
+        "s": 479.54,
+        "e": 479.9
+      },
+      {
+        "w": "en",
+        "s": 479.9,
+        "e": 480.14
+      },
+      {
+        "w": "la",
+        "s": 480.14,
+        "e": 480.28
+      },
+      {
+        "w": "implementación",
+        "s": 480.28,
+        "e": 480.92
+      },
+      {
+        "w": "de",
+        "s": 480.92,
+        "e": 481.16
+      },
+      {
+        "w": "estrategias.",
+        "s": 481.16,
+        "e": 481.62
+      },
+      {
+        "w": "y",
+        "s": 502.05,
+        "e": 502.29
+      },
+      {
+        "w": "mecanismos",
+        "s": 502.29,
+        "e": 502.91
+      },
+      {
+        "w": "orientados",
+        "s": 502.91,
+        "e": 503.57
+      },
+      {
+        "w": "al",
+        "s": 503.57,
+        "e": 503.81
+      },
+      {
+        "w": "adecuado",
+        "s": 503.81,
+        "e": 504.29
+      },
+      {
+        "w": "cumplimiento",
+        "s": 504.29,
+        "e": 504.87
+      },
+      {
+        "w": "normativo.",
+        "s": 504.87,
+        "e": 505.47
+      },
+      {
+        "w": "y",
+        "s": 507.45,
+        "e": 507.75
+      },
+      {
+        "w": "gestión",
+        "s": 507.75,
+        "e": 508.03
+      },
+      {
+        "w": "de",
+        "s": 508.03,
+        "e": 508.15
+      },
+      {
+        "w": "riesgos.",
+        "s": 508.15,
+        "e": 508.27
+      }
+    ],
+    "replace": {}
+  },
+  "audio": {
+    "voiceGainDb": 0,
+    "music": {
+      "src": "audio/music/revoredo-bed-plaft.wav",
+      "volume": 0.02,
+      "duckedVolume": 0.02,
+      "fadeInSec": 0.8,
+      "fadeOutSec": 1.6,
+      "trimStart": 0,
+      "endBoost": 3
+    },
+    "sfx": []
+  },
+  "endCard": {
+    "enabled": true,
+    "durationSec": 2.2,
+    "line": "Tenemos una conversación pendiente",
+    "action": "Escríbenos"
+  },
+  "showLogo": true
+}
