@@ -15,8 +15,8 @@
   "note": "¿Qué puedes hacer?"
  },
  {
-  "in": 72.4,
-  "out": 77.4,
+  "in": 41.2,
+  "out": 43.8,
   "note": "Cuando una cámara detecta una infracción,"
  },
  {
@@ -35,12 +35,12 @@
   "note": "que te notifiquen a ti no significa que siempre seas tú el responsable."
  },
  {
-  "in": 125.6,
-  "out": 128.45,
+  "in": 131.95,
+  "out": 133.9,
   "note": "Depende de qué infracción es"
  },
  {
-  "in": 143.3,
+  "in": 146.3,
   "out": 149.4,
   "note": "y de a quién el reglamento señala como responsable."
  },
@@ -55,13 +55,13 @@
   "note": "pero hay otros donde hay base para cuestionarlo."
  },
  {
-  "in": 163.2,
-  "out": 165.2,
+  "in": 165.45,
+  "out": 167.45,
   "note": "Pero hay un caso aún peor:"
  },
  {
-  "in": 167.75,
-  "out": 173.0,
+  "in": 169.85,
+  "out": 172.3,
   "note": "si vendiste tu carro hace un año"
  },
  {
@@ -72,7 +72,8 @@
  {
   "in": 183.05,
   "out": 184.55,
-  "note": "el carro sigue siendo tuyo."
+  "note": "el carro sigue siendo tuyo.",
+  "forceOut": 184.5
  },
  {
   "in": 187.0,
@@ -85,8 +86,8 @@
   "note": "Si te pasa, tienes 5 días hábiles desde la notificación."
  },
  {
-  "in": 205.3,
-  "out": 206.1,
+  "in": 206.3,
+  "out": 207.5,
   "note": "Revisa la foto:"
  },
  {
