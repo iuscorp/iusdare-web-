@@ -43,7 +43,7 @@ export const LawCard: React.FC<{
       <div
         style={{
           // títulos largos («Hecho de importancia») se reducen para no salirse del cuadro
-          fontSize: Math.min(108, Math.round((width * 0.86) / (title.length * 0.6))),
+          fontSize: Math.min(96, Math.round((width * 0.8) / (title.length * 0.6))),
           fontWeight: 700,
           letterSpacing: '-0.02em',
           color: fill,

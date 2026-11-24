@@ -104,7 +104,11 @@ bottles(0, until('Las'), {w: 190}, 'hook: tres botellas en pantalla');
 const mien = at('mintiendo');
 add({type: 'kineticWord', syllables: ['DOS', 'MIENTEN'], layout: 'stack', uppercase: true, stepFrames: 3, x: 0.5, y: 0.6, start: S('Las'), end: until('Escoge')}, 'las otras dos te mienten');
 bottles(S('Escoge'), until('La'), {w: 190, marks: [null, null, null]}, 'escoge una');
-add({type: 'selectionLabel', text: '¿Cuál es la ecológica?', cursor: true, x: 0.5, y: 0.87, start: ver.start, end: until('La')}, 'reto al espectador');
+// letrero LED arriba, DETRÁS de la presentadora (pedido del equipo); sin subtítulo encima mientras dura
+const ledA = S('Escoge');
+const ledB = until('La');
+add({type: 'ledSign', text: '¿Cuál es la ecológica?', x: 0.5, y: 0.2, behindPerson: true, start: ledA, end: ledB}, 'reto al espectador (LED)');
+e.captions = e.captions.filter((c) => c.start < ledA - 0.05 || c.start >= ledB);
 
 // ── 2. BOTELLA 1: verde con hojas, «amigable con el planeta»
 const b1 = at('La');
@@ -115,8 +119,13 @@ bottles(S('No', S('Pero')), until('Eso'), {show: [0], w: 250, marks: ['x']}, 'no
 // ── 3. NOMBRE: greenwashing
 const eso = at('Eso');
 st('🎨', eso.start, until('Greenwashing'), 0.32, 'eso tiene un nombre');
-add({type: 'kineticWord', syllables: ['GREEN', 'WASHING'], layout: 'stack', uppercase: true, stepFrames: 3, x: 0.5, y: 0.6, start: S('Greenwashing'), end: until('Hacer')}, 'término');
-add({type: 'selectionLabel', text: 'Parecer más ecológico de lo que es', cursor: true, x: 0.5, y: 0.66, start: S('Hacer') - 0.05, end: until('La', S('Hacer'))}, 'definición');
+// «GREENWASHING» aparece en amarillo y una brocha lo pinta (mal) de verde
+const gw = S('Greenwashing');
+const defEnd = until('La', S('Hacer'));
+const brushEnd = Math.min(gw + 1.9, defEnd - 1.4);
+add({type: 'brushPaint', lines: ['GREEN', 'WASHING'], x: 0.5, y: 0.62, start: gw, end: brushEnd}, 'término + brocha');
+// definición como sello de goma tipo «CANCELLED»
+add({type: 'rubberStamp', lines: ['Parecer más ecológico', 'de lo que es'], x: 0.5, y: 0.64, start: brushEnd + 0.03, end: defEnd}, 'definición (sello)');
 
 // ── 4. BOTELLA 2: sello verde inventado
 const b2 = at('La', S('Hacer'));

@@ -3,6 +3,7 @@ import {Sequence, useVideoConfig} from 'remotion';
 import type {Overlay} from '../lib/schema';
 import {Comparison, EmojiEquation, StepList, VerdictStamp} from './Explainers';
 import {Bottles} from './Bottles';
+import {BrushPaint, LedSign, RubberStamp} from './PaintFx';
 import {LawCard} from './LawCard';
 import {LawPage} from './LawPage';
 import {BackgroundPlate, BigLetter, Cutout, DenyMark, Flash, DocumentCover, LogoBadge, PhotoCard} from './Media';
@@ -25,6 +26,12 @@ export const renderOverlay = (o: Overlay, durationInFrames: number) => {
       return <LogoBadge image={o.image} label={o.label} {...clean(pos)} />;
     case 'photoCard':
       return <PhotoCard image={o.image} rotate={o.rotate} w={o.w} h={o.h} label={o.label} {...clean(pos)} />;
+    case 'brushPaint':
+      return <BrushPaint lines={o.lines} {...clean(pos)} />;
+    case 'rubberStamp':
+      return <RubberStamp lines={o.lines} rotate={o.rotate} {...clean(pos)} />;
+    case 'ledSign':
+      return <LedSign text={o.text} y={o.y} durationInFrames={durationInFrames} />;
     case 'bottles':
       return <Bottles show={o.show} focus={o.focus} marks={o.marks ?? undefined} numbers={o.numbers} w={o.w} {...clean(pos)} />;
     case 'flash':

@@ -85,6 +85,12 @@ export const overlaySchema = z.discriminatedUnion('type', [
     /** crédito/licencia de la foto (no se muestra; va a la descripción) */
     credit: z.string().optional(),
   }),
+  /** texto amarillo que una brocha «pinta mal» de verde (greenwashing) */
+  z.object({...base, type: z.literal('brushPaint'), lines: z.array(z.string())}),
+  /** sello de goma rojo tipo «CANCELLED» */
+  z.object({...base, type: z.literal('rubberStamp'), lines: z.array(z.string()), rotate: z.number().optional()}),
+  /** letrero LED (matriz de puntos) */
+  z.object({...base, type: z.literal('ledSign'), text: z.string()}),
   /** tres botellas genéricas en vector (hook visual «¿cuál es ecológica?») */
   z.object({
     ...base,
