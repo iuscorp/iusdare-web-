@@ -1,0 +1,31 @@
+{
+  "slug": "video-10",
+  "title": "Greenwashing: ¿cuál de estas botellas es ecológica?",
+  "createdAt": "2026-11-24T07:22:41.752Z",
+  "raw": "footage/raw/video-10/raw.MOV",
+  "proxy": "footage/video-10/source.mp4",
+  "status": "nuevo",
+  "workflow": [
+    "ANÁLISIS",
+    "ESTRUCTURA NARRATIVA",
+    "CÓDIGOS NATIVOS",
+    "CANVAS VISUAL",
+    "APROBACIÓN",
+    "EDICIÓN COMPLETA",
+    "CONTROL DE CALIDAD",
+    "EXPORTACIÓN"
+  ],
+  "approval": {
+    "approved": false,
+    "approvedAt": null,
+    "notes": []
+  },
+  "editing": {
+    "minPause": 0.25,
+    "dropDb": 22,
+    "voice": {
+      "splitHz": 60,
+      "quietDb": -34
+    }
+  }
+}
