@@ -57,15 +57,17 @@
  {
   "in": 165.45,
   "out": 167.45,
-  "note": "Pero hay un caso aún peor:"
+  "note": "Pero hay un caso aún peor:",
+  "forceOut": 167.32
  },
  {
-  "in": 169.85,
+  "in": 170.25,
   "out": 172.3,
-  "note": "si vendiste tu carro hace un año"
+  "note": "si vendiste tu carro hace un año",
+  "forceOut": 172.12
  },
  {
-  "in": 178.9,
+  "in": 178.98,
   "out": 181.3,
   "note": "y nunca registraste la transferencia,"
  },

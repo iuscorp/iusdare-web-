@@ -1,0 +1,185 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "9.5 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "24 (footage 24)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "47.90 s (EDL 47.79 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14.1 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.4 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.07 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana 2 ms, p90 |70| ms, 141/160 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": false,
+      "level": "warn",
+      "detail": "19 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 141,
+    "total": 160,
+    "medianOffset": 0.0020000000000024443,
+    "p90AbsOffset": 0.07,
+    "mismatches": [
+      {
+        "at": 15.598,
+        "caption": "a",
+        "heard": "de aquí en el reglamento"
+      },
+      {
+        "at": 15.798,
+        "caption": "quién",
+        "heard": "de aquí en el reglamento"
+      },
+      {
+        "at": 20.737,
+        "caption": "Pero",
+        "heard": "hay otros"
+      },
+      {
+        "at": 27.233,
+        "caption": "Y",
+        "heard": "nunca registraste"
+      },
+      {
+        "at": 30.352,
+        "caption": "tuyo",
+        "heard": "siendo tu."
+      },
+      {
+        "at": 30.917,
+        "caption": "Entonces",
+        "heard": "Si"
+      },
+      {
+        "at": 31.287,
+        "caption": "las",
+        "heard": "Si"
+      },
+      {
+        "at": 31.607,
+        "caption": "multas",
+        "heard": "Si te"
+      },
+      {
+        "at": 32.347,
+        "caption": "van",
+        "heard": "pasa"
+      },
+      {
+        "at": 32.487,
+        "caption": "a",
+        "heard": "pasa"
+      },
+      {
+        "at": 32.607,
+        "caption": "seguir",
+        "heard": "pasa"
+      },
+      {
+        "at": 32.747,
+        "caption": "llegando",
+        "heard": "pasa"
+      },
+      {
+        "at": 33.147,
+        "caption": "a",
+        "heard": "(nada)"
+      },
+      {
+        "at": 33.247,
+        "caption": "ti",
+        "heard": "(nada)"
+      },
+      {
+        "at": 33.423,
+        "caption": "Si",
+        "heard": "tienes"
+      },
+      {
+        "at": 33.493,
+        "caption": "te",
+        "heard": "tienes"
+      },
+      {
+        "at": 33.613,
+        "caption": "pasa",
+        "heard": "tienes"
+      },
+      {
+        "at": 45.312,
+        "caption": "Sigue a",
+        "heard": "multa. Si evocaré"
+      },
+      {
+        "at": 45.532,
+        "caption": "Vocare",
+        "heard": "Si evocaré Iuris"
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14.1,
+    "lra": 3,
+    "truePeakDb": -1.4
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/video-11/video-11-preview.mp4"
+}
