@@ -42,7 +42,7 @@ export const VerdictStamp: React.FC<{text: string; tone?: 'deny' | 'ok'; x?: num
   const color = tone === 'deny' ? COLORS.deny : COLORS.ok;
   const label = text.toLocaleUpperCase('es');
   // ajuste al 84 % del ancho (Archivo Expanded ≈ 0.84 em/carácter en mayúsculas + bordes)
-  const fontSize = Math.min(112, (width * 0.78 - 90) / (label.length * 0.84));
+  const fontSize = Math.min(112, (width * 0.74 - 90) / (label.length * 0.84));
   // sacudida de impacto: 6 frames amortiguados tras el golpe
   const shakeT = frame - 4;
   const shake = shakeT >= 0 && shakeT < 8 ? Math.sin(shakeT * 2.6) * 14 * Math.exp(-shakeT * 0.45) : 0;

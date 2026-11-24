@@ -96,14 +96,15 @@ e.captions = e.captions.filter((c, i, a) => !(i > 0 && norm(c.text) === norm(a[i
 
 const until = (w, after = 0) => S(w, after) - 0.03;
 const st = (emoji, t, end, x, note) => sticker(emoji, t, end - t, x, 0.62, note);
-const bottles = (t, end, props, note) => add({type: 'bottles', x: 0.5, y: 0.67, ...props, start: t, end}, note);
+// botellas dentro de la zona segura de Reels (por encima del 20 % inferior)
+const bottles = (t, end, props, note) => add({type: 'bottles', x: 0.47, y: 0.6, ...props, start: t, end}, note);
 
 // ── 1. HOOK VISUAL (frame 0): las tres botellas → «dos te mienten» → reto
 const ver = at('veremos');
-bottles(0, until('Las'), {w: 190}, 'hook: tres botellas en pantalla');
+bottles(0, until('Las'), {w: 175}, 'hook: tres botellas en pantalla');
 const mien = at('mintiendo');
-add({type: 'kineticWord', syllables: ['DOS', 'MIENTEN'], layout: 'stack', uppercase: true, stepFrames: 3, x: 0.5, y: 0.6, start: S('Las'), end: until('Escoge')}, 'las otras dos te mienten');
-bottles(S('Escoge'), until('La'), {w: 190, marks: [null, null, null]}, 'escoge una');
+add({type: 'kineticWord', syllables: ['DOS', 'MIENTEN'], layout: 'stack', uppercase: true, stepFrames: 3, x: 0.47, y: 0.6, start: S('Las'), end: until('Escoge')}, 'las otras dos te mienten');
+bottles(S('Escoge'), until('La'), {w: 175, marks: [null, null, null]}, 'escoge una');
 // letrero LED arriba, DETRÁS de la presentadora (pedido del equipo); sin subtítulo encima mientras dura
 const ledA = S('Escoge');
 const ledB = until('La');
@@ -112,9 +113,9 @@ e.captions = e.captions.filter((c) => c.start < ledA - 0.05 || c.start >= ledB);
 
 // ── 2. BOTELLA 1: verde con hojas, «amigable con el planeta»
 const b1 = at('La');
-bottles(b1.start, until('Pero'), {show: [0], w: 250}, 'botella 1');
+bottles(b1.start, until('Pero'), {show: [0], w: 230}, 'botella 1');
 st('🤥', S('Pero'), until('No', S('Pero')), 0.68, '¿pero por qué?');
-bottles(S('No', S('Pero')), until('Eso'), {show: [0], w: 250, marks: ['x']}, 'no dice nada: ✗');
+bottles(S('No', S('Pero')), until('Eso'), {show: [0], w: 230, marks: ['x']}, 'no dice nada: ✗');
 
 // ── 3. NOMBRE: greenwashing
 const eso = at('Eso');
@@ -123,33 +124,33 @@ st('🎨', eso.start, until('Greenwashing'), 0.32, 'eso tiene un nombre');
 const gw = S('Greenwashing');
 const defEnd = until('La', S('Hacer'));
 const brushEnd = Math.min(gw + 1.9, defEnd - 1.4);
-add({type: 'brushPaint', lines: ['GREEN', 'WASHING'], x: 0.5, y: 0.62, start: gw, end: brushEnd}, 'término + brocha');
+add({type: 'brushPaint', lines: ['GREEN', 'WASHING'], x: 0.47, y: 0.62, start: gw, end: brushEnd}, 'término + brocha');
 // definición como sello de goma tipo «CANCELLED»
-add({type: 'rubberStamp', lines: ['Parecer más ecológico', 'de lo que es'], x: 0.5, y: 0.64, start: brushEnd + 0.03, end: defEnd}, 'definición (sello)');
+add({type: 'rubberStamp', lines: ['Parecer más ecológico', 'de lo que es'], x: 0.47, y: 0.64, start: brushEnd + 0.03, end: defEnd}, 'definición (sello)');
 
 // ── 4. BOTELLA 2: sello verde inventado
 const b2 = at('La', S('Hacer'));
-bottles(b2.start, until('Y', b2.start), {show: [1], w: 250}, 'botella 2: sello verde');
+bottles(b2.start, until('Y', b2.start), {show: [1], w: 230}, 'botella 2: sello verde');
 st('🗯️', S('Y', b2.start), until('Nadie'), 0.68, '¿y quién lo da?');
-bottles(S('Nadie'), until('Ojo'), {show: [1], w: 250, marks: [null, 'x']}, 'lo diseñó la misma marca: ✗');
+bottles(S('Nadie'), until('Ojo'), {show: [1], w: 230, marks: [null, 'x']}, 'lo diseñó la misma marca: ✗');
 
 // ── 5. GIRO LEGAL
 const ojo = at('Ojo');
-add({type: 'textBadge', text: 'No tiene que ser una mentira directa', x: 0.5, y: 0.64, start: ojo.start, end: until('Basta')}, 'ojo');
+add({type: 'textBadge', text: 'No tiene que ser una mentira directa', x: 0.47, y: 0.64, start: ojo.start, end: until('Basta')}, 'ojo');
 st('👁️', S('Basta'), until('En'), 0.32, 'basta con hacerte creer algo');
-add({type: 'lawCard', title: 'Publicidad engañosa', subtitle: 'D. Leg. 1044 · Actos de engaño', color: 'yellow', x: 0.5, y: 0.66, start: S('En'), end: until('Y', S('engañosa'))}, 'normativa (verificar cita)');
+add({type: 'lawCard', title: 'Publicidad engañosa', subtitle: 'D. Leg. 1044 · Actos de engaño', color: 'yellow', x: 0.47, y: 0.66, start: S('En'), end: until('Y', S('engañosa'))}, 'normativa (verificar cita)');
 const ind = at('Y', S('engañosa'));
-add({type: 'verdictStamp', text: 'Indecopi sanciona', tone: 'deny', x: 0.5, y: 0.6, start: ind.start, end: until('Y la')}, 'Indecopi puede sancionarlo');
+add({type: 'verdictStamp', text: 'Indecopi sanciona', tone: 'deny', x: 0.47, y: 0.6, start: ind.start, end: until('Y la')}, 'Indecopi puede sancionarlo');
 
 // ── 6. BOTELLA 3: la específica
 const b3 = at('Y la');
-bottles(b3.start, until('Es', S('reciclado')), {show: [2], w: 250}, 'botella 3: 50 % reciclado');
-bottles(S('Es', S('reciclado')), until('tu'), {show: [2], w: 250, marks: [null, null, 'check']}, 'específica y comprobable: ✓');
+bottles(b3.start, until('Es', S('reciclado')), {show: [2], w: 230}, 'botella 3: 50 % reciclado');
+bottles(S('Es', S('reciclado')), until('tu'), {show: [2], w: 230, marks: [null, null, 'check']}, 'específica y comprobable: ✓');
 
 // ── 7. CIERRE EN BUCLE + pregunta a comentarios
 const yt = at('tu');
 bottles(yt.start, e.captions[e.captions.length - 1].end, {w: 170, marks: ['x', 'x', 'check']}, 'cierre en bucle');
-sticker('💬', S('Dimelo'), e.captions[e.captions.length - 1].end - S('Dimelo'), 0.5, 0.88, 'dímelo en los comentarios');
+sticker('💬', S('Dimelo'), e.captions[e.captions.length - 1].end - S('Dimelo'), 0.18, 0.4, 'dímelo en los comentarios');
 
 // ── Encuadres: cambio cada ~5 s; crash sólo en los choques
 const hits = [mien.start - 0.8, S('Greenwashing'), ind.start];

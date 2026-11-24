@@ -47,7 +47,7 @@ export const BrushPaint: React.FC<{lines: string[]; x?: number; y?: number; pain
     .map((p, i) => ({x: p[0], y: p[1] + fs * 0.25, len: fs * (0.25 + random(`d${i}`) * 0.45)}));
   const done = frame > paintDelay + paintFrames + 4;
   const brushOut = interpolate(frame, [paintDelay + paintFrames, paintDelay + paintFrames + 8], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
-  const scale = (width * 0.86) / W;
+  const scale = (width * 0.74) / W; // dentro de la zona segura de Reels
   return (
     <div
       style={{
@@ -119,7 +119,7 @@ export const RubberStamp: React.FC<{lines: string[]; x?: number; y?: number; rot
   const {fps, width, height} = useVideoConfig();
   const p = spring({frame, fps, config: {damping: 11, stiffness: 320}, durationInFrames: 8});
   const longest = Math.max(...lines.map((l) => l.length));
-  const fs = Math.min(84, (width * 0.68) / (longest * 0.66));
+  const fs = Math.min(84, (width * 0.6) / (longest * 0.66));
   const red = '#D7263D';
   return (
     <div
@@ -162,7 +162,7 @@ export const RubberStamp: React.FC<{lines: string[]; x?: number; y?: number; rot
 export const LedSign: React.FC<{text: string; y?: number; durationInFrames: number}> = ({text, y = 0.2, durationInFrames}) => {
   const frame = useCurrentFrame();
   const {width, height} = useVideoConfig();
-  const panelW = width * 0.9;
+  const panelW = width * 0.76; // zona segura de Reels (sin la columna de iconos)
   const panelH = height * 0.085;
   const fs = Math.min(panelH * 0.62, (panelW * 0.92) / (text.length * 0.78));
   // encendido con parpadeo y letras que se encienden una a una
@@ -174,7 +174,7 @@ export const LedSign: React.FC<{text: string; y?: number; durationInFrames: numb
     <div
       style={{
         position: 'absolute',
-        left: (width - panelW) / 2,
+        left: (width * 0.94 - panelW) / 2,
         top: y * height - panelH / 2,
         width: panelW,
         height: panelH,

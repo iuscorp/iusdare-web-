@@ -61,7 +61,7 @@ const KineticLine: React.FC<KineticProps> = ({syllables, stepFrames = 3, y = 0.5
   const text = syllables.join('');
   const chars = text.length;
   // Archivo Expanded en mayúsculas ≈ 0.84 em por carácter (medido); Druk Wide es más ancha: revisar si se instala
-  const fontSize = Math.min(210, (width * 0.8) / (chars * (uppercase ? 0.84 : 0.8)));
+  const fontSize = Math.min(210, (width * 0.74) / (chars * (uppercase ? 0.84 : 0.8)));
   const whole = popIn(frame, fps);
   return (
     <div
@@ -104,7 +104,7 @@ const KineticRows: React.FC<{syllables: string[]; stepFrames?: number; y?: numbe
   const rows = [syllables.slice(0, mid), syllables.slice(mid)];
   const longest = Math.max(...rows.map((r) => r.join('').length));
   // Druk Wide / Archivo Expanded ≈ 0.95 em por carácter
-  const fontSize = Math.min(220, (width * 0.82) / (longest * 0.95));
+  const fontSize = Math.min(220, (width * 0.74) / (longest * 0.95));
   let idx = 0;
   return (
     <div style={{position: 'absolute', left: 0, right: 0, top: y * height, textAlign: 'center'}}>
@@ -147,7 +147,7 @@ const KineticStack: React.FC<{syllables: string[]; stepFrames?: number; x?: numb
               fontStretch: '125%',
               fontWeight: 900,
               // dentro del margen: ≤ 80 % del ancho (Druk/Archivo ≈ 0.95 em por carácter)
-              fontSize: Math.min(i === 0 ? 180 : 150, (width * 0.8) / (s.length * 0.95)),
+              fontSize: Math.min(i === 0 ? 180 : 150, (width * 0.74) / (s.length * 0.95)),
               lineHeight: 0.9,
               letterSpacing: '-0.02em',
               textTransform: 'none',
@@ -179,7 +179,7 @@ export const TextBadge: React.FC<{text: string; x?: number; y?: number}> = ({tex
         fontFamily: FONTS.card,
         fontWeight: 700,
         // dentro del margen: ≤ 84 % del ancho (Poppins Bold ≈ 0.56 em por carácter)
-        fontSize: Math.min(92, (width * 0.84) / (text.length * 0.56)),
+        fontSize: Math.min(92, (width * 0.74) / (text.length * 0.56)),
         letterSpacing: '-0.01em',
         color: COLORS.captionYellow,
         textShadow: '0 5px 0 rgba(0,0,0,0.55), 0 0 18px rgba(255,214,0,0.4)',
