@@ -96,17 +96,17 @@
   "pauses": []
  },
  {
-  "in": 169.85,
+  "in": 170.25,
   "out": 172.3,
-  "voiceIn": 169.99,
+  "voiceIn": 170.33,
   "voiceOut": 172.23,
-  "thrDb": -47.5,
+  "thrDb": -47.2,
   "pauses": []
  },
  {
-  "in": 178.9,
+  "in": 178.98,
   "out": 180.94,
-  "voiceIn": 178.94,
+  "voiceIn": 179.07,
   "voiceOut": 180.92,
   "thrDb": -45.8,
   "pauses": []

@@ -955,26 +955,26 @@
       "text": "Pero hay un caso aún peor."
     },
     {
-      "in": 169.95,
-      "out": 172.29,
+      "in": 170.29,
+      "out": 172.12,
       "words": [
         {
           "w": "Si",
-          "s": 169.95,
-          "e": 170.38,
-          "p": 0.49,
+          "s": 170.29,
+          "e": 170.4,
+          "p": 0.584,
           "take": 12,
-          "s0": 169.75,
+          "s0": 170.15,
           "sel": 12,
           "i": 87
         },
         {
           "w": "vendiste",
-          "s": 170.38,
+          "s": 170.4,
           "e": 170.72,
-          "p": 0.875,
+          "p": 0.894,
           "take": 12,
-          "s0": 170.38,
+          "s0": 170.4,
           "sel": 12,
           "i": 88
         },
@@ -982,7 +982,7 @@
           "w": "tu",
           "s": 170.72,
           "e": 170.9,
-          "p": 0.979,
+          "p": 0.974,
           "take": 12,
           "s0": 170.72,
           "sel": 12,
@@ -992,7 +992,7 @@
           "w": "carro",
           "s": 170.9,
           "e": 171.18,
-          "p": 0.985,
+          "p": 0.989,
           "take": 12,
           "s0": 170.9,
           "sel": 12,
@@ -1002,7 +1002,7 @@
           "w": "hace",
           "s": 171.18,
           "e": 171.58,
-          "p": 0.897,
+          "p": 0.884,
           "take": 12,
           "s0": 171.18,
           "sel": 12,
@@ -1012,7 +1012,7 @@
           "w": "un",
           "s": 171.58,
           "e": 171.76,
-          "p": 0.964,
+          "p": 0.965,
           "take": 12,
           "s0": 171.58,
           "sel": 12,
@@ -1022,7 +1022,7 @@
           "w": "año...",
           "s": 171.76,
           "e": 172.29,
-          "p": 0.688,
+          "p": 0.682,
           "take": 12,
           "s0": 171.76,
           "sel": 12,
@@ -1032,16 +1032,16 @@
       "text": "Si vendiste tu carro hace un año..."
     },
     {
-      "in": 178.5,
+      "in": 179.03,
       "out": 180.94,
       "words": [
         {
-          "w": "Y",
-          "s": 178.9,
+          "w": "¿Y",
+          "s": 179.03,
           "e": 179.15,
-          "p": 0.343,
+          "p": 0.466,
           "take": 13,
-          "s0": 178.8,
+          "s0": 178.88,
           "sel": 13,
           "i": 94
         },
@@ -1049,7 +1049,7 @@
           "w": "nunca",
           "s": 179.15,
           "e": 179.33,
-          "p": 0.964,
+          "p": 0.992,
           "take": 13,
           "s0": 179.15,
           "sel": 13,
@@ -1058,8 +1058,8 @@
         {
           "w": "registraste",
           "s": 179.33,
-          "e": 180.05,
-          "p": 0.979,
+          "e": 180.07,
+          "p": 0.977,
           "take": 13,
           "s0": 179.33,
           "sel": 13,
@@ -1067,26 +1067,26 @@
         },
         {
           "w": "la",
-          "s": 180.05,
+          "s": 180.07,
           "e": 180.21,
-          "p": 0.925,
+          "p": 0.952,
           "take": 13,
-          "s0": 180.05,
+          "s0": 180.07,
           "sel": 13,
           "i": 97
         },
         {
-          "w": "transferencia.",
+          "w": "transferencia?",
           "s": 180.21,
           "e": 180.85,
-          "p": 0.99,
+          "p": 0.989,
           "take": 13,
           "s0": 180.21,
           "sel": 13,
           "i": 98
         }
       ],
-      "text": "Y nunca registraste la transferencia."
+      "text": "¿Y nunca registraste la transferencia?"
     },
     {
       "in": 182.99,
@@ -1837,16 +1837,9 @@
     },
     {
       "kind": "low-confidence",
-      "at": 169.75,
-      "text": "Si",
-      "p": 0.49,
-      "note": "Verificar ortografía/término en subtítulo."
-    },
-    {
-      "kind": "low-confidence",
-      "at": 178.8,
-      "text": "Y",
-      "p": 0.343,
+      "at": 178.88,
+      "text": "¿Y",
+      "p": 0.466,
       "note": "Verificar ortografía/término en subtítulo."
     },
     {
@@ -1893,11 +1886,11 @@
   "stats": {
     "sourceDuration": 263.04,
     "sourceSpeechSpan": 213.42,
-    "outputDuration": 47.72,
-    "savedSeconds": 214.067,
+    "outputDuration": 46.68,
+    "savedSeconds": 214.547,
     "words": 160,
-    "wordsPerSecond": 3.267,
-    "acousticAirRemoved": 3.38
+    "wordsPerSecond": 3.299,
+    "acousticAirRemoved": 3.37
   },
   "speaker": [
     {
@@ -1985,17 +1978,17 @@
       "offCamera": 0
     },
     {
-      "in": 169.95,
-      "out": 172.29,
+      "in": 170.29,
+      "out": 172.12,
       "text": "Si vendiste tu carro hace un año...",
-      "timeline": "...NNNNNNNNNNNNNNNNNNN..",
+      "timeline": "NNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 178.5,
+      "in": 179.03,
       "out": 180.94,
-      "text": "Y nunca registraste la transferencia.",
-      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNN",
+      "text": "¿Y nunca registraste la transferencia?",
+      "timeline": "NNNNNNNNNNNNNNNNNNN.",
       "offCamera": 0
     },
     {

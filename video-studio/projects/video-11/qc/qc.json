@@ -28,7 +28,7 @@
       "name": "Duración",
       "ok": true,
       "level": "ok",
-      "detail": "47.90 s (EDL 47.79 s)"
+      "detail": "46.80 s (EDL 46.75 s)"
     },
     {
       "name": "Fotogramas negros",
@@ -46,7 +46,7 @@
       "name": "True peak",
       "ok": true,
       "level": "ok",
-      "detail": "-1.4 dBFS"
+      "detail": "-1.5 dBFS"
     },
     {
       "name": "Silencios residuales (>0.6 s)",
@@ -64,20 +64,20 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 2 ms, p90 |70| ms, 141/160 palabras alineadas"
+      "detail": "mediana 3 ms, p90 |68| ms, 154/160 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
-      "ok": false,
-      "level": "warn",
-      "detail": "19 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "ok": true,
+      "level": "ok",
+      "detail": "6 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 141,
+    "matched": 154,
     "total": 160,
-    "medianOffset": 0.0020000000000024443,
-    "p90AbsOffset": 0.07,
+    "medianOffset": 0.0030000000000001137,
+    "p90AbsOffset": 0.06799999999999962,
     "mismatches": [
       {
         "at": 15.598,
@@ -95,82 +95,17 @@
         "heard": "hay otros"
       },
       {
-        "at": 27.233,
-        "caption": "Y",
-        "heard": "nunca registraste"
+        "at": 33.192,
+        "caption": "5",
+        "heard": "tienes cinco días"
       },
       {
-        "at": 30.352,
-        "caption": "tuyo",
-        "heard": "siendo tu."
-      },
-      {
-        "at": 30.917,
-        "caption": "Entonces",
-        "heard": "Si"
-      },
-      {
-        "at": 31.287,
-        "caption": "las",
-        "heard": "Si"
-      },
-      {
-        "at": 31.607,
-        "caption": "multas",
-        "heard": "Si te"
-      },
-      {
-        "at": 32.347,
-        "caption": "van",
-        "heard": "pasa"
-      },
-      {
-        "at": 32.487,
-        "caption": "a",
-        "heard": "pasa"
-      },
-      {
-        "at": 32.607,
-        "caption": "seguir",
-        "heard": "pasa"
-      },
-      {
-        "at": 32.747,
-        "caption": "llegando",
-        "heard": "pasa"
-      },
-      {
-        "at": 33.147,
-        "caption": "a",
-        "heard": "(nada)"
-      },
-      {
-        "at": 33.247,
-        "caption": "ti",
-        "heard": "(nada)"
-      },
-      {
-        "at": 33.423,
-        "caption": "Si",
-        "heard": "tienes"
-      },
-      {
-        "at": 33.493,
-        "caption": "te",
-        "heard": "tienes"
-      },
-      {
-        "at": 33.613,
-        "caption": "pasa",
-        "heard": "tienes"
-      },
-      {
-        "at": 45.312,
+        "at": 44.27,
         "caption": "Sigue a",
         "heard": "multa. Si evocaré"
       },
       {
-        "at": 45.532,
+        "at": 44.49,
         "caption": "Vocare",
         "heard": "Si evocaré Iuris"
       }
@@ -178,8 +113,8 @@
   },
   "loudness": {
     "integratedLufs": -14.1,
-    "lra": 3,
-    "truePeakDb": -1.4
+    "lra": 2.8,
+    "truePeakDb": -1.5
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/video-11/video-11-preview.mp4"
 }
