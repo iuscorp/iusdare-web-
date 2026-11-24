@@ -1,0 +1,1014 @@
+{
+ "model": "small",
+ "language": "es",
+ "duration": 245.824,
+ "text": "Pin. Pong. Con. Martín Ruyero. Acá. ¿A qué se dedica? Soy Abobao, la oralista. ¿En qué le hubiera gustado especializarse si no hubiera sido laboral? Creo que en derechos civil, procesar el civil litigio. ¿Cuál es el error más común al contratar a una persona? Que debiendo contratarlo como trabajador en planilla, no lo hacen. ¿Cuál cree que es el beneficio laboral que genera más complicaciones en las empresas? Hoy en día te diría que el cálculo y pago de vacaciones. ¿Cuál es el error más común sobre los beneficios sociales? Eso lo veremos en el live. Nos vemos este 1 de diciembre a las 8 p.m. en el live que tendremos con nuestros amigos de Vocare Iuris. Conversaremos sobre cálculo y pago de beneficios laborales. Nos esperamos.",
+ "segments": [
+  {
+   "start": 41.4,
+   "end": 41.98,
+   "text": "Pin.",
+   "take": 0
+  },
+  {
+   "start": 42.36,
+   "end": 42.66,
+   "text": "Pong.",
+   "take": 0
+  },
+  {
+   "start": 43.04,
+   "end": 43.08,
+   "text": "Con.",
+   "take": 0
+  },
+  {
+   "start": 43.36,
+   "end": 43.96,
+   "text": "Martín Ruyero.",
+   "take": 0
+  },
+  {
+   "start": 44.36,
+   "end": 44.58,
+   "text": "Acá.",
+   "take": 0
+  },
+  {
+   "start": 43.75,
+   "end": 45.07,
+   "text": "¿A qué se dedica?",
+   "take": 1
+  },
+  {
+   "start": 44.7,
+   "end": 46.4,
+   "text": "Soy Abobao, la oralista.",
+   "take": 2
+  },
+  {
+   "start": 50.65,
+   "end": 53.73,
+   "text": "¿En qué le hubiera gustado especializarse si no hubiera sido laboral?",
+   "take": 3
+  },
+  {
+   "start": 53.8,
+   "end": 57.02,
+   "text": "Creo que en derechos civil, procesar el civil litigio.",
+   "take": 4
+  },
+  {
+   "start": 62.1,
+   "end": 64.42,
+   "text": "¿Cuál es el error más común al contratar a una persona?",
+   "take": 5
+  },
+  {
+   "start": 64.95,
+   "end": 68.77,
+   "text": "Que debiendo contratarlo como trabajador en planilla, no lo hacen.",
+   "take": 6
+  },
+  {
+   "start": 102.4,
+   "end": 106.08,
+   "text": "¿Cuál cree que es el beneficio laboral que genera más complicaciones en las empresas?",
+   "take": 7
+  },
+  {
+   "start": 106.3,
+   "end": 109.44,
+   "text": "Hoy en día te diría que el cálculo y pago de vacaciones.",
+   "take": 8
+  },
+  {
+   "start": 145.63,
+   "end": 148.89,
+   "text": "¿Cuál es el error más común sobre los beneficios sociales?",
+   "take": 9
+  },
+  {
+   "start": 149.1,
+   "end": 150.56,
+   "text": "Eso lo veremos en el live.",
+   "take": 10
+  },
+  {
+   "start": 227.7,
+   "end": 232.42,
+   "text": "Nos vemos este 1 de diciembre a las 8 p.m. en el live que tendremos con nuestros",
+   "take": 11
+  },
+  {
+   "start": 232.42,
+   "end": 236.28,
+   "text": "amigos de Vocare Iuris. Conversaremos sobre cálculo y pago de beneficios laborales.",
+   "take": 11
+  },
+  {
+   "start": 236.52,
+   "end": 237.0,
+   "text": "Nos esperamos.",
+   "take": 11
+  }
+ ],
+ "words": [
+  {
+   "w": "Pin.",
+   "s": 41.65,
+   "e": 41.98,
+   "p": 0.027,
+   "take": 0
+  },
+  {
+   "w": "Pong.",
+   "s": 42.36,
+   "e": 42.66,
+   "p": 0.577,
+   "take": 0
+  },
+  {
+   "w": "Con.",
+   "s": 43.04,
+   "e": 43.08,
+   "p": 0.576,
+   "take": 0
+  },
+  {
+   "w": "Martín",
+   "s": 43.36,
+   "e": 43.62,
+   "p": 0.927,
+   "take": 0
+  },
+  {
+   "w": "Ruyero.",
+   "s": 43.62,
+   "e": 43.96,
+   "p": 0.845,
+   "take": 0
+  },
+  {
+   "w": "¿A",
+   "s": 44.25,
+   "e": 44.51,
+   "p": 0.338,
+   "take": 1
+  },
+  {
+   "w": "qué",
+   "s": 44.51,
+   "e": 44.63,
+   "p": 0.764,
+   "take": 1
+  },
+  {
+   "w": "se",
+   "s": 44.63,
+   "e": 44.73,
+   "p": 0.988,
+   "take": 1
+  },
+  {
+   "w": "dedica?",
+   "s": 44.73,
+   "e": 45.07,
+   "p": 0.984,
+   "take": 1
+  },
+  {
+   "w": "Soy",
+   "s": 45.2,
+   "e": 45.5,
+   "p": 0.002,
+   "take": 2
+  },
+  {
+   "w": "Abobao,",
+   "s": 45.5,
+   "e": 45.94,
+   "p": 0.413,
+   "take": 2
+  },
+  {
+   "w": "la",
+   "s": 45.94,
+   "e": 46.02,
+   "p": 0.245,
+   "take": 2
+  },
+  {
+   "w": "oralista.",
+   "s": 46.02,
+   "e": 46.4,
+   "p": 0.929,
+   "take": 2
+  },
+  {
+   "w": "¿En",
+   "s": 50.9,
+   "e": 51.35,
+   "p": 0.831,
+   "take": 3
+  },
+  {
+   "w": "qué",
+   "s": 51.35,
+   "e": 51.45,
+   "p": 0.668,
+   "take": 3
+  },
+  {
+   "w": "le",
+   "s": 51.45,
+   "e": 51.57,
+   "p": 0.601,
+   "take": 3
+  },
+  {
+   "w": "hubiera",
+   "s": 51.57,
+   "e": 51.77,
+   "p": 0.996,
+   "take": 3
+  },
+  {
+   "w": "gustado",
+   "s": 51.77,
+   "e": 52.07,
+   "p": 0.998,
+   "take": 3
+  },
+  {
+   "w": "especializarse",
+   "s": 52.07,
+   "e": 52.73,
+   "p": 0.95,
+   "take": 3
+  },
+  {
+   "w": "si",
+   "s": 52.73,
+   "e": 52.87,
+   "p": 0.974,
+   "take": 3
+  },
+  {
+   "w": "no",
+   "s": 52.87,
+   "e": 52.97,
+   "p": 0.997,
+   "take": 3
+  },
+  {
+   "w": "hubiera",
+   "s": 52.97,
+   "e": 53.13,
+   "p": 0.976,
+   "take": 3
+  },
+  {
+   "w": "sido",
+   "s": 53.13,
+   "e": 53.31,
+   "p": 0.996,
+   "take": 3
+  },
+  {
+   "w": "laboral?",
+   "s": 53.31,
+   "e": 53.73,
+   "p": 0.965,
+   "take": 3
+  },
+  {
+   "w": "Creo",
+   "s": 54.05,
+   "e": 54.5,
+   "p": 0.769,
+   "take": 4
+  },
+  {
+   "w": "que",
+   "s": 54.5,
+   "e": 54.64,
+   "p": 0.985,
+   "take": 4
+  },
+  {
+   "w": "en",
+   "s": 54.64,
+   "e": 54.7,
+   "p": 0.869,
+   "take": 4
+  },
+  {
+   "w": "derechos",
+   "s": 54.7,
+   "e": 54.9,
+   "p": 0.421,
+   "take": 4
+  },
+  {
+   "w": "civil,",
+   "s": 54.9,
+   "e": 55.34,
+   "p": 0.986,
+   "take": 4
+  },
+  {
+   "w": "procesar",
+   "s": 55.66,
+   "e": 56.12,
+   "p": 0.77,
+   "take": 4
+  },
+  {
+   "w": "el",
+   "s": 56.12,
+   "e": 56.2,
+   "p": 0.511,
+   "take": 4
+  },
+  {
+   "w": "civil",
+   "s": 56.2,
+   "e": 56.4,
+   "p": 0.965,
+   "take": 4
+  },
+  {
+   "w": "litigio.",
+   "s": 56.4,
+   "e": 57.02,
+   "p": 0.989,
+   "take": 4
+  },
+  {
+   "w": "¿Cuál",
+   "s": 62.35,
+   "e": 62.66,
+   "p": 0.895,
+   "take": 5
+  },
+  {
+   "w": "es",
+   "s": 62.66,
+   "e": 62.78,
+   "p": 0.996,
+   "take": 5
+  },
+  {
+   "w": "el",
+   "s": 62.78,
+   "e": 62.88,
+   "p": 0.994,
+   "take": 5
+  },
+  {
+   "w": "error",
+   "s": 62.88,
+   "e": 63.04,
+   "p": 0.989,
+   "take": 5
+  },
+  {
+   "w": "más",
+   "s": 63.04,
+   "e": 63.24,
+   "p": 0.942,
+   "take": 5
+  },
+  {
+   "w": "común",
+   "s": 63.24,
+   "e": 63.54,
+   "p": 0.994,
+   "take": 5
+  },
+  {
+   "w": "al",
+   "s": 63.54,
+   "e": 63.7,
+   "p": 0.592,
+   "take": 5
+  },
+  {
+   "w": "contratar",
+   "s": 63.7,
+   "e": 64.04,
+   "p": 0.923,
+   "take": 5
+  },
+  {
+   "w": "a",
+   "s": 64.04,
+   "e": 64.06,
+   "p": 0.581,
+   "take": 5
+  },
+  {
+   "w": "una",
+   "s": 64.06,
+   "e": 64.14,
+   "p": 0.995,
+   "take": 5
+  },
+  {
+   "w": "persona?",
+   "s": 64.14,
+   "e": 64.42,
+   "p": 0.998,
+   "take": 5
+  },
+  {
+   "w": "Que",
+   "s": 65.2,
+   "e": 65.39,
+   "p": 0.025,
+   "take": 6
+  },
+  {
+   "w": "debiendo",
+   "s": 65.39,
+   "e": 65.97,
+   "p": 0.958,
+   "take": 6
+  },
+  {
+   "w": "contratarlo",
+   "s": 65.97,
+   "e": 66.59,
+   "p": 0.96,
+   "take": 6
+  },
+  {
+   "w": "como",
+   "s": 66.59,
+   "e": 66.75,
+   "p": 0.991,
+   "take": 6
+  },
+  {
+   "w": "trabajador",
+   "s": 66.75,
+   "e": 67.45,
+   "p": 0.998,
+   "take": 6
+  },
+  {
+   "w": "en",
+   "s": 67.45,
+   "e": 67.63,
+   "p": 0.909,
+   "take": 6
+  },
+  {
+   "w": "planilla,",
+   "s": 67.63,
+   "e": 68.09,
+   "p": 0.762,
+   "take": 6
+  },
+  {
+   "w": "no",
+   "s": 68.31,
+   "e": 68.39,
+   "p": 0.99,
+   "take": 6
+  },
+  {
+   "w": "lo",
+   "s": 68.39,
+   "e": 68.51,
+   "p": 0.993,
+   "take": 6
+  },
+  {
+   "w": "hacen.",
+   "s": 68.51,
+   "e": 68.77,
+   "p": 0.965,
+   "take": 6
+  },
+  {
+   "w": "¿Cuál",
+   "s": 102.65,
+   "e": 103.04,
+   "p": 0.762,
+   "take": 7
+  },
+  {
+   "w": "cree",
+   "s": 103.04,
+   "e": 103.24,
+   "p": 0.965,
+   "take": 7
+  },
+  {
+   "w": "que",
+   "s": 103.24,
+   "e": 103.5,
+   "p": 0.992,
+   "take": 7
+  },
+  {
+   "w": "es",
+   "s": 103.5,
+   "e": 103.66,
+   "p": 0.973,
+   "take": 7
+  },
+  {
+   "w": "el",
+   "s": 103.66,
+   "e": 103.76,
+   "p": 0.993,
+   "take": 7
+  },
+  {
+   "w": "beneficio",
+   "s": 103.76,
+   "e": 104.06,
+   "p": 0.998,
+   "take": 7
+  },
+  {
+   "w": "laboral",
+   "s": 104.06,
+   "e": 104.4,
+   "p": 0.819,
+   "take": 7
+  },
+  {
+   "w": "que",
+   "s": 104.4,
+   "e": 104.46,
+   "p": 0.964,
+   "take": 7
+  },
+  {
+   "w": "genera",
+   "s": 104.46,
+   "e": 104.78,
+   "p": 0.372,
+   "take": 7
+  },
+  {
+   "w": "más",
+   "s": 104.78,
+   "e": 104.96,
+   "p": 0.946,
+   "take": 7
+  },
+  {
+   "w": "complicaciones",
+   "s": 104.96,
+   "e": 105.58,
+   "p": 0.984,
+   "take": 7
+  },
+  {
+   "w": "en",
+   "s": 105.58,
+   "e": 105.72,
+   "p": 0.981,
+   "take": 7
+  },
+  {
+   "w": "las",
+   "s": 105.72,
+   "e": 105.82,
+   "p": 0.993,
+   "take": 7
+  },
+  {
+   "w": "empresas?",
+   "s": 105.82,
+   "e": 106.08,
+   "p": 0.998,
+   "take": 7
+  },
+  {
+   "w": "Hoy",
+   "s": 106.55,
+   "e": 106.94,
+   "p": 0.544,
+   "take": 8
+  },
+  {
+   "w": "en",
+   "s": 106.94,
+   "e": 107.04,
+   "p": 0.938,
+   "take": 8
+  },
+  {
+   "w": "día",
+   "s": 107.04,
+   "e": 107.28,
+   "p": 0.998,
+   "take": 8
+  },
+  {
+   "w": "te",
+   "s": 107.28,
+   "e": 107.66,
+   "p": 0.499,
+   "take": 8
+  },
+  {
+   "w": "diría",
+   "s": 107.66,
+   "e": 107.96,
+   "p": 0.9,
+   "take": 8
+  },
+  {
+   "w": "que",
+   "s": 107.96,
+   "e": 108.12,
+   "p": 0.966,
+   "take": 8
+  },
+  {
+   "w": "el",
+   "s": 108.12,
+   "e": 108.22,
+   "p": 0.967,
+   "take": 8
+  },
+  {
+   "w": "cálculo",
+   "s": 108.22,
+   "e": 108.62,
+   "p": 0.986,
+   "take": 8
+  },
+  {
+   "w": "y",
+   "s": 108.62,
+   "e": 108.72,
+   "p": 0.903,
+   "take": 8
+  },
+  {
+   "w": "pago",
+   "s": 108.72,
+   "e": 108.94,
+   "p": 0.922,
+   "take": 8
+  },
+  {
+   "w": "de",
+   "s": 108.94,
+   "e": 109.02,
+   "p": 0.975,
+   "take": 8
+  },
+  {
+   "w": "vacaciones.",
+   "s": 109.02,
+   "e": 109.44,
+   "p": 0.996,
+   "take": 8
+  },
+  {
+   "w": "¿Cuál",
+   "s": 145.63,
+   "e": 146.27,
+   "p": 0.796,
+   "take": 9
+  },
+  {
+   "w": "es",
+   "s": 146.27,
+   "e": 146.41,
+   "p": 0.997,
+   "take": 9
+  },
+  {
+   "w": "el",
+   "s": 146.41,
+   "e": 146.55,
+   "p": 0.994,
+   "take": 9
+  },
+  {
+   "w": "error",
+   "s": 146.55,
+   "e": 146.73,
+   "p": 0.993,
+   "take": 9
+  },
+  {
+   "w": "más",
+   "s": 146.73,
+   "e": 146.93,
+   "p": 0.982,
+   "take": 9
+  },
+  {
+   "w": "común",
+   "s": 146.93,
+   "e": 147.29,
+   "p": 0.997,
+   "take": 9
+  },
+  {
+   "w": "sobre",
+   "s": 147.29,
+   "e": 147.79,
+   "p": 0.985,
+   "take": 9
+  },
+  {
+   "w": "los",
+   "s": 147.79,
+   "e": 148.01,
+   "p": 0.948,
+   "take": 9
+  },
+  {
+   "w": "beneficios",
+   "s": 148.01,
+   "e": 148.57,
+   "p": 0.997,
+   "take": 9
+  },
+  {
+   "w": "sociales?",
+   "s": 148.57,
+   "e": 148.89,
+   "p": 0.887,
+   "take": 9
+  },
+  {
+   "w": "Eso",
+   "s": 149.35,
+   "e": 149.72,
+   "p": 0.561,
+   "take": 10
+  },
+  {
+   "w": "lo",
+   "s": 149.72,
+   "e": 149.94,
+   "p": 0.95,
+   "take": 10
+  },
+  {
+   "w": "veremos",
+   "s": 149.94,
+   "e": 150.2,
+   "p": 0.731,
+   "take": 10
+  },
+  {
+   "w": "en",
+   "s": 150.2,
+   "e": 150.32,
+   "p": 0.991,
+   "take": 10
+  },
+  {
+   "w": "el",
+   "s": 150.32,
+   "e": 150.42,
+   "p": 0.966,
+   "take": 10
+  },
+  {
+   "w": "live.",
+   "s": 150.42,
+   "e": 150.56,
+   "p": 0.394,
+   "take": 10
+  },
+  {
+   "w": "Nos",
+   "s": 227.95,
+   "e": 228.28,
+   "p": 0.944,
+   "take": 11
+  },
+  {
+   "w": "vemos",
+   "s": 228.28,
+   "e": 228.44,
+   "p": 0.999,
+   "take": 11
+  },
+  {
+   "w": "este",
+   "s": 228.44,
+   "e": 228.66,
+   "p": 0.95,
+   "take": 11
+  },
+  {
+   "w": "1",
+   "s": 228.66,
+   "e": 228.92,
+   "p": 0.775,
+   "take": 11
+  },
+  {
+   "w": "de",
+   "s": 228.92,
+   "e": 229.2,
+   "p": 0.374,
+   "take": 11
+  },
+  {
+   "w": "diciembre",
+   "s": 229.2,
+   "e": 229.64,
+   "p": 0.949,
+   "take": 11
+  },
+  {
+   "w": "a",
+   "s": 229.64,
+   "e": 229.96,
+   "p": 0.785,
+   "take": 11
+  },
+  {
+   "w": "las",
+   "s": 229.96,
+   "e": 230.06,
+   "p": 0.989,
+   "take": 11
+  },
+  {
+   "w": "8",
+   "s": 230.06,
+   "e": 230.4,
+   "p": 0.944,
+   "take": 11
+  },
+  {
+   "w": "p",
+   "s": 230.4,
+   "e": 230.62,
+   "p": 0.259,
+   "take": 11
+  },
+  {
+   "w": ".m.",
+   "s": 230.62,
+   "e": 230.88,
+   "p": 0.99,
+   "take": 11
+  },
+  {
+   "w": "en",
+   "s": 231.02,
+   "e": 231.18,
+   "p": 0.97,
+   "take": 11
+  },
+  {
+   "w": "el",
+   "s": 231.18,
+   "e": 231.3,
+   "p": 0.974,
+   "take": 11
+  },
+  {
+   "w": "live",
+   "s": 231.3,
+   "e": 231.46,
+   "p": 0.556,
+   "take": 11
+  },
+  {
+   "w": "que",
+   "s": 231.46,
+   "e": 231.68,
+   "p": 0.982,
+   "take": 11
+  },
+  {
+   "w": "tendremos",
+   "s": 231.68,
+   "e": 232.08,
+   "p": 0.982,
+   "take": 11
+  },
+  {
+   "w": "con",
+   "s": 232.08,
+   "e": 232.24,
+   "p": 0.995,
+   "take": 11
+  },
+  {
+   "w": "nuestros",
+   "s": 232.24,
+   "e": 232.42,
+   "p": 0.981,
+   "take": 11
+  },
+  {
+   "w": "amigos",
+   "s": 232.42,
+   "e": 232.74,
+   "p": 0.988,
+   "take": 11
+  },
+  {
+   "w": "de",
+   "s": 232.74,
+   "e": 232.92,
+   "p": 0.987,
+   "take": 11
+  },
+  {
+   "w": "Vocare",
+   "s": 232.92,
+   "e": 233.14,
+   "p": 0.217,
+   "take": 11
+  },
+  {
+   "w": "Iuris.",
+   "s": 233.14,
+   "e": 233.5,
+   "p": 0.645,
+   "take": 11
+  },
+  {
+   "w": "Conversaremos",
+   "s": 233.76,
+   "e": 234.24,
+   "p": 0.98,
+   "take": 11
+  },
+  {
+   "w": "sobre",
+   "s": 234.24,
+   "e": 234.52,
+   "p": 0.996,
+   "take": 11
+  },
+  {
+   "w": "cálculo",
+   "s": 234.52,
+   "e": 234.98,
+   "p": 0.997,
+   "take": 11
+  },
+  {
+   "w": "y",
+   "s": 234.98,
+   "e": 235.08,
+   "p": 0.997,
+   "take": 11
+  },
+  {
+   "w": "pago",
+   "s": 235.08,
+   "e": 235.32,
+   "p": 0.977,
+   "take": 11
+  },
+  {
+   "w": "de",
+   "s": 235.32,
+   "e": 235.42,
+   "p": 0.988,
+   "take": 11
+  },
+  {
+   "w": "beneficios",
+   "s": 235.42,
+   "e": 235.78,
+   "p": 0.958,
+   "take": 11
+  },
+  {
+   "w": "laborales.",
+   "s": 235.78,
+   "e": 236.28,
+   "p": 0.999,
+   "take": 11
+  },
+  {
+   "w": "Nos",
+   "s": 236.52,
+   "e": 236.6,
+   "p": 0.781,
+   "take": 11
+  },
+  {
+   "w": "esperamos.",
+   "s": 236.6,
+   "e": 237.0,
+   "p": 0.985,
+   "take": 11
+  }
+ ]
+}
