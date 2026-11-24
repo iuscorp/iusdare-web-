@@ -14,86 +14,23 @@
     {
       "id": "s01",
       "in": 41.833,
-      "out": 42.083,
+      "out": 46.5,
       "role": "hook",
       "framing": "base",
       "move": "none",
       "note": "Pin."
     },
     {
-      "id": "s02",
-      "in": 42.375,
-      "out": 42.75,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "Pong."
-    },
-    {
-      "id": "s03",
-      "in": 42.958,
-      "out": 43.25,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "Con."
-    },
-    {
-      "id": "s04",
-      "in": 43.333,
-      "out": 44.042,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "Martín Ruyero."
-    },
-    {
-      "id": "s05",
-      "in": 44.417,
-      "out": 45.125,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "¿A qué se dedica?"
-    },
-    {
       "id": "s06",
-      "in": 45.292,
-      "out": 46.333,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "Soy Abobao, la oralista."
-    },
-    {
-      "id": "s07",
       "in": 51.208,
-      "out": 53.75,
+      "out": 57.125,
       "role": "context",
       "framing": "base",
       "move": "none",
       "note": "¿En qué le hubiera gustado especializarse si no hubiera sido laboral?"
     },
     {
-      "id": "s08",
-      "in": 54.375,
-      "out": 55.542,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "Creo que en derechos civil,"
-    },
-    {
       "id": "s09",
-      "in": 55.708,
-      "out": 57.125,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "procesar el civil litigio."
-    },
-    {
-      "id": "s10",
       "in": 62.5,
       "out": 64.583,
       "role": "context",
@@ -102,9 +39,9 @@
       "note": "¿Cuál es el error más común al contratar a una persona?"
     },
     {
-      "id": "s11",
+      "id": "s10",
       "in": 65.292,
-      "out": 68.208,
+      "out": 68.833,
       "role": "context",
       "framing": "base",
       "move": "none",
@@ -112,69 +49,24 @@
     },
     {
       "id": "s12",
-      "in": 68.25,
-      "out": 68.833,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "no lo hacen."
-    },
-    {
-      "id": "s13",
       "in": 102.833,
-      "out": 105,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "¿Cuál cree que es el beneficio laboral que genera más"
-    },
-    {
-      "id": "s14",
-      "in": 105,
-      "out": 106.208,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "complicaciones en las empresas?"
-    },
-    {
-      "id": "s15",
-      "in": 106.75,
-      "out": 107.458,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "Hoy en día te"
-    },
-    {
-      "id": "s16",
-      "in": 107.542,
       "out": 109.5,
       "role": "context",
       "framing": "base",
       "move": "none",
-      "note": "diría que el cálculo y pago de vacaciones."
+      "note": "¿Cuál cree que es el beneficio laboral que genera más complicaciones"
     },
     {
-      "id": "s17",
-      "in": 145.792,
-      "out": 148.583,
+      "id": "s15",
+      "in": 142.25,
+      "out": 145.292,
       "role": "context",
       "framing": "base",
       "move": "none",
       "note": "¿Cuál es el error más común sobre los beneficios"
     },
     {
-      "id": "s18",
-      "in": 148.583,
-      "out": 149.083,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "sociales?"
-    },
-    {
-      "id": "s19",
+      "id": "s17",
       "in": 149.5,
       "out": 150.667,
       "role": "context",
@@ -183,49 +75,13 @@
       "note": "Eso lo veremos en el live."
     },
     {
-      "id": "s20",
+      "id": "s18",
       "in": 228.125,
-      "out": 229.833,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "Nos vemos este 1 de diciembre a"
-    },
-    {
-      "id": "s21",
-      "in": 229.833,
-      "out": 232.417,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "las 8 p .m. en el live que tendremos con nuestros"
-    },
-    {
-      "id": "s22",
-      "in": 232.417,
-      "out": 233.5,
-      "role": "recap",
-      "framing": "base",
-      "move": "none",
-      "note": "amigos de Vocare Iuris."
-    },
-    {
-      "id": "s23",
-      "in": 233.625,
-      "out": 236.292,
-      "role": "context",
-      "framing": "base",
-      "move": "none",
-      "note": "Conversaremos sobre cálculo y pago de beneficios laborales."
-    },
-    {
-      "id": "s24",
-      "in": 236.5,
       "out": 237.125,
       "role": "context",
       "framing": "base",
       "move": "none",
-      "note": "Nos esperamos."
+      "note": "Nos vemos este 1 de diciembre a las 8 p"
     }
   ],
   "captions": [],

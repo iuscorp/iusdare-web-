@@ -1,13 +1,13 @@
 # QC — Ping pong con Martín (promo del live 1 de diciembre)
-Archivo: `previews/video-9/video-9-preview.mp4` · 2026-11-24T05:04:35.778Z
+Archivo: `previews/video-9/video-9-preview.mp4` · 2026-11-24T05:14:22.328Z
 
 | Verificación | Estado | Detalle |
 |---|---|---|
 | Resolución | ✅ | 1080x1920 (revisión) |
-| Bitrate de video | ✅ | 9.0 Mbps |
+| Bitrate de video | ✅ | 8.9 Mbps |
 | Espacio de color | ✅ | yuv420p · bt709 · rango tv (esperado bt709/tv como el original) |
 | FPS | ✅ | 24 (footage 24) |
-| Duración | ✅ | 33.30 s (EDL 33.25 s) |
+| Duración | ✅ | 36.10 s (EDL 36.08 s) |
 | Fotogramas negros | ✅ | ninguno |
 | Loudness | ✅ | -14.2 LUFS (objetivo −14 ±1) |
 | True peak | ✅ | -1.3 dBFS |

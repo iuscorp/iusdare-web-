@@ -21,12 +21,13 @@
     "notes": []
   },
   "editing": {
-    "minPause": 0.15,
-    "dropDb": 20
+    "minPause": 0.35,
+    "dropDb": 24,
+    "_nota": "entrevista: sólo pausas > 0.35 s; bordes con margen para no comer palabras"
   },
   "lastRender": {
     "file": "../previews/video-9/video-9-preview.mp4",
-    "at": "2026-11-24T05:04:05.142Z",
+    "at": "2026-11-24T05:13:50.842Z",
     "preview": true
   }
 }

@@ -14,6 +14,17 @@ const f = path.join(dir, 'edl.json');
 const e = JSON.parse(fs.readFileSync(f, 'utf8'));
 
 e.captions = []; // sin subtítulos (como el ping pong anterior)
+// Pedido: «no cortes las palabras / que se entienda». Dentro de una misma toma se conservan las
+// pausas naturales (< 0.6 s): se unen los tramos contiguos en vez de cortar entre palabras.
+{
+  const merged = [];
+  for (const sg of e.segments) {
+    const prev = merged[merged.length - 1];
+    if (prev && sg.in - prev.out >= 0 && sg.in - prev.out < 0.6) prev.out = sg.out;
+    else merged.push({...sg});
+  }
+  e.segments = merged;
+}
 for (const s of e.segments) {
   s.framing = 'base';
   s.move = 'none';

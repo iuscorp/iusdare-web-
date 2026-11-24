@@ -18,12 +18,12 @@
       "text": "Pin."
     },
     {
-      "in": 42.38,
+      "in": 42.36,
       "out": 42.75,
       "words": [
         {
           "w": "Pong.",
-          "s": 42.38,
+          "s": 42.36,
           "e": 42.66,
           "p": 0.577,
           "take": 0,
@@ -36,7 +36,7 @@
     },
     {
       "in": 42.96,
-      "out": 43.26,
+      "out": 44.05,
       "words": [
         {
           "w": "Con.",
@@ -47,17 +47,10 @@
           "s0": 43.04,
           "sel": 0,
           "i": 2
-        }
-      ],
-      "text": "Con."
-    },
-    {
-      "in": 43.35,
-      "out": 44.05,
-      "words": [
+        },
         {
           "w": "Martín",
-          "s": 43.4,
+          "s": 43.36,
           "e": 43.62,
           "p": 0.927,
           "take": 0,
@@ -76,11 +69,11 @@
           "i": 4
         }
       ],
-      "text": "Martín Ruyero."
+      "text": "Con. Martín Ruyero."
     },
     {
       "in": 44.42,
-      "out": 45.14,
+      "out": 45.15,
       "words": [
         {
           "w": "¿A",
@@ -127,7 +120,7 @@
     },
     {
       "in": 45.3,
-      "out": 46.32,
+      "out": 46.49,
       "words": [
         {
           "w": "Soy",
@@ -162,7 +155,7 @@
         {
           "w": "oralista.",
           "s": 46.02,
-          "e": 46.32,
+          "e": 46.4,
           "p": 0.929,
           "take": 2,
           "s0": 46.02,
@@ -174,7 +167,7 @@
     },
     {
       "in": 51.22,
-      "out": 53.77,
+      "out": 53.79,
       "words": [
         {
           "w": "¿En",
@@ -347,12 +340,12 @@
       "text": "Creo que en derechos civil,"
     },
     {
-      "in": 55.72,
+      "in": 55.71,
       "out": 57.11,
       "words": [
         {
           "w": "procesar",
-          "s": 55.72,
+          "s": 55.71,
           "e": 56.12,
           "p": 0.77,
           "take": 4,
@@ -512,7 +505,7 @@
     },
     {
       "in": 65.3,
-      "out": 68.2,
+      "out": 68.82,
       "words": [
         {
           "w": "Que",
@@ -583,14 +576,7 @@
           "s0": 67.63,
           "sel": 6,
           "i": 50
-        }
-      ],
-      "text": "Que debiendo contratarlo como trabajador en planilla,"
-    },
-    {
-      "in": 68.27,
-      "out": 68.82,
-      "words": [
+        },
         {
           "w": "no",
           "s": 68.31,
@@ -614,7 +600,7 @@
         {
           "w": "hacen.",
           "s": 68.51,
-          "e": 68.67,
+          "e": 68.77,
           "p": 0.965,
           "take": 6,
           "s0": 68.51,
@@ -622,15 +608,15 @@
           "i": 53
         }
       ],
-      "text": "no lo hacen."
+      "text": "Que debiendo contratarlo como trabajador en planilla, no lo hacen."
     },
     {
-      "in": 102.83,
-      "out": 105,
+      "in": 102.82,
+      "out": 106.2,
       "words": [
         {
           "w": "¿Cuál",
-          "s": 102.83,
+          "s": 102.82,
           "e": 103.04,
           "p": 0.762,
           "take": 7,
@@ -727,17 +713,10 @@
           "s0": 104.78,
           "sel": 7,
           "i": 63
-        }
-      ],
-      "text": "¿Cuál cree que es el beneficio laboral que genera más"
-    },
-    {
-      "in": 105.02,
-      "out": 106.2,
-      "words": [
+        },
         {
           "w": "complicaciones",
-          "s": 105.05,
+          "s": 104.96,
           "e": 105.58,
           "p": 0.984,
           "take": 7,
@@ -776,11 +755,11 @@
           "i": 67
         }
       ],
-      "text": "complicaciones en las empresas?"
+      "text": "¿Cuál cree que es el beneficio laboral que genera más complicaciones en las empresas?"
     },
     {
       "in": 106.73,
-      "out": 107.45,
+      "out": 109.52,
       "words": [
         {
           "w": "Hoy",
@@ -815,20 +794,13 @@
         {
           "w": "te",
           "s": 107.28,
-          "e": 107.45,
+          "e": 107.66,
           "p": 0.499,
           "take": 8,
           "s0": 107.28,
           "sel": 8,
           "i": 71
-        }
-      ],
-      "text": "Hoy en día te"
-    },
-    {
-      "in": 107.56,
-      "out": 109.48,
-      "words": [
+        },
         {
           "w": "diría",
           "s": 107.66,
@@ -910,109 +882,109 @@
           "i": 79
         }
       ],
-      "text": "diría que el cálculo y pago de vacaciones."
+      "text": "Hoy en día te diría que el cálculo y pago de vacaciones."
     },
     {
-      "in": 145.78,
-      "out": 149.1,
+      "in": 142.24,
+      "out": 145.29,
       "words": [
         {
           "w": "¿Cuál",
-          "s": 145.99,
-          "e": 146.27,
-          "p": 0.796,
+          "s": 142.3,
+          "e": 142.73,
+          "p": 0.871,
           "take": 9,
-          "s0": 145.63,
+          "s0": 142.2,
           "sel": 9,
           "i": 80
         },
         {
           "w": "es",
-          "s": 146.27,
-          "e": 146.41,
-          "p": 0.997,
+          "s": 142.73,
+          "e": 142.89,
+          "p": 0.996,
           "take": 9,
-          "s0": 146.27,
+          "s0": 142.73,
           "sel": 9,
           "i": 81
         },
         {
           "w": "el",
-          "s": 146.41,
-          "e": 146.55,
-          "p": 0.994,
+          "s": 142.89,
+          "e": 143.01,
+          "p": 0.996,
           "take": 9,
-          "s0": 146.41,
+          "s0": 142.89,
           "sel": 9,
           "i": 82
         },
         {
           "w": "error",
-          "s": 146.55,
-          "e": 146.73,
-          "p": 0.993,
+          "s": 143.01,
+          "e": 143.19,
+          "p": 0.994,
           "take": 9,
-          "s0": 146.55,
+          "s0": 143.01,
           "sel": 9,
           "i": 83
         },
         {
           "w": "más",
-          "s": 146.73,
-          "e": 146.93,
-          "p": 0.982,
+          "s": 143.19,
+          "e": 143.41,
+          "p": 0.976,
           "take": 9,
-          "s0": 146.73,
+          "s0": 143.19,
           "sel": 9,
           "i": 84
         },
         {
           "w": "común",
-          "s": 146.93,
-          "e": 147.29,
-          "p": 0.997,
+          "s": 143.41,
+          "e": 143.75,
+          "p": 0.998,
           "take": 9,
-          "s0": 146.93,
+          "s0": 143.41,
           "sel": 9,
           "i": 85
         },
         {
           "w": "sobre",
-          "s": 147.29,
-          "e": 147.79,
-          "p": 0.985,
+          "s": 143.75,
+          "e": 144.31,
+          "p": 0.983,
           "take": 9,
-          "s0": 147.29,
+          "s0": 143.75,
           "sel": 9,
           "i": 86
         },
         {
           "w": "los",
-          "s": 147.79,
-          "e": 148.01,
-          "p": 0.948,
+          "s": 144.31,
+          "e": 144.47,
+          "p": 0.944,
           "take": 9,
-          "s0": 147.79,
+          "s0": 144.31,
           "sel": 9,
           "i": 87
         },
         {
           "w": "beneficios",
-          "s": 148.01,
-          "e": 148.57,
-          "p": 0.997,
+          "s": 144.47,
+          "e": 144.87,
+          "p": 0.993,
           "take": 9,
-          "s0": 148.01,
+          "s0": 144.47,
           "sel": 9,
           "i": 88
         },
         {
           "w": "sociales?",
-          "s": 148.57,
-          "e": 148.89,
-          "p": 0.887,
+          "s": 144.87,
+          "e": 145.09,
+          "p": 0.978,
           "take": 9,
-          "s0": 148.57,
+          "s0": 144.87,
           "sel": 9,
           "i": 89
         }
@@ -1088,7 +1060,7 @@
     },
     {
       "in": 228.12,
-      "out": 229.83,
+      "out": 236.31,
       "words": [
         {
           "w": "Nos",
@@ -1153,20 +1125,13 @@
         {
           "w": "a",
           "s": 229.64,
-          "e": 229.8,
+          "e": 229.96,
           "p": 0.785,
           "take": 11,
           "s0": 229.64,
           "sel": 11,
           "i": 102
-        }
-      ],
-      "text": "Nos vemos este 1 de diciembre a"
-    },
-    {
-      "in": 229.85,
-      "out": 233.49,
-      "words": [
+        },
         {
           "w": "las",
           "s": 229.96,
@@ -1310,20 +1275,13 @@
         {
           "w": "Iuris.",
           "s": 233.14,
-          "e": 233.47,
+          "e": 233.5,
           "p": 0.645,
           "take": 11,
           "s0": 233.14,
           "sel": 11,
           "i": 117
-        }
-      ],
-      "text": "las 8 p .m. en el live que tendremos con nuestros amigos de Vocare Iuris."
-    },
-    {
-      "in": 233.64,
-      "out": 236.31,
-      "words": [
+        },
         {
           "w": "Conversaremos",
           "s": 233.76,
@@ -1397,7 +1355,7 @@
         {
           "w": "laborales.",
           "s": 235.78,
-          "e": 236.24,
+          "e": 236.25,
           "p": 0.999,
           "take": 11,
           "s0": 235.78,
@@ -1405,7 +1363,7 @@
           "i": 125
         }
       ],
-      "text": "Conversaremos sobre cálculo y pago de beneficios laborales."
+      "text": "Nos vemos este 1 de diciembre a las 8 p .m. en el live que tendremos con nuestros amigos de Vocare Iuris. Conversaremos sobre cálculo y pago de beneficios laborales."
     },
     {
       "in": 236.5,
@@ -1413,7 +1371,7 @@
       "words": [
         {
           "w": "Nos",
-          "s": 236.53,
+          "s": 236.52,
           "e": 236.6,
           "p": 0.781,
           "take": 11,
@@ -1594,31 +1552,25 @@
     },
     {
       "kind": "off-camera-voice",
-      "at": 102.83,
-      "text": "¿Cuál cree que es el beneficio laboral que genera más",
+      "at": 102.82,
+      "text": "¿Cuál cree que es el beneficio laboral que genera más complicaciones en las empresas?",
       "note": "100 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
     },
     {
       "kind": "off-camera-voice",
-      "at": 105.02,
-      "text": "complicaciones en las empresas?",
-      "note": "100 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
-    },
-    {
-      "kind": "off-camera-voice",
-      "at": 145.78,
+      "at": 142.24,
       "text": "¿Cuál es el error más común sobre los beneficios sociales?",
-      "note": "47 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+      "note": "97 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
     }
   ],
   "stats": {
     "sourceDuration": 245.824,
     "sourceSpeechSpan": 195.35,
-    "outputDuration": 33.16,
-    "savedSeconds": 210.724,
+    "outputDuration": 33.63,
+    "savedSeconds": 211.274,
     "words": 128,
-    "wordsPerSecond": 3.647,
-    "acousticAirRemoved": 3.04
+    "wordsPerSecond": 3.705,
+    "acousticAirRemoved": 1.45
   },
   "speaker": [
     {
@@ -1629,7 +1581,7 @@
       "offCamera": 1
     },
     {
-      "in": 42.38,
+      "in": 42.36,
       "out": 42.75,
       "text": "Pong.",
       "timeline": "NNNN",
@@ -1637,35 +1589,28 @@
     },
     {
       "in": 42.96,
-      "out": 43.26,
-      "text": "Con.",
-      "timeline": "dNN",
-      "offCamera": 0.33
-    },
-    {
-      "in": 43.35,
       "out": 44.05,
-      "text": "Martín Ruyero.",
-      "timeline": "NNNNNNN",
-      "offCamera": 0
+      "text": "Con. Martín Ruyero.",
+      "timeline": "dNNNNNNNNNN",
+      "offCamera": 0.09
     },
     {
       "in": 44.42,
-      "out": 45.14,
+      "out": 45.15,
       "text": "¿A qué se dedica?",
       "timeline": "dddddNNN",
       "offCamera": 0.63
     },
     {
       "in": 45.3,
-      "out": 46.32,
+      "out": 46.49,
       "text": "Soy Abobao, la oralista.",
-      "timeline": "NNNNNNNNNNN",
+      "timeline": "NNNNNNNNNNNN",
       "offCamera": 0
     },
     {
       "in": 51.22,
-      "out": 53.77,
+      "out": 53.79,
       "text": "¿En qué le hubiera gustado especializarse si no hubiera sido laboral?",
       "timeline": "dddddddddddddddddddddddddN",
       "offCamera": 0.96
@@ -1678,7 +1623,7 @@
       "offCamera": 0
     },
     {
-      "in": 55.72,
+      "in": 55.71,
       "out": 57.11,
       "text": "procesar el civil litigio.",
       "timeline": "NNNNNNNNNNNNNN",
@@ -1693,52 +1638,31 @@
     },
     {
       "in": 65.3,
-      "out": 68.2,
-      "text": "Que debiendo contratarlo como trabajador en planilla,",
-      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
-      "offCamera": 0
-    },
-    {
-      "in": 68.27,
       "out": 68.82,
-      "text": "no lo hacen.",
-      "timeline": "NNNNNN",
+      "text": "Que debiendo contratarlo como trabajador en planilla, no lo hacen.",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 102.83,
-      "out": 105,
-      "text": "¿Cuál cree que es el beneficio laboral que genera más",
-      "timeline": "dddddddddddddddddddddd",
-      "offCamera": 1
-    },
-    {
-      "in": 105.02,
+      "in": 102.82,
       "out": 106.2,
-      "text": "complicaciones en las empresas?",
-      "timeline": "dddddddddddd",
+      "text": "¿Cuál cree que es el beneficio laboral que genera más complicaciones en las empresas?",
+      "timeline": "dddddddddddddddddddddddddddddddddd",
       "offCamera": 1
     },
     {
       "in": 106.73,
-      "out": 107.45,
-      "text": "Hoy en día te",
-      "timeline": "NNNNNNN.",
+      "out": 109.52,
+      "text": "Hoy en día te diría que el cálculo y pago de vacaciones.",
+      "timeline": "NNNNNNN.NNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
-      "in": 107.56,
-      "out": 109.48,
-      "text": "diría que el cálculo y pago de vacaciones.",
-      "timeline": "NNNNNNNNNNNNNNNNNNNN",
-      "offCamera": 0
-    },
-    {
-      "in": 145.78,
-      "out": 149.1,
+      "in": 142.24,
+      "out": 145.29,
       "text": "¿Cuál es el error más común sobre los beneficios sociales?",
-      "timeline": "NNNNNNNNNNNdNNNdddddddddddddddNNNN",
-      "offCamera": 0.47
+      "timeline": "ddddddddddddddddddddddddddddddN",
+      "offCamera": 0.97
     },
     {
       "in": 149.51,
@@ -1749,23 +1673,9 @@
     },
     {
       "in": 228.12,
-      "out": 229.83,
-      "text": "Nos vemos este 1 de diciembre a",
-      "timeline": "NNNNNNNNNNNNNNNNNN",
-      "offCamera": 0
-    },
-    {
-      "in": 229.85,
-      "out": 233.49,
-      "text": "las 8 p .m. en el live que tendremos con nuestros amigos de Vocare Iuris.",
-      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
-      "offCamera": 0
-    },
-    {
-      "in": 233.64,
       "out": 236.31,
-      "text": "Conversaremos sobre cálculo y pago de beneficios laborales.",
-      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNN",
+      "text": "Nos vemos este 1 de diciembre a las 8 p .m. en el live que tendremos con nuestros amigos de Vocare Iuris. Conversaremos sobre cálculo y pago de beneficios laborales.",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
       "offCamera": 0
     },
     {
