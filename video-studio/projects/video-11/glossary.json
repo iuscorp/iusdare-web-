@@ -1,0 +1,19 @@
+{
+ "_info": "video-11 multas / fotopapeletas",
+ "corrections": [
+  {
+   "match": "bocariyuris",
+   "replace": [
+    "Vocare",
+    "Iuris"
+   ]
+  },
+  {
+   "match": "vocare yuris",
+   "replace": [
+    "Vocare",
+    "Iuris"
+   ]
+  }
+ ]
+}
