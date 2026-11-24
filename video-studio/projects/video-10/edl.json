@@ -76,24 +76,15 @@
     },
     {
       "id": "s08",
-      "in": 77.542,
-      "out": 77.917,
+      "in": 78.125,
+      "out": 78.792,
       "role": "context",
       "framing": "base",
       "move": "slowPush",
-      "note": "No"
+      "note": "No dice..."
     },
     {
       "id": "s09",
-      "in": 78.125,
-      "out": 78.75,
-      "role": "context",
-      "framing": "base",
-      "move": "slowPush",
-      "note": "dice,"
-    },
-    {
-      "id": "s10",
       "in": 85.375,
       "out": 87.25,
       "role": "context",
@@ -102,7 +93,7 @@
       "note": "Ni es reciclada ni reciclable."
     },
     {
-      "id": "s11",
+      "id": "s10",
       "in": 88.042,
       "out": 88.5,
       "role": "context",
@@ -111,7 +102,7 @@
       "note": "Never."
     },
     {
-      "id": "s12",
+      "id": "s11",
       "in": 96.125,
       "out": 98.417,
       "role": "context",
@@ -120,7 +111,7 @@
       "note": "Eso tiene un nombre y se llama Greenwashing."
     },
     {
-      "id": "s13",
+      "id": "s12",
       "in": 119.833,
       "out": 122.417,
       "role": "context",
@@ -129,7 +120,7 @@
       "note": "Hacer que algo parezca más ecológico de lo"
     },
     {
-      "id": "s14",
+      "id": "s13",
       "in": 122.417,
       "out": 122.75,
       "role": "context",
@@ -138,7 +129,7 @@
       "note": "que es."
     },
     {
-      "id": "s15",
+      "id": "s14",
       "in": 124.958,
       "out": 125.333,
       "role": "context",
@@ -147,7 +138,7 @@
       "note": "Leados."
     },
     {
-      "id": "s16",
+      "id": "s15",
       "in": 128.292,
       "out": 129.833,
       "role": "context",
@@ -156,7 +147,7 @@
       "note": "Tiene un sello verde precioso."
     },
     {
-      "id": "s17",
+      "id": "s16",
       "in": 131.583,
       "out": 132.25,
       "role": "context",
@@ -165,7 +156,7 @@
       "note": "¿Y quién lo da?"
     },
     {
-      "id": "s18",
+      "id": "s17",
       "in": 134.625,
       "out": 136.458,
       "role": "context",
@@ -174,7 +165,7 @@
       "note": "Nadie lo diseñó en la misma marca."
     },
     {
-      "id": "s19",
+      "id": "s18",
       "in": 139.292,
       "out": 141.5,
       "role": "twist",
@@ -183,7 +174,7 @@
       "note": "Ojo, no tiene que ser una mentira de directa."
     },
     {
-      "id": "s20",
+      "id": "s19",
       "in": 144.208,
       "out": 145.917,
       "role": "context",
@@ -192,7 +183,7 @@
       "note": "Basta con que te va a creer algo"
     },
     {
-      "id": "s21",
+      "id": "s20",
       "in": 146.083,
       "out": 146.75,
       "role": "context",
@@ -201,7 +192,7 @@
       "note": "que no es."
     },
     {
-      "id": "s22",
+      "id": "s21",
       "in": 150.083,
       "out": 151.958,
       "role": "context",
@@ -210,7 +201,7 @@
       "note": "En nuestro país eso se considera"
     },
     {
-      "id": "s23",
+      "id": "s22",
       "in": 152.125,
       "out": 153,
       "role": "context",
@@ -219,7 +210,7 @@
       "note": "publicidad engañosa."
     },
     {
-      "id": "s24",
+      "id": "s23",
       "in": 156.083,
       "out": 157.792,
       "role": "legal-basis",
@@ -228,7 +219,7 @@
       "note": "Indecopi, puedes sancionarlo."
     },
     {
-      "id": "s25",
+      "id": "s24",
       "in": 159.292,
       "out": 159.792,
       "role": "context",
@@ -237,7 +228,7 @@
       "note": "Ilea 3."
     },
     {
-      "id": "s26",
+      "id": "s25",
       "in": 163.5,
       "out": 166.333,
       "role": "context",
@@ -246,7 +237,7 @@
       "note": "Es la única que te dice exactamente qué tiene de ecológica."
     },
     {
-      "id": "s27",
+      "id": "s26",
       "in": 184,
       "out": 186.5,
       "role": "context",
@@ -255,7 +246,7 @@
       "note": "Dice, en base con 50 % de plástico"
     },
     {
-      "id": "s28",
+      "id": "s27",
       "in": 186.5,
       "out": 187.083,
       "role": "context",
@@ -264,7 +255,7 @@
       "note": "reciclado."
     },
     {
-      "id": "s29",
+      "id": "s28",
       "in": 189.5,
       "out": 191.167,
       "role": "recap",
@@ -273,7 +264,7 @@
       "note": "Esa es específica comprobable."
     },
     {
-      "id": "s30",
+      "id": "s29",
       "in": 192.708,
       "out": 193.417,
       "role": "context",
@@ -282,7 +273,7 @@
       "note": "Esa es."
     },
     {
-      "id": "s31",
+      "id": "s30",
       "in": 197.083,
       "out": 199.5,
       "role": "context",
@@ -371,54 +362,6 @@
       "emphasis": false
     },
     {
-      "text": "Escoge",
-      "start": 3.892,
-      "end": 4.272,
-      "emphasis": false
-    },
-    {
-      "text": "una",
-      "start": 4.272,
-      "end": 4.512,
-      "emphasis": false
-    },
-    {
-      "text": "y",
-      "start": 4.512,
-      "end": 4.772,
-      "emphasis": false
-    },
-    {
-      "text": "veremos",
-      "start": 4.772,
-      "end": 5.172,
-      "emphasis": false
-    },
-    {
-      "text": "cuál",
-      "start": 5.172,
-      "end": 5.492,
-      "emphasis": false
-    },
-    {
-      "text": "de",
-      "start": 5.492,
-      "end": 5.692,
-      "emphasis": false
-    },
-    {
-      "text": "ellas",
-      "start": 5.692,
-      "end": 5.912,
-      "emphasis": false
-    },
-    {
-      "text": "es",
-      "start": 5.912,
-      "end": 6.167,
-      "emphasis": false
-    },
-    {
       "text": "La",
       "start": 6.167,
       "end": 6.327,
@@ -504,659 +447,659 @@
     },
     {
       "text": "No",
-      "start": 10.338,
-      "end": 10.625,
+      "start": 10.245,
+      "end": 10.385,
       "emphasis": false
     },
     {
       "text": "dice",
-      "start": 10.73,
-      "end": 11.25,
+      "start": 10.385,
+      "end": 10.917,
       "emphasis": false
     },
     {
       "text": "Ni",
-      "start": 11.325,
-      "end": 11.445,
+      "start": 10.992,
+      "end": 11.112,
       "emphasis": false
     },
     {
       "text": "es",
-      "start": 11.415,
-      "end": 11.535,
+      "start": 11.082,
+      "end": 11.202,
       "emphasis": false
     },
     {
       "text": "reciclada",
-      "start": 11.535,
-      "end": 12.095,
+      "start": 11.202,
+      "end": 11.762,
       "emphasis": false
     },
     {
       "text": "ni",
-      "start": 12.095,
-      "end": 12.375,
+      "start": 11.762,
+      "end": 12.042,
       "emphasis": false
     },
     {
       "text": "reciclable",
-      "start": 12.375,
-      "end": 13.125,
+      "start": 12.042,
+      "end": 12.792,
       "emphasis": false
     },
     {
       "text": "nada",
-      "start": 13.133,
-      "end": 13.583,
+      "start": 12.8,
+      "end": 13.25,
       "emphasis": false
     },
     {
       "text": "Eso",
-      "start": 13.578,
-      "end": 13.718,
+      "start": 13.245,
+      "end": 13.385,
       "emphasis": false
     },
     {
       "text": "tiene",
-      "start": 13.718,
-      "end": 13.978,
+      "start": 13.385,
+      "end": 13.645,
       "emphasis": false
     },
     {
       "text": "un",
-      "start": 13.978,
-      "end": 14.118,
+      "start": 13.645,
+      "end": 13.785,
       "emphasis": false
     },
     {
       "text": "nombre",
-      "start": 14.118,
-      "end": 14.338,
+      "start": 13.785,
+      "end": 14.005,
       "emphasis": false
     },
     {
       "text": "y",
-      "start": 14.338,
-      "end": 14.678,
+      "start": 14.005,
+      "end": 14.345,
       "emphasis": false
     },
     {
       "text": "se",
-      "start": 14.678,
-      "end": 14.798,
+      "start": 14.345,
+      "end": 14.465,
       "emphasis": false
     },
     {
       "text": "llama",
-      "start": 14.798,
-      "end": 15.038,
+      "start": 14.465,
+      "end": 14.705,
       "emphasis": false
     },
     {
       "text": "Greenwashing",
-      "start": 15.038,
-      "end": 15.875,
+      "start": 14.705,
+      "end": 15.542,
       "emphasis": false
     },
     {
       "text": "Hacer",
-      "start": 15.892,
-      "end": 16.192,
+      "start": 15.558,
+      "end": 15.858,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 16.192,
-      "end": 16.412,
+      "start": 15.858,
+      "end": 16.078,
       "emphasis": false
     },
     {
       "text": "algo",
-      "start": 16.412,
-      "end": 16.572,
+      "start": 16.078,
+      "end": 16.238,
       "emphasis": false
     },
     {
       "text": "parezca",
-      "start": 16.572,
-      "end": 17.032,
+      "start": 16.238,
+      "end": 16.698,
       "emphasis": false
     },
     {
       "text": "más",
-      "start": 17.032,
-      "end": 17.452,
+      "start": 16.698,
+      "end": 17.118,
       "emphasis": false
     },
     {
       "text": "ecológico",
-      "start": 17.452,
-      "end": 18.112,
+      "start": 17.118,
+      "end": 17.778,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 18.112,
-      "end": 18.352,
+      "start": 17.778,
+      "end": 18.018,
       "emphasis": false
     },
     {
       "text": "lo",
-      "start": 18.352,
-      "end": 18.472,
+      "start": 18.018,
+      "end": 18.138,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 18.472,
-      "end": 18.612,
+      "start": 18.138,
+      "end": 18.278,
       "emphasis": false
     },
     {
       "text": "es",
-      "start": 18.612,
-      "end": 18.792,
+      "start": 18.278,
+      "end": 18.458,
       "emphasis": false
     },
     {
       "text": "La",
-      "start": 18.933,
-      "end": 19.05,
+      "start": 18.6,
+      "end": 18.7165,
       "emphasis": false
     },
     {
       "text": "dos",
-      "start": 19.05,
-      "end": 19.167,
+      "start": 18.7165,
+      "end": 18.833,
       "emphasis": false
     },
     {
       "text": "Tiene",
-      "start": 19.175,
-      "end": 19.345,
+      "start": 18.842,
+      "end": 19.012,
       "emphasis": false
     },
     {
       "text": "un",
-      "start": 19.345,
-      "end": 19.465,
+      "start": 19.012,
+      "end": 19.132,
       "emphasis": false
     },
     {
       "text": "sello",
-      "start": 19.465,
-      "end": 19.725,
+      "start": 19.132,
+      "end": 19.392,
       "emphasis": false
     },
     {
       "text": "verde",
-      "start": 19.725,
-      "end": 19.925,
+      "start": 19.392,
+      "end": 19.592,
       "emphasis": false
     },
     {
       "text": "precioso",
-      "start": 19.925,
-      "end": 20.708,
+      "start": 19.592,
+      "end": 20.375,
       "emphasis": false
     },
     {
       "text": "Y",
-      "start": 20.695,
-      "end": 20.815,
+      "start": 20.362,
+      "end": 20.482,
       "emphasis": false
     },
     {
       "text": "quién",
-      "start": 20.795,
-      "end": 20.955,
+      "start": 20.462,
+      "end": 20.622,
       "emphasis": false
     },
     {
       "text": "lo",
-      "start": 20.955,
-      "end": 21.135,
+      "start": 20.622,
+      "end": 20.802,
       "emphasis": false
     },
     {
       "text": "da",
-      "start": 21.135,
-      "end": 21.375,
+      "start": 20.802,
+      "end": 21.042,
       "emphasis": false
     },
     {
       "text": "Nadie",
-      "start": 21.4,
-      "end": 21.79,
+      "start": 21.067,
+      "end": 21.457,
       "emphasis": false
     },
     {
       "text": "lo",
-      "start": 21.79,
-      "end": 22.05,
+      "start": 21.457,
+      "end": 21.717,
       "emphasis": false
     },
     {
       "text": "diseñó",
-      "start": 22.05,
-      "end": 22.57,
+      "start": 21.717,
+      "end": 22.237,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 22.57,
-      "end": 22.69,
+      "start": 22.237,
+      "end": 22.357,
       "emphasis": false
     },
     {
       "text": "misma",
-      "start": 22.65,
-      "end": 22.81,
+      "start": 22.317,
+      "end": 22.477,
       "emphasis": false
     },
     {
       "text": "marca",
-      "start": 22.81,
-      "end": 23.208,
+      "start": 22.477,
+      "end": 22.875,
       "emphasis": false
     },
     {
       "text": "Ojo",
-      "start": 23.217,
-      "end": 23.687,
+      "start": 22.883,
+      "end": 23.353,
       "emphasis": false
     },
     {
       "text": "no",
-      "start": 23.687,
-      "end": 23.807,
+      "start": 23.353,
+      "end": 23.473,
       "emphasis": false
     },
     {
       "text": "tiene",
-      "start": 23.807,
-      "end": 23.967,
+      "start": 23.473,
+      "end": 23.633,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 23.967,
-      "end": 24.127,
+      "start": 23.633,
+      "end": 23.793,
       "emphasis": false
     },
     {
       "text": "ser",
-      "start": 24.127,
-      "end": 24.287,
+      "start": 23.793,
+      "end": 23.953,
       "emphasis": false
     },
     {
       "text": "una",
-      "start": 24.287,
-      "end": 24.447,
+      "start": 23.953,
+      "end": 24.113,
       "emphasis": false
     },
     {
       "text": "mentira",
-      "start": 24.447,
-      "end": 24.907,
+      "start": 24.113,
+      "end": 24.573,
       "emphasis": false
     },
     {
       "text": "directa",
-      "start": 24.907,
-      "end": 25.417,
+      "start": 24.573,
+      "end": 25.083,
       "emphasis": false
     },
     {
       "text": "Basta",
-      "start": 25.408,
-      "end": 25.778,
+      "start": 25.075,
+      "end": 25.445,
       "emphasis": false
     },
     {
       "text": "con",
-      "start": 25.778,
-      "end": 26.018,
+      "start": 25.445,
+      "end": 25.685,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 26.018,
-      "end": 26.138,
+      "start": 25.685,
+      "end": 25.805,
       "emphasis": false
     },
     {
       "text": "te",
-      "start": 26.138,
-      "end": 26.258,
+      "start": 25.805,
+      "end": 25.925,
       "emphasis": false
     },
     {
       "text": "haga",
-      "start": 26.238,
-      "end": 26.498,
+      "start": 25.905,
+      "end": 26.165,
       "emphasis": false
     },
     {
       "text": "creer",
-      "start": 26.428,
-      "end": 26.738,
+      "start": 26.095,
+      "end": 26.405,
       "emphasis": false
     },
     {
       "text": "algo",
-      "start": 26.738,
-      "end": 27.125,
+      "start": 26.405,
+      "end": 26.792,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 27.112,
-      "end": 27.232,
+      "start": 26.778,
+      "end": 26.898,
       "emphasis": false
     },
     {
       "text": "no",
-      "start": 27.192,
-      "end": 27.472,
+      "start": 26.858,
+      "end": 27.138,
       "emphasis": false
     },
     {
       "text": "es",
-      "start": 27.472,
-      "end": 27.792,
+      "start": 27.138,
+      "end": 27.458,
       "emphasis": false
     },
     {
       "text": "En",
-      "start": 27.808,
-      "end": 27.928,
+      "start": 27.475,
+      "end": 27.595,
       "emphasis": false
     },
     {
       "text": "nuestro",
-      "start": 27.908,
-      "end": 28.068,
+      "start": 27.575,
+      "end": 27.735,
       "emphasis": false
     },
     {
       "text": "país",
-      "start": 28.068,
-      "end": 28.388,
+      "start": 27.735,
+      "end": 28.055,
       "emphasis": false
     },
     {
       "text": "eso",
-      "start": 28.388,
-      "end": 28.848,
+      "start": 28.055,
+      "end": 28.515,
       "emphasis": false
     },
     {
       "text": "se",
-      "start": 28.848,
-      "end": 29.008,
+      "start": 28.515,
+      "end": 28.675,
       "emphasis": false
     },
     {
       "text": "considera",
-      "start": 29.008,
-      "end": 29.667,
+      "start": 28.675,
+      "end": 29.333,
       "emphasis": false
     },
     {
       "text": "publicidad",
-      "start": 29.672,
-      "end": 30.102,
+      "start": 29.338,
+      "end": 29.768,
       "emphasis": false
     },
     {
       "text": "engañosa",
-      "start": 30.102,
-      "end": 30.542,
+      "start": 29.768,
+      "end": 30.208,
       "emphasis": false
     },
     {
       "text": "Y",
-      "start": 30.718,
-      "end": 30.838,
+      "start": 30.385,
+      "end": 30.505000000000003,
       "emphasis": false
     },
     {
       "text": "Indecopi",
-      "start": 30.838,
-      "end": 31.298,
+      "start": 30.505000000000003,
+      "end": 30.965,
       "emphasis": false
     },
     {
       "text": "puede",
-      "start": 31.298,
-      "end": 31.578,
+      "start": 30.965,
+      "end": 31.245,
       "emphasis": false
     },
     {
       "text": "sancionarlo",
-      "start": 31.578,
-      "end": 32.25,
+      "start": 31.245,
+      "end": 31.917,
       "emphasis": false
     },
     {
       "text": "Y la",
-      "start": 32.258,
-      "end": 32.498,
+      "start": 31.925,
+      "end": 32.165,
       "emphasis": false
     },
     {
       "text": "tres",
-      "start": 32.498,
-      "end": 32.75,
+      "start": 32.165,
+      "end": 32.417,
       "emphasis": false
     },
     {
       "text": "Es",
-      "start": 32.75,
-      "end": 32.87,
+      "start": 32.417,
+      "end": 32.537,
       "emphasis": false
     },
     {
       "text": "la",
-      "start": 32.86,
-      "end": 32.98,
+      "start": 32.527,
+      "end": 32.647,
       "emphasis": false
     },
     {
       "text": "única",
-      "start": 32.98,
-      "end": 33.2,
+      "start": 32.647,
+      "end": 32.867,
       "emphasis": false
     },
     {
       "text": "que",
-      "start": 33.2,
-      "end": 33.42,
+      "start": 32.867,
+      "end": 33.087,
       "emphasis": false
     },
     {
       "text": "te",
-      "start": 33.42,
-      "end": 33.56,
+      "start": 33.087,
+      "end": 33.227,
       "emphasis": false
     },
     {
       "text": "dice",
-      "start": 33.56,
-      "end": 33.78,
+      "start": 33.227,
+      "end": 33.447,
       "emphasis": false
     },
     {
       "text": "exactamente",
-      "start": 33.78,
-      "end": 34.3,
+      "start": 33.447,
+      "end": 33.967,
       "emphasis": false
     },
     {
       "text": "qué",
-      "start": 34.3,
-      "end": 34.7,
+      "start": 33.967,
+      "end": 34.367,
       "emphasis": false
     },
     {
       "text": "tiene",
-      "start": 34.7,
-      "end": 35.04,
+      "start": 34.367,
+      "end": 34.707,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 35.04,
-      "end": 35.2,
+      "start": 34.707,
+      "end": 34.867,
       "emphasis": false
     },
     {
       "text": "ecológica",
-      "start": 35.2,
-      "end": 35.583,
+      "start": 34.867,
+      "end": 35.25,
       "emphasis": false
     },
     {
       "text": "Dice",
-      "start": 35.573,
-      "end": 36.153,
+      "start": 35.24,
+      "end": 35.82,
       "emphasis": false
     },
     {
       "text": "en",
-      "start": 36.153,
-      "end": 36.273,
+      "start": 35.82,
+      "end": 35.94,
       "emphasis": false
     },
     {
       "text": "base",
-      "start": 36.233,
-      "end": 36.393,
+      "start": 35.9,
+      "end": 36.06,
       "emphasis": false
     },
     {
       "text": "con",
-      "start": 36.393,
-      "end": 36.593,
+      "start": 36.06,
+      "end": 36.26,
       "emphasis": false
     },
     {
       "text": "50",
-      "start": 36.593,
-      "end": 36.873,
+      "start": 36.26,
+      "end": 36.54,
       "emphasis": false
     },
     {
       "text": "%",
-      "start": 36.873,
-      "end": 37.413,
+      "start": 36.54,
+      "end": 37.08,
       "emphasis": false
     },
     {
       "text": "de",
-      "start": 37.413,
-      "end": 37.713,
+      "start": 37.08,
+      "end": 37.38,
       "emphasis": false
     },
     {
       "text": "plástico",
-      "start": 37.713,
-      "end": 38.083,
+      "start": 37.38,
+      "end": 37.75,
       "emphasis": false
     },
     {
       "text": "reciclado",
-      "start": 38.093,
-      "end": 38.667,
+      "start": 37.76,
+      "end": 38.333,
       "emphasis": false
     },
     {
       "text": "Es",
-      "start": 38.667,
-      "end": 39.027,
+      "start": 38.333,
+      "end": 38.693,
       "emphasis": false
     },
     {
       "text": "específica",
-      "start": 38.957,
-      "end": 39.607,
+      "start": 38.623,
+      "end": 39.273,
       "emphasis": false
     },
     {
       "text": "comprobable",
-      "start": 39.607,
-      "end": 40.333,
+      "start": 39.273,
+      "end": 40,
       "emphasis": false
     },
     {
       "text": "Esa",
-      "start": 40.325,
-      "end": 40.745,
+      "start": 39.992,
+      "end": 40.412,
       "emphasis": false
     },
     {
       "text": "es",
-      "start": 40.745,
-      "end": 41.042,
+      "start": 40.412,
+      "end": 40.708,
       "emphasis": false
     },
     {
       "text": "Y",
-      "start": 41.048,
-      "end": 41.168,
+      "start": 40.715,
+      "end": 40.835,
       "emphasis": false
     },
     {
       "text": "tú",
-      "start": 41.168,
-      "end": 41.488,
+      "start": 40.835,
+      "end": 41.155,
       "emphasis": false
     },
     {
       "text": "cuál",
-      "start": 41.488,
-      "end": 41.628,
+      "start": 41.155,
+      "end": 41.295,
       "emphasis": false
     },
     {
       "text": "escogiste",
-      "start": 41.628,
-      "end": 42.468,
+      "start": 41.295,
+      "end": 42.135,
       "emphasis": false
     },
     {
       "text": "Dímelo",
-      "start": 42.468,
-      "end": 42.768,
+      "start": 42.135,
+      "end": 42.435,
       "emphasis": false
     },
     {
       "text": "en",
-      "start": 42.768,
-      "end": 42.888,
+      "start": 42.435,
+      "end": 42.555,
       "emphasis": false
     },
     {
       "text": "los",
-      "start": 42.888,
-      "end": 43.008,
+      "start": 42.555,
+      "end": 42.675,
       "emphasis": false
     },
     {
       "text": "comentarios",
-      "start": 42.948,
-      "end": 43.458,
+      "start": 42.615,
+      "end": 43.125,
       "emphasis": false
     }
   ],
   "overlays": [
     {
       "type": "bottles",
-      "x": 0.5,
-      "y": 0.67,
-      "w": 190,
+      "x": 0.47,
+      "y": 0.6,
+      "w": 175,
       "start": 0,
       "end": 2.237,
       "note": "hook: tres botellas en pantalla"
@@ -1177,7 +1120,7 @@
       "layout": "stack",
       "uppercase": true,
       "stepFrames": 3,
-      "x": 0.5,
+      "x": 0.47,
       "y": 0.6,
       "start": 2.267,
       "end": 3.862,
@@ -1185,9 +1128,9 @@
     },
     {
       "type": "bottles",
-      "x": 0.5,
-      "y": 0.67,
-      "w": 190,
+      "x": 0.47,
+      "y": 0.6,
+      "w": 175,
       "marks": [
         null,
         null,
@@ -1198,23 +1141,23 @@
       "note": "escoge una"
     },
     {
-      "type": "selectionLabel",
-      "text": "¿Cuál es la ecológica?",
-      "cursor": true,
+      "type": "ledSign",
+      "text": "¿Cuál es\nla ecológica?",
       "x": 0.5,
-      "y": 0.87,
-      "start": 4.772,
+      "y": 0.205,
+      "behindPerson": true,
+      "start": 3.892,
       "end": 6.137,
-      "note": "reto al espectador"
+      "note": "reto al espectador (LED)"
     },
     {
       "type": "bottles",
-      "x": 0.5,
-      "y": 0.67,
+      "x": 0.47,
+      "y": 0.6,
       "show": [
         0
       ],
-      "w": 250,
+      "w": 230,
       "start": 6.167,
       "end": 9.598,
       "note": "botella 1"
@@ -1226,22 +1169,22 @@
       "x": 0.68,
       "y": 0.62,
       "start": 9.628,
-      "end": 10.308,
+      "end": 10.215,
       "note": "¿pero por qué?"
     },
     {
       "type": "bottles",
-      "x": 0.5,
-      "y": 0.67,
+      "x": 0.47,
+      "y": 0.6,
       "show": [
         0
       ],
-      "w": 250,
+      "w": 230,
       "marks": [
         "x"
       ],
-      "start": 10.338,
-      "end": 13.548,
+      "start": 10.245,
+      "end": 13.215,
       "note": "no dice nada: ✗"
     },
     {
@@ -1250,52 +1193,52 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 13.578,
-      "end": 15.008,
+      "start": 13.245,
+      "end": 14.675,
       "note": "eso tiene un nombre"
     },
     {
       "type": "flash",
       "opacity": 0.6,
-      "start": 15.018,
-      "end": 15.198,
+      "start": 14.685,
+      "end": 14.865,
       "note": "ruptura de patrón"
     },
     {
-      "type": "kineticWord",
-      "syllables": [
+      "type": "brushPaint",
+      "lines": [
         "GREEN",
         "WASHING"
       ],
-      "layout": "stack",
-      "uppercase": true,
-      "stepFrames": 3,
-      "x": 0.5,
-      "y": 0.6,
-      "start": 15.038,
-      "end": 15.862,
-      "note": "término"
+      "x": 0.47,
+      "y": 0.62,
+      "start": 14.705,
+      "end": 16.605,
+      "note": "término + brocha"
     },
     {
-      "type": "selectionLabel",
-      "text": "Parecer más ecológico de lo que es",
-      "cursor": true,
-      "x": 0.5,
-      "y": 0.66,
-      "start": 15.842,
-      "end": 18.903,
-      "note": "definición"
+      "type": "rubberStamp",
+      "lines": [
+        "Parecer más",
+        "ecológico",
+        "de lo que es"
+      ],
+      "x": 0.47,
+      "y": 0.64,
+      "start": 16.635,
+      "end": 18.57,
+      "note": "definición (sello)"
     },
     {
       "type": "bottles",
-      "x": 0.5,
-      "y": 0.67,
+      "x": 0.47,
+      "y": 0.6,
       "show": [
         1
       ],
-      "w": 250,
-      "start": 18.933,
-      "end": 20.665,
+      "w": 230,
+      "start": 18.6,
+      "end": 20.332,
       "note": "botella 2: sello verde"
     },
     {
@@ -1304,33 +1247,33 @@
       "size": 175,
       "x": 0.68,
       "y": 0.62,
-      "start": 20.695,
-      "end": 21.37,
+      "start": 20.362,
+      "end": 21.037,
       "note": "¿y quién lo da?"
     },
     {
       "type": "bottles",
-      "x": 0.5,
-      "y": 0.67,
+      "x": 0.47,
+      "y": 0.6,
       "show": [
         1
       ],
-      "w": 250,
+      "w": 230,
       "marks": [
         null,
         "x"
       ],
-      "start": 21.4,
-      "end": 23.187,
+      "start": 21.067,
+      "end": 22.853,
       "note": "lo diseñó la misma marca: ✗"
     },
     {
       "type": "textBadge",
-      "text": "No tiene que ser una mentira directa",
-      "x": 0.5,
+      "text": "No tiene que ser\nuna mentira directa",
+      "x": 0.47,
       "y": 0.64,
-      "start": 23.217,
-      "end": 25.378,
+      "start": 22.883,
+      "end": 25.045,
       "note": "ojo"
     },
     {
@@ -1339,8 +1282,8 @@
       "size": 175,
       "x": 0.32,
       "y": 0.62,
-      "start": 25.408,
-      "end": 27.778,
+      "start": 25.075,
+      "end": 27.445,
       "note": "basta con hacerte creer algo"
     },
     {
@@ -1348,80 +1291,80 @@
       "title": "Publicidad engañosa",
       "subtitle": "D. Leg. 1044 · Actos de engaño",
       "color": "yellow",
-      "x": 0.5,
+      "x": 0.47,
       "y": 0.66,
-      "start": 27.808,
-      "end": 30.688,
+      "start": 27.475,
+      "end": 30.355,
       "note": "normativa (verificar cita)"
     },
     {
       "type": "flash",
       "opacity": 0.6,
-      "start": 30.698,
-      "end": 30.878,
+      "start": 30.365,
+      "end": 30.545,
       "note": "ruptura de patrón"
     },
     {
       "type": "verdictStamp",
       "text": "Indecopi sanciona",
       "tone": "deny",
-      "x": 0.5,
+      "x": 0.47,
       "y": 0.6,
-      "start": 30.718,
-      "end": 32.228,
+      "start": 30.385,
+      "end": 31.895,
       "note": "Indecopi puede sancionarlo"
     },
     {
       "type": "bottles",
-      "x": 0.5,
-      "y": 0.67,
+      "x": 0.47,
+      "y": 0.6,
       "show": [
         2
       ],
-      "w": 250,
-      "start": 32.258,
-      "end": 38.637,
+      "w": 230,
+      "start": 31.925,
+      "end": 38.303,
       "note": "botella 3: 50 % reciclado"
     },
     {
       "type": "bottles",
-      "x": 0.5,
-      "y": 0.67,
+      "x": 0.47,
+      "y": 0.6,
       "show": [
         2
       ],
-      "w": 250,
+      "w": 230,
       "marks": [
         null,
         null,
         "check"
       ],
-      "start": 38.667,
-      "end": 41.138,
+      "start": 38.333,
+      "end": 40.805,
       "note": "específica y comprobable: ✓"
     },
     {
       "type": "bottles",
-      "x": 0.5,
-      "y": 0.67,
+      "x": 0.47,
+      "y": 0.6,
       "w": 170,
       "marks": [
         "x",
         "x",
         "check"
       ],
-      "start": 41.168,
-      "end": 43.458,
+      "start": 40.835,
+      "end": 43.125,
       "note": "cierre en bucle"
     },
     {
       "type": "sticker",
       "emoji": "💬",
       "size": 175,
-      "x": 0.5,
-      "y": 0.88,
-      "start": 42.468,
-      "end": 43.458,
+      "x": 0.18,
+      "y": 0.4,
+      "start": 42.135,
+      "end": 43.125,
       "note": "dímelo en los comentarios"
     }
   ],
@@ -12367,5 +12310,6 @@
       0.2492,
       0.2485
     ]
-  }
+  },
+  "personMatte": "footage/video-10/person.webm"
 }

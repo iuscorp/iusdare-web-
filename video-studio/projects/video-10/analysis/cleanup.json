@@ -430,38 +430,31 @@
       "text": "¿Pero por qué?"
     },
     {
-      "in": 77.55,
-      "out": 77.9,
+      "in": 78.12,
+      "out": 78.79,
       "words": [
         {
           "w": "No",
-          "s": 77.63,
-          "e": 77.8074,
-          "p": 0.206,
+          "s": 78.12,
+          "e": 78.26,
+          "p": 0.837,
           "take": 7,
-          "s0": 77.63,
+          "s0": 78.08,
           "sel": 7,
           "i": 38
-        }
-      ],
-      "text": "No"
-    },
-    {
-      "in": 78.12,
-      "out": 78.74,
-      "words": [
+        },
         {
-          "w": "dice,",
-          "s": 78.23,
-          "e": 78.55,
-          "p": 0.94,
+          "w": "dice...",
+          "s": 78.26,
+          "e": 78.79,
+          "p": 0.586,
           "take": 7,
-          "s0": 78.23,
+          "s0": 78.26,
           "sel": 7,
           "i": 39
         }
       ],
-      "text": "dice,"
+      "text": "No dice..."
     },
     {
       "in": 85.39,
@@ -1683,14 +1676,7 @@
       "text": "Y tú, ¿cuál escogiste? Dímelo en los comentarios."
     }
   ],
-  "removed": [
-    {
-      "kind": "silence",
-      "from": 77.807,
-      "to": 78.23,
-      "text": "0.42 s → 0.17 s"
-    }
-  ],
+  "removed": [],
   "keptPauses": [
     {
       "at": 198.19,
@@ -1725,13 +1711,6 @@
       "at": 63.2,
       "text": "Y",
       "p": 0.491,
-      "note": "Verificar ortografía/término en subtítulo."
-    },
-    {
-      "kind": "low-confidence",
-      "at": 77.63,
-      "text": "No",
-      "p": 0.206,
       "note": "Verificar ortografía/término en subtítulo."
     },
     {
@@ -1822,11 +1801,11 @@
   "stats": {
     "sourceDuration": 227.776,
     "sourceSpeechSpan": 186.11,
-    "outputDuration": 43.4,
-    "savedSeconds": 181.659,
+    "outputDuration": 43.1,
+    "savedSeconds": 181.766,
     "words": 148,
-    "wordsPerSecond": 3.209,
-    "acousticAirRemoved": 3.55
+    "wordsPerSecond": 3.217,
+    "acousticAirRemoved": 3.61
   },
   "speaker": [
     {
@@ -1879,16 +1858,9 @@
       "offCamera": 0
     },
     {
-      "in": 77.55,
-      "out": 77.9,
-      "text": "No",
-      "timeline": "NNN.",
-      "offCamera": 0
-    },
-    {
       "in": 78.12,
-      "out": 78.74,
-      "text": "dice,",
+      "out": 78.79,
+      "text": "No dice...",
       "timeline": "NNNNNNN",
       "offCamera": 0
     },

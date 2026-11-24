@@ -10,7 +10,7 @@
       "name": "Bitrate de video",
       "ok": true,
       "level": "ok",
-      "detail": "10.9 Mbps"
+      "detail": "11.0 Mbps"
     },
     {
       "name": "Espacio de color",
@@ -28,7 +28,7 @@
       "name": "Duración",
       "ok": true,
       "level": "ok",
-      "detail": "43.50 s (EDL 43.46 s)"
+      "detail": "43.20 s (EDL 43.13 s)"
     },
     {
       "name": "Fotogramas negros",
@@ -64,80 +64,60 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana -2 ms, p90 |78| ms, 131/143 palabras alineadas"
+      "detail": "mediana -2 ms, p90 |100| ms, 127/135 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
       "ok": true,
       "level": "ok",
-      "detail": "12 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "detail": "8 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 131,
-    "total": 143,
+    "matched": 127,
+    "total": 135,
     "medianOffset": -0.0019999999999988916,
-    "p90AbsOffset": 0.0779999999999994,
+    "p90AbsOffset": 0.10000000000000142,
     "mismatches": [
       {
-        "at": 19.925,
-        "caption": "precioso",
-        "heard": "verde presión."
-      },
-      {
-        "at": 20.695,
+        "at": 20.362,
         "caption": "Y",
-        "heard": "qué lo da?"
+        "heard": "quién lo da?"
       },
       {
-        "at": 20.795,
-        "caption": "quién",
-        "heard": "qué lo da?"
-      },
-      {
-        "at": 30.718,
+        "at": 30.385,
         "caption": "Y",
         "heard": "la"
       },
       {
-        "at": 30.838,
+        "at": 30.505000000000003,
         "caption": "Indecopi",
         "heard": "la"
       },
       {
-        "at": 31.298,
+        "at": 30.965,
         "caption": "puede",
-        "heard": "3"
+        "heard": "3,"
       },
       {
-        "at": 31.578,
+        "at": 31.245,
         "caption": "sancionarlo",
-        "heard": "3"
+        "heard": "3,"
       },
       {
-        "at": 32.258,
+        "at": 31.925,
         "caption": "Y la",
-        "heard": "es"
+        "heard": "(nada)"
       },
       {
-        "at": 32.498,
+        "at": 32.165,
         "caption": "tres",
         "heard": "es la"
       },
       {
-        "at": 36.393,
-        "caption": "con",
-        "heard": "en base a un 50"
-      },
-      {
-        "at": 39.607,
+        "at": 39.273,
         "caption": "comprobable",
         "heard": "con probable."
-      },
-      {
-        "at": 40.325,
-        "caption": "Esa",
-        "heard": "es."
       }
     ]
   },

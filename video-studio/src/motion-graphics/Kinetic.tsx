@@ -179,11 +179,13 @@ export const TextBadge: React.FC<{text: string; x?: number; y?: number}> = ({tex
         fontFamily: FONTS.card,
         fontWeight: 700,
         // dentro del margen: ≤ 84 % del ancho (Poppins Bold ≈ 0.56 em por carácter)
-        fontSize: Math.min(92, (width * 0.74) / (text.length * 0.56)),
+        fontSize: Math.min(92, (width * 0.74) / (Math.max(...text.split('\n').map((l) => l.length)) * 0.56)),
+        textAlign: 'center',
+        lineHeight: 1.1,
         letterSpacing: '-0.01em',
         color: COLORS.captionYellow,
         textShadow: '0 5px 0 rgba(0,0,0,0.55), 0 0 18px rgba(255,214,0,0.4)',
-        whiteSpace: 'nowrap',
+        whiteSpace: 'pre',
       }}
     >
       {text}

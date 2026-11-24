@@ -102,7 +102,7 @@ export const BrushPaint: React.FC<{lines: string[]; x?: number; y?: number; pain
         </g>
         {/* brocha */}
         {!done || brushOut > 0 ? (
-          <g transform={`translate(${tip[0]} ${tip[1]}) rotate(-35)`} opacity={brushOut}>
+          <g transform={`translate(${tip[0]} ${tip[1]}) rotate(-35) scale(1.7)`} opacity={brushOut}>
             <rect x={-fs * 0.2} y={-fs * 0.18} width={fs * 0.4} height={fs * 0.28} rx={fs * 0.05} fill="#2DB34A" />
             <rect x={-fs * 0.22} y={-fs * 0.42} width={fs * 0.44} height={fs * 0.26} rx={fs * 0.03} fill="#B0BEC5" stroke="#78909C" strokeWidth={3} />
             <rect x={-fs * 0.09} y={-fs * 1.25} width={fs * 0.18} height={fs * 0.85} rx={fs * 0.08} fill="#8D5A2B" />
@@ -142,7 +142,7 @@ export const RubberStamp: React.FC<{lines: string[]; x?: number; y?: number; rot
         textAlign: 'center',
         whiteSpace: 'nowrap',
         textTransform: 'uppercase',
-        background: 'rgba(255,255,255,0.08)',
+        background: 'rgba(255,255,255,0.72)',
         // textura de tinta gastada
         WebkitMaskImage:
           'radial-gradient(circle at 20% 30%, rgba(0,0,0,0.55) 0 6%, black 7%), radial-gradient(circle at 70% 70%, rgba(0,0,0,0.6) 0 5%, black 6%), repeating-linear-gradient(115deg, black 0 9px, rgba(0,0,0,0.82) 9px 12px)',
@@ -159,17 +159,20 @@ export const RubberStamp: React.FC<{lines: string[]; x?: number; y?: number; rot
 };
 
 /** Letrero LED (matriz de puntos naranja con brillo) para la pregunta-reto. */
-export const LedSign: React.FC<{text: string; y?: number; durationInFrames: number}> = ({text, y = 0.2, durationInFrames}) => {
+export const LedSign: React.FC<{text: string; y?: number; durationInFrames: number}> = ({text, y = 0.17, durationInFrames}) => {
   const frame = useCurrentFrame();
   const {width, height} = useVideoConfig();
+  const lines = text.split('\n');
+  const longest = Math.max(...lines.map((l) => l.length));
   const panelW = width * 0.76; // zona segura de Reels (sin la columna de iconos)
-  const panelH = height * 0.085;
-  const fs = Math.min(panelH * 0.62, (panelW * 0.92) / (text.length * 0.78));
+  const fs = Math.min(84, (panelW * 0.9) / (longest * 0.8));
+  const panelH = fs * 1.15 * lines.length + fs * 0.6;
   // encendido con parpadeo y letras que se encienden una a una
   const on = frame < 3 ? (frame % 2 ? 0.3 : 1) : 1;
-  const lit = Math.min(text.length, Math.floor(frame * 1.6));
+  const lit = Math.floor(frame * 1.6);
   const fade = interpolate(frame, [durationInFrames - 4, durationInFrames], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
   const led = '#FFB21E';
+  let n = 0;
   return (
     <div
       style={{
@@ -178,37 +181,42 @@ export const LedSign: React.FC<{text: string; y?: number; durationInFrames: numb
         top: y * height - panelH / 2,
         width: panelW,
         height: panelH,
-        borderRadius: panelH * 0.14,
+        borderRadius: 18,
         background: '#0B0B0D',
-        backgroundImage: 'radial-gradient(circle, rgba(255,178,30,0.10) 32%, transparent 36%)',
-        backgroundSize: '9px 9px',
-        boxShadow: '0 0 0 6px #23232A, 0 14px 30px rgba(0,0,0,0.45)',
+        backgroundImage: 'radial-gradient(circle, rgba(255,178,30,0.12) 32%, transparent 36%)',
+        backgroundSize: '8px 8px',
+        boxShadow: '0 0 0 7px #23232A, 0 14px 30px rgba(0,0,0,0.45)',
         display: 'flex',
+        flexDirection: 'column',
         alignItems: 'center',
         justifyContent: 'center',
         opacity: on * fade,
       }}
     >
-      <div
-        style={{
-          fontFamily: FONTS.wide,
-          fontWeight: 900,
-          fontSize: fs,
-          letterSpacing: '0.06em',
-          color: led,
-          whiteSpace: 'nowrap',
-          textTransform: 'uppercase',
-          WebkitMaskImage: 'radial-gradient(circle, black 48%, transparent 54%)',
-          WebkitMaskSize: '9px 9px',
-          filter: `drop-shadow(0 0 4px ${led}) drop-shadow(0 0 10px rgba(255,140,0,0.75))`,
-        }}
-      >
-        {text.split('').map((c, i) => (
-          <span key={i} style={{opacity: i < lit ? 1 : 0.08}}>
-            {c}
-          </span>
-        ))}
-      </div>
+      {lines.map((l, li) => (
+        <div
+          key={li}
+          style={{
+            fontFamily: FONTS.wide,
+            fontWeight: 900,
+            fontSize: fs,
+            lineHeight: 1.15,
+            letterSpacing: '0.04em',
+            color: led,
+            whiteSpace: 'nowrap',
+            textTransform: 'uppercase',
+            WebkitMaskImage: 'radial-gradient(circle, black 55%, transparent 62%)',
+            WebkitMaskSize: '8px 8px',
+            filter: `drop-shadow(0 0 3px ${led}) drop-shadow(0 0 9px rgba(255,140,0,0.8))`,
+          }}
+        >
+          {l.split('').map((c, i) => (
+            <span key={i} style={{opacity: n++ < lit ? 1 : 0.1}}>
+              {c}
+            </span>
+          ))}
+        </div>
+      ))}
     </div>
   );
 };

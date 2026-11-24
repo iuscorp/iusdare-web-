@@ -108,7 +108,7 @@ bottles(S('Escoge'), until('La'), {w: 175, marks: [null, null, null]}, 'escoge u
 // letrero LED arriba, DETRÁS de la presentadora (pedido del equipo); sin subtítulo encima mientras dura
 const ledA = S('Escoge');
 const ledB = until('La');
-add({type: 'ledSign', text: '¿Cuál es la ecológica?', x: 0.5, y: 0.2, behindPerson: true, start: ledA, end: ledB}, 'reto al espectador (LED)');
+add({type: 'ledSign', text: '¿Cuál es\nla ecológica?', x: 0.5, y: 0.205, behindPerson: true, start: ledA, end: ledB}, 'reto al espectador (LED)');
 e.captions = e.captions.filter((c) => c.start < ledA - 0.05 || c.start >= ledB);
 
 // ── 2. BOTELLA 1: verde con hojas, «amigable con el planeta»
@@ -126,7 +126,7 @@ const defEnd = until('La', S('Hacer'));
 const brushEnd = Math.min(gw + 1.9, defEnd - 1.4);
 add({type: 'brushPaint', lines: ['GREEN', 'WASHING'], x: 0.47, y: 0.62, start: gw, end: brushEnd}, 'término + brocha');
 // definición como sello de goma tipo «CANCELLED»
-add({type: 'rubberStamp', lines: ['Parecer más ecológico', 'de lo que es'], x: 0.47, y: 0.64, start: brushEnd + 0.03, end: defEnd}, 'definición (sello)');
+add({type: 'rubberStamp', lines: ['Parecer más', 'ecológico', 'de lo que es'], x: 0.47, y: 0.64, start: brushEnd + 0.03, end: defEnd}, 'definición (sello)');
 
 // ── 4. BOTELLA 2: sello verde inventado
 const b2 = at('La', S('Hacer'));
@@ -136,7 +136,7 @@ bottles(S('Nadie'), until('Ojo'), {show: [1], w: 230, marks: [null, 'x']}, 'lo d
 
 // ── 5. GIRO LEGAL
 const ojo = at('Ojo');
-add({type: 'textBadge', text: 'No tiene que ser una mentira directa', x: 0.47, y: 0.64, start: ojo.start, end: until('Basta')}, 'ojo');
+add({type: 'textBadge', text: 'No tiene que ser\nuna mentira directa', x: 0.47, y: 0.64, start: ojo.start, end: until('Basta')}, 'ojo');
 st('👁️', S('Basta'), until('En'), 0.32, 'basta con hacerte creer algo');
 add({type: 'lawCard', title: 'Publicidad engañosa', subtitle: 'D. Leg. 1044 · Actos de engaño', color: 'yellow', x: 0.47, y: 0.66, start: S('En'), end: until('Y', S('engañosa'))}, 'normativa (verificar cita)');
 const ind = at('Y', S('engañosa'));

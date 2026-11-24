@@ -2,7 +2,7 @@
  "model": "small",
  "language": "es",
  "duration": 227.776,
- "text": "Una de estas tres botellas es ecológica. Las otras dos te están mintiendo. ¿Está bien? Escoge una y veremos cuál de ellas es. La primera. Verde con hojas. Verde con hojas. Y dice amigable con el planeta. ¿Pero por qué? No dice, no es residencia. Ni es reciclada ni reciclable. Never. Never. Eso tiene un nombre y se llama Greenwashing. ¿Pero qué? Hacer que algo parezca más ecológico de lo que es. Leados. Tiene un sello verde precioso. ¿Y quién lo da? Nadie lo diseñó en la misma marca. Ojo, no tiene que ser una mentira de directa. Basta con que te va a creer algo que no es. En nuestro país eso se considera publicidad engañosa. Indecopy, puedes sancionarlo. Ilea 3. Es la única que te dice exactamente qué tiene de ecológica. Dice, en base con 50% de plástico reciclado. Esa es específica comprobable. Esa es. Y tú, ¿cuál escogiste? Dímelo en los comentarios.",
+ "text": "Una de estas tres botellas es ecológica. Las otras dos te están mintiendo. ¿Está bien? Escoge una y veremos cuál de ellas es. La primera. Verde con hojas. Verde con hojas. Y dice amigable con el planeta. ¿Pero por qué? Ok. No dice... Ni es reciclada ni reciclable. Never. Never. Eso tiene un nombre y se llama Greenwashing. ¿Pero qué? Hacer que algo parezca más ecológico de lo que es. Leados. Tiene un sello verde precioso. ¿Y quién lo da? Nadie lo diseñó en la misma marca. Ojo, no tiene que ser una mentira de directa. Basta con que te va a creer algo que no es. En nuestro país eso se considera publicidad engañosa. Indecopy, puedes sancionarlo. Ilea 3. Es la única que te dice exactamente qué tiene de ecológica. Dice, en base con 50% de plástico reciclado. Esa es específica comprobable. Esa es. Y tú, ¿cuál escogiste? Dímelo en los comentarios.",
  "segments": [
   {
    "start": 13.05,
@@ -53,9 +53,9 @@
    "take": 6
   },
   {
-   "start": 77.63,
-   "end": 79.41,
-   "text": "No dice, no es residencia.",
+   "start": 77.52,
+   "end": 79.1,
+   "text": "Ok. No dice...",
    "take": 7
   },
   {
@@ -448,16 +448,16 @@
   },
   {
    "w": "No",
-   "s": 77.63,
-   "e": 78.23,
-   "p": 0.206,
+   "s": 78.08,
+   "e": 78.26,
+   "p": 0.837,
    "take": 7
   },
   {
-   "w": "dice,",
-   "s": 78.23,
-   "e": 78.55,
-   "p": 0.94,
+   "w": "dice...",
+   "s": 78.26,
+   "e": 79.05,
+   "p": 0.586,
    "take": 7
   },
   {
