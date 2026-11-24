@@ -85,6 +85,16 @@ export const overlaySchema = z.discriminatedUnion('type', [
     /** crédito/licencia de la foto (no se muestra; va a la descripción) */
     credit: z.string().optional(),
   }),
+  /** tres botellas genéricas en vector (hook visual «¿cuál es ecológica?») */
+  z.object({
+    ...base,
+    type: z.literal('bottles'),
+    show: z.array(z.number()).optional(),
+    focus: z.number().optional(),
+    marks: z.array(z.enum(['x', 'check']).nullable()).optional(),
+    numbers: z.boolean().optional(),
+    w: z.number().optional(),
+  }),
   /** destello blanco de 4–6 frames: ruptura de patrón al cambiar de bloque */
   z.object({...base, type: z.literal('flash'), opacity: z.number().optional()}),
   z.object({

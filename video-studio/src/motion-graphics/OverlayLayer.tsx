@@ -2,6 +2,7 @@ import React from 'react';
 import {Sequence, useVideoConfig} from 'remotion';
 import type {Overlay} from '../lib/schema';
 import {Comparison, EmojiEquation, StepList, VerdictStamp} from './Explainers';
+import {Bottles} from './Bottles';
 import {LawCard} from './LawCard';
 import {LawPage} from './LawPage';
 import {BackgroundPlate, BigLetter, Cutout, DenyMark, Flash, DocumentCover, LogoBadge, PhotoCard} from './Media';
@@ -24,6 +25,8 @@ export const renderOverlay = (o: Overlay, durationInFrames: number) => {
       return <LogoBadge image={o.image} label={o.label} {...clean(pos)} />;
     case 'photoCard':
       return <PhotoCard image={o.image} rotate={o.rotate} w={o.w} h={o.h} label={o.label} {...clean(pos)} />;
+    case 'bottles':
+      return <Bottles show={o.show} focus={o.focus} marks={o.marks ?? undefined} numbers={o.numbers} w={o.w} {...clean(pos)} />;
     case 'flash':
       return <Flash opacity={o.opacity} durationInFrames={durationInFrames} />;
     case 'cutout':
