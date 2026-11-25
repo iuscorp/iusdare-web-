@@ -115,6 +115,7 @@
  {
   "in": 232.0,
   "out": 235.2,
-  "note": "Sigue a Vocare Iuris para conocer más sobre tus derechos."
+  "note": "Sigue a Vocare Iuris para conocer más sobre tus derechos.",
+  "forceOut": 235.35
  }
 ]

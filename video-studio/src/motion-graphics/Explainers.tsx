@@ -79,9 +79,10 @@ export const VerdictStamp: React.FC<{text: string; tone?: 'deny' | 'ok'; x?: num
  * presente en las referencias. Cada paso aparece con su número; sin fondo de diapositiva,
  * tarjeta compacta semitransparente para no tapar al presentador.
  */
-export const StepList: React.FC<{title?: string; steps: string[]; x?: number; y?: number; durationInFrames: number}> = ({
+export const StepList: React.FC<{title?: string; steps: string[]; at?: number[]; x?: number; y?: number; durationInFrames: number}> = ({
   title,
   steps,
+  at,
   x = 0.5,
   y = 0.7,
   durationInFrames,
@@ -103,7 +104,8 @@ export const StepList: React.FC<{title?: string; steps: string[]; x?: number; y?
     >
       {title ? <div style={{fontSize: 52, fontWeight: 800, marginBottom: 12, textShadow: '0 3px 0 rgba(0,0,0,0.5)'}}>{title}</div> : null}
       {steps.map((s, i) => {
-        const p = popIn(frame - i * per, fps);
+        // cada ítem aparece cuando se dice (at = segundos desde el inicio del recurso)
+        const p = popIn(frame - (at?.[i] !== undefined ? Math.round(at[i] * fps) : i * per), fps);
         return (
           <div
             key={i}

@@ -4,7 +4,7 @@
   "createdAt": "2026-11-24T16:07:16.015Z",
   "raw": "footage/raw/video-11/raw.MOV",
   "proxy": "footage/video-11/source.mp4",
-  "status": "preview-renderizado",
+  "status": "borrador-edl",
   "workflow": [
     "ANÁLISIS",
     "ESTRUCTURA NARRATIVA",
@@ -26,6 +26,14 @@
     "voice": {
       "splitHz": 60,
       "quietDb": -34
+    },
+    "audio": {
+      "denoise": {
+        "nr": 20,
+        "nf": -38,
+        "highpass": 80
+      },
+      "_nota": "pedido: mejorar audio y eliminar ruido de fondo"
     }
   },
   "lastRender": {

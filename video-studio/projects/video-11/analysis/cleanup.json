@@ -1733,7 +1733,7 @@
     },
     {
       "in": 234.14,
-      "out": 234.85,
+      "out": 235.35,
       "words": [
         {
           "w": "sobre",
@@ -1886,7 +1886,7 @@
   "stats": {
     "sourceDuration": 263.04,
     "sourceSpeechSpan": 213.42,
-    "outputDuration": 46.68,
+    "outputDuration": 47.18,
     "savedSeconds": 214.547,
     "words": 160,
     "wordsPerSecond": 3.299,
@@ -2056,9 +2056,9 @@
     },
     {
       "in": 234.14,
-      "out": 234.85,
+      "out": 235.35,
       "text": "sobre tus derechos.",
-      "timeline": "NNNNNNN.",
+      "timeline": "NNNNNNN......",
       "offCamera": 0
     }
   ]

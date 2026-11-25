@@ -3,6 +3,7 @@ import {Sequence, useVideoConfig} from 'remotion';
 import type {Overlay} from '../lib/schema';
 import {Comparison, EmojiEquation, StepList, VerdictStamp} from './Explainers';
 import {Bottles} from './Bottles';
+import {CarScene} from './CarScene';
 import {BrushPaint, LedSign, RubberStamp} from './PaintFx';
 import {LawCard} from './LawCard';
 import {LawPage} from './LawPage';
@@ -32,6 +33,8 @@ export const renderOverlay = (o: Overlay, durationInFrames: number) => {
       return <RubberStamp lines={o.lines} rotate={o.rotate} {...clean(pos)} />;
     case 'ledSign':
       return <LedSign text={o.text} y={o.y} durationInFrames={durationInFrames} />;
+    case 'carScene':
+      return <CarScene times={o.times} {...clean(pos)} />;
     case 'bottles':
       return <Bottles show={o.show} focus={o.focus} marks={o.marks ?? undefined} numbers={o.numbers} w={o.w} {...clean(pos)} />;
     case 'flash':
@@ -55,7 +58,7 @@ export const renderOverlay = (o: Overlay, durationInFrames: number) => {
     case 'verdictStamp':
       return <VerdictStamp text={o.text} tone={o.tone} {...clean(pos)} />;
     case 'stepList':
-      return <StepList title={o.title} steps={o.steps} durationInFrames={durationInFrames} {...clean(pos)} />;
+      return <StepList title={o.title} steps={o.steps} at={o.at} durationInFrames={durationInFrames} {...clean(pos)} />;
     case 'comparison':
       return <Comparison left={o.left} right={o.right} y={o.y} />;
     case 'emojiEquation':

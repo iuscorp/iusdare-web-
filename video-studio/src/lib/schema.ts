@@ -139,7 +139,15 @@ export const overlaySchema = z.discriminatedUnion('type', [
   z.object({...base, type: z.literal('textBadge'), text: z.string()}),
   z.object({...base, type: z.literal('denyMark')}),
   z.object({...base, type: z.literal('verdictStamp'), text: z.string(), tone: z.enum(['deny', 'ok']).default('deny')}),
-  z.object({...base, type: z.literal('stepList'), title: z.string().optional(), steps: z.array(z.string())}),
+  z.object({...base, type: z.literal('stepList'), title: z.string().optional(), steps: z.array(z.string()), at: z.array(z.number()).optional()}),
+  /** escena animada con emojis (carro → primo → cámara → papeleta) */
+  z.object({
+    ...base,
+    type: z.literal('carScene'),
+    times: z
+      .object({key: z.number().optional(), board: z.number().optional(), drive: z.number().optional(), flash: z.number().optional(), replay: z.number().optional(), flash2: z.number().optional(), weeks: z.tuple([z.number(), z.number()]).optional()})
+      .optional(),
+  }),
   z.object({
     ...base,
     type: z.literal('comparison'),

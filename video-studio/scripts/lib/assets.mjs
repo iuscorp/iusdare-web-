@@ -69,6 +69,7 @@ export const emojisInEdl = (edl) => {
     if (o.type === 'sticker') list.push(o.emoji);
     if (o.type === 'emojiEquation') list.push(...o.items.filter((i) => !/^[+\-=?∞→×÷]+$/.test(i)));
     if (o.type === 'denyMark') list.push('❌');
+    if (o.type === 'carScene') list.push('🚗', '👦', '🔑', '📹');
     if (o.type === 'comparison') [o.left.emoji, o.right.emoji].filter(Boolean).forEach((e) => list.push(e));
   }
   return list;

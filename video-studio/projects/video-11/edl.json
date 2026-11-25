@@ -248,7 +248,7 @@
     {
       "id": "s27",
       "in": 234.125,
-      "out": 234.833,
+      "out": 235.333,
       "role": "context",
       "framing": "base",
       "move": "none",
@@ -1213,44 +1213,30 @@
     {
       "text": "derechos",
       "start": 46.427,
-      "end": 46.75,
+      "end": 47.25,
       "emphasis": false
     }
   ],
   "overlays": [
     {
-      "type": "sticker",
-      "emoji": "🚗",
-      "size": 175,
-      "x": 0.3,
-      "y": 0.6,
-      "start": 0,
-      "end": 1.08,
-      "note": "le prestaste el carro"
-    },
-    {
-      "type": "sticker",
-      "emoji": "👦",
-      "size": 175,
-      "x": 0.64,
-      "y": 0.6,
-      "start": 1.11,
-      "end": 1.393,
-      "note": "a tu primo"
-    },
-    {
-      "type": "photoCard",
-      "image": "footage/video-11/photos/multa.jpg",
-      "w": 560,
-      "h": 420,
-      "rotate": -4,
-      "label": "¡MULTA!",
-      "credit": "«Parking Ticket VOL. Salary» — Instant Vantage, CC BY-SA 2.0, vía Openverse/Flickr",
+      "type": "carScene",
       "x": 0.47,
       "y": 0.62,
-      "start": 1.423,
-      "end": 3.432,
-      "note": "la multa (foto con fondo: contexto)"
+      "times": {
+        "key": 0.25,
+        "board": 0.96,
+        "drive": 1.423,
+        "flash": 2.923,
+        "weeks": [
+          1.523,
+          2.873
+        ],
+        "replay": 4.175,
+        "flash2": 5.818
+      },
+      "start": 0,
+      "end": 6.178,
+      "note": "escena: carro, primo, cámara y multa"
     },
     {
       "type": "flash",
@@ -1260,32 +1246,10 @@
       "note": "destello (cámara / ruptura de patrón)"
     },
     {
-      "type": "sticker",
-      "emoji": "😮",
-      "size": 175,
-      "x": 0.64,
-      "y": 0.6,
-      "start": 3.462,
-      "end": 4.145,
-      "note": "¿qué puedes hacer?"
-    },
-    {
-      "type": "cutout",
-      "image": "footage/video-11/photos/camara.png",
-      "w": 300,
-      "rotate": 4,
-      "credit": "«Red Light Camera» — Skakerman (Archive), CC BY 2.0, vía Openverse/Flickr",
-      "x": 0.64,
-      "y": 0.6,
-      "start": 4.175,
-      "end": 6.178,
-      "note": "cámara de tránsito (objeto sin fondo)"
-    },
-    {
       "type": "flash",
       "opacity": 0.7,
-      "start": 5.748,
-      "end": 5.928,
+      "start": 5.798,
+      "end": 5.978,
       "note": "destello (cámara / ruptura de patrón)"
     },
     {
@@ -1458,6 +1422,12 @@
         "Fecha",
         "Hora",
         "Lugar"
+      ],
+      "at": [
+        1.068,
+        1.568,
+        2.088,
+        2.688
       ],
       "x": 0.47,
       "y": 0.62,

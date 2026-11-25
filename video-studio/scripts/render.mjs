@@ -57,11 +57,17 @@ await renderVideo(edl, raw, {
 });
 
 cleanupBundle();
-console.log('→ Normalizando loudness (−14 LUFS / −1 dBTP)…');
-const pass1 = run('ffmpeg', ['-hide_banner', '-i', raw, '-af', 'loudnorm=I=-14:TP=-1.5:LRA=9:print_format=json', '-f', 'null', '-']).stderr;
+// limpieza de voz opcional (project.json → editing.audio.denoise): quita ruido de fondo y retumbe
+// sin tocar la voz: paso alto, reducción espectral con seguimiento del ruido, compresión suave y brillo
+const dn = meta.editing?.audio?.denoise;
+const pre = dn
+  ? [`highpass=f=${dn.highpass ?? 80}`, `afftdn=nr=${dn.nr ?? 14}:nf=${dn.nf ?? -42}:tn=1`, 'acompressor=threshold=-22dB:ratio=2.5:attack=8:release=120', 'equalizer=f=3200:t=q:w=1.2:g=2'].join(',')
+  : '';
+console.log(`→ ${dn ? 'Limpiando voz (ruido de fondo) y n' : 'N'}ormalizando loudness (−14 LUFS / −1 dBTP)…`);
+const pass1 = run('ffmpeg', ['-hide_banner', '-i', raw, '-af', `${pre ? pre + ',' : ''}loudnorm=I=-14:TP=-1.5:LRA=9:print_format=json`, '-f', 'null', '-']).stderr;
 const m = JSON.parse(pass1.slice(pass1.lastIndexOf('{'), pass1.lastIndexOf('}') + 1));
 const ln = `loudnorm=I=-14:TP=-1.5:LRA=9:measured_I=${m.input_i}:measured_TP=${m.input_tp}:measured_LRA=${m.input_lra}:measured_thresh=${m.input_thresh}:offset=${m.target_offset}:linear=true`;
-run('ffmpeg', ['-v', 'error', '-y', '-i', raw, '-af', ln, '-ar', '48000', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', final]);
+run('ffmpeg', ['-v', 'error', '-y', '-i', raw, '-af', pre ? `${pre},${ln}` : ln, '-ar', '48000', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '256k', '-movflags', '+faststart', final]);
 fs.rmSync(raw);
 
 meta.status = preview ? 'preview-renderizado' : 'exportado';

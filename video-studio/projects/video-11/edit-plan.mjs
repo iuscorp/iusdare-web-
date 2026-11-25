@@ -84,16 +84,22 @@ for (const c of e.captions) c.emphasis = false;
 const until = (w, after = 0) => S(w, after) - 0.03;
 const st = (emoji, t, end, x, note) => sticker(emoji, t, end - t, x, 0.6, note);
 
-// ── 1. HOOK VISUAL: carro → primo / la multa en el parabrisas + destello de cámara
-st('🚗', 0, until('primo'), 0.3, 'le prestaste el carro');
-st('👦', S('primo'), until('Y'), 0.64, 'a tu primo');
+// ── 1. HOOK VISUAL (escena animada con emojis): llave al primo → se sube → el carro avanza →
+//       pasa frente a la cámara → ¡flash! → la papeleta. Luego «cuando una cámara detecta una
+//       infracción»: el carro vuelve a pasar y la cámara dispara de nuevo. (Fotos: las pone el equipo.)
 const mul = at('multa');
-add({type: 'photoCard', image: 'footage/video-11/photos/multa.jpg', w: 560, h: 420, rotate: -4, label: '¡MULTA!', credit: credits.multa?.credit, x: 0.47, y: 0.62, start: S('Y'), end: until('Que')}, 'la multa (foto con fondo: contexto)');
-st('😮', S('Que'), until('Cuando'), 0.64, '¿qué puedes hacer?');
-
-// ── 2. CÓMO FUNCIONA: cámara → notificación al propietario registrado
-add({type: 'cutout', image: 'footage/video-11/photos/camara.png', w: 300, rotate: 4, credit: credits.camara?.credit, x: 0.64, y: 0.6, start: S('Cuando'), end: until('La')}, 'cámara de tránsito (objeto sin fondo)');
 const inf = at('infraccion');
+add(
+  {
+    type: 'carScene',
+    x: 0.47,
+    y: 0.62,
+    times: {key: 0.25, board: r(S('primo') - 0.15), drive: r(S('Y')), flash: r(mul.start), weeks: [r(S('dos')), r(mul.start - 0.05)], replay: r(S('Cuando')), flash2: r(inf.start + 0.25)},
+    start: 0,
+    end: until('La'),
+  },
+  'escena: carro, primo, cámara y multa',
+);
 st('📩', S('La'), until('registro'), 0.64, 'la notificación');
 add({type: 'lawCard', title: 'Registro vehicular', subtitle: 'SUNARP', color: 'white', x: 0.47, y: 0.66, start: S('registro'), end: until('Pero')}, 'propietario registrado');
 
@@ -118,7 +124,9 @@ st('🔁', S('Entonces'), until('Si', S('Entonces')), 0.64, 'las multas te sigue
 // ── 5. QUÉ HACER
 const si = at('Si', S('Entonces'));
 add({type: 'textBadge', text: '5 días hábiles', x: 0.47, y: 0.64, start: si.start, end: until('Revisa')}, 'plazo desde la notificación');
-add({type: 'stepList', title: 'Revisa la foto', steps: ['Placa', 'Fecha', 'Hora', 'Lugar'], x: 0.47, y: 0.62, start: S('Revisa'), end: until('Junta')}, 'qué revisar');
+// cada ítem aparece cuando lo dice
+const rv = S('Revisa');
+add({type: 'stepList', title: 'Revisa la foto', steps: ['Placa', 'Fecha', 'Hora', 'Lugar'], at: ['Placa', 'fecha', 'hora', 'lugar'].map((w) => r(S(w, rv) - rv - 0.05)), x: 0.47, y: 0.62, start: rv, end: until('Junta')}, 'qué revisar');
 st('🗂️', S('Junta'), until('Y', S('Junta')), 0.64, 'junta pruebas: contrato, ubicación');
 add({type: 'verdictStamp', text: 'Apela la multa', tone: 'ok', x: 0.47, y: 0.6, start: S('Y', S('Junta')), end: until('Sigue a')}, 'acción');
 
@@ -160,7 +168,7 @@ overlays.forEach((o, i) => {
   if (next && o.end > next.start - 0.03) o.end = r(Math.max(o.start + 0.35, next.start - 0.03));
   if (o.end > cta.start - 0.05) o.end = r(Math.max(o.start + 0.35, cta.start - 0.05));
 });
-for (const t of [mul.start, inf.start + 0.2, ojo.start, peor.start]) overlays.push({type: 'flash', opacity: 0.7, start: r(t - 0.02), end: r(t + 0.16), note: 'destello (cámara / ruptura de patrón)'});
+for (const t of [mul.start, inf.start + 0.25, ojo.start, peor.start]) overlays.push({type: 'flash', opacity: 0.7, start: r(t - 0.02), end: r(t + 0.16), note: 'destello (cámara / ruptura de patrón)'});
 overlays.sort((a, b) => a.start - b.start);
 e.overlays = overlays;
 e.sfx = []; // sin SFX: el equipo los pone en su edición
