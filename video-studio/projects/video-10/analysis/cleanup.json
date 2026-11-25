@@ -1590,7 +1590,7 @@
     },
     {
       "in": 197.09,
-      "out": 199.5,
+      "out": 200,
       "words": [
         {
           "w": "Y",
@@ -1801,7 +1801,7 @@
   "stats": {
     "sourceDuration": 227.776,
     "sourceSpeechSpan": 186.11,
-    "outputDuration": 43.1,
+    "outputDuration": 43.6,
     "savedSeconds": 181.766,
     "words": 148,
     "wordsPerSecond": 3.217,
@@ -1999,10 +1999,10 @@
     },
     {
       "in": 197.09,
-      "out": 199.5,
+      "out": 200,
       "text": "Y tú, ¿cuál escogiste? Dímelo en los comentarios.",
-      "timeline": "NNNNNNNNNNNNN.NNNNNNNNNNN",
-      "offCamera": 0
+      "timeline": "NNNNNNNNNNNNN.NNNNNNNNNNN.Nd..",
+      "offCamera": 0.04
     }
   ]
 }

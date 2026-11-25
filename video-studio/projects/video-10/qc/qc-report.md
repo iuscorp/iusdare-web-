@@ -1,5 +1,5 @@
 # QC — Greenwashing: ¿cuál de estas botellas es ecológica?
-Archivo: `previews/video-10/video-10-preview.mp4` · 2026-11-24T08:59:26.853Z
+Archivo: `previews/video-10/video-10-preview.mp4` · 2026-11-25T22:33:58.624Z
 
 | Verificación | Estado | Detalle |
 |---|---|---|
@@ -7,7 +7,7 @@ Archivo: `previews/video-10/video-10-preview.mp4` · 2026-11-24T08:59:26.853Z
 | Bitrate de video | ✅ | 11.0 Mbps |
 | Espacio de color | ✅ | yuv420p · bt709 · rango tv (esperado bt709/tv como el original) |
 | FPS | ✅ | 24 (footage 24) |
-| Duración | ✅ | 43.20 s (EDL 43.13 s) |
+| Duración | ✅ | 43.70 s (EDL 43.63 s) |
 | Fotogramas negros | ✅ | ninguno |
 | Loudness | ✅ | -14 LUFS (objetivo −14 ±1) |
 | True peak | ✅ | -1.5 dBFS |

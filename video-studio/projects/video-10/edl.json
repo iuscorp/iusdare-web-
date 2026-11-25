@@ -275,7 +275,7 @@
     {
       "id": "s30",
       "in": 197.083,
-      "out": 199.5,
+      "out": 200,
       "role": "context",
       "framing": "subtleIn",
       "move": "slowPush",
@@ -1090,7 +1090,7 @@
     {
       "text": "comentarios",
       "start": 42.615,
-      "end": 43.125,
+      "end": 43.625,
       "emphasis": false
     }
   ],
@@ -1354,7 +1354,7 @@
         "check"
       ],
       "start": 40.835,
-      "end": 43.125,
+      "end": 43.625,
       "note": "cierre en bucle"
     },
     {
@@ -1364,7 +1364,7 @@
       "x": 0.18,
       "y": 0.4,
       "start": 42.135,
-      "end": 43.125,
+      "end": 43.625,
       "note": "dímelo en los comentarios"
     }
   ],
