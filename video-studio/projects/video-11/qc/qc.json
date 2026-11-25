@@ -28,7 +28,7 @@
       "name": "Duración",
       "ok": true,
       "level": "ok",
-      "detail": "46.80 s (EDL 46.75 s)"
+      "detail": "47.30 s (EDL 47.25 s)"
     },
     {
       "name": "Fotogramas negros",
@@ -40,7 +40,7 @@
       "name": "Loudness",
       "ok": true,
       "level": "ok",
-      "detail": "-14.1 LUFS (objetivo −14 ±1)"
+      "detail": "-14 LUFS (objetivo −14 ±1)"
     },
     {
       "name": "True peak",
@@ -64,25 +64,30 @@
       "name": "Sincronía de subtítulos",
       "ok": true,
       "level": "ok",
-      "detail": "mediana 3 ms, p90 |68| ms, 154/160 palabras alineadas"
+      "detail": "mediana -22 ms, p90 |67| ms, 150/160 palabras alineadas"
     },
     {
       "name": "Ortografía / términos",
       "ok": true,
       "level": "ok",
-      "detail": "6 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+      "detail": "10 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
     }
   ],
   "sync": {
-    "matched": 154,
+    "matched": 150,
     "total": 160,
-    "medianOffset": 0.0030000000000001137,
-    "p90AbsOffset": 0.06799999999999962,
+    "medianOffset": -0.021999999999998465,
+    "p90AbsOffset": 0.06700000000000017,
     "mismatches": [
+      {
+        "at": 5.568,
+        "caption": "infracción",
+        "heard": "una intracción?"
+      },
       {
         "at": 15.598,
         "caption": "a",
-        "heard": "de aquí en el reglamento"
+        "heard": "y de aquí en el reglamento"
       },
       {
         "at": 15.798,
@@ -100,6 +105,21 @@
         "heard": "tienes cinco días"
       },
       {
+        "at": 39.973,
+        "caption": "Algún",
+        "heard": "a tu caso."
+      },
+      {
+        "at": 42.633,
+        "caption": "ese",
+        "heard": "de Sevilla"
+      },
+      {
+        "at": 42.733,
+        "caption": "día",
+        "heard": "de Sevilla y"
+      },
+      {
         "at": 44.27,
         "caption": "Sigue a",
         "heard": "multa. Si evocaré"
@@ -112,8 +132,8 @@
     ]
   },
   "loudness": {
-    "integratedLufs": -14.1,
-    "lra": 2.8,
+    "integratedLufs": -14,
+    "lra": 2.5,
     "truePeakDb": -1.5
   },
   "file": "/home/user/iusdare-web-/video-studio/previews/video-11/video-11-preview.mp4"
