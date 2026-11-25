@@ -127,6 +127,7 @@
  {
   "in": 197.0,
   "out": 199.7,
-  "note": "Y tú, ¿cuál escogiste? Dímelo en los comentarios."
+  "note": "Y tú, ¿cuál escogiste? Dímelo en los comentarios.",
+  "forceOut": 200.0
  }
 ]
