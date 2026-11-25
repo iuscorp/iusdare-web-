@@ -1,0 +1,75 @@
+[
+ {
+  "in": 41.75,
+  "out": 44.25,
+  "who": "R",
+  "note": "Ping pong con Martín Ruyero"
+ },
+ {
+  "in": 44.35,
+  "out": 45.25,
+  "who": "R",
+  "note": "¿A qué se dedica?"
+ },
+ {
+  "in": 45.3,
+  "out": 46.75,
+  "who": "L",
+  "note": "Soy abogado laboralista."
+ },
+ {
+  "in": 51.0,
+  "out": 53.95,
+  "who": "R",
+  "note": "¿En qué le hubiera gustado especializarse si no hubiera sido laboral?"
+ },
+ {
+  "in": 54.15,
+  "out": 57.2,
+  "who": "L",
+  "note": "Creo que en derecho civil, procesal civil, litigio."
+ },
+ {
+  "in": 62.45,
+  "out": 64.75,
+  "who": "R",
+  "note": "¿Cuál es el error más común al contratar a una persona?"
+ },
+ {
+  "in": 65.3,
+  "out": 69.3,
+  "who": "L",
+  "note": "Que, debiendo contratarlo como trabajador en planilla, no lo hacen.",
+  "forceOut": 68.82
+ },
+ {
+  "in": 102.75,
+  "out": 106.4,
+  "who": "R",
+  "note": "¿Cuál cree que es el beneficio laboral que genera más complicaciones en las empresas?"
+ },
+ {
+  "in": 106.65,
+  "out": 109.95,
+  "who": "L",
+  "note": "Hoy en día te diría que el cálculo y pago de vacaciones."
+ },
+ {
+  "in": 142.3,
+  "out": 145.45,
+  "who": "R",
+  "note": "¿Cuál es el error más común sobre los beneficios sociales? (toma más fluida)"
+ },
+ {
+  "in": 149.45,
+  "out": 150.95,
+  "who": "L",
+  "note": "Eso lo veremos en el live."
+ },
+ {
+  "in": 228.05,
+  "out": 237.3,
+  "who": "L",
+  "note": "Nos vemos este 1 de diciembre a las 8 p. m. en el live… Conversaremos sobre cálculo y pago de beneficios laborales. Los esperamos."
+ }
+]

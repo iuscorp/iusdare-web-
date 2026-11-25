@@ -1,0 +1,130 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "11.0 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "24 (footage 24)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "43.70 s (EDL 43.63 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.5 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.07 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana -2 ms, p90 |100| ms, 127/135 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": true,
+      "level": "ok",
+      "detail": "8 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 127,
+    "total": 135,
+    "medianOffset": -0.0019999999999988916,
+    "p90AbsOffset": 0.10000000000000142,
+    "mismatches": [
+      {
+        "at": 20.362,
+        "caption": "Y",
+        "heard": "quién lo da?"
+      },
+      {
+        "at": 30.385,
+        "caption": "Y",
+        "heard": "la"
+      },
+      {
+        "at": 30.505000000000003,
+        "caption": "Indecopi",
+        "heard": "la"
+      },
+      {
+        "at": 30.965,
+        "caption": "puede",
+        "heard": "3,"
+      },
+      {
+        "at": 31.245,
+        "caption": "sancionarlo",
+        "heard": "3,"
+      },
+      {
+        "at": 31.925,
+        "caption": "Y la",
+        "heard": "(nada)"
+      },
+      {
+        "at": 32.165,
+        "caption": "tres",
+        "heard": "es la"
+      },
+      {
+        "at": 39.273,
+        "caption": "comprobable",
+        "heard": "con probable."
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14,
+    "lra": 3.1,
+    "truePeakDb": -1.5
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/video-10/video-10-preview.mp4"
+}

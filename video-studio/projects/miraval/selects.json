@@ -1,0 +1,81 @@
+[
+ {
+  "in": 1.45,
+  "out": 5.42,
+  "who": "L",
+  "note": "Ping pong con Miguel Eduardo Ramos Miraval"
+ },
+ {
+  "in": 5.42,
+  "out": 6.55,
+  "who": "L",
+  "note": "¿A qué se dedica?"
+ },
+ {
+  "in": 6.95,
+  "out": 9.45,
+  "who": "R",
+  "note": "Abogado y docente universitario."
+ },
+ {
+  "in": 9.45,
+  "out": 11.75,
+  "who": "L",
+  "note": "Si no hubiese sido abogado, ¿qué hubiese querido hacer?"
+ },
+ {
+  "in": 19.2,
+  "out": 22.62,
+  "who": "R",
+  "note": "Me hubiese ido por la publicidad o el teatro."
+ },
+ {
+  "in": 22.62,
+  "out": 27.5,
+  "who": "L",
+  "note": "¿Y cree que algo de ese gusto por el teatro le ayuda hoy en el ejercicio del derecho?",
+  "forceOut": 27.5
+ },
+ {
+  "in": 27.7,
+  "out": 33.15,
+  "who": "R",
+  "note": "Me ayuda para presentar los casos que considero que deben ser de conocimiento de la justicia. (primera respuesta)"
+ },
+ {
+  "in": 55.2,
+  "out": 58.7,
+  "who": "L",
+  "note": "¿Cuál cree que es el error más común en los procesos de alimentos?"
+ },
+ {
+  "in": 59.4,
+  "out": 62.65,
+  "who": "R",
+  "note": "Considerar que el alimentista tiene que pagar tasas judiciales."
+ },
+ {
+  "in": 100.4,
+  "out": 103.25,
+  "who": "L",
+  "note": "¿Y el mito más común sobre los procesos de alimentos?"
+ },
+ {
+  "in": 104.1,
+  "out": 105.4,
+  "who": "R",
+  "note": "Eso lo veremos en el live."
+ },
+ {
+  "in": 125.2,
+  "out": 130.88,
+  "who": "R",
+  "note": "Nos vemos este 26 de noviembre, 8 de la noche, en el live que estará organizando Vocare Iuris,"
+ },
+ {
+  "in": 135.7,
+  "out": 136.7,
+  "who": "R",
+  "note": "Los esperamos."
+ }
+]

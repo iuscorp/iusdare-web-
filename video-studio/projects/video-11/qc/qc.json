@@ -1,0 +1,140 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "9.5 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "24 (footage 24)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "47.30 s (EDL 47.25 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.5 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.07 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana -22 ms, p90 |67| ms, 150/160 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": true,
+      "level": "ok",
+      "detail": "10 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 150,
+    "total": 160,
+    "medianOffset": -0.021999999999998465,
+    "p90AbsOffset": 0.06700000000000017,
+    "mismatches": [
+      {
+        "at": 5.568,
+        "caption": "infracción",
+        "heard": "una intracción?"
+      },
+      {
+        "at": 15.598,
+        "caption": "a",
+        "heard": "y de aquí en el reglamento"
+      },
+      {
+        "at": 15.798,
+        "caption": "quién",
+        "heard": "de aquí en el reglamento"
+      },
+      {
+        "at": 20.737,
+        "caption": "Pero",
+        "heard": "hay otros"
+      },
+      {
+        "at": 33.192,
+        "caption": "5",
+        "heard": "tienes cinco días"
+      },
+      {
+        "at": 39.973,
+        "caption": "Algún",
+        "heard": "a tu caso."
+      },
+      {
+        "at": 42.633,
+        "caption": "ese",
+        "heard": "de Sevilla"
+      },
+      {
+        "at": 42.733,
+        "caption": "día",
+        "heard": "de Sevilla y"
+      },
+      {
+        "at": 44.27,
+        "caption": "Sigue a",
+        "heard": "multa. Si evocaré"
+      },
+      {
+        "at": 44.49,
+        "caption": "Vocare",
+        "heard": "Si evocaré Iuris"
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14,
+    "lra": 2.5,
+    "truePeakDb": -1.5
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/video-11/video-11-preview.mp4"
+}

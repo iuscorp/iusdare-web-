@@ -1,0 +1,23 @@
+{
+ "_info": "video-10 greenwashing",
+ "corrections": [
+  {
+   "match": "indecopy",
+   "replace": [
+    "Indecopi"
+   ]
+  },
+  {
+   "match": "indecopi",
+   "replace": [
+    "Indecopi"
+   ]
+  },
+  {
+   "match": "green washing",
+   "replace": [
+    "greenwashing"
+   ]
+  }
+ ]
+}

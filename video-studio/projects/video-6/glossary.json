@@ -1,0 +1,15 @@
+{
+ "_info": "Correcciones de video-6 (transferencias simuladas / vouchers falsos). Verificar con el equipo.",
+ "corrections": [
+  {"match": "te mandar en un", "replace": ["¿Te", "mandaron", "un"]},
+  {"match": "te mandaron un", "replace": ["¿Te", "mandaron", "un"]},
+  {"match": "si es ya peoplin", "replace": ["si", "es", "Yape", "o", "Plin"]},
+  {"match": "ya peoplin", "replace": ["Yape", "o", "Plin"]},
+  {"match": "verifique", "replace": ["verifica"]},
+  {"match": "estapa", "replace": ["estafa"]},
+  {"match": "30 09 6", "replace": ["30096"]},
+  {"match": "3009 6", "replace": ["30096"]},
+  {"match": "boca de yuris", "replace": ["Vocare", "Iuris"]},
+  {"match": "bocariyuris", "replace": ["Vocare", "Iuris"]}
+ ]
+}

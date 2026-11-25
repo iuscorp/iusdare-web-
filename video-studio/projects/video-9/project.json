@@ -1,0 +1,33 @@
+{
+  "slug": "video-9",
+  "title": "Ping pong con Martín (promo del live 1 de diciembre)",
+  "createdAt": "2026-11-24T04:33:33.165Z",
+  "raw": "footage/raw/video-9/raw.MOV",
+  "proxy": "footage/video-9/source.mp4",
+  "status": "preview-renderizado",
+  "workflow": [
+    "ANÁLISIS",
+    "ESTRUCTURA NARRATIVA",
+    "CÓDIGOS NATIVOS",
+    "CANVAS VISUAL",
+    "APROBACIÓN",
+    "EDICIÓN COMPLETA",
+    "CONTROL DE CALIDAD",
+    "EXPORTACIÓN"
+  ],
+  "approval": {
+    "approved": false,
+    "approvedAt": null,
+    "notes": []
+  },
+  "editing": {
+    "minPause": 0.35,
+    "dropDb": 24,
+    "_nota": "entrevista: sólo pausas > 0.35 s; bordes con margen para no comer palabras"
+  },
+  "lastRender": {
+    "file": "../previews/video-9/video-9-preview.mp4",
+    "at": "2026-11-24T05:13:50.842Z",
+    "preview": true
+  }
+}

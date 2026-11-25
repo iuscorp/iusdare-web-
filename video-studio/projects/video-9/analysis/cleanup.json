@@ -1,0 +1,1689 @@
+{
+  "ranges": [
+    {
+      "in": 41.82,
+      "out": 42.09,
+      "words": [
+        {
+          "w": "Pin.",
+          "s": 41.82,
+          "e": 41.98,
+          "p": 0.027,
+          "take": 0,
+          "s0": 41.65,
+          "sel": 0,
+          "i": 0
+        }
+      ],
+      "text": "Pin."
+    },
+    {
+      "in": 42.36,
+      "out": 42.75,
+      "words": [
+        {
+          "w": "Pong.",
+          "s": 42.36,
+          "e": 42.66,
+          "p": 0.577,
+          "take": 0,
+          "s0": 42.36,
+          "sel": 0,
+          "i": 1
+        }
+      ],
+      "text": "Pong."
+    },
+    {
+      "in": 42.96,
+      "out": 44.05,
+      "words": [
+        {
+          "w": "Con.",
+          "s": 43.04,
+          "e": 43.089999999999996,
+          "p": 0.576,
+          "take": 0,
+          "s0": 43.04,
+          "sel": 0,
+          "i": 2
+        },
+        {
+          "w": "Martín",
+          "s": 43.36,
+          "e": 43.62,
+          "p": 0.927,
+          "take": 0,
+          "s0": 43.36,
+          "sel": 0,
+          "i": 3
+        },
+        {
+          "w": "Ruyero.",
+          "s": 43.62,
+          "e": 43.96,
+          "p": 0.845,
+          "take": 0,
+          "s0": 43.62,
+          "sel": 0,
+          "i": 4
+        }
+      ],
+      "text": "Con. Martín Ruyero."
+    },
+    {
+      "in": 44.42,
+      "out": 45.15,
+      "words": [
+        {
+          "w": "¿A",
+          "s": 44.42,
+          "e": 44.51,
+          "p": 0.338,
+          "take": 1,
+          "s0": 44.25,
+          "sel": 1,
+          "i": 5
+        },
+        {
+          "w": "qué",
+          "s": 44.51,
+          "e": 44.63,
+          "p": 0.764,
+          "take": 1,
+          "s0": 44.51,
+          "sel": 1,
+          "i": 6
+        },
+        {
+          "w": "se",
+          "s": 44.63,
+          "e": 44.73,
+          "p": 0.988,
+          "take": 1,
+          "s0": 44.63,
+          "sel": 1,
+          "i": 7
+        },
+        {
+          "w": "dedica?",
+          "s": 44.73,
+          "e": 45.07,
+          "p": 0.984,
+          "take": 1,
+          "s0": 44.73,
+          "sel": 1,
+          "i": 8
+        }
+      ],
+      "text": "¿A qué se dedica?"
+    },
+    {
+      "in": 45.3,
+      "out": 46.49,
+      "words": [
+        {
+          "w": "Soy",
+          "s": 45.3,
+          "e": 45.5,
+          "p": 0.002,
+          "take": 2,
+          "s0": 45.2,
+          "sel": 2,
+          "i": 9
+        },
+        {
+          "w": "Abobao,",
+          "s": 45.5,
+          "e": 45.94,
+          "p": 0.413,
+          "take": 2,
+          "s0": 45.5,
+          "sel": 2,
+          "i": 10
+        },
+        {
+          "w": "la",
+          "s": 45.94,
+          "e": 46.02,
+          "p": 0.245,
+          "take": 2,
+          "s0": 45.94,
+          "sel": 2,
+          "i": 11
+        },
+        {
+          "w": "oralista.",
+          "s": 46.02,
+          "e": 46.4,
+          "p": 0.929,
+          "take": 2,
+          "s0": 46.02,
+          "sel": 2,
+          "i": 12
+        }
+      ],
+      "text": "Soy Abobao, la oralista."
+    },
+    {
+      "in": 51.22,
+      "out": 53.79,
+      "words": [
+        {
+          "w": "¿En",
+          "s": 51.22,
+          "e": 51.35,
+          "p": 0.831,
+          "take": 3,
+          "s0": 50.9,
+          "sel": 3,
+          "i": 13
+        },
+        {
+          "w": "qué",
+          "s": 51.35,
+          "e": 51.45,
+          "p": 0.668,
+          "take": 3,
+          "s0": 51.35,
+          "sel": 3,
+          "i": 14
+        },
+        {
+          "w": "le",
+          "s": 51.45,
+          "e": 51.57,
+          "p": 0.601,
+          "take": 3,
+          "s0": 51.45,
+          "sel": 3,
+          "i": 15
+        },
+        {
+          "w": "hubiera",
+          "s": 51.57,
+          "e": 51.77,
+          "p": 0.996,
+          "take": 3,
+          "s0": 51.57,
+          "sel": 3,
+          "i": 16
+        },
+        {
+          "w": "gustado",
+          "s": 51.77,
+          "e": 52.07,
+          "p": 0.998,
+          "take": 3,
+          "s0": 51.77,
+          "sel": 3,
+          "i": 17
+        },
+        {
+          "w": "especializarse",
+          "s": 52.07,
+          "e": 52.73,
+          "p": 0.95,
+          "take": 3,
+          "s0": 52.07,
+          "sel": 3,
+          "i": 18
+        },
+        {
+          "w": "si",
+          "s": 52.73,
+          "e": 52.87,
+          "p": 0.974,
+          "take": 3,
+          "s0": 52.73,
+          "sel": 3,
+          "i": 19
+        },
+        {
+          "w": "no",
+          "s": 52.87,
+          "e": 52.97,
+          "p": 0.997,
+          "take": 3,
+          "s0": 52.87,
+          "sel": 3,
+          "i": 20
+        },
+        {
+          "w": "hubiera",
+          "s": 52.97,
+          "e": 53.13,
+          "p": 0.976,
+          "take": 3,
+          "s0": 52.97,
+          "sel": 3,
+          "i": 21
+        },
+        {
+          "w": "sido",
+          "s": 53.13,
+          "e": 53.31,
+          "p": 0.996,
+          "take": 3,
+          "s0": 53.13,
+          "sel": 3,
+          "i": 22
+        },
+        {
+          "w": "laboral?",
+          "s": 53.31,
+          "e": 53.73,
+          "p": 0.965,
+          "take": 3,
+          "s0": 53.31,
+          "sel": 3,
+          "i": 23
+        }
+      ],
+      "text": "¿En qué le hubiera gustado especializarse si no hubiera sido laboral?"
+    },
+    {
+      "in": 54.38,
+      "out": 55.56,
+      "words": [
+        {
+          "w": "Creo",
+          "s": 54.38,
+          "e": 54.5,
+          "p": 0.769,
+          "take": 4,
+          "s0": 54.05,
+          "sel": 4,
+          "i": 24
+        },
+        {
+          "w": "que",
+          "s": 54.5,
+          "e": 54.64,
+          "p": 0.985,
+          "take": 4,
+          "s0": 54.5,
+          "sel": 4,
+          "i": 25
+        },
+        {
+          "w": "en",
+          "s": 54.64,
+          "e": 54.7,
+          "p": 0.869,
+          "take": 4,
+          "s0": 54.64,
+          "sel": 4,
+          "i": 26
+        },
+        {
+          "w": "derechos",
+          "s": 54.7,
+          "e": 54.9,
+          "p": 0.421,
+          "take": 4,
+          "s0": 54.7,
+          "sel": 4,
+          "i": 27
+        },
+        {
+          "w": "civil,",
+          "s": 54.9,
+          "e": 55.34,
+          "p": 0.986,
+          "take": 4,
+          "s0": 54.9,
+          "sel": 4,
+          "i": 28
+        }
+      ],
+      "text": "Creo que en derechos civil,"
+    },
+    {
+      "in": 55.71,
+      "out": 57.11,
+      "words": [
+        {
+          "w": "procesar",
+          "s": 55.71,
+          "e": 56.12,
+          "p": 0.77,
+          "take": 4,
+          "s0": 55.66,
+          "sel": 4,
+          "i": 29
+        },
+        {
+          "w": "el",
+          "s": 56.12,
+          "e": 56.2,
+          "p": 0.511,
+          "take": 4,
+          "s0": 56.12,
+          "sel": 4,
+          "i": 30
+        },
+        {
+          "w": "civil",
+          "s": 56.2,
+          "e": 56.4,
+          "p": 0.965,
+          "take": 4,
+          "s0": 56.2,
+          "sel": 4,
+          "i": 31
+        },
+        {
+          "w": "litigio.",
+          "s": 56.4,
+          "e": 57.02,
+          "p": 0.989,
+          "take": 4,
+          "s0": 56.4,
+          "sel": 4,
+          "i": 32
+        }
+      ],
+      "text": "procesar el civil litigio."
+    },
+    {
+      "in": 62.5,
+      "out": 64.59,
+      "words": [
+        {
+          "w": "¿Cuál",
+          "s": 62.5,
+          "e": 62.66,
+          "p": 0.895,
+          "take": 5,
+          "s0": 62.35,
+          "sel": 5,
+          "i": 33
+        },
+        {
+          "w": "es",
+          "s": 62.66,
+          "e": 62.78,
+          "p": 0.996,
+          "take": 5,
+          "s0": 62.66,
+          "sel": 5,
+          "i": 34
+        },
+        {
+          "w": "el",
+          "s": 62.78,
+          "e": 62.88,
+          "p": 0.994,
+          "take": 5,
+          "s0": 62.78,
+          "sel": 5,
+          "i": 35
+        },
+        {
+          "w": "error",
+          "s": 62.88,
+          "e": 63.04,
+          "p": 0.989,
+          "take": 5,
+          "s0": 62.88,
+          "sel": 5,
+          "i": 36
+        },
+        {
+          "w": "más",
+          "s": 63.04,
+          "e": 63.24,
+          "p": 0.942,
+          "take": 5,
+          "s0": 63.04,
+          "sel": 5,
+          "i": 37
+        },
+        {
+          "w": "común",
+          "s": 63.24,
+          "e": 63.54,
+          "p": 0.994,
+          "take": 5,
+          "s0": 63.24,
+          "sel": 5,
+          "i": 38
+        },
+        {
+          "w": "al",
+          "s": 63.54,
+          "e": 63.7,
+          "p": 0.592,
+          "take": 5,
+          "s0": 63.54,
+          "sel": 5,
+          "i": 39
+        },
+        {
+          "w": "contratar",
+          "s": 63.7,
+          "e": 64.04,
+          "p": 0.923,
+          "take": 5,
+          "s0": 63.7,
+          "sel": 5,
+          "i": 40
+        },
+        {
+          "w": "a",
+          "s": 64.04,
+          "e": 64.09,
+          "p": 0.581,
+          "take": 5,
+          "s0": 64.04,
+          "sel": 5,
+          "i": 41
+        },
+        {
+          "w": "una",
+          "s": 64.09,
+          "e": 64.14,
+          "p": 0.995,
+          "take": 5,
+          "s0": 64.06,
+          "sel": 5,
+          "i": 42
+        },
+        {
+          "w": "persona?",
+          "s": 64.14,
+          "e": 64.42,
+          "p": 0.998,
+          "take": 5,
+          "s0": 64.14,
+          "sel": 5,
+          "i": 43
+        }
+      ],
+      "text": "¿Cuál es el error más común al contratar a una persona?"
+    },
+    {
+      "in": 65.3,
+      "out": 68.82,
+      "words": [
+        {
+          "w": "Que",
+          "s": 65.3,
+          "e": 65.39,
+          "p": 0.025,
+          "take": 6,
+          "s0": 65.2,
+          "sel": 6,
+          "i": 44
+        },
+        {
+          "w": "debiendo",
+          "s": 65.39,
+          "e": 65.97,
+          "p": 0.958,
+          "take": 6,
+          "s0": 65.39,
+          "sel": 6,
+          "i": 45
+        },
+        {
+          "w": "contratarlo",
+          "s": 65.97,
+          "e": 66.59,
+          "p": 0.96,
+          "take": 6,
+          "s0": 65.97,
+          "sel": 6,
+          "i": 46
+        },
+        {
+          "w": "como",
+          "s": 66.59,
+          "e": 66.75,
+          "p": 0.991,
+          "take": 6,
+          "s0": 66.59,
+          "sel": 6,
+          "i": 47
+        },
+        {
+          "w": "trabajador",
+          "s": 66.75,
+          "e": 67.45,
+          "p": 0.998,
+          "take": 6,
+          "s0": 66.75,
+          "sel": 6,
+          "i": 48
+        },
+        {
+          "w": "en",
+          "s": 67.45,
+          "e": 67.63,
+          "p": 0.909,
+          "take": 6,
+          "s0": 67.45,
+          "sel": 6,
+          "i": 49
+        },
+        {
+          "w": "planilla,",
+          "s": 67.63,
+          "e": 68.09,
+          "p": 0.762,
+          "take": 6,
+          "s0": 67.63,
+          "sel": 6,
+          "i": 50
+        },
+        {
+          "w": "no",
+          "s": 68.31,
+          "e": 68.39,
+          "p": 0.99,
+          "take": 6,
+          "s0": 68.31,
+          "sel": 6,
+          "i": 51
+        },
+        {
+          "w": "lo",
+          "s": 68.39,
+          "e": 68.51,
+          "p": 0.993,
+          "take": 6,
+          "s0": 68.39,
+          "sel": 6,
+          "i": 52
+        },
+        {
+          "w": "hacen.",
+          "s": 68.51,
+          "e": 68.77,
+          "p": 0.965,
+          "take": 6,
+          "s0": 68.51,
+          "sel": 6,
+          "i": 53
+        }
+      ],
+      "text": "Que debiendo contratarlo como trabajador en planilla, no lo hacen."
+    },
+    {
+      "in": 102.82,
+      "out": 106.2,
+      "words": [
+        {
+          "w": "¿Cuál",
+          "s": 102.82,
+          "e": 103.04,
+          "p": 0.762,
+          "take": 7,
+          "s0": 102.65,
+          "sel": 7,
+          "i": 54
+        },
+        {
+          "w": "cree",
+          "s": 103.04,
+          "e": 103.24,
+          "p": 0.965,
+          "take": 7,
+          "s0": 103.04,
+          "sel": 7,
+          "i": 55
+        },
+        {
+          "w": "que",
+          "s": 103.24,
+          "e": 103.5,
+          "p": 0.992,
+          "take": 7,
+          "s0": 103.24,
+          "sel": 7,
+          "i": 56
+        },
+        {
+          "w": "es",
+          "s": 103.5,
+          "e": 103.66,
+          "p": 0.973,
+          "take": 7,
+          "s0": 103.5,
+          "sel": 7,
+          "i": 57
+        },
+        {
+          "w": "el",
+          "s": 103.66,
+          "e": 103.76,
+          "p": 0.993,
+          "take": 7,
+          "s0": 103.66,
+          "sel": 7,
+          "i": 58
+        },
+        {
+          "w": "beneficio",
+          "s": 103.76,
+          "e": 104.06,
+          "p": 0.998,
+          "take": 7,
+          "s0": 103.76,
+          "sel": 7,
+          "i": 59
+        },
+        {
+          "w": "laboral",
+          "s": 104.06,
+          "e": 104.4,
+          "p": 0.819,
+          "take": 7,
+          "s0": 104.06,
+          "sel": 7,
+          "i": 60
+        },
+        {
+          "w": "que",
+          "s": 104.4,
+          "e": 104.46,
+          "p": 0.964,
+          "take": 7,
+          "s0": 104.4,
+          "sel": 7,
+          "i": 61
+        },
+        {
+          "w": "genera",
+          "s": 104.46,
+          "e": 104.78,
+          "p": 0.372,
+          "take": 7,
+          "s0": 104.46,
+          "sel": 7,
+          "i": 62
+        },
+        {
+          "w": "más",
+          "s": 104.78,
+          "e": 104.96,
+          "p": 0.946,
+          "take": 7,
+          "s0": 104.78,
+          "sel": 7,
+          "i": 63
+        },
+        {
+          "w": "complicaciones",
+          "s": 104.96,
+          "e": 105.58,
+          "p": 0.984,
+          "take": 7,
+          "s0": 104.96,
+          "sel": 7,
+          "i": 64
+        },
+        {
+          "w": "en",
+          "s": 105.58,
+          "e": 105.72,
+          "p": 0.981,
+          "take": 7,
+          "s0": 105.58,
+          "sel": 7,
+          "i": 65
+        },
+        {
+          "w": "las",
+          "s": 105.72,
+          "e": 105.82,
+          "p": 0.993,
+          "take": 7,
+          "s0": 105.72,
+          "sel": 7,
+          "i": 66
+        },
+        {
+          "w": "empresas?",
+          "s": 105.82,
+          "e": 106.08,
+          "p": 0.998,
+          "take": 7,
+          "s0": 105.82,
+          "sel": 7,
+          "i": 67
+        }
+      ],
+      "text": "¿Cuál cree que es el beneficio laboral que genera más complicaciones en las empresas?"
+    },
+    {
+      "in": 106.73,
+      "out": 109.52,
+      "words": [
+        {
+          "w": "Hoy",
+          "s": 106.73,
+          "e": 106.94,
+          "p": 0.544,
+          "take": 8,
+          "s0": 106.55,
+          "sel": 8,
+          "i": 68
+        },
+        {
+          "w": "en",
+          "s": 106.94,
+          "e": 107.04,
+          "p": 0.938,
+          "take": 8,
+          "s0": 106.94,
+          "sel": 8,
+          "i": 69
+        },
+        {
+          "w": "día",
+          "s": 107.04,
+          "e": 107.28,
+          "p": 0.998,
+          "take": 8,
+          "s0": 107.04,
+          "sel": 8,
+          "i": 70
+        },
+        {
+          "w": "te",
+          "s": 107.28,
+          "e": 107.66,
+          "p": 0.499,
+          "take": 8,
+          "s0": 107.28,
+          "sel": 8,
+          "i": 71
+        },
+        {
+          "w": "diría",
+          "s": 107.66,
+          "e": 107.96,
+          "p": 0.9,
+          "take": 8,
+          "s0": 107.66,
+          "sel": 8,
+          "i": 72
+        },
+        {
+          "w": "que",
+          "s": 107.96,
+          "e": 108.12,
+          "p": 0.966,
+          "take": 8,
+          "s0": 107.96,
+          "sel": 8,
+          "i": 73
+        },
+        {
+          "w": "el",
+          "s": 108.12,
+          "e": 108.22,
+          "p": 0.967,
+          "take": 8,
+          "s0": 108.12,
+          "sel": 8,
+          "i": 74
+        },
+        {
+          "w": "cálculo",
+          "s": 108.22,
+          "e": 108.62,
+          "p": 0.986,
+          "take": 8,
+          "s0": 108.22,
+          "sel": 8,
+          "i": 75
+        },
+        {
+          "w": "y",
+          "s": 108.62,
+          "e": 108.72,
+          "p": 0.903,
+          "take": 8,
+          "s0": 108.62,
+          "sel": 8,
+          "i": 76
+        },
+        {
+          "w": "pago",
+          "s": 108.72,
+          "e": 108.94,
+          "p": 0.922,
+          "take": 8,
+          "s0": 108.72,
+          "sel": 8,
+          "i": 77
+        },
+        {
+          "w": "de",
+          "s": 108.94,
+          "e": 109.02,
+          "p": 0.975,
+          "take": 8,
+          "s0": 108.94,
+          "sel": 8,
+          "i": 78
+        },
+        {
+          "w": "vacaciones.",
+          "s": 109.02,
+          "e": 109.44,
+          "p": 0.996,
+          "take": 8,
+          "s0": 109.02,
+          "sel": 8,
+          "i": 79
+        }
+      ],
+      "text": "Hoy en día te diría que el cálculo y pago de vacaciones."
+    },
+    {
+      "in": 142.24,
+      "out": 145.29,
+      "words": [
+        {
+          "w": "¿Cuál",
+          "s": 142.3,
+          "e": 142.73,
+          "p": 0.871,
+          "take": 9,
+          "s0": 142.2,
+          "sel": 9,
+          "i": 80
+        },
+        {
+          "w": "es",
+          "s": 142.73,
+          "e": 142.89,
+          "p": 0.996,
+          "take": 9,
+          "s0": 142.73,
+          "sel": 9,
+          "i": 81
+        },
+        {
+          "w": "el",
+          "s": 142.89,
+          "e": 143.01,
+          "p": 0.996,
+          "take": 9,
+          "s0": 142.89,
+          "sel": 9,
+          "i": 82
+        },
+        {
+          "w": "error",
+          "s": 143.01,
+          "e": 143.19,
+          "p": 0.994,
+          "take": 9,
+          "s0": 143.01,
+          "sel": 9,
+          "i": 83
+        },
+        {
+          "w": "más",
+          "s": 143.19,
+          "e": 143.41,
+          "p": 0.976,
+          "take": 9,
+          "s0": 143.19,
+          "sel": 9,
+          "i": 84
+        },
+        {
+          "w": "común",
+          "s": 143.41,
+          "e": 143.75,
+          "p": 0.998,
+          "take": 9,
+          "s0": 143.41,
+          "sel": 9,
+          "i": 85
+        },
+        {
+          "w": "sobre",
+          "s": 143.75,
+          "e": 144.31,
+          "p": 0.983,
+          "take": 9,
+          "s0": 143.75,
+          "sel": 9,
+          "i": 86
+        },
+        {
+          "w": "los",
+          "s": 144.31,
+          "e": 144.47,
+          "p": 0.944,
+          "take": 9,
+          "s0": 144.31,
+          "sel": 9,
+          "i": 87
+        },
+        {
+          "w": "beneficios",
+          "s": 144.47,
+          "e": 144.87,
+          "p": 0.993,
+          "take": 9,
+          "s0": 144.47,
+          "sel": 9,
+          "i": 88
+        },
+        {
+          "w": "sociales?",
+          "s": 144.87,
+          "e": 145.09,
+          "p": 0.978,
+          "take": 9,
+          "s0": 144.87,
+          "sel": 9,
+          "i": 89
+        }
+      ],
+      "text": "¿Cuál es el error más común sobre los beneficios sociales?"
+    },
+    {
+      "in": 149.51,
+      "out": 150.66,
+      "words": [
+        {
+          "w": "Eso",
+          "s": 149.51,
+          "e": 149.72,
+          "p": 0.561,
+          "take": 10,
+          "s0": 149.35,
+          "sel": 10,
+          "i": 90
+        },
+        {
+          "w": "lo",
+          "s": 149.72,
+          "e": 149.94,
+          "p": 0.95,
+          "take": 10,
+          "s0": 149.72,
+          "sel": 10,
+          "i": 91
+        },
+        {
+          "w": "veremos",
+          "s": 149.94,
+          "e": 150.2,
+          "p": 0.731,
+          "take": 10,
+          "s0": 149.94,
+          "sel": 10,
+          "i": 92
+        },
+        {
+          "w": "en",
+          "s": 150.2,
+          "e": 150.32,
+          "p": 0.991,
+          "take": 10,
+          "s0": 150.2,
+          "sel": 10,
+          "i": 93
+        },
+        {
+          "w": "el",
+          "s": 150.32,
+          "e": 150.42,
+          "p": 0.966,
+          "take": 10,
+          "s0": 150.32,
+          "sel": 10,
+          "i": 94
+        },
+        {
+          "w": "live.",
+          "s": 150.42,
+          "e": 150.56,
+          "p": 0.394,
+          "take": 10,
+          "s0": 150.42,
+          "sel": 10,
+          "i": 95
+        }
+      ],
+      "text": "Eso lo veremos en el live."
+    },
+    {
+      "in": 228.12,
+      "out": 236.31,
+      "words": [
+        {
+          "w": "Nos",
+          "s": 228.12,
+          "e": 228.28,
+          "p": 0.944,
+          "take": 11,
+          "s0": 227.95,
+          "sel": 11,
+          "i": 96
+        },
+        {
+          "w": "vemos",
+          "s": 228.28,
+          "e": 228.44,
+          "p": 0.999,
+          "take": 11,
+          "s0": 228.28,
+          "sel": 11,
+          "i": 97
+        },
+        {
+          "w": "este",
+          "s": 228.44,
+          "e": 228.66,
+          "p": 0.95,
+          "take": 11,
+          "s0": 228.44,
+          "sel": 11,
+          "i": 98
+        },
+        {
+          "w": "1",
+          "s": 228.66,
+          "e": 228.92,
+          "p": 0.775,
+          "take": 11,
+          "s0": 228.66,
+          "sel": 11,
+          "i": 99
+        },
+        {
+          "w": "de",
+          "s": 228.92,
+          "e": 229.2,
+          "p": 0.374,
+          "take": 11,
+          "s0": 228.92,
+          "sel": 11,
+          "i": 100
+        },
+        {
+          "w": "diciembre",
+          "s": 229.2,
+          "e": 229.64,
+          "p": 0.949,
+          "take": 11,
+          "s0": 229.2,
+          "sel": 11,
+          "i": 101
+        },
+        {
+          "w": "a",
+          "s": 229.64,
+          "e": 229.96,
+          "p": 0.785,
+          "take": 11,
+          "s0": 229.64,
+          "sel": 11,
+          "i": 102
+        },
+        {
+          "w": "las",
+          "s": 229.96,
+          "e": 230.06,
+          "p": 0.989,
+          "take": 11,
+          "s0": 229.96,
+          "sel": 11,
+          "i": 103
+        },
+        {
+          "w": "8",
+          "s": 230.06,
+          "e": 230.4,
+          "p": 0.944,
+          "take": 11,
+          "s0": 230.06,
+          "sel": 11,
+          "i": 104
+        },
+        {
+          "w": "p",
+          "s": 230.4,
+          "e": 230.62,
+          "p": 0.259,
+          "take": 11,
+          "s0": 230.4,
+          "sel": 11,
+          "i": 105
+        },
+        {
+          "w": ".m.",
+          "s": 230.62,
+          "e": 230.88,
+          "p": 0.99,
+          "take": 11,
+          "s0": 230.62,
+          "sel": 11,
+          "i": 106
+        },
+        {
+          "w": "en",
+          "s": 231.02,
+          "e": 231.18,
+          "p": 0.97,
+          "take": 11,
+          "s0": 231.02,
+          "sel": 11,
+          "i": 107
+        },
+        {
+          "w": "el",
+          "s": 231.18,
+          "e": 231.3,
+          "p": 0.974,
+          "take": 11,
+          "s0": 231.18,
+          "sel": 11,
+          "i": 108
+        },
+        {
+          "w": "live",
+          "s": 231.3,
+          "e": 231.46,
+          "p": 0.556,
+          "take": 11,
+          "s0": 231.3,
+          "sel": 11,
+          "i": 109
+        },
+        {
+          "w": "que",
+          "s": 231.46,
+          "e": 231.68,
+          "p": 0.982,
+          "take": 11,
+          "s0": 231.46,
+          "sel": 11,
+          "i": 110
+        },
+        {
+          "w": "tendremos",
+          "s": 231.68,
+          "e": 232.08,
+          "p": 0.982,
+          "take": 11,
+          "s0": 231.68,
+          "sel": 11,
+          "i": 111
+        },
+        {
+          "w": "con",
+          "s": 232.08,
+          "e": 232.24,
+          "p": 0.995,
+          "take": 11,
+          "s0": 232.08,
+          "sel": 11,
+          "i": 112
+        },
+        {
+          "w": "nuestros",
+          "s": 232.24,
+          "e": 232.42,
+          "p": 0.981,
+          "take": 11,
+          "s0": 232.24,
+          "sel": 11,
+          "i": 113
+        },
+        {
+          "w": "amigos",
+          "s": 232.42,
+          "e": 232.74,
+          "p": 0.988,
+          "take": 11,
+          "s0": 232.42,
+          "sel": 11,
+          "i": 114
+        },
+        {
+          "w": "de",
+          "s": 232.74,
+          "e": 232.92,
+          "p": 0.987,
+          "take": 11,
+          "s0": 232.74,
+          "sel": 11,
+          "i": 115
+        },
+        {
+          "w": "Vocare",
+          "s": 232.92,
+          "e": 233.14,
+          "p": 0.217,
+          "take": 11,
+          "s0": 232.92,
+          "sel": 11,
+          "i": 116
+        },
+        {
+          "w": "Iuris.",
+          "s": 233.14,
+          "e": 233.5,
+          "p": 0.645,
+          "take": 11,
+          "s0": 233.14,
+          "sel": 11,
+          "i": 117
+        },
+        {
+          "w": "Conversaremos",
+          "s": 233.76,
+          "e": 234.24,
+          "p": 0.98,
+          "take": 11,
+          "s0": 233.76,
+          "sel": 11,
+          "i": 118
+        },
+        {
+          "w": "sobre",
+          "s": 234.24,
+          "e": 234.52,
+          "p": 0.996,
+          "take": 11,
+          "s0": 234.24,
+          "sel": 11,
+          "i": 119
+        },
+        {
+          "w": "cálculo",
+          "s": 234.52,
+          "e": 234.98,
+          "p": 0.997,
+          "take": 11,
+          "s0": 234.52,
+          "sel": 11,
+          "i": 120
+        },
+        {
+          "w": "y",
+          "s": 234.98,
+          "e": 235.08,
+          "p": 0.997,
+          "take": 11,
+          "s0": 234.98,
+          "sel": 11,
+          "i": 121
+        },
+        {
+          "w": "pago",
+          "s": 235.08,
+          "e": 235.32,
+          "p": 0.977,
+          "take": 11,
+          "s0": 235.08,
+          "sel": 11,
+          "i": 122
+        },
+        {
+          "w": "de",
+          "s": 235.32,
+          "e": 235.42,
+          "p": 0.988,
+          "take": 11,
+          "s0": 235.32,
+          "sel": 11,
+          "i": 123
+        },
+        {
+          "w": "beneficios",
+          "s": 235.42,
+          "e": 235.78,
+          "p": 0.958,
+          "take": 11,
+          "s0": 235.42,
+          "sel": 11,
+          "i": 124
+        },
+        {
+          "w": "laborales.",
+          "s": 235.78,
+          "e": 236.25,
+          "p": 0.999,
+          "take": 11,
+          "s0": 235.78,
+          "sel": 11,
+          "i": 125
+        }
+      ],
+      "text": "Nos vemos este 1 de diciembre a las 8 p .m. en el live que tendremos con nuestros amigos de Vocare Iuris. Conversaremos sobre cálculo y pago de beneficios laborales."
+    },
+    {
+      "in": 236.5,
+      "out": 237.14,
+      "words": [
+        {
+          "w": "Nos",
+          "s": 236.52,
+          "e": 236.6,
+          "p": 0.781,
+          "take": 11,
+          "s0": 236.52,
+          "sel": 11,
+          "i": 126
+        },
+        {
+          "w": "esperamos.",
+          "s": 236.6,
+          "e": 237,
+          "p": 0.985,
+          "take": 11,
+          "s0": 236.6,
+          "sel": 11,
+          "i": 127
+        }
+      ],
+      "text": "Nos esperamos."
+    }
+  ],
+  "removed": [
+    {
+      "kind": "silence",
+      "from": 41.98,
+      "to": 42.36,
+      "text": "0.38 s → 0.17 s"
+    },
+    {
+      "kind": "silence",
+      "from": 42.66,
+      "to": 43.04,
+      "text": "0.38 s → 0.17 s"
+    },
+    {
+      "kind": "silence",
+      "from": 55.34,
+      "to": 55.66,
+      "text": "0.32 s → 0.17 s"
+    }
+  ],
+  "keptPauses": [],
+  "flags": [
+    {
+      "kind": "low-confidence",
+      "at": 41.65,
+      "text": "Pin.",
+      "p": 0.027,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 44.25,
+      "text": "¿A",
+      "p": 0.338,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 45.2,
+      "text": "Soy",
+      "p": 0.002,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 45.5,
+      "text": "Abobao,",
+      "p": 0.413,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 45.94,
+      "text": "la",
+      "p": 0.245,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 54.7,
+      "text": "derechos",
+      "p": 0.421,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 56.12,
+      "text": "el",
+      "p": 0.511,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 65.2,
+      "text": "Que",
+      "p": 0.025,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 104.46,
+      "text": "genera",
+      "p": 0.372,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 106.55,
+      "text": "Hoy",
+      "p": 0.544,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 107.28,
+      "text": "te",
+      "p": 0.499,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 150.42,
+      "text": "live.",
+      "p": 0.394,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "soft-filler",
+      "at": 228.44,
+      "text": "este",
+      "note": "Revisar: puede tener función (transición o traducción)."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 228.92,
+      "text": "de",
+      "p": 0.374,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 230.4,
+      "text": "p",
+      "p": 0.259,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "low-confidence",
+      "at": 232.92,
+      "text": "Vocare",
+      "p": 0.217,
+      "note": "Verificar ortografía/término en subtítulo."
+    },
+    {
+      "kind": "off-camera-voice",
+      "at": 41.82,
+      "text": "Pin.",
+      "note": "100 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    },
+    {
+      "kind": "off-camera-voice",
+      "at": 44.42,
+      "text": "¿A qué se dedica?",
+      "note": "63 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    },
+    {
+      "kind": "off-camera-voice",
+      "at": 51.22,
+      "text": "¿En qué le hubiera gustado especializarse si no hubiera sido laboral?",
+      "note": "96 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    },
+    {
+      "kind": "off-camera-voice",
+      "at": 62.5,
+      "text": "¿Cuál es el error más común al contratar a una persona?",
+      "note": "100 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    },
+    {
+      "kind": "off-camera-voice",
+      "at": 102.82,
+      "text": "¿Cuál cree que es el beneficio laboral que genera más complicaciones en las empresas?",
+      "note": "100 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    },
+    {
+      "kind": "off-camera-voice",
+      "at": 142.24,
+      "text": "¿Cuál es el error más común sobre los beneficios sociales?",
+      "note": "97 % de la voz sin movimiento de labios: ¿voz detrás de cámara?"
+    }
+  ],
+  "stats": {
+    "sourceDuration": 245.824,
+    "sourceSpeechSpan": 195.35,
+    "outputDuration": 33.63,
+    "savedSeconds": 211.274,
+    "words": 128,
+    "wordsPerSecond": 3.705,
+    "acousticAirRemoved": 1.45
+  },
+  "speaker": [
+    {
+      "in": 41.82,
+      "out": 42.09,
+      "text": "Pin.",
+      "timeline": "ddd",
+      "offCamera": 1
+    },
+    {
+      "in": 42.36,
+      "out": 42.75,
+      "text": "Pong.",
+      "timeline": "NNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 42.96,
+      "out": 44.05,
+      "text": "Con. Martín Ruyero.",
+      "timeline": "dNNNNNNNNNN",
+      "offCamera": 0.09
+    },
+    {
+      "in": 44.42,
+      "out": 45.15,
+      "text": "¿A qué se dedica?",
+      "timeline": "dddddNNN",
+      "offCamera": 0.63
+    },
+    {
+      "in": 45.3,
+      "out": 46.49,
+      "text": "Soy Abobao, la oralista.",
+      "timeline": "NNNNNNNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 51.22,
+      "out": 53.79,
+      "text": "¿En qué le hubiera gustado especializarse si no hubiera sido laboral?",
+      "timeline": "dddddddddddddddddddddddddN",
+      "offCamera": 0.96
+    },
+    {
+      "in": 54.38,
+      "out": 55.56,
+      "text": "Creo que en derechos civil,",
+      "timeline": "NNNNNNNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 55.71,
+      "out": 57.11,
+      "text": "procesar el civil litigio.",
+      "timeline": "NNNNNNNNNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 62.5,
+      "out": 64.59,
+      "text": "¿Cuál es el error más común al contratar a una persona?",
+      "timeline": "ddddddddddddddddddddd",
+      "offCamera": 1
+    },
+    {
+      "in": 65.3,
+      "out": 68.82,
+      "text": "Que debiendo contratarlo como trabajador en planilla, no lo hacen.",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 102.82,
+      "out": 106.2,
+      "text": "¿Cuál cree que es el beneficio laboral que genera más complicaciones en las empresas?",
+      "timeline": "dddddddddddddddddddddddddddddddddd",
+      "offCamera": 1
+    },
+    {
+      "in": 106.73,
+      "out": 109.52,
+      "text": "Hoy en día te diría que el cálculo y pago de vacaciones.",
+      "timeline": "NNNNNNN.NNNNNNNNNNNNNNNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 142.24,
+      "out": 145.29,
+      "text": "¿Cuál es el error más común sobre los beneficios sociales?",
+      "timeline": "ddddddddddddddddddddddddddddddN",
+      "offCamera": 0.97
+    },
+    {
+      "in": 149.51,
+      "out": 150.66,
+      "text": "Eso lo veremos en el live.",
+      "timeline": "NNNNNNNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 228.12,
+      "out": 236.31,
+      "text": "Nos vemos este 1 de diciembre a las 8 p .m. en el live que tendremos con nuestros amigos de Vocare Iuris. Conversaremos sobre cálculo y pago de beneficios laborales.",
+      "timeline": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+      "offCamera": 0
+    },
+    {
+      "in": 236.5,
+      "out": 237.14,
+      "text": "Nos esperamos.",
+      "timeline": "NNNNNNN",
+      "offCamera": 0
+    }
+  ]
+}

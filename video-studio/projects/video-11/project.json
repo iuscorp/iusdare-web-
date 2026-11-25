@@ -1,0 +1,44 @@
+{
+  "slug": "video-11",
+  "title": "Le prestaste el carro y te llegó la fotopapeleta",
+  "createdAt": "2026-11-24T16:07:16.015Z",
+  "raw": "footage/raw/video-11/raw.MOV",
+  "proxy": "footage/video-11/source.mp4",
+  "status": "preview-renderizado",
+  "workflow": [
+    "ANÁLISIS",
+    "ESTRUCTURA NARRATIVA",
+    "CÓDIGOS NATIVOS",
+    "CANVAS VISUAL",
+    "APROBACIÓN",
+    "EDICIÓN COMPLETA",
+    "CONTROL DE CALIDAD",
+    "EXPORTACIÓN"
+  ],
+  "approval": {
+    "approved": false,
+    "approvedAt": null,
+    "notes": []
+  },
+  "editing": {
+    "minPause": 0.25,
+    "dropDb": 22,
+    "voice": {
+      "splitHz": 60,
+      "quietDb": -34
+    },
+    "audio": {
+      "denoise": {
+        "nr": 20,
+        "nf": -38,
+        "highpass": 80
+      },
+      "_nota": "pedido: mejorar audio y eliminar ruido de fondo"
+    }
+  },
+  "lastRender": {
+    "file": "../previews/video-11/video-11-preview.mp4",
+    "at": "2026-11-25T08:32:33.385Z",
+    "preview": true
+  }
+}

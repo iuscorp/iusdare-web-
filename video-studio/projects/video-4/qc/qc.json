@@ -1,0 +1,165 @@
+{
+  "checks": [
+    {
+      "name": "Resolución",
+      "ok": true,
+      "level": "ok",
+      "detail": "1080x1920 (revisión)"
+    },
+    {
+      "name": "Bitrate de video",
+      "ok": true,
+      "level": "ok",
+      "detail": "7.8 Mbps"
+    },
+    {
+      "name": "Espacio de color",
+      "ok": true,
+      "level": "ok",
+      "detail": "yuv420p · bt709 · rango tv (esperado bt709/tv como el original)"
+    },
+    {
+      "name": "FPS",
+      "ok": true,
+      "level": "ok",
+      "detail": "30 (footage 30)"
+    },
+    {
+      "name": "Duración",
+      "ok": true,
+      "level": "ok",
+      "detail": "46.80 s (EDL 46.77 s)"
+    },
+    {
+      "name": "Fotogramas negros",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Loudness",
+      "ok": true,
+      "level": "ok",
+      "detail": "-14.1 LUFS (objetivo −14 ±1)"
+    },
+    {
+      "name": "True peak",
+      "ok": true,
+      "level": "ok",
+      "detail": "-1.5 dBFS"
+    },
+    {
+      "name": "Silencios residuales (>0.6 s)",
+      "ok": true,
+      "level": "ok",
+      "detail": "ninguno"
+    },
+    {
+      "name": "Primera palabra en el frame 0",
+      "ok": true,
+      "level": "ok",
+      "detail": "0.00 s"
+    },
+    {
+      "name": "Sincronía de subtítulos",
+      "ok": true,
+      "level": "ok",
+      "detail": "mediana 0 ms, p90 |53| ms, 157/172 palabras alineadas"
+    },
+    {
+      "name": "Ortografía / términos",
+      "ok": false,
+      "level": "warn",
+      "detail": "15 palabras de subtítulo no coinciden con lo que se oye (revisar lista)"
+    }
+  ],
+  "sync": {
+    "matched": 157,
+    "total": 172,
+    "medianOffset": 0,
+    "p90AbsOffset": 0.053000000000000824,
+    "mismatches": [
+      {
+        "at": 3.233,
+        "caption": "Eso",
+        "heard": "Ese es falso,"
+      },
+      {
+        "at": 4.5,
+        "caption": "del",
+        "heard": "reglamento de colegio,"
+      },
+      {
+        "at": 9.79,
+        "caption": "Porque",
+        "heard": "¿Por qué existen"
+      },
+      {
+        "at": 19.047,
+        "caption": "comprometieron",
+        "heard": "papás se despedieron al firmar."
+      },
+      {
+        "at": 22.767,
+        "caption": "renuncia",
+        "heard": "ser una ranuncia de"
+      },
+      {
+        "at": 23.007,
+        "caption": "a",
+        "heard": "una ranuncia de derechos"
+      },
+      {
+        "at": 24.953,
+        "caption": "prohíben",
+        "heard": "que si te prueben entrar"
+      },
+      {
+        "at": 29.567,
+        "caption": "está",
+        "heard": "es que están de reglamento."
+      },
+      {
+        "at": 29.727,
+        "caption": "en",
+        "heard": "que están de reglamento."
+      },
+      {
+        "at": 29.847,
+        "caption": "el",
+        "heard": "que están de reglamento."
+      },
+      {
+        "at": 34.05,
+        "caption": "Indecopi",
+        "heard": "Y sí, Inecopi"
+      },
+      {
+        "at": 39.96,
+        "caption": "debe",
+        "heard": "de edad."
+      },
+      {
+        "at": 40.34,
+        "caption": "adaptarse",
+        "heard": "de edad. a la"
+      },
+      {
+        "at": 42.16,
+        "caption": "al",
+        "heard": "Constitución arreglamento."
+      },
+      {
+        "at": 42.6,
+        "caption": "reglamento",
+        "heard": "arreglamento."
+      }
+    ]
+  },
+  "loudness": {
+    "integratedLufs": -14.1,
+    "lra": 3.7,
+    "truePeakDb": -1.5
+  },
+  "file": "/home/user/iusdare-web-/video-studio/previews/video-4/video-4-preview.mp4"
+}
