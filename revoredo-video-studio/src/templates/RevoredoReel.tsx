@@ -15,6 +15,7 @@ import { CTAEndCard } from "../motion-graphics/CTAEndCard";
 import { DipAccent, FlashAccent, LightLeakAccent } from "../transitions/CutAccents";
 import { AudioBed } from "../audio/AudioBed";
 import { ZoneContext, zoneAt } from "../lib/layout";
+import { MGScene } from "../motion-graphics/MGScene";
 
 export const reelSchema = z.object({
   /** Full EDL (projects/<slug>/edit.json). */
@@ -150,11 +151,20 @@ export const RevoredoReel: React.FC<ReelProps> = (props) => {
           });
           delete props.revealAtSource;
         }
+        // scene: true → full-frame graphic on the brand backdrop, with a gold-blade transition.
+        const scene = props.scene === true;
+        delete props.scene;
         return (
-          <Sequence key={g.id} from={r.from} durationInFrames={r.durationInFrames} name={`mg ${g.component}`}>
-            <ZoneContext.Provider value={zoneAt(edit, tl, r.from + 1)}>
-              <C {...props} />
-            </ZoneContext.Provider>
+          <Sequence key={g.id} from={r.from} durationInFrames={r.durationInFrames} name={`mg ${g.component}${scene ? " (scene)" : ""}`}>
+            {scene ? (
+              <MGScene durationInFrames={r.durationInFrames}>
+                <C {...props} />
+              </MGScene>
+            ) : (
+              <ZoneContext.Provider value={zoneAt(edit, tl, r.from + 1)}>
+                <C {...props} />
+              </ZoneContext.Provider>
+            )}
           </Sequence>
         );
       })}

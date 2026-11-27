@@ -346,57 +346,40 @@
   ],
   "graphics": [
     {
-      "id": "G01a",
+      "id": "G01",
       "component": "TechList",
-      "start": 11.45,
-      "end": 15.97,
+      "start": 11.3,
+      "end": 20.55,
       "function": "comprension",
       "props": {
         "title": "Una fintech enfrenta",
         "items": [
           "Regulación financiera",
           "Protección de datos",
-          "Lavado de activos"
-        ],
-        "numbered": true,
-        "compact": false,
-        "revealAtSource": [
-          11.94,
-          13.5,
-          14.5
-        ]
-      },
-      "rationale": "Convierte la enumeración rápida en un mapa de riesgos que se arma con la voz."
-    },
-    {
-      "id": "G01b",
-      "component": "TechList",
-      "start": 16.01,
-      "end": 20.5,
-      "function": "comprension",
-      "props": {
-        "title": "Una fintech enfrenta",
-        "items": [
+          "Lavado de activos",
           "Protección al consumidor",
           "Contratos y tecnología",
           "Propiedad intelectual"
         ],
         "numbered": true,
-        "startIndex": 4,
-        "compact": false,
+        "compact": true,
+        "scene": true,
         "revealAtSource": [
+          11.94,
+          13.5,
+          14.5,
           16.1,
           17.44,
           18.96
         ]
       },
-      "rationale": "Convierte la enumeración rápida en un mapa de riesgos que se arma con la voz."
+      "rationale": "Escena propia al centro sobre fondo de marca: el mapa de riesgos se arma con la voz."
     },
     {
       "id": "G02",
       "component": "TechList",
-      "start": 35.4,
-      "end": 39.85,
+      "start": 35.3,
+      "end": 39.9,
       "function": "comprension",
       "props": {
         "title": "Trabajamos con",
@@ -410,9 +393,10 @@
           37.04,
           37.8,
           38.8
-        ]
+        ],
+        "scene": true
       },
-      "rationale": "Fija las especialidades técnicas."
+      "rationale": "Escena propia: fija las especialidades técnicas."
     }
   ],
   "broll": [
