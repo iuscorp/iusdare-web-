@@ -100,6 +100,26 @@ w = wave.open(tmp_wav)
 x = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32768
 w.close()
 
+# Keep lip-sync: the neural stage / filters can delay the voice a few ms.
+# Measure the lag against the original (envelope cross-correlation, 1 ms
+# resolution, ±80 ms) and shift it back.
+orig = np.frombuffer(
+    subprocess.run(["ffmpeg", "-v", "error", "-i", src, "-vn", "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"],
+                   check=True, stdout=subprocess.PIPE, stdin=subprocess.DEVNULL).stdout, np.float32)
+E = SR // 1000
+m = min(len(orig), len(x)) // E
+ea = np.sqrt((orig[: m * E].reshape(m, E) ** 2).mean(1))
+eb = np.sqrt((x[: m * E].reshape(m, E) ** 2).mean(1))
+ea, eb = ea - ea.mean(), eb - eb.mean()
+lags = list(range(-80, 81))
+cc = [np.dot(ea[max(0, -l) : m - max(0, l)], eb[max(0, l) : m - max(0, -l)]) for l in lags]
+lag = lags[int(np.argmax(cc))]
+if lag > 0:
+    x = np.concatenate([x[lag * E :], np.zeros(lag * E, np.float32)])
+elif lag < 0:
+    x = np.concatenate([np.zeros(-lag * E, np.float32), x[: lag * E]])
+print(f"• desfase corregido: {lag} ms")
+
 # 3: envelope gate
 H = SR // 100  # 10 ms
 n = len(x) // H

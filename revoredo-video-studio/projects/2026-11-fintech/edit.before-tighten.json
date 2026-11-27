@@ -1,0 +1,1212 @@
+{
+  "meta": {
+    "slug": "2026-11-fintech",
+    "title": "Fintech: abogados que entienden tu negocio",
+    "format": "vertical",
+    "fps": 30,
+    "status": "aprobado"
+  },
+  "sources": {
+    "main": "footage/raw/2026-11-fintech/main.mp4"
+  },
+  "story": {
+    "problem": "Las fintech buscan abogados que solo conocen la ley, no su negocio.",
+    "whyItMatters": "Una fintech enfrenta muchos riesgos a la vez: regulación financiera, datos, lavado de activos, consumidor, contratos, tecnología, PI.",
+    "riskOrOpportunity": "La tecnología avanza más rápido que la regulación.",
+    "openQuestion": "¿Qué diferencia a un estudio que entiende tu modelo de negocio?",
+    "payoff": "Revoredo identifica riesgos antes de que aparezcan y convierte la regulación en herramienta para crecer.",
+    "cta": "Si creas, escalas o transformas una fintech: tenemos una conversación pendiente."
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "source": "main",
+      "in": 0.0,
+      "out": 3.05,
+      "role": "hook",
+      "purpose": "Gancho: ¿tienes una fintech?",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.37,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "hook",
+        "open-loop"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S02",
+      "source": "main",
+      "in": 3.05,
+      "out": 5.95,
+      "role": "tension",
+      "purpose": "Antítesis: no basta conocer la ley",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.37,
+        "zoomFrom": 1.32,
+        "zoomTo": 1.36
+      },
+      "nativeCodes": [
+        "antihook"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S03",
+      "source": "main",
+      "in": 5.95,
+      "out": 9.04,
+      "role": "tension",
+      "purpose": "Lo que sí necesitas",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.37,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "punch-in"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S04",
+      "source": "main",
+      "in": 9.04,
+      "out": 11.24,
+      "role": "context",
+      "purpose": "Una fintech no tiene un solo riesgo",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.37,
+        "zoomFrom": 1.32,
+        "zoomTo": 1.36
+      },
+      "nativeCodes": [
+        "build-up"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S05",
+      "source": "main",
+      "in": 11.24,
+      "out": 15.99,
+      "role": "development",
+      "purpose": "Mapa de riesgos (1/2)",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.37,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "strategic-text"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S06",
+      "source": "main",
+      "in": 15.99,
+      "out": 20.6,
+      "role": "development",
+      "purpose": "Mapa de riesgos (2/2)",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.37,
+        "zoomFrom": 1.32,
+        "zoomTo": 1.36
+      },
+      "nativeCodes": [
+        "strategic-text"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S07",
+      "source": "main",
+      "in": 20.6,
+      "out": 25.43,
+      "role": "reveal",
+      "purpose": "La diferencia",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.37,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "pattern-interrupt"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S08",
+      "source": "main",
+      "in": 25.43,
+      "out": 27.94,
+      "role": "reveal",
+      "purpose": "Revoredo busca algo más",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.37,
+        "zoomFrom": 1.32,
+        "zoomTo": 1.36
+      },
+      "nativeCodes": [
+        "scale-change"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S09",
+      "source": "main",
+      "in": 27.94,
+      "out": 32.34,
+      "role": "development",
+      "purpose": "Propuesta: entender e identificar",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.37,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S10",
+      "source": "main",
+      "in": 32.34,
+      "out": 35.34,
+      "role": "development",
+      "purpose": "Propuesta: regulación como herramienta",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.37,
+        "zoomFrom": 1.32,
+        "zoomTo": 1.36
+      },
+      "nativeCodes": [
+        "payoff"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S11",
+      "source": "main",
+      "in": 35.34,
+      "out": 39.89,
+      "role": "development",
+      "purpose": "Especialidades",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.37,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "strategic-text"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S12",
+      "source": "main",
+      "in": 39.89,
+      "out": 44.66,
+      "role": "development",
+      "purpose": "Por qué: tecnología vs regulación",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.37,
+        "zoomFrom": 1.32,
+        "zoomTo": 1.36
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S13",
+      "source": "main",
+      "in": 44.66,
+      "out": 46.78,
+      "role": "resolution",
+      "purpose": "Equipo que entienda ambas",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.37,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "payoff"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S14",
+      "source": "main",
+      "in": 46.78,
+      "out": 49.74,
+      "role": "cta",
+      "purpose": "Audiencia",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.37,
+        "zoomFrom": 1.32,
+        "zoomTo": 1.36
+      },
+      "nativeCodes": [
+        "visual-stimulus"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S15",
+      "source": "main",
+      "in": 49.74,
+      "out": 51.56,
+      "role": "cta",
+      "purpose": "Firma",
+      "framing": {
+        "preset": "medium",
+        "focusY": 0.37,
+        "zoomFrom": 1.12,
+        "zoomTo": 1.154
+      },
+      "nativeCodes": [
+        "payoff"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    },
+    {
+      "id": "S16",
+      "source": "main",
+      "in": 51.56,
+      "out": 53.1,
+      "role": "cta",
+      "purpose": "Marca",
+      "framing": {
+        "preset": "close",
+        "focusY": 0.37,
+        "zoomFrom": 1.32,
+        "zoomTo": 1.36
+      },
+      "nativeCodes": [
+        "scale-change"
+      ],
+      "rationale": "Toma única continua; cambio de escala en cada frase.",
+      "transitionIn": "cut"
+    }
+  ],
+  "graphics": [
+    {
+      "id": "G01",
+      "component": "TechList",
+      "start": 11.45,
+      "end": 20.5,
+      "function": "comprension",
+      "props": {
+        "title": "Una fintech enfrenta",
+        "items": [
+          "Regulación financiera",
+          "Protección de datos",
+          "Prevención de lavado de activos",
+          "Protección al consumidor",
+          "Contratos y tecnología",
+          "Propiedad intelectual"
+        ],
+        "numbered": true,
+        "revealAtSource": [
+          11.94,
+          13.5,
+          14.5,
+          16.1,
+          17.44,
+          18.96
+        ]
+      },
+      "rationale": "Convierte la enumeración rápida en un mapa de riesgos que se arma con la voz."
+    },
+    {
+      "id": "G02",
+      "component": "TechList",
+      "start": 35.4,
+      "end": 39.85,
+      "function": "comprension",
+      "props": {
+        "title": "Trabajamos con",
+        "items": [
+          "Blockchain",
+          "Criptoactivos",
+          "Regulación financiera"
+        ],
+        "numbered": false,
+        "revealAtSource": [
+          37.04,
+          37.8,
+          38.8
+        ]
+      },
+      "rationale": "Fija las especialidades técnicas."
+    }
+  ],
+  "broll": [
+    {
+      "id": "B01",
+      "start": 0.62,
+      "end": 1.9,
+      "src": "b-roll/library/cv-pago-tarjeta-laptop.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "…una fintech",
+      "concept": "Pagos digitales",
+      "function": "Visualiza 'fintech' en el gancho.",
+      "description": "pago tarjeta laptop",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-pago-tarjeta-laptop",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B02",
+      "start": 21.85,
+      "end": 23.6,
+      "src": "b-roll/library/cv-ejecutivo-revisa-documentos.mp4",
+      "trimStart": 2.0,
+      "layout": "full",
+      "phrase": "…un estudio tradicional",
+      "concept": "Estudio tradicional",
+      "function": "Contraste con la propuesta.",
+      "description": "ejecutivo revisa documentos",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-ejecutivo-revisa-documentos",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B03",
+      "start": 28.0,
+      "end": 29.8,
+      "src": "b-roll/library/cv-reunion-ejecutivos-laptop.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "entender tu modelo de negocio",
+      "concept": "Entender el negocio",
+      "function": "Hace concreta la promesa.",
+      "description": "reunion ejecutivos laptop",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-reunion-ejecutivos-laptop",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B04",
+      "start": 32.45,
+      "end": 35.3,
+      "src": "b-roll/library/cv-ejecutivos-pantalla-graficos.mp4",
+      "trimStart": 2.0,
+      "layout": "full",
+      "phrase": "…una herramienta para crecer",
+      "concept": "Crecimiento",
+      "function": "Refuerza el payoff.",
+      "description": "ejecutivos pantalla graficos",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-ejecutivos-pantalla-graficos",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B05",
+      "start": 41.15,
+      "end": 43.4,
+      "src": "b-roll/library/cv-tunel-particulas-datos.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "…la tecnología avanza más rápido",
+      "concept": "Velocidad tecnológica",
+      "function": "Estímulo visual en la tensión tecnología vs regulación.",
+      "description": "tunel particulas datos",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-tunel-particulas-datos",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    },
+    {
+      "id": "B06",
+      "start": 47.35,
+      "end": 49.6,
+      "src": "b-roll/library/cv-equipo-coworking-startup.mp4",
+      "trimStart": 1.0,
+      "layout": "full",
+      "phrase": "creando, escalando o transformando",
+      "concept": "Startups",
+      "function": "Identificación de la audiencia antes del CTA.",
+      "description": "equipo coworking startup",
+      "provider": "Canva · proyecto B-roll Revoredo (DAHajweotaM) · cv-equipo-coworking-startup",
+      "license": "Canva Content License: usar dentro de videos editados; no redistribuir el clip aislado"
+    }
+  ],
+  "captions": {
+    "enabled": true,
+    "wordsPerGroup": 3,
+    "emphasis": [
+      "fintech",
+      "ley",
+      "negocio",
+      "riesgo",
+      "Revoredo",
+      "regulación",
+      "herramienta",
+      "crecer",
+      "blockchain",
+      "criptoactivos",
+      "tecnología"
+    ],
+    "words": [
+      {
+        "w": "¿Tienes",
+        "s": 0.0,
+        "e": 0.36
+      },
+      {
+        "w": "una",
+        "s": 0.36,
+        "e": 0.6
+      },
+      {
+        "w": "fintech",
+        "s": 0.6,
+        "e": 1.06
+      },
+      {
+        "w": "y",
+        "s": 1.06,
+        "e": 1.32
+      },
+      {
+        "w": "estás",
+        "s": 1.32,
+        "e": 1.54
+      },
+      {
+        "w": "buscando",
+        "s": 1.54,
+        "e": 1.92
+      },
+      {
+        "w": "un",
+        "s": 1.92,
+        "e": 2.12
+      },
+      {
+        "w": "estudio",
+        "s": 2.12,
+        "e": 2.36
+      },
+      {
+        "w": "de",
+        "s": 2.36,
+        "e": 2.58
+      },
+      {
+        "w": "abogados?",
+        "s": 2.58,
+        "e": 3.06
+      },
+      {
+        "w": "pero",
+        "s": 3.36,
+        "e": 3.42
+      },
+      {
+        "w": "no",
+        "s": 3.42,
+        "e": 3.76
+      },
+      {
+        "w": "necesitas",
+        "s": 3.76,
+        "e": 4.24
+      },
+      {
+        "w": "abogados",
+        "s": 4.24,
+        "e": 4.72
+      },
+      {
+        "w": "que",
+        "s": 4.72,
+        "e": 4.9
+      },
+      {
+        "w": "solo",
+        "s": 4.9,
+        "e": 5.16
+      },
+      {
+        "w": "conozcan",
+        "s": 5.16,
+        "e": 5.58
+      },
+      {
+        "w": "la",
+        "s": 5.58,
+        "e": 5.82
+      },
+      {
+        "w": "ley,",
+        "s": 5.82,
+        "e": 5.94
+      },
+      {
+        "w": "necesitas",
+        "s": 6.16,
+        "e": 6.54
+      },
+      {
+        "w": "abogados",
+        "s": 6.54,
+        "e": 7.16
+      },
+      {
+        "w": "que",
+        "s": 7.16,
+        "e": 7.36
+      },
+      {
+        "w": "entiendan",
+        "s": 7.36,
+        "e": 7.78
+      },
+      {
+        "w": "cómo",
+        "s": 7.78,
+        "e": 8.04
+      },
+      {
+        "w": "funciona",
+        "s": 8.04,
+        "e": 8.5
+      },
+      {
+        "w": "tu",
+        "s": 8.5,
+        "e": 8.72
+      },
+      {
+        "w": "negocio,",
+        "s": 8.72,
+        "e": 9.06
+      },
+      {
+        "w": "porque",
+        "s": 9.08,
+        "e": 9.28
+      },
+      {
+        "w": "una",
+        "s": 9.28,
+        "e": 9.52
+      },
+      {
+        "w": "fintech",
+        "s": 9.52,
+        "e": 10.0
+      },
+      {
+        "w": "no",
+        "s": 10.0,
+        "e": 10.2
+      },
+      {
+        "w": "entra",
+        "s": 10.2,
+        "e": 10.46
+      },
+      {
+        "w": "en",
+        "s": 10.46,
+        "e": 10.66
+      },
+      {
+        "w": "un",
+        "s": 10.66,
+        "e": 10.74
+      },
+      {
+        "w": "solo",
+        "s": 10.74,
+        "e": 11.0
+      },
+      {
+        "w": "riesgo,",
+        "s": 11.0,
+        "e": 11.34
+      },
+      {
+        "w": "está",
+        "s": 11.48,
+        "e": 11.66
+      },
+      {
+        "w": "la",
+        "s": 11.66,
+        "e": 11.94
+      },
+      {
+        "w": "regulación",
+        "s": 11.94,
+        "e": 12.44
+      },
+      {
+        "w": "financiera,",
+        "s": 12.44,
+        "e": 13.16
+      },
+      {
+        "w": "la",
+        "s": 13.34,
+        "e": 13.5
+      },
+      {
+        "w": "protección",
+        "s": 13.5,
+        "e": 13.84
+      },
+      {
+        "w": "de",
+        "s": 13.84,
+        "e": 14.08
+      },
+      {
+        "w": "datos,",
+        "s": 14.08,
+        "e": 14.36
+      },
+      {
+        "w": "prevención",
+        "s": 14.5,
+        "e": 14.96
+      },
+      {
+        "w": "del",
+        "s": 14.96,
+        "e": 15.14
+      },
+      {
+        "w": "lavado",
+        "s": 15.14,
+        "e": 15.46
+      },
+      {
+        "w": "de",
+        "s": 15.46,
+        "e": 15.66
+      },
+      {
+        "w": "activos,",
+        "s": 15.66,
+        "e": 15.96
+      },
+      {
+        "w": "protección",
+        "s": 16.1,
+        "e": 16.48
+      },
+      {
+        "w": "al",
+        "s": 16.48,
+        "e": 16.72
+      },
+      {
+        "w": "consumidor,",
+        "s": 16.72,
+        "e": 17.24
+      },
+      {
+        "w": "contratos,",
+        "s": 17.44,
+        "e": 17.8
+      },
+      {
+        "w": "tecnología,",
+        "s": 17.98,
+        "e": 18.6
+      },
+      {
+        "w": "propiedad",
+        "s": 18.96,
+        "e": 19.16
+      },
+      {
+        "w": "intelectual",
+        "s": 19.16,
+        "e": 19.76
+      },
+      {
+        "w": "y",
+        "s": 19.76,
+        "e": 19.94
+      },
+      {
+        "w": "mucho",
+        "s": 19.94,
+        "e": 20.28
+      },
+      {
+        "w": "más.",
+        "s": 20.28,
+        "e": 20.54
+      },
+      {
+        "w": "La",
+        "s": 20.54,
+        "e": 20.82
+      },
+      {
+        "w": "diferencia,",
+        "s": 20.82,
+        "e": 21.46
+      },
+      {
+        "w": "un",
+        "s": 21.58,
+        "e": 21.82
+      },
+      {
+        "w": "estudio",
+        "s": 21.82,
+        "e": 22.22
+      },
+      {
+        "w": "tradicional,",
+        "s": 22.22,
+        "e": 22.9
+      },
+      {
+        "w": "puede",
+        "s": 23.1,
+        "e": 23.16
+      },
+      {
+        "w": "ayudarte",
+        "s": 23.16,
+        "e": 23.7
+      },
+      {
+        "w": "a",
+        "s": 23.7,
+        "e": 23.86
+      },
+      {
+        "w": "resolver",
+        "s": 23.86,
+        "e": 24.22
+      },
+      {
+        "w": "un",
+        "s": 24.22,
+        "e": 24.58
+      },
+      {
+        "w": "problema",
+        "s": 24.58,
+        "e": 24.96
+      },
+      {
+        "w": "jurídico.",
+        "s": 24.96,
+        "e": 25.54
+      },
+      {
+        "w": "En",
+        "s": 25.64,
+        "e": 25.76
+      },
+      {
+        "w": "Revoredo",
+        "s": 25.76,
+        "e": 26.14
+      },
+      {
+        "w": "Abogados",
+        "s": 26.14,
+        "e": 26.64
+      },
+      {
+        "w": "buscamos",
+        "s": 26.64,
+        "e": 27.32
+      },
+      {
+        "w": "algo",
+        "s": 27.32,
+        "e": 27.64
+      },
+      {
+        "w": "más,",
+        "s": 27.64,
+        "e": 27.96
+      },
+      {
+        "w": "entender",
+        "s": 28.14,
+        "e": 28.54
+      },
+      {
+        "w": "tu",
+        "s": 28.54,
+        "e": 28.8
+      },
+      {
+        "w": "modelo",
+        "s": 28.8,
+        "e": 29.14
+      },
+      {
+        "w": "de",
+        "s": 29.14,
+        "e": 29.42
+      },
+      {
+        "w": "negocio,",
+        "s": 29.42,
+        "e": 29.78
+      },
+      {
+        "w": "identificar",
+        "s": 29.96,
+        "e": 30.46
+      },
+      {
+        "w": "los",
+        "s": 30.46,
+        "e": 30.7
+      },
+      {
+        "w": "riesgos",
+        "s": 30.7,
+        "e": 31.14
+      },
+      {
+        "w": "antes",
+        "s": 31.14,
+        "e": 31.44
+      },
+      {
+        "w": "de",
+        "s": 31.44,
+        "e": 31.6
+      },
+      {
+        "w": "que",
+        "s": 31.6,
+        "e": 31.78
+      },
+      {
+        "w": "aparezcan",
+        "s": 31.78,
+        "e": 32.2
+      },
+      {
+        "w": "y",
+        "s": 32.2,
+        "e": 32.42
+      },
+      {
+        "w": "convertir",
+        "s": 32.42,
+        "e": 33.02
+      },
+      {
+        "w": "la",
+        "s": 33.02,
+        "e": 33.3
+      },
+      {
+        "w": "regulación",
+        "s": 33.3,
+        "e": 33.86
+      },
+      {
+        "w": "en",
+        "s": 33.86,
+        "e": 34.14
+      },
+      {
+        "w": "una",
+        "s": 34.14,
+        "e": 34.32
+      },
+      {
+        "w": "herramienta",
+        "s": 34.32,
+        "e": 34.82
+      },
+      {
+        "w": "para",
+        "s": 34.82,
+        "e": 35.08
+      },
+      {
+        "w": "crecer.",
+        "s": 35.08,
+        "e": 35.36
+      },
+      {
+        "w": "Trabajamos",
+        "s": 35.4,
+        "e": 36.0
+      },
+      {
+        "w": "con",
+        "s": 36.0,
+        "e": 36.22
+      },
+      {
+        "w": "materias",
+        "s": 36.22,
+        "e": 36.8
+      },
+      {
+        "w": "como",
+        "s": 36.8,
+        "e": 37.04
+      },
+      {
+        "w": "blockchain,",
+        "s": 37.04,
+        "e": 37.56
+      },
+      {
+        "w": "criptoactivos",
+        "s": 37.8,
+        "e": 38.6
+      },
+      {
+        "w": "y",
+        "s": 38.6,
+        "e": 38.8
+      },
+      {
+        "w": "regulación",
+        "s": 38.8,
+        "e": 39.32
+      },
+      {
+        "w": "financiera,",
+        "s": 39.32,
+        "e": 39.9
+      },
+      {
+        "w": "porque",
+        "s": 39.92,
+        "e": 40.18
+      },
+      {
+        "w": "en",
+        "s": 40.18,
+        "e": 40.34
+      },
+      {
+        "w": "un",
+        "s": 40.34,
+        "e": 40.44
+      },
+      {
+        "w": "sector",
+        "s": 40.44,
+        "e": 40.82
+      },
+      {
+        "w": "donde",
+        "s": 40.82,
+        "e": 41.14
+      },
+      {
+        "w": "la",
+        "s": 41.14,
+        "e": 41.42
+      },
+      {
+        "w": "tecnología",
+        "s": 41.42,
+        "e": 42.14
+      },
+      {
+        "w": "avanza",
+        "s": 42.14,
+        "e": 42.72
+      },
+      {
+        "w": "más",
+        "s": 42.72,
+        "e": 43.0
+      },
+      {
+        "w": "rápido",
+        "s": 43.0,
+        "e": 43.38
+      },
+      {
+        "w": "que",
+        "s": 43.38,
+        "e": 43.6
+      },
+      {
+        "w": "la",
+        "s": 43.6,
+        "e": 43.96
+      },
+      {
+        "w": "regulación,",
+        "s": 43.96,
+        "e": 44.56
+      },
+      {
+        "w": "necesitas",
+        "s": 44.82,
+        "e": 45.18
+      },
+      {
+        "w": "un",
+        "s": 45.18,
+        "e": 45.4
+      },
+      {
+        "w": "equipo",
+        "s": 45.4,
+        "e": 45.76
+      },
+      {
+        "w": "que",
+        "s": 45.76,
+        "e": 46.06
+      },
+      {
+        "w": "entienda",
+        "s": 46.06,
+        "e": 46.48
+      },
+      {
+        "w": "a",
+        "s": 46.48,
+        "e": 46.7
+      },
+      {
+        "w": "ambas.",
+        "s": 46.7,
+        "e": 46.82
+      },
+      {
+        "w": "Si",
+        "s": 46.82,
+        "e": 47.04
+      },
+      {
+        "w": "estás",
+        "s": 47.04,
+        "e": 47.34
+      },
+      {
+        "w": "creando,",
+        "s": 47.34,
+        "e": 47.94
+      },
+      {
+        "w": "escalando",
+        "s": 48.08,
+        "e": 48.56
+      },
+      {
+        "w": "o",
+        "s": 48.56,
+        "e": 48.84
+      },
+      {
+        "w": "transformando",
+        "s": 48.84,
+        "e": 49.34
+      },
+      {
+        "w": "una",
+        "s": 49.34,
+        "e": 49.56
+      },
+      {
+        "w": "fintech,",
+        "s": 49.56,
+        "e": 49.84
+      },
+      {
+        "w": "tenemos",
+        "s": 50.12,
+        "e": 50.24
+      },
+      {
+        "w": "una",
+        "s": 50.24,
+        "e": 50.62
+      },
+      {
+        "w": "conversación",
+        "s": 50.62,
+        "e": 51.16
+      },
+      {
+        "w": "pendiente.",
+        "s": 51.16,
+        "e": 51.66
+      },
+      {
+        "w": "Somos",
+        "s": 51.84,
+        "e": 52.06
+      },
+      {
+        "w": "Revoredo",
+        "s": 52.06,
+        "e": 52.44
+      },
+      {
+        "w": "Abogados.",
+        "s": 52.44,
+        "e": 52.98
+      }
+    ],
+    "replace": {}
+  },
+  "audio": {
+    "voiceGainDb": 0,
+    "music": null,
+    "sfx": []
+  },
+  "endCard": {
+    "enabled": true,
+    "durationSec": 2.2,
+    "line": "Tenemos una conversación pendiente",
+    "action": "Escríbenos"
+  },
+  "showLogo": true,
+  "layout": {
+    "faceTop": 0.22,
+    "faceBottom": 0.5,
+    "backdrop": "light"
+  }
+}
